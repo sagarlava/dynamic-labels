@@ -12452,6 +12452,7 @@
       "searchAddress": "Cari Alamat",
       "confirmAction": "Adakah anda pasti?",
       "confirmDelete": "Adakah anda pasti mahu memadam",
+      "confirmDeleteThis": "Apakah Anda yakin ingin menghapus ini",
       "doYouWishToProceed": "Adakah anda ingin meneruskan?",
       "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
       "step1": "Langkah 1",
