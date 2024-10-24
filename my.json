@@ -571,15 +571,15 @@
         "setupVisible": true
       },
       "engineNumberOne": {
-        "original": "Engine 1",
-        "singular": "Enjin 1",
+        "original": "Engine Number 1",
+        "singular": "Nombor Enjin 1",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "engineNumberTwo": {
-        "original": "Engine 2",
-        "singular": "Enjin 2",
+        "original": "Engine Number 2",
+        "singular": "Nombor Enjin 2",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -714,8 +714,8 @@
         "original": "Engine Number",
         "singular": "Nombor Enjin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "manufacturerYear": {
         "original": "Manufacture Year",
@@ -6116,6 +6116,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec53": {
+        "original": "Order Details",
+        "singular": "Butiran Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8364,6 +8371,13 @@
       "assetModel": {
         "original": "Asset Model",
         "singular": "Model Aset",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "charges": {
+        "original": "Charges",
+        "singular": "Caj",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
