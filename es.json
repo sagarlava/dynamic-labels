@@ -2678,7 +2678,9 @@
         "forIncompleteChecklists":"For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTrigger":"This status will trigger any Job Orders and Tasks related to this checklist’s answers",
         "updateStatusTo":"Update Status To",
-        "noStatusToDisplay":"No Status to Display"
+        "noStatusToDisplay":"No Status to Display",
+        "updateChecklistStatus":"Update Checklist Status",
+        "updateAsset":"Update Asset"
       }
     },
     "journey": {

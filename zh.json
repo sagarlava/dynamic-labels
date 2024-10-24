@@ -2680,7 +2680,9 @@
       "forIncompleteChecklists": "对于将来更新的不完整清单。使用此状态不会触发任何工作或任务",
       "thisStatusWillTrigger": "此状态将触发与此清单答案相关的任何工作订单和任务",
       "updateStatusTo": "更新状态为",
-      "noStatusToDisplay": "无状态显示"
+      "noStatusToDisplay": "无状态显示",
+      "updateChecklistStatus":"更新核对表状态",
+      "updateAsset":"更新资产"
     }
   },
   "journey": {

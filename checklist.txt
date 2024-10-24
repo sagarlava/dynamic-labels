@@ -1,0 +1,2 @@
+1. pull only from fieldex  *******
+2. push to origin only

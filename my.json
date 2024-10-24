@@ -2679,7 +2679,9 @@
       "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap untuk dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
       "thisStatusWillTrigger": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
       "updateStatusTo": "Kemas kini Status Kepada",
-      "noStatusToDisplay": "Tiada Status untuk Dipaparkan"
+      "noStatusToDisplay": "Tiada Status untuk Dipaparkan",
+      "updateChecklistStatus":"Kemas kini Status Senarai Semak",
+      "updateAsset":"Kemas kini Aset"
     }
   },
   "journey": {
