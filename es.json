@@ -6146,8 +6146,8 @@
       "setupVisible": true,
       "setupEdit": true,
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "Fecha y Hora del Pedido",
+        "original": "Date/Time",
+        "singular": "Fecha/Tema",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

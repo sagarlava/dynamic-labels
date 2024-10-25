@@ -8218,8 +8218,8 @@
         "setupVisible": false
       },
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "订单日期和时间",
+        "original": "Date/Time",
+        "singular": "日期/主题",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

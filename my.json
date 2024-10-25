@@ -6146,8 +6146,8 @@
       "setupVisible": true,
       "setupEdit": true,
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "Tarikh & Waktu Pesanan",
+        "original": "Date/Time",
+        "singular": "Tarikh/Topik",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
