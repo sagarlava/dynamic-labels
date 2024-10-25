@@ -8522,7 +8522,8 @@
       "days": "hari",
       "hours": "jam",
       "mins": "minit",
-      "startSLA": "SLA Bermula"
+      "startSLA": "SLA Bermula",
+      "changeStatusTo": "Tukar status kepada"
     }
   },
   "inventory": {

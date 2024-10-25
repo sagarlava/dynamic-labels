@@ -8520,7 +8520,8 @@
     "days": "Tag(e)",
     "hours": "Stunde(n)",
     "mins": "Minute(n)",
-    "startSLA": "SLA starten"
+    "startSLA": "SLA starten",
+    "changeStatusTo": "Status ändern in"
   }
 },
 "inventory": {

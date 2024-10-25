@@ -8522,7 +8522,8 @@
       "days":"day(s)",
       "hours":"hour(s)",
       "mins":"min(s)",
-      "startSLA":"Start SLA"
+      "startSLA":"Start SLA",
+      "changeStatusTo": "Change status to"
     }
   },
   "inventory": {
