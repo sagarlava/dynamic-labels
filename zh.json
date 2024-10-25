@@ -20,8 +20,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Main Contact Details",
-        "singular": "主要联系人信息",
+        "original": "Contact Details",
+        "singular": "联系方式",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

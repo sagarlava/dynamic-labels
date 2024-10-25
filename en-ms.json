@@ -20,8 +20,8 @@
           "setupEdit": true
         },
         "sec1": {
-          "original": "Main Contact Details",
-          "singular": "Main Contact Details",
+          "original": "Contact Details",
+          "singular": "Contact Details",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false

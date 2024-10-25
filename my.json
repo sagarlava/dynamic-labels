@@ -20,8 +20,8 @@
         "setupEdit": true
       },
       "sec1": {
-        "original": "Main Contact Details",
-        "singular": "Butiran Hubungan Utama",
+        "original": "Contact Details",
+        "singular": "Butiran Perhubungan",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
