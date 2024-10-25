@@ -21288,7 +21288,13 @@
               "tickets": "票务",
               "project": "项目",
               "site": "现场",
-              "checklists": "清单"
+              "checklists": "清单",
+              "attendance": "出勤",
+              "productivity": "生产力",
+              "overtime": "加班",
+              "pmv": "PMV",
+              "visit": "访问",
+              "machine_specialist": "机器专家"
             }
           }
         },
@@ -23238,770 +23244,784 @@
     "setupVisible": false,
     "label": {
       "original": "Machine Specialist",
-      "singular": "机器专家",
-      "plural": "机器专家",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Machine Specialist",
+      "plural": "Machine Specialists",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Machine Specialist Details",
-        "singular": "机器专家详情",
+        "singular": "Machine Specialist Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Default Settings",
-        "singular": "默认设置",
-        "plural": "默认设置",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Default Setting",
+        "plural": "Default Settings",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Details",
-        "singular": "详情",
+        "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Filter By",
-        "singular": "筛选条件",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "machineSpecialist": {
         "original": "Machine Specialist",
-        "singular": "机器专家",
-        "plural": "机器专家",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Machine Specialist",
+        "plural": "Machine Specialists",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userType": {
         "original": "User Type",
-        "singular": "用户类型",
+        "singular": "User Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
-        "singular": "状态",
+        "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "active": {
         "original": "Active",
-        "singular": "活跃度",
+        "singular": "Active",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "defaultEstate": {
         "original": "Default Estate",
-        "singular": "默认区域",
+        "singular": "Default Estate",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "defaultMachine": {
         "original": "Default Machine",
-        "singular": "默认机器",
+        "singular": "Default Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalUser": {
+        "original": "Normal User",
+        "singular": "Normal User",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "teamLead": {
+        "original": "Team Lead",
+        "singular": "Team Lead",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "区域查找",
+        "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineLookup": {
         "original": "Machine Lookup",
-        "singular": "机器查找",
+        "singular": "Machine Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "机器专家查找",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "请输入更改原因",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "msUserActiveOnAnotherSite": "用户已在其他地点活跃",
-      "msLeadActiveOnAnotherSite": "用户已在其他地点担任负责人",
-      "msMachineSpVMNotFound": "未找到机器专家",
-      "msDefaultSiteNotFound": "未找到默认地点，请联系管理员",
-      "msAtlasNotEnabled": "未启用Atlas"
+      "msUserActiveOnAnotherSite": "User is already active on another site",
+      "msLeadActiveOnAnotherSite": "User is already active as lead on another site",
+      "msMachineSpVMNotFound": "Machine Specialist not found",
+      "msDefaultSiteNotFound": "Default Site not found, please contact Admin",
+      "msAtlasNotEnabled": "Atlas is not enabled"
     },
     "messages": {
-      "selectOutturnCode": "选择默认机器"
+      "selectOutturnCode": "Select Default Machine"
     }
   },
   "attendance": {
     "setupVisible": false,
     "label": {
       "original": "Attendance",
-      "singular": "考勤",
-      "plural": "考勤",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Attendance",
+      "plural": "Attendances",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Attendance Details",
-        "singular": "考勤详情",
+        "singular": "Attendance Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Attendance",
-        "singular": "今日处理中考勤",
-        "plural": "今日处理中考勤",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Today Pending Attendance",
+        "plural": "Today Pending Attendances",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Attendance",
-        "singular": "处理中考勤",
-        "plural": "处理中考勤",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Pending Attendance",
+        "plural": "Pending Attendances",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Attendance",
-        "singular": "所有考勤",
-        "plural": "所有考勤",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "All Attendance",
+        "plural": "All Attendances",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "筛选条件",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "attendanceDateTime": {
         "original": "Attendance Date and Time",
-        "singular": "考勤日期和时间",
+        "singular": "Attendance Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceStatus": {
         "original": "Attendance Status",
-        "singular": "考勤状态",
+        "singular": "Attendance Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceOutturnCode": {
         "original": "Attendance Outturn Code",
-        "singular": "考勤结果代码",
+        "singular": "Attendance Outturn Code",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "拒绝原因",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "备注",
-        "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceDateRange": {
         "original": "Attendance Date Range",
-        "singular": "出勤日期范围",
-        "plural": "出勤日期范围",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Attendance Date Range",
+        "plural": "Attendance Date Range",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "visitEstateLookup": {
         "original": "Visit Estate Lookup",
-        "singular": "访问区域查找",
+        "singular": "Visit Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "请输入更改原因",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "attendanceAlreadySubmitted": "考勤已提交",
-      "attendanceStatusNotFound": "未找到考勤状态",
-      "attendanceNotFound": "未找到考勤记录",
-      "attendanceAtlasNotEnabled": "未启用Atlas"
+      "attendanceAlreadySubmitted": "Attendance has already been submitted",
+      "attendanceStatusNotFound": "Attendance status not found",
+      "attendanceNotFound": "Attendance not found",
+      "attendanceAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
-      "selectOutturnCode": "选择结果代码"
+      "selectOutturnCode": "Select Outturn Code"
     }
   },
   "overtime": {
     "setupVisible": false,
     "label": {
       "original": "Overtime",
-      "singular": "加班",
-      "plural": "加班",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Overtime",
+      "plural": "Overtimes",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Overtime Details",
-        "singular": "加班详情",
+        "singular": "Overtime Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Overtime",
-        "singular": "今日处理中加班",
+        "singular": "Today Pending Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Overtime",
-        "singular": "处理中加班",
+        "singular": "Pending Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Overtime",
-        "singular": "所有加班",
+        "singular": "All Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "筛选条件",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "overtimeDate": {
         "original": "Overtime Date",
-        "singular": "加班日期",
+        "singular": "Overtime Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "overtimeStatus": {
         "original": "Overtime Status",
-        "singular": "加班状态",
+        "singular": "Overtime Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "overtimeHours": {
         "original": "Overtime Hours",
-        "singular": "加班时数",
+        "singular": "Overtime Hours",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
-        "singular": "备注",
-        "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "拒绝原因",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "备注",
-        "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "机器专家查找",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "请输入更改原因",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "overtimeStatusNotFound": "未找到加班状态",
-      "overtimeNotFound": "未找到加班记录",
-      "overtimeAtlasNotEnabled": "未启用Atlas"
+      "overtimeStatusNotFound": "Overtime status not found",
+      "overtimeNotFound": "Overtime not found",
+      "overtimeAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
-      "selectTime": "选择时间"
+      "selectTime": "Select Time"
     }
   },
   "productivity": {
     "setupVisible": false,
     "label": {
       "original": "Productivity",
-      "singular": "生产力",
-      "plural": "",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Productivity",
+      "plural": "Productivity",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Productivity Details",
-        "singular": "生产力详情",
+        "singular": "Productivity Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Productivity",
-        "singular": "今天处理中的生产力",
+        "singular": "Today Pending Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Productivity",
-        "singular": "处理中的生产力",
-        "plural": "生产力",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Pending Productivity",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Productivity",
-        "singular": "所有生产力",
+        "singular": "All Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "筛选条件",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "productivityDateTime": {
         "original": "Productivity Date and Time",
-        "singular": "生产力日期和时间",
+        "singular": "Productivity Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productivityStatus": {
         "original": "Productivity Status",
-        "singular": "生产力状态",
+        "singular": "Productivity Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "division": {
         "original": "Division",
-        "singular": "部门",
+        "singular": "Division",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
-        "singular": "备注",
-        "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "拒绝原因",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "备注",
-        "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "地产查询",
+        "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "机器专家查询",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "请输入更改原因",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "productivitySiteNotFound": "未找到生产力地点",
-      "productivityAssetsNotFound": "未找到生产力资产",
-      "productivityStatusNotFound": "未找到生产力状态",
-      "productivityNotFound": "未找到生产力记录",
-      "productivityHasPrimaryWork": "系统中存在生产力的主要工作数据",
-      "productivityAtlasNotEnabled": "未启用Atlas"
+      "productivitySiteNotFound": "Productivity site not found",
+      "productivityAssetsNotFound": "Productivity assets not found",
+      "productivityStatusNotFound": "Productivity status not found",
+      "productivityNotFound": "Productivity not found",
+      "productivityHasPrimaryWork": "Primary Works Data exists in the system for the productivity",
+      "productivityAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
-      "selectTime": "选择时间"
+      "selectTime": "Select Time"
     },
     "primary": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Primary",
-        "singular": "主要",
-        "plural": "主要",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Primary",
+        "plural": "Primary",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sections": {
-        "setupVisible": true,
+        "setupVisible": false,
         "sec0": {
           "original": "General Details",
-          "singular": "基本详情",
+          "singular": "General Details",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "字段 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "字段 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "字段 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec4": {
           "original": "Issues",
-          "singular": "问题",
+          "singular": "Issues",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec5": {
           "original": "Filter By",
-          "singular": "筛选条件",
+          "singular": "Filter By",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
-        "setupVisible": true,
+        "setupVisible": false,
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "工作账户代码",
+          "singular": "Work Account Code",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "总公顷",
-          "plural": "总公顷",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare",
+          "plural": "Total Hectares",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "总公顷（早上）",
-          "plural": "总公顷（早上）",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Morning)",
+          "plural": "Total Hectares (Morning)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "总公顷（下午）",
-          "plural": "总公顷（下午）",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Afternoon)",
+          "plural": "Total Hectares (Afternoon)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "rejectReason": {
           "original": "Reject Reason",
-          "singular": "拒绝原因",
+          "singular": "Reject Reason",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "字段 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "字段 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "字段 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "issues": {
           "original": "Issues",
-          "singular": "问题",
-          "plural": "问题",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Issue",
+          "plural": "Issues",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "remarks": {
           "original": "Remarks",
-          "singular": "备注",
-          "plural": "备注",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Remark",
+          "plural": "Remarks",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "tooltips": {
-        "setupVisible": true,
+        "setupVisible": false,
         "machineLookup": {
           "original": "Machines Lookup",
-          "singular": "机器查询",
-          "plural": "机器查询",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Machine Lookup",
+          "plural": "Machines Lookup",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "pleaseKeyInReason": {
           "original": "Please key in reason for the change",
-          "singular": "请输入更改原因",
+          "singular": "Please key in reason for the change",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "message": {
-        "selectIssue": "选择问题"
+        "selectIssue": "Select Issue"
       }
     },
     "secondary": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Secondary",
-        "singular": "次要",
-        "plural": "次要",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Secondary",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sections": {
-        "setupVisible": true,
+        "setupVisible": false,
         "sec0": {
           "original": "General Details",
-          "singular": "基本详情",
+          "singular": "General Details",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "字段 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "字段 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "字段 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec4": {
           "original": "Filter By",
-          "singular": "筛选条件",
+          "singular": "Filter By",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
-        "setupVisible": true,
+        "setupVisible": false,
         "typeSecondaryWork": {
           "original": "Type of Secondary Work",
-          "singular": "次要工作的类型",
+          "singular": "Type of Secondary Work",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "nameOfWork": {
           "original": "Name of Work",
-          "singular": "工作的名称",
+          "singular": "Name of Work",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "machineUsed": {
           "original": "Machine Used",
-          "singular": "使用的机器",
+          "singular": "Machine Used",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "evitNo": {
           "original": "EVIT No.",
-          "singular": "EVIT 号",
+          "singular": "EVIT No.",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "工作账户代码",
+          "singular": "Work Account Code",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "总公顷",
-          "plural": "总公顷",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare",
+          "plural": "Total Hectares",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "总公顷（早上）",
-          "plural": "总公顷（早上）",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Morning)",
+          "plural": "Total Hectares (Morning)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "总公顷（下午）",
-          "plural": "总公顷（下午）",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Afternoon)",
+          "plural": "Total Hectares (Afternoon)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "字段 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "字段 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "字段 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "messages": {
-        "nameOfSecondaryWork": "次要工作的名称"
+        "nameOfSecondaryWork": "Name of Secondary Work"
       }
     }
   },
@@ -24009,141 +24029,141 @@
     "setupVisible": false,
     "label": {
       "original": "Visits",
-      "singular": "访问",
-      "plural": "访问",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Visit",
+      "plural": "Visits",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Visit Details",
-        "singular": "访问详情",
+        "singular": "Visit Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Visits",
-        "singular": "今日处理中访问",
+        "singular": "Today Pending Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Visits",
-        "singular": "处理中访问",
+        "singular": "Pending Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Visits",
-        "singular": "所有访问",
+        "singular": "All Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "筛选条件",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "visitDateTime": {
         "original": "Visit Date and Time",
-        "singular": "访问日期和时间",
+        "singular": "Visit Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "approvalStatus": {
         "original": "Approval Status",
-        "singular": "审批状态",
+        "singular": "Approval Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitStatus": {
         "original": "Visit Status",
-        "singular": "访问状态",
+        "singular": "Visit Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitType": {
         "original": "Visit Type",
-        "singular": "访问类型",
+        "singular": "Visit Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitDateRange": {
         "original": "Visit Date Range",
-        "singular": "访问日期范围",
+        "singular": "Visit Date Range",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userGroup": {
         "original": "User Group",
-        "singular": "用户组",
+        "singular": "User Group",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "拒绝原因",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "备注",
-        "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "房地产查找",
+        "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "机器专家查找",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "请输入更改原因",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "visitStatusNotFound": "未找到访问状态",
-      "visitApprovalStatusNotFound": "未找到访问审批状态",
-      "visitNotFound": "未找到访问记录",
-      "visitAtlasNotEnabled": "未启用Atlas"
+      "visitStatusNotFound": "Visit status not found",
+      "visitApprovalStatusNotFound": "Visit approval status not found",
+      "visitNotFound": "Visit not found",
+      "visitAtlasNotEnabled": "Atlas is not enabled"
     },
     "messages": {
-      "selectVisitType": "选择访问类型",
-      "selectApprovalStatus": "选择审批状态"
+      "selectVisitType": "Select Visit Type",
+      "selectApprovalStatus": "Select Approval Status"
     }
   },
   "pmv": {
@@ -24152,183 +24172,183 @@
       "original": "PMV",
       "singular": "PMV",
       "plural": "PMV",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "General Details",
-        "singular": "基本详情",
+        "singular": "General Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "PMV Details",
-        "singular": "PMV 详情",
+        "singular": "PMV Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Select the checklist you'd like to generate for this Machine",
-        "singular": "选择您要为此机器生成的清单",
+        "singular": "Select the checklist you'd like to generate for this Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Updating the Machine within PMV",
-        "singular": "在 PMV 中更新机器",
+        "singular": "Updating the Machine within PMV",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Update the status of",
-        "singular": "更新状态",
+        "singular": "Update the status of",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Machine Summary",
-        "singular": "机器摘要",
+        "singular": "Machine Summary",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Details",
-        "singular": "详情",
+        "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Filter By",
-        "singular": "筛选条件",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Questions",
-        "singular": "问题",
-        "plural": "问题",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "dateRange": {
         "original": "Date Range",
-        "singular": "日期范围",
+        "singular": "Date Range",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetType": {
         "original": "Machine Type",
-        "singular": "机器类型",
+        "singular": "Machine Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetStatus": {
         "original": "Machine Status",
-        "singular": "机器状态",
+        "singular": "Machine Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "checklistNo": {
         "original": "PMV No",
-        "singular": "PMV 编号",
+        "singular": "PMV No",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "checklistName": {
         "original": "PMV Name",
-        "singular": "PMV 名称",
+        "singular": "PMV Name",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "equipmentType": {
         "original": "Equipment Type",
-        "singular": "设备类型",
+        "singular": "Equipment Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "equipmentMeterReading": {
         "original": "Equipment Meter Reading",
-        "singular": "设备读数",
+        "singular": "Equipment Meter Reading",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "initiateFollowUpChecklist": {
         "original": "Follow-Up PMV",
-        "singular": "跟进 PMV",
+        "singular": "Follow-Up PMV",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "questions": {
         "original": "Question",
-        "singular": "问题",
-        "plural": "问题",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectAsset": {
         "original": "Select Machine",
-        "singular": "选择机器",
+        "singular": "Select Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectChecklistToGenerate": {
         "original": "Select the checklist you'd like to generate for this Machine",
-        "singular": "选择您要为此机器生成的清单",
+        "singular": "Select the checklist you'd like to generate for this Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectOne": {
         "original": "Select one",
-        "singular": "选择一个",
+        "singular": "Select one",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
-        "singular": "状态",
+        "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
     "validationBE": {
-      "pmvPrimaryWorkRequired": "需要PMV主要工作",
-      "pmvPrimaryWorkNotFound": "未找到主要工作",
-      "pmvAtlasNotEnabled": "未启用Atlas"
+      "pmvPrimaryWorkRequired": "Pmv primary work is required",
+      "pmvPrimaryWorkNotFound": "Primary Work not found",
+      "pmvAtlasNotEnabled": "Atlas is not enabled"
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "checklistLookup": {
         "original": "PMV Lookup",
-        "singular": "PMV 查询",
+        "singular": "PMV Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {}

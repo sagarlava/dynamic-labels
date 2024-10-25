@@ -21288,7 +21288,13 @@
               "tickets": "Tiket",
               "project": "Projek",
               "site": "Tapak",
-              "checklists": "Senarai Semak"
+              "checklists": "Senarai Semak",
+              "attendance": "Kehadiran",
+              "productivity": "Produktiviti",
+              "overtime": "Kerja Lebih Masa",
+              "pmv": "PMV",
+              "visit": "Lawatan",
+              "machine_specialist": "Pakar Mesin"
             }
           }
         },
@@ -23234,774 +23240,788 @@
       }
     }
   },
-  "machineSpecialist": {
+"machineSpecialist": {
     "setupVisible": false,
     "label": {
       "original": "Machine Specialist",
-      "singular": "Pakar Mesin",
-      "plural": "Pakar Mesin",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Machine Specialist",
+      "plural": "Machine Specialists",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Machine Specialist Details",
-        "singular": "Butiran Pakar Mesin",
+        "singular": "Machine Specialist Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Default Settings",
-        "singular": "Tetapan Lalai",
-        "plural": "Tetapan Lalai",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Default Setting",
+        "plural": "Default Settings",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Details",
-        "singular": "Butiran",
+        "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Filter By",
-        "singular": "Tapis Mengikut",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "machineSpecialist": {
         "original": "Machine Specialist",
-        "singular": "Pakar Mesin",
-        "plural": "Pakar Mesin",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Machine Specialist",
+        "plural": "Machine Specialists",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userType": {
         "original": "User Type",
-        "singular": "Jenis Pengguna",
+        "singular": "User Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "active": {
         "original": "Active",
-        "singular": "Aktif",
+        "singular": "Active",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "defaultEstate": {
         "original": "Default Estate",
-        "singular": "Estet Lalai",
+        "singular": "Default Estate",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "defaultMachine": {
         "original": "Default Machine",
-        "singular": "Mesin Lalai",
+        "singular": "Default Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalUser": {
+        "original": "Normal User",
+        "singular": "Normal User",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "teamLead": {
+        "original": "Team Lead",
+        "singular": "Team Lead",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Carian Estet",
+        "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineLookup": {
         "original": "Machine Lookup",
-        "singular": "Carian Mesin",
+        "singular": "Machine Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Carian Pakar Mesin",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Sila masukkan sebab untuk perubahan",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "msUserActiveOnAnotherSite": "Pengguna sudah aktif di tapak lain",
-      "msLeadActiveOnAnotherSite": "Pengguna sudah aktif sebagai ketua di tapak lain",
-      "msMachineSpVMNotFound": "Pakar Mesin tidak dijumpai",
-      "msDefaultSiteNotFound": "Tapak Lalai tidak dijumpai, sila hubungi Pentadbir",
-      "msAtlasNotEnabled": "Atlas tidak diaktifkan"
+      "msUserActiveOnAnotherSite": "User is already active on another site",
+      "msLeadActiveOnAnotherSite": "User is already active as lead on another site",
+      "msMachineSpVMNotFound": "Machine Specialist not found",
+      "msDefaultSiteNotFound": "Default Site not found, please contact Admin",
+      "msAtlasNotEnabled": "Atlas is not enabled"
     },
     "messages": {
-      "selectOutturnCode": "Pilih Mesin Lalai"
+      "selectOutturnCode": "Select Default Machine"
     }
   },
   "attendance": {
     "setupVisible": false,
     "label": {
       "original": "Attendance",
-      "singular": "Kehadiran",
-      "plural": "Kehadiran",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Attendance",
+      "plural": "Attendances",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Attendance Details",
-        "singular": "Butiran Kehadiran",
+        "singular": "Attendance Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Attendance",
-        "singular": "Kehadiran Tertangguh Hari Ini",
-        "plural": "Kehadiran Tertangguh Hari Ini",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Today Pending Attendance",
+        "plural": "Today Pending Attendances",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Attendance",
-        "singular": "Kehadiran Tertangguh",
-        "plural": "Kehadiran Tertangguh",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Pending Attendance",
+        "plural": "Pending Attendances",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Attendance",
-        "singular": "Semua Kehadiran",
-        "plural": "Semua Kehadiran",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "All Attendance",
+        "plural": "All Attendances",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Tapis Mengikut",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "attendanceDateTime": {
         "original": "Attendance Date and Time",
-        "singular": "Tarikh dan Masa Kehadiran",
+        "singular": "Attendance Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceStatus": {
         "original": "Attendance Status",
-        "singular": "Status Kehadiran",
+        "singular": "Attendance Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceOutturnCode": {
         "original": "Attendance Outturn Code",
-        "singular": "Kod Keputusan Kehadiran",
+        "singular": "Attendance Outturn Code",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Sebab Penolakan",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Catatan",
-        "plural": "Catatan",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceDateRange": {
         "original": "Attendance Date Range",
-        "singular": "Julat Tarikh Kehadiran",
-        "plural": "Julat Tarikh Kehadiran",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Attendance Date Range",
+        "plural": "Attendance Date Range",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "visitEstateLookup": {
         "original": "Visit Estate Lookup",
-        "singular": "Carian Ladang Lawatan",
+        "singular": "Visit Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Sila masukkan sebab untuk perubahan",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "attendanceAlreadySubmitted": "Kehadiran telah dihantar",
-      "attendanceStatusNotFound": "Status kehadiran tidak dijumpai",
-      "attendanceNotFound": "Rekod kehadiran tidak dijumpai",
-      "attendanceAtlasNotEnabled": "Atlas tidak diaktifkan"
+      "attendanceAlreadySubmitted": "Attendance has already been submitted",
+      "attendanceStatusNotFound": "Attendance status not found",
+      "attendanceNotFound": "Attendance not found",
+      "attendanceAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
-      "selectOutturnCode": "Pilih Kod Keputusan"
+      "selectOutturnCode": "Select Outturn Code"
     }
   },
   "overtime": {
     "setupVisible": false,
     "label": {
       "original": "Overtime",
-      "singular": "Lebih Masa",
-      "plural": "Lebih Masa",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Overtime",
+      "plural": "Overtimes",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Overtime Details",
-        "singular": "Butiran Lebih Masa",
+        "singular": "Overtime Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Overtime",
-        "singular": "Lebih Masa Tertangguh Hari Ini",
+        "singular": "Today Pending Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Overtime",
-        "singular": "Lebih Masa Tertangguh",
+        "singular": "Pending Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Overtime",
-        "singular": "Semua Lebih Masa",
+        "singular": "All Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Tapis Mengikut",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "overtimeDate": {
         "original": "Overtime Date",
-        "singular": "Tarikh Lebih Masa",
+        "singular": "Overtime Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "overtimeStatus": {
         "original": "Overtime Status",
-        "singular": "Status Lebih Masa",
+        "singular": "Overtime Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "overtimeHours": {
         "original": "Overtime Hours",
-        "singular": "Jam Lebih Masa",
+        "singular": "Overtime Hours",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
-        "singular": "Nota",
-        "plural": "Nota",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Sebab Penolakan",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Catatan",
-        "plural": "Catatan",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Carian Pakar Mesin",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Sila masukkan sebab untuk perubahan",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "overtimeStatusNotFound": "Status kerja lebih masa tidak dijumpai",
-      "overtimeNotFound": "Kerja lebih masa tidak dijumpai",
-      "overtimeAtlasNotEnabled": "Atlas tidak diaktifkan"
+      "overtimeStatusNotFound": "Overtime status not found",
+      "overtimeNotFound": "Overtime not found",
+      "overtimeAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
-      "selectTime": "Pilih Masa"
+      "selectTime": "Select Time"
     }
   },
   "productivity": {
     "setupVisible": false,
     "label": {
       "original": "Productivity",
-      "singular": "Produktiviti",
-      "plural": "Produktiviti",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Productivity",
+      "plural": "Productivity",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Productivity Details",
-        "singular": "Butiran Produktiviti",
+        "singular": "Productivity Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Productivity",
-        "singular": "Produktiviti Tertunggak Hari Ini",
+        "singular": "Today Pending Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Productivity",
-        "singular": "Produktiviti Tertunggak",
+        "singular": "Pending Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Productivity",
-        "singular": "Semua Produktiviti",
+        "singular": "All Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Tapis Mengikut",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "productivityDateTime": {
         "original": "Productivity Date and Time",
-        "singular": "Tarikh dan Masa Produktiviti",
+        "singular": "Productivity Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productivityStatus": {
         "original": "Productivity Status",
-        "singular": "Status Produktiviti",
+        "singular": "Productivity Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "division": {
         "original": "Division",
-        "singular": "Bahagian",
+        "singular": "Division",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
-        "singular": "Nota",
-        "plural": "Nota",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Sebab Penolakan",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Ulasan",
-        "plural": "Ulasan",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Carian Harta",
+        "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Carian Pakar Mesin",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Sila masukkan sebab untuk perubahan",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "productivitySiteNotFound": "Tapak produktiviti tidak dijumpai",
-      "productivityAssetsNotFound": "Aset produktiviti tidak dijumpai",
-      "productivityStatusNotFound": "Status produktiviti tidak dijumpai",
-      "productivityNotFound": "Produktiviti tidak dijumpai",
-      "productivityHasPrimaryWork": "Data Kerja Utama wujud dalam sistem untuk produktiviti",
-      "productivityAtlasNotEnabled": "Atlas tidak diaktifkan"
+      "productivitySiteNotFound": "Productivity site not found",
+      "productivityAssetsNotFound": "Productivity assets not found",
+      "productivityStatusNotFound": "Productivity status not found",
+      "productivityNotFound": "Productivity not found",
+      "productivityHasPrimaryWork": "Primary Works Data exists in the system for the productivity",
+      "productivityAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
-      "selectTime": "Pilih Masa"
+      "selectTime": "Select Time"
     },
     "primary": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Primary",
-        "singular": "Utama",
-        "plural": "Utama",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Primary",
+        "plural": "Primary",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sections": {
-        "setupVisible": true,
+        "setupVisible": false,
         "sec0": {
           "original": "General Details",
-          "singular": "Butiran Umum",
+          "singular": "General Details",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "Medan 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "Medan 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "Medan 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec4": {
           "original": "Issues",
-          "singular": "Isu",
+          "singular": "Issues",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec5": {
           "original": "Filter By",
-          "singular": "Tapis Mengikut",
+          "singular": "Filter By",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
-        "setupVisible": true,
+        "setupVisible": false,
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "Kod Akaun Kerja",
+          "singular": "Work Account Code",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "Jumlah Hektar",
-          "plural": "Jumlah Hektar",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare",
+          "plural": "Total Hectares",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "Jumlah Hektar (Pagi)",
-          "plural": "Jumlah Hektar (Pagi)",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Morning)",
+          "plural": "Total Hectares (Morning)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Jumlah Hektar (Petang)",
-          "plural": "Jumlah Hektar (Petang)",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Afternoon)",
+          "plural": "Total Hectares (Afternoon)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "rejectReason": {
           "original": "Reject Reason",
-          "singular": "Sebab Penolakan",
+          "singular": "Reject Reason",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "Medan 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "Medan 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "Medan 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "issues": {
           "original": "Issues",
-          "singular": "Isu",
-          "plural": "Isu",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Issue",
+          "plural": "Issues",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "remarks": {
           "original": "Remarks",
-          "singular": "Ulasan",
-          "plural": "Ulasan",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Remark",
+          "plural": "Remarks",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "tooltips": {
-        "setupVisible": true,
+        "setupVisible": false,
         "machineLookup": {
           "original": "Machines Lookup",
-          "singular": "Carian Mesin",
-          "plural": "Carian Mesin",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Machine Lookup",
+          "plural": "Machines Lookup",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "pleaseKeyInReason": {
           "original": "Please key in reason for the change",
-          "singular": "Sila masukkan sebab untuk perubahan",
+          "singular": "Please key in reason for the change",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "message": {
-        "selectIssue": "Pilih Isu"
+        "selectIssue": "Select Issue"
       }
     },
     "secondary": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Secondary",
-        "singular": "Sekunder",
-        "plural": "Sekunder",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Secondary",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sections": {
-        "setupVisible": true,
+        "setupVisible": false,
         "sec0": {
           "original": "General Details",
-          "singular": "Butiran Umum",
+          "singular": "General Details",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "Medan 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "Medan 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "Medan 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec4": {
           "original": "Filter By",
-          "singular": "Tapis Mengikut",
+          "singular": "Filter By",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
-        "setupVisible": true,
+        "setupVisible": false,
         "typeSecondaryWork": {
           "original": "Type of Secondary Work",
-          "singular": "Jenis Kerja Sekunder",
+          "singular": "Type of Secondary Work",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "nameOfWork": {
           "original": "Name of Work",
-          "singular": "Nama Kerja",
+          "singular": "Name of Work",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "machineUsed": {
           "original": "Machine Used",
-          "singular": "Mesin yang Digunakan",
+          "singular": "Machine Used",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "evitNo": {
           "original": "EVIT No.",
           "singular": "EVIT No.",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "Kod Akaun Kerja",
+          "singular": "Work Account Code",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "Jumlah Hektar",
-          "plural": "Jumlah Hektar",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare",
+          "plural": "Total Hectares",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "Jumlah Hektar (Pagi)",
-          "plural": "Jumlah Hektar (Pagi)",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Morning)",
+          "plural": "Total Hectares (Morning)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Jumlah Hektar (Petang)",
-          "plural": "Jumlah Hektar (Petang)",
-          "setupEdit": true,
-          "setupVisible": true
+          "singular": "Total Hectare (Afternoon)",
+          "plural": "Total Hectares (Afternoon)",
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "Medan 1",
+          "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "Medan 2",
+          "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "Medan 3",
+          "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "messages": {
-        "nameOfSecondaryWork": "Nama Kerja Sekunder"
+        "nameOfSecondaryWork": "Name of Secondary Work"
       }
     }
   },
@@ -24009,141 +24029,141 @@
     "setupVisible": false,
     "label": {
       "original": "Visits",
-      "singular": "Lawatan",
-      "plural": "Lawatan",
-      "setupEdit": true,
-      "setupVisible": true
+      "singular": "Visit",
+      "plural": "Visits",
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Visit Details",
-        "singular": "Butiran Lawatan",
+        "singular": "Visit Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Visits",
-        "singular": "Lawatan Tertunda Hari Ini",
+        "singular": "Today Pending Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Visits",
-        "singular": "Lawatan Tertunda",
+        "singular": "Pending Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Visits",
-        "singular": "Semua Lawatan",
+        "singular": "All Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Tapis Mengikut",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "visitDateTime": {
         "original": "Visit Date and Time",
-        "singular": "Tarikh dan Masa Lawatan",
+        "singular": "Visit Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "approvalStatus": {
         "original": "Approval Status",
-        "singular": "Status Kelulusan",
+        "singular": "Approval Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitStatus": {
         "original": "Visit Status",
-        "singular": "Status Lawatan",
+        "singular": "Visit Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitType": {
         "original": "Visit Type",
-        "singular": "Jenis Lawatan",
+        "singular": "Visit Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitDateRange": {
         "original": "Visit Date Range",
-        "singular": "Julat Tarikh Lawatan",
+        "singular": "Visit Date Range",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userGroup": {
         "original": "User Group",
-        "singular": "Kumpulan Pengguna",
+        "singular": "User Group",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Sebab Penolakan",
+        "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Catatan",
-        "plural": "Catatan",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Cari Ladang",
+        "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Cari Pakar Mesin",
+        "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Sila masukkan sebab perubahan",
+        "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
-      "visitStatusNotFound": "Status lawatan tidak dijumpai",
-      "visitApprovalStatusNotFound": "Status kelulusan lawatan tidak dijumpai",
-      "visitNotFound": "Lawatan tidak dijumpai",
-      "visitAtlasNotEnabled": "Atlas tidak diaktifkan"
+      "visitStatusNotFound": "Visit status not found",
+      "visitApprovalStatusNotFound": "Visit approval status not found",
+      "visitNotFound": "Visit not found",
+      "visitAtlasNotEnabled": "Atlas is not enabled"
     },
     "messages": {
-      "selectVisitType": "Pilih Jenis Lawatan",
-      "selectApprovalStatus": "Pilih Status Kelulusan"
+      "selectVisitType": "Select Visit Type",
+      "selectApprovalStatus": "Select Approval Status"
     }
   },
   "pmv": {
@@ -24152,183 +24172,183 @@
       "original": "PMV",
       "singular": "PMV",
       "plural": "PMV",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "General Details",
-        "singular": "Butiran Umum",
+        "singular": "General Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "PMV Details",
-        "singular": "Butiran PMV",
+        "singular": "PMV Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Select the checklist you'd like to generate for this Machine",
-        "singular": "Pilih senarai semak yang ingin anda hasilkan untuk Mesin ini",
+        "singular": "Select the checklist you'd like to generate for this Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Updating the Machine within PMV",
-        "singular": "Mengemas kini Mesin dalam PMV",
+        "singular": "Updating the Machine within PMV",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Update the status of",
-        "singular": "Kemas kini status",
+        "singular": "Update the status of",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Machine Summary",
-        "singular": "Ringkasan Mesin",
+        "singular": "Machine Summary",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Details",
-        "singular": "Butiran",
+        "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Filter By",
-        "singular": "Tapis Mengikut",
+        "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Questions",
-        "singular": "Soalan",
-        "plural": "Soalan",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "dateRange": {
         "original": "Date Range",
-        "singular": "Julat Tarikh",
+        "singular": "Date Range",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetType": {
         "original": "Machine Type",
-        "singular": "Jenis Mesin",
+        "singular": "Machine Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetStatus": {
         "original": "Machine Status",
-        "singular": "Status Mesin",
+        "singular": "Machine Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "checklistNo": {
         "original": "PMV No",
         "singular": "PMV No",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "checklistName": {
         "original": "PMV Name",
-        "singular": "Nama PMV",
+        "singular": "PMV Name",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "equipmentType": {
         "original": "Equipment Type",
-        "singular": "Jenis Peralatan",
+        "singular": "Equipment Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "equipmentMeterReading": {
         "original": "Equipment Meter Reading",
-        "singular": "Bacaan Meter Peralatan",
+        "singular": "Equipment Meter Reading",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "initiateFollowUpChecklist": {
         "original": "Follow-Up PMV",
-        "singular": "Susulan PMV",
+        "singular": "Follow-Up PMV",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "questions": {
         "original": "Question",
-        "singular": "Soalan",
-        "plural": "Soalan",
-        "setupEdit": true,
-        "setupVisible": true
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectAsset": {
         "original": "Select Machine",
-        "singular": "Pilih Mesin",
+        "singular": "Select Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectChecklistToGenerate": {
         "original": "Select the checklist you'd like to generate for this Machine",
-        "singular": "Pilih senarai semak yang ingin anda hasilkan untuk Mesin ini",
+        "singular": "Select the checklist you'd like to generate for this Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectOne": {
         "original": "Select one",
-        "singular": "Pilih satu",
+        "singular": "Select one",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
     "validationBE": {
-      "pmvPrimaryWorkRequired": "Kerja utama PMV diperlukan",
-      "pmvPrimaryWorkNotFound": "Kerja Utama tidak dijumpai",
-      "pmvAtlasNotEnabled": "Atlas tidak diaktifkan"
+      "pmvPrimaryWorkRequired": "Pmv primary work is required",
+      "pmvPrimaryWorkNotFound": "Primary Work not found",
+      "pmvAtlasNotEnabled": "Atlas is not enabled"
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "checklistLookup": {
         "original": "PMV Lookup",
-        "singular": "Carian PMV",
+        "singular": "PMV Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {}
