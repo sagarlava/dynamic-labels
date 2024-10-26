@@ -6264,6 +6264,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameOfSurvey": {
+        "original": "Name of survey",
+        "singular": "调查名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceivedAt": {
+        "original": "Survey response received at",
+        "singular": "调查回复于",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "calendlyLinkSentTo": {
         "original": "Calendly link sent to",
         "singular": "Calendly链接发送至",

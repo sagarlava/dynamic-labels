@@ -6290,6 +6290,20 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "nameOfSurvey": {
+      "original": "Name of survey",
+      "singular": "Name der Umfrage",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "surveyResponseReceivedAt": {
+      "original": "Survey response received at",
+      "singular": "Umfrageantwort erhalten am",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "calendlyLinkSentTo": {
       "original": "Calendly link sent to",
       "singular": "Calendly-Link gesendet an",

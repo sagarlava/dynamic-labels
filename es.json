@@ -6292,6 +6292,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameOfSurvey": {
+        "original": "Name of survey",
+        "singular": "Nombre de la encuesta",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceivedAt": {
+        "original": "Survey response received at",
+        "singular": "Respuesta a la encuesta recibida en",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "calendlyLinkSentTo": {
         "original": "Calendly link sent to",
         "singular": "Enlace de Calendly enviado a",
