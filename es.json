@@ -7804,6 +7804,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "openingDays": {
+        "original": "Opening Days",
+        "singular": "Días de apertura",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "physicalDamage": {
         "original": "Physical Damage to hills installed application?",
         "singular": "¿Daño físico a la aplicación instalada en las colinas?",
