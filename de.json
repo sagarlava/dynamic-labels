@@ -9020,8 +9020,8 @@
       },
       "addAssetsToBin": {
         "original": "Add Assets to Bin",
-        "singular": "Add Assets to Bin",
-        "plural": "Add Assets to Bin",
+        "singular": "Anlagen zum Behälter hinzufügen",
+        "plural": "Anlagen zum Behälter hinzufügen",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -9132,7 +9132,7 @@
       },
       "assetName": {
         "original": "Asset Name",
-        "singular": "Asset Name",
+        "singular": "Anlagenname",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -15910,8 +15910,8 @@
       "setupEdit": true,
       "label": {
         "original": "Service Zone",
-        "singular": "Service Zone",
-        "plural": "Service Zonen",
+        "singular": "Servicezone",
+        "plural": "Servicezonen",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -15920,7 +15920,7 @@
         "setupEdit": true,
         "sec0": {
           "original": "Service Zone Details",
-          "singular": "Service Zone Details",
+          "singular": "Servicezonen-Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -15935,21 +15935,21 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "default": {
           "original": "Default",
-          "singular": "Default",
+          "singular": "Standard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "description": {
           "original": "Description",
-          "singular": "Description",
+          "singular": "Beschreibung",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "fieldLabel": {
           "original": "Field Label",
           "singular": "Feldbezeichnung",
@@ -24380,6 +24380,54 @@
         "setupVisible": false
       }
     },
+    "messages": {}
+  },
+  "priceBook": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {},
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+    "validationBE": {
+      "priceBookStandardNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",
+      "priceBookNameExists": "Der Preisbuchname existiert bereits",
+      "priceBookCodeExists": "Der Preisbuchcode existiert bereits",
+      "priceBookCannotDeleteDueToProducts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Produkten verknüpft ist",
+      "priceBookCannotDeleteDueToCustomers": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Kunden verknüpft ist",
+      "priceBookCannotDeleteDueToContracts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Verträgen verknüpft ist",
+      "priceBookCannotDeleteDueToJobOrders": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Arbeitsaufträgen verknüpft ist",
+      "priceBookCannotDeleteDueToRateCards": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einer oder mehreren Ratekarten verknüpft ist",
+      "priceBookCannotDeleteDueToStandard": "Dieses Preisbuch kann nicht gelöscht werden, da es das Standard-Preisbuch ist",
+      "priceBookIdExists": "Ein neues Preisbuch kann nicht bereits eine ID haben",
+      "priceBookConfigIdExists": "Eine neue Preisbuchkonfiguration kann nicht bereits eine ID haben",
+      "priceBookNotFound": "Preisbuch nicht gefunden",
+      "priceBookProductNotFound": "Preisbuch-Produkt nicht gefunden",
+      "priceBookProductIdModificationsNotAllowed": "Preisbuch-ID oder Produkt-ID können nicht geändert werden",
+      "priceBookProductIdMismatch": "Preisbuch-Produkt-ID stimmt nicht überein",
+      "priceBookProductNotFoundProduct": "Produkt nicht gefunden",
+      "priceBookProductAlreadyExists": "Preisbuch-Produkt existiert bereits",
+      "priceBookProductIdExists": "Ein neues Preisbuch-Produkt kann nicht bereits eine ID haben",
+      "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich"
+    },
+    "tooltips": {},
+    "messages": {}
+  },
+  "rateCard": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {},
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+    "validationBE": {
+      "rateCardNotFound": "Ratekarte  nicht gefunden",
+      "rateCardPriceBookEmpty": "Ratekarte  sollte ein Preisbuch haben",
+      "rateCardIdMismatch": "Ratekarte-ID stimmt nicht überein",
+      "rateCardPriceBookNotFound": "Ratekarten-Preisbuch nicht gefunden",
+      "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben"
+    },
+    "tooltips": {},
     "messages": {}
   }
 }
