@@ -8544,7 +8544,10 @@
       "hours": "hora(s)",
       "mins": "min(s)",
       "startSLA": "Iniciar SLA",
-      "changeStatusTo": "Cambiar estado a"
+      "changeStatusTo": "Cambiar estado a",
+      "identification": "Identificación",
+      "signOff": "Cerrar sesión",
+      "photoUpload": "Subir foto"
     }
   },
   "inventory": {

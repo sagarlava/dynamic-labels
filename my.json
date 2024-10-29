@@ -8530,7 +8530,10 @@
       "hours": "jam",
       "mins": "minit",
       "startSLA": "SLA Bermula",
-      "changeStatusTo": "Tukar status kepada"
+      "changeStatusTo": "Tukar status kepada",
+      "identification": "Pengenalan",
+      "signOff": "Log keluar",
+      "photoUpload": "Muat naik foto"
     }
   },
   "inventory": {
