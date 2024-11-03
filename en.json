@@ -12525,7 +12525,7 @@
       "fillAllRequiredFields": "Please fill all required fields",
       "selectAllFields": "Please select all fields",
       "selectOneOrMoreOptions": "Please select one or more options to complete",
-      "pleaseSelMandFormsIn": "Please fill up the mandatory form(s) in",
+      "pleaseFillMandatoryFormsIn": "Please fill up the mandatory form(s) in",
       "beforeCompletingTheTask": "before completing this task",
       "pleaseMakeSureSignatureClear": "Please make sure the signature is clear as this action can't be reverted",
       "search": "Search",
@@ -20421,7 +20421,8 @@
         "registerYourDevice": "Register Your Device"
       }
     },
-    "workflows": {
+    "workflows": { 
+      "setupEdit": false,
       "setupVisible": false,
       "label": {
         "original": "Workflows",
@@ -20431,6 +20432,7 @@
         "setupVisible": false
       },
       "sections": {
+        "setupEdit": false,
         "setupVisible": false,
         "sec0": {
           "original": "1. Workflow Details",
@@ -20440,8 +20442,8 @@
           "setupVisible": false
         },
         "sec1": {
-          "original": "Give your workflow a name, select the module it is tied to, and add a description.",
-          "singular": "Give your workflow a name, select the module it is tied to, and add a description.",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "Give your workflow a name and choose the module where this workflow will be triggered",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20454,15 +20456,15 @@
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose what should happen to start the workflow",
-          "singular": "Choose what should happen to start the workflow",
+          "original": "Choose when the workflow should run",
+          "singular": "Choose when the workflow should run",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "3. What needs to happen to start the workflow?",
-          "singular": "3. What needs to happen to start the workflow?",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. Specify the conditions to be met",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20475,8 +20477,8 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "4. What happens when the workflow runs",
-          "singular": "4. What happens when the workflow runs",
+          "original": "4. Set Workflow Actions",
+          "singular": "4. Set Workflow Actions",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20599,6 +20601,13 @@
           "plural": "Conditions",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec24": {
+          "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "singular": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "plural": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -20665,14 +20674,33 @@
           "plural": "Workflow Actions",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "workflowStart":{
+          "original": "Workflow Start",
+          "singular": "Workflow Start",
+          "plural": "Workflow Start",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "workflowDetails":{
+          "original": "Workflow Details",
+          "singular": "Workflow Details",
+          "plural": "Workflow Details",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "messages":{
-        "helpAutomateInternal":"Workflows help you automate tasks by setting up rules. When something specific happens (like a field update or status change), the system will automatically do an action for you, like sending a notification or updating information.",
+        "helpAutomateInternal":"Workflows let you set up automatic notifications based on specific conditions in any module you choose. You can customize notifications to be sent as in-app alerts or emails:",
+        "inAppNotifications":"In-App Notifications:",
+        "inAppNotificationsDesc":"Write custom messsages to notify FieldEx users directly in the web or mobile app when conditions are met.",
+        "emailNotifications":"Email Notifications:",
+        "emailNotificationsDesc":"Desgin custom email templates with field values to notify FieldEx users or external contacts.",
+        "whetherRemindersCustomer":"Whether it's reminders, customer updates, or team alerts, workflows make staying connected simple and effective.",
         "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
-        "triggerWhenNewRecordCreated":"Triggers the workflow when a new record is added.",
-        "triggerWhenUpdatedFirstTime":"Triggers the workflow the first time a record is changed.",
-        "triggerWhenRecordUpdatedEverytime":"Triggers the workflow whenever a record is changed.",
+        "triggerWhenNewRecordCreated":"When a record is created: The workflow will trigger when a new record is added and the set conditions are met.",
+        "triggerWhenUpdatedFirstTime":"When a record is changed for the first time: The workflow triggers the first time changes are made to the record and meet the specified conditions.",
+        "triggerWhenRecordUpdatedEverytime":"Every time a record is updated: The workflow triggers every time changes are made to the record and meet the specified conditions.",
         "triggerWhenRecordDeleted":"This option will trigger the workflow whenever a record is deleted.",
         "selectStatus":"Select Status",
         "selectAttribute": "Select Attribute",
@@ -23503,6 +23531,13 @@
         "plural": "Attendance Date Range",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allowEarlyRelease": {
+        "original": "Allow early release",
+        "singular": "Allow early release",
+        "plural": "Allow early release",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -24411,7 +24446,10 @@
       "priceBookProductNotFoundProduct": "Product not found",
       "priceBookProductAlreadyExists": "Price Book Product already exists",
       "priceBookProductIdExists": "A new price book product cannot already have an ID",
-      "priceBookNameMandatory": "Price Book Name is mandatory"
+      "priceBookNameMandatory": "Price Book Name is mandatory",
+      "priceBookProductEmptyList": "Price Book Product list cannot be empty",
+      "priceBookProductDifferentPriceBooks": "Cannot bulk add products for different price books at a time",
+      "priceBookContractMandatory": "Contract is mandatory when creating a price book"
     },
     "tooltips": {},
     "messages": {}

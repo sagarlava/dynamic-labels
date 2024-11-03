@@ -12523,7 +12523,7 @@
       "fillAllRequiredFields": "Please fill all required fields",
       "selectAllFields": "Please select all fields",
       "selectOneOrMoreOptions": "Please select one or more options to complete",
-      "pleaseSelMandFormsIn": "Please fill up the mandatory form(s) in",
+      "pleaseFillMandatoryFormsIn": "Please fill up the mandatory form(s) in",
       "beforeCompletingTheTask": "before completing this task",
       "pleaseMakeSureSignatureClear": "Please make sure the signature is clear as this action can't be reverted",
       "search": "Search",
@@ -21316,8 +21316,14 @@
                           "inventory": "Inventory",
                           "tickets": "Tickets",
                           "project": "Project",
-                          "site": "Estate",
-                          "checklists": "Checklists"
+                          "site": "Estate",   
+                          "checklists": "Checklists",
+                          "attendance":  "Attendance",
+                          "productivity": "Productivity",
+                          "overtime": "Overtime",
+                          "pmv": "PMV",
+                          "visit": "Visits",
+                          "machine_specialist": "Machine Specialist"
                       }
                   }
               },
@@ -24402,7 +24408,10 @@
       "priceBookProductNotFoundProduct": "Product not found",
       "priceBookProductAlreadyExists": "Price Book Product already exists",
       "priceBookProductIdExists": "A new price book product cannot already have an ID",
-      "priceBookNameMandatory": "Price Book Name is mandatory"
+      "priceBookNameMandatory": "Price Book Name is mandatory",
+      "priceBookProductEmptyList": "Price Book Product list cannot be empty",
+      "priceBookProductDifferentPriceBooks": "Cannot bulk add products for different price books at a time",
+      "priceBookContractMandatory": "Contract is mandatory when creating a price book"
     },
     "tooltips": {},
     "messages": {}

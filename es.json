@@ -425,8 +425,8 @@
       "setupEdit": true,
       "label": {
         "original": "Asset",
-        "singular": "Vermögenswert",
-        "plural": "Vermögenswerte",
+        "singular": "Activo",
+        "plural": "Activos",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -8642,7 +8642,7 @@
       },
       "sec11": {
         "original": "Adjust an Asset",
-        "singular": "Ajustar un Vermögenswert",
+        "singular": "Ajustar un Activo",
         "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -8898,7 +8898,7 @@
       },
       "assetType": {
         "original": "Asset Type",
-        "singular": "Tipo de Vermögenswert",
+        "singular": "Tipo de Activo",
         "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -8933,14 +8933,14 @@
       },
       "assetName": {
         "original": "Asset Name",
-        "singular": "Nombre del Vermögenswert",
+        "singular": "Nombre del Activo",
         "plural": "",
           "setupEdit": false,
         "setupVisible": false
       }
     },
     "validationFE": {
-      "pleaseSelectOne": "Por favor seleccione un Repuesto o un vermögenswert"
+      "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
     },
     "validationBE": {
       "inventoryIdExists": "Un nuevo Inventario no puede tener ya un ID",
@@ -8948,11 +8948,11 @@
       "inventoryBinNotFound": "Contenedor no encontrado",
       "inventoryZoneNotFound": "Zona no encontrada",
       "inventoryLocationNotFound": "Ubicación no encontrada",
-      "inventoryAssetsNotFound": "Vermögenswerte no encontrados",
+      "inventoryAssetsNotFound": "Activos no encontrados",
       "inventoryProductNotFound": "Repuesto no encontrado",
       "inventoryNotFound": "Inventario no encontrado",
       "inventoryFilterRequired": "Por favor seleccione al menos un filtro",
-      "inventoryStockInsufficient": "Inventario de Repuestos/Vermögenswerte insuficiente",
+      "inventoryStockInsufficient": "Inventario de Repuestos/Activos insuficiente",
       "inventoryTableSetupNotFound": "Configuración de Tabla de Inventario no encontrada, por favor contacte al soporte"
     },
     "messages": {
@@ -8961,14 +8961,14 @@
       "selectBin": "Seleccionar Contenedor",
       "selectUserBin": "Seleccionar Contenedor de Usuario",
       "searchProduct": "Buscar Repuesto",
-      "searchAsset": "Buscar Vermögenswert",
+      "searchAsset": "Buscar activo",
       "selectType": "Seleccionar Tipo",
       "selectFamily": "Seleccionar Familia",
       "pleaseSelectOneFilter": "Por favor seleccione al menos un filtro",
       "availableOtherLocations": "disponible en otras ubicaciones",
       "sameProductBinTransferNotAllowed": "No está permitido seleccionar el mismo Repuesto en una transferencia de contenedor",
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
-      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo vermögenswert en un contenedor"
+      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor"
     }
   },
   "bin": {
@@ -12525,7 +12525,7 @@
       "fillAllRequiredFields": "Por favor, complete todos los campos requeridos",
       "selectAllFields": "Por favor, seleccione todos los campos",
       "selectOneOrMoreOptions": "Por favor, seleccione una o más opciones para completar",
-      "pleaseSelMandFormsIn": "Por favor, complete el(los) formulario(s) obligatorio(s) en",
+      "pleaseFillMandatoryFormsIn": "Por favor, complete el(los) formulario(s) obligatorio(s) en",
       "beforeCompletingTheTask": "antes de completar esta tarea",
       "pleaseMakeSureSignatureClear": "Por favor, asegúrese de que la firma sea clara, ya que esta acción no se puede revertir",
       "search": "Buscar",
@@ -17448,7 +17448,7 @@
             }
           },
           "validationFE": {
-            "pleaseSelectOne": "Por favor selecciona una Pieza de Repuesto o un Activo"
+            "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
           }
         },
         "zones": {
@@ -20421,6 +20421,7 @@
       }
     },
     "workflows": {
+        "setupEdit": false,
         "setupVisible": false,
         "label": {
           "original": "Workflows",
@@ -20430,52 +20431,53 @@
           "setupVisible": false
         },
         "sections": {
+          "setupEdit": false,
           "setupVisible": false,
           "sec0": {
-            "original": "Workflow Details",
-            "singular": "Detalles del Flujo de Trabajo",
+            "original": "1. Workflow Details",
+            "singular": "1. Detalles del flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec1": {
-            "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
-            "singular": "Dale un nombre a tu flujo de trabajo, selecciona el módulo al que está vinculado y añade una descripción para capturar detalles adicionales.",
+        "sec1": {
+            "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+            "singular": "Nombra tu flujo de trabajo y selecciona el módulo donde se activará este flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec2": {
-            "original": "When to trigger the workflow",
-            "singular": "Cuándo activar el flujo de trabajo",
+        "sec2": {
+            "original": "2. When should the workflow start?",
+            "singular": "2. ¿Cuándo debería comenzar el flujo de trabajo?",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec3": {
-            "original": "Specify the event(s) and timing that will activate this workflow",
-            "singular": "Especifica el(los) evento(s) y el momento que activará este flujo de trabajo",
+        "sec3": {
+            "original": "Choose when the workflow should run",
+            "singular": "Elige cuándo debería ejecutarse el flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "What conditions should be met",
-            "singular": "Qué condiciones deben cumplirse",
+            "original": "3. Specify the conditions to be met",
+            "singular": "3. Especifica las condiciones a cumplir",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec5": {
-            "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-            "singular": "Especifica las condiciones y combinaciones de condiciones que deben activar este flujo de trabajo",
+            "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+            "singular": "Establece las reglas y combina condiciones que activarán este flujo de trabajo (por ejemplo, 'Estado igual a Completado' Y 'Tipo igual a Instalación'). Usa Y/O para crear la combinación correcta de condiciones.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec6": {
-            "original": "Workflow Actions",
-            "singular": "Acciones del Flujo de Trabajo",
+            "original": "4. Set Workflow Actions",
+            "singular": "4. Configurar acciones del flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -20542,63 +20544,70 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
-            },
-            "sec16": {
-                "original": "When setting up a condition, you just need to follow three easy steps:",
-                "singular": "Al configurar una condición, solo necesitas seguir tres sencillos pasos:",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec17": {
-                "original": "Attribute",
-                "singular": "Atributo",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec18": {
-                "original": "Operator",
-                "singular": "Operador",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec19": {
-                "original": "Value",
-                "singular": "Valor",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec20": {
-                "original": "For more complex conditions...",
-                "singular": "Para condiciones más complejas...",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec21": {
-                "original": "How AND/OR Conditions Work:",
-                "singular": "Cómo funcionan las condiciones Y/O:",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec22": {
-                "original": "Using Groups of Conditions:",
-                "singular": "Uso de grupos de condiciones:",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec23": {
-                "original": "Conditions",
-                "singular": "Condición",
-                "plural": "Condiciones",
-                "setupEdit": false,
-                "setupVisible": false
-            }
+          },
+          "sec16": {
+              "original": "When setting up a condition, you just need to follow three easy steps:",
+              "singular": "Al configurar una condición, solo necesitas seguir tres sencillos pasos:",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec17": {
+              "original": "Attribute",
+              "singular": "Atributo",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec18": {
+              "original": "Operator",
+              "singular": "Operador",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec19": {
+              "original": "Value",
+              "singular": "Valor",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec20": {
+              "original": "For more complex conditions...",
+              "singular": "Para condiciones más complejas...",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec21": {
+              "original": "How AND/OR Conditions Work:",
+              "singular": "Cómo funcionan las condiciones Y/O:",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec22": {
+              "original": "Using Groups of Conditions:",
+              "singular": "Uso de grupos de condiciones:",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec23": {
+              "original": "Conditions",
+              "singular": "Condición",
+              "plural": "Condiciones",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec24": {
+            "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+            "singular": "Ahora, define qué acciones debe realizar el flujo de trabajo cuando se active. Puedes optar por enviar notificaciones por correo electrónico, mostrar mensajes en la aplicación o realizar otras acciones según las condiciones establecidas. Este paso asegura que se tomen las acciones correctas automáticamente cuando el flujo de trabajo se ejecute.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          }
         },
         "fields": {
           "setupVisible": false,
@@ -20664,14 +20673,33 @@
             "plural": "Acciones del Flujo de Trabajo",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "workflowStart": {
+            "original": "Workflow Start",
+            "singular": "Inicio del flujo de trabajo",
+            "plural": "Inicio del flujo de trabajo",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "workflowDetails": {
+            "original": "Workflow Details",
+            "singular": "1. Detalles del flujo de trabajo",
+            "plural": "Detalles del flujo de trabajo",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
-          "helpAutomateInternal": "Los flujos de trabajo te ayudan a automatizar procesos internos al permitir la creación de desencadenadores condicionales para acciones como el envío de notificaciones, la actualización de campos y la aplicación de validaciones.",
+          "helpAutomateInternal": "Los flujos de trabajo le permiten configurar notificaciones automáticas basadas en condiciones específicas en cualquier módulo que elija. Puede personalizar las notificaciones para que se envíen como alertas en la aplicación o correos electrónicos:",
+          "inAppNotifications": "Notificaciones en la aplicación:",
+          "inAppNotificationsDesc": "Escriba mensajes personalizados para notificar a los usuarios de FieldEx directamente en la aplicación web o móvil cuando se cumplan las condiciones.",
+          "emailNotifications": "Notificaciones por correo electrónico:",
+          "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
+          "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
           "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
-          "triggerWhenNewRecordCreated": "Esta opción activará el flujo de trabajo cuando se cree un nuevo registro.",
-          "triggerWhenUpdatedFirstTime": "Esta opción activará el flujo de trabajo cuando un registro se actualice por primera vez.",
-          "triggerWhenRecordUpdatedEverytime": "Esta opción activará el flujo de trabajo cada vez que se actualice un registro.",
+          "triggerWhenNewRecordCreated": "Cuando se crea un registro: El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
+          "triggerWhenUpdatedFirstTime": "Cuando un registro cambia por primera vez: El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenRecordUpdatedEverytime": "Cada vez que se actualiza un registro: El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
           "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
           "selectStatus": "Seleccionar estado",
           "selectAttribute": "Seleccionar atributo",
@@ -23502,6 +23530,13 @@
         "plural": "Attendance Date Range",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allowEarlyRelease": {
+        "original": "Allow early release",
+        "singular": "Allow early release",
+        "plural": "Allow early release",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -24410,7 +24445,10 @@
       "priceBookProductNotFoundProduct": "Producto no encontrado",
       "priceBookProductAlreadyExists": "El producto del libro de precios ya existe",
       "priceBookProductIdExists": "Un nuevo producto del libro de precios no puede tener ya un ID",
-      "priceBookNameMandatory": "El nombre del libro de precios es obligatorio"
+      "priceBookNameMandatory": "El nombre del libro de precios es obligatorio",
+      "priceBookProductEmptyList": "La lista de productos del libro de precios no puede estar vacía",
+      "priceBookProductDifferentPriceBooks": "No se pueden agregar productos en masa para diferentes libros de precios a la vez",
+      "priceBookContractMandatory": "El contrato es obligatorio al crear un libro de precios"
     },
     "tooltips": {},
     "messages": {}

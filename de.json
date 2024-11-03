@@ -12523,7 +12523,7 @@
       "fillAllRequiredFields": "Bitte füllen Sie alle erforderlichen Felder aus.",
       "selectAllFields": "Bitte wählen Sie alle Felder aus.",
       "selectOneOrMoreOptions": "Bitte wählen Sie eine oder mehrere Optionen aus, um fortzufahren.",
-      "pleaseSelMandFormsIn": "Bitte füllen Sie die Pflichtformulare in",
+      "pleaseFillMandatoryFormsIn": "Bitte füllen Sie die Pflichtformulare in",
       "beforeCompletingTheTask": "vor Abschluss dieser Aufgabe.",
       "pleaseMakeSureSignatureClear": "Bitte stellen Sie sicher, dass die Unterschrift deutlich ist, da diese Aktion nicht rückgängig gemacht werden kann.",
       "search": "Suche",
@@ -20419,6 +20419,7 @@
       }
     },
     "workflows": {
+      "setupEdit": false,
       "setupVisible": false,
       "label": {
         "original": "Workflows",
@@ -20428,52 +20429,53 @@
         "setupVisible": false
       },
       "sections": {
+        "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "Workflow Details",
-          "singular": "Workflow-Details",
+          "original": "1. Workflow Details",
+          "singular": "1. Workflow-Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "sec1": {
-          "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
-          "singular": "Geben Sie Ihrem Workflow einen Namen, wählen Sie das Modul aus, mit dem er verbunden ist, und fügen Sie eine Beschreibung hinzu, um zusätzliche Details festzuhalten.",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "Benennen Sie Ihren Workflow und wählen Sie das Modul, in dem dieser Workflow ausgelöst wird",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "sec2": {
-          "original": "When to trigger the workflow",
-          "singular": "Wann der Workflow ausgelöst werden soll",
+          "original": "2. When should the workflow start?",
+          "singular": "2. Wann soll der Workflow starten?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "sec3": {
-          "original": "Specify the event(s) and timing that will activate this workflow",
-          "singular": "Geben Sie die Ereignisse und Zeitpunkte an, die diesen Workflow aktivieren werden.",
+          "original": "Choose when the workflow should run",
+          "singular": "Wählen Sie, wann der Workflow ausgeführt werden soll",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "What conditions should be met",
-          "singular": "Welche Bedingungen erfüllt sein müssen",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. Geben Sie die zu erfüllenden Bedingungen an",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec5": {
-          "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-          "singular": "Geben Sie die Bedingungen und Kombinationen von Bedingungen an, die diesen Workflow auslösen sollen.",
+          "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+          "singular": "Legen Sie die Regeln fest und kombinieren Sie Bedingungen, die diesen Workflow auslösen (z.B. 'Status gleich Abgeschlossen' UND 'Typ gleich Installation'). Verwenden Sie UND/ODER, um die richtige Kombination von Bedingungen zu erstellen.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec6": {
-          "original": "Workflow Actions",
-          "singular": "Workflow-Aktionen",
+          "original": "4. Set Workflow Actions",
+          "singular": "4. Workflow-Aktionen festlegen",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20596,6 +20598,13 @@
           "plural": "Bedingungen",
           "setupEdit": false,
           "setupVisible": false
+      },
+      "sec24": {
+          "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "singular": "Definieren Sie nun, welche Aktionen der Workflow bei Auslösung ausführen soll. Sie können wählen, ob Benachrichtigungen per E-Mail gesendet, In-App-Nachrichten angezeigt oder andere Aktionen basierend auf den festgelegten Bedingungen ausgeführt werden sollen. Dieser Schritt stellt sicher, dass die richtigen Aktionen automatisch ausgeführt werden, wenn der Workflow läuft.",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
       }
       },
       "fields": {
@@ -20662,14 +20671,33 @@
           "plural": "Workflow-Aktionen",
           "setupEdit": true,
           "setupVisible": false
-        }
+        },
+        "workflowStart": {
+            "original": "Workflow Start",
+            "singular": "Workflow-Start",
+            "plural": "Workflow-Start",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+        "workflowDetails": {
+            "original": "Workflow Details",
+            "singular": "Workflow-Details",
+            "plural": "Workflow-Details",
+            "setupEdit": true,
+            "setupVisible": false
+          }
       },
       "messages": {
-        "helpAutomateInternal": "Workflows helfen Ihnen, interne Prozesse zu automatisieren, indem sie die Erstellung von bedingten Auslösern für Aktionen wie das Senden von Benachrichtigungen, das Aktualisieren von Feldern und das Anwenden von Validierungen ermöglichen.",
+        "helpAutomateInternal": "Workflows ermöglichen es Ihnen, automatische Benachrichtigungen basierend auf spezifischen Bedingungen in jedem gewünschten Modul einzurichten. Sie können Benachrichtigungen anpassen, um sie als In-App-Warnungen oder E-Mails zu senden:",
+        "inAppNotifications": "In-App-Benachrichtigungen:",
+        "inAppNotificationsDesc": "Schreiben Sie benutzerdefinierte Nachrichten, um FieldEx-Benutzer direkt in der Web- oder mobilen App zu benachrichtigen, wenn Bedingungen erfüllt sind.",
+        "emailNotifications": "E-Mail-Benachrichtigungen:",
+        "emailNotificationsDesc": "Erstellen Sie benutzerdefinierte E-Mail-Vorlagen mit Feldwerten, um FieldEx-Benutzer oder externe Kontakte zu benachrichtigen.",
+        "whetherRemindersCustomer": "Egal ob Erinnerungen, Kunden-Updates oder Team-Benachrichtigungen – Workflows machen die Verbindung einfach und effektiv.",
         "useThisPageToCreateNewWorkflows": "Verwenden Sie diese Seite, um neue Workflows zu erstellen oder die bereits eingerichteten zu verwalten.", 
-        "triggerWhenNewRecordCreated": "Diese Option löst den Workflow aus, wenn ein neuer Datensatz erstellt wird.",
-        "triggerWhenUpdatedFirstTime": "Diese Option löst den Workflow aus, wenn ein Datensatz erstmals aktualisiert wird.",
-        "triggerWhenRecordUpdatedEverytime": "Diese Option löst den Workflow aus, wenn ein Datensatz aktualisiert wird.",
+        "triggerWhenNewRecordCreated": "Wenn ein Datensatz erstellt wird: Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
+        "triggerWhenUpdatedFirstTime": "Wenn ein Datensatz zum ersten Mal geändert wird: Der Workflow wird beim ersten Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
+        "triggerWhenRecordUpdatedEverytime": "Jedes Mal, wenn ein Datensatz aktualisiert wird: Der Workflow wird jedes Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
         "triggerWhenRecordDeleted": "Diese Option löst den Workflow aus, wenn ein Datensatz gelöscht wird.",
         "selectStatus": "Status auswählen",
         "selectAttribute": "Attribut auswählen",
@@ -23500,6 +23528,13 @@
         "plural": "Attendance Date Range",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allowEarlyRelease": {
+        "original": "Allow early release",
+        "singular": "Allow early release",
+        "plural": "Allow early release",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -24408,7 +24443,10 @@
       "priceBookProductNotFoundProduct": "Produkt nicht gefunden",
       "priceBookProductAlreadyExists": "Preisbuch-Produkt existiert bereits",
       "priceBookProductIdExists": "Ein neues Preisbuch-Produkt kann nicht bereits eine ID haben",
-      "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich"
+      "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich",
+      "priceBookProductEmptyList": "Die Liste der Preisbuchprodukte darf nicht leer sein",
+      "priceBookProductDifferentPriceBooks": "Produkte können nicht gleichzeitig für verschiedene Preisbücher in großen Mengen hinzugefügt werden",
+      "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird"
     },
     "tooltips": {},
     "messages": {}

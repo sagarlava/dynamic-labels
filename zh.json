@@ -12525,7 +12525,7 @@
       "fillAllRequiredFields": "请填写所有必填字段",
       "selectAllFields": "请选择所有字段",
       "selectOneOrMoreOptions": "请选择一个或多个选项以完成",
-      "pleaseSelMandFormsIn": "请在以下位置填写必填表格",
+      "pleaseFillMandatoryFormsIn": "请在以下位置填写必填表格",
       "beforeCompletingTheTask": "在完成此任务之前",
       "pleaseMakeSureSignatureClear": "请确保签名清晰，因为此操作无法撤销",
       "search": "搜索",
@@ -20422,6 +20422,7 @@
       }
     },
     "workflows": {
+      "setupEdit": false,
       "setupVisible": false,
       "label": {
         "original": "Workflows",
@@ -20431,6 +20432,7 @@
         "setupVisible": false
       },
       "sections": {
+        "setupEdit": false,
         "setupVisible": false,
         "sec0": {
           "original": "1. Workflow Details",
@@ -20440,29 +20442,29 @@
           "setupVisible": false
         },
         "sec1": {
-          "original": "Give your workflow a name, select the module it is tied to, and add a description.",
-          "singular": "为您的工作流命名，选择它关联的模块，并添加描述。",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "为您的工作流程命名并选择将触发该工作流程的模块",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
           "original": "2. When should the workflow start?",
-          "singular": "2. 工作流应该何时开始？",
+          "singular": "2. 何时应启动工作流程？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose what should happen to start the workflow",
-          "singular": "选择启动工作流时应该发生的事情",
+          "original": "Choose when the workflow should run",
+          "singular": "选择工作流程的运行时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "3. What needs to happen to start the workflow?",
-          "singular": "3. 需要发生什么才能启动工作流？",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. 指定要满足的条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20475,8 +20477,8 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "4. What happens when the workflow runs",
-          "singular": "4. 工作流运行时会发生什么",
+          "original": "4. Set Workflow Actions",
+          "singular": "4. 设置工作流程操作",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20599,6 +20601,13 @@
           "plural": "条件",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec24": {
+            "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+            "singular": "现在，定义工作流程在触发时应执行的操作。您可以选择通过电子邮件发送通知、显示应用内消息，或根据您设置的条件执行其他操作。此步骤确保在工作流程运行时自动执行正确的操作。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
         }
       },
       "fields": {
@@ -20665,14 +20674,33 @@
           "plural": "工作流程操作",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "workflowStart": {
+          "original": "Workflow Start",
+          "singular": "工作流程启动",
+          "plural": "工作流程启动",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+      "workflowDetails": {
+          "original": "Workflow Details",
+          "singular": "工作流程详情",
+          "plural": "工作流程详情",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "messages": {
-        "helpAutomateInternal": "工作流通过设置规则帮助您自动化任务。当发生特定事件（如字段更新或状态更改）时，系统会自动为您执行操作，例如发送通知或更新信息。",
+        "helpAutomateInternal": "工作流程使您可以根据特定条件在您选择的任何模块中设置自动通知。您可以自定义通知，以在应用内发送警报或电子邮件：",
+        "inAppNotifications": "应用内通知：",
+        "inAppNotificationsDesc": "编写自定义消息，当条件满足时直接在网页或移动应用程序中通知FieldEx用户。",
+        "emailNotifications": "电子邮件通知：",
+        "emailNotificationsDesc": "设计包含字段值的自定义电子邮件模板，以通知FieldEx用户或外部联系人。",
+        "whetherRemindersCustomer": "无论是提醒、客户更新还是团队警报，工作流程使保持联系变得简单而有效。",
         "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
-        "triggerWhenNewRecordCreated": "当新记录添加时触发工作流。",
-        "triggerWhenUpdatedFirstTime": "当记录首次更改时触发工作流。",
-        "triggerWhenRecordUpdatedEverytime": "每当记录更改时触发工作流。",
+        "triggerWhenNewRecordCreated": "当创建记录时：当添加新记录且满足设定条件时，工作流程将被触发。",
+        "triggerWhenUpdatedFirstTime": "当记录第一次更改时：工作流程将在第一次更改记录且满足指定条件时触发。",
+        "triggerWhenRecordUpdatedEverytime": "每次更新记录时：每次更改记录且满足指定条件时，工作流程都会被触发。",
         "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
         "selectStatus": "选择状态",
         "selectAttribute": "选择属性",
@@ -23503,6 +23531,13 @@
         "plural": "Attendance Date Range",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allowEarlyRelease": {
+        "original": "Allow early release",
+        "singular": "Allow early release",
+        "plural": "Allow early release",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -24411,7 +24446,10 @@
       "priceBookProductNotFoundProduct": "未找到产品",
       "priceBookProductAlreadyExists": "价格手册产品已经存在",
       "priceBookProductIdExists": "新的价格手册产品不能已经有ID",
-      "priceBookNameMandatory": "价格书名称是必填的"
+      "priceBookNameMandatory": "价格书名称是必填的",
+      "priceBookProductEmptyList": "价格书产品列表不能为空",
+      "priceBookProductDifferentPriceBooks": "无法一次性批量添加不同价格书的产品",
+      "priceBookContractMandatory": "创建价格书时合同是必填项"
     },
     "tooltips": {},
     "messages": {}
@@ -24434,4 +24472,3 @@
     "messages": {}
   }
 }
- 
