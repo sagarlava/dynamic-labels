@@ -12055,7 +12055,15 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "proceedAnyway":{
+        "original": "Proceed anyway",
+        "singular": "Proceed anyway",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
+      
     },
     "status": {
       "setupVisible": false,
