@@ -11980,6 +11980,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "iAccept": {
+        "original": "I accept",
+        "singular": "我接受",
+        "plural": "我接受",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "seeMore": {
+        "original": "See more",
+        "singular": "查看更多",
+        "plural": "查看更多",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "confirm": {
         "original": "Confirm",
         "singular": "确认",
