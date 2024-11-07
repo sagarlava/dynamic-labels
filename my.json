@@ -10404,7 +10404,8 @@
       "contactNameNotFound": "Nama tidak boleh kosong",
       "contactEmailNotFound": "Emel tidak boleh kosong",
       "contactUserNameNotFound": "Nama Pengguna tidak boleh kosong",
-      "contactExtIdNotFound": "ID Luar tidak dijumpai"
+      "contactExtIdNotFound": "ID Luar tidak dijumpai",
+      "contactHasSalesOrder": "Data Pesanan Jualan wujud dalam sistem untuk Kenalan"
     },
     "messages": {
       "searchContact": "Cari Kontak",
@@ -11289,6 +11290,13 @@
       "move": {
         "original": "Move",
         "singular": "Pindahkan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "item": {
+        "original": "Item",
+        "singular": "Item",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -13144,7 +13152,7 @@
         },
         "geoFence": {
           "original": "Geofence",
-          "singular": "Geofence",
+          "singular": "Pagar Geofence",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -21924,7 +21932,8 @@
       "leaveAuditEventHistoryIdExists": "Sejarah Acara Audit Cuti baru tidak boleh sudah mempunyai ID",
       "userLeaveApprovedOrRejected": "Cuti pengguna telah Diluluskan/Ditolak",
       "userLeaveOverlappingWithHolidays": "Anda mempunyai percutian yang bertindih, sila ubah tarikh cuti anda dan cuba lagi",
-      "userLeaveUserWithIdNotFound": "ID Pengguna tidak sah"
+      "userLeaveUserWithIdNotFound": "ID Pengguna tidak sah",
+      "userLeaveNotPermittedToEdit": "Anda tidak dibenarkan untuk mengedit cuti ini"
     },
     "messages": {
       "selectOutturnCode": "Pilih Kod Keputusan",

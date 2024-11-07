@@ -11305,6 +11305,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "item": {
+        "original": "Item",
+        "singular": "Artikel",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "moreOptions": {
         "original": "More Options",
         "singular": "Mehr Optionen",
@@ -21935,7 +21942,9 @@
       "leaveAuditEventHistoryIdExists": "Eine neue Abwesenheitsprüfungsereignis-Historie kann nicht bereits eine ID haben",
       "userLeaveOnlyAppliedCanBeEdited": "Nur beantragte Benutzerabwesenheiten können bearbeitet werden",
       "userLeaveOverlappingWithHolidays": "Sie haben sich überschneidende Feiertage, bitte ändern Sie Ihre Abwesenheitsdaten und versuchen Sie es erneut",
-      "userLeaveUserWithIdNotFound": "Ungültige Benutzer-ID"
+      "userLeaveUserWithIdNotFound": "Ungültige Benutzer-ID",
+      "userLeaveNotPermittedToEdit": "Sie dürfen diesen Urlaub nicht bearbeiten",
+      "userLeaveApprovedOrRejected": "Urlaub des Benutzers wurde genehmigt/abgelehnt"
     },
     "messages": {
       "selectOutturnCode": "Wählen Sie den Ausgabecode",

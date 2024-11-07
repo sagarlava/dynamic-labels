@@ -10418,7 +10418,8 @@
       "contactNameNotFound": "Name can not be empty",
       "contactEmailNotFound": "Email can not be empty",
       "contactUserNameNotFound": "Username can not be empty",
-      "contactExtIdNotFound": "ExternalId not found"
+      "contactExtIdNotFound": "ExternalId not found",
+      "contactHasSalesOrder": "Sales Order Data exists in the system for the Contact"
     },
     "messages":{
       "searchContact": "Search Contact",
@@ -11303,6 +11304,13 @@
       "move": {
         "original": "Move",
         "singular": "Move",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "item": {
+        "original": "Item",
+        "singular": "Item",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -21939,7 +21947,9 @@
       "leaveAuditEventHistoryIdExists": "A new Leave Audit Event History cannot already have an ID",
       "userLeaveOnlyAppliedCanBeEdited": "Only Applied user leave can be edited",
       "userLeaveOverlappingWithHolidays": "You have overlapping holidays, please change your leave dates and try again",
-      "userLeaveUserWithIdNotFound": "Invalid User Id"
+      "userLeaveUserWithIdNotFound": "Invalid User Id",
+      "userLeaveNotPermittedToEdit": "You are not permitted to edit this leave",
+      "userLeaveApprovedOrRejected": "User's leave has been Approved/Rejected"
     },
     "messages": {
       "selectOutturnCode": "Select Outturn Code",
