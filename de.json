@@ -6276,6 +6276,13 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "Vermögensgarantie",
+        "plural": "Vermögensgarantie",
+        "setupEdit": false,
+        "setupVisible": false
+    },
     "notifyCustomer": {
       "original": "Notify Customer",
       "singular": "Kunden benachrichtigen",

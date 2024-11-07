@@ -6250,6 +6250,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "资产担保",
+        "plural": "资产担保",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "notifyCustomer": {
         "original": "Notify Customer",
         "singular": "通知客户",

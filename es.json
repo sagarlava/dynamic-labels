@@ -6278,6 +6278,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "Garantía de activos",
+        "plural": "Garantía de activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "notifyCustomer": {
         "original": "Notify Customer",
         "singular": "Notificar al Cliente",

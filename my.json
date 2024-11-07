@@ -6278,6 +6278,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "Waranti Aset",
+        "plural": "Waranti Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "notifyCustomer": {
         "original": "Notify Customer",
         "singular": "Maklumkan Pelanggan",
