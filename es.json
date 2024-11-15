@@ -383,7 +383,8 @@
       "customerSubSectorHasCustomerSector": "Existen datos del Sector del Cliente en el sistema para el Subsector del Cliente",
       "customerPriceBookNotFound": "Libro de precios del cliente no encontrado",
       "customerPriceBookIdNotFound": "No se ha encontrado el ID del libro de precios del cliente",
-      "customerPriceBookUpdateFailed": "Error al actualizar el libro de precios del cliente"
+      "customerPriceBookUpdateFailed": "Error al actualizar el libro de precios del cliente",
+      "customerCannotDeleteByJobOrderTemplates": "No se puede eliminar: el cliente es parte de una o más plantillas de órdenes de trabajo"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4395,6 +4396,7 @@
       "teamUserIdRequired": "ID de usuario es requerido",
       "teamIdsRequired": "teamIds no pueden ser nulos o vacíos",
       "teamHasTask": "Los datos de tarea existen en el sistema para el Equipo",
+      "teamHasTaskTemplate": "Existen datos de plantillas de tareas en el sistema para el equipo",
       "teamWithIdNotFound": "ID inválido",
       "teamUserNotFound": "Usuario del Equipo no encontrado",
       "teamUserPositionNotFound": "Posición del Usuario del Equipo no encontrada",
@@ -4781,6 +4783,8 @@
       "siteHasContact": "Existen datos de contacto en el sistema para el sitio",
       "siteHasTicket": "Existen datos de tickets en el sistema para el sitio",
       "siteHasTask": "Existen datos de tareas en el sistema para el sitio",
+      "siteHasJobOrderTemplate": "Existen datos de plantilla de órdenes de trabajo en el sistema para el sitio",
+      "siteHasTaskTemplate": "Existen datos de plantillas de tareas en el sistema para el sitio",
       "siteCustomerNotFound": "Cliente del sitio no encontrado",
       "siteTypeNotFound": "Tipo de sitio no encontrado",
       "siteCategoryNotFound": "Categoría del sitio no encontrada",
@@ -5271,7 +5275,9 @@
       "projectIdExists": "Un nuevo proyecto no puede ya tener un ID",
       "projectExtidNotFound": "ID externo del proyecto no encontrado",
       "projectCannotDeleteBySites": "No se puede eliminar, el proyecto se utiliza en uno o más sitios",
-      "projectCannotDeleteByJobOrders": "No se puede eliminar, el proyecto se utiliza en uno o más pedidos de trabajo"
+      "projectCannotDeleteByJobOrders": "No se puede eliminar, el proyecto se utiliza en uno o más pedidos de trabajo",
+      "projectCannotDeleteByJobOrderTemplates": "No se puede eliminar, el proyecto se utiliza en una o más plantillas de órdenes de trabajo",
+      "projectCannotDeleteByTaskTemplates": "No se puede eliminar, el proyecto se utiliza en una o más plantillas de tareas"
     },
     "tooltips": {
         "setupEdit": false,
@@ -12561,6 +12567,7 @@
       "fillAllRequiredFields": "Por favor, complete todos los campos requeridos",
       "selectAllFields": "Por favor, seleccione todos los campos",
       "selectOneOrMoreOptions": "Por favor, seleccione una o más opciones para completar",
+      "pleaseSelMandFormsIn": "Por favor, complete el(los) formulario(s) obligatorio(s) en",
       "pleaseFillMandatoryFormsIn": "Por favor, complete el(los) formulario(s) obligatorio(s) en",
       "beforeCompletingTheTask": "antes de completar esta tarea",
       "pleaseMakeSureSignatureClear": "Por favor, asegúrese de que la firma sea clara, ya que esta acción no se puede revertir",
@@ -21105,15 +21112,22 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
+            },
+            "whenUserClicksButton": {
+              "original": "When the user clicks the button, where should it take them?",
+              "singular": "¿A dónde debería llevarlos cuando el usuario haga clic en el botón?",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             }
           },
           "messages": {
             "firstSelectSettings": "Primero selecciona un módulo en la pestaña 'Configuraciones' para comenzar a construir tu correo electrónico",
             "includeButtonInEmail": "Incluir un botón en el correo electrónico",
             "includeTableInEmail": "Incluir una tabla en el correo electrónico",
-            "selectFieldFilter": "Seleccionar campo para filtrar",
+            "selectFieldFilter": "La tabla debería filtrar por...",
             "selectModule": "Seleccionar módulo",
-            "selectSortBy": "Seleccionar ordenar por",
+            "selectSortBy": "La tabla debería ordenar por...",
             "maximumFiveColumnsAdded": "Se pueden agregar un máximo de 5 columnas"
           }
         }
@@ -21144,6 +21158,7 @@
       "setupServiceZoneHasCustomer": "Los datos del cliente existen en el sistema para la zona de servicio",
       "setupServiceZoneHasJobOrder": "Los datos de la orden de trabajo existen en el sistema para la zona de servicio",
       "setupServiceZoneHasProject": "Los datos del proyecto existen en el sistema para la zona de servicio",
+      "setupServiceZoneHasJobOrderTemplate": "Existen datos de plantilla de órdenes de trabajo en el sistema para la zona de servicio",
       "setupGeoFenceIdExists": "Una nueva geocerca no puede ya tener un ID",
       "setupGeoFenceNotFound": "Geocerca no encontrada",
       "setupWareHouseLocationIdExists": "Una nueva ubicación de almacén no puede ya tener un ID",
@@ -21169,6 +21184,7 @@
       "setupFaultHasJobOrder": "Los datos de la orden de trabajo existen en el sistema para la falla",
       "setupFaultHasFaultMapping": "Los datos de mapeo de fallas existen en el sistema para la falla",
       "setupFaultHasFaultJobOrderMapping": "Los datos de mapeo de orden de trabajo de fallas existen en el sistema para la falla",
+      "setupFaultHasJobOrderTemplate": "Existen datos de plantilla de órdenes de trabajo en el sistema para la falla",
       "setupResolutionIdExists": "Una nueva resolución no puede ya tener un ID",
       "setupResolutionIdNotFound": "ID no encontrado",
       "setupResolutionNameExists": "El nombre ya existe",
@@ -21176,6 +21192,7 @@
       "setupResolutionHasJobOrder": "Los datos de la orden de trabajo existen en el sistema para la resolución",
       "setupResolutionHasResolutionMapping": "Los datos de mapeo de resolución existen en el sistema para la resolución",
       "setupResolutionHasResolutionJobOrderMapping": "Los datos de mapeo de orden de trabajo de resolución existen en el sistema para la resolución",
+      "setupResolutionHasJobOrderTemplate": "Existen datos de plantilla de órdenes de trabajo en el sistema para la resolución",
       "setupJobOrderStatusIdExists": "Un nuevo estado de orden de trabajo no puede ya tener un ID",
       "setupJobOrderStatusIdNotFound": "ID no encontrado",
       "setupJobOrderStatusNameNotFound": "Nombre no encontrado",
@@ -21183,9 +21200,11 @@
       "setupJobOrderStatusNameExists": "El nombre ya existe",
       "setupJobOrderStatusUnableToDeactivate": "No se permite que los estados de orden de trabajo generados por el sistema estén inactivos",
       "setupJobOrderStatusUnableToDelete": "No se permite eliminar estados de orden de trabajo generados por el sistema",
+      "setupJobOrderStatusCannotDeleteByJobOrderTemplates": "No se puede eliminar: el estado de la orden de trabajo es parte de una o más plantillas de órdenes de trabajo",
       "setupSystemCategoryIdExists": "Una nueva categoría del sistema no puede ya tener un ID",
       "setupSystemCategoryIdNotFound": "ID no encontrado",
       "setupSystemCategoryNameExists": "El nombre ya existe",
+      "setupSystemCategoryCannotDeleteByJobOrderTemplates" : "No se puede eliminar: la categoría del sistema es parte de una o más plantillas de órdenes de trabajo",
       "setupJobOrderTypeIdExists": "Un nuevo tipo de orden de trabajo no puede ya tener un ID",
       "setupJobOrderTypeIdNotFound": "ID no encontrado",
       "setupJobOrderTypeNameExists": "El nombre ya existe",
@@ -21193,6 +21212,7 @@
       "setupJobOrderTypeHasDynamicFormConfig": "Los datos de configuración de formulario dinámico existen en el sistema para el tipo de orden de trabajo",
       "setupJobOrderTypeHasJobOrder": "Los datos de la orden de trabajo existen en el sistema para el tipo de orden de trabajo",
       "setupJobOrderTypeHasCalendlyEventJobOrder": "Los datos de orden de trabajo de evento de Calendly existen en el sistema para el tipo de orden de trabajo",
+      "setupJobOrderTypeHasJobOrderTemplate": "Existen datos de plantilla de órdenes de trabajo en el sistema para el tipo de orden de trabajo",
       "setupSalesOrderConfigIdExists": "Una nueva configuración de orden de venta no puede ya tener un ID",
       "setupSalesOrderConfigIdNotFound": "ID no encontrado",
       "setupSalesOrderChannelIdExists": "Un nuevo canal de orden de venta no puede ya tener un ID",
@@ -21968,7 +21988,8 @@
       "userLeaveOverlappingWithHolidays": "Tiene vacaciones superpuestas, por favor cambie las fechas de su permiso y vuelva a intentarlo",
       "userLeaveUserWithIdNotFound": "ID de Usuario no válido",
       "userLeaveNotPermittedToEdit": "No está permitido editar este permiso",
-      "userLeaveApprovedOrRejected": "El permiso del usuario ha sido Aprobado/Rechazado"
+      "userLeaveApprovedOrRejected": "El permiso del usuario ha sido Aprobado/Rechazado",
+      "userLeaveCannotBeApprovedOrRejected": "No se permite aprobar/rechazar porque no es el gerente"
     },
     "messages": {
       "selectOutturnCode": "Seleccionar Código de Resultado",
@@ -24500,9 +24521,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",
-      "rateCardPriceBookEmpty": "La tarjeta de tarifas debe tener un libro de precios",
+      "rateCardContractEmpty": "La tarjeta de tarifas debe tener un contrato",
       "rateCardIdMismatch": "La ID de la tarjeta de tarifas no coincide",
-      "rateCardPriceBookNotFound": "Libro de precios de la tarjeta de tarifas no encontrado",
+      "rateCardContractNotFound": "Contrato no encontrado",
       "rateCardIdExists": "Una nueva tarjeta de tarifas no puede tener ya una ID"
     },
     "tooltips": {},

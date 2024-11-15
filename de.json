@@ -383,7 +383,8 @@
       "customerSubSectorHasCustomerSector": "Kundendaten für den Sektor existieren im System für den Untersektor",
       "customerPriceBookNotFound": "Kundenpreisbuch nicht gefunden",
       "customerPriceBookIdNotFound": "Kundenpreisbuch-ID nicht gefunden",
-      "customerPriceBookUpdateFailed": "Fehler beim Aktualisieren des Kundenpreisbuchs"
+      "customerPriceBookUpdateFailed": "Fehler beim Aktualisieren des Kundenpreisbuchs",
+      "customerCannotDeleteByJobOrderTemplates": "Löschen nicht möglich: Kunde ist Teil von einem oder mehreren Arbeitsauftragsvorlagen"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4393,6 +4394,7 @@
       "teamUserIdRequired": "userId ist erforderlich",
       "teamIdsRequired": "teamIds dürfen nicht null oder leer sein",
       "teamHasTask": "Aufgabendaten existieren im System für das Team",
+      "teamHasTaskTemplate": "Aufgabenvorlagendaten existieren im System für das Team",
       "teamWithIdNotFound": "Ungültige ID",
       "teamUserNotFound": "Teambenutzer nicht gefunden",
       "teamUserPositionNotFound": "Teambenutzerposition nicht gefunden",
@@ -4779,6 +4781,8 @@
       "siteHasContact": "Kontaktdaten existieren im System für den Standort",
       "siteHasTicket": "Ticketdaten existieren im System für den Standort",
       "siteHasTask": "Aufgabendaten existieren im System für den Standort",
+      "siteHasJobOrderTemplate": "Jobauftragsvorlagendaten existieren im System für den Standort",
+      "siteHasTaskTemplate": "Aufgabenvorlagendaten existieren im System für den Standort",
       "siteCustomerNotFound": "Kunde des Standorts nicht gefunden",
       "siteTypeNotFound": "Standorttyp nicht gefunden",
       "siteCategoryNotFound": "Standortkategorie nicht gefunden",
@@ -5269,7 +5273,9 @@
       "projectIdExists": "Ein neues Projekt darf bereits keine ID haben",
       "projectExtidNotFound": "Projekt ExternalId nicht gefunden",
       "projectCannotDeleteBySites": "Löschen nicht möglich, Projekt wird in einem oder mehreren Standorten verwendet",
-      "projectCannotDeleteByJobOrders": "Löschen nicht möglich, Projekt wird in einem oder mehreren Arbeitsaufträgen verwendet"
+      "projectCannotDeleteByJobOrders": "Löschen nicht möglich, Projekt wird in einem oder mehreren Arbeitsaufträgen verwendet",
+      "projectCannotDeleteByJobOrderTemplates": "Löschen nicht möglich, Projekt wird in einer oder mehreren Arbeitsauftragsvorlagen verwendet",
+      "projectCannotDeleteByTaskTemplates": "Löschen nicht möglich, Projekt wird in einer oder mehreren Aufgaben-Vorlagen verwendet"
     },
     "tooltips": {
       "setupEdit": false,
@@ -10423,7 +10429,8 @@
       "contactNameNotFound": "Name darf nicht leer sein",
       "contactEmailNotFound": "E-Mail darf nicht leer sein",
       "contactUserNameNotFound": "Benutzername darf nicht leer sein",
-      "contactExtIdNotFound": "ExternalId nicht gefunden"
+      "contactExtIdNotFound": "ExternalId nicht gefunden",
+      "contactHasSalesOrder": "Verkaufsauftragsdaten sind im System für den Kontakt vorhanden"
     },
     "messages": {
       "searchContact": "Kontakt suchen",
@@ -12558,6 +12565,7 @@
       "fillAllRequiredFields": "Bitte füllen Sie alle erforderlichen Felder aus.",
       "selectAllFields": "Bitte wählen Sie alle Felder aus.",
       "selectOneOrMoreOptions": "Bitte wählen Sie eine oder mehrere Optionen aus, um fortzufahren.",
+      "pleaseSelMandFormsIn": "Bitte füllen Sie die Pflichtformulare in",
       "pleaseFillMandatoryFormsIn": "Bitte füllen Sie die Pflichtformulare in",
       "beforeCompletingTheTask": "vor Abschluss dieser Aufgabe.",
       "pleaseMakeSureSignatureClear": "Bitte stellen Sie sicher, dass die Unterschrift deutlich ist, da diese Aktion nicht rückgängig gemacht werden kann.",
@@ -21102,15 +21110,22 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
+            },
+            "whenUserClicksButton": {
+              "original": "When the user clicks the button, where should it take them?",
+              "singular": "Wohin soll der Benutzer gelangen, wenn er auf die Schaltfläche klickt?",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             }
           },
           "messages": {
             "firstSelectSettings": "Wählen Sie zuerst ein Modul im Tab 'Einstellungen', um mit dem Erstellen Ihrer E-Mail zu beginnen.",
             "includeButtonInEmail": "Fügen Sie einen Button in die E-Mail ein.",
             "includeTableInEmail": "Fügen Sie eine Tabelle in die E-Mail ein.",
-            "selectFieldFilter": "Feld zum Filtern auswählen.",
+            "selectFieldFilter": "Tabelle sollte filtern nach...",
             "selectModule": "Modul auswählen.",
-            "selectSortBy": "Sortieren nach auswählen.",
+            "selectSortBy": "Tabelle sollte sortieren nach...",
             "maximumFiveColumnsAdded": "Es können maximal 5 Spalten hinzugefügt werden"
           }
         }
@@ -21141,6 +21156,7 @@
       "setupServiceZoneHasCustomer": "Kundendaten existieren im System für die Servicezone.",
       "setupServiceZoneHasJobOrder": "Auftragsdaten existieren im System für die Servicezone.",
       "setupServiceZoneHasProject": "Projektdaten existieren im System für die Servicezone.",
+      "setupServiceZoneHasJobOrderTemplate": "Jobauftragsvorlagendaten existieren im System für die Servicezone.",
       "setupGeoFenceIdExists": "Ein neuer Geo-Zaun kann bereits keine ID haben.",
       "setupGeoFenceNotFound": "Geo-Zaun nicht gefunden.",
       "setupWareHouseLocationIdExists": "Ein neuer Lagerstandort kann bereits keine ID haben.",
@@ -21166,6 +21182,7 @@
       "setupFaultHasJobOrder": "Auftragsdaten existieren im System für den Fehler.",
       "setupFaultHasFaultMapping": "Fehlerzuordnungsdaten existieren im System für den Fehler.",
       "setupFaultHasFaultJobOrderMapping": "Fehler-Auftragszuordnungsdaten existieren im System für den Fehler.",
+      "setupFaultHasJobOrderTemplate": "Jobauftragsvorlagendaten existieren im System für den Fehler.",
       "setupResolutionIdExists": "Eine neue Lösung kann bereits keine ID haben.",
       "setupResolutionIdNotFound": "ID nicht gefunden.",
       "setupResolutionNameExists": "Name existiert bereits.",
@@ -21173,6 +21190,7 @@
       "setupResolutionHasJobOrder": "Auftragsdaten existieren im System für die Lösung.",
       "setupResolutionHasResolutionMapping": "Zuweisungsdaten zur Lösung existieren im System für die Lösung.",
       "setupResolutionHasResolutionJobOrderMapping": "Zuweisungsdaten zur Auftragszuordnung existieren im System für die Lösung.",
+      "setupResolutionHasJobOrderTemplate": "Jobauftragsvorlagendaten existieren im System für die Lösung.",
       "setupJobOrderStatusIdExists": "Ein neuer Auftragsstatus kann bereits keine ID haben.",
       "setupJobOrderStatusIdNotFound": "ID nicht gefunden.",
       "setupJobOrderStatusNameNotFound": "Name nicht gefunden.",
@@ -21180,9 +21198,11 @@
       "setupJobOrderStatusNameExists": "Name existiert bereits.",
       "setupJobOrderStatusUnableToDeactivate": "Systemgenerierte Auftragsstatus dürfen nicht inaktiv sein.",
       "setupJobOrderStatusUnableToDelete": "Systemgenerierte Auftragsstatus dürfen nicht gelöscht werden.",
+      "setupJobOrderStatusCannotDeleteByJobOrderTemplates": "Löschen nicht möglich: Der Status des Arbeitsauftrags ist Teil von einer oder mehreren Arbeitsauftragsvorlagen.",
       "setupSystemCategoryIdExists": "Eine neue Systemkategorie kann bereits keine ID haben.",
       "setupSystemCategoryIdNotFound": "ID nicht gefunden.",
       "setupSystemCategoryNameExists": "Name existiert bereits.",
+      "setupSystemCategoryCannotDeleteByJobOrderTemplates" : "Löschen nicht möglich: Die Systemkategorie ist Teil von einer oder mehreren Arbeitsauftragsvorlagen.",
       "setupJobOrderTypeIdExists": "Ein neuer Auftragstyp kann bereits keine ID haben.",
       "setupJobOrderTypeIdNotFound": "ID nicht gefunden.",
       "setupJobOrderTypeNameExists": "Name existiert bereits.",
@@ -21190,6 +21210,7 @@
       "setupJobOrderTypeHasDynamicFormConfig": "Daten zur dynamischen Formular-Konfiguration existieren im System für den Auftragstyp.",
       "setupJobOrderTypeHasJobOrder": "Auftragsdaten existieren im System für den Auftragstyp.",
       "setupJobOrderTypeHasCalendlyEventJobOrder": "Daten zu Calendly-Ereignis-Aufträgen existieren im System für den Auftragstyp.",
+      "setupJobOrderTypeHasJobOrderTemplate": "Jobauftragsvorlagendaten existieren im System für den Arbeitsauftragstyp.",
       "setupSalesOrderConfigIdExists": "Eine neue Verkaufsauftragskonfiguration kann bereits keine ID haben.",
       "setupSalesOrderConfigIdNotFound": "ID nicht gefunden.",
       "setupSalesOrderChannelIdExists": "Ein neuer Verkaufsauftragskanal kann bereits keine ID haben.",
@@ -21965,7 +21986,8 @@
       "userLeaveOverlappingWithHolidays": "Sie haben sich überschneidende Feiertage, bitte ändern Sie Ihre Abwesenheitsdaten und versuchen Sie es erneut",
       "userLeaveUserWithIdNotFound": "Ungültige Benutzer-ID",
       "userLeaveNotPermittedToEdit": "Sie dürfen diesen Urlaub nicht bearbeiten",
-      "userLeaveApprovedOrRejected": "Urlaub des Benutzers wurde genehmigt/abgelehnt"
+      "userLeaveApprovedOrRejected": "Urlaub des Benutzers wurde genehmigt/abgelehnt",
+      "userLeaveCannotBeApprovedOrRejected": "Sie sind nicht der Manager und können daher nicht genehmigen/ablehnen"
     },
     "messages": {
       "selectOutturnCode": "Wählen Sie den Ausgabecode",
@@ -24497,9 +24519,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Ratekarte  nicht gefunden",
-      "rateCardPriceBookEmpty": "Ratekarte  sollte ein Preisbuch haben",
+      "rateCardContractEmpty": "Ratekarte sollte einen Vertrag haben",
       "rateCardIdMismatch": "Ratekarte-ID stimmt nicht überein",
-      "rateCardPriceBookNotFound": "Ratekarten-Preisbuch nicht gefunden",
+      "rateCardContractNotFound": "Vertrag nicht gefunden",
       "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben"
     },
     "tooltips": {},
