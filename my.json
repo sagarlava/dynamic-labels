@@ -4133,6 +4133,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "totalDistance": {
+        "original": "Total Distance",
+        "singular": "Jarak Keseluruhan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Masa Keseluruhan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "Jumlah Masa Dihabiskan",

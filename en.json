@@ -4133,6 +4133,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "totalDistance": {
+        "original": "Total Distance",
+        "singular": "Total Distance",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Total Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "Total Time Spent",
