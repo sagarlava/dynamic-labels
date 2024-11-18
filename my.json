@@ -1668,6 +1668,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenanceNumber": {
+        "original": "Maintenance No",
+        "singular": "Nombor Penyelenggaraan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "scheduledDateTime": {
         "original": "Scheduled Date",
         "singular": "Tarikh Jadual",

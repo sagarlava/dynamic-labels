@@ -1668,6 +1668,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenanceNumber": {
+        "original": "Maintenance No",
+        "singular": "Wartungsnummer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "scheduledDateTime": {
         "original": "Scheduled Date",
         "singular": "Geplantes Datum",

@@ -1668,6 +1668,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenanceNumber": {
+        "original": "Maintenance No",
+        "singular": "维修编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "scheduledDateTime": {
         "original": "Scheduled Date",
         "singular": "计划日期",
