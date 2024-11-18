@@ -1669,7 +1669,7 @@
         "setupVisible": false
       },
       "maintenanceNumber": {
-        "original": "Maintenance No",
+        "original": "Maintenance No.",
         "singular": "Nombor Penyelenggaraan",
         "plural": "",
         "setupEdit": false,

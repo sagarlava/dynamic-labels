@@ -1669,8 +1669,8 @@
         "setupVisible": false
       },
       "maintenanceNumber": {
-        "original": "Maintenance No",
-        "singular": "Maintenance No",
+        "original": "Maintenance No.",
+        "singular": "Maintenance No.",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

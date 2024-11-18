@@ -1670,7 +1670,7 @@
       },
       "maintenanceNumber": {
         "original": "Maintenance No",
-        "singular": "Maintenance No",
+        "singular": "Maintenance No.",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
