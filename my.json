@@ -15234,36 +15234,36 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "1. Notification Details",
-            "singular": "1. Butiran Notifikasi",
+            "original": "Email Notification Details",
+            "singular": "Butiran Notifikasi E-mel",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
-            "original": "2. What the notification will include",
-            "singular": "2. Kandungan notifikasi",
+            "original": "1. Email to be sent",
+            "singular": "1. E-mel untuk dihantar",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
-            "original": "Send as App Notification",
-            "singular": "Hantar sebagai Notifikasi Aplikasi",
+            "original": "2. Who will receive the app notification",
+            "singular": "2. Siapa yang akan menerima notifikasi aplikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
-            "original": "Send as Email Notification",
-            "singular": "Hantar sebagai Notifikasi E-mel",
+            "original": "2. Who will receive the email",
+            "singular": "2. Siapa yang akan menerima e-mel",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "3. Who will receive the notification",
-            "singular": "3. Siapa yang akan menerima notifikasi",
+            "original": "App Notification Details",
+            "singular": "Butiran Pemberitahuan Aplikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15313,6 +15313,27 @@
           "sec11": {
             "original": "Confirm Action Removal",
             "singular": "Sahkan Pembuangan Tindakan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "In-App",
+            "singular": "Dalam Aplikasi",
+            "plural": "Dalam Aplikasi",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Email",
+            "singular": "E-mel",
+            "plural": "E-mel",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "1. Message to be sent",
+            "singular": "1. Mesej untuk dihantar",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15396,6 +15417,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "emailInField": {
+            "original": "Email in Field",
+            "singular": "E-mel dalam Medan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -15411,11 +15439,14 @@
         },
         "messages": {
           "notificationsAllowNotify": "Notifikasi membolehkan anda memberi amaran kepada pengguna tentang tindakan penting dalam FieldEx, seperti kemas kini atau tugasan. Anda boleh menghantar amaran ini dalam aplikasi atau melalui e-mel. Gunakan aliran kerja untuk menetapkan dan mengawal bila notifikasi dihantar.",
-          "fillNotificationDetails": "Isi butiran notifikasi anda dengan nama dan deskripsi. Ini akan kelihatan kepada semua pengguna dalam keutamaan notifikasi mereka.",
+          "fillEmailNotificationDetails":"Isi butiran pemberitahuan e-mel anda dengan nama dan deskripsi.",
+          "fillAppNotificationDetails":"Isi butiran pemberitahuan aplikasi anda dengan nama dan deskripsi.",
           "typeOutMessage": "Tulis mesej anda, pilih medan yang hendak dimasukkan, dan salin teks yang ditunjukkan ke dalam kotak mesej di sebelah kiri.",
           "selectWhereLikeNotificationNavigate": "Pilih tempat notifikasi harus dipautkan.",
+          "textWithinCurly":"Nota: Teks dalam kurungan kerinting ({{}}) akan digantikan dengan nilai medan sebenar apabila pemberitahuan dihantar.",
           "selectEmailTemplate": "Pilih templat e-mel yang anda ingin gunakan untuk notifikasi ini.",
-          "defineRecipients": "Pilih siapa yang akan menerima notifikasi ini dengan memilih pengguna individu, kumpulan, alamat e-mel tertentu, atau kenalan daripada medan (contohnya, e-mel kenalan pesanan kerja).",
+          "defineEmailRecipients":"Pilih siapa yang akan menerima e-mel ini dengan memilih pengguna sistem, alamat e-mel tertentu, atau kenalan dari medan (contohnya, e-mel kenalan pesanan kerja).",
+          "defineAppRecipients":"Pilih siapa yang akan menerima e-mel ini dengan memilih pengguna sistem atau kumpulan.",
           "makeKeyDataBold": "Jadikan data penting tebal.",
           "createEmailTemplate": "Buat Templat E-mel.",
           "selectModule": "Pilih Modul",

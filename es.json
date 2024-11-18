@@ -15247,36 +15247,36 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "Notification Details",
-            "singular": "Detalles de la Notificación",
+            "original": "Email Notification Details",
+            "singular": "Detalles de la Notificación por Correo Electrónico",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
-            "original": "1. What the notification will contain",
-            "singular": "1. Qué contendrá la notificación",
+            "original": "1. Email to be sent",
+            "singular": "1. Correo electrónico a enviar",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
-            "original": "Send as App Notification",
-            "singular": "Enviar como Notificación de la App",
+            "original": "2. Who will receive the app notification",
+            "singular": "2. Quién recibirá la notificación de la aplicación",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
-            "original": "Send as Email Notification",
-            "singular": "Enviar como Notificación por Correo Electrónico",
+            "original": "2. Who will receive the email",
+            "singular": "2. Quién recibirá el correo electrónico",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "2. Who will receive the notification",
-            "singular": "2. Quién recibirá la notificación",
+            "original": "App Notification Details",
+            "singular": "Detalles de la Notificación en la Aplicación",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15326,6 +15326,27 @@
           "sec11": {
             "original": "Confirm Action Removal",
             "singular": "Confirmar Eliminación de Acción",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "In-App",
+            "singular": "En la aplicación",
+            "plural": "En la aplicación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Email",
+            "singular": "Correo electrónico",
+            "plural": "Correo electrónicos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "1. Message to be sent",
+            "singular": "1. Mensaje a enviar",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15409,6 +15430,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "emailInField": {
+            "original": "Email in Field",
+            "singular": "Correo electrónico en el campo",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -15424,11 +15452,14 @@
         },
         "messages": {
           "notificationsAllowNotify": "Las notificaciones te permiten informar a los usuarios sobre actividades específicas en FieldEx, como actualizaciones y asignaciones, tanto dentro de la aplicación como en notificaciones por correo electrónico. Crea flujos de trabajo para activar tus notificaciones y configúralas para que se ajusten a tu proceso empresarial.",
-          "fillNotificationDetails": "Completa los detalles de tu notificación con un nombre y una descripción. Esto será visible para todos los usuarios en sus preferencias de notificación.",
+          "fillEmailNotificationDetails":"Complete los detalles de su notificación por correo electrónico con un nombre y una descripción.",
+          "fillAppNotificationDetails":"Complete los detalles de su notificación en la aplicación con un nombre y una descripción.",
           "typeOutMessage": "Escribe tu mensaje, selecciona los campos que deseas incluir y copia el texto mostrado en el cuerpo del mensaje a la izquierda.",
           "selectWhereLikeNotificationNavigate": "Selecciona a dónde te gustaría que la notificación navegara y si deseas que la información clave esté en negrita.",
+          "textWithinCurly":"Nota: El texto dentro de las llaves ({{}}) será reemplazado por los valores reales de los campos cuando se envíe la notificación",
           "selectEmailTemplate": "Selecciona la plantilla de correo electrónico que te gustaría enviar para esta notificación.",
-          "defineRecipients": "Define los destinatarios de esta notificación especificando usuarios individuales o grupos de usuarios.",
+          "defineEmailRecipients":"Elija quién recibirá este correo electrónico seleccionando usuarios del sistema, direcciones de correo electrónico específicas o contactos de campos (por ejemplo, el correo electrónico de contacto de una orden de trabajo).",
+          "defineAppRecipients":"Elija quién recibirá este correo electrónico seleccionando usuarios del sistema o grupos.",
           "makeKeyDataBold": "Haz que los datos clave estén en negrita.",
           "createEmailTemplate": "Crear una plantilla de correo electrónico.",
           "selectModule": "Seleccionar módulo.",

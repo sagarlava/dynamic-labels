@@ -15245,36 +15245,36 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "Notification Details",
-            "singular": "Benachrichtigungsdetails",
+            "original": "Email Notification Details",
+            "singular": "E-Mail-Benachrichtigungsdetails",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
-            "original": "1. What the notification will contain",
-            "singular": "1. Was die Benachrichtigung enthalten wird",
+            "original": "1. Email to be sent",
+            "singular": "1. Zu sendende E-Mail",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
-            "original": "Send as App Notification",
-            "singular": "Als App-Benachrichtigung senden",
+            "original": "2. Who will receive the app notification",
+            "singular": "2. Wer wird die App-Benachrichtigung erhalten",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
-            "original": "Send as Email Notification",
-            "singular": "Als E-Mail-Benachrichtigung senden",
+            "original": "2. Who will receive the email",
+            "singular": "2. Wer erhält die E-Mail",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "2. Who will receive the notification",
-            "singular": "2. Wer die Benachrichtigung erhält",
+            "original": "App Notification Details",
+            "singular": "App-Benachrichtigungsdetails",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15324,6 +15324,27 @@
           "sec11": {
             "original": "Confirm Action Removal",
             "singular": "Entfernung der Aktion bestätigen",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "In-App",
+            "singular": "In-App",
+            "plural": "In-App",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Email",
+            "singular": "E-Mail",
+            "plural": "E-Mails",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "1. Message to be sent",
+            "singular": "1. Zu sendende Nachricht",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15407,6 +15428,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "emailInField": {
+            "original": "Email in Field",
+            "singular": "E-Mail im Feld",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -15422,11 +15450,14 @@
         },
         "messages": {
           "notificationsAllowNotify": "Benachrichtigungen ermöglichen es Ihnen, Benutzer über spezifische Aktivitäten in FieldEx zu informieren, wie z. B. Updates und Zuweisungen, sowohl innerhalb der App als auch als E-Mail-Benachrichtigungen. Erstellen Sie Workflows, um Ihre Benachrichtigungen auszulösen und konfigurieren Sie diese, um Ihren Geschäftsprozessen gerecht zu werden.",
-          "fillNotificationDetails": "Füllen Sie die Details Ihrer Benachrichtigung mit einem Namen und einer Beschreibung aus. Dies wird für alle Benutzer in ihren Benachrichtigungseinstellungen sichtbar sein.",
+          "fillEmailNotificationDetails":"Füllen Sie die Details Ihrer E-Mail-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
+          "fillAppNotificationDetails":"Füllen Sie die Details Ihrer App-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
           "typeOutMessage": "Geben Sie Ihre Nachricht ein, wählen Sie die Felder aus, die Sie einfügen möchten, und kopieren Sie den angezeigten Text in den Nachrichteninhalt links.",
           "selectWhereLikeNotificationNavigate": "Wählen Sie, wohin die Benachrichtigung navigieren soll und ob Sie wichtige Informationen fett gedruckt haben möchten.",
+          "textWithinCurly":"Hinweis: Der Text in den geschweiften Klammern ({{}}) wird beim Senden der Benachrichtigung durch die tatsächlichen Feldwerte ersetzt.",
           "selectEmailTemplate": "Wählen Sie die E-Mail-Vorlage aus, die für diese Benachrichtigung versendet werden soll.",
-          "defineRecipients": "Definieren Sie die Empfänger dieser Benachrichtigung, indem Sie einzelne Benutzer oder Benutzergruppen angeben.",
+          "defineEmailRecipients":"Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer, spezifische E-Mail-Adressen oder Kontakte aus Feldern auswählen (z. B. die Kontakt-E-Mail eines Arbeitsauftrags).",
+          "defineAppRecipients":"Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer oder Gruppen auswählen.",
           "makeKeyDataBold": "Wichtige Daten fett formatieren",
           "createEmailTemplate": "E-Mail-Vorlage erstellen",
           "selectModule": "Modul auswählen",

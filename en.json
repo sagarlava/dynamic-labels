@@ -15249,36 +15249,36 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "1. Notification Details",
-            "singular": "1. Notification Details",
+            "original": "Email Notification Details",
+            "singular": "Email Notification Details",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
-            "original": "2. What the notification will include",
-            "singular": "2. What the notification will include",
+            "original": "1. Email to be sent",
+            "singular": "1. Email to be sent",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
-            "original": "Send as App Notification",
-            "singular": "Send as App Notification",
+            "original": "2. Who will receive the app notification",
+            "singular": "2. Who will receive the app notification",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
-            "original": "Send as Email Notification",
-            "singular": "Send as Email Notification",
+            "original": "2. Who will receive the email",
+            "singular": "2. Who will receive the email",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "3. Who will receive the notification",
-            "singular": "3. Who will receive the notification",
+            "original": "App Notification Details",
+            "singular": "App Notification Details",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15328,6 +15328,27 @@
           "sec11": {
             "original": "Confirm Action Removal",
             "singular": "Confirm Action Removal",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "In-App",
+            "singular": "In-App",
+            "plural": "In-App",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Email",
+            "singular": "Email",
+            "plural": "Emails",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "1. Message to be sent",
+            "singular": "1. Message to be sent",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15411,6 +15432,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "emailInField": {
+            "original": "Email in Field",
+            "singular": "Email in Field",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -15426,11 +15454,14 @@
         },
         "messages":{
           "notificationsAllowNotify":"Notifications let you alert users about important actions in FieldEx, like updates or assignments. You can send these alerts in the app or by email. Use workflows to set up and control when notifications are sent.",
-          "fillNotificationDetails":"Fill in your notification details with a name and description. This will be visible to all users in their notification preferences.",
+          "fillEmailNotificationDetails":"Fill in your email notification details with a name and description.",
+          "fillAppNotificationDetails":"Fill in your app notification details with a name and description.",
           "typeOutMessage":"Write your message, choose the fields to include, and copy the shown text into the message box on the left.",
           "selectWhereLikeNotificationNavigate":"Pick where the notification should link to.",
+          "textWithinCurly":"Note: The text within the curly braces ({{}}) will be replaced by the actual field values when the notification is sent",
           "selectEmailTemplate":"Choose the email template you want to use for this notification.",
-          "defineRecipients":"Choose who will receive this notification by selecting individual users, groups, specific email addresses, or contacts from fields (e.g. a job order's contact email)",
+          "defineEmailRecipients":"Choose who will receive this email by selecting system users, specific email addresses, or contacts from fields (e.g. a job order's contact email)",
+          "defineAppRecipients":"Choose who will receive this email by selecting system users or groups",
           "makeKeyDataBold":"Make key data bold",
           "createEmailTemplate":"Create an Email Template",
           "selectModule":"Select Module",

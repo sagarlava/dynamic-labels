@@ -15248,36 +15248,36 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "1. Notification Details",
-            "singular": "1. 通知详情",
+            "original": "Email Notification Details",
+            "singular": "电子邮件通知详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
-            "original": "2. What the notification will include",
-            "singular": "2. 通知内容",
+            "original": "1. Email to be sent",
+            "singular": "1. 要发送的电子邮件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
-            "original": "Send as App Notification",
-            "singular": "发送为应用通知",
+            "original": "2. Who will receive the app notification",
+            "singular": "2. 谁将收到应用通知",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
-            "original": "Send as Email Notification",
-            "singular": "发送为电子邮件通知",
+            "original": "2. Who will receive the email",
+            "singular": "2. 谁会收到电子邮件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "3. Who will receive the notification",
-            "singular": "3. 谁将收到通知",
+            "original": "App Notification Details",
+            "singular": "应用通知详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15327,6 +15327,27 @@
           "sec11": {
             "original": "Confirm Action Removal",
             "singular": "确认移除操作",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "In-App",
+            "singular": "应用内",
+            "plural": "应用内",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Email",
+            "singular": "电子邮件",
+            "plural": "电子邮件",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "1. Message to be sent",
+            "singular": "1. 要发送的消息",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15410,6 +15431,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "emailInField": {
+            "original": "Email in Field",
+            "singular": "字段中的电子邮件",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -15425,11 +15453,14 @@
         },
         "messages": {
           "notificationsAllowNotify": "通知可让您提醒用户有关 FieldEx 中的重要操作，如更新或分配。您可以在应用程序中或通过电子邮件发送这些警报。使用工作流设置和控制何时发送通知。",
-          "fillNotificationDetails": "填写您的通知详情，包括名称和描述。这将对所有用户在其通知偏好中可见。",
+          "fillEmailNotificationDetails":"填写您的电子邮件通知详细信息，包括名称和描述。",
+          "fillAppNotificationDetails":"填写您的应用内通知详细信息，包括名称和描述。",
           "typeOutMessage": "写下您的消息，选择要包含的字段，并将显示的文本复制到左侧的消息框中。",
           "selectWhereLikeNotificationNavigate": "选择通知应链接到的位置。",
+          "textWithinCurly":"注意：花括号（{{}}）中的文本将在发送通知时替换为实际的字段值",
           "selectEmailTemplate": "选择您想要用于此通知的电子邮件模板。",
-          "defineRecipients": "通过选择个人用户、群组、特定电子邮件地址或字段中的联系人（例如工作订单的联系人电子邮件），选择谁将收到此通知。",
+          "defineEmailRecipients":"通过选择系统用户、特定电子邮件地址或字段中的联系人（例如工单的联系人电子邮件）来选择谁将收到此电子邮件。",
+          "defineAppRecipients":"通过选择系统用户或组来选择谁将收到此电子邮件。",
           "makeKeyDataBold": "使关键信息加粗。",
           "createEmailTemplate": "创建电子邮件模板。",
           "selectModule": "选择模块",
