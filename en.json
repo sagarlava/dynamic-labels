@@ -12979,6 +12979,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },

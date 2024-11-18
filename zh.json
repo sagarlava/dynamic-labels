@@ -12978,6 +12978,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },

@@ -12964,6 +12964,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "Tarikh",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },
