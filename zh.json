@@ -988,7 +988,16 @@
       "assetFloorNotFound": "未找到资产楼层",
       "assetRoomNotFound": "未找到资产房间",
       "assetCustodianNotFound": "未找到资产保管人",
-      "assetSiteNotFound": "未找到资产地点"
+      "assetSiteNotFound": "未找到资产地点",
+      "assetCategoryNotFound": "找不到资产类别",
+      "assetSubCategoryNotFound": "找不到资产子类别",
+      "assetCategoryExists": "资产类别已存在",
+      "assetCategorySystemGenerated": "系统生成的资产类别不允许删除",
+      "assetCategoryCannotDeleteByAssetSubCategory": "无法删除：资产类别在一个或多个资产子类别中使用",
+      "assetSubCategoryExists": "资产子类别已存在",
+      "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
+      "assetCategoryIdExists": "新资产类别不能已经有ID",
+      "assetSubCategoryIdExists": "新资产子类别不能已经有ID"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1932,6 +1941,7 @@
       "preventativeFrequencyIdExists": "新预防频率不能已有ID",
       "preventativeMaintenanceFrequencyIdExists": "新预防性维护频率不能已有ID",
       "preventativeMaintenanceTemplateIdExists": "新预防性维护模板不能已有ID",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "系统中存在预防性维护模板的预防性维护频率数据",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "系统中存在预防性维护模板的预防性维护频率数据"
     },
     "tooltips": {
@@ -4315,13 +4325,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "taskLookup": {
-        "original": "Task Lookup",
-        "singular": "任务查询",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "allUsers": {
         "original": "All Users",
         "singular": "所有用户",
@@ -4544,6 +4547,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "taskLookup": {
+        "original": "Task Lookup",
+        "singular": "任务查询",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -4612,7 +4622,11 @@
       "officeAddrNotSet": "未设置办公地址",
       "selectOwner": "请至少选择1个所有者",
       "maxUsersTask": "一个任务最多允许5个用户",
-      "additionalMembers": "附加成员"
+      "additionalMembers": "附加成员",
+      "removeMember": "移除成员",
+      "areYouSureWantToRemoveMember": "您确定要移除该成员吗？",
+      "changeOwner": "更改所有者",
+      "areYouSureWantToMakeOwner": "您确定要更改所有者吗？"
     }
   },
   "site": {
@@ -9871,7 +9885,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "资产序列号查询",
@@ -10219,7 +10233,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "资产序列号查询",
@@ -12050,6 +12064,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "createNewEmailNotification": {
+        "original": "Create a New Email Notification",
+        "singular": "创建新的电子邮件通知",
+        "plural": "创建新的电子邮件通知",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "createNewAppNotification": {
+        "original": "Create a New App Notification",
+        "singular": "创建新的应用程序通知",
+        "plural": "创建新的应用程序通知",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "workflowAction": {
         "original": "Workflow Actions",
         "singular": "工作流程操作",
@@ -12116,6 +12144,20 @@
       "proceedAnyway":{
         "original": "Proceed anyway",
         "singular": "无论如何继续",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEmailNotification":{
+        "original": "Add Email Notification",
+        "singular": "添加电子邮件通知",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addAppNotification":{
+        "original": "Add App Notification",
+        "singular": "添加应用程序通知",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -12773,7 +12815,7 @@
     },
     "location": {
       "endDateExceeds": "结束日期不应超过开始日期",
-      "proceedAnyway": "仍然继续"
+      "proceednyway": "仍然继续"
     },
     "locationDetails": {
       "setupVisible": false,

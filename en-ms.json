@@ -4610,7 +4610,11 @@
       "selectOwner": "Please select at least 1 owner",
       "maxUsersTask": "Maximum of 5 users in a Task is allowed",
       "noTasksAssigned":"No Task Assigned",
-      "additionalMembers": "Additional Members"
+      "additionalMembers": "Additional Members",
+      "removeMember":"Remove Member",
+      "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
+      "changeOwner":"Change Owner",
+      "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?"
     }
   },
   "site": {

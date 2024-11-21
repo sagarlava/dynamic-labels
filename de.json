@@ -988,7 +988,16 @@
         "assetFloorNotFound": "Anlagenebene nicht gefunden",
         "assetRoomNotFound": "Anlagenraum nicht gefunden",
         "assetCustodianNotFound": "Anlagenverwalter nicht gefunden",
-        "assetSiteNotFound": "Anlagenstandort nicht gefunden"
+        "assetSiteNotFound": "Anlagenstandort nicht gefunden",
+        "assetCategoryNotFound": "Asset-Kategorie nicht gefunden",
+        "assetSubCategoryNotFound": "Asset-Unterkategorie nicht gefunden",
+        "assetCategoryExists": "Asset-Kategorie existiert bereits",
+        "assetCategorySystemGenerated": "Systemgenerierte Asset-Kategorien dürfen nicht gelöscht werden",
+        "assetCategoryCannotDeleteByAssetSubCategory": "Löschen nicht möglich: Asset-Kategorie wird in einer oder mehreren Asset-Unterkategorien verwendet",
+        "assetSubCategoryExists": "Asset-Unterkategorie existiert bereits",
+        "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
+        "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
+        "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben"        
       },
       "tooltips": {
         "setupVisible": false,
@@ -1932,6 +1941,7 @@
       "preventativeFrequencyIdExists": "Eine neue präventive Frequenz kann nicht bereits eine ID haben",
       "preventativeMaintenanceFrequencyIdExists": "Eine neue präventive Wartungshäufigkeit kann nicht bereits eine ID haben",
       "preventativeMaintenanceTemplateIdExists": "Eine neue präventive Wartungsvorlage kann nicht bereits eine ID haben",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Daten zur präventiven Wartungshäufigkeit sind im System für die präventive Wartungsvorlage vorhanden",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Daten zur präventiven Wartungshäufigkeit sind im System für die präventive Wartungsvorlage vorhanden"
     },
     "tooltips": {
@@ -2201,45 +2211,45 @@
         "plural": "Vertragsnummern",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "validationFE": {},
-      "validationBE": {
-        "contractNotFound": "Vertrag nicht gefunden",
-        "contractHasMaintenance": "Wartungsdaten existieren im System für den Vertrag",
-        "contractCustomerNotFound": "Vertragskunde nicht gefunden",
-        "contractStatusNotFound": "Ungültiger Vertragsstatus",
-        "contractAssetsNotFound": "Vertragsvermögen nicht gefunden",
-        "contractTableSetupNotFound": "Vertragstabelle nicht gefunden, bitte wenden Sie sich an den Support",
-        "contractContactNotFound": "Vertragskontakt nicht gefunden",
-        "contractIdNotFound": "ID nicht gefunden",
-        "contractIdExists": "Ein neuer Vertrag kann bereits keine ID haben",
-        "contractPriceBookNotFound": "Vertragspreisbuch nicht gefunden",
-        "contractPriceBookIdNotFound": "Vertragspreisbuch-ID nicht gefunden",
-        "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs"
-      },
-      "tooltips": {
-        "setupVisible": false,
-        "setupEdit": false,
-        "contractLookup": {
-          "original": "Contracts Lookup",
-          "singular": "Vertragsübersicht",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "messages": {
-        "pleaseSelectAccessoryName": "Bitte wählen Sie einen Zubehörnamen aus",
-        "selectCustomerFirst": "Wählen Sie zuerst einen Kunden aus",
-        "contractItems": "Vertragsartikel",
-        "contractItem": "Vertragsartikel",
-        "errorFetchingAllContractItems": "Fehler beim Abrufen aller Vertragsartikel.",
-        "errorFetchingContractData": "Fehler beim Abrufen der Vertragsdaten",
-        "selectedQtyGreater": "Die ausgewählte 'Menge' ist größer als die 'verfügbare Menge'",
-        "removeItems": "Entfernen Sie die Artikel, die zurückgegeben werden müssen",
-        "pleaseSelectAssetName": "Bitte wählen Sie einen Assetnamen aus",
-        "qtyGreaterThanZero": "Die Menge sollte größer als 0 sein"
       }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "contractNotFound": "Vertrag nicht gefunden",
+      "contractHasMaintenance": "Wartungsdaten existieren im System für den Vertrag",
+      "contractCustomerNotFound": "Vertragskunde nicht gefunden",
+      "contractStatusNotFound": "Ungültiger Vertragsstatus",
+      "contractAssetsNotFound": "Vertragsvermögen nicht gefunden",
+      "contractTableSetupNotFound": "Vertragstabelle nicht gefunden, bitte wenden Sie sich an den Support",
+      "contractContactNotFound": "Vertragskontakt nicht gefunden",
+      "contractIdNotFound": "ID nicht gefunden",
+      "contractIdExists": "Ein neuer Vertrag kann bereits keine ID haben",
+      "contractPriceBookNotFound": "Vertragspreisbuch nicht gefunden",
+      "contractPriceBookIdNotFound": "Vertragspreisbuch-ID nicht gefunden",
+      "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "contractLookup": {
+        "original": "Contracts Lookup",
+        "singular": "Vertragsübersicht",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "pleaseSelectAccessoryName": "Bitte wählen Sie einen Zubehörnamen aus",
+      "selectCustomerFirst": "Wählen Sie zuerst einen Kunden aus",
+      "contractItems": "Vertragsartikel",
+      "contractItem": "Vertragsartikel",
+      "errorFetchingAllContractItems": "Fehler beim Abrufen aller Vertragsartikel.",
+      "errorFetchingContractData": "Fehler beim Abrufen der Vertragsdaten",
+      "selectedQtyGreater": "Die ausgewählte 'Menge' ist größer als die 'verfügbare Menge'",
+      "removeItems": "Entfernen Sie die Artikel, die zurückgegeben werden müssen",
+      "pleaseSelectAssetName": "Bitte wählen Sie einen Assetnamen aus",
+      "qtyGreaterThanZero": "Die Menge sollte größer als 0 sein"
     }
   },
   "contractMaintenance": {
@@ -4610,7 +4620,12 @@
       "selectOwner": "Bitte wählen Sie mindestens 1 Eigentümer aus",
       "maxUsersTask": "Maximal 5 Benutzer in einer Aufgabe sind erlaubt",
       "noTasksAssigned": "Keine Aufgabe zugewiesen",
-      "additionalMembers": "Zusätzliche Mitglieder"
+      "additionalMembers": "Zusätzliche Mitglieder",
+      "removeMember": "Mitglied entfernen",
+      "areYouSureWantToRemoveMember": "Sind Sie sicher, dass Sie das Mitglied entfernen möchten?",
+      "changeOwner": "Eigentümer ändern",
+      "areYouSureWantToMakeOwner": "Sind Sie sicher, dass Sie den Eigentümer ändern möchten?"
+      
 
     }
   },
@@ -9870,7 +9885,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Nachschlagen der Asset-Seriennummer",
@@ -12049,6 +12064,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "createNewEmailNotification": {
+        "original": "Create a New Email Notification",
+        "singular": "Neue E-Mail-Benachrichtigung erstellen",
+        "plural": "Neue E-Mail-Benachrichtigung erstellen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "createNewAppNotification": {
+        "original": "Create a New App Notification",
+        "singular": "Neue App-Benachrichtigung erstellen",
+        "plural": "Neue App-Benachrichtigung erstellen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "workflowAction": {
         "original": "Workflow Actions",
         "singular": "Workflow-Aktionen",
@@ -12115,6 +12144,20 @@
       "proceedAnyway":{
         "original": "Proceed anyway",
         "singular": "Trotzdem fortfahren",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEmailNotification":{
+        "original": "Add Email Notification",
+        "singular": "E-Mail-Benachrichtigung hinzufügen",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addAppNotification":{
+        "original": "Add App Notification",
+        "singular": "App-Benachrichtigung hinzufügen",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -12637,12 +12680,12 @@
         "plural": "Elemente auswählen"
       },
       "noLocationsToDisplay": "Keine Standorte zur Anzeige",
-      "pleaseAttachOneOrMorePhotos": "Bitte fügen Sie ein oder mehrere Fotos bei",
+      "pleaseAttachOneOrMorePhotoes": "Bitte fügen Sie ein oder mehrere Fotos bei",
       "pleaseSignBelow": "Bitte unten unterschreiben",
       "email": "E-Mail",
       "processingAndWait": "Verarbeitung, bitte warten..",
       "locationNotFound": "Standort nicht gefunden",
-      "pleaseTurnTheLocationOn": "Bitte aktivieren Sie den Standort und versuchen Sie es erneut",
+      "pleaeTurnTheLocationOn": "Bitte aktivieren Sie den Standort und versuchen Sie es erneut",
       "selectAll": "Alle auswählen",
       "notAvailable": "Nicht verfügbar",
       "comingSoon": "Kommt bald",
@@ -12689,13 +12732,13 @@
       "searchHere": "Hier suchen",
       "itemRemovedSuccessfully": "Element wurde erfolgreich entfernt.",
       "errorFetchingModalData": "Fehler beim Abrufen der Modaldaten aufgetreten.",
-      "errorFetchingModalSchema": "Fehler beim Abrufen des Modal-Schemas aufgetreten.",
+      "errorFetchingModaScehma": "Fehler beim Abrufen des Modal-Schemas aufgetreten.",
       "titleMissing": "Titel fehlt",
       "noAttachmentsFound": "Keine Anhänge gefunden",
       "takePhoto": "Foto aufnehmen",
       "openGallery": "Galerie öffnen",
       "chooseVideo": "Video auswählen",
-      "cameraNotAvailable": "Kamera auf dem Gerät nicht verfügbar",
+      "camerNotAvailable": "Kamera auf dem Gerät nicht verfügbar",
       "permissionNotSatisfied": "Berechtigung nicht erteilt",
       "appCameraPermission": "App-Kameraberechtigung",
       "appNeedsCameraPermission": "Die App benötigt Zugriff auf Ihre Kamera",
@@ -12713,7 +12756,7 @@
       "textCopied": "Text kopiert",
       "copyText": "Text kopieren",
       "enterTextHere": "Text hier eingeben...",
-      "emailSentSuccessfully": "E-Mail erfolgreich gesendet",
+      "emailSentSuuccesfully": "E-Mail erfolgreich gesendet",
       "acknowledgedSuccessfully": "Erfolgreich bestätigt",
       "rejectedSuccessfully": "Erfolgreich abgelehnt",
       "verification": "Verifizierung",
@@ -12771,7 +12814,7 @@
     },
     "location": {
       "endDateExceeds": "Das Enddatum darf das Startdatum nicht überschreiten",
-      "proceedAnyway": "Trotzdem fortfahren"
+      "proceednyway": "Trotzdem fortfahren"
     },
     "locationDetails": {
       "setupVisible": false,
@@ -17455,11 +17498,11 @@
               "setupEdit": true,
               "setupVisible": false
             }
-          },
-          "validationFE": {},
-          "messages": {
-            "commonResolutionsEncountered": "Die häufigsten Lösungen für die aufgetretenen Fehler"
           }
+        },
+        "validationFE": {},
+        "messages": {
+          "commonResolutionsEncountered": "Die häufigsten Lösungen für die aufgetretenen Fehler"
         }
       },
       "inventory": {
@@ -22309,7 +22352,7 @@
       "todaysTasks": "Aufgaben für heute",
       "tasksToAcceptDecline": "Aufgaben zum Akzeptieren/Ablehnen",
       "assignedTasks": "Zugewiesene Aufgaben",
-      "journetPlanManagement": "Reiseplanmanagement",
+      "journeyPlanManagement": "Reiseplanmanagement",
       "CreateTask": "Aufgabe erstellen!",
       "looksYouAreOutOfTasks": "Es scheint, dass Sie heute keine Aufgaben mehr haben."
     }

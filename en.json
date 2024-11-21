@@ -988,7 +988,16 @@
       "assetFloorNotFound": "Assets floor not found",
       "assetRoomNotFound": "Assets room not found",
       "assetCustodianNotFound": "Assets custodian not found",
-      "assetSiteNotFound": "Assets site not found"
+      "assetSiteNotFound": "Assets site not found",
+      "assetCategoryNotFound": "Assets category not found",
+      "assetSubCategoryNotFound": "Assets sub category not found",
+      "assetCategoryExists": "Asset Category already exists",
+      "assetCategorySystemGenerated": "System generated Asset Category are not allowed to be deleted",
+      "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Asset Category is used in one or more Asset Sub Category",
+      "assetSubCategoryExists": "Asset Sub Category already exists",
+      "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
+      "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
+      "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1932,6 +1941,7 @@
       "preventativeFrequencyIdExists": "A new Preventative Frequency cannot already have an ID",
       "preventativeMaintenanceFrequencyIdExists": "A new Preventative Maintenance Frequency cannot already have an ID",
       "preventativeMaintenanceTemplateIdExists": "A new Preventative Maintenance Template cannot already have an ID",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
     },
     "tooltips": {
@@ -4576,7 +4586,7 @@
       "taskOptimizer":"Task Optimizer",
       "optimizer":"Optimizer",
       "mytasks":"My Tasks",
-      "tasksToAcceptDecline ":"Tasks to Accept/Decline",
+      "tasksToAcceptDecline":"Tasks to Accept/Decline",
       "noTasksFound" : "No Tasks found",
       "deleteTask": "Delete Task",
       "areYouSure":"Are you sure you want to ",
@@ -4612,7 +4622,11 @@
       "selectOwner": "Please select at least 1 owner",
       "maxUsersTask": "Maximum of 5 users in a Task is allowed",
       "noTasksAssigned":"No Task Assigned",
-      "additionalMembers": "Additional Members"
+      "additionalMembers": "Additional Members",
+      "removeMember":"Remove Member",
+      "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
+      "changeOwner":"Change Owner",
+      "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?"
     }
   },
   "site": {
@@ -9871,7 +9885,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset Serial No. Lookup",
@@ -10219,7 +10233,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset Serial No. Lookup",
@@ -12050,6 +12064,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "createNewEmailNotification": {
+        "original": "Create a New Email Notification",
+        "singular": "Create a New Email Notification",
+        "plural": "Create a New Email Notification",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "createNewAppNotification": {
+        "original": "Create a New App Notification",
+        "singular": "Create a New App Notification",
+        "plural": "Create a New App Notification",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "workflowAction":{
         "original": "Workflow Actions",
         "singular": "Workflow Actions",
@@ -12116,6 +12144,20 @@
       "proceedAnyway":{
         "original": "Proceed anyway",
         "singular": "Proceed anyway",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEmailNotification":{
+        "original": "Add Email Notification",
+        "singular": "Add Email Notification",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addAppNotification":{
+        "original": "Add App Notification",
+        "singular": "Add App Notification",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

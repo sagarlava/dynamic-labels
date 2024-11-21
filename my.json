@@ -988,7 +988,16 @@
       "assetFloorNotFound": "Tingkat Aset tidak dijumpai",
       "assetRoomNotFound": "Bilik Aset tidak dijumpai",
       "assetCustodianNotFound": "Penjaga Aset tidak dijumpai",
-      "assetSiteNotFound": "Tapak Aset tidak dijumpai"
+      "assetSiteNotFound": "Tapak Aset tidak dijumpai",
+      "assetCategoryNotFound": "Kategori aset tidak dijumpai",
+      "assetSubCategoryNotFound": "Subkategori aset tidak dijumpai",
+      "assetCategoryExists": "Kategori aset sudah wujud",
+      "assetCategorySystemGenerated": "Kategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
+      "assetCategoryCannotDeleteByAssetSubCategory": "Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Subkategori aset",
+      "assetSubCategoryExists": "Subkategori Aset sudah wujud",
+      "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
+      "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
+      "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1932,6 +1941,7 @@
       "preventativeFrequencyIdExists": "Frekuensi Pencegahan baru tidak boleh sudah mempunyai ID",
       "preventativeMaintenanceFrequencyIdExists": "Frekuensi Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
       "preventativeMaintenanceTemplateIdExists": "Templat Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Data Frekuensi Penyelenggaraan Pencegahan wujud dalam sistem untuk Templat Penyelenggaraan Pencegahan",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Data Frekuensi Penyelenggaraan Pencegahan wujud dalam sistem untuk Templat Penyelenggaraan Pencegahan"
     },
     "tooltips": {
@@ -4612,8 +4622,11 @@
       "officeAddrNotSet": "Alamat Pejabat belum ditetapkan",
       "selectOwner": "Sila pilih sekurang-kurangnya 1 pemilik",
       "maxUsersTask": "Maksimum 5 pengguna dibenarkan dalam satu Tugas",
-      "additionalMembers": "Ahli tambahan"
-
+      "additionalMembers": "Ahli tambahan",
+      "removeMember": "Keluarkan ahli",
+      "areYouSureWantToRemoveMember": "Adakah anda pasti mahu mengeluarkan ahli?",
+      "changeOwner": "Tukar pemilik",
+      "areYouSureWantToMakeOwner": "Adakah anda pasti mahu menukar pemilik?"
     }
   },
   "site": {
@@ -9858,7 +9871,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Carian No Siri Aset",
@@ -10206,7 +10219,7 @@
       }
     },
     "tooltips": {
-      "setupVisble": true,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Carian No Siri Aset",
@@ -12037,6 +12050,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "createNewEmailNotification": {
+        "original": "Create a New Email Notification",
+        "singular": "Cipta Notifikasi E-mel Baru",
+        "plural": "Cipta Notifikasi E-mel Baru",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "createNewAppNotification": {
+        "original": "Create a New App Notification",
+        "singular": "Cipta Notifikasi Aplikasi Baru",
+        "plural": "Cipta Notifikasi Aplikasi Baru",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "workflowAction": {
         "original": "Workflow Actions",
         "singular": "Tindakan Aliran Kerja",
@@ -12103,6 +12130,20 @@
       "proceedAnyway":{
         "original": "Proceed anyway",
         "singular": "Teruskan juga",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEmailNotification":{
+        "original": "Add Email Notification",
+        "singular": "Tambah Notifikasi E-mel",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "addAppNotification":{
+        "original": "Add App Notification",
+        "singular": "Tambah Notifikasi Aplikasi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -12760,7 +12801,7 @@
     },
     "location": {
       "endDateExceeds": "Tarikh tamat tidak boleh melebihi tarikh mula",
-      "proceedAnyway": "Teruskan juga"
+      "proceednyway": "Teruskan juga"
     },
     "locationDetails": {
       "setupVisible": false,
