@@ -4611,7 +4611,8 @@
       "homeAddrNotSet": "未设置家庭地址",
       "officeAddrNotSet": "未设置办公地址",
       "selectOwner": "请至少选择1个所有者",
-      "maxUsersTask": "一个任务最多允许5个用户"
+      "maxUsersTask": "一个任务最多允许5个用户",
+      "additionalMembers": "附加成员"
     }
   },
   "site": {

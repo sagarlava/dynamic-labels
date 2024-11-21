@@ -4611,7 +4611,8 @@
       "officeAddrNotSet": "La Dirección de Oficina no está establecida",
       "selectOwner": "Por favor, selecciona al menos 1 propietario",
       "maxUsersTask": "Se permite un máximo de 5 usuarios en una tarea",
-      "noTasksAssigned": "No hay Tareas Asignadas"
+      "noTasksAssigned": "No hay Tareas Asignadas",
+      "additionalMembers": "Miembros adicionales"
     }
   },
   "site": {

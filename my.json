@@ -4611,7 +4611,9 @@
       "homeAddrNotSet": "Alamat Rumah belum ditetapkan",
       "officeAddrNotSet": "Alamat Pejabat belum ditetapkan",
       "selectOwner": "Sila pilih sekurang-kurangnya 1 pemilik",
-      "maxUsersTask": "Maksimum 5 pengguna dibenarkan dalam satu Tugas"
+      "maxUsersTask": "Maksimum 5 pengguna dibenarkan dalam satu Tugas",
+      "additionalMembers": "Ahli tambahan"
+
     }
   },
   "site": {

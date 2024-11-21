@@ -4609,7 +4609,9 @@
       "officeAddrNotSet": "Büroadresse ist nicht festgelegt",
       "selectOwner": "Bitte wählen Sie mindestens 1 Eigentümer aus",
       "maxUsersTask": "Maximal 5 Benutzer in einer Aufgabe sind erlaubt",
-      "noTasksAssigned": "Keine Aufgabe zugewiesen"
+      "noTasksAssigned": "Keine Aufgabe zugewiesen",
+      "additionalMembers": "Zusätzliche Mitglieder"
+
     }
   },
   "site": {
