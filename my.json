@@ -4626,7 +4626,8 @@
       "removeMember": "Keluarkan ahli",
       "areYouSureWantToRemoveMember": "Adakah anda pasti mahu mengeluarkan ahli?",
       "changeOwner": "Tukar pemilik",
-      "areYouSureWantToMakeOwner": "Adakah anda pasti mahu menukar pemilik?"
+      "areYouSureWantToMakeOwner": "Adakah anda pasti mahu menukar pemilik?",
+      "generateJobOrderForThisTask": "Pesanan kerja akan dijana untuk tugas ini"
     }
   },
   "site": {

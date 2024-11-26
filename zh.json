@@ -4626,7 +4626,8 @@
       "removeMember": "移除成员",
       "areYouSureWantToRemoveMember": "您确定要移除该成员吗？",
       "changeOwner": "更改所有者",
-      "areYouSureWantToMakeOwner": "您确定要更改所有者吗？"
+      "areYouSureWantToMakeOwner": "您确定要更改所有者吗？",
+      "generateJobOrderForThisTask": "将为此任务生成工作单"
     }
   },
   "site": {

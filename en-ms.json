@@ -4614,7 +4614,8 @@
       "removeMember":"Remove Member",
       "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
       "changeOwner":"Change Owner",
-      "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?"
+      "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
+      "generateJobOrderForThisTask":" A Job order will be generated for this task"
     }
   },
   "site": {

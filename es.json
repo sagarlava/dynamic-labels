@@ -4626,8 +4626,8 @@
       "removeMember": "Eliminar miembro",
       "areYouSureWantToRemoveMember": "¿Estás seguro de que deseas eliminar al miembro?",
       "changeOwner": "Cambiar propietario",
-      "areYouSureWantToMakeOwner": "¿Estás seguro de que deseas cambiar al propietario?"
-
+      "areYouSureWantToMakeOwner": "¿Estás seguro de que deseas cambiar al propietario?",
+      "generateJobOrderForThisTask": "Se generará una orden de trabajo para esta tarea"
     }
   },
   "site": {

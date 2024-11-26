@@ -4624,9 +4624,8 @@
       "removeMember": "Mitglied entfernen",
       "areYouSureWantToRemoveMember": "Sind Sie sicher, dass Sie das Mitglied entfernen möchten?",
       "changeOwner": "Eigentümer ändern",
-      "areYouSureWantToMakeOwner": "Sind Sie sicher, dass Sie den Eigentümer ändern möchten?"
-      
-
+      "areYouSureWantToMakeOwner": "Sind Sie sicher, dass Sie den Eigentümer ändern möchten?",
+      "generateJobOrderForThisTask": "Ein Arbeitsauftrag wird für diese Aufgabe erstellt"
     }
   },
   "site": {
