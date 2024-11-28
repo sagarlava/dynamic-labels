@@ -418,7 +418,8 @@
       "selectGeofences": "Geofences auswählen",
       "noJobOrder": "Noch keine Arbeitsaufträge",
       "nearestCustomers": "Nächstgelegene Kunden",
-      "nearbyCustomers": "Kunden in der Nähe"
+      "nearbyCustomers": "Kunden in der Nähe",
+      "seeInMap": "Auf der Karte sehe"
     }
   },
   "asset": {

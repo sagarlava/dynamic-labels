@@ -418,7 +418,8 @@
       "selectGeofences": "Pilih Geofence",
       "noJobOrder": "Belum ada Pesanan Kerja",
       "nearestCustomers": "Pelanggan Terdekat",
-      "nearbyCustomers": "Pelanggan Berdekatan"
+      "nearbyCustomers": "Pelanggan Berdekatan",
+      "seeInMap": "Lihat dalam peta"
     }
   },
   "asset": {

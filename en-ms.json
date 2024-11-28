@@ -418,7 +418,9 @@
       "selectGeofences": "Select Geofences",
       "noJobOrder": "No Job Orders yet",
       "nearestCustomers": "Nearest SOU",
-      "nearbyCustomers": "Nearby SOU"
+      "nearbyCustomers": "Nearby SOU",
+      "seeInMap": "See in map"
+
     }
   },
   "asset": {
