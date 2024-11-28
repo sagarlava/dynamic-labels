@@ -9350,6 +9350,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Additional Details",
+        "singular": "附加详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

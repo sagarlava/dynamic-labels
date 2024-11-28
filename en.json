@@ -9351,6 +9351,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      }, 
+      "sec15": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

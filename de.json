@@ -9356,7 +9356,14 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    }
+    },
+    "sec15": {
+        "original": "Additional Details",
+        "singular": "Zusätzliche Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
   },
   "fields": {
     "setupVisible": true,

@@ -9336,6 +9336,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Additional Details",
+        "singular": "Butiran Tambahan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
