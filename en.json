@@ -9418,6 +9418,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Quantity to Transfer",

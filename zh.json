@@ -9417,6 +9417,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "available": {
+        "original": "Available",
+        "singular": "可用",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "转移数量",

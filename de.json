@@ -8741,13 +8741,7 @@
          "setupEdit": false,
          "setupVisible": false
      },
-     "available": {
-       "original": "Available",
-       "singular": "Verfügbar",
-       "plural": "",
-         "setupEdit": false,
-         "setupVisible": false
-     },
+    
      "qtyIn": {
        "original": "Quantity In",
        "singular": "Zugegangene Menge",
@@ -8818,6 +8812,13 @@
          "setupEdit": false,
          "setupVisible": false
      },
+     "available": {
+      "original": "Available",
+      "singular": "Verfügbar",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
      "qtyTransfer": {
        "original": "Quantity to Transfer",
        "singular": "Übertragene Menge",

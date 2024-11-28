@@ -8820,6 +8820,13 @@
           "setupEdit": false,
           "setupVisible": false
       },
+      "available": {
+        "original": "Available",
+        "singular": "Disponible",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
