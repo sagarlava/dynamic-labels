@@ -419,7 +419,7 @@
       "noJobOrder": "暂无工作单",
       "nearestCustomers": "最近的客户",
       "nearbyCustomers": "附近的客户",
-      "viewInMap": "在地图上查看"
+      "seeInMap": "在地图上查看"
     }
   },
   "asset": {

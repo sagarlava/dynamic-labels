@@ -419,7 +419,7 @@
       "noJobOrder": "Belum ada Pesanan Kerja",
       "nearestCustomers": "Pelanggan Terdekat",
       "nearbyCustomers": "Pelanggan Berdekatan",
-      "viewInMap": "Lihat dalam peta"
+      "seeInMap": "Lihat dalam peta"
     }
   },
   "asset": {

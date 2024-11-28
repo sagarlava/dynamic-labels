@@ -419,7 +419,7 @@
       "noJobOrder": "Noch keine Arbeitsaufträge",
       "nearestCustomers": "Nächstgelegene Kunden",
       "nearbyCustomers": "Kunden in der Nähe",
-      "viewInMap": "Auf der Karte ansehen"
+      "seeInMap": "Auf der Karte sehe"
     }
   },
   "asset": {
