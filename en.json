@@ -9425,6 +9425,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "Transfer No.",

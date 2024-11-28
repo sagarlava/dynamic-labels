@@ -8827,6 +8827,13 @@
           "setupEdit": false,
           "setupVisible": false
       },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Cantidad",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "reorderPoint": {
         "original": "Reorder Point",
         "singular": "Punto de Reorden",
