@@ -6320,6 +6320,20 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "underWarranty": {
+      "original": "Under warranty",
+      "singular": "Unter Garantie",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "notUnderWarranty": {
+      "original": "Not under warranty",
+      "singular": "Nicht unter Garantie",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "assetWarranty": {
         "original": "Asset Warranty",
         "singular": "Vermögensgarantie",
