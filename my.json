@@ -12797,7 +12797,15 @@
       "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani",
       "noDocumentIsGenerated": "Tiada dokumen dijana",
       "pullToRefreshToSeeTheCompletion": "Tarik ke bawah untuk melihat penyelesaian",
-      "phoneNumberNotAvailable": "Nombor telefon tidak tersedia"
+      "phoneNumberNotAvailable": "Nombor telefon tidak tersedia",
+      "noMatchesFound": "Tiada padanan ditemui. Cuba laraskan kriteria carian anda.",
+      "noHistoryAvailable": "Tiada sejarah tersedia. Aktiviti anda akan muncul di sini.",
+      "noAttachmentsFoundUploadFiles": "Tiada lampiran ditemui. Muat naik fail untuk melihatnya di sini.",
+      "nothingToApprove": "Tiada apa-apa untuk diluluskan. Semua item adalah terkini.",
+      "noRecordsAvailable": "Tiada rekod tersedia. Tambahkan rekod baharu untuk bermula.",
+      "noMessagesYet": "Tiada mesej lagi. Mulakan perbualan untuk melihat mesej anda di sini.",
+      "noNotificationsYet": "Tiada pemberitahuan lagi. Anda sudah mengikuti perkembangan!",
+      "noFormsAvailable": "Tiada borang tersedia."
     },
     "currency": {
       "australianDollar": "AUD",

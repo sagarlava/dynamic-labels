@@ -12810,7 +12810,15 @@
       "errorOccuredWhileSigning": "Ocurrió un error al firmar",
       "noDocumentIsGenerated": "No se ha generado ningún documento ya que los datos están incompletos.",
       "pullToRefreshToSeeTheCompletion": "Desliza hacia abajo para actualizar y ver la finalización",
-      "phoneNumberNotAvailable": "Número de teléfono no disponible"
+      "phoneNumberNotAvailable": "Número de teléfono no disponible",
+      "noMatchesFound": "No se encontraron coincidencias. Intenta ajustar tus criterios de búsqueda.",
+      "noHistoryAvailable": "No hay historial disponible. Tu actividad aparecerá aquí.",
+      "noAttachmentsFoundUploadFiles": "No se encontraron archivos adjuntos. Sube archivos para verlos aquí.",
+      "nothingToApprove": "Nada que aprobar. Todos los elementos están actualizados.",
+      "noRecordsAvailable": "No hay registros disponibles. Agrega un nuevo registro para comenzar.",
+      "noMessagesYet": "Aún no hay mensajes. Inicia una conversación para ver tus mensajes aquí.",
+      "noNotificationsYet": "Aún no hay notificaciones. ¡Estás al día!",
+      "noFormsAvailable": "No hay formularios disponibles."
     },
     "currency": {
       "australianDollar": "AUD",
