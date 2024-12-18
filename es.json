@@ -1207,7 +1207,8 @@
         "from": "Desde",
         "warrantyStartDate": "La fecha de inicio de la garantía no debe ser mayor que la fecha de finalización de la garantía",
         "errorFetchingAllAssets": "Error al recuperar todos los activos",
-        "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios"
+        "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios",
+        "logs": "Registros"
       }
   },
   "assetLog": {

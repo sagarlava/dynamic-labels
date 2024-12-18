@@ -1207,7 +1207,8 @@
       "from": "Dari",
       "warrantyStartDate": "Tarikh mula jaminan tidak boleh melebihi tarikh tamat jaminan",
       "errorFetchingAllAssets": "Ralat mendapatkan semua aset",
-      "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori"
+      "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori",
+      "logs": "Log"
     }
   },
   "assetLog": {

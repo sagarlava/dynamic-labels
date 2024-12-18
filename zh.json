@@ -1207,7 +1207,8 @@
       "from": "从",
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错",
-      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误"
+      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
+      "logs": "日志"
     }
   },
   "assetLog": {

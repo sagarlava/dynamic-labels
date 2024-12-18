@@ -1207,7 +1207,8 @@
         "from": "Von",
         "warrantyStartDate": "Das Garantie-Startdatum darf nicht größer sein als das Garantie-Enddatum.",
         "errorFetchingAllAssets": "Fehler beim Abrufen aller Assets.",
-        "errorOccuredWhileFetchingAccessories": "Fehler beim Abrufen von Zubehör aufgetreten"
+        "errorOccuredWhileFetchingAccessories": "Fehler beim Abrufen von Zubehör aufgetreten",
+        "logs": "Protokolle"
       }
   },
   "assetLog": {
