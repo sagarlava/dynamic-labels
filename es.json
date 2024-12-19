@@ -2753,7 +2753,17 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "No se puede eliminar esta tarea porque el viaje está en curso",
       "journeyAlreadyRunningForAnotherTask": "El viaje ya está en curso para otra tarea",
       "endJourney": "Terminar viaje",
-      "resolvingLocation": "Resolviendo ubicación"
+      "readyToCheckIn": "¿Listo para registrarte?",
+      "readyToCheckOut": "¿Listo para salir?",
+      "startNow": "Comenzar ahora",
+      "onGoingJourney": "Viaje en curso",
+      "resumeJourney": "Reanudar viaje",
+      "timeElapsed": "Tiempo transcurrido",
+      "paused": "Pausado",
+      "later": "Más tarde",
+      "actions": "Acciones",
+      "confirmYourArrivalToBeginThisTask": "Confirma tu llegada para comenzar esta tarea."
+      
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId o TaskId no encontrado",

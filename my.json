@@ -2753,7 +2753,17 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "Tugas ini tidak boleh dihapus kerana perjalanan sedang berjalan",
       "journeyAlreadyRunningForAnotherTask": "Perjalanan sudah berjalan untuk tugas lain",
       "endJourney": "Tamat Perjalanan",
-      "resolvingLocation": "Menyelesaikan Lokasi"
+      "resolvingLocation": "Menyelesaikan Lokasi",
+      "readyToCheckIn": "Sedia untuk daftar masuk?",
+      "readyToCheckOut": "Sedia untuk daftar keluar?",
+      "startNow": "Mulakan sekarang",
+      "onGoingJourney": "Perjalanan sedang berlangsung",
+      "resumeJourney": "Sambung perjalanan",
+      "timeElapsed": "Masa berlalu",
+      "paused": "Ditangguhkan",
+      "later": "Nanti",
+      "actions": "Tindakan",
+      "confirmYourArrivalToBeginThisTask": "Sahkan ketibaan anda untuk memulakan tugas ini."
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId atau TaskId tidak dijumpai",

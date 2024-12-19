@@ -2753,7 +2753,17 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning":"'This task cant be deleted because journeey is running'",
       "journeyAlreadyRunningForAnotherTask":"Journey already running for another task",
       "endJourney":"End Journey",
-      "resolvingLocation":"Resolving Location"
+      "resolvingLocation":"Resolving Location",
+      "readyToCheckIn": "Ready to check-in?",
+      "readyToCheckOut": "Ready to check out?",
+      "startNow": "Start now",
+      "onGoingJourney": "Ongoing Journey",
+      "resumeJourney": "Resume Journey",
+      "timeElapsed": "Time elapsed",
+      "paused": "Paused",
+      "later": "Later",
+      "actions": "Actions",
+      "confirmYourArrivalToBeginThisTask": "Confirm your arrival to begin this task."
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId or TaskId not found",

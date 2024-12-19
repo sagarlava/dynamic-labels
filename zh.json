@@ -2753,7 +2753,17 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "任务无法删除，因为旅程正在运行",
       "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行",
       "endJourney": "结束旅程",
-      "resolvingLocation": "解析位置"
+      "resolvingLocation": "解析位置",
+      "readyToCheckIn": "准备办理入住？",
+      "readyToCheckOut": "准备办理退房？",
+      "startNow": "立即开始",
+      "onGoingJourney": "正在进行的旅程",
+      "resumeJourney": "继续旅程",
+      "timeElapsed": "已用时间",
+      "paused": "已暂停",
+      "later": "稍后",
+      "actions": "操作",
+      "confirmYourArrivalToBeginThisTask": "确认您的到达以开始此任务。"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",
