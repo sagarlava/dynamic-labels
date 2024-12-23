@@ -21770,6 +21770,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Contraseña y Seguridad",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

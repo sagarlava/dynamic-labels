@@ -21757,6 +21757,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Kata Laluan & Keselamatan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

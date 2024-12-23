@@ -21762,6 +21762,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Passwort und Sicherheit",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

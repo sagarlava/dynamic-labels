@@ -21771,6 +21771,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "密码和安全",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

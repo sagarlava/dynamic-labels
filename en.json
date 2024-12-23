@@ -21773,6 +21773,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Password & Security",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
