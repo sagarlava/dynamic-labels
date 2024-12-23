@@ -10872,6 +10872,13 @@
         "plural": "语言",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "区域设置",
+        "plural": "区域设置",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

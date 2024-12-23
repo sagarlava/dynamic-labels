@@ -10840,6 +10840,13 @@
         "plural": "Languages",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "Regional Setting",
+        "plural": "Regional Settings",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

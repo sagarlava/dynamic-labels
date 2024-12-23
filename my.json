@@ -10858,6 +10858,13 @@
         "plural": "Bahasa",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "Tetapan Wilayah",
+        "plural": "Tetapan Wilayah",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {

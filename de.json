@@ -10864,6 +10864,13 @@
         "plural": "Sprachen",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "Regionale Einstellung",
+        "plural": "Regionale Einstellungen",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
