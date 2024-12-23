@@ -10846,9 +10846,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Tetapan Profil",
-        "plural": "Tetapan Profil",
+        "original": "Account Settings",
+        "singular": "Tetapan Akaun",
+        "plural": "Tetapan Akaun",
         "setupEdit": true,
         "setupVisible": false
       },

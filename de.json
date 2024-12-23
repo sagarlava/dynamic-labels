@@ -10852,9 +10852,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Profileinstellung",
-        "plural": "Profileinstellungen",
+        "original": "Account Settings",
+        "singular": "Kontoeinstellung",
+        "plural": "Kontoeinstellungen",
         "setupEdit": true,
         "setupVisible": false
       },

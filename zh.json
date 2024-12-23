@@ -10860,9 +10860,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "个人设置",
-        "plural": "个人设置",
+        "original": "Account Settings",
+        "singular": "账户设置",
+        "plural": "账户设置",
         "setupEdit": true,
         "setupVisible": false
       },
