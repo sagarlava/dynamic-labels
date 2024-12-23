@@ -22394,6 +22394,7 @@
       "pendingJobOrders": "Pesanan Kerja Tertunda",
       "todaysTasks": "Tugas Hari Ini",
       "tasksToAcceptDecline": "Tugas untuk Terima/Tolak",
+      "toAccept" : "Terima",
       "assignedTasks": "Tugas yang Ditugaskan",
       "journeyPlanManagement": "Pengurusan Rancangan Perjalanan",
       "CreateTask": "Cipta Tugas!",

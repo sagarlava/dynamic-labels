@@ -22410,6 +22410,7 @@
       "pendingJobOrders" : "Pending Job Orders",
       "todaysTasks" : "Today's Tasks",
       "tasksToAcceptDecline" : "Tasks to Accept/Decline",
+      "toAccept" : "To Accept",
       "assignedTasks" : "Assigned Tasks",
       "journeyPlanManagement":"Journey Plan Management",
       "CreateTask":"Create Task!",

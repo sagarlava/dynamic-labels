@@ -22407,6 +22407,7 @@
       "pendingJobOrders": "Órdenes de Trabajo Pendientes",
       "todaysTasks": "Tareas de Hoy",
       "tasksToAcceptDecline": "Tareas para Aceptar/Rechazar",
+      "toAccept" : "Aceptar",
       "assignedTasks": "Tareas Asignadas",
       "journeyPlanManagement": "Gestión del Plan de Viaje",
       "CreateTask": "¡Crear Tarea!",

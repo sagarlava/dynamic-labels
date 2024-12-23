@@ -22399,6 +22399,7 @@
       "pendingJobOrders": "Ausstehende Aufträge",
       "todaysTasks": "Aufgaben für heute",
       "tasksToAcceptDecline": "Aufgaben zum Akzeptieren/Ablehnen",
+      "toAccept" : "Akzeptieren",
       "assignedTasks": "Zugewiesene Aufgaben",
       "journeyPlanManagement": "Reiseplanmanagement",
       "CreateTask": "Aufgabe erstellen!",
