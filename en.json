@@ -10880,6 +10880,13 @@
         "plural": "Regional Settings",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "AI Suggestion",
+        "plural": "AI Suggestions",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10909,6 +10916,13 @@
         "original": "Profile Settings",
         "singular": "Profile Setting",
         "plural": "Profile Settings",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Password Setting",
+        "plural": "Password Settings",
         "setupEdit": true,
         "setupVisible": false
       },

@@ -10879,6 +10879,13 @@
         "plural": "区域设置",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "AI建议",
+        "plural": "AI建议",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10910,6 +10917,13 @@
         "plural": "个人设置",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "passwordSettings": {
+          "original": "Password Settings",
+          "singular": "密码设置",
+          "plural": "密码设置",
+          "setupEdit": true,
+          "setupVisible": false
       },
       "languages": {
         "original": "Languages",

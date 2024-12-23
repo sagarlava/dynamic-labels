@@ -10865,6 +10865,13 @@
         "plural": "Tetapan Wilayah",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "Cadangan AI",
+        "plural": "Cadangan AI",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10894,6 +10901,13 @@
         "original": "Profile Settings",
         "singular": "Tetapan Profil",
         "plural": "Tetapan Profil",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Tetapan Kata Laluan",
+        "plural": "Tetapan Kata Laluan",
         "setupEdit": true,
         "setupVisible": false
       },
