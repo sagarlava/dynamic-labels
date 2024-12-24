@@ -11072,7 +11072,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Filtrar",
-        "plural": "",
+        "plural": "Filtros",
         "setupEdit": true,
         "setupVisible": false
       },

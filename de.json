@@ -11057,7 +11057,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Filter",
-        "plural": "",
+        "plural": "Filter",
         "setupEdit": true,
         "setupVisible": false
       },

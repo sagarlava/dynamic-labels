@@ -11058,7 +11058,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Tapis",
-        "plural": "",
+        "plural": "Tapis-tapis",
         "setupEdit": true,
         "setupVisible": false
       },

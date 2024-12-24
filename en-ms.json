@@ -11040,7 +11040,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Filter",
-        "plural": "",
+        "plural": "Filters",
         "setupEdit": true,
         "setupVisible": false
       },

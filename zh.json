@@ -11072,7 +11072,7 @@
       "filter": {
         "original": "Filter",
         "singular": "筛选",
-        "plural": "",
+        "plural": "过滤器",
         "setupEdit": true,
         "setupVisible": false
       },
