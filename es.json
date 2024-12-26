@@ -22433,6 +22433,7 @@
     },
     "messages": {
       "pendingJobOrders": "Órdenes de Trabajo Pendientes",
+      "pendingWorkOrders": "Órdenes de trabajo pendientes",
       "todaysTasks": "Tareas de Hoy",
       "tasksToAcceptDecline": "Tareas para Aceptar/Rechazar",
       "toAccept" : "Aceptar",

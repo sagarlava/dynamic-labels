@@ -22420,6 +22420,7 @@
     },
     "messages": {
       "pendingJobOrders": "Pesanan Kerja Tertunda",
+      "pendingWorkOrders": "Pesanan Kerja Tertunggak",
       "todaysTasks": "Tugas Hari Ini",
       "tasksToAcceptDecline": "Tugas untuk Terima/Tolak",
       "toAccept" : "Terima",

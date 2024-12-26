@@ -22299,6 +22299,7 @@
     },
     "messages":{
       "pendingJobOrders" : "Pending Job Orders",
+      "pendingWorkOrders" : "Pending Work Orders",
       "todaysTasks" : "Today's Tasks",
       "tasksToAcceptDecline" : "Tasks to Accept/Decline",
       "toAccept" : "To Accept",

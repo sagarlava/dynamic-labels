@@ -22418,6 +22418,7 @@
     },
     "messages": {
       "pendingJobOrders": "Ausstehende Aufträge",
+      "pendingWorkOrders": "Ausstehende Arbeitsaufträge",
       "todaysTasks": "Aufgaben für heute",
       "tasksToAcceptDecline": "Aufgaben zum Akzeptieren/Ablehnen",
       "toAccept" : "Akzeptieren",
