@@ -6327,6 +6327,13 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "branchSignOff": {
+      "original": "Branch Sign Off",
+      "singular": "Branch Sign Off",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "assetUnderWarranty": {
       "original": "Asset Under Warranty",
       "singular": "Asset Under Warranty",
@@ -12676,7 +12683,9 @@
         "updateStatusTo":"Update status to",
         "updateStatus":"Update Status",
         "confirmMarkTaskComplete": "Would you like to mark this task as complete?",
-        "changeStatus": "Change status"
+        "changeStatus": "Change status",
+        "currentLanguage": "Current Language",
+        "allLanguages": "All Languages"
       }
     },
     "messages": {
@@ -22640,6 +22649,7 @@
       },
       "messages": {
         "searchJobOrders" : "Search Job Orders"
+
       }
     },
     "national": {

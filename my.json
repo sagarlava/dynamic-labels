@@ -6326,6 +6326,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "branchSignOff": {
+        "original": "Branch Sign Off",
+        "singular": "Pengesahan Cawangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "Aset di Bawah Jaminan",
@@ -12660,7 +12667,9 @@
         "updateStatusTo": "Kemas kini status kepada",
         "updateStatus": "Kemas Kini Status",
         "confirmMarkTaskComplete": "Adakah anda ingin menandakan tugas ini sebagai selesai?",
-        "changeStatus": "Tukar status"
+        "changeStatus": "Tukar status",
+        "currentLanguage": "Bahasa Semasa",
+        "allLanguages": "Semua Bahasa"
       }
     },
     "messages": {

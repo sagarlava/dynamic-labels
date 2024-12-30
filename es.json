@@ -6326,6 +6326,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "branchSignOff": {
+        "original": "Branch Sign Off",
+        "singular": "Firma de Sucursal",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "Activo Bajo Garantía",
@@ -12674,7 +12681,9 @@
         "updateStatusTo": "Actualizar estado a",
         "updateStatus": "Actualizar Estado",
         "confirmMarkTaskComplete": "¿Desea marcar esta tarea como completada?",
-        "changeStatus": "Cambiar estado"
+        "changeStatus": "Cambiar estado",
+        "currentLanguage": "Idioma Actual",
+        "allLanguages": "Todos los Idiomas"
       }
     },
     "messages": {

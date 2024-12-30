@@ -6298,6 +6298,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "branchSignOff": {
+        "original": "Branch Sign Off",
+        "singular": "分行签核",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "保修资产",
@@ -12674,7 +12681,9 @@
         "updateStatusTo": "更新状态为",
         "updateStatus": "更新状态",
         "confirmMarkTaskComplete": "您是否要将此任务标记为完成？",
-        "changeStatus": "更改状态"
+        "changeStatus": "更改状态",
+        "currentLanguage": "当前语言",
+        "allLanguages": "所有语言"
       }
     },
     "messages": {
