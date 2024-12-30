@@ -12681,9 +12681,7 @@
         "updateStatusTo": "Actualizar estado a",
         "updateStatus": "Actualizar Estado",
         "confirmMarkTaskComplete": "¿Desea marcar esta tarea como completada?",
-        "changeStatus": "Cambiar estado",
-        "currentLanguage": "Idioma Actual",
-        "allLanguages": "Todos los Idiomas"
+        "changeStatus": "Cambiar estado"
       }
     },
     "messages": {
@@ -12859,7 +12857,9 @@
       "noRecordsAvailable": "No hay registros disponibles. Agrega un nuevo registro para comenzar.",
       "noMessagesYet": "Aún no hay mensajes. Inicia una conversación para ver tus mensajes aquí.",
       "noNotificationsYet": "Aún no hay notificaciones. ¡Estás al día!",
-      "noFormsAvailable": "No hay formularios disponibles."
+      "noFormsAvailable": "No hay formularios disponibles.",
+      "currentLanguage": "Idioma Actual",
+      "allLanguages": "Todos los Idiomas"
     },
     "currency": {
       "australianDollar": "AUD",

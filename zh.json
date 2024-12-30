@@ -12681,9 +12681,7 @@
         "updateStatusTo": "更新状态为",
         "updateStatus": "更新状态",
         "confirmMarkTaskComplete": "您是否要将此任务标记为完成？",
-        "changeStatus": "更改状态",
-        "currentLanguage": "当前语言",
-        "allLanguages": "所有语言"
+        "changeStatus": "更改状态"
       }
     },
     "messages": {
@@ -12860,7 +12858,9 @@
       "noRecordsAvailable": "没有可用记录。添加新记录以开始。",
       "noMessagesYet": "还没有消息。开始对话以在此查看您的消息。",
       "noNotificationsYet": "还没有通知。您已经掌握最新动态！",
-      "noFormsAvailable": "没有可用表单。"
+      "noFormsAvailable": "没有可用表单。",
+      "currentLanguage": "当前语言",
+      "allLanguages": "所有语言" 
     },
     "currency": {
       "australianDollar": "AUD",

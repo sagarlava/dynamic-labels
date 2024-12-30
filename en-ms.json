@@ -12614,9 +12614,7 @@
         "updateStatusTo":"Update status to",
         "updateStatus":"Update Status",
         "confirmMarkTaskComplete": "Would you like to mark this task as complete?",
-        "changeStatus": "Change status",
-        "currentLanguage": "Current Language",
-        "allLanguages": "All Languages"
+        "changeStatus": "Change status"
       }
     },
     "messages": {
@@ -12791,7 +12789,9 @@
       "noRecordsAvailable" : "No records available. Add a new record to get started.",
       "noMessagesYet" : "No messages yet. Start a conversation to see your messages here.",
       "noNotificationsYet" : "No notifications yet. You’re all caught up!",
-      "noFormsAvailable" : "No forms available."
+      "noFormsAvailable" : "No forms available.",
+      "currentLanguage": "Current Language",
+      "allLanguages": "All Languages"
     },
     "currency":{
       "australianDollar": "AUD",

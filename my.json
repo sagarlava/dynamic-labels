@@ -12667,9 +12667,7 @@
         "updateStatusTo": "Kemas kini status kepada",
         "updateStatus": "Kemas Kini Status",
         "confirmMarkTaskComplete": "Adakah anda ingin menandakan tugas ini sebagai selesai?",
-        "changeStatus": "Tukar status",
-        "currentLanguage": "Bahasa Semasa",
-        "allLanguages": "Semua Bahasa"
+        "changeStatus": "Tukar status"
       }
     },
     "messages": {
@@ -12846,7 +12844,9 @@
       "noRecordsAvailable": "Tiada rekod tersedia. Tambahkan rekod baharu untuk bermula.",
       "noMessagesYet": "Tiada mesej lagi. Mulakan perbualan untuk melihat mesej anda di sini.",
       "noNotificationsYet": "Tiada pemberitahuan lagi. Anda sudah mengikuti perkembangan!",
-      "noFormsAvailable": "Tiada borang tersedia."
+      "noFormsAvailable": "Tiada borang tersedia.",
+      "currentLanguage": "Bahasa Semasa",
+      "allLanguages": "Semua Bahasa"
     },
     "currency": {
       "australianDollar": "AUD",
