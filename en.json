@@ -6203,7 +6203,7 @@
     "setupEdit": true,
     "orderDateTime": {
       "original": "Date & Time",
-      "singular": "Date &Time",
+      "singular": "Date & Time",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
