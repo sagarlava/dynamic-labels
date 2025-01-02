@@ -8322,8 +8322,8 @@
         "setupVisible": false
       },
       "orderDateTime": {
-        "original": "Date/Time",
-        "singular": "日期/主题",
+        "original": "Date & Time",
+        "singular": "日期 & 主题",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

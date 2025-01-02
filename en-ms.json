@@ -6190,8 +6190,8 @@
     "setupVisible": true,
     "setupEdit": true,
     "orderDateTime": {
-      "original": "Date/Time",
-      "singular": "Date/Time",
+      "original": "Date & Time",
+      "singular": "Date & Time",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false

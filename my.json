@@ -6201,8 +6201,8 @@
       "setupVisible": true,
       "setupEdit": true,
       "orderDateTime": {
-        "original": "Date/Time",
-        "singular": "Tarikh/Topik",
+        "original": "Date & Time",
+        "singular": "Tarikh & Topik",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
