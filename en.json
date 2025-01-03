@@ -2764,7 +2764,8 @@
       "later": "Later",
       "actions": "Actions",
       "confirmYourArrivalToBeginThisTask": "Confirm your arrival to begin this task.",
-      "journeyComplete": "Journey Complete"
+      "journeyComplete": "Journey Complete",
+      "wouldYouLikeToCheckInToYourTask": "Would you like to check in to your task?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId or TaskId not found",

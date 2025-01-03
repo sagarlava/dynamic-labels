@@ -2762,7 +2762,8 @@
       "later": "Später",
       "actions": "Aktionen",
       "confirmYourArrivalToBeginThisTask": "Bestätigen Sie Ihre Ankunft, um diese Aufgabe zu beginnen.",
-      "journeyComplete": "Reise abgeschlossen"
+      "journeyComplete": "Reise abgeschlossen",
+      "wouldYouLikeToCheckInToYourTask": "Möchten Sie sich bei Ihrer Aufgabe anmelden?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "Route-ID oder Task-ID nicht gefunden",

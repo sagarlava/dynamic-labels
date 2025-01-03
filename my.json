@@ -2764,7 +2764,8 @@
       "later": "Nanti",
       "actions": "Tindakan",
       "confirmYourArrivalToBeginThisTask": "Sahkan ketibaan anda untuk memulakan tugas ini.",
-      "journeyComplete": "Perjalanan Selesai"
+      "journeyComplete": "Perjalanan Selesai",
+      "wouldYouLikeToCheckInToYourTask": "Adakah anda ingin mendaftar masuk ke tugas anda?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId atau TaskId tidak dijumpai",

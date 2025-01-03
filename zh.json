@@ -2764,7 +2764,8 @@
       "later": "稍后",
       "actions": "操作",
       "confirmYourArrivalToBeginThisTask": "确认您的到达以开始此任务。",
-      "journeyComplete": "旅程完成"
+      "journeyComplete": "旅程完成",
+      "wouldYouLikeToCheckInToYourTask": "您想要签到您的任务吗？"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",

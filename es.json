@@ -2763,7 +2763,8 @@
       "later": "Más tarde",
       "actions": "Acciones",
       "confirmYourArrivalToBeginThisTask": "Confirma tu llegada para comenzar esta tarea.",
-      "journeyComplete": "Viaje completado"
+      "journeyComplete": "Viaje completado",
+      "wouldYouLikeToCheckInToYourTask": "¿Te gustaría registrarte en tu tarea?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId o TaskId no encontrado",
