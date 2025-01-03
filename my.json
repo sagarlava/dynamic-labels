@@ -2763,7 +2763,8 @@
       "paused": "Ditangguhkan",
       "later": "Nanti",
       "actions": "Tindakan",
-      "confirmYourArrivalToBeginThisTask": "Sahkan ketibaan anda untuk memulakan tugas ini."
+      "confirmYourArrivalToBeginThisTask": "Sahkan ketibaan anda untuk memulakan tugas ini.",
+      "journeyComplete": "Perjalanan Selesai"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId atau TaskId tidak dijumpai",

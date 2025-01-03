@@ -2762,8 +2762,8 @@
       "paused": "Pausado",
       "later": "Más tarde",
       "actions": "Acciones",
-      "confirmYourArrivalToBeginThisTask": "Confirma tu llegada para comenzar esta tarea."
-      
+      "confirmYourArrivalToBeginThisTask": "Confirma tu llegada para comenzar esta tarea.",
+      "journeyComplete": "Viaje completado"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId o TaskId no encontrado",

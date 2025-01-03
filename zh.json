@@ -2763,7 +2763,8 @@
       "paused": "已暂停",
       "later": "稍后",
       "actions": "操作",
-      "confirmYourArrivalToBeginThisTask": "确认您的到达以开始此任务。"
+      "confirmYourArrivalToBeginThisTask": "确认您的到达以开始此任务。",
+      "journeyComplete": "旅程完成"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",

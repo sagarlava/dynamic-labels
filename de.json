@@ -2761,7 +2761,8 @@
       "paused": "Pausiert",
       "later": "Später",
       "actions": "Aktionen",
-      "confirmYourArrivalToBeginThisTask": "Bestätigen Sie Ihre Ankunft, um diese Aufgabe zu beginnen."
+      "confirmYourArrivalToBeginThisTask": "Bestätigen Sie Ihre Ankunft, um diese Aufgabe zu beginnen.",
+      "journeyComplete": "Reise abgeschlossen"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "Route-ID oder Task-ID nicht gefunden",
