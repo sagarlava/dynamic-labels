@@ -21711,7 +21711,8 @@
       "locationPermission": "Kebenaran Lokasi:",
       "fileStoragePermission": "Kebenaran Fail/Storan:",
       "cameraPermission": "Kebenaran Kamera:",
-      "phonePermission": "Kebenaran Telefon:"
+      "phonePermission": "Kebenaran Telefon:",
+      "appPermissions": "Kebenaran Aplikasi"  
     }
   },
   "message": {

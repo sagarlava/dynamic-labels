@@ -21723,7 +21723,8 @@
       "locationPermission": "Permiso de Ubicación:",
       "fileStoragePermission": "Permiso de Archivo/Almacenamiento:",
       "cameraPermission": "Permiso de Cámara:",
-      "phonePermission": "Permiso de Teléfono:"
+      "phonePermission": "Permiso de Teléfono:",
+      "appPermission": "Permisos de la aplicación" 
     }
   },
   "message": {

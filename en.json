@@ -21727,7 +21727,8 @@
       "locationPermission":"Location Permission:",
       "fileStoragePermission":"File/Storage Permission:",
       "cameraPermission":"Camera Permission:",
-      "phonePermission":"Phone Permission:"
+      "phonePermission":"Phone Permission:",
+      "appPermissions":"App Permissions"
     }
   },
   "message": {

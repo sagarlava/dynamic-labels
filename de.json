@@ -21709,7 +21709,8 @@
       "locationPermission": "Standortberechtigung:",
       "fileStoragePermission": "Datei-/Speicherberechtigung:",
       "cameraPermission": "Kameraberechtigung:",
-      "phonePermission": "Telefonberechtigung:"
+      "phonePermission": "Telefonberechtigung:",
+      "appPermissions": "App-Berechtigungen"
     }
   },
   "message": {
