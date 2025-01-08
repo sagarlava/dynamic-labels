@@ -21724,7 +21724,7 @@
       "fileStoragePermission": "Permiso de Archivo/Almacenamiento:",
       "cameraPermission": "Permiso de Cámara:",
       "phonePermission": "Permiso de Teléfono:",
-      "appPermission": "Permisos de la aplicación" 
+      "appPermissions": "Permisos de la aplicación" 
     }
   },
   "message": {

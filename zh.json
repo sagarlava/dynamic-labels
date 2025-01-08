@@ -21726,7 +21726,7 @@
       "fileStoragePermission": "文件/存储权限：",
       "cameraPermission": "相机权限：",
       "phonePermission": "电话权限：",
-      "appPermission": "应用权限"       
+      "appPermissions": "应用权限"       
     }
   },
   "message": {
