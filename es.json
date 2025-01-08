@@ -9549,6 +9549,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "mine": {
+        "original": "Mine",
+        "singular": "Mío",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Usuario",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Ubicación",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "userBin": {
         "original": "User Bin",
         "singular": "Contenedor del Usuario",
