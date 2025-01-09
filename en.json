@@ -9650,9 +9650,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "Check availability",
-      "plural": "Check availability",
+      "original": "Locate",
+      "singular": "Locate",
+      "plural": "Locate",
       "setupEdit": true,
       "setupVisible": true
     },

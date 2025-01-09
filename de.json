@@ -9641,9 +9641,9 @@
  "checkAvailibility": {
   "setupVisible": false,
   "label": {
-    "original": "Check availability",
-    "singular": "Verfügbarkeit überprüfen",
-    "plural": "Verfügbarkeit überprüfen",
+    "original": "Locate",
+    "singular": "Ortung",
+    "plural": "Ortungen",
     "setupEdit": true,
     "setupVisible": true
   },
