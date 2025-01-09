@@ -4591,6 +4591,7 @@
       "doYouWantToCompleteTake5Form": "Adakah anda mahu melengkapkan borang Take 5?",
       "pleaseCompleteJMPBeforeProceeding": "Sila lengkapkan JMP sebelum meneruskan tugas",
       "thisTaskIsAlreadyStartingJourney": "Tugas ini sudah memulakan perjalanan dari peranti lain",
+      "anotherJourneyIsInProgress": "Satu lagi perjalanan sedang berlangsung. Sila lengkapkan sebelum memulakan yang baru.",
       "unableToResolveTaskLocation": "Tidak dapat menentukan koordinat lokasi tugas. Sila kemas kini lokasi",
       "ownerChangedForTheTaskSuccessfully": "Pemilik tugas berjaya diubah.",
       "userAddedToTheTaskSuccessfully": "Pengguna berjaya ditambah ke tugas.",

@@ -4589,6 +4589,7 @@
       "doYouWantToCompleteTake5Form": "Möchten Sie das Take 5-Formular ausfüllen?",
       "pleaseCompleteJMPBeforeProceeding": "Bitte vervollständigen Sie das JMP, bevor Sie mit der Aufgabe fortfahren",
       "thisTaskIsAlreadyStartingJourney": "Diese Aufgabe beginnt bereits die Reise von einem anderen Gerät",
+      "anotherJourneyIsInProgress": "Eine andere Reise ist derzeit im Gange. Bitte schließen Sie diese ab, bevor Sie eine neue beginnen.",
       "unableToResolveTaskLocation": "Standortkoordinaten der Aufgabe können nicht aufgelöst werden. Bitte aktualisieren Sie den Standort",
       "ownerChangedForTheTaskSuccessfully": "Besitzer der Aufgabe erfolgreich geändert.",
       "userAddedToTheTaskSuccessfully": "Benutzer erfolgreich zur Aufgabe hinzugefügt.",

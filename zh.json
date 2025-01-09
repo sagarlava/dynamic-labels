@@ -4591,6 +4591,7 @@
       "doYouWantToCompleteTake5Form": "您要完成Take 5表格吗？",
       "pleaseCompleteJMPBeforeProceeding": "请在进行任务之前完成JMP",
       "thisTaskIsAlreadyStartingJourney": "此任务已从另一设备开始",
+      "anotherJourneyIsInProgress": "另一次旅程正在进行中。请完成之前的旅程再开始新的旅程。",
       "unableToResolveTaskLocation": "无法解析任务位置坐标。请更新位置",
       "ownerChangedForTheTaskSuccessfully": "任务所有者成功更改。",
       "userAddedToTheTaskSuccessfully": "用户成功添加到任务。",

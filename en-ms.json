@@ -4580,6 +4580,7 @@
       "doYouWantToCompleteTake5Form": "Do you want to complete Take 5 form?",
       "pleaseCompleteJMPBeforeProceeding": "Please complete JMP before proceeding to the task",
       "thisTaskIsAlreadyStartingJourney": "This task is already starting the journey from another device",
+      "anotherJourneyIsInProgress": "Another journey is currently in progress. Please complete it before starting a new one.",
       "unableToResolveTaskLocation": "Unable to resolve task location coordinates. Please update the location",
       "ownerChangedForTheTaskSuccessfully": "Owner changed for the task successfully.",
       "userAddedToTheTaskSuccessfully": "User added to task successfully.",
