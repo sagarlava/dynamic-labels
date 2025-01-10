@@ -7064,6 +7064,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameAndIDNumber": {
+        "original": "Name and ID Number",
+        "singular": "姓名和身份证号码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "note": {
         "original": "Note",
         "singular": "注释",
@@ -8187,6 +8194,13 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "身份证/护照号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+        "original": "ID Number",
+        "singular": "身份证号码",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

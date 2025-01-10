@@ -7084,6 +7084,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameAndIDNumber": {
+        "original": "Name and ID Number",
+        "singular": "Nombre y número de identificación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "offCode": {
         "original": "Off Code",
         "singular": "Código de Apagado",
@@ -8200,6 +8207,13 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "No. de IC/Pasaporte",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+        "original": "ID Number",
+        "singular": "Número de Identificación",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

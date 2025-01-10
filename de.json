@@ -7083,6 +7083,13 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "nameAndIDNumber": {
+      "original": "Name and ID Number",
+      "singular": "Name und Ausweisnummer",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "offCode": {
       "original": "Off Code",
       "singular": "Abwesenheitscode",
@@ -8199,6 +8206,13 @@
     "icPassportNo": {
       "original": "IC/Passport No",
       "singular": "Ausweis-/Reisepassnummer",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "idNumber": {
+      "original": "ID Number",
+      "singular": "Ausweisnummer",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false

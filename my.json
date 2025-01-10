@@ -7071,6 +7071,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameAndIDNumber": {
+        "original": "Name and ID Number",
+        "singular": "Nama dan Nombor ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "offCode": {
         "original": "Off Code",
         "singular": "Kod Tutup",
@@ -8187,6 +8194,13 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "No IC/Pasport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+        "original": "ID Number",
+        "singular": "Nombor ID",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
