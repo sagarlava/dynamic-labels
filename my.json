@@ -9551,6 +9551,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "mine": {
+        "original": "Mine",
+        "singular": "Saya",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Lokasi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "userBin": {
         "original": "User Bin",
         "singular": "Bin Pengguna",
@@ -9629,9 +9650,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "Periksa ketersediaan",
-      "plural": "Periksa ketersediaan",
+      "original": "Locate",
+      "singular": "Cari",
+      "plural": "Cari",
       "setupEdit": true,
       "setupVisible": true
     },

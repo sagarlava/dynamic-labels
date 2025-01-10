@@ -9566,6 +9566,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "mine": {
+        "original": "Mine",
+        "singular": "Mine",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "userBin": {
         "original": "User Bin",
         "singular": "User Bin",
@@ -9644,9 +9665,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "Check availability",
-      "plural": "Check availability",
+      "original": "Locate",
+      "singular": "Locate",
+      "plural": "Locate",
       "setupEdit": true,
       "setupVisible": true
     },

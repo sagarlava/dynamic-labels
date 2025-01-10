@@ -9565,6 +9565,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "mine": {
+        "original": "Mine",
+        "singular": "我的",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "位置",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "userBin": {
         "original": "User Bin",
         "singular": "用户仓位",
@@ -9643,9 +9664,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "检查可用性",
-      "plural": "检查可用性",
+      "original": "Locate",
+      "singular": "定位",
+      "plural": "定位",
       "setupEdit": true,
       "setupVisible": true
     },
