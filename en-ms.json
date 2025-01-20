@@ -9057,7 +9057,8 @@
       "availableOtherLocations":"available in other locations",
       "sameProductBinTransferNotAllowed": "You are not allowed to select the same Spare Part in a bin transfer",
       "sameProductBinNotAllowed": "You are not allowed to select the same Spare Part in a bin",
-      "sameAssetBinNotAllowed": "You are not allowed to select the same machine in a bin"
+      "sameAssetBinNotAllowed": "You are not allowed to select the same machine in a bin",
+      "utilizeFromBin" : "Utilize from Bin"
     }
   },
   "bin": {

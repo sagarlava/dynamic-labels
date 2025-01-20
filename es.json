@@ -9081,7 +9081,8 @@
       "availableOtherLocations": "disponible en otras ubicaciones",
       "sameProductBinTransferNotAllowed": "No está permitido seleccionar el mismo Repuesto en una transferencia de contenedor",
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
-      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor"
+      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
+      "utilizeFromBin": "Utilizar desde el contenedor"
     }
   },
   "bin": {
