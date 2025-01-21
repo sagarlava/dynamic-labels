@@ -9083,7 +9083,8 @@
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
       "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
       "utilizeFromBin": "Utilizar desde el contenedor",
-      "utilizeSpareParts": "Utilizar repuestos"
+      "utilizeSpareParts": "Utilizar repuestos",
+      "transferFroms": "Transferir desde"
     }
   },
   "bin": {

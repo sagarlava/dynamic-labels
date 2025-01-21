@@ -9070,7 +9070,8 @@
         "sameProductBinNotAllowed": "您不允许在仓库中选择相同的备件",
         "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产",
         "utilizeFromBin": "从箱子中使用",
-        "utilizeSpareParts": "使用备件"
+        "utilizeSpareParts": "使用备件",
+        "transferFrom": "从"
       }
     },
   "bin": {

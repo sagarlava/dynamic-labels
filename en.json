@@ -9071,7 +9071,8 @@
       "sameProductBinNotAllowed": "You are not allowed to select the same Spare Part in a bin",
       "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin",
       "utilizeFromBin" : "Utilize from Bin",
-      "utilizeSpareParts" : "Utilize Spare Parts"
+      "utilizeSpareParts" : "Utilize Spare Parts",
+      "transferFrom": "Transfer from"
     }
   },
   "bin": {
