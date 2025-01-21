@@ -9075,7 +9075,8 @@
      "sameProductBinTransferNotAllowed": "Es ist nicht erlaubt, dasselbe Ersatzteil bei einem Lagertransfer auszuwählen",
      "sameProductBinNotAllowed": "Es ist nicht erlaubt, dasselbe Ersatzteil in einem Lager auszuwählen",
      "sameAssetBinNotAllowed": "Es ist nicht erlaubt, dasselbe Asset in einem Lager auszuwählen",
-     "utilizeFromBin": "Aus dem Behälter nutzen"
+     "utilizeFromBin": "Aus dem Behälter nutzen",
+     "utilizeSpareParts": "Ersatzteile verwenden"
    }
  },
   "bin": {
