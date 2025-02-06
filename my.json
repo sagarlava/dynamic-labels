@@ -13160,7 +13160,7 @@
       "onlyAlphabetsAllowed": "Hanya abjad dibenarkan",
       "required": "Diperlukan",
       "requiredField": "Medan Diperlukan",
-      "pleaseSignBeforeProceed": "Sila tandatangan sebelum meneruskan",
+      "pleaseSignBeforeProceeding": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula"
     },

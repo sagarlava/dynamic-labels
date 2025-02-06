@@ -13176,7 +13176,7 @@
       "onlyAlphabetsAllowed": "Only alphabets allowed",
       "required": "Required",
       "requiredField": "Required Field",
-      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "pleaseSignBeforeProceeding": "Please sign before proceeding",
       "charactersExceed": "Text exceeds character limit (255).",
       "endDateThanStartDate": "End date must be after start date"
     },

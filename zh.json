@@ -13174,7 +13174,7 @@
       "onlyAlphabetsAllowed": "仅允许字母",
       "required": "必填",
       "requiredField": "必填字段",
-      "pleaseSignBeforeProceed": "请签名后继续",
+      "pleaseSignBeforeProceeding": "请在继续之前签名",
       "charactersExceed": "文本超过字符限制（255）。",
       "endDateThanStartDate": "结束日期必须在开始日期之后"
     },

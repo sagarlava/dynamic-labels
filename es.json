@@ -13172,7 +13172,7 @@
       "onlyAlphabetsAllowed": "Solo se permiten letras",
       "required": "Requerido",
       "requiredField": "Campo Requerido",
-      "pleaseSignBeforeProceed": "Por favor, firme antes de continuar",
+      "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio"
     },
