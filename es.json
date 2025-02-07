@@ -958,7 +958,10 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+        "warrantyEndDateMustBeGreater": "La fecha de fin de la garantía debe ser posterior a la fecha de inicio.",
+        "warrantyStartDateMustBeEarlier": "La fecha de inicio de la garantía debe ser anterior a la fecha de fin."
+      },
       "validationBE": {
         "assetIdNotFound": "ID no encontrado",
         "assetIdExidNotFound": "ID/ID Externo del Activo no encontrado",

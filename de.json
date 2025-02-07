@@ -958,7 +958,10 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+        "warrantyEndDateMustBeGreater": "Das Garantie-Enddatum muss nach dem Startdatum liegen.",
+        "warrantyStartDateMustBeEarlier": "Das Garantie-Startdatum sollte vor dem Enddatum liegen."
+      },
       "validationBE": {
         "assetIdNotFound": "Id nicht gefunden",
         "assetIdExidNotFound": "Id/AssetExternalId nicht gefunden",

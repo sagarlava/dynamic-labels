@@ -958,7 +958,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateMustBeGreater": "Tarikh tamat waranti mesti melebihi tarikh mula.",
+      "warrantyStartDateMustBeEarlier": "Tarikh mula waranti harus lebih awal daripada tarikh tamat."
+    },
     "validationBE": {
       "assetIdNotFound": "ID tidak dijumpai",
       "assetIdExidNotFound": "ID/AssetExternalId tidak dijumpai",

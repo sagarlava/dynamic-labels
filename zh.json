@@ -958,7 +958,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateMustBeGreater": "保修结束日期必须晚于开始日期。",
+      "warrantyStartDateMustBeEarlier": "保修开始日期应早于结束日期。"
+
+    },
     "validationBE": {
       "assetIdNotFound": "未找到 ID",
       "assetIdExidNotFound": "未找到 ID/资产外部ID",
