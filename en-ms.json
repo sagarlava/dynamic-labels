@@ -7588,6 +7588,13 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "latestSent": {
+      "original": "Latest Sent At",
+      "singular": "Latest Sent At",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "surveySentFrom": {
       "original": "Survey Sent From",
       "singular": "Survey Sent From",
