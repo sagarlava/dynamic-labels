@@ -9799,6 +9799,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Family",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     }
   },

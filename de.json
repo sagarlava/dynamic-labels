@@ -9789,7 +9789,28 @@
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
-    }
+    },
+    "type": {
+        "original": "Type",
+        "singular": "Typ",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Familie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Benutzer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
   }
 },
   "consignment": {

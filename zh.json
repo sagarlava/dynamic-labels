@@ -9798,6 +9798,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "系列",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     }
   },

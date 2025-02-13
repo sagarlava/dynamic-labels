@@ -9783,6 +9783,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Jenis",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Keluarga",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     }
   },
