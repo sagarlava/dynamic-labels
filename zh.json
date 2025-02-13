@@ -9819,6 +9819,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "子类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     }
   },

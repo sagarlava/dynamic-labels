@@ -9817,6 +9817,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Categoría",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "Sub-categoría",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     }
   },

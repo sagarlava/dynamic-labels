@@ -9810,6 +9810,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Kategorie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "Unterkategorie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
   }
 },
