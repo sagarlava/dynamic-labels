@@ -9725,6 +9725,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Select what to check",
+        "singular": "Pilih apa yang hendak diperiksa",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Pilih di mana hendak diperiksa",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "fields": {

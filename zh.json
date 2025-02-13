@@ -9740,6 +9740,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Select what to check",
+        "singular": "选择要检查的内容",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "选择要检查的位置",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "fields": {

@@ -9738,7 +9738,21 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    }
+    },
+      "sec4": {
+          "original": "Select what to check",
+          "singular": "Seleccionar qué verificar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Seleccionar Ubicación",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }
     },
     "fields": {
       "choose": {

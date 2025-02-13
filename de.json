@@ -9731,7 +9731,21 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    }
+    },
+    "sec4": {
+        "original": "Select what to check",
+        "singular": "Wählen Sie, was zu überprüfen ist",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Wählen Sie, wo zu überprüfen ist",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }
   },
   "fields": {
     "choose": {
