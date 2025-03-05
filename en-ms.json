@@ -961,7 +961,7 @@
       },
     "validationFE": {
       "warrantyEndDateMustBeGreater": "Warranty end date must be greater than the start date",
-      "warrantyStartDateMustBeEarlier": "Warranty stat date should be earlier than the end date"
+      "warrantyStartDateMustBeEarlier": "Warranty start date should be earlier than the end date"
     },
     "validationBE": {
       "assetIdNotFound": "Id not found",
