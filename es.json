@@ -9738,7 +9738,21 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    }
+    },
+      "sec4": {
+          "original": "Select what to check",
+          "singular": "Seleccionar qué verificar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Seleccionar Ubicación",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }
     },
     "fields": {
       "choose": {
@@ -9779,6 +9793,48 @@
       "bin": {
         "original": "Bin",
         "singular": "Contenedor",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Tipo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Familia",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Usuario",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Categoría",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "Sub-categoría",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
