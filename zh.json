@@ -3147,7 +3147,8 @@
       "newProductFamily": "新备件系列",
       "newProductType": "新备件类型",
       "subTotal": "小计",
-      "totalAmount": "总金额"
+      "totalAmount": "总金额",
+       "groupByTask": "按任务分组"
     }
   },
   "task": {

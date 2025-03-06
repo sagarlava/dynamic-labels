@@ -3145,7 +3145,8 @@
       "newProductFamily": "Nueva Familia de Repuesto",
       "newProductType": "Nuevo Tipo de Repuesto",
       "subTotal": "Subtotal",
-      "totalAmount": "Monto Total"
+      "totalAmount": "Monto Total",
+       "groupByTask": "Group By Task"
     }
   },
   "task": {
