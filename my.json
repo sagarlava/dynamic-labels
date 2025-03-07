@@ -3146,7 +3146,8 @@
       "newProductFamily": "Keluarga Alat Ganti Baru",
       "newProductType": "Jenis Alat Ganti Baru",
       "subTotal": "Jumlah Kecil",
-      "totalAmount": "Jumlah Keseluruhan"
+      "totalAmount": "Jumlah Keseluruhan",
+       "groupByTask": "Kumpulkan mengikut Tugas"
     }
   },
   "task": {

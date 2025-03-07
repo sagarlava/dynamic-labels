@@ -3144,7 +3144,8 @@
       "newProductFamily": "Neue Ersatzteilfamilie",
       "newProductType": "Neuer Ersatzteiltyp",
       "subTotal": "Zwischensumme",
-      "totalAmount": "Gesamtbetrag"
+      "totalAmount": "Gesamtbetrag",
+       "groupByTask": "Gruppieren nach Aufgabe"
     }
   },
   "task": {

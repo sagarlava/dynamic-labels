@@ -3147,7 +3147,8 @@
       "newProductFamily":"New Spare Part Family",
       "newProductType":"New Spare Part Type",
       "subTotal": "Sub Total",
-      "totalAmount": "Total Amount"
+      "totalAmount": "Total Amount",
+      "groupByTask": "Group by Task"
     }
   },
   "task": {
