@@ -12994,7 +12994,8 @@
       "noNotificationsYet": "Aún no hay notificaciones. ¡Estás al día!",
       "noFormsAvailable": "No hay formularios disponibles.",
       "currentLanguage": "Idioma Actual",
-      "allLanguages": "Todos los Idiomas"
+      "allLanguages": "Todos los Idiomas",
+      "itemNotFound": "Elemento no encontrado"
     },
     "currency": {
       "australianDollar": "AUD",

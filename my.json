@@ -12982,7 +12982,8 @@
       "noNotificationsYet": "Tiada pemberitahuan lagi. Anda sudah mengikuti perkembangan!",
       "noFormsAvailable": "Tiada borang tersedia.",
       "currentLanguage": "Bahasa Semasa",
-      "allLanguages": "Semua Bahasa"
+      "allLanguages": "Semua Bahasa",
+      "itemNotFound": "Item tidak ditemui"
     },
     "currency": {
       "australianDollar": "AUD",

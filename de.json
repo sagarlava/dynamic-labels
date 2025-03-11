@@ -12980,7 +12980,8 @@
       "noNotificationsYet": "Noch keine Benachrichtigungen. Sie sind auf dem Laufenden!",
       "noFormsAvailable": "Keine Formulare verfügbar.",
       "currentLanguage": "Aktuelle Sprache",
-      "allLanguages": "Alle Sprachen"
+      "allLanguages": "Alle Sprachen",
+      "itemNotFound": "Element nicht gefunden"
     },
     "currency": {
       "australianDollar": "AUD",
