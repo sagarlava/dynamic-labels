@@ -12992,13 +12992,17 @@
       "noHistoryAvailable": "没有可用的历史记录。您的活动将在这里显示。",
       "noAttachmentsFoundUploadFiles": "未找到附件。上传文件以在此查看。",
       "nothingToApprove": "没有需要审批的内容。所有项目都已更新。",
-      "noRecordsAvailable": "没有可用记录。添加新记录以开始。",
+      "noRecordsAvailable": "没有可用记录。",
       "noMessagesYet": "还没有消息。开始对话以在此查看您的消息。",
       "noNotificationsYet": "还没有通知。您已经掌握最新动态！",
       "noFormsAvailable": "没有可用表单。",
       "currentLanguage": "当前语言",
       "allLanguages": "所有语言",
-      "itemNotFound": "未找到项目"
+      "itemNotFound": "未找到项目",
+      "selectSearchCategory": "选择搜索类别",
+      "selectWhatToCreate": "选择要创建的内容",
+      "selectWhatToScan": "选择要扫描的内容",
+      "partAvailability": "零件可用性"
     },
     "currency": {
       "australianDollar": "AUD",

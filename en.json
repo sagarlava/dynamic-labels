@@ -12994,14 +12994,17 @@
       "noHistoryAvailable" : "No history available. Your activity will appear here.",
       "noAttachmentsFoundUploadFiles": "No attachments found. Upload files to see them here.",
       "nothingToApprove" : "Nothing to approve. All items are up to date.",
-      "noRecordsAvailable" : "No records available. Add a new record to get started.",
+      "noRecordsAvailable" : "No records available.",
       "noMessagesYet" : "No messages yet. Start a conversation to see your messages here.",
       "noNotificationsYet" : "No notifications yet. You’re all caught up!",
       "noFormsAvailable" : "No forms available.",
       "currentLanguage": "Current Language",
       "allLanguages": "All Languages",
-      "itemNotFound": "Item not found"
-       
+      "itemNotFound": "Item not found",
+      "selectSearchCategory": "Select search category",
+      "selectWhatToCreate": "Select what to create",
+      "selectWhatToScan": "Select what to scan",
+      "partAvailability": "Part availability"
     },
     "currency":{
       "australianDollar": "AUD",

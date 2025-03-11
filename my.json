@@ -12977,13 +12977,17 @@
       "noHistoryAvailable": "Tiada sejarah tersedia. Aktiviti anda akan muncul di sini.",
       "noAttachmentsFoundUploadFiles": "Tiada lampiran ditemui. Muat naik fail untuk melihatnya di sini.",
       "nothingToApprove": "Tiada apa-apa untuk diluluskan. Semua item adalah terkini.",
-      "noRecordsAvailable": "Tiada rekod tersedia. Tambahkan rekod baharu untuk bermula.",
+      "noRecordsAvailable": "Tiada rekod tersedia.",
       "noMessagesYet": "Tiada mesej lagi. Mulakan perbualan untuk melihat mesej anda di sini.",
       "noNotificationsYet": "Tiada pemberitahuan lagi. Anda sudah mengikuti perkembangan!",
       "noFormsAvailable": "Tiada borang tersedia.",
       "currentLanguage": "Bahasa Semasa",
       "allLanguages": "Semua Bahasa",
-      "itemNotFound": "Item tidak ditemui"
+      "itemNotFound": "Item tidak ditemui",
+      "selectSearchCategory": "Pilih kategori carian",
+      "selectWhatToCreate": "Pilih apa yang hendak dicipta",
+      "selectWhatToScan": "Pilih apa yang hendak diimbas",
+      "partAvailability": "Ketersediaan bahagian"
     },
     "currency": {
       "australianDollar": "AUD",

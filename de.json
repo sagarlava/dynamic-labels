@@ -12975,13 +12975,17 @@
       "noHistoryAvailable": "Keine Historie verfügbar. Ihre Aktivitäten werden hier angezeigt.",
       "noAttachmentsFoundUploadFiles": "Keine Anhänge gefunden. Laden Sie Dateien hoch, um sie hier anzuzeigen.",
       "nothingToApprove": "Nichts zu genehmigen. Alle Elemente sind auf dem neuesten Stand.",
-      "noRecordsAvailable": "Keine Datensätze verfügbar. Fügen Sie einen neuen Datensatz hinzu, um zu beginnen.",
+      "noRecordsAvailable": "Keine Datensätze verfügbar.",
       "noMessagesYet": "Noch keine Nachrichten. Starten Sie eine Konversation, um Ihre Nachrichten hier zu sehen.",
       "noNotificationsYet": "Noch keine Benachrichtigungen. Sie sind auf dem Laufenden!",
       "noFormsAvailable": "Keine Formulare verfügbar.",
       "currentLanguage": "Aktuelle Sprache",
       "allLanguages": "Alle Sprachen",
-      "itemNotFound": "Element nicht gefunden"
+      "itemNotFound": "Element nicht gefunden",
+      "selectSearchCategory": "Suchkategorie auswählen",
+      "selectWhatToCreate": "Erstellen auswählen",
+      "selectWhatToScan": "Scannen auswählen",
+      "partAvailability": "Teileverfügbarkeit"
     },
     "currency": {
       "australianDollar": "AUD",
