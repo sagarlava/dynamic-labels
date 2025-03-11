@@ -12994,7 +12994,11 @@
       "noNotificationsYet": "Aún no hay notificaciones. ¡Estás al día!",
       "noFormsAvailable": "No hay formularios disponibles.",
       "currentLanguage": "Idioma Actual",
-      "allLanguages": "Todos los Idiomas"
+      "allLanguages": "Todos los Idiomas",
+      "selectSearchCategory": "Seleccionar categoría de búsqueda",
+      "selectWhatToCreate": "Seleccionar qué crear",
+      "selectWhatToScan": "Seleccionar qué escanear",
+      "partAvailability": "Disponibilidad de la pieza"
     },
     "currency": {
       "australianDollar": "AUD",

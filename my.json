@@ -12982,7 +12982,11 @@
       "noNotificationsYet": "Tiada pemberitahuan lagi. Anda sudah mengikuti perkembangan!",
       "noFormsAvailable": "Tiada borang tersedia.",
       "currentLanguage": "Bahasa Semasa",
-      "allLanguages": "Semua Bahasa"
+      "allLanguages": "Semua Bahasa",
+      "selectSearchCategory": "Pilih kategori carian",
+      "selectWhatToCreate": "Pilih apa yang hendak dicipta",
+      "selectWhatToScan": "Pilih apa yang hendak diimbas",
+      "partAvailability": "Ketersediaan bahagian"
     },
     "currency": {
       "australianDollar": "AUD",

@@ -12980,7 +12980,11 @@
       "noNotificationsYet": "Noch keine Benachrichtigungen. Sie sind auf dem Laufenden!",
       "noFormsAvailable": "Keine Formulare verfügbar.",
       "currentLanguage": "Aktuelle Sprache",
-      "allLanguages": "Alle Sprachen"
+      "allLanguages": "Alle Sprachen",
+      "selectSearchCategory": "Suchkategorie auswählen",
+      "selectWhatToCreate": "Erstellen auswählen",
+      "selectWhatToScan": "Scannen auswählen",
+      "partAvailability": "Teileverfügbarkeit"
     },
     "currency": {
       "australianDollar": "AUD",

@@ -12999,7 +12999,11 @@
       "noNotificationsYet" : "No notifications yet. You’re all caught up!",
       "noFormsAvailable" : "No forms available.",
       "currentLanguage": "Current Language",
-      "allLanguages": "All Languages"
+      "allLanguages": "All Languages",
+      "selectSearchCategory": "Select search category",
+      "selectWhatToCreate": "Select what to create",
+      "selectWhatToScan": "Select what to scan",
+      "partAvailability": "Part availability"
     },
     "currency":{
       "australianDollar": "AUD",
