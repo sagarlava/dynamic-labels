@@ -12244,9 +12244,9 @@
         "setupVisible": true
       },
       "iAccept": {
-        "original": "I accept",
-        "singular": "I accept",
-        "plural": "I accept",
+        "original": "I Accept",
+        "singular": "I Accept",
+        "plural": "I Accept",
         "setupEdit": true,
         "setupVisible": true
       },
