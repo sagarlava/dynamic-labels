@@ -13263,6 +13263,7 @@
       "invalid": "无效",
       "invalidEmail": "无效的电子邮件",
       "invalidEmailFormat": "电子邮件格式无效",
+      "invalidPhoneFormat": "无效的电话号码格式",            
       "invalidFax": "无效的传真号码",
       "invalidFaxFormat": "传真格式无效",
       "invalidPhoneNumber": "无效的电话号码",

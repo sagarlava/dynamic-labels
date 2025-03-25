@@ -13248,6 +13248,7 @@
       "invalid": "Tidak Sah",
       "invalidEmail": "E-mel Tidak Sah",
       "invalidEmailFormat": "Format E-mel Tidak Sah",
+      "invalidPhoneFormat": "Format Nombor Telefon Tidak Sah",
       "invalidFax": "Nombor Faks Tidak Sah",
       "invalidFaxFormat": "Format Faks Tidak Sah",
       "invalidPhoneNumber": "Nombor Telefon Tidak Sah",

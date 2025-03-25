@@ -13246,6 +13246,7 @@
       "invalid": "Ungültig",
       "invalidEmail": "Ungültige E-Mail",
       "invalidEmailFormat": "Ungültiges E-Mail-Format",
+      "invalidPhoneFormat": "Ungültiges Telefonformat", 
       "invalidFax": "Ungültige Faxnummer",
       "invalidFaxFormat": "Ungültiges Faxformat",
       "invalidPhoneNumber": "Ungültige Telefonnummer",

@@ -13260,6 +13260,7 @@
       "invalid": "Inválido",
       "invalidEmail": "Correo Electrónico Inválido",
       "invalidEmailFormat": "Formato de Correo Electrónico Inválido",
+      "invalidPhoneFormat": "Formato de teléfono no válido",
       "invalidFax": "Número de Fax Inválido",
       "invalidFaxFormat": "Formato de Fax Inválido",
       "invalidPhoneNumber": "Número de Teléfono Inválido",

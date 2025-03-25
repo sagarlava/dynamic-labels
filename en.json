@@ -13265,6 +13265,7 @@
       "invalid": "Invalid",
       "invalidEmail": "Invalid Email",
       "invalidEmailFormat": "Invalid Email Format",
+      "invalidPhoneFormat": "Invalid Phone Format",
       "invalidFax": "Invalid Fax Number",
       "invalidFaxFormat": "Invalid Fax Format",
       "invalidPhoneNumber": "Invalid Phone Number",
