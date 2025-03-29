@@ -19321,7 +19321,7 @@
         "configNotificationOrganiation": "Configure las notificaciones que desea que su organización vea.",
         "notificationAllow": "Las notificaciones le permiten notificar a los usuarios sobre actividades específicas en FieldEx, como actualizaciones y solicitudes, tanto dentro de la aplicación como a través de correos electrónicos. Seleccione un módulo a continuación para configurar las notificaciones según su proceso.",
         "notificationsAreAlerts": "Las notificaciones son alertas que lo mantienen actualizado sobre actividades específicas dentro de FieldEx. Puede configurar que se le envíen a través de su medio preferido haciendo clic en 'Editar' y seleccionando o deseleccionando las casillas a continuación.",
-        "markAsRead": "Marcar como Leído",
+        "markAsRead": "Marcar todo como leído",
         "noMessageToDisplay": "No hay mensajes para mostrar",
         "changesUpdatedAllModified": "Los cambios se actualizarán para todas las notificaciones modificadas"
       }
