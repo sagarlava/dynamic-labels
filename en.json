@@ -8205,8 +8205,8 @@
       "setupVisible": false
     },
     "uploadAttachment": {
-      "original": "Upload",
-      "singular": "Upload",
+      "original": "Upload Attachment",
+      "singular": "Upload Attachment",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false

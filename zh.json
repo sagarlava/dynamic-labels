@@ -8190,8 +8190,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "上传",
+        "original": "上传附件",
+        "singular": "上传附件",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

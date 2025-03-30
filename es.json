@@ -8202,8 +8202,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "Subir",
+        "original": "Subir adjunto",
+        "singular": "Subir adjunto",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

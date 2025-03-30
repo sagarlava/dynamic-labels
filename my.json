@@ -8189,8 +8189,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "Muat Naik",
+        "original": "Muat naik lampiran",
+        "singular": "Muat naik lampiran",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

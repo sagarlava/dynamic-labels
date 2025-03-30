@@ -8201,8 +8201,8 @@
       "setupVisible": false
     },
     "uploadAttachment": {
-      "original": "Upload",
-      "singular": "Hochladen",
+      "original": "Anhang hochladen",
+      "singular": "Anhang hochladen",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
