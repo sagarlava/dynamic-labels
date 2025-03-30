@@ -12004,7 +12004,7 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
+        "original": "Email",
         "singular": "EMEL",
         "plural": "",
         "setupEdit": true,

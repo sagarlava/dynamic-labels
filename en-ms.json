@@ -11873,8 +11873,8 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
-        "singular": "EMAIL",
+        "original": "Email",
+        "singular": "Email",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

@@ -12003,7 +12003,7 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
+        "original": "Email",
         "singular": "E-Mail",
         "plural": "",
         "setupEdit": true,
