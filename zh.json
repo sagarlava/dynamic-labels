@@ -12875,7 +12875,7 @@
       "action": {
         "original": "Action",
         "singular": "操作",
-        "plural": "",
+        "plural": "操作",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -14220,6 +14220,83 @@
         "original": "Clear Filters",
         "singular": "清除筛选器",
         "plural": "清除筛选器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rename": {
+        "original": "Rename",
+        "singular": "重命名",
+        "plural": "重命名",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share": {
+        "original": "Share",
+        "singular": "共享",
+        "plural": "共享",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export": {
+        "original": "Export",
+        "singular": "导出",
+        "plural": "导出",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import": {
+        "original": "Import",
+        "singular": "导入",
+        "plural": "导入",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "复制",
+        "plural": "复制",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorite",
+        "singular": "收藏",
+        "plural": "收藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unfavorite": {
+        "original": "Unfavorite",
+        "singular": "取消收藏",
+        "plural": "取消收藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "查看者",
+        "plural": "查看者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "编辑者",
+        "plural": "编辑者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "run": {
+        "original": "Run",
+        "singular": "运行",
+        "plural": "运行",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "计划",
+        "plural": "计划",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -24864,6 +24941,399 @@
       "plural": "报告",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "文件夹",
+        "plural": "文件夹",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Sharing Options",
+        "singular": "共享选项",
+        "plural": "共享选项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "构建器",
+        "plural": "构建器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "选择模块",
+        "plural": "选择模块",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "选择字段",
+        "plural": "选择字段",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "排序",
+        "plural": "排序",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Grouping",
+        "singular": "分组",
+        "plural": "分组",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Select Filters",
+        "singular": "选择筛选器",
+        "plural": "选择筛选器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Schedule Configuration",
+        "singular": "计划配置",
+        "plural": "计划配置",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "最后修改者",
+        "plural": "最后修改者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "最后修改日期",
+        "plural": "最后修改日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "创建者",
+        "plural": "创建者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "创建日期",
+        "plural": "创建日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "标准",
+        "plural": "标准",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "收藏",
+        "plural": "收藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "字段",
+        "plural": "字段",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "运算符",
+        "plural": "运算符",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "值",
+        "plural": "值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overview": {
+        "original": "Overview",
+        "singular": "概览",
+        "plural": "概览",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter": {
+        "original": "Filter",
+        "singular": "筛选器",
+        "plural": "筛选器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner": {
+        "original": "Owner",
+        "singular": "拥有者",
+        "plural": "拥有者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "查看者",
+        "plural": "查看者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "编辑者",
+        "plural": "编辑者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ascending": {
+        "original": "Ascending",
+        "singular": "升序",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "descending": {
+        "original": "Descending",
+        "singular": "降序",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "新建文件夹",
+        "plural": "新建文件夹",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "重命名文件夹",
+        "plural": "重命名文件夹",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "共享文件夹",
+        "plural": "共享文件夹",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "删除文件夹",
+        "plural": "删除文件夹",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE":{
+      "exceedCharacterLimit":"文件夹名称超出字符限制",
+      "ownerNotAllowedRemoved": "无法将拥有者从共享列表中移除。请将拥有权转移给其他用户后再试一次。",
+      "onlyTenUsersAddAtTime": "一次最多只能添加 10 个用户。",
+      "onlyTenGroupsAddAtTime": "一次最多只能添加 10 个群组。",
+      "onlyCaps": "仅",
+      "areAllowedToAdd": "可同时添加",
+      "movedSuccessfully": "已成功移动",
+      "exportedSuccesfully": "已成功导出",
+      "duplicatedSuccesfully": "已成功复制",
+      "deletedSuccesfully": "已成功删除",
+      "requiresOneFieldBuild": "需要至少一个字段来生成。",
+      "maximumFieldsSelectionExceeded": "已超出字段选择上限",
+      "maximumSortingFieldsExceeded": "已超出排序字段上限",
+      "maximumGroupingFieldsExceeded": "已超出分组字段上限",
+      "removedFromFavorites": "已成功从收藏夹中移除",
+      "addedToFavorites": "已成功添加到收藏夹",
+      "updatedSuccessfully": "已成功更新"
+    },
+    "messages":{
+      "generateExistingReports": "生成现有或新建",
+      "withYourFieldexData": "使用您的 FieldEx 数据，以便更深入地了解您的运营并帮助您做出决策",
+      "thereAreNoReports": "当前没有",
+      "inThisFolderYet": "在此文件夹中",
+      "createA": "创建一个",
+      "toSeeItHere": "以在此处查看",
+      "noRecordsDisplayedYet": "尚未显示任何记录。运行",
+      "toViewRecords": "以查看记录",
+      "noteRunningTheReportRecords": "注意：运行",
+      "willOnlyDisplayUpTo": "只会显示最多 2000 条记录。导出报告以查看所有记录",
+      "noteRunningTheReportRows": "运行",
+      "willOnlyDisplayUpToRows": "只会显示最多 2000 行记录。导出报告以查看所有记录",
+      "noRecordsFoundForSelectedFields": "所选字段未找到记录",
+      "createSomeRecords": "创建一些记录，以便在运行",
+      "selectModuleToUseReport": "选择将用于",
+      "fieldsAvailableInThe": "可用字段在",
+      "willBeBasedSelection": "将基于您的选择",
+      "youHaveNotSelectedAnyFields": "您尚未选择任何字段",
+      "selectedFieldsColumnsInSection": "所选字段将在此部分显示为列",
+      "enterNameForFolder": "为此文件夹输入名称",
+      "folderCreatedIn": "此文件夹将创建在",
+      "willBe": "将被",
+      "permanentlyDeleted": "永久删除",
+      "areYouSureProceed": "您确定要继续吗？",
+      "enterFolderNameHere": "在此输入文件夹名称",
+      "addUsersHere": "在此添加用户",
+      "addGroupsHere": "在此添加群组",
+      "whichUsersToShareFile": "您想与哪些用户共享此",
+      "whichGroupsToShareFile": "您想与哪些群组共享此",
+      "with": "？",
+      "peopleWithAccess": "具有访问权限的人",
+      "folderCurrentlyIn": "此文件夹当前位于",
+      "whichUsersToShareFileHelpText": "在此，您可以管理此文件的共享用户并设置其访问级别",
+      "whichGroupsToShareFileHelpText": "在此，您可以管理此文件的共享群组并设置其访问级别",
+      "changeOwnerConfirmation": "更改所有者确认",
+      "areYouSureChangeOwnership": "您确定要更改此文件夹的所有权吗？此操作无法撤销。",
+      "areYouSureToChangeOwenrshipThis": "您确定要更改此项目的所有权吗",
+      "areYouSureWantToChangeOwnership": "您确定要更改所有权吗",
+      "thisActionCannotUndone": "此操作无法撤销。",
+      "deleteFolderConfirmation": "删除文件夹确认",
+      "selectModuleToUse": "选择将用于此项的模块",
+      "fieldsAvailable": "可用字段在",
+      "basedOnSelection": "将基于您的选择",
+      "selectModuleUsedIn": "选择将在其中使用的模块",
+      "selectModuleUsedInReport": "选择将在其中使用的模块",
+      "selectTypeFileToExport": "选择要导出的文件类型",
+      "in": "中",
+      "unsavedChangesLostDiscard": "未保存的更改在您的",
+      "willBeLostIfDiscard": "将丢失，如果您现在放弃此项",
+      "nowYouWantToProceed": "。您确定要继续吗？",
+      "moveCaps": "移动",
+      "toCaps": "到",
+      "fromLower": "从",
+      "selectAFileType": "选择文件类型",
+      "csvDescription": "纯文本文件，每行表示一行数据，值以逗号分隔。",
+      "excelDescription": "电子表格文件，信息按行和列组织。",
+      "pdfDescription": "一种保持文档格式的文件格式。",
+      "this": "此",
+      "isCurrentlyIn": "当前位于",
+      "enterYour": "输入您的",
+      "nameHere": "名称...",
+      "fieldsAvailableInThis": "可用字段在此",
+      "willBeBasedOnSelection": "将基于此选择",
+      "fieldsSelectedDisplayedAsColumns.part1": "此处选择的字段将显示为列。您可以在",
+      "builder": "构建器",
+      "makingSortSelectionWillSort": "进行排序选择将对您的",
+      "byTheSelectedField": "按所选字段排序。",
+      "thisStepIsOptional": "此步骤为可选。",
+      "filterYour": "筛选您的",
+      "byMakingFilterSelection": "通过在此处进行筛选选择。",
+      "makingAGroupSelection": "进行分组选择将把您的",
+      "byRowsOfSelectedField": "按所选字段的行进行分组。",
+      "userCanEditForThisReport": "用户可以编辑此项的筛选器",
+      "userMustSelectValues": "用户必须在运行之前选择此筛选器的值",
+      "addField": "添加字段...",
+      "addGroup": "添加群组...",
+      "addFilter": "添加筛选器...",
+      "selectAField": "选择字段",
+      "doYouRemoveFilter": "是否要移除此筛选器？",
+      "noFoldersCreatedYet": "尚未创建文件夹。",
+      "pleaseCreateOneToSeeIt": "请创建一个以在此查看。",
+      "userAtATime": "用户一次",
+      "groupAtATime": "群组一次",
+      "atATime": "一次",
+      "hasShared": "已共享",
+      "withYou": "与你",
+      "removedYourAccessTo": "已移除你对此的访问权限",
+      "hasMadeYouTheOwnerOf": "已将你设为此的所有者",
+      "hasDeleted": "已删除",
+      "accessToItHasBeenRemoved": "访问权限已被移除",
+      "filterRequiredToViewThis": "查看此项需要筛选器",
+      "selectApplyFilter": "在筛选面板中选择并应用筛选器以查看",
+      "selectApplyFilterReport": "在筛选面板中选择并应用筛选器以查看",
+      "showingTotalOf": "显示总计",
+      "showingFirst": "显示前",
+      "of": "的",
+      "exportThis": "导出此项",
+      "toViewAll": "以查看全部",
+      "selectAnAccess": "选择访问权限",
+      "groupsWithAccess": "具有访问权限的群组",
+      "selectOperator": "选择运算符",
+      "selectValue": "选择值",
+      "selectStartDate": "选择开始日期",
+      "selectEndDate": "选择结束日期",
+      "noRecordsFoundField": "此项中的字段未找到记录",
+      "createSomeRecord": "创建一些记录以在此查看",
+      "selectTypeOfFile": "选择您希望计划的文件类型",
+      "toBeSentIn": "发送于",
+      "setDurtaionScheduleValid": "设置此计划的有效持续时间",
+      "scheduleStartsFrom": "此计划开始于",
+      "andEnds": "并结束于",
+      "setWhenThis": "设置此项何时",
+      "willBeScheduledToBeSent": "将被安排发送",
+      "scheduleSentOut": "此计划已发送",
+      "onLower": "在",
+      "onUpper": "在",
+      "atLower": "于",
+      "atUpper": "于",
+      "onThe": "在第",
+      "ofTheMonth": "天（每月）",
+      "selectRecipientOfFile": "选择此文件的接收者，您可以选择或输入多个值",
+      "selectUser": "选择用户",
+      "selectGroup": "选择群组",
+      "enterEmailAddr": "输入电子邮件地址",
+      "never": "从不",
+      "selectEmailRecipient": "选择电子邮件收件人",
+      "whenShouldThisRecordCreated": "此报告应何时创建？",
+      "scheduleDuration": "计划持续时间",
+      "selectFileType": "选择文件类型"
     }
   },
   "academy": {

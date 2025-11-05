@@ -12875,7 +12875,7 @@
       "action": {
         "original": "Action",
         "singular": "Tindakan",
-        "plural": "",
+        "plural": "Tindakan",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -14220,6 +14220,83 @@
         "original": "Clear Filters",
         "singular": "Padam Penapis",
         "plural": "Padam Penapis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rename": {
+        "original": "Rename",
+        "singular": "Tukar Nama",
+        "plural": "Tukar Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share": {
+        "original": "Share",
+        "singular": "Kongsi",
+        "plural": "Kongsi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export": {
+        "original": "Export",
+        "singular": "Eksport",
+        "plural": "Eksport",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import": {
+        "original": "Import",
+        "singular": "Import",
+        "plural": "Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "Pendua",
+        "plural": "Pendua",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorite",
+        "singular": "Kegemaran",
+        "plural": "Kegemaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unfavorite": {
+        "original": "Unfavorite",
+        "singular": "Nyahkegemaran",
+        "plural": "Nyahkegemaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Pelihat",
+        "plural": "Pelihat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "Penyunting",
+        "plural": "Penyunting",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "run": {
+        "original": "Run",
+        "singular": "Jalankan",
+        "plural": "Jalankan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Jadual",
+        "plural": "Jadual",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -24863,6 +24940,399 @@
       "plural": "Laporan",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Folder",
+        "plural": "Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Sharing Options",
+        "singular": "Pilihan Perkongsian",
+        "plural": "Pilihan Perkongsian",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "Pembina",
+        "plural": "Pembina",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "Pilih Modul",
+        "plural": "Pilih Modul",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "Pilih Medan",
+        "plural": "Pilih Medan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "Isihan",
+        "plural": "Isihan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Grouping",
+        "singular": "Pengelompokan",
+        "plural": "Pengelompokan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Select Filters",
+        "singular": "Pilih Penapis",
+        "plural": "Pilih Penapis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Schedule Configuration",
+        "singular": "Konfigurasi Jadual",
+        "plural": "Konfigurasi Jadual",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Diubah Suai Oleh",
+        "plural": "Diubah Suai Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Tarikh Diubah Suai",
+        "plural": "Tarikh Diubah Suai",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Dicipta Oleh",
+        "plural": "Dicipta Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Tarikh Dicipta",
+        "plural": "Tarikh Dicipta",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "Standard",
+        "plural": "Standard",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "Kegemaran",
+        "plural": "Kegemaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "Medan",
+        "plural": "Medan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "Operator",
+        "plural": "Operator",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "Nilai",
+        "plural": "Nilai",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overview": {
+        "original": "Overview",
+        "singular": "Gambaran Keseluruhan",
+        "plural": "Gambaran Keseluruhan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter": {
+        "original": "Filter",
+        "singular": "Penapis",
+        "plural": "Penapis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner": {
+        "original": "Owner",
+        "singular": "Pemilik",
+        "plural": "Para Pemilik",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Pemerhati",
+        "plural": "Para Pemerhati",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "Penyunting",
+        "plural": "Para Penyunting",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ascending": {
+        "original": "Ascending",
+        "singular": "Menaik",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "descending": {
+        "original": "Descending",
+        "singular": "Menurun",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "Folder Baharu",
+        "plural": "Folder Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "Tukar Nama Folder",
+        "plural": "Tukar Nama Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "Kongsi Folder",
+        "plural": "Kongsi Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "Padam Folder",
+        "plural": "Padam Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE":{
+      "exceedCharacterLimit":"Nama folder melebihi had aksara",
+      "ownerNotAllowedRemoved": "Pemilik tidak dibenarkan untuk dikeluarkan daripada senarai perkongsian. Sila pindahkan pemilikan kepada pengguna lain dan cuba lagi.",
+      "onlyTenUsersAddAtTime": "Hanya 10 pengguna dibenarkan untuk ditambah pada satu masa.",
+      "onlyTenGroupsAddAtTime": "Hanya 10 kumpulan dibenarkan untuk ditambah pada satu masa.",
+      "onlyCaps": "Hanya",
+      "areAllowedToAdd": "dibenarkan untuk ditambah pada satu masa",
+      "movedSuccessfully": "telah berjaya dipindahkan",
+      "exportedSuccesfully": "telah berjaya dieksport",
+      "duplicatedSuccesfully": "telah berjaya diduplikasi",
+      "deletedSuccesfully": "telah berjaya dipadam",
+      "requiresOneFieldBuild": "memerlukan sekurang-kurangnya satu medan untuk dibina.",
+      "maximumFieldsSelectionExceeded": "Pemilihan medan maksimum telah melebihi had",
+      "maximumSortingFieldsExceeded": "Medan pengisihan maksimum telah melebihi had",
+      "maximumGroupingFieldsExceeded": "Medan pengelompokan maksimum telah melebihi had",
+      "removedFromFavorites": "telah berjaya dikeluarkan daripada Kegemaran",
+      "addedToFavorites": "telah berjaya ditambah ke Kegemaran",
+      "updatedSuccessfully": "telah berjaya dikemas kini"
+    },
+    "messages":{
+      "generateExistingReports": "Menjana laporan sedia ada atau buat baharu",
+      "withYourFieldexData": "dengan data FieldEx anda untuk mendapatkan pandangan lanjut tentang operasi anda dan membantu anda membuat keputusan",
+      "thereAreNoReports": "Tiada laporan",
+      "inThisFolderYet": "dalam folder ini lagi",
+      "createA": "Cipta",
+      "toSeeItHere": "untuk melihatnya di sini",
+      "noRecordsDisplayedYet": "Tiada rekod dipaparkan lagi. Jalankan",
+      "toViewRecords": "untuk melihat rekod",
+      "noteRunningTheReportRecords": "Nota: Menjalankan",
+      "willOnlyDisplayUpTo": "hanya akan memaparkan sehingga 2000 rekod. Eksport laporan untuk melihat semua rekod",
+      "noteRunningTheReportRows": "Menjalankan",
+      "willOnlyDisplayUpToRows": "hanya akan memaparkan sehingga 2000 baris rekod. Eksport laporan untuk melihat semua rekod",
+      "noRecordsFoundForSelectedFields": "Tiada rekod ditemui untuk medan yang dipilih",
+      "createSomeRecords": "Cipta beberapa rekod untuk melihatnya apabila menjalankan",
+      "selectModuleToUseReport": "Pilih modul yang akan digunakan untuk",
+      "fieldsAvailableInThe": "Medan yang tersedia dalam",
+      "willBeBasedSelection": "akan berdasarkan pada pilihan anda",
+      "youHaveNotSelectedAnyFields": "Anda belum memilih sebarang medan lagi",
+      "selectedFieldsColumnsInSection": "Medan yang dipilih akan dipaparkan sebagai lajur dalam bahagian ini",
+      "enterNameForFolder": "Masukkan nama untuk folder ini",
+      "folderCreatedIn": "Folder ini akan dibuat dalam",
+      "willBe": "akan",
+      "permanentlyDeleted": "dipadam secara kekal",
+      "areYouSureProceed": "Adakah anda pasti mahu meneruskan?",
+      "enterFolderNameHere": "Masukkan nama folder anda di sini",
+      "addUsersHere": "Tambah pengguna di sini",
+      "addGroupsHere": "Tambah kumpulan di sini",
+      "whichUsersToShareFile": "Pengguna mana yang anda ingin kongsikan ini",
+      "whichGroupsToShareFile": "Kumpulan mana yang anda ingin kongsikan ini",
+      "with": "dengan?",
+      "peopleWithAccess": "Orang yang mempunyai akses",
+      "folderCurrentlyIn": "Folder ini kini berada dalam",
+      "whichUsersToShareFileHelpText": "Di sini anda boleh mengurus pengguna yang dikongsi dengan fail ini dan menetapkan tahap akses mereka",
+      "whichGroupsToShareFileHelpText": "Di sini anda boleh mengurus kumpulan yang dikongsi dengan fail ini dan menetapkan tahap akses mereka",
+      "changeOwnerConfirmation": "Pengesahan Tukar Pemilik",
+      "areYouSureChangeOwnership": "Adakah anda pasti mahu menukar pemilikan folder ini? Tindakan ini tidak boleh dipulihkan.",
+      "areYouSureToChangeOwenrshipThis": "Adakah anda pasti mahu menukar pemilikan untuk ini",
+      "areYouSureWantToChangeOwnership": "Adakah anda pasti mahu menukar pemilikan",
+      "thisActionCannotUndone": "Tindakan ini tidak boleh dipulihkan.",
+      "deleteFolderConfirmation": "Pengesahan Padam Folder",
+      "selectModuleToUse": "Pilih modul yang akan digunakan untuk ini",
+      "fieldsAvailable": "Medan yang tersedia dalam",
+      "basedOnSelection": "akan berdasarkan pada pilihan anda",
+      "selectModuleUsedIn": "Pilih modul yang akan digunakan dalam",
+      "selectModuleUsedInReport": "Pilih modul yang akan digunakan dalam",
+      "selectTypeFileToExport": "Pilih jenis fail yang anda ingin eksport",
+      "in": "dalam",
+      "unsavedChangesLostDiscard": "Perubahan yang tidak disimpan dalam",
+      "willBeLostIfDiscard": "akan hilang jika anda membatalkan ini",
+      "nowYouWantToProceed": "sekarang. Adakah anda pasti mahu meneruskan?",
+      "moveCaps": "Pindah",
+      "toCaps": "Ke",
+      "fromLower": "dari",
+      "selectAFileType": "Pilih jenis fail",
+      "csvDescription": "Fail teks biasa di mana setiap baris mewakili baris data dan nilai dipisahkan dengan koma.",
+      "excelDescription": "Fail hamparan dengan maklumat yang disusun dalam baris dan lajur.",
+      "pdfDescription": "Format fail yang mengekalkan pemformatan dokumen.",
+      "this": "Ini",
+      "isCurrentlyIn": "kini berada dalam",
+      "enterYour": "Masukkan",
+      "nameHere": "nama anda di sini...",
+      "fieldsAvailableInThis": "Medan yang tersedia dalam",
+      "willBeBasedOnSelection": "akan berdasarkan pada pilihan ini",
+      "fieldsSelectedDisplayedAsColumns.part1": "Medan yang dipilih akan dipaparkan sebagai lajur. Anda boleh menyusun semula lajur dalam",
+      "builder": "pembina",
+      "makingSortSelectionWillSort": "Membuat pilihan isihan akan mengisih",
+      "byTheSelectedField": "mengikut medan yang dipilih.",
+      "thisStepIsOptional": "Langkah ini adalah pilihan.",
+      "filterYour": "Tapis",
+      "byMakingFilterSelection": "dengan membuat pilihan penapis di sini.",
+      "makingAGroupSelection": "Membuat pilihan kumpulan akan mengelompokkan",
+      "byRowsOfSelectedField": "mengikut baris medan yang dipilih.",
+      "userCanEditForThisReport": "Pengguna boleh menyunting penapis untuk",
+      "userMustSelectValues": "Pengguna mesti memilih nilai penapis ini sebelum menjalankan",
+      "addField": "Tambah Medan...",
+      "addGroup": "Tambah Kumpulan...",
+      "addFilter": "Tambah Penapis...",
+      "selectAField": "Pilih medan",
+      "doYouRemoveFilter": "Adakah anda mahu mengalih keluar penapis ini?",
+      "noFoldersCreatedYet": "Tiada folder dibuat lagi.",
+      "pleaseCreateOneToSeeIt": "Sila buat satu untuk melihatnya di sini.",
+      "userAtATime": "pengguna pada satu masa",
+      "groupAtATime": "kumpulan pada satu masa",
+      "atATime": "pada satu masa",
+      "hasShared": "telah berkongsi",
+      "withYou": "dengan anda",
+      "removedYourAccessTo": "mengeluarkan akses anda ke",
+      "hasMadeYouTheOwnerOf": "telah menjadikan anda pemilik bagi",
+      "hasDeleted": "telah memadam",
+      "accessToItHasBeenRemoved": "Akses kepadanya telah dikeluarkan",
+      "filterRequiredToViewThis": "Penapis diperlukan untuk melihat ini",
+      "selectApplyFilter": "Pilih dan gunakan penapis dalam panel penapis untuk melihat",
+      "selectApplyFilterReport": "Pilih dan gunakan penapis dalam panel penapis untuk melihat",
+      "showingTotalOf": "Menunjukkan jumlah sebanyak",
+      "showingFirst": "Menunjukkan yang pertama",
+      "of": "daripada",
+      "exportThis": "Eksport ini",
+      "toViewAll": "untuk melihat semua",
+      "selectAnAccess": "Pilih Akses",
+      "groupsWithAccess": "Kumpulan dengan akses",
+      "selectOperator": "Pilih Operator",
+      "selectValue": "Pilih Nilai",
+      "selectStartDate": "Pilih Tarikh Mula",
+      "selectEndDate": "Pilih Tarikh Tamat",
+      "noRecordsFoundField": "Tiada rekod ditemui untuk medan dalam ini",
+      "createSomeRecord": "Cipta beberapa rekod untuk melihatnya di sini",
+      "selectTypeOfFile": "Pilih jenis fail yang anda ingin jadualkan",
+      "toBeSentIn": "untuk dihantar dalam",
+      "setDurtaionScheduleValid": "Tetapkan tempoh jadual ini akan sah",
+      "scheduleStartsFrom": "Jadual ini bermula dari",
+      "andEnds": "dan berakhir",
+      "setWhenThis": "Tetapkan bila",
+      "willBeScheduledToBeSent": "akan dijadualkan untuk dihantar",
+      "scheduleSentOut": "Jadual ini dihantar",
+      "onLower": "pada",
+      "onUpper": "Pada",
+      "atLower": "pada",
+      "atUpper": "Pada",
+      "onThe": "Pada hari",
+      "ofTheMonth": "bulan",
+      "selectRecipientOfFile": "Pilih penerima fail ini, anda boleh memilih atau memasukkan berbilang nilai",
+      "selectUser": "Pilih Pengguna",
+      "selectGroup": "Pilih Kumpulan",
+      "enterEmailAddr": "Masukkan alamat emel",
+      "never": "Tidak pernah",
+      "selectEmailRecipient": "Pilih Penerima Emel",
+      "whenShouldThisRecordCreated": "Bila laporan ini perlu dibuat?",
+      "scheduleDuration": "Tempoh Jadual",
+      "selectFileType": "Pilih Jenis Fail"
     }
   },
   "academy": {

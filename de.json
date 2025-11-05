@@ -12875,7 +12875,7 @@
       "action": {
         "original": "Action",
         "singular": "Aktion",
-        "plural": "",
+        "plural": "Aktionen",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -14202,6 +14202,69 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "rename": {
+        "original": "Rename",
+        "singular": "Umbenennen",
+        "plural": "Umbenennen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share": {
+        "original": "Share",
+        "singular": "Teilen",
+        "plural": "Teilen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export": {
+        "original": "Export",
+        "singular": "Exportieren",
+        "plural": "Exportieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import": {
+        "original": "Import",
+        "singular": "Importieren",
+        "plural": "Importieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "Duplizieren",
+        "plural": "Duplizieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorite",
+        "singular": "Favorit",
+        "plural": "Favoriten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unfavorite": {
+        "original": "Unfavorite",
+        "singular": "Aus Favoriten entfernen",
+        "plural": "Aus Favoriten entfernen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Betrachter",
+        "plural": "Betrachter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editoren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "selectAll": {
         "original": "Select All",
         "singular": "Alle auswählen",
@@ -14220,6 +14283,20 @@
         "original": "Clear Filters",
         "singular": "Filter löschen",
         "plural": "Filter löschen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "run": {
+        "original": "Run",
+        "singular": "Ausführen",
+        "plural": "Ausführen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Zeitplan",
+        "plural": "Zeitpläne",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -24863,6 +24940,399 @@
       "plural": "Berichte",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Ordner",
+        "plural": "Ordner",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1":{
+        "original": "Sharing Options",
+        "singular": "Freigabeoption",
+        "plural": "Freigabeoptionen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "Generator",
+        "plural": "Generatoren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "Modul auswählen",
+        "plural": "Module auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "Feld auswählen",
+        "plural": "Felder auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "Sortierung",
+        "plural": "Sortierungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Grouping",
+        "singular": "Gruppierung",
+        "plural": "Gruppierungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Select Filters",
+        "singular": "Filter auswählen",
+        "plural": "Filter auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Schedule Configuration",
+        "singular": "Zeitplankonfiguration",
+        "plural": "Zeitplankonfigurationen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Zuletzt geändert von",
+        "plural": "Zuletzt geändert von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Änderungsdatum",
+        "plural": "Änderungsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Erstellt von",
+        "plural": "Erstellt von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "Standard",
+        "plural": "Standards",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "Favorit",
+        "plural": "Favoriten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "Feld",
+        "plural": "Felder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "Operator",
+        "plural": "Operatoren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "Wert",
+        "plural": "Werte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overview": {
+        "original": "Overview",
+        "singular": "Übersicht",
+        "plural": "Übersichten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter": {
+        "original": "Filter",
+        "singular": "Filter",
+        "plural": "Filter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner": {
+        "original": "Owner",
+        "singular": "Eigentümer",
+        "plural": "Eigentümer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Betrachter",
+        "plural": "Betrachter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "Bearbeiter",
+        "plural": "Bearbeiter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ascending": {
+        "original": "Ascending",
+        "singular": "Aufsteigend",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "descending": {
+        "original": "Descending",
+        "singular": "Absteigend",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "Neuer Ordner",
+        "plural": "Neue Ordner",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "Ordner Umbenennen",
+        "plural": "Ordner Umbenennen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "Ordner Freigeben",
+        "plural": "Ordner Freigeben",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "Ordner Löschen",
+        "plural": "Ordner Löschen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE":{
+      "exceedCharacterLimit":"Der Ordnername überschreitet das Zeichenlimit",
+      "ownerNotAllowedRemoved": "Der Eigentümer darf nicht aus der Freigabeliste entfernt werden. Bitte übertragen Sie die Eigentümerschaft auf einen anderen Benutzer und versuchen Sie es erneut.",
+      "onlyTenUsersAddAtTime": "Es dürfen nur 10 Benutzer gleichzeitig hinzugefügt werden.",
+      "onlyTenGroupsAddAtTime": "Es dürfen nur 10 Gruppen gleichzeitig hinzugefügt werden.",
+      "onlyCaps": "Nur",
+      "areAllowedToAdd": "dürfen gleichzeitig hinzugefügt werden",
+      "movedSuccessfully": "wurde erfolgreich verschoben",
+      "exportedSuccesfully": "wurde erfolgreich exportiert",
+      "duplicatedSuccesfully": "wurde erfolgreich dupliziert",
+      "deletedSuccesfully": "wurde erfolgreich gelöscht",
+      "requiresOneFieldBuild": "erfordert mindestens ein Feld zum Erstellen.",
+      "maximumFieldsSelectionExceeded": "Maximale Feldauswahl überschritten",
+      "maximumSortingFieldsExceeded": "Maximale Sortierfelder überschritten",
+      "maximumGroupingFieldsExceeded": "Maximale Gruppierungsfelder überschritten",
+      "removedFromFavorites": "wurde erfolgreich aus Favoriten entfernt",
+      "addedToFavorites": "wurde erfolgreich zu Favoriten hinzugefügt",
+      "updatedSuccessfully": "wurde erfolgreich aktualisiert"
+    },
+    "messages":{
+      "generateExistingReports": "Vorhandene erstellen oder neue",
+      "withYourFieldexData": "mit Ihren FieldEx-Daten, um tiefere Einblicke in Ihre Abläufe zu gewinnen und Entscheidungen zu unterstützen",
+      "thereAreNoReports": "Es gibt keine",
+      "inThisFolderYet": "in diesem Ordner",
+      "createA": "Erstellen Sie ein",
+      "toSeeItHere": "um es hier zu sehen",
+      "noRecordsDisplayedYet": "Noch keine Datensätze angezeigt. Führen Sie",
+      "toViewRecords": "aus, um Datensätze anzuzeigen",
+      "noteRunningTheReportRecords": "Hinweis: Das Ausführen von",
+      "willOnlyDisplayUpTo": "zeigt nur bis zu 2000 Datensätze an. Exportieren Sie den Bericht, um alle Datensätze zu sehen",
+      "noteRunningTheReportRows": "Das Ausführen von",
+      "willOnlyDisplayUpToRows": "zeigt nur bis zu 2000 Zeilen an. Exportieren Sie den Bericht, um alle Datensätze zu sehen",
+      "noRecordsFoundForSelectedFields": "Keine Datensätze für die ausgewählten Felder gefunden",
+      "createSomeRecords": "Erstellen Sie einige Datensätze, um sie beim Ausführen von",
+      "selectModuleToUseReport": "Wählen Sie ein Modul, das für",
+      "fieldsAvailableInThe": "Verfügbare Felder in",
+      "willBeBasedSelection": "werden auf Ihrer Auswahl basieren",
+      "youHaveNotSelectedAnyFields": "Sie haben noch keine Felder ausgewählt",
+      "selectedFieldsColumnsInSection": "Ausgewählte Felder werden in diesem Abschnitt als Spalten angezeigt",
+      "enterNameForFolder": "Geben Sie einen Namen für diesen Ordner ein",
+      "folderCreatedIn": "Dieser Ordner wird erstellt in",
+      "willBe": "wird",
+      "permanentlyDeleted": "dauerhaft gelöscht",
+      "areYouSureProceed": "Sind Sie sicher, dass Sie fortfahren möchten?",
+      "enterFolderNameHere": "Geben Sie hier Ihren Ordnernamen ein...",
+      "addUsersHere": "Benutzer hier hinzufügen...",
+      "addGroupsHere": "Gruppen hier hinzufügen...",
+      "whichUsersToShareFile": "Mit welchen Benutzern möchten Sie dies teilen",
+      "whichGroupsToShareFile": "Mit welchen Gruppen möchten Sie dies teilen",
+      "with": "?",
+      "peopleWithAccess": "Personen mit Zugriff",
+      "folderCurrentlyIn": "Dieser Ordner befindet sich derzeit in",
+      "whichUsersToShareFileHelpText": "Hier können Sie die Benutzer verwalten, mit denen diese Datei geteilt wird, und ihre Zugriffsebene festlegen",
+      "whichGroupsToShareFileHelpText": "Hier können Sie die Gruppen verwalten, mit denen diese Datei geteilt wird, und ihre Zugriffsebene festlegen",
+      "changeOwnerConfirmation": "Bestätigung des Eigentümerwechsels",
+      "areYouSureChangeOwnership": "Sind Sie sicher, dass Sie den Besitz dieses Ordners ändern möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "areYouSureToChangeOwenrshipThis": "Sind Sie sicher, dass Sie den Besitz dieses",
+      "areYouSureWantToChangeOwnership": "Sind Sie sicher, dass Sie den Besitz ändern möchten",
+      "thisActionCannotUndone": "Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleteFolderConfirmation": "Bestätigung Ordner löschen",
+      "selectModuleToUse": "Wählen Sie ein Modul, das hierfür verwendet wird",
+      "fieldsAvailable": "Verfügbare Felder in",
+      "basedOnSelection": "werden auf Ihrer Auswahl basieren",
+      "selectModuleUsedIn": "Wählen Sie das Modul, das verwendet wird in",
+      "selectModuleUsedInReport": "Wählen Sie das Modul, das verwendet wird in",
+      "selectTypeFileToExport": "Wählen Sie den Dateityp, in den Sie exportieren möchten",
+      "in": "in",
+      "unsavedChangesLostDiscard": "Nicht gespeicherte Änderungen in Ihrem",
+      "willBeLostIfDiscard": "gehen verloren, wenn Sie dies jetzt verwerfen",
+      "nowYouWantToProceed": ". Sind Sie sicher, dass Sie fortfahren möchten?",
+      "moveCaps": "Verschieben",
+      "toCaps": "Nach",
+      "fromLower": "von",
+      "selectAFileType": "Dateityp auswählen",
+      "csvDescription": "Eine Textdatei, in der jede Zeile eine Datenzeile darstellt, wobei Werte durch Kommas getrennt sind.",
+      "excelDescription": "Eine Tabellenkalkulationsdatei mit Informationen, die in Zeilen und Spalten organisiert sind.",
+      "pdfDescription": "Ein Dateiformat, das die Formatierung von Dokumenten beibehält.",
+      "this": "Dies",
+      "isCurrentlyIn": "befindet sich derzeit in",
+      "enterYour": "Geben Sie Ihren",
+      "nameHere": "Namen hier ein...",
+      "fieldsAvailableInThis": "Verfügbare Felder in diesem",
+      "willBeBasedOnSelection": "werden auf dieser Auswahl basieren",
+      "fieldsSelectedDisplayedAsColumns.part1": "Die hier ausgewählten Felder werden als Spalten angezeigt. Sie können die Spalten im",
+      "builder": "Builder",
+      "makingSortSelectionWillSort": "Das Treffen einer Sortierauswahl sortiert Ihr",
+      "byTheSelectedField": "nach dem ausgewählten Feld.",
+      "thisStepIsOptional": "Dieser Schritt ist optional.",
+      "filterYour": "Filtern Sie Ihr",
+      "byMakingFilterSelection": "indem Sie hier Filterauswahlen treffen.",
+      "makingAGroupSelection": "Das Treffen einer Gruppenauswahl gruppiert Ihr",
+      "byRowsOfSelectedField": "nach Zeilen des ausgewählten Feldes.",
+      "userCanEditForThisReport": "Benutzer können die Filter für dieses",
+      "userMustSelectValues": "Benutzer müssen die Werte dieses Filters auswählen, bevor sie",
+      "addField": "Feld hinzufügen",
+      "addGroup": "Gruppe hinzufügen",
+      "addFilter": "Filter hinzufügen",
+      "selectAField": "Feld auswählen",
+      "doYouRemoveFilter": "Möchten Sie diesen Filter entfernen?",
+      "noFoldersCreatedYet": "Noch keine Ordner erstellt.",
+      "pleaseCreateOneToSeeIt": "Bitte erstellen Sie einen, um ihn hier zu sehen.",
+      "userAtATime": "Benutzer gleichzeitig",
+      "groupAtATime": "Gruppen gleichzeitig",
+      "atATime": "gleichzeitig",
+      "hasShared": "hat geteilt",
+      "withYou": "mit Ihnen",
+      "removedYourAccessTo": "hat Ihren Zugriff auf",
+      "hasMadeYouTheOwnerOf": "hat Sie zum Eigentümer von",
+      "hasDeleted": "hat gelöscht",
+      "accessToItHasBeenRemoved": "Der Zugriff darauf wurde entfernt",
+      "filterRequiredToViewThis": "Filter sind erforderlich, um dies anzuzeigen",
+      "selectApplyFilter": "Wählen und wenden Sie die Filter im Panel an, um anzuzeigen",
+      "selectApplyFilterReport": "Wählen und wenden Sie die Filter im Panel an, um anzuzeigen",
+      "showingTotalOf": "Gesamtanzeige von",
+      "showingFirst": "Zeigt die ersten",
+      "of": "von", 
+      "exportThis": "Exportieren Sie dies",
+      "toViewAll": "um alles anzuzeigen",
+      "selectAnAccess": "Zugriff auswählen",
+      "groupsWithAccess": "Gruppen mit Zugriff",
+      "selectOperator": "Operator auswählen",
+      "selectValue": "Wert(e) auswählen",
+      "selectStartDate": "Startdatum auswählen",
+      "selectEndDate": "Enddatum auswählen",
+      "noRecordsFoundField": "Keine Datensätze für die Felder in diesem gefunden",
+      "createSomeRecord": "Erstellen Sie einige Datensätze, um sie hier anzuzeigen",
+      "selectTypeOfFile": "Wählen Sie den Dateityp, den Sie planen möchten",
+      "toBeSentIn": "um gesendet zu werden in",
+      "setDurtaionScheduleValid": "Legen Sie fest, wie lange dieser Zeitplan gültig ist",
+      "scheduleStartsFrom": "Dieser Zeitplan beginnt am",
+      "andEnds": "und endet am",
+      "setWhenThis": "Legen Sie fest, wann dieser",
+      "willBeScheduledToBeSent": "geplant wird, um gesendet zu werden",
+      "scheduleSentOut": "Dieser Zeitplan wird gesendet",
+      "onLower": "am",
+      "onUpper": "Am",
+      "atLower": "um",
+      "atUpper": "Um",
+      "onThe": "Am",
+      "ofTheMonth": "des Monats",
+      "selectRecipientOfFile": "Wählen Sie die Empfänger dieser Datei; Sie können mehrere Werte auswählen oder eingeben",
+      "selectUser": "Benutzer auswählen",
+      "selectGroup": "Gruppe auswählen",
+      "enterEmailAddr": "E-Mail-Adresse eingeben",
+      "never": "Nie",
+      "selectEmailRecipient": "E-Mail-Empfänger auswählen",
+      "whenShouldThisRecordCreated": "Wann soll dieser Bericht erstellt werden?",
+      "scheduleDuration": "Zeitplandauer",
+      "selectFileType": "Dateityp auswählen"
     }
   },
   "academy": {
