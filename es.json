@@ -25006,6 +25006,20 @@
         "plural": "Configuraciones de horario",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec9": {
+        "original": "Grouped Fields",
+        "singular": "Campo agrupado",
+        "plural": "Campos agrupados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Aggregated Fields",
+        "singular": "Campo agregado",
+        "plural": "Campos agregados",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25150,6 +25164,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "fieldName": {
+        "original": "Field Name",
+        "singular": "Nombre del campo",
+        "plural": "Nombres de campo",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldAlias": {
+        "original": "Field Alias",
+        "singular": "Alias del campo",
+        "plural": "Alias de campo",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "aggregateFunction": {
+        "original": "Aggregate Function",
+        "singular": "Función de agregación",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25201,7 +25236,9 @@
       "maximumGroupingFieldsExceeded": "Se ha superado el número máximo de campos de agrupación",
       "removedFromFavorites": "se ha eliminado de Favoritos correctamente",
       "addedToFavorites": "se ha añadido a Favoritos correctamente",
-      "updatedSuccessfully": "se ha actualizado correctamente"
+      "updatedSuccessfully": "se ha actualizado correctamente",
+      "nameIsRequired": "el nombre es obligatorio",
+      "generatedSuccessfully": "generado correctamente"
     },
     "messages":{
       "generateExistingReports": "Generar existentes o crear nuevos",
@@ -25267,7 +25304,7 @@
       "nameHere": "nombre aquí...",
       "fieldsAvailableInThis": "Campos disponibles en este",
       "willBeBasedOnSelection": "se basarán en esta selección",
-      "fieldsSelectedDisplayedAsColumns.part1": "Los campos seleccionados aquí se mostrarán como columnas. Puedes reorganizar las columnas en el",
+      "fieldsSelectedDisplayedAsColumns": "Los campos seleccionados aquí se mostrarán como columnas. Puedes reorganizar las columnas en el",
       "builder": "constructor",
       "makingSortSelectionWillSort": "Hacer una selección de ordenación ordenará tu",
       "byTheSelectedField": "por el campo seleccionado.",
@@ -25329,10 +25366,23 @@
       "selectGroup": "Seleccionar grupo(s)",
       "enterEmailAddr": "Ingresar dirección de correo electrónico",
       "never": "Nunca",
+      "doYouWantToSendThis": "¿Deseas enviar esto",
+      "to": "a",
+      "viaEmail": "por correo electrónico",
       "selectEmailRecipient": "Seleccionar destinatarios de correo electrónico",
       "whenShouldThisRecordCreated": "¿Cuándo debe crearse este informe?",
       "scheduleDuration": "Duración del horario",
-      "selectFileType": "Seleccionar tipo de archivo"
+      "selectFileType": "Seleccionar tipo de archivo",
+      "aggregatedFields": "¿para tener campos agregados?",
+      "ifSelectedAggregate": "Si se selecciona, puedes agregar campos agregados al",
+      "aggregateFieldsCalculated": "Los campos agregados son campos calculados que mostrarán datos resumidos de varias filas en un solo valor.",
+      "makingAggregateFieldSelection": "Hacer una selección de campo agregado añadirá un campo agregado a tu",
+      "enterNameForThis": "Ingresa un nombre para esto",
+      "selectModuleWillBeUsed": "Selecciona el módulo que se usará en esto",
+      "addFunction": "Agregar función",
+      "addAggregate": "Agregar agregado",
+      "makingGroupedField": "Hacer una selección de campo agrupado agrupará tu",
+      "selectModuleForThis": "Selecciona un módulo para esto"
     }
   },
   "academy": {

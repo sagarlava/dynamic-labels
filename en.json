@@ -25007,6 +25007,20 @@
         "plural": "Schedule Configuration",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec9":{
+        "original": "Grouped Fields",
+        "singular": "Grouped Field",
+        "plural": "Grouped Fields",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10":{
+        "original": "Aggregated Fields",
+        "singular": "Aggregated Field",
+        "plural": "Aggregated Fields",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25151,6 +25165,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "fieldName": {
+        "original": "Field Name",
+        "singular": "Field Name",
+        "plural": "Field Name",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldAlias": {
+        "original": "Field Alias",
+        "singular": "Field Alias",
+        "plural": "Field Alias",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "aggregateFunction": {
+        "original": "Aggregate Function",
+        "singular": "Aggregate Function",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25202,7 +25237,9 @@
       "maximumGroupingFieldsExceeded":"Maximum grouping fields exceeded",
       "removedFromFavorites":"has been removed from Favorites successfully",
       "addedToFavorites":"has been added to Favorites successfully",
-      "updatedSuccessfully":"has been updated succesfully"
+      "updatedSuccessfully":"has been updated succesfully",
+      "nameIsRequired":"name is required",
+      "generatedSuccessfully":"generated succesfully"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
@@ -25268,7 +25305,7 @@
       "nameHere":"name here...",
       "fieldsAvailableInThis": "Fields available in this",
       "willBeBasedOnSelection": "will be based on this selection",
-      "fieldsSelectedDisplayedAsColumns.part1": "Fields selected here will be displayed as columns. You can rearrange the columns in the",
+      "fieldsSelectedDisplayedAsColumns": "Fields selected here will be displayed as columns. You can rearrange the columns in the",
       "builder": "builder",
       "makingSortSelectionWillSort": "Making a sort selection will sort your",
       "byTheSelectedField": "by the selected field.",
@@ -25336,7 +25373,17 @@
       "selectEmailRecipient":"Select Email Recipients",
       "whenShouldThisRecordCreated":"When should this report be created?",
       "scheduleDuration":"Schedule Duration",
-      "selectFileType":"Select File Type"
+      "selectFileType":"Select File Type",
+      "aggregatedFields":"to have aggregated fields?",
+      "ifSelectedAggregate":"If selected, you can add aggregated fields to the",
+      "aggregateFieldsCalculated":"Aggregate fields are calculated fields which will display summarized data from multiple rows into a single value.",
+      "makingAggregateFieldSelection":"Making an aggregated field selection will add an aggregated field to your",
+      "enterNameForThis":"Enter a name for this",
+      "selectModuleWillBeUsed":"Select the module that will be used in this",
+      "addFunction":"Add Function",
+      "addAggregate":"Add Aggregate",
+      "makingGroupedField":"Making a grouped field selection will group your",
+      "selectModuleForThis":"Select a module for this"
     }
   },
   "academy": {

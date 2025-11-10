@@ -25007,6 +25007,20 @@
         "plural": "计划配置",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec9": {
+        "original": "Grouped Fields",
+        "singular": "分组字段",
+        "plural": "分组字段",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Aggregated Fields",
+        "singular": "汇总字段",
+        "plural": "汇总字段",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25151,6 +25165,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "fieldName": {
+        "original": "Field Name",
+        "singular": "字段名称",
+        "plural": "字段名称",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldAlias": {
+        "original": "Field Alias",
+        "singular": "字段别名",
+        "plural": "字段别名",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "aggregateFunction": {
+        "original": "Aggregate Function",
+        "singular": "汇总函数",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25202,7 +25237,9 @@
       "maximumGroupingFieldsExceeded": "已超出分组字段上限",
       "removedFromFavorites": "已成功从收藏夹中移除",
       "addedToFavorites": "已成功添加到收藏夹",
-      "updatedSuccessfully": "已成功更新"
+      "updatedSuccessfully": "已成功更新",
+      "nameIsRequired": "名称为必填项",
+      "generatedSuccessfully": "已成功生成"
     },
     "messages":{
       "generateExistingReports": "生成现有或新建",
@@ -25268,7 +25305,7 @@
       "nameHere": "名称...",
       "fieldsAvailableInThis": "可用字段在此",
       "willBeBasedOnSelection": "将基于此选择",
-      "fieldsSelectedDisplayedAsColumns.part1": "此处选择的字段将显示为列。您可以在",
+      "fieldsSelectedDisplayedAsColumns": "此处选择的字段将显示为列。您可以在",
       "builder": "构建器",
       "makingSortSelectionWillSort": "进行排序选择将对您的",
       "byTheSelectedField": "按所选字段排序。",
@@ -25330,10 +25367,23 @@
       "selectGroup": "选择群组",
       "enterEmailAddr": "输入电子邮件地址",
       "never": "从不",
+      "doYouWantToSendThis": "您想发送此项",
+      "to": "给",
+      "viaEmail": "通过电子邮件",
       "selectEmailRecipient": "选择电子邮件收件人",
       "whenShouldThisRecordCreated": "此报告应何时创建？",
       "scheduleDuration": "计划持续时间",
-      "selectFileType": "选择文件类型"
+      "selectFileType": "选择文件类型",
+      "aggregatedFields": "以包含汇总字段？",
+      "ifSelectedAggregate": "如果选择，您可以向其添加汇总字段",
+      "aggregateFieldsCalculated": "汇总字段是计算字段，将多个行的数据汇总为一个值。",
+      "makingAggregateFieldSelection": "进行汇总字段选择将向其添加汇总字段",
+      "enterNameForThis": "为此输入名称",
+      "selectModuleWillBeUsed": "选择将在此中使用的模块",
+      "addFunction": "添加函数",
+      "addAggregate": "添加汇总",
+      "makingGroupedField": "进行分组字段选择将分组您的",
+      "selectModuleForThis": "为此选择模块"
     }
   },
   "academy": {

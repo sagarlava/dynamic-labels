@@ -25006,6 +25006,20 @@
         "plural": "Konfigurasi Jadual",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec9": {
+        "original": "Grouped Fields",
+        "singular": "Medan Berkelompok",
+        "plural": "Medan Berkelompok",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Aggregated Fields",
+        "singular": "Medan Agregat",
+        "plural": "Medan Agregat",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25150,6 +25164,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "fieldName": {
+        "original": "Field Name",
+        "singular": "Nama Medan",
+        "plural": "Nama Medan",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldAlias": {
+        "original": "Field Alias",
+        "singular": "Alias Medan",
+        "plural": "Alias Medan",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "aggregateFunction": {
+        "original": "Aggregate Function",
+        "singular": "Fungsi Agregat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25201,7 +25236,9 @@
       "maximumGroupingFieldsExceeded": "Medan pengelompokan maksimum telah melebihi had",
       "removedFromFavorites": "telah berjaya dikeluarkan daripada Kegemaran",
       "addedToFavorites": "telah berjaya ditambah ke Kegemaran",
-      "updatedSuccessfully": "telah berjaya dikemas kini"
+      "updatedSuccessfully": "telah berjaya dikemas kini",
+      "nameIsRequired": "nama diperlukan",
+      "generatedSuccessfully": "berjaya dijana"
     },
     "messages":{
       "generateExistingReports": "Menjana laporan sedia ada atau buat baharu",
@@ -25267,7 +25304,7 @@
       "nameHere": "nama anda di sini...",
       "fieldsAvailableInThis": "Medan yang tersedia dalam",
       "willBeBasedOnSelection": "akan berdasarkan pada pilihan ini",
-      "fieldsSelectedDisplayedAsColumns.part1": "Medan yang dipilih akan dipaparkan sebagai lajur. Anda boleh menyusun semula lajur dalam",
+      "fieldsSelectedDisplayedAsColumns": "Medan yang dipilih akan dipaparkan sebagai lajur. Anda boleh menyusun semula lajur dalam",
       "builder": "pembina",
       "makingSortSelectionWillSort": "Membuat pilihan isihan akan mengisih",
       "byTheSelectedField": "mengikut medan yang dipilih.",
@@ -25329,10 +25366,23 @@
       "selectGroup": "Pilih Kumpulan",
       "enterEmailAddr": "Masukkan alamat emel",
       "never": "Tidak pernah",
+      "doYouWantToSendThis": "Adakah anda mahu menghantar ini",
+      "to": "kepada",
+      "viaEmail": "melalui emel",
       "selectEmailRecipient": "Pilih Penerima Emel",
       "whenShouldThisRecordCreated": "Bila laporan ini perlu dibuat?",
       "scheduleDuration": "Tempoh Jadual",
-      "selectFileType": "Pilih Jenis Fail"
+      "selectFileType": "Pilih Jenis Fail",
+      "aggregatedFields": "untuk mempunyai medan agregat?",
+      "ifSelectedAggregate": "Jika dipilih, anda boleh menambah medan agregat ke",
+      "aggregateFieldsCalculated": "Medan agregat ialah medan yang dikira yang akan memaparkan data diringkaskan daripada berbilang baris kepada satu nilai.",
+      "makingAggregateFieldSelection": "Membuat pilihan medan agregat akan menambah medan agregat ke",
+      "enterNameForThis": "Masukkan nama untuk ini",
+      "selectModuleWillBeUsed": "Pilih modul yang akan digunakan dalam ini",
+      "addFunction": "Tambah Fungsi",
+      "addAggregate": "Tambah Agregat",
+      "makingGroupedField": "Membuat pilihan medan berkelompok akan mengelompokkan",
+      "selectModuleForThis": "Pilih modul untuk ini"
     }
   },
   "academy": {

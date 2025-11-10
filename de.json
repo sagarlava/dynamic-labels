@@ -25006,6 +25006,20 @@
         "plural": "Zeitplankonfigurationen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec9": {
+        "original": "Grouped Fields",
+        "singular": "Gruppiertes Feld",
+        "plural": "Gruppierte Felder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Aggregated Fields",
+        "singular": "Aggregiertes Feld",
+        "plural": "Aggregierte Felder",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25150,6 +25164,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "fieldName": {
+        "original": "Field Name",
+        "singular": "Feldname",
+        "plural": "Feldnamen",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldAlias": {
+        "original": "Field Alias",
+        "singular": "Feldalias",
+        "plural": "Feldaliase",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "aggregateFunction": {
+        "original": "Aggregate Function",
+        "singular": "Aggregatfunktion",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25201,7 +25236,9 @@
       "maximumGroupingFieldsExceeded": "Maximale Gruppierungsfelder überschritten",
       "removedFromFavorites": "wurde erfolgreich aus Favoriten entfernt",
       "addedToFavorites": "wurde erfolgreich zu Favoriten hinzugefügt",
-      "updatedSuccessfully": "wurde erfolgreich aktualisiert"
+      "updatedSuccessfully": "wurde erfolgreich aktualisiert",
+      "nameIsRequired": "Name ist erforderlich",
+      "generatedSuccessfully": "erfolgreich erstellt"
     },
     "messages":{
       "generateExistingReports": "Vorhandene erstellen oder neue",
@@ -25267,7 +25304,7 @@
       "nameHere": "Namen hier ein...",
       "fieldsAvailableInThis": "Verfügbare Felder in diesem",
       "willBeBasedOnSelection": "werden auf dieser Auswahl basieren",
-      "fieldsSelectedDisplayedAsColumns.part1": "Die hier ausgewählten Felder werden als Spalten angezeigt. Sie können die Spalten im",
+      "fieldsSelectedDisplayedAsColumns": "Die hier ausgewählten Felder werden als Spalten angezeigt. Sie können die Spalten im",
       "builder": "Builder",
       "makingSortSelectionWillSort": "Das Treffen einer Sortierauswahl sortiert Ihr",
       "byTheSelectedField": "nach dem ausgewählten Feld.",
@@ -25329,10 +25366,23 @@
       "selectGroup": "Gruppe auswählen",
       "enterEmailAddr": "E-Mail-Adresse eingeben",
       "never": "Nie",
+      "doYouWantToSendThis": "Möchten Sie dies senden",
+      "to": "an",
+      "viaEmail": "per E-Mail",
       "selectEmailRecipient": "E-Mail-Empfänger auswählen",
       "whenShouldThisRecordCreated": "Wann soll dieser Bericht erstellt werden?",
       "scheduleDuration": "Zeitplandauer",
-      "selectFileType": "Dateityp auswählen"
+      "selectFileType": "Dateityp auswählen",
+      "aggregatedFields": "um aggregierte Felder zu haben?",
+      "ifSelectedAggregate": "Wenn ausgewählt, können Sie aggregierte Felder zu Ihrem hinzufügen",
+      "aggregateFieldsCalculated": "Aggregierte Felder sind berechnete Felder, die zusammengefasste Daten aus mehreren Zeilen in einem einzigen Wert anzeigen.",
+      "makingAggregateFieldSelection": "Das Auswählen eines aggregierten Felds fügt Ihrem ein aggregiertes Feld hinzu",
+      "enterNameForThis": "Geben Sie einen Namen dafür ein",
+      "selectModuleWillBeUsed": "Wählen Sie das Modul, das hierfür verwendet wird",
+      "addFunction": "Funktion hinzufügen",
+      "addAggregate": "Aggregation hinzufügen",
+      "makingGroupedField": "Das Auswählen eines gruppierten Felds gruppiert Ihr",
+      "selectModuleForThis": "Wählen Sie ein Modul dafür aus"
     }
   },
   "academy": {
