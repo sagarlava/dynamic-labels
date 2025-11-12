@@ -25186,6 +25186,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "subfolder": {
+        "original": "Subfolder",
+        "singular": "Subfolder",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Schedule",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25383,7 +25397,8 @@
       "addFunction":"Add Function",
       "addAggregate":"Add Aggregate",
       "makingGroupedField":"Making a grouped field selection will group your",
-      "selectModuleForThis":"Select a module for this"
+      "selectModuleForThis":"Select a module for this",
+      "doYouWantThis":"Do you want this"
     }
   },
   "academy": {

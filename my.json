@@ -25185,6 +25185,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "subfolder": {
+        "original": "Subfolder",
+        "singular": "Subfolder",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Jadual",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25382,7 +25396,8 @@
       "addFunction": "Tambah Fungsi",
       "addAggregate": "Tambah Agregat",
       "makingGroupedField": "Membuat pilihan medan berkelompok akan mengelompokkan",
-      "selectModuleForThis": "Pilih modul untuk ini"
+      "selectModuleForThis": "Pilih modul untuk ini",
+      "doYouWantThis": "Adakah anda mahu ini"
     }
   },
   "academy": {

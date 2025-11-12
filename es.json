@@ -25185,7 +25185,21 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
-      }
+      },
+      "subfolder": {
+      "original": "Subfolder",
+      "singular": "Subcarpeta",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "schedule": {
+      "original": "Schedule",
+      "singular": "Horario",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    }
     },
     "tooltips":{
       "setupEdit": false,
@@ -25382,7 +25396,8 @@
       "addFunction": "Agregar función",
       "addAggregate": "Agregar agregado",
       "makingGroupedField": "Hacer una selección de campo agrupado agrupará tu",
-      "selectModuleForThis": "Selecciona un módulo para esto"
+      "selectModuleForThis": "Selecciona un módulo para esto",
+      "doYouWantThis": "¿Deseas esto?"
     }
   },
   "academy": {
