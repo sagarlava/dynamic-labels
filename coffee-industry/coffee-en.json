@@ -9538,7 +9538,7 @@
       "action": {
         "original": "Action",
         "singular": "Action",
-        "plural": "",
+        "plural": "Actions",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10865,6 +10865,69 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "rename":{
+        "original": "Rename",
+        "singular": "Rename",
+        "plural": "Rename",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share":{
+        "original": "Share",
+        "singular": "Share",
+        "plural": "Share",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export":{
+        "original": "Export",
+        "singular": "Export",
+        "plural": "Export",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import":{
+        "original": "Import",
+        "singular": "Import",
+        "plural": "Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate":{
+        "original": "Duplicate",
+        "singular": "Duplicate",
+        "plural": "Duplicate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite":{
+        "original": "Favorite",
+        "singular": "Favorite",
+        "plural": "Favorite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unfavorite":{
+        "original": "Unfavorite",
+        "singular": "Unfavorite",
+        "plural": "Unfavorite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer":{
+        "original": "Viewer",
+        "singular": "Viewer",
+        "plural": "Viewer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor":{
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "selectAll": {
         "original": "Select All",
         "singular": "Select All",
@@ -10883,6 +10946,20 @@
         "original": "Clear Filters",
         "singular": "Clear Filter",
         "plural": "Clear Filters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "run": {
+        "original": "Run",
+        "singular": "Run",
+        "plural": "Run",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Schedule",
+        "plural": "Schedule",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -22591,6 +22668,475 @@
         "pleaseEnterNewFault":"Please enter a new fault name",
         "pleaseEnterNewResolution":"Please enter a new resolution name"
       }
+    }
+  },
+   "report": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Reports",
+      "singular": "Report",
+      "plural": "Reports",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Folder",
+        "plural": "Folders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1":{
+        "original": "Sharing Options",
+        "singular": "Sharing Option",
+        "plural": "Sharing Options",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2":{
+        "original": "Builder",
+        "singular": "Builder",
+        "plural": "Builder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3":{
+        "original": "Select Module",
+        "singular": "Select Module",
+        "plural": "Select Modules",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4":{
+        "original": "Select Fields",
+        "singular": "Select Field",
+        "plural": "Select Fields",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5":{
+        "original": "Sorting",
+        "singular": "Sorting",
+        "plural": "Sorting",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6":{
+        "original": "Grouping",
+        "singular": "Grouping",
+        "plural": "Grouping",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7":{
+        "original": "Select Filters",
+        "singular": "Select Filter",
+        "plural": "Select Filters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8":{
+        "original": "Schedule Configuration",
+        "singular": "Schedule Configuration",
+        "plural": "Schedule Configuration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9":{
+        "original": "Grouped Fields",
+        "singular": "Grouped Field",
+        "plural": "Grouped Fields",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10":{
+        "original": "Aggregated Fields",
+        "singular": "Aggregated Field",
+        "plural": "Aggregated Fields",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy":{
+        "original": "Last Modified By",
+        "singular": "Last Modified By",
+        "plural": "Last Modified By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate":{
+        "original": "Last Modified Date",
+        "singular": "Last Modified Date",
+        "plural": "Last Modified Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy":{
+        "original": "Created By",
+        "singular": "Created By",
+        "plural": "Created By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate":{
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard":{
+        "original": "Standard",
+        "singular": "Standard",
+        "plural": "Standard",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite":{
+        "original": "Favorites",
+        "singular": "Favorite",
+        "plural": "Favorites",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "field":{
+        "original": "Fields",
+        "singular": "Field",
+        "plural": "Fields",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator":{
+        "original": "Operators",
+        "singular": "Operator",
+        "plural": "Operators",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value":{
+        "original": "Values",
+        "singular": "Value",
+        "plural": "Values",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overview":{
+        "original": "Overview",
+        "singular": "Overview",
+        "plural": "Overview",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter":{
+        "original": "Filter",
+        "singular": "Filter",
+        "plural": "Filters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner":{
+        "original": "Owner",
+        "singular": "Owner",
+        "plural": "Owners",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer":{
+        "original": "Viewer",
+        "singular": "Viewer",
+        "plural": "Viewer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor":{
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ascending": {
+        "original": "Ascending",
+        "singular": "Ascending",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "descending": {
+        "original": "Descending",
+        "singular": "Descending",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldName": {
+        "original": "Field Name",
+        "singular": "Field Name",
+        "plural": "Field Name",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fieldAlias": {
+        "original": "Field Alias",
+        "singular": "Field Alias",
+        "plural": "Field Alias",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "aggregateFunction": {
+        "original": "Aggregate Function",
+        "singular": "Aggregate Function",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "subfolder": {
+        "original": "Subfolder",
+        "singular": "Subfolder",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Schedule",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder":{
+        "original": "New Folder",
+        "singular": "New Folder",
+        "plural": "New Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder":{
+        "original": "Rename Folder",
+        "singular": "Rename Folder",
+        "plural": "Rename Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder":{
+        "original": "Share Folder",
+        "singular": "Share Folder",
+        "plural": "Share Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder":{
+        "original": "Delete Folder",
+        "singular": "Delete Folder",
+        "plural": "Delete Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE":{
+      "exceedCharacterLimit":"Folder name exceeds character limit",
+      "ownerNotAllowedRemoved":"Owner is not allowed to be removed from the shared list. Please transfer the ownership to another user and try again.",
+      "onlyTenUsersAddAtTime":"Only 10 users are allowed to add at a time.",
+      "onlyTenGroupsAddAtTime":"Only 10 groups are allowed to add at a time.",
+      "onlyCaps":"Only",
+      "areAllowedToAdd":"are allowed to add at a time",
+      "movedSuccessfully":"has been moved succesfully",
+      "exportedSuccesfully":"has been exported successfully",
+      "duplicatedSuccesfully":"has been duplicated successfully",
+      "deletedSuccesfully":"has been deleted successfully",
+      "requiresOneFieldBuild":"requires at least one field to build.",
+      "maximumFieldsSelectionExceeded":"Maximum fields selection exceeded",
+      "maximumSortingFieldsExceeded":"Maximum sorting fields exceeded",
+      "maximumGroupingFieldsExceeded":"Maximum grouping fields exceeded",
+      "removedFromFavorites":"has been removed from Favorites successfully",
+      "addedToFavorites":"has been added to Favorites successfully",
+      "updatedSuccessfully":"has been updated succesfully",
+      "nameIsRequired":"name is required",
+      "generatedSuccessfully":"generated succesfully"
+    },
+    "messages":{
+      "generateExistingReports": "Generate existing or create new",
+      "withYourFieldexData": "with your FieldEx data to get further insight into your operations and assist you in making decisions",
+      "thereAreNoReports": "There are no",
+      "inThisFolderYet": "in this folder yet",
+      "createA": "Create a",
+      "toSeeItHere": "to see it here",
+      "noRecordsDisplayedYet": "No records displayed yet. Run the",
+      "toViewRecords": "to view records",
+      "noteRunningTheReportRecords": "Note: Running the",
+      "willOnlyDisplayUpTo": "will only display up-to 2000 records. Export the report to see all records",
+      "noteRunningTheReportRows": "Running the",
+      "willOnlyDisplayUpToRows": "will only display up-to 2000 rows of records. Export the report to see all records",
+      "noRecordsFoundForSelectedFields":"No records found for your selected fields",
+      "createSomeRecords": "Create some records to view them when running this",
+      "selectModuleToUseReport": "Select a module that will be used for this",
+      "fieldsAvailableInThe": "Fields available in the",
+      "willBeBasedSelection": "will be based on your selection",
+      "youHaveNotSelectedAnyFields":"You have not selected any fields yet",
+      "selectedFieldsColumnsInSection":"Selected fields will be displayed as columns in this section",
+      "enterNameForFolder":"Enter a name for this folder",
+      "folderCreatedIn":"This folder will be created in",
+      "willBe":"will be",
+      "permanentlyDeleted":"permanently deleted",
+      "areYouSureProceed":"Are you sure that you want to proceed?",
+      "enterFolderNameHere":"Enter your folder name here...",
+      "addUsersHere":"Add users here...",
+      "addGroupsHere":"Add groups here...",
+      "whichUsersToShareFile":"Which users do you want to share this",
+      "whichGroupsToShareFile":"Which groups do you want to share this",
+      "with":"with?",
+      "peopleWithAccess":"People with access",
+      "folderCurrentlyIn":"This folder is currently in",
+      "whichUsersToShareFileHelpText":"Here you can manage the users that this file is shared with and set their access level",
+      "whichGroupsToShareFileHelpText":"Here you can manage the groups that this file is shared with and set their access level",
+      "changeOwnerConfirmation":"Change Owner Confirmation",
+      "areYouSureChangeOwnership":"Are you sure that you want to change ownership of this folder? This action cannot be undone.",
+      "areYouSureToChangeOwenrshipThis":"Are you sure that you want to change ownership of this",
+      "areYouSureWantToChangeOwnership":"Are you sure that you want to change ownership",
+      "thisActionCannotUndone":"This action cannot be undone.",
+      "deleteFolderConfirmation":"Delete Folder Confirmation",
+      "selectModuleToUse":"Select a module that will be used for this",
+      "fieldsAvailable":"Fields available in the",
+      "basedOnSelection":"will be based on your selection",
+      "selectModuleUsedIn":"Select the module that will be used in the",
+      "selectModuleUsedInReport": "Select the module that will be used in the",
+      "selectTypeFileToExport": "Select the type of file that you wish to export your",
+      "in": "in",
+      "unsavedChangesLostDiscard": "Unsaved changes in your",
+      "willBeLostIfDiscard": "will be lost if you discard this",
+      "nowYouWantToProceed": "now. Are you sure that you want to proceed?",
+      "moveCaps":"Move",
+      "toCaps": "To",
+      "fromLower": "from",
+      "selectAFileType":"Select a file type",
+      "csvDescription":"A plain text file in which each line represents a row of data where values are separated by a comma.",
+      "excelDescription":"A spreadsheet file with information organized in rows and columns.",
+      "pdfDescription":"A file format that preserves the formatting of documents.",
+      "this":"This",
+      "isCurrentlyIn":"is currently in",
+      "enterYour":"Enter your",
+      "nameHere":"name here...",
+      "fieldsAvailableInThis": "Fields available in this",
+      "willBeBasedOnSelection": "will be based on this selection",
+      "fieldsSelectedDisplayedAsColumns": "Fields selected here will be displayed as columns. You can rearrange the columns in the",
+      "builder": "builder",
+      "makingSortSelectionWillSort": "Making a sort selection will sort your",
+      "byTheSelectedField": "by the selected field.",
+      "thisStepIsOptional":"This step is optional.",
+      "filterYour": "Filter your",
+      "byMakingFilterSelection": "by making filter selections here.",
+      "makingAGroupSelection": "Making a group selection will group your",
+      "byRowsOfSelectedField": "by rows of the selected field.",
+      "userCanEditForThisReport":"Users can edit the filters for this",
+      "userMustSelectValues":"Users must select the values of this filter before running the",
+      "addField":"Add Field",
+      "addGroup":"Add Group",
+      "addFilter":"Add Filter",
+      "selectAField":"Select a field",
+      "doYouRemoveFilter":"Do you want to remove this filter?",
+      "noFoldersCreatedYet":"No folders created yet.",
+      "pleaseCreateOneToSeeIt":"Please create one to see it here.",
+      "userAtATime":"users at a time",
+      "groupAtATime":"groups at a time",
+      "atATime":"at a time",
+      "hasShared":"has shared",
+      "withYou":"with you",
+      "removedYourAccessTo":"removed your access to",
+      "hasMadeYouTheOwnerOf":"has made you the owner of",
+      "hasDeleted":"has deleted",
+      "accessToItHasBeenRemoved":"Access to it has been removed",
+      "filterRequiredToViewThis":"Filters are required to view this",
+      "selectApplyFilter":"Select and apply the filters in the filter panel to view",
+      "selectApplyFilterReport":"Select and apply the filters in the filter panel to view",
+      "showingTotalOf":"Showing a total of",
+      "showingFirst":"Showing first",
+      "of":"of",
+      "exportThis":"Export this",
+      "toViewAll":"to view all",
+      "selectAnAccess":"Select an Access",
+      "groupsWithAccess":"Groups with access",
+      "selectOperator":"Select Operator",
+      "selectValue":"Select Value(s)",
+      "selectStartDate":"Select Start Date",
+      "selectEndDate":"Select End Date",
+      "noRecordsFoundField":"No records found for the fields in this",
+      "createSomeRecord":"Create some records to view them here",
+      "selectTypeOfFile":"Select the type of file that you wish to schedule your",
+      "toBeSentIn":"to be sent in",
+      "setDurtaionScheduleValid":"Set the duration that this schedule will be valid for",
+      "scheduleStartsFrom":"This schedule starts from",
+      "andEnds":"and ends",
+      "setWhenThis":"Set when this",
+      "willBeScheduledToBeSent":"will be scheduled to be sent",
+      "scheduleSentOut":"This schedule is sent out",
+      "onLower":"on",
+      "onUpper":"On",
+      "atLower":"at",
+      "atUpper":"At",
+      "onThe":"On the",
+      "ofTheMonth":"of the month",
+      "selectRecipientOfFile":"Select the recipients of this file, you may select or enter multiple values",
+      "selectUser":"Select User(s)",
+      "selectGroup":"Select Group(s)",
+      "enterEmailAddr":"Enter email address",
+      "never":"Never",
+      "doYouWantToSendThis":"Do you want to send this",
+      "to":"to",
+      "viaEmail":"via email",
+      "selectEmailRecipient":"Select Email Recipients",
+      "whenShouldThisRecordCreated":"When should this report be created?",
+      "scheduleDuration":"Schedule Duration",
+      "selectFileType":"Select File Type",
+      "aggregatedFields":"to have aggregated fields?",
+      "ifSelectedAggregate":"If selected, you can add aggregated fields to the",
+      "aggregateFieldsCalculated":"Aggregate fields are calculated fields which will display summarized data from multiple rows into a single value.",
+      "makingAggregateFieldSelection":"Making an aggregated field selection will add an aggregated field to your",
+      "enterNameForThis":"Enter a name for this",
+      "selectModuleWillBeUsed":"Select the module that will be used in this",
+      "addFunction":"Add Function",
+      "addAggregate":"Add Aggregate",
+      "makingGroupedField":"Making a grouped field selection will group your",
+      "selectModuleForThis":"Select a module for this",
+      "doYouWantThis":"Do you want this"
     }
   }
 }
