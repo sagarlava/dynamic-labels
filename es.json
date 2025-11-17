@@ -14306,13 +14306,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "column": {
-        "original": "Column",
-        "singular": "Columna",
-        "plural": "Columnas",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "status": {
@@ -25226,6 +25219,13 @@
       "singular": "entrada",
       "plural": "entradas",
       "setupEdit": true,
+      "setupVisible": false
+    },
+    "column": {
+      "original": "Column",
+      "singular": "Columna",
+      "plural": "Columnas",
+      "setupEdit": false,
       "setupVisible": false
     }
     },
