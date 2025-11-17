@@ -14299,6 +14299,13 @@
         "plural": "Jadual",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sort": {
+        "original": "Sort",
+        "singular": "Isih",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25199,6 +25206,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "entryCap": {
+        "original": "Entry",
+        "singular": "Entri",
+        "plural": "Entri",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryLower": {
+        "original": "entry",
+        "singular": "entri",
+        "plural": "entri",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "Lajur",
+        "plural": "Lajur",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25397,7 +25425,8 @@
       "addAggregate": "Tambah Agregat",
       "makingGroupedField": "Membuat pilihan medan berkelompok akan mengelompokkan",
       "selectModuleForThis": "Pilih modul untuk ini",
-      "doYouWantThis": "Adakah anda mahu ini"
+      "doYouWantThis": "Adakah anda mahu ini",
+      "showing": "Menunjukkan"
     }
   },
   "academy": {

@@ -14299,6 +14299,20 @@
         "plural": "Horarios",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sort": {
+        "original": "Sort",
+        "singular": "Ordenar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "Columna",
+        "plural": "Columnas",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25199,6 +25213,20 @@
       "plural": "",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "entryCap": {
+      "original": "Entry",
+      "singular": "Entrada",
+      "plural": "Entradas",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "entryLower": {
+      "original": "entry",
+      "singular": "entrada",
+      "plural": "entradas",
+      "setupEdit": true,
+      "setupVisible": false
     }
     },
     "tooltips":{
@@ -25397,7 +25425,8 @@
       "addAggregate": "Agregar agregado",
       "makingGroupedField": "Hacer una selección de campo agrupado agrupará tu",
       "selectModuleForThis": "Selecciona un módulo para esto",
-      "doYouWantThis": "¿Deseas esto?"
+      "doYouWantThis": "¿Deseas esto?",
+      "showing": "Mostrando"
     }
   },
   "academy": {

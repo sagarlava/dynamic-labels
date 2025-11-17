@@ -14299,6 +14299,13 @@
         "plural": "计划",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sort": {
+        "original": "Sort",
+        "singular": "排序",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25200,6 +25207,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "entryCap": {
+        "original": "Entry",
+        "singular": "条目",
+        "plural": "条目",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryLower": {
+        "original": "entry",
+        "singular": "条目",
+        "plural": "条目",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "列",
+        "plural": "列",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25398,7 +25426,8 @@
       "addAggregate": "添加汇总",
       "makingGroupedField": "进行分组字段选择将分组您的",
       "selectModuleForThis": "为此选择模块",
-      "doYouWantThis": "您想要这个吗"
+      "doYouWantThis": "您想要这个吗",
+      "showing": "显示"
     }
   },
   "academy": {

@@ -10962,6 +10962,13 @@
         "plural": "Schedule",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sort": {
+        "original": "Sort",
+        "singular": "Sort",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
