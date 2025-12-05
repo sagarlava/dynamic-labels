@@ -7393,7 +7393,7 @@
     "validationBE": {
       "maintenanceIdExists": "A new maintenance cannot already have an ID",
       "maintenanceNotFound": "Maintenance not found",
-      "assetHasActiveMaintenance": "The equipment already has an active maintenance",
+      "assetHasActiveMaintenance": "The asset already has an active maintenance",
       "maintenanceItemIdExists": "A new Maintenance Item cannot already have an ID",
       "maintenanceItemIdNotFound": "Id not found",
       "maintenanceItemNotFound": "Maintenance Item not found",
@@ -7401,7 +7401,33 @@
       "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Job Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
       "maintenanceItemHasJobOrder": "Job Order Data exists in the system for the Maintenance Item",
       "maintenanceItemUnableToDelete": "Only allowed to delete PENDING Maintenance Status",
-      "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support"
+      "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support",
+      "maintainancePlanNotFound": "Maintainance Plan not found",
+      "maintainancePlanIntervalTypeCannotBeModified": "Interval Type cannot be modified",
+      "maintainancePlanCannotEditStartDateOfActivePlan": "Cannot modify Start datetime of Active Maintenance Plan",
+      "maintainancePlanCannotEditExpiredPlan": "Cannot modify Expired Maintenance Plan",
+      "maintainancePlanCannotEditCancelledPlan": "Cannot modify Cancelled Maintenance Plan",
+      "maintainancePlanCannotActivateLackOfInfo": "Not allowed to activate this maintenance plan, due to incompleted information",
+      "maintainancePlanCannotDeleteAssetCycleItem": "Cannot delete cycle item used in asset maintenance plan",
+      "maintainancePlanCannotDeleteSiteCycleItem": "Cannot delete cycle item used in site maintenance plan",
+      "maintainancePlanInvalidId": "Invalid maintenance plan id",
+      "maintainancePlanStartDateTimeMustBeFuture": "Start datetime must be in the future",
+      "maintainancePlanEndDateTimeMustBeAfterStartDateTime": "End datetime must be after Start datetime and cannot be empty for custom date option",
+      "maintainancePlanRepeatTypeMustBeSpecified": "Repeat Type must be specified",
+      "maintainancePlanNoAssetsProvided": "No assets provided to add to maintenance plan",
+      "maintainancePlanNoPlanProvided": "No maintenance plan provided",
+      "maintainancePlanAssetNotPartOfPlan": "Asset is not part of the maintenance plan",
+      "maintainancePlanNoSitesProvided": "No sites provided to add to maintenance plan",
+      "maintainancePlanSiteNotPartOfPlan": "Site is not part of the maintenance plan",
+      "maintainancePlanInvalidAutoAddAssetCriteriaId": "Invalid auto add asset criteria ID",
+      "maintainancePlanAssetPMInvalidId": "Invalid asset maintainance plan ID",
+      "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past job order generation date",
+      "maintainancePlanSitePMInvalidId": "Invalid site maintainance plan ID",
+      "maintainancePlanNoAssetNextCycleItemFound": "No next maintenance plan cycle item found for asset maintenance plan",
+      "maintainancePlanNoSiteNextCycleItemFound": "No next maintenance plan cycle item found for site maintenance plan",
+      "maintainancePlanCannotDeleteActivePlan": "Cannot delete an active maintenance plan",
+      "maintainancePlanCannotDeleteReferencedPlan": "Cannot delete maintenance plan as it is referenced by other records",
+      "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Job Order linked to active Maintenance Plan cannot be deleted"
     },
     "tooltips": {
       "setupVisible": false,
@@ -22945,6 +22971,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+       "entryCap": {
+        "original": "Entry",
+        "singular": "Entry",
+        "plural": "Entries",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryLower": {
+        "original": "entry",
+        "singular": "entry",
+        "plural": "entries",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "Column",
+        "plural": "Columns",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -23143,7 +23190,8 @@
       "addAggregate":"Add Aggregate",
       "makingGroupedField":"Making a grouped field selection will group your",
       "selectModuleForThis":"Select a module for this",
-      "doYouWantThis":"Do you want this"
+      "doYouWantThis":"Do you want this",
+      "showing":"Showing"
     }
   }
 }

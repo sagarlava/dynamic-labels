@@ -2268,7 +2268,33 @@
       "maintenanceItemHasJobOrderOrMaintenanceStatus": "Aktive Auftragsdaten oder ABGESCHLOSSENE/ÜBERFÄLLIGE Planungsdaten existieren im System für den Wartungsartikel",
       "maintenanceItemHasJobOrder": "Auftragsdaten existieren im System für den Wartungsartikel",
       "maintenanceItemUnableToDelete": "Es dürfen nur Wartungen mit dem Status ANSTEHEND gelöscht werden",
-      "maintenanceItemTableSetupNotFound": "Wartungsartikel-Tabelle wurde nicht gefunden, bitte kontaktieren Sie den Support"
+      "maintenanceItemTableSetupNotFound": "Wartungsartikel-Tabelle wurde nicht gefunden, bitte kontaktieren Sie den Support",
+      "maintainancePlanNotFound": "Wartungsplan nicht gefunden",
+      "maintainancePlanIntervalTypeCannotBeModified": "Intervalltyp kann nicht geändert werden",
+      "maintainancePlanCannotEditStartDateOfActivePlan": "Startdatum und -uhrzeit eines aktiven Wartungsplans können nicht geändert werden",
+      "maintainancePlanCannotEditExpiredPlan": "Abgelaufener Wartungsplan kann nicht geändert werden",
+      "maintainancePlanCannotEditCancelledPlan": "Abgesagter Wartungsplan kann nicht geändert werden",
+      "maintainancePlanCannotActivateLackOfInfo": "Aktivierung dieses Wartungsplans aufgrund unvollständiger Informationen nicht erlaubt",
+      "maintainancePlanCannotDeleteAssetCycleItem": "Zyklus-Element, das im Asset-Wartungsplan verwendet wird, kann nicht gelöscht werden",
+      "maintainancePlanCannotDeleteSiteCycleItem": "Zyklus-Element, das im Standort-Wartungsplan verwendet wird, kann nicht gelöscht werden",
+      "maintainancePlanInvalidId": "Ungültige Wartungsplan-ID",
+      "maintainancePlanStartDateTimeMustBeFuture": "Startdatum und -uhrzeit müssen in der Zukunft liegen",
+      "maintainancePlanEndDateTimeMustBeAfterStartDateTime": "Enddatum und -uhrzeit müssen nach dem Startdatum liegen und dürfen bei der benutzerdefinierten Datumsoption nicht leer sein",
+      "maintainancePlanRepeatTypeMustBeSpecified": "Wiederholungstyp muss angegeben werden",
+      "maintainancePlanNoAssetsProvided": "Keine Assets zum Hinzufügen zum Wartungsplan angegeben",
+      "maintainancePlanNoPlanProvided": "Kein Wartungsplan angegeben",
+      "maintainancePlanAssetNotPartOfPlan": "Asset ist nicht Teil des Wartungsplans",
+      "maintainancePlanNoSitesProvided": "Keine Standorte zum Hinzufügen zum Wartungsplan angegeben",
+      "maintainancePlanSiteNotPartOfPlan": "Standort ist nicht Teil des Wartungsplans",
+      "maintainancePlanInvalidAutoAddAssetCriteriaId": "Ungültige ID für Automatisches-Hinzufügen-Kriterien des Assets",
+      "maintainancePlanAssetPMInvalidId": "Ungültige Asset-Wartungsplan-ID",
+      "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Änderung des Datums der vergangenen Auftragserstellung nicht erlaubt",
+      "maintainancePlanSitePMInvalidId": "Ungültige Standort-Wartungsplan-ID",
+      "maintainancePlanNoAssetNextCycleItemFound": "Kein nächstes Zyklus-Element für Asset-Wartungsplan gefunden",
+      "maintainancePlanNoSiteNextCycleItemFound": "Kein nächstes Zyklus-Element für Standort-Wartungsplan gefunden",
+      "maintainancePlanCannotDeleteActivePlan": "Aktiver Wartungsplan kann nicht gelöscht werden",
+      "maintainancePlanCannotDeleteReferencedPlan": "Wartungsplan kann nicht gelöscht werden, da er von anderen Datensätzen referenziert wird",
+      "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Auftrag, der mit aktivem Wartungsplan verknüpft ist, kann nicht gelöscht werden"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2472,6 +2498,122 @@
       }
     },
     "messages": {}
+  },
+   "maintenancePlan":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Preventive Maintenance",
+      "singular": "Vorbeugende Wartung",
+      "plural": "Vorbeugende Wartungen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Maintenance Jobs",
+        "singular": "Wartungsauftrag",
+        "plural": "Wartungsaufträge",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Maintenance Plans",
+        "singular": "Wartungsplan",
+        "plural": "Wartungspläne",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Define Your Maintenance Plan",
+        "singular": "Definieren Sie Ihren Wartungsplan",
+        "plural": "Definieren Sie Ihre Wartungspläne",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Create Schedule",
+        "singular": "Zeitplan Erstellen",
+        "plural": "Zeitpläne Erstellen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Configure Creation",
+        "singular": "Erstellung Konfigurieren",
+        "plural": "Erstellungen Konfigurieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Self-healing",
+        "singular": "Selbstheilung",
+        "plural": "Selbstheilungen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "maintenance":{
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "plan":{
+        "original": "Plan",
+        "singular": "Plan",
+        "plural": "Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeBased":{
+        "original": "Time-based",
+        "singular": "Time-based",
+        "plural": "Time-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterBased":{
+        "original": "Meter-based",
+        "singular": "Meter-based",
+        "plural": "Meter-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time":{
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meter":{
+        "original": "Meter",
+        "singular": "Meter",
+        "plural": "Meter",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "nameYour": "Benenne dein",
+      "setStatusChooseWhen": "lege seinen Status fest und wähle, wann es",
+      "shouldOccur": "stattfinden soll. Verwende zeitbasierte Intervalle, nutzungsbasierte Auslöser oder beides, um sicherzustellen, dass die richtige Arbeit zur richtigen Zeit erledigt wird.",
+      "start": "Start",
+      "from": "von",
+      "andEnd": "und Ende",
+      "chooseHowYour": "Wähle, wie dein",
+      "shouldTrigger": "ausgelöst werden soll",
+      "basedTimeIntervals": "Basierend auf Zeitintervallen wie wöchentlich, monatlich oder vierteljährlich. Perfekt für routinemäßige Inspektionen und saisonale Wartung.",
+      "basedOnUsageMetrics": "Basierend auf Nutzungsmetriken wie gefahrene Kilometer, Betriebsstunden oder abgeschlossene Zyklen. Ideal für Geräte mit messbarer Nutzung.",
+      "combineBothMethods": "Kombiniere beide Methoden",
+      "triggersOnWhichever": "wird durch die zuerst erfüllte Bedingung ausgelöst und anschließend intelligent neu geplant.",
+      "activateYourPlan": "Aktiviere deinen Plan, nachdem du Elemente hinzugefügt oder automatische Zuweisungsbedingungen eingerichtet hast."
+    }
   },
   "contracts": {
     "setupVisible": true,

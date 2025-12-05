@@ -2268,7 +2268,33 @@
       "maintenanceItemHasJobOrderOrMaintenanceStatus": "Data Jadual Pesanan Kerja Aktif atau SELESAI/TERLEWAT wujud dalam sistem untuk Item Penyelenggaraan",
       "maintenanceItemHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk Item Penyelenggaraan",
       "maintenanceItemUnableToDelete": "Hanya dibenarkan memadamkan Status Penyelenggaraan yang TERGANTUNG",
-      "maintenanceItemTableSetupNotFound": "Tetapan Jadual Item Penyelenggaraan tidak dijumpai, sila hubungi sokongan"
+      "maintenanceItemTableSetupNotFound": "Tetapan Jadual Item Penyelenggaraan tidak dijumpai, sila hubungi sokongan",
+      "maintainancePlanNotFound": "Pelan Penyelenggaraan tidak ditemui",
+      "maintainancePlanIntervalTypeCannotBeModified": "Jenis Selang tidak boleh diubah",
+      "maintainancePlanCannotEditStartDateOfActivePlan": "Tarikh dan masa mula bagi Pelan Penyelenggaraan Aktif tidak boleh diubah",
+      "maintainancePlanCannotEditExpiredPlan": "Pelan Penyelenggaraan yang telah tamat tempoh tidak boleh diubah",
+      "maintainancePlanCannotEditCancelledPlan": "Pelan Penyelenggaraan yang dibatalkan tidak boleh diubah",
+      "maintainancePlanCannotActivateLackOfInfo": "Tidak dibenarkan mengaktifkan pelan penyelenggaraan ini kerana maklumat tidak lengkap",
+      "maintainancePlanCannotDeleteAssetCycleItem": "Tidak boleh memadam item kitaran yang digunakan dalam pelan penyelenggaraan aset",
+      "maintainancePlanCannotDeleteSiteCycleItem": "Tidak boleh memadam item kitaran yang digunakan dalam pelan penyelenggaraan tapak",
+      "maintainancePlanInvalidId": "ID pelan penyelenggaraan tidak sah",
+      "maintainancePlanStartDateTimeMustBeFuture": "Tarikh dan masa mula mesti berada di masa hadapan",
+      "maintainancePlanEndDateTimeMustBeAfterStartDateTime": "Tarikh dan masa tamat mesti selepas tarikh dan masa mula dan tidak boleh kosong untuk pilihan tarikh tersuai",
+      "maintainancePlanRepeatTypeMustBeSpecified": "Jenis ulangan mesti dinyatakan",
+      "maintainancePlanNoAssetsProvided": "Tiada aset diberikan untuk ditambah ke dalam pelan penyelenggaraan",
+      "maintainancePlanNoPlanProvided": "Tiada pelan penyelenggaraan diberikan",
+      "maintainancePlanAssetNotPartOfPlan": "Aset bukan sebahagian daripada pelan penyelenggaraan tersebut",
+      "maintainancePlanNoSitesProvided": "Tiada tapak diberikan untuk ditambah ke dalam pelan penyelenggaraan",
+      "maintainancePlanSiteNotPartOfPlan": "Tapak bukan sebahagian daripada pelan penyelenggaraan",
+      "maintainancePlanInvalidAutoAddAssetCriteriaId": "ID kriteria tambah aset automatik tidak sah",
+      "maintainancePlanAssetPMInvalidId": "ID pelan penyelenggaraan aset tidak sah",
+      "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Tidak dibenarkan mengubah tarikh penjanaan pesanan kerja yang lalu",
+      "maintainancePlanSitePMInvalidId": "ID pelan penyelenggaraan tapak tidak sah",
+      "maintainancePlanNoAssetNextCycleItemFound": "Tiada item kitaran pelan penyelenggaraan seterusnya ditemui untuk pelan penyelenggaraan aset",
+      "maintainancePlanNoSiteNextCycleItemFound": "Tiada item kitaran pelan penyelenggaraan seterusnya ditemui untuk pelan penyelenggaraan tapak",
+      "maintainancePlanCannotDeleteActivePlan": "Tidak boleh memadam pelan penyelenggaraan yang aktif",
+      "maintainancePlanCannotDeleteReferencedPlan": "Tidak boleh memadam pelan penyelenggaraan kerana ia dirujuk oleh rekod lain",
+      "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Pesanan Kerja yang dipautkan kepada Pelan Penyelenggaraan Aktif tidak boleh dipadam"
     },
     "tooltips": {
       "setupEdit": false,
@@ -2472,6 +2498,123 @@
       }
     },
     "messages": {}
+  },
+   "maintenancePlan":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Preventive Maintenance",
+      "singular": "Penyelenggaraan Pencegahan",
+      "plural": "Penyelenggaraan Pencegahan",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Maintenance Jobs",
+        "singular": "Kerja Penyelenggaraan",
+        "plural": "Kerja-Kerja Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Maintenance Plans",
+        "singular": "Pelan Penyelenggaraan",
+        "plural": "Pelan-Pelan Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Define Your Maintenance Plan",
+        "singular": "Tentukan Pelan Penyelenggaraan Anda",
+        "plural": "Tentukan Pelan-Pelan Penyelenggaraan Anda",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Create Schedule",
+        "singular": "Cipta Jadual",
+        "plural": "Cipta Jadual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Configure Creation",
+        "singular": "Konfigurasi Penciptaan",
+        "plural": "Konfigurasi Penciptaan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Self-healing",
+        "singular": "Pemulihan Kendiri",
+        "plural": "Pemulihan Kendiri",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "maintenance":{
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "plan":{
+        "original": "Plan",
+        "singular": "Plan",
+        "plural": "Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeBased":{
+        "original": "Time-based",
+        "singular": "Time-based",
+        "plural": "Time-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterBased":{
+        "original": "Meter-based",
+        "singular": "Meter-based",
+        "plural": "Meter-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time":{
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meter":{
+        "original": "Meter",
+        "singular": "Meter",
+        "plural": "Meter",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "nameYour": "Namakan",
+      "setStatusChooseWhen": "tetapkan statusnya, dan pilih bila",
+      "shouldOccur": "harus berlaku. Gunakan selang masa berasaskan masa, pencetus penggunaan berasaskan meter, atau kedua-duanya untuk memastikan kerja yang betul dilakukan pada masa yang tepat.",
+      "start": "Mula",
+      "from": "dari",
+      "andEnd": "dan Tamat",
+      "chooseHowYour": "Pilih bagaimana",
+      "shouldTrigger": "harus dicetuskan",
+      "basedTimeIntervals": "Berdasarkan selang masa seperti mingguan, bulanan, atau suku tahunan. Sesuai untuk pemeriksaan rutin dan penyelenggaraan bermusim.",
+      "basedOnUsageMetrics": "Berdasarkan metrik penggunaan seperti jarak perjalanan, jam operasi, atau kitaran selesai. Sesuai untuk peralatan dengan penggunaan yang boleh diukur.",
+      "combineBothMethods": "Gabungkan kedua-dua kaedah",
+      "triggersOnWhichever": "dicetuskan pada syarat yang dipenuhi dahulu, kemudian dijadualkan semula dengan pintar.",
+      "activateYourPlan": "Aktifkan pelan anda selepas menambah item atau menetapkan syarat tugasan automatik."
+
+    }
   },
   "contracts": {
     "setupVisible": true,

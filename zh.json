@@ -2268,7 +2268,33 @@
       "maintenanceItemHasJobOrderOrMaintenanceStatus": "系统中存在维护项目的活动工作订单或已完成/逾期的计划数据",
       "maintenanceItemHasJobOrder": "系统中存在维护项目的工作订单数据",
       "maintenanceItemUnableToDelete": "仅允许删除处理中的维护状态",
-      "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持"
+      "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持",
+      "maintainancePlanNotFound": "未找到维护计划",
+      "maintainancePlanIntervalTypeCannotBeModified": "间隔类型不可修改",
+      "maintainancePlanCannotEditStartDateOfActivePlan": "不能修改已激活维护计划的开始日期和时间",
+      "maintainancePlanCannotEditExpiredPlan": "不能修改已过期的维护计划",
+      "maintainancePlanCannotEditCancelledPlan": "不能修改已取消的维护计划",
+      "maintainancePlanCannotActivateLackOfInfo": "由于信息不完整，不允许激活此维护计划",
+      "maintainancePlanCannotDeleteAssetCycleItem": "不能删除用于资产维护计划的周期项",
+      "maintainancePlanCannotDeleteSiteCycleItem": "不能删除用于站点维护计划的周期项",
+      "maintainancePlanInvalidId": "无效的维护计划 ID",
+      "maintainancePlanStartDateTimeMustBeFuture": "开始日期时间必须是未来的时间",
+      "maintainancePlanEndDateTimeMustBeAfterStartDateTime": "结束日期时间必须在开始日期时间之后，且自定义日期选项不能为空",
+      "maintainancePlanRepeatTypeMustBeSpecified": "必须指定重复类型",
+      "maintainancePlanNoAssetsProvided": "未提供资产以添加到维护计划",
+      "maintainancePlanNoPlanProvided": "未提供维护计划",
+      "maintainancePlanAssetNotPartOfPlan": "该资产不属于此维护计划",
+      "maintainancePlanNoSitesProvided": "未提供站点以添加到维护计划",
+      "maintainancePlanSiteNotPartOfPlan": "站点不属于维护计划",
+      "maintainancePlanInvalidAutoAddAssetCriteriaId": "无效的自动添加资产条件 ID",
+      "maintainancePlanAssetPMInvalidId": "无效的资产维护计划 ID",
+      "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "不允许更改过去的工作订单生成日期",
+      "maintainancePlanSitePMInvalidId": "无效的站点维护计划 ID",
+      "maintainancePlanNoAssetNextCycleItemFound": "未找到资产维护计划的下一个维护计划周期项",
+      "maintainancePlanNoSiteNextCycleItemFound": "未找到站点维护计划的下一个维护计划周期项",
+      "maintainancePlanCannotDeleteActivePlan": "不能删除活动的维护计划",
+      "maintainancePlanCannotDeleteReferencedPlan": "不能删除被其他记录引用的维护计划",
+      "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "链接到活动维护计划的工作订单不能被删除"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2472,6 +2498,122 @@
       }
     },
     "messages": {}
+  },
+  "maintenancePlan":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Preventive Maintenance",
+      "singular": "预防性维护",
+      "plural": "预防性维护",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Maintenance Jobs",
+        "singular": "维护工作",
+        "plural": "维护工作",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Maintenance Plans",
+        "singular": "维护计划",
+        "plural": "维护计划",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Define Your Maintenance Plan",
+        "singular": "定义您的维护计划",
+        "plural": "定义您的维护计划",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Create Schedule",
+        "singular": "创建计划表",
+        "plural": "创建计划表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Configure Creation",
+        "singular": "配置创建",
+        "plural": "配置创建",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Self-healing",
+        "singular": "自我修复",
+        "plural": "自我修复",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "maintenance":{
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "plan":{
+        "original": "Plan",
+        "singular": "Plan",
+        "plural": "Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeBased":{
+        "original": "Time-based",
+        "singular": "Time-based",
+        "plural": "Time-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterBased":{
+        "original": "Meter-based",
+        "singular": "Meter-based",
+        "plural": "Meter-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time":{
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meter":{
+        "original": "Meter",
+        "singular": "Meter",
+        "plural": "Meter",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "nameYour": "命名您的",
+      "setStatusChooseWhen": "设置其状态，并选择何时",
+      "shouldOccur": "应发生。使用基于时间的间隔、基于计量的使用触发器或两者兼用，以确保在正确的时间执行正确的工作。",
+      "start": "开始",
+      "from": "从",
+      "andEnd": "并结束",
+      "chooseHowYour": "选择您的",
+      "shouldTrigger": "应触发的方式",
+      "basedTimeIntervals": "基于时间间隔，如每周、每月或每季度。非常适合例行检查和季节性维护。",
+      "basedOnUsageMetrics": "基于使用指标，如行驶里程、运行小时或完成循环。非常适合具有可测使用量的设备。",
+      "combineBothMethods": "结合两种方法",
+      "triggersOnWhichever": "在首先满足的条件时触发，然后智能地重新安排计划。",
+      "activateYourPlan": "在添加项目或设置自动分配条件后激活您的计划。"
+    }
   },
   "contracts": {
     "setupVisible": true,

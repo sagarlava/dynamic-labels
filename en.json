@@ -2268,7 +2268,33 @@
       "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Job Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
       "maintenanceItemHasJobOrder": "Job Order Data exists in the system for the Maintenance Item",
       "maintenanceItemUnableToDelete": "Only allowed to delete PENDING Maintenance Status",
-      "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support"
+      "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support",
+      "maintainancePlanNotFound": "Maintenance Plan not found",
+      "maintainancePlanIntervalTypeCannotBeModified": "Interval Type cannot be modified",
+      "maintainancePlanCannotEditStartDateOfActivePlan": "Cannot modify Start datetime of Active Maintenance Plan",
+      "maintainancePlanCannotEditExpiredPlan": "Cannot modify Expired Maintenance Plan",
+      "maintainancePlanCannotEditCancelledPlan": "Cannot modify Cancelled Maintenance Plan",
+      "maintainancePlanCannotActivateLackOfInfo": "Not allowed to activate this maintenance plan, due to incompleted information",
+      "maintainancePlanCannotDeleteAssetCycleItem": "Cannot delete cycle item used in asset maintenance plan",
+      "maintainancePlanCannotDeleteSiteCycleItem": "Cannot delete cycle item used in site maintenance plan",
+      "maintainancePlanInvalidId": "Invalid maintenance plan id",
+      "maintainancePlanStartDateTimeMustBeFuture": "Start datetime must be in the future",
+      "maintainancePlanEndDateTimeMustBeAfterStartDateTime": "End datetime must be after Start datetime and cannot be empty for custom date option",
+      "maintainancePlanRepeatTypeMustBeSpecified": "Repeat Type must be specified",
+      "maintainancePlanNoAssetsProvided": "No assets provided to add to maintenance plan",
+      "maintainancePlanNoPlanProvided": "No maintenance plan provided",
+      "maintainancePlanAssetNotPartOfPlan": "Asset is not part of the maintenance plan",
+      "maintainancePlanNoSitesProvided": "No sites provided to add to maintenance plan",
+      "maintainancePlanSiteNotPartOfPlan": "Site is not part of the maintenance plan",
+      "maintainancePlanInvalidAutoAddAssetCriteriaId": "Invalid auto add asset criteria ID",
+      "maintainancePlanAssetPMInvalidId": "Invalid asset maintainance plan ID",
+      "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past job order generation date",
+      "maintainancePlanSitePMInvalidId": "Invalid site maintainance plan ID",
+      "maintainancePlanNoAssetNextCycleItemFound": "No next maintenance plan cycle item found for asset maintenance plan",
+      "maintainancePlanNoSiteNextCycleItemFound": "No next maintenance plan cycle item found for site maintenance plan",
+      "maintainancePlanCannotDeleteActivePlan": "Cannot delete an active maintenance plan",
+      "maintainancePlanCannotDeleteReferencedPlan": "Cannot delete maintenance plan as it is referenced by other records",
+      "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Job Order linked to active Maintenance Plan cannot be deleted"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2472,6 +2498,123 @@
       }
     },
     "messages": {}
+  },
+  "maintenancePlan":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Preventive Maintenance",
+      "singular": "Preventive Maintenance",
+      "plural": "Preventive Maintenances",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0":{
+        "original": "Maintenance Jobs",
+        "singular": "Maintenance Job",
+        "plural": "Maintenance Jobs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1":{
+        "original": "Maintenance Plans",
+        "singular": "Maintenance Plan",
+        "plural": "Maintenance Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2":{
+        "original": "Define Your Maintenance Plan",
+        "singular": "Define Your Maintenance Plan",
+        "plural": "Define Your Maintenance Plan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3":{
+        "original": "Create Schedule",
+        "singular": "Create Schedule",
+        "plural": "Create Schedule",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4":{
+        "original": "Configure Creation",
+        "singular": "Configure Creation",
+        "plural": "Configure Creation",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5":{
+        "original": "Self-healing",
+        "singular": "Self-healing",
+        "plural": "Self-healing",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "maintenance":{
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "plan":{
+        "original": "Plan",
+        "singular": "Plan",
+        "plural": "Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeBased":{
+        "original": "Time-based",
+        "singular": "Time-based",
+        "plural": "Time-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterBased":{
+        "original": "Meter-based",
+        "singular": "Meter-based",
+        "plural": "Meter-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time":{
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meter":{
+        "original": "Meter",
+        "singular": "Meter",
+        "plural": "Meter",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "nameYour":"Name your",
+      "setStatusChooseWhen":"set its status, and choose when",
+      "shouldOccur":"should occur. Use time-based intervals, meter-based usage triggers, or both to ensure the right work happens at the right time.",
+      "start":"Start",
+      "from":"from",
+      "andEnd": "and End",
+      "chooseHowYour":"Choose how your",
+      "shouldTrigger":"should trigger",
+      "basedTimeIntervals":"Based on time intervals like weekly, monthly, or quarterly. Perfect for routine inspections and seasonal maintenance.",
+      "basedOnUsageMetrics":"Based on usage metrics like miles driven, hours operated, or cycles completed. Ideal for equipment with measurable usage.",
+      "combineBothMethods":"Combine both methods",
+      "triggersOnWhichever":"triggers on whichever condition is met first, then intelligently reschedules.",
+      "activateYourPlan":"Activate your plan after adding items or setting up auto-assignment conditions."
+    }
+
   },
   "contracts": {
     "setupVisible": true,
