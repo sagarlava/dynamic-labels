@@ -25169,6 +25169,13 @@
         "plural": "Campos agregados",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec11": {
+        "original": "Schedules",
+        "singular": "Programación",
+        "plural": "Programaciones",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25422,7 +25429,10 @@
       "addedToFavorites": "se ha añadido a Favoritos correctamente",
       "updatedSuccessfully": "se ha actualizado correctamente",
       "nameIsRequired": "el nombre es obligatorio",
-      "generatedSuccessfully": "generado correctamente"
+      "generatedSuccessfully": "generado correctamente",
+      "pleaseSelectFileType": "Por favor seleccione un tipo de archivo",
+      "selectEndDateOrNever": "Seleccione una fecha de finalización o marque la casilla Nunca para continuar",
+      "atLeastOneIsRequired": "Se requiere al menos un usuario, grupo o correo electrónico"
     },
     "messages":{
       "generateExistingReports": "Generar existentes o crear nuevos",
@@ -25549,12 +25559,15 @@
       "selectUser": "Seleccionar usuario(s)",
       "selectGroup": "Seleccionar grupo(s)",
       "enterEmailAddr": "Ingresar dirección de correo electrónico",
+       "enterEmailAddresses": "Introduzca direcciones de correo electrónico",
       "never": "Nunca",
       "doYouWantToSendThis": "¿Deseas enviar esto",
       "to": "a",
       "viaEmail": "por correo electrónico",
       "selectEmailRecipient": "Seleccionar destinatarios de correo electrónico",
       "whenShouldThisRecordCreated": "¿Cuándo debe crearse este informe?",
+      "whenShouldThis": "Cuándo debería",
+      "beCreated": "crearse",
       "scheduleDuration": "Duración del horario",
       "selectFileType": "Seleccionar tipo de archivo",
       "aggregatedFields": "¿para tener campos agregados?",
@@ -25568,7 +25581,11 @@
       "makingGroupedField": "Hacer una selección de campo agrupado agrupará tu",
       "selectModuleForThis": "Selecciona un módulo para esto",
       "doYouWantThis": "¿Deseas esto?",
-      "showing": "Mostrando"
+      "showing": "Mostrando",
+      "selectAFrequency": "Seleccione una frecuencia",
+      "selectATime": "Seleccione una hora",
+      "selectADay": "Seleccione un día",
+      "selectRecipientsAtLeastOne": "Seleccione los destinatarios de este archivo; puede seleccionar o introducir varios valores. Se requiere al menos una selección."
     }
   },
   "academy": {

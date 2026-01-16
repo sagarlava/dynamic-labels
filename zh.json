@@ -25170,6 +25170,13 @@
         "plural": "汇总字段",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec11": {
+        "original": "Schedules",
+        "singular": "计划",
+        "plural": "计划",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25423,7 +25430,10 @@
       "addedToFavorites": "已成功添加到收藏夹",
       "updatedSuccessfully": "已成功更新",
       "nameIsRequired": "名称为必填项",
-      "generatedSuccessfully": "已成功生成"
+      "generatedSuccessfully": "已成功生成",
+      "pleaseSelectFileType": "请选择文件类型",
+      "selectEndDateOrNever": "请选择结束日期或勾选“从不”复选框以继续",
+      "atLeastOneIsRequired": "至少需要一个用户、用户组或电子邮件"
     },
     "messages":{
       "generateExistingReports": "生成现有或新建",
@@ -25550,12 +25560,15 @@
       "selectUser": "选择用户",
       "selectGroup": "选择群组",
       "enterEmailAddr": "输入电子邮件地址",
+       "enterEmailAddresses": "请输入电子邮件地址",
       "never": "从不",
       "doYouWantToSendThis": "您想发送此项",
       "to": "给",
       "viaEmail": "通过电子邮件",
       "selectEmailRecipient": "选择电子邮件收件人",
       "whenShouldThisRecordCreated": "此报告应何时创建？",
+      "whenShouldThis": "何时应",
+      "beCreated": "创建",
       "scheduleDuration": "计划持续时间",
       "selectFileType": "选择文件类型",
       "aggregatedFields": "以包含汇总字段？",
@@ -25569,7 +25582,11 @@
       "makingGroupedField": "进行分组字段选择将分组您的",
       "selectModuleForThis": "为此选择模块",
       "doYouWantThis": "您想要这个吗",
-      "showing": "显示"
+      "showing": "显示",
+       "selectAFrequency": "请选择频率",
+      "selectATime": "请选择时间",
+      "selectADay": "请选择日期",
+      "selectRecipientsAtLeastOne": "请选择此文件的接收者，您可以选择或输入多个值。至少需要选择一个。"
     }
   },
   "academy": {

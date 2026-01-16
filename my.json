@@ -25170,6 +25170,13 @@
         "plural": "Medan Agregat",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec11": {
+        "original": "Schedules",
+        "singular": "Jadual",
+        "plural": "Jadual",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25423,7 +25430,10 @@
       "addedToFavorites": "telah berjaya ditambah ke Kegemaran",
       "updatedSuccessfully": "telah berjaya dikemas kini",
       "nameIsRequired": "nama diperlukan",
-      "generatedSuccessfully": "berjaya dijana"
+      "generatedSuccessfully": "berjaya dijana",
+      "pleaseSelectFileType": "Sila pilih jenis fail",
+      "selectEndDateOrNever": "Pilih Tarikh Tamat atau tandakan kotak pilihan Never untuk meneruskan",
+       "atLeastOneIsRequired": "Sekurang-kurangnya satu pengguna, kumpulan atau e-mel diperlukan"
     },
     "messages":{
       "generateExistingReports": "Menjana laporan sedia ada atau buat baharu",
@@ -25550,12 +25560,15 @@
       "selectUser": "Pilih Pengguna",
       "selectGroup": "Pilih Kumpulan",
       "enterEmailAddr": "Masukkan alamat emel",
+      "enterEmailAddresses": "Masukkan alamat e-mel",
       "never": "Tidak pernah",
       "doYouWantToSendThis": "Adakah anda mahu menghantar ini",
       "to": "kepada",
       "viaEmail": "melalui emel",
       "selectEmailRecipient": "Pilih Penerima Emel",
       "whenShouldThisRecordCreated": "Bila laporan ini perlu dibuat?",
+      "whenShouldThis": "Bilakah ini",
+      "beCreated": "perlu dicipta",
       "scheduleDuration": "Tempoh Jadual",
       "selectFileType": "Pilih Jenis Fail",
       "aggregatedFields": "untuk mempunyai medan agregat?",
@@ -25569,7 +25582,11 @@
       "makingGroupedField": "Membuat pilihan medan berkelompok akan mengelompokkan",
       "selectModuleForThis": "Pilih modul untuk ini",
       "doYouWantThis": "Adakah anda mahu ini",
-      "showing": "Menunjukkan"
+      "showing": "Menunjukkan",
+      "selectAFrequency": "Pilih kekerapan",
+      "selectATime": "Pilih masa",
+      "selectADay": "Pilih hari",
+      "selectRecipientsAtLeastOne": "Pilih penerima untuk fail ini, anda boleh memilih atau memasukkan berbilang nilai. Sekurang-kurangnya satu pilihan diperlukan."
     }
   },
   "academy": {

@@ -25171,6 +25171,13 @@
         "plural": "Aggregated Fields",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec11":{
+        "original": "Schedules",
+        "singular": "Schedule",
+        "plural": "Schedules",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25424,7 +25431,10 @@
       "addedToFavorites":"has been added to Favorites successfully",
       "updatedSuccessfully":"has been updated succesfully",
       "nameIsRequired":"name is required",
-      "generatedSuccessfully":"generated succesfully"
+      "generatedSuccessfully":"generated succesfully",
+      "pleaseSelectFileType":"Please select a file type",
+      "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed",
+      "atLeastOneIsRequired":"At least one user, group or email is required"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
@@ -25551,12 +25561,15 @@
       "selectUser":"Select User(s)",
       "selectGroup":"Select Group(s)",
       "enterEmailAddr":"Enter email address",
+      "enterEmailAddresses":"Enter email addresses",
       "never":"Never",
       "doYouWantToSendThis":"Do you want to send this",
       "to":"to",
       "viaEmail":"via email",
       "selectEmailRecipient":"Select Email Recipients",
       "whenShouldThisRecordCreated":"When should this report be created?",
+      "whenShouldThis":"When should this",
+      "beCreated":"be created",
       "scheduleDuration":"Schedule Duration",
       "selectFileType":"Select File Type",
       "aggregatedFields":"to have aggregated fields?",
@@ -25570,7 +25583,11 @@
       "makingGroupedField":"Making a grouped field selection will group your",
       "selectModuleForThis":"Select a module for this",
       "doYouWantThis":"Do you want this",
-      "showing":"Showing"
+      "showing":"Showing",
+      "selectAFrequency":"Select a frequency",
+      "selectATime":"Select a Time",
+      "selectADay":"Select a Day",
+      "selectRecipientsAtLeastOne":"Select the recipients of this file, you may select or enter multiple values. At least one selection is required."
     }
   },
   "academy": {
