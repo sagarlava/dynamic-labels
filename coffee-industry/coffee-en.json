@@ -11843,7 +11843,8 @@
       "makeFilterSelections":"Make filter selections to locate equipment",
       "confirmation":"Confirmation",
       "makeFilterSelectionsCheckAvail":"Make filter selections to check availability",
-      "updateConfirmation":"Update Confirmation"
+      "updateConfirmation":"Update Confirmation",
+      "confirmProceed":"Are you sure you want to proceed"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -23116,6 +23117,55 @@
         "plural": "Columns",
         "setupEdit": false,
         "setupVisible": false
+      },
+       "fileType": {
+        "original": "File Type",
+        "singular": "File Type",
+        "plural": "File Type",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "Schedule Type",
+        "plural": "Schedule Type",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "Month Value",
+        "plural": "Month Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Day",
+        "plural": "Days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -23172,7 +23222,13 @@
       "generatedSuccessfully":"generated succesfully",
       "pleaseSelectFileType":"Please select a file type",
       "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed",
-      "atLeastOneIsRequired": "At least one user, group or email is required"
+      "atLeastOneIsRequired": "At least one user, group or email is required",
+      "sentRecipientSuccessfully":"has been sent to recipient(s) successfully",
+      "maximumUserSelectionExceeded":"Maximum user selection exceeded",
+      "maximumGroupSelectionExceeded":"Maximum group selection exceeded",
+      "maximumEmailsExceeded":"Maximum number of emails exceeded",
+        "hasBeenAddedToThe":"has been added to the",
+      "successfully":"succesfully"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
@@ -23325,7 +23381,11 @@
       "selectAFrequency": "Select a frequency",
       "selectATime": "Select a Time",
       "selectADay": "Select a Day",
-      "selectRecipientsAtLeastOne":"Select the recipients of this file, you may select or enter multiple values. At least one selection is required."
+      "selectRecipientsAtLeastOne":"Select the recipients of this file, you may select or enter multiple values. At least one selection is required.",
+      "thisScheduleForThis":"The schedule for this",
+      "willBeRemoved":"will be removed",
+       "editingFieldsInSection":"Editing the fields in this section will result in this",
+      "onlyBeingSentOut":"only being sent out once the new conditions are met."
     }
   }
 }

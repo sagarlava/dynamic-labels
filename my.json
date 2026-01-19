@@ -15180,7 +15180,8 @@
       "makeFilterSelections":"Buat pilihan penapis untuk mencari aset",
       "confirmation":"Pengesahan",
       "makeFilterSelectionsCheckAvail":"Buat pilihan penapis untuk menyemak ketersediaan",
-      "updateConfirmation":"Pengesahan Kemas Kini"
+      "updateConfirmation":"Pengesahan Kemas Kini",
+      "confirmProceed": "Adakah anda pasti mahu meneruskan"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25377,6 +25378,55 @@
         "plural": "Lajur",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "fileType": {
+        "original": "File Type",
+        "singular": "Jenis Fail",
+        "plural": "Jenis Fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Tarikh Mula",
+        "plural": "Tarikh Mula",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Tarikh Tamat",
+        "plural": "Tarikh Tamat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "Jenis Jadual",
+        "plural": "Jenis Jadual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "Nilai Bulan",
+        "plural": "Nilai Bulan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Hari",
+        "plural": "Hari",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Masa",
+        "plural": "Masa",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25433,7 +25483,13 @@
       "generatedSuccessfully": "berjaya dijana",
       "pleaseSelectFileType": "Sila pilih jenis fail",
       "selectEndDateOrNever": "Pilih Tarikh Tamat atau tandakan kotak pilihan Never untuk meneruskan",
-       "atLeastOneIsRequired": "Sekurang-kurangnya satu pengguna, kumpulan atau e-mel diperlukan"
+       "atLeastOneIsRequired": "Sekurang-kurangnya satu pengguna, kumpulan atau e-mel diperlukan",
+       "sentRecipientSuccessfully": "telah berjaya dihantar kepada penerima",
+    "maximumUserSelectionExceeded": "Bilangan maksimum pengguna telah melebihi had",
+    "maximumGroupSelectionExceeded": "Bilangan maksimum kumpulan telah melebihi had",
+    "maximumEmailsExceeded": "Bilangan maksimum alamat e-mel telah melebihi had",
+     "hasBeenAddedToThe": "telah ditambah ke",
+    "successfully": "berjaya"
     },
     "messages":{
       "generateExistingReports": "Menjana laporan sedia ada atau buat baharu",
@@ -25586,7 +25642,11 @@
       "selectAFrequency": "Pilih kekerapan",
       "selectATime": "Pilih masa",
       "selectADay": "Pilih hari",
-      "selectRecipientsAtLeastOne": "Pilih penerima untuk fail ini, anda boleh memilih atau memasukkan berbilang nilai. Sekurang-kurangnya satu pilihan diperlukan."
+      "selectRecipientsAtLeastOne": "Pilih penerima untuk fail ini, anda boleh memilih atau memasukkan berbilang nilai. Sekurang-kurangnya satu pilihan diperlukan.",
+      "thisScheduleForThis": "Jadual untuk ini",
+      "willBeRemoved": "akan dibuang",
+       "editingFieldsInSection": "Mengedit medan dalam bahagian ini akan menyebabkan ini",
+    "onlyBeingSentOut": "hanya dihantar setelah syarat baharu dipenuhi."
     }
   },
   "academy": {

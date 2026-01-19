@@ -15179,7 +15179,8 @@
       "makeFilterSelections":"Haz selecciones de filtro para localizar activos",
       "confirmation":"Confirmación",
       "makeFilterSelectionsCheckAvail":"Haz selecciones de filtro para comprobar la disponibilidad",
-      "updateConfirmation":"Confirmación de Actualización"
+      "updateConfirmation":"Confirmación de Actualización",
+      "confirmProceed": "¿Está seguro de que desea continuar?"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25376,6 +25377,55 @@
       "plural": "Columnas",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "fileType": {
+      "original": "File Type",
+      "singular": "Tipo de archivo",
+      "plural": "Tipo de archivo",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "startDate": {
+      "original": "Start Date",
+      "singular": "Fecha de inicio",
+      "plural": "Fecha de inicio",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "endDate": {
+      "original": "End Date",
+      "singular": "Fecha de finalización",
+      "plural": "Fecha de finalización",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "scheduleType": {
+      "original": "Schedule Type",
+      "singular": "Tipo de programación",
+      "plural": "Tipo de programación",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "monthValue": {
+      "original": "Month Value",
+      "singular": "Valor del mes",
+      "plural": "Valor del mes",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "day": {
+      "original": "Day",
+      "singular": "Día",
+      "plural": "Días",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "time": {
+      "original": "Time",
+      "singular": "Hora",
+      "plural": "Hora",
+      "setupEdit": false,
+      "setupVisible": false
     }
     },
     "tooltips":{
@@ -25432,7 +25482,13 @@
       "generatedSuccessfully": "generado correctamente",
       "pleaseSelectFileType": "Por favor seleccione un tipo de archivo",
       "selectEndDateOrNever": "Seleccione una fecha de finalización o marque la casilla Nunca para continuar",
-      "atLeastOneIsRequired": "Se requiere al menos un usuario, grupo o correo electrónico"
+      "atLeastOneIsRequired": "Se requiere al menos un usuario, grupo o correo electrónico",
+      "sentRecipientSuccessfully": "se ha enviado correctamente al/los destinatario(s)",
+      "maximumUserSelectionExceeded": "Se ha superado el número máximo de usuarios",
+      "maximumGroupSelectionExceeded": "Se ha superado el número máximo de grupos",
+      "maximumEmailsExceeded": "Se ha superado el número máximo de correos electrónicos",
+      "hasBeenAddedToThe": "ha sido añadido a",
+    "successfully": "correctamente"
     },
     "messages":{
       "generateExistingReports": "Generar existentes o crear nuevos",
@@ -25585,7 +25641,11 @@
       "selectAFrequency": "Seleccione una frecuencia",
       "selectATime": "Seleccione una hora",
       "selectADay": "Seleccione un día",
-      "selectRecipientsAtLeastOne": "Seleccione los destinatarios de este archivo; puede seleccionar o introducir varios valores. Se requiere al menos una selección."
+      "selectRecipientsAtLeastOne": "Seleccione los destinatarios de este archivo; puede seleccionar o introducir varios valores. Se requiere al menos una selección.",
+      "thisScheduleForThis": "La programación de esto",
+      "willBeRemoved": "será eliminada",
+      "editingFieldsInSection": "Editar los campos de esta sección dará lugar a que esto",
+      "onlyBeingSentOut": "solo se envíe una vez que se cumplan las nuevas condiciones."
     }
   },
   "academy": {
