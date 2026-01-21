@@ -6977,6 +6977,13 @@
         "plural": "Detalles de las Tareas y Piezas de Repuesto",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "Actividad",
+        "plural": "Actividades",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

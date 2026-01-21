@@ -6978,6 +6978,13 @@
         "plural": "Butiran Tugasan dan Alat Ganti",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "Aktiviti",
+        "plural": "Aktiviti",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

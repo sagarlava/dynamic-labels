@@ -6978,6 +6978,13 @@
         "plural": "Task and Spare Part Details",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

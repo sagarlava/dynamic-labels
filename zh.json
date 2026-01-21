@@ -6977,6 +6977,13 @@
         "plural": "任务和备件详情",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "活动",
+        "plural": "活动",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

@@ -6977,6 +6977,13 @@
         "plural": "Aufgaben- und Ersatzteildetails",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "Aktivität",
+        "plural": "Aktivitäten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
