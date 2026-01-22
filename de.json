@@ -9387,7 +9387,8 @@
       "jobOrderProductStatusIdExists": "Ein neuer Arbeitsauftrag-Ersatzteilstatus kann nicht bereits eine ID haben",
       "jobOrderProductStatusIdNotFound": "ID nicht gefunden",
       "slaJobOrderIdExists": "Ein neuer SLA-Arbeitsauftrag kann nicht bereits eine ID haben",
-      "jobOrderPriceBookNotFound": "Price Book nicht gefunden"
+      "jobOrderPriceBookNotFound": "Price Book nicht gefunden",
+      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen."
     },
     "tooltips": {
       "setupVisible": false,

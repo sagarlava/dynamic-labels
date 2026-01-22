@@ -9388,7 +9388,8 @@
       "jobOrderProductStatusIdExists": "Status Alat Ganti Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
       "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID",
-      "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai"
+      "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai",
+      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini.",
     },
     "tooltips": {
       "setupVisible": false,

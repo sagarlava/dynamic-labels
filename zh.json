@@ -9387,7 +9387,8 @@
       "jobOrderProductStatusIdExists": "新的作业订单备件状态不能已有ID",
       "jobOrderProductStatusIdNotFound": "未找到ID",
       "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
-      "jobOrderPriceBookNotFound": "未找到价格手册"
+      "jobOrderPriceBookNotFound": "未找到价格手册",
+      "mandatoryTasksNotCompleted": "一个或多个强制性任务尚未完成。请在完成此工作订单之前完成它们。"
     },
     "tooltips": {
       "setupVisible": false,

@@ -9387,7 +9387,8 @@
       "jobOrderProductStatusIdExists": "Un nuevo Estado de Pieza de Repuesto de Orden de Trabajo no puede ya tener un ID",
       "jobOrderProductStatusIdNotFound": "ID no encontrado",
       "slaJobOrderIdExists": "Una nueva Orden de Trabajo SLA no puede ya tener un ID",
-      "jobOrderPriceBookNotFound": "Libro de precios no encontrado"
+      "jobOrderPriceBookNotFound": "Libro de precios no encontrado",
+      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo.",
     },
     "tooltips": {
       "setupVisible": false,
