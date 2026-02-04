@@ -19470,29 +19470,2574 @@
         }
       },
       "picklist": {
+        "setupEdit": false,
         "setupVisible": false,
         "label": {
           "original": "Picklist",
           "singular": "Auswahlliste",
           "plural": "Auswahllisten",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": false
         },
         "fields": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Field Labels",
             "singular": "Feldbezeichnung",
             "plural": "Feldbezeichnungen",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "description": {
             "original": "Description",
             "singular": "Beschreibung",
             "plural": "Beschreibungen",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
+          }
+        },
+        "asset": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "status": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Status Details",
+                "singular": "Statusdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "colorCode": {
+                "original": "Color Code",
+                "singular": "Farbcode",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "possibleStatus": "Die möglichen Status, die Ihre",
+              "mayGoThrough": "durchlaufen können"
+            }
+          },
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+              "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          },
+          "category": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Category",
+              "singular": "Kategorie",
+              "plural": "Kategorien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Category Details",
+                "singular": "Kategoriedetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentWays": "Die verschiedenen Möglichkeiten, wie Ihre",
+              "categorized": "kategorisiert werden"
+            }
+          },
+          "subCategory": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Sub Category",
+              "singular": "Unterkategorie",
+              "plural": "Unterkategorien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Sub Category Details",
+                "singular": "Unterkategoriedetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "category": {
+                "original": "Category",
+                "singular": "Kategorie",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "divisionCategory": "Die Unterteilungen, die Sie innerhalb jeder Kategorie haben"
+            }
+          }
+        },
+        "customer": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          },
+          "category": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Category",
+              "singular": "Kategorie",
+              "plural": "Kategorien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Category Details",
+                "singular": "Kategoriedetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentWays": "Die verschiedenen Möglichkeiten, wie Ihre",
+              "categorized": "kategorisiert werden"
+            }
+          },
+        "sector": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "Sector",
+            "singular": "Branche",
+            "plural": "Branchen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Sector Details",
+              "singular": "Branchendetails",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Details",
+              "singular": "Details",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Label",
+              "singular": "Bezeichnung",
+              "plural": "Bezeichnungen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "code": {
+              "original": "Code",
+              "singular": "Code",
+              "plural": "Codes",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "order": {
+              "original": "Order",
+              "singular": "Reihenfolge",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "status": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "default": {
+              "original": "Default",
+              "singular": "Standard",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "broadCategoryIndustry": "Die übergeordnete Kategorie oder Branche, in der",
+            "operates": "tätig ist"
+          }
+        },
+        "subSector": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Sub-sector",
+              "singular": "Unterbranche",
+              "plural": "Unterbranchen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Sub-sector Details",
+                "singular": "Details zur Unterbranche",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "active": {
+                "original": "Active",
+                "singular": "Aktiv",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "aMoreSpecificSubCategory": "Eine spezifischere Unterkategorie innerhalb von"
+            }
+          }
+        },
+        "jobOrder": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "status": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Status Details",
+                "singular": "Statusdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "colorCode": {
+                "original": "Color Code",
+                "singular": "Farbcode",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "possibleStatus": "Die möglichen Status, die Ihre",
+              "mayGoThrough": "durchlaufen können"
+            }
+          },
+          "fault": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Fault",
+              "singular": "Fehler",
+              "plural": "Fehler",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Fault Type",
+                "singular": "Fehlerart",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Fault Type Details",
+                "singular": "Fehlerartdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "displayName": {
+                "original": "Display Name",
+                "singular": "Nombre para mostrar",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "commonFaultsRaised": "Die Liste der häufigsten gemeldeten Fehler"
+            }
+          },
+          "resolution": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Resolution",
+              "singular": "Lösung",
+              "plural": "Lösungen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Resolution",
+                "singular": "Lösung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Resolution Type Details",
+                "singular": "Details zur Lösungsart",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "mostCommonResolution": "Die häufigsten Lösungen für die aufgetretenen Fehler"
+            }
+          },
+          "system": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "System",
+              "singular": "System",
+                "plural": "Systeme",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "System Details",
+              "singular": "Systemdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentSystem": "Die verschiedenen Systeme, durch die Ihre",
+              "areCategorized": "kategorisiert werden"
+            }
+          }
+        },
+        "product": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          },
+          "family": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Family",
+              "singular": "Familie",
+              "plural": "Familien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Family Details",
+                "singular": "Familien-Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages":{
+              "describesAGroupOf": "Beschreibt eine Gruppe von",
+              "whichHaveSimilarFunction": "die eine ähnliche Funktionalität haben"
+            }
+          },
+          "unitMeasurement": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Unit of Measurement",
+            "singular": "Maßeinheit",
+              "plural": "Maßeinheiten",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Unit Details",
+                "singular": "Einheitsdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages":{
+                "quantityUnitThat": "Die Menge oder Einheit, in der",
+                "isMeasuredIn": "gemessen wird"
+            }
+          }
+        },
+        "project": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          },
+          "category": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Category",
+              "singular": "Kategorie",
+              "plural": "Kategorien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Category Details",
+                "singular": "Kategoriedetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentWays": "Die verschiedenen Möglichkeiten, wie Ihre",
+              "categorized": "kategorisiert werden"
+            }
+          }
+        },
+        "salesOrder": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "channel": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Channel",
+              "singular": "Kanal",
+              "plural": "Kanäle",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Channel Details",
+                "singular": "Kanal Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentChannel": "Die verschiedenen Kanäle, durch die Ihre",
+              "comeThrough": "kommen"
+            }
+          },
+          "status": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Status Details",
+                "singular": "Statusdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "colorCode": {
+                "original": "Color Code",
+                "singular": "Farbcode",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "possibleStatus": "Die möglichen Status, die Ihre",
+              "mayGoThrough": "durchlaufen können"
+            }
+          },
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          }
+        },
+        "site": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          },
+          "category": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Category",
+              "singular": "Kategorie",
+              "plural": "Kategorien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Category Details",
+                "singular": "Kategoriedetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentWays": "Die verschiedenen Möglichkeiten, wie Ihre",
+              "categorized": "kategorisiert werden"
+            }
+          },
+          "subCategory": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Sub Category",
+              "singular": "Unterkategorie",
+              "plural": "Unterkategorien",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Sub Category Details",
+                "singular": "Unterkategoriedetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "category": {
+                "original": "Category",
+                "singular": "Kategorie",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "divisionCategory": "Die Unterteilungen, die Sie innerhalb jeder Kategorie haben"
+            }
+          },
+          "area": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Area",
+              "singular": "Bereich",
+              "plural": "Bereiche",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Area Details",
+              "singular": "Bereich Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "yourListOf": "Ihre Liste der Bereiche, in denen Ihre",
+              "resideIn": "sich befinden"
+            }
+          }
+        },
+        "ticket": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "channel": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Channel",
+              "singular": "Kanal",
+              "plural": "Kanäle",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Channel Details",
+                "singular": "Kanal Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "differentChannel": "Die verschiedenen Kanäle, durch die Ihre",
+              "comeThrough": "kommen"
+            }
+          },
+          "status": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Status Details",
+                "singular": "Statusdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "colorCode": {
+                "original": "Color Code",
+                "singular": "Farbcode",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "possibleStatus": "Die möglichen Status, die Ihre",
+              "mayGoThrough": "durchlaufen können"
+            }
+          },
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
+          },
+          "department": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Department",
+              "singular": "Abteilung",
+              "plural": "Abteilungen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Department Details",
+                "singular": "Abteilungsdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "departmentEachAssign": "Die Abteilungen, denen jede Ihrer",
+              "mayAssignTo": "zugewiesen werden kann"
+            }
+          },
+          "fault": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Fault",
+              "singular": "Fehler",
+              "plural": "Fehler",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Fault Type",
+                "singular": "Fehlerart",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Fault Type Details",
+                "singular": "Fehlerartdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "displayName": {
+                "original": "Display Name",
+                "singular": "Nombre para mostrar",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "commonFaultsRaised": "Die Liste der häufigsten gemeldeten Fehler"
+            }
+          },
+          "resolution": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Resolution",
+              "singular": "Lösung",
+              "plural": "Lösungen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Resolution",
+                "singular": "Lösung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Resolution Type Details",
+                "singular": "Details zur Lösungsart",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "mostCommonResolution": "Die häufigsten Lösungen für die aufgetretenen Fehler"
+            }
+          },
+          "priority": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Priority",
+              "singular": "Prioridad",
+              "plural": "Prioritäten",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Priority Details",
+                "singular": "Prioritätsdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "urgentImportant": "Wie dringend und wichtig jedes Ticket ist"
+            }
           }
         },
         "type": {
@@ -19501,7 +22046,7 @@
             "original": "Type",
             "singular": "Typ",
             "plural": "Typen",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19510,21 +22055,21 @@
               "original": "Type Details",
               "singular": "Typdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Available Statuses for this Type",
               "singular": "Verfügbare Status für diesen Typ",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec2": {
               "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
               "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19534,42 +22079,42 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "Bezeichnungen",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Beschreibung",
               "plural": "Beschreibungen",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "Codes",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19590,7 +22135,7 @@
             "original": "Status",
             "singular": "Status",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19599,7 +22144,7 @@
               "original": "Status Details",
               "singular": "Statusdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19609,42 +22154,42 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "colorCode": {
               "original": "Color Code",
               "singular": "Farbcode",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19659,7 +22204,7 @@
             "original": "Channel",
             "singular": "Kanal",
             "plural": "Kanäle",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19668,7 +22213,7 @@
               "original": "Channel Details",
               "singular": "Kanal Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19678,35 +22223,35 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19721,7 +22266,7 @@
             "original": "Area",
             "singular": "Bereich",
             "plural": "Bereiche",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19730,7 +22275,7 @@
               "original": "Area Details",
               "singular": "Bereich Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19740,35 +22285,35 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19783,7 +22328,7 @@
             "original": "Category",
             "singular": "Kategorie",
             "plural": "Kategorien",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19792,7 +22337,7 @@
               "original": "Category Details",
               "singular": "Kategoriedetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19802,35 +22347,35 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19845,7 +22390,7 @@
             "original": "Sub Category",
             "singular": "Unterkategorie",
             "plural": "Unterkategorien",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19854,7 +22399,7 @@
               "original": "Sub Category Details",
               "singular": "Unterkategoriedetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19864,42 +22409,42 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "category": {
               "original": "Category",
               "singular": "Kategorie",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19913,7 +22458,7 @@
             "original": "Department",
             "singular": "Abteilung",
             "plural": "Abteilungen",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19922,7 +22467,7 @@
               "original": "Department Details",
               "singular": "Abteilungsdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19932,21 +22477,21 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19961,7 +22506,7 @@
             "original": "Fault",
             "singular": "Fehler",
             "plural": "Fehler",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -19970,14 +22515,14 @@
               "original": "Fault Type",
               "singular": "Fehlerart",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Fault Type Details",
               "singular": "Fehlerartdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -19987,42 +22532,42 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Anzeigename",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20036,7 +22581,7 @@
             "original": "Priority",
             "singular": "Priorität",
             "plural": "Prioritäten",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -20045,7 +22590,7 @@
               "original": "Priority Details",
               "singular": "Prioritätsdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20055,28 +22600,28 @@
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20090,7 +22635,7 @@
             "original": "Resolution",
             "singular": "Lösung",
             "plural": "Lösungen",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -20099,14 +22644,14 @@
               "original": "Resolution",
               "singular": "Lösung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Resolution Type Details",
               "singular": "Details zur Lösungsart",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20116,42 +22661,42 @@
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "label": {
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20165,7 +22710,7 @@
             "original": "System",
             "singular": "System",
             "plural": "Systeme",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -20174,14 +22719,14 @@
               "original": "System",
               "singular": "System",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "System Details",
               "singular": "Systemdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20191,35 +22736,35 @@
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20234,7 +22779,7 @@
             "original": "Family",
             "singular": "Familie",
             "plural": "Familien",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -20243,7 +22788,7 @@
               "original": "Family Details",
               "singular": "Familien-Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20253,42 +22798,42 @@
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "label": {
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           }
@@ -20299,7 +22844,7 @@
             "original": "Unit of Measurement",
             "singular": "Maßeinheit",
             "plural": "Maßeinheiten",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -20308,7 +22853,7 @@
               "original": "Unit Details",
               "singular": "Einheitsdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20318,42 +22863,42 @@
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "label": {
               "original": "Label",
               "singular": "Bezeichnung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Reihenfolge",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Status",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Standard",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           }
@@ -23234,6 +25779,137 @@
         "themeUpdated": "Thema erfolgreich aktualisiert",
         "areYouSureRemoveLogo": "Sind Sie sicher, dass Sie das Logo entfernen möchten?",
         "removeLogo": "Logo entfernen"
+      },
+      "oauth": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "OAuth",
+          "singular": "OAuth",
+          "plural": "OAuth",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "Konfiguration",
+            "plural": "Konfigurationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Apps",
+            "singular": "App",
+            "plural": "Apps",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Basic Information",
+            "singular": "Grundlegende Informationen",
+            "plural": "Grundlegende Informationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth-Bereich",
+            "plural": "OAuth-Bereiche",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Credentials",
+            "singular": "Anmeldeinformation",
+            "plural": "Anmeldeinformationen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "callbackUrl": {
+            "original": "Callback URL",
+            "singular": "Callback-URL",
+            "plural": "Callback-URL",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Beschreibung",
+            "plural": "Beschreibung",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "owner": {
+            "original": "Owner",
+            "singular": "Eigentümer",
+            "plural": "Eigentümer",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthScope": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth-Bereich",
+            "plural": "OAuth-Bereiche",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthAppName": {
+            "original": "OAuth App Name",
+            "singular": "OAuth-App-Name",
+            "plural": "OAuth-App-Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "Verfügbar",
+            "plural": "Verfügbar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selected": {
+            "original": "Selected",
+            "singular": "Ausgewählt",
+            "plural": "Ausgewählt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "consumerKey": {
+            "original": "Consumer Key",
+            "singular": "Consumer-Schlüssel",
+            "plural": "Consumer-Schlüssel",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "secretKey": {
+            "original": "Secret Key",
+            "singular": "Geheimer Schlüssel",
+            "plural": "Geheimer Schlüssel",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+         "messages": {
+          "createClientApp": "Erstellen Sie eine Client-App und definieren Sie Berechtigungsbereiche für Integrationen.",
+          "giveYourIntegrationApp": "Geben Sie Ihrer Integrations-App einen Namen und definieren Sie die Callback-URL",
+          "chooseThePermission": "Wählen Sie die Berechtigungen aus, auf die Ihre Integration zugreifen kann. Halten Sie die Bereiche aus Sicherheitsgründen minimal.",
+          "basicInformationRelated": "Grundlegende Informationen zu Ihrer Integrations-App.",
+          "redirectUri": "Verwenden Sie die Weiterleitungs-URI Ihrer Integration (z. B. https://yourapp.com/oauth/callback)",
+          "selectedUser": "Der ausgewählte Benutzer wird als Ersteller und Bearbeiter der Datensätze für Prüfzwecke verwendet."
+        }
       }
     },
     "importExport": {
