@@ -11120,6 +11120,76 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "filterBy": {
+        "original": "Filter by",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enable":{
+        "original": "Enable",
+        "singular": "Enable",
+        "plural": "Enable",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disable":{
+        "original": "Disable",
+        "singular": "Disable",
+        "plural": "Disable",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activate":{
+        "original": "Activate",
+        "singular": "Activate",
+        "plural": "Activate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deactivate":{
+        "original": "Deactivate",
+        "singular": "Deactivate",
+        "plural": "Deactivate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hide":{
+        "original": "Hide",
+        "singular": "Hide",
+        "plural": "Hide",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "show":{
+        "original": "Show",
+        "singular": "Show",
+        "plural": "Show",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display":{
+        "original": "Display",
+        "singular": "Display",
+        "plural": "Display",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hidden":{
+        "original": "Hidden",
+        "singular": "Hidden",
+        "plural": "Hidden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "regenerate":{
+        "original": "Regenerate",
+        "singular": "Regenerate",
+        "plural": "Regenerate",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -17142,6 +17212,105 @@
               "differentSystem":"The different systems by which your",
               "areCategorized":"are categorized"
             }
+          },
+           "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Type",
+              "plural": "Types",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Type Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+                "singular": "Available Statuses for this Type",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "Labels",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Description",
+                "plural": "Descriptions",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Describe the types of",
+              "youReceive": "you receive",
+              "youHave": "you have",
+              "raisedToTeam": "raised to your team",
+              "availableStatus": "Available Statuses for this Type",
+              "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+              "notForThisJobType": "Not for this Job Order Type",
+              "forThisJobType": "For this Job Order Type"
+            }
           }
         },
         "product":{
@@ -22565,7 +22734,28 @@
               "plural": "Secret Key",
               "setupEdit": false,
               "setupVisible": false
+            },
+           "status": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "Status",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "key": {
+              "original": "Key",
+              "singular": "Key",
+              "plural": "Key",
+              "setupEdit": false,
+              "setupVisible": false
             }
+          },
+          "validationFE":{
+              "selectAtLeastOneScope":"Please select at least one scope",
+              "areYouSureChangeTo":"Are you sure you want to change status to",
+              "areYouSureDisableThis":"Are you sure you want to disable this",
+              "keyCopiedSuccessfully":"Key copied succesfully",
+              "unableCopyKey":"Unable to copy key. Please try again."
           },
           "messages":{
             "createClientApp":"Create a client app and define scopes for integrations.",
@@ -22573,7 +22763,17 @@
             "chooseThePermission":"Choose the permissions your integration can access. Keep scopes minimal for security.",
             "basicInformationRelated":"Basic information related to your integration app.",
             "redirectUri":"Use your integration's redirect URI (e.g., https://yourapp.com/oauth/callback)",
-            "selectedUser":"Selected user will be the created by and modified by for the records for audits."
+            "selectedUser":"Selected user will be the created by and modified by for the records for audits.",
+             "please":"Please",
+            "securely":"securely",
+            "storeThe":"store the",
+            "thisIsThe":"This is the",
+            "only":"only",
+            "timeDisplayed":"time it will be displayed",
+            "ifYouLose":"If you lose the",
+            "youCanGenerateNew":"you can generate a new one at any time",
+            "theCaps":"The",
+            "canBeViewed":"can be viewed at any time"
           }
       }
     },

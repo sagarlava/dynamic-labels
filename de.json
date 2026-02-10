@@ -20477,6 +20477,105 @@
               "differentSystem": "Die verschiedenen Systeme, durch die Ihre",
               "areCategorized": "kategorisiert werden"
             }
+          },
+            "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
           }
         },
         "product": {
@@ -25900,7 +25999,28 @@
             "plural": "Geheimer Schlüssel",
             "setupEdit": false,
             "setupVisible": false
+          },
+           "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "key": {
+            "original": "Key",
+            "singular": "Schlüssel",
+            "plural": "Schlüssel",
+            "setupEdit": false,
+            "setupVisible": false
           }
+        },
+        "validationFE":{
+          "selectAtLeastOneScope":"Bitte wählen Sie mindestens einen Bereich aus",
+          "areYouSureChangeTo":"Möchten Sie den Status wirklich ändern in",
+          "areYouSureDisableThis":"Sind Sie sicher, dass Sie dies deaktivieren möchten",
+          "keyCopiedSuccessfully":"Schlüssel erfolgreich kopiert",
+          "unableCopyKey":"Schlüssel konnte nicht kopiert werden. Bitte versuchen Sie es erneut."
         },
          "messages": {
           "createClientApp": "Erstellen Sie eine Client-App und definieren Sie Berechtigungsbereiche für Integrationen.",
@@ -25908,7 +26028,17 @@
           "chooseThePermission": "Wählen Sie die Berechtigungen aus, auf die Ihre Integration zugreifen kann. Halten Sie die Bereiche aus Sicherheitsgründen minimal.",
           "basicInformationRelated": "Grundlegende Informationen zu Ihrer Integrations-App.",
           "redirectUri": "Verwenden Sie die Weiterleitungs-URI Ihrer Integration (z. B. https://yourapp.com/oauth/callback)",
-          "selectedUser": "Der ausgewählte Benutzer wird als Ersteller und Bearbeiter der Datensätze für Prüfzwecke verwendet."
+          "selectedUser": "Der ausgewählte Benutzer wird als Ersteller und Bearbeiter der Datensätze für Prüfzwecke verwendet.",
+           "please":"Bitte",
+            "securely":"sicher",
+            "storeThe":"speichern Sie den",
+            "thisIsThe":"Dies ist das",
+            "only":"einzige",
+            "timeDisplayed":"Mal, dass dies angezeigt wird",
+            "ifYouLose":"Wenn Sie den",
+            "youCanGenerateNew":"können Sie jederzeit ein neues generieren",
+            "theCaps":"Das",
+            "canBeViewed":"kann jederzeit eingesehen werden"
         }
       }
     },
@@ -27031,6 +27161,69 @@
               "singular": "Filtern nach",
               "plural": "",
               "setupEdit": true,
+              "setupVisible": false
+            },
+            "enable":{
+              "original": "Enable",
+              "singular": "Aktivieren",
+              "plural": "Aktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "disable":{
+              "original": "Disable",
+              "singular": "Deaktivieren",
+              "plural": "Deaktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "activate":{
+              "original": "Activate",
+              "singular": "Aktivieren",
+              "plural": "Aktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "deactivate":{
+              "original": "Deactivate",
+              "singular": "Deaktivieren",
+              "plural": "Deaktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "hide":{
+              "original": "Hide",
+              "singular": "Ausblenden",
+              "plural": "Ausblenden",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "show":{
+              "original": "Show",
+              "singular": "Anzeigen",
+              "plural": "Anzeigen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "display":{
+              "original": "Display",
+              "singular": "Anzeige",
+              "plural": "Anzeige",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "hidden":{
+              "original": "Hidden",
+              "singular": "Ausgeblendet",
+              "plural": "Ausgeblendet",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "regenerate":{
+              "original": "Regenerate",
+              "singular": "Neu generieren",
+              "plural": "Neu generieren",
+              "setupEdit": false,
               "setupVisible": false
             }
           },

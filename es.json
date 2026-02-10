@@ -20477,6 +20477,105 @@
               "differentSystem": "Los diferentes sistemas por los cuales tu",
               "areCategorized": "están categorizados"
             }
+          },
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Tipo",
+            "plural": "Tipos",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Detalles del tipo",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+                "singular": "Estados disponibles para este tipo",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Especifique los estados que se aplican a este tipo de orden de trabajo. Los de la caja de la derecha se mostrarán en la lista de selección de estado cuando se seleccione este tipo de orden de trabajo.",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Detalles",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Etiqueta",
+                "plural": "Etiquetas",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Descripción",
+                "plural": "Descripciones",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Código",
+                "plural": "Códigos",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Orden",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Estado",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Predeterminado",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Describa los tipos de",
+              "youReceive": "que recibe",
+              "youHave": "que tiene",
+              "raisedToTeam": "elevado a su equipo",
+              "availableStatus": "Estados disponibles para este tipo",
+              "specifyStatusJobOrder": "Especifique los estados que se aplican a este tipo de orden de trabajo. Los de la caja de la derecha se mostrarán en la lista de selección de estado cuando se seleccione este tipo de orden de trabajo.",
+              "notForThisJobType": "No para este tipo de orden de trabajo",
+              "forThisJobType": "Para este tipo de orden de trabajo"
+            }
           }
         },
         "product": {
@@ -25900,7 +25999,28 @@
             "plural": "Clave secreta",
             "setupEdit": false,
             "setupVisible": false
+          },
+           "status": {
+            "original": "Status",
+            "singular": "Estado",
+            "plural": "Estados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "key": {
+            "original": "Key",
+            "singular": "Clave",
+            "plural": "Clave",
+            "setupEdit": false,
+            "setupVisible": false
           }
+        },
+        "validationFE":{
+            "selectAtLeastOneScope":"Por favor, seleccione al menos un alcance",
+            "areYouSureChangeTo":"¿Está seguro de que desea cambiar el estado a",
+            "areYouSureDisableThis":"¿Está seguro de que desea deshabilitar esto",
+            "keyCopiedSuccessfully":"Clave copiada con éxito",
+            "unableCopyKey":"No se pudo copiar la clave. Por favor, inténtelo de nuevo."
         },
          "messages": {
           "createClientApp": "Cree una aplicación cliente y defina los ámbitos para las integraciones.",
@@ -25908,7 +26028,17 @@
           "chooseThePermission": "Elija los permisos a los que puede acceder su integración. Mantenga los ámbitos al mínimo por seguridad.",
           "basicInformationRelated": "Información básica relacionada con su aplicación de integración.",
           "redirectUri": "Utilice el URI de redirección de su integración (p. ej., https://yourapp.com/oauth/callback)",
-          "selectedUser": "El usuario seleccionado será el creador y el modificador de los registros para fines de auditoría."
+          "selectedUser": "El usuario seleccionado será el creador y el modificador de los registros para fines de auditoría.",
+           "please":"Por favor",
+            "securely":"de forma segura",
+            "storeThe":"guarde el",
+            "thisIsThe":"Esta es la",
+            "only":"única",
+            "timeDisplayed":"vez que se mostrará",
+            "ifYouLose":"Si pierde el",
+            "youCanGenerateNew":"puede generar uno nuevo en cualquier momento",
+            "theCaps":"El",
+            "canBeViewed":"se puede ver en cualquier momento"
         }
       }
     },
@@ -27031,6 +27161,69 @@
               "singular": "Filtrar por",
               "plural": "",
               "setupEdit": true,
+              "setupVisible": false
+            },
+            "enable":{
+              "original": "Enable",
+              "singular": "Habilitar",
+              "plural": "Habilitar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "disable":{
+              "original": "Disable",
+              "singular": "Deshabilitar",
+              "plural": "Deshabilitar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "activate":{
+              "original": "Activate",
+              "singular": "Activar",
+              "plural": "Activar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "deactivate":{
+              "original": "Deactivate",
+              "singular": "Desactivar",
+              "plural": "Desactivar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "hide":{
+              "original": "Hide",
+              "singular": "Ocultar",
+              "plural": "Ocultar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "show":{
+              "original": "Show",
+              "singular": "Mostrar",
+              "plural": "Mostrar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "display":{
+              "original": "Display",
+              "singular": "Mostrar",
+              "plural": "Mostrar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "hidden":{
+              "original": "Hidden",
+              "singular": "Oculto",
+              "plural": "Oculto",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "regenerate":{
+              "original": "Regenerate",
+              "singular": "Regenerar",
+              "plural": "Regenerar",
+              "setupEdit": false,
               "setupVisible": false
             }
           },
