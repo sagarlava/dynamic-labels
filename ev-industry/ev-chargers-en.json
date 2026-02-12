@@ -67,8 +67,8 @@
             "setupEdit": true,
             "type": {
                 "original": "Type",
-                "singular": "SLA Tier",
-                "plural": "SLA Tier",
+                "singular": "Type",
+                "plural": "Types",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -81,22 +81,22 @@
             },
             "sector": {
                 "original": "Sector",
-                "singular": "Market Vertical",
-                "plural": "Market Vertical",
+                "singular": "Sector",
+                "plural": "Sectors",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "subSector": {
                 "original": "Sub-sector",
-                "singular": "Facility Classification",
-                "plural": "Facility Classification",
+                "singular": "Sub-sector",
+                "plural": "Sub-sectors",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "category": {
                 "original": "Category",
-                "singular": "Ownership Model",
-                "plural": "Ownership Model",
+                "singular": "Category",
+                "plural": "Categories",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -221,7 +221,7 @@
             },
             "customerReferenceId": {
                 "original": "Customer Reference Id",
-                "singular": "Master Service Agreement (MSA)",
+                "singular": "Reference Id",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -352,10 +352,10 @@
             "customerGeoFenceNotFound": "Site Host Geo Fence not found",
             "customerServiceZoneNotFound": "Site Host Service Zone not found",
             "customerCategoryTypeNotFound": "Site Host Category Type not found",
-            "customerTypeNotFound": "Site Host Model not found",
+            "customerTypeNotFound": "Site Host Type not found",
             "customerChannelNotFound": "Site Host Channel not found",
-            "customerSectorNotFound": "Site Host Market Vertical not found",
-            "customerSubSectorNotFound": "Site Host Facility not found",
+            "customerSectorNotFound": "Site Host Sector not found",
+            "customerSubSectorNotFound": "Site Host Sub-Sector not found",
             "customerIndustryNotFound": "Site Host Industry not found",
             "customerTableSetupNotFound": "Site Host Table Setup not found, please contact support",
             "customerContactNameLimitExceed": "Site Host Contact Name cannot be longer than 255 characters",
@@ -373,18 +373,18 @@
             "customerPurchaseHistoryProductWithProductExtIdNotFound": "Invalid Spare Part External Id",
             "customerPurchaseHistoryIdNotFound": "Id not found",
             "customerPurchaseHistoryWithIdNotFound": "Invalid Site Host Purchase History Id",
-            "customerSectorIdExists": "A new Site Host Market cannot already have an ID",
-            "customerSectorNameExists": "Site Host Market Name already exists",
-            "customerSectorSystemGenerated": "System generated Site Host Markets are not allowed to be deleted",
-            "customerSectorHasCustomerSubSector": "Site Host Facility Data exists in the system for the Site Host Market",
-            "customerSubSectorIdExists": "A new Site Host Facility cannot already have an ID",
-            "customerSubSectorNameExists": "Site Host Facility Name already exists",
+            "customerSectorIdExists": "A new Site Host Sector cannot already have an ID",
+            "customerSectorNameExists": "Site Host Sector Name already exists",
+            "customerSectorSystemGenerated": "System generated Site Host Sectors are not allowed to be deleted",
+            "customerSectorHasCustomerSubSector": "Site Host Sub-Sector Data exists in the system for the Site Host Sector",
+            "customerSubSectorIdExists": "A new Site Host Sub-Sector cannot already have an ID",
+            "customerSubSectorNameExists": "Site Host Sub-Sector Name already exists",
             "customerSubSectorSystemGenerated": "System generated Site Host Facilities are not allowed to be deleted",
-            "customerSubSectorHasCustomerSector": "Site Host Market Data exists in the system for the Site Host Facility",
+            "customerSubSectorHasCustomerSector": "Site Host Sector Data exists in the system for the Site Host Sub-Sector",
             "customerPriceBookNotFound": "Site Host Price Book not found",
             "customerPriceBookIdNotFound": "Site Host Price Book Id not found",
             "customerPriceBookUpdateFailed": "Failed to update price book of site host",
-            "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: Site Host is part of one or more work order templates"
+            "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: Site Host is part of one or more job order templates"
         },
         "tooltips": {
             "setupVisible": false,
@@ -416,7 +416,7 @@
             "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
             "deleteMessage": "By deleting this site host, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
             "selectGeofences": "Select Geofences",
-            "noJobOrder": "No Work Orders yet",
+            "noJobOrder": "No Job Orders yet",
             "nearestCustomers": "Nearest Site Hosts",
             "nearbyCustomers": "Nearby Site Hosts",
             "seeInMap": "See in map"
@@ -618,7 +618,7 @@
             "salesOrderNumberExidNotFound": "OrderNumber/ExternalId not found",
             "salesOrderIdNotFound": "Id not found",
             "salesOrderNoPermissionToView": "You do not have permission to view this record",
-            "salesOrderHasJobOrder": "Work Order Data exists in the system for the Sales order",
+            "salesOrderHasJobOrder": "Job Order Data exists in the system for the Sales order",
             "salesOrderHasDeliveryOrder": "Delivery Order Data exists in the system for the Sales order",
             "salesOrderHasCustomerPayment": "Site Host Payment Data exists in the system for the Sales order",
             "salesOrderHasCustomerPurchase": "Site Host Purchase Data exists in the system for the Sales order",
@@ -857,7 +857,7 @@
             },
             "code": {
                 "original": "Code",
-                "singular": "Asset Tag",
+                "singular": "Code",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -927,7 +927,7 @@
             },
             "description": {
                 "original": "Description",
-                "singular": "Access Protocols",
+                "singular": "Description",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -1700,7 +1700,7 @@
             "noAssetsFound": "No Equipments Found",
             "noScheduledMaintenance": "No Scheduled Maintenance",
             "noPriorMaintenance": "No Prior Maintenances",
-            "noUpcomingJobs": "No Upcoming Works",
+            "noUpcomingJobs": "No Upcoming Jobs",
             "previously": "Previously",
             "from": "From",
             "warrantyStartDate": "Warranty start date should not be greater than warranty end date",
@@ -1857,7 +1857,7 @@
             },
             "autoCreateJobOrder": {
                 "original": "Automatically Generate Job Order",
-                "singular": "Automatically Generate Work Order",
+                "singular": "Automatically Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1948,7 +1948,7 @@
             },
             "assetName": {
                 "original": "Asset Name",
-                "singular": "Asset Name",
+                "singular": "Equipment Name",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1962,7 +1962,7 @@
             },
             "generateJobOrder": {
                 "original": "Generate Job Order",
-                "singular": "Generate Work Order",
+                "singular": "Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1977,8 +1977,8 @@
             "maintenanceItemIdNotFound": "Id not found",
             "maintenanceItemNotFound": "Maintenance Item not found",
             "maintenanceItemInvalidStatus": "Only allowed statuses: COMPLETED/PENDING/OVER_DUE",
-            "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Work Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
-            "maintenanceItemHasJobOrder": "Work Order Data exists in the system for the Maintenance Item",
+            "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Job Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
+            "maintenanceItemHasJobOrder": "Job Order Data exists in the system for the Maintenance Item",
             "maintenanceItemUnableToDelete": "Only allowed to delete PENDING Maintenance Status",
             "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support",
             "maintainancePlanNotFound": "Maintenance Plan not found",
@@ -2000,13 +2000,13 @@
             "maintainancePlanSiteNotPartOfPlan": "Site is not part of the maintenance plan",
             "maintainancePlanInvalidAutoAddAssetCriteriaId": "Invalid auto add asset criteria ID",
             "maintainancePlanAssetPMInvalidId": "Invalid asset maintainance plan ID",
-            "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past work order generation date",
+            "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past Job Order generation date",
             "maintainancePlanSitePMInvalidId": "Invalid site maintainance plan ID",
             "maintainancePlanNoAssetNextCycleItemFound": "No next maintenance plan cycle item found for asset maintenance plan",
             "maintainancePlanNoSiteNextCycleItemFound": "No next maintenance plan cycle item found for site maintenance plan",
             "maintainancePlanCannotDeleteActivePlan": "Cannot delete an active maintenance plan",
             "maintainancePlanCannotDeleteReferencedPlan": "Cannot delete maintenance plan as it is referenced by other records",
-            "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Work Order linked to active Maintenance Plan cannot be deleted"
+            "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Job Order linked to active Maintenance Plan cannot be deleted"
         },
         "tooltips": {
             "setupVisible": false,
@@ -2107,7 +2107,7 @@
             },
             "generateJobOrder": {
                 "original": "Generate Job Order",
-                "singular": "Generate Work Order",
+                "singular": "Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2226,8 +2226,8 @@
             "setupEdit": false,
             "sec0": {
                 "original": "Maintenance Jobs",
-                "singular": "Maintenance Work",
-                "plural": "Maintenance Works",
+                "singular": "Maintenance Job",
+                "plural": "Maintenance Jobs",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -2880,7 +2880,7 @@
             },
             "autoCreateJobOrder": {
                 "original": "Automatically Generate Job Order",
-                "singular": "Automatically Generate Work Order",
+                "singular": "Automatically Generate Job Order",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -3062,8 +3062,8 @@
             },
             "sec15": {
                 "original": "Select the Checklist(s) you'd like to add to this Job Order",
-                "singular": "Select the Checklist(s) you'd like to add to this Work Order",
-                "plural": "Select the Checklist(s) you'd like to add to this Work Order",
+                "singular": "Select the Checklist(s) you'd like to add to this Job Order",
+                "plural": "Select the Checklist(s) you'd like to add to this Job Order",
                 "setupEdit": false,
                 "setupVisible": false
             }
@@ -3171,7 +3171,7 @@
             },
             "jobOrderType": {
                 "original": "Job Order Type",
-                "singular": "Work Order Type",
+                "singular": "Job Order Type",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3244,12 +3244,1179 @@
             "noQuestionsFound": "No Questions Found",
             "updateTheStatusOf": "Update the status of:",
             "updateStatus": "Update Status",
-            "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Works or Tasks will be triggered using this status",
-            "thisStatusWillTrigger": "This status will trigger any Work Orders and Tasks related to this checklist’s answers",
+            "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobsor Tasks will be triggered using this status",
+            "thisStatusWillTrigger": "This status will trigger any Job Orders and Tasks related to this checklist’s answers",
             "updateStatusTo": "Update status to",
             "noStatusToDisplay": "No Status to Display",
             "updateChecklistStatus": "Update Checklist Status",
             "updateAsset": "Update Equipment"
+        }
+    },
+     "consignment": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "label": {
+        "original": "Consignment",
+        "singular": "Consignment",
+        "plural": "Consignments",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sections": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "sec0": {
+            "original": "Pending Approvals",
+            "singular": "Pending Approval",
+            "plural": "Pending Approvals",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Consignment Details",
+            "singular": "Consignment Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "On-Behalf Approval",
+            "singular": "On-Behalf Approval",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "Acknowledge By",
+            "singular": "Acknowledge By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Consignment Item Details",
+            "singular": "Consignment Item Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec5": {
+            "original": "Details",
+            "singular": "Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec6": {
+            "original": "Consignment Item",
+            "singular": "Consignment Item",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec7": {
+            "original": "New Consignment Note",
+            "singular": "New Consignment Note",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec8": {
+            "original": "Consignment Details",
+            "singular": "Consignment Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec9": {
+            "original": "Destination",
+            "singular": "Destination",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec10": {
+            "original": "Review",
+            "singular": "Review",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec11": {
+            "original": "Consignment Summary",
+            "singular": "Consignment Summary",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec12": {
+            "original": "Requestor’s Manager Approval",
+            "singular": "Requestor’s Manager Approval",
+            "plural": "Requestor’s Manager Approval",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec13": {
+            "original": "Receiver Approval 1",
+            "singular": "Receiver Approval 1",
+            "plural": "Receiver Approval 1",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec14": {
+            "original": "Receiver Approval 2",
+            "singular": "Receiver Approval 2",
+            "plural": "Receiver Approval 2",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec15": {
+            "original": "Request Details",
+            "singular": "Request Details",
+            "plural": "Request Details",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec16": {
+            "original": "Transfer Details",
+            "singular": "Transfer Details",
+            "plural": "Transfer Details",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec17": {
+            "original": "Approver Details",
+            "singular": "Approver Details",
+            "plural": "Approver Details",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec18": {
+            "original": "Request Summary",
+            "singular": "Request Summary",
+            "plural": "Request Summary",
+            "setupEdit": true,
+            "setupVisible": true
+        }
+        },
+        "fields": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "purpose": {
+            "original": "Purpose",
+            "singular": "Purpose",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "company": {
+            "original": "Company",
+            "singular": "Company",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "stateRefNo": {
+            "original": "State Ref No:",
+            "singular": "State Ref No:",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "to": {
+            "original": "To",
+            "singular": "To",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "m4dbRefNo": {
+            "original": "M4DB Ref No:",
+            "singular": "M4DB Ref No:",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "other": {
+            "original": "Other",
+            "singular": "Other",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "date": {
+            "original": "Date",
+            "singular": "Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "attentionTo": {
+            "original": "Attention To",
+            "singular": "Attention To",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "toEmailAddress": {
+            "original": "To E-mail Address",
+            "singular": "To E-mail Address",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvedBy": {
+            "original": "Approved By",
+            "singular": "Approved By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvedDate": {
+            "original": "Approved Date",
+            "singular": "Approved Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "uploadSignedCopy": {
+            "original": "Upload Signed Copy",
+            "singular": "Upload Signed Copy",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "acknowledgedDate": {
+            "original": "Acknowledge Date",
+            "singular": "Acknowledge Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "comment": {
+            "original": "Comment",
+            "singular": "Comment",
+            "plural": "Comments",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "type": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "serialNumber": {
+            "original": "Serial Number",
+            "singular": "Serial Number",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "partNumber": {
+            "original": "Part Number",
+            "singular": "Part Number",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "otherItem": {
+            "original": "Other Item",
+            "singular": "Other Item",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "itemName": {
+            "original": "Item Name",
+            "singular": "Item Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "itemNo": {
+            "original": "Item No.",
+            "singular": "Item No.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "quantity": {
+            "original": "Quantity",
+            "singular": "Quantity",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "consignmentNo": {
+            "original": "Consignment No.",
+            "singular": "Consignment No.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "totalUnit": {
+            "original": "Total Units",
+            "singular": "Total Unit",
+            "plural": "Total Units",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "transferId": {
+            "original": "Transfer ID",
+            "singular": "Transfer ID",
+            "plural": "Transfer ID",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "note": {
+            "original": "Note",
+            "singular": "Note",
+            "plural": "Notes",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvalStatus": {
+            "original": "Approval Status",
+            "singular": "Approval Status",
+            "plural": "Approval Status",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "consignedDate": {
+            "original": "Consigned Date",
+            "singular": "Consigned Date",
+            "plural": "Consigned Date",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvedDateTime": {
+            "original": "Approved Date & Time",
+            "singular": "Approved Date & Time",
+            "plural": "Approved Date & Time",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "consignedBy": {
+            "original": "Consigned By",
+            "singular": "Consigned By",
+            "plural": "Consigned By",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approver": {
+            "original": "Approver",
+            "singular": "Approver",
+            "plural": "Approver",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "responseDateTime": {
+            "original": "Response Date & Time",
+            "singular": "Response Date & Time",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "requestNote": {
+            "original": "Request Note",
+            "singular": "Request Note",
+            "plural": "Request Notes",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "totalCount": {
+            "original": "Total Count",
+            "singular": "Total Count",
+            "plural": "Total Count",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "qtyToTransfer": {
+            "original": "Qty to Transfer",
+            "singular": "Qty to Transfer",
+            "plural": "Qty to Transfer",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "from": {
+            "original": "From",
+            "singular": "From",
+            "plural": "From",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "fromBin": {
+            "original": "From Bin",
+            "singular": "From Bin",
+            "plural": "From Bin",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "toBin": {
+            "original": "To Bin",
+            "singular": "To Bin",
+            "plural": "To Bin",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "consignmentNote": {
+            "original": "Consignment Note",
+            "singular": "Consignment Note",
+            "plural": "Consignment Note",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "item": {
+            "original": "Items",
+            "singular": "Item",
+            "plural": "Items",
+            "setupEdit": true,
+            "setupVisible": true
+        }
+        },
+        "tooltips": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "assetSerialNoLookup": {
+            "original": "Asset Serial No. Lookup",
+            "singular": "Equipment Serial No. Lookup",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "productPartNoLookup": {
+            "original": "Spare Part Part No. Lookup",
+            "singular": "Spare Part Part No. Lookup",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "includeChildAsset": {
+            "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+            "singular": "Includes child equipments of selected equipments in the transfer. Only child equipments in the same bin as their parent will be included",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        }
+        },
+        "validationFE": {
+        "qtyTransferExceedsQtyAvailable":"Quantity to transfer exceeds quantity available",
+        "atLeastOneAssetRequired":"At least one equipment is required to proceed",
+        "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
+        "atLeastOneItemRequired":"At least one item is required to proceed"
+        },
+        "validationBE": {
+        "consignmentIdNotFound": "Id not found",
+        "consignmentNotFound": "Consignment not found",
+        "consignmentEmailNotFound": "Consignment Email not found",
+        "consignmentNotApproved": "Consignment not approved",
+        "consignmentAttentionToUserNotFound": "Consignment Attention-to User not found",
+        "consignmentRequiredCreatedUser": "Created User required for submission/cancellation",
+        "consignmentStatusNotPending": "Only Pending Consignment can be acknowledged/rejected",
+        "consignmentRequiresAttentionToUser": "Attention-to User required to acknowledge/reject",
+        "consignmentIdExists": "A new consignmentNote cannot already have an ID",
+        "consignmentItemIdExists": "A new consignmentItem cannot already have an ID",
+        "consignmentItemTypeNotFound": "ConsignmentItem Type not found",
+        "consignmentItemIdNotFound": "Id not found",
+        "userGroupNotFoundOfFromBin": "UserGroup not found for zone of From Bin",
+        "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
+        "fromBinNotFound": "From Bin not found",
+        "toBinNotFound": "To Bin not found",
+        "noAssetsOrProductsFound": "No equipments or products found",
+        "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
+        "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending consignments",
+        "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending consignments"
+        },
+        "messages": {
+        "selectType": "Select Type",
+        "selectCompany": "Select Company",
+        "uploadCopyApproved":"Please upload a copy of Approved Consignment",
+        "approvedCannotDelete":"Consignment Note has been approved hence unable to delete",
+        "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete",
+        "whatWouldYouLikeSend":"What would you like to send?",
+        "specificAssets":"Specific Equipments",
+        "sendByType":"Send by Type",
+        "sendFromBin":"Send from Bin",
+        "sendAnyAvailable":"Send Any Available",
+        "chooseThisSerialNumber":"Choose this if you know the bin and equipment serial numbers.",
+        "selectSparePartFromBin":"Select specific spare parts from a known bin",
+        "defineCustomListOfItems":"Define a custom list of items to send",
+        "sendAssetByTypeQty":"Send equipments by type and quantity instead of serial numbers",
+        "sendSparePartAvailableFromBin":"Send spare parts from any available bin",
+        "selectBinSendingAssetFrom":"Select the bin you are sending equipments from",
+        "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
+        "selectItemsToBeSent":"Select the items to be sent",
+        "selectBinSendAssetTo":"Select the bin you would like to send the equipments to",
+        "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting",
+        "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
+        "selectBinSendingSparePartFrom":"Select the bin you are sending spare parts from",
+        "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
+        "selectBinSendSparePartsTo":"Select the bin you would like to send the spare parts to",
+        "selectBinConsignItemFrom":"Select the bin you are consigning items from",
+        "selectBinSendItemsTo":"Select the bin you would like to send the items to",
+        "hasCreatedConsignmentNote":"has created a Consignment Note",
+        "andIsWaitingApproval":"and is awaiting your approval",
+        "from":"from",
+        "hasApprovedConsignmentNote":"has Approved your Consignment Note",
+        "hasRejectedConsignmentNote":"has Rejected your Consignment Note",
+        "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
+        "has":"has",
+        "hasBeen":"has been",
+        "yourRequisitionNote":"your Consignment Note",
+        "youCanProceedToTransfer":"You can now proceed to transfer the selected items."
+        }
+    },
+    "requisition": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "label": {
+        "original": "Requisition",
+        "singular": "Requisition",
+        "plural": "Requisitions",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sections": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "sec0": {
+            "original": "Pending Approvals",
+            "singular": "Pending Approval",
+            "plural": "Pending Approvals",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Requisition Details",
+            "singular": "Requisition Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "On-Behalf Approval",
+            "singular": "On-Behalf Approval",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "Acknowledge By",
+            "singular": "Acknowledge By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Verified By",
+            "singular": "Verified By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec5": {
+            "original": "HOD Approved By",
+            "singular": "HOD Approved By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec6": {
+            "original": "Requisition Item Details",
+            "singular": "Requisition Item Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec7": {
+            "original": "Requisition Item",
+            "singular": "Requisition Item",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec8": {
+            "original": "Details",
+            "singular": "Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec9": {
+            "original": "Verification",
+            "singular": "Verification",
+            "plural": "Verification",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec10": {
+            "original": "New Requisition Note",
+            "singular": "New Requisition Note",
+            "plural": "New Requisition Note",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec11": {
+            "original": "Custom",
+            "singular": "Custom",
+            "plural": "Custom",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec12": {
+            "original": "Request Details",
+            "singular": "Request Details",
+            "plural": "Request Details",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec13": {
+            "original": "Destination",
+            "singular": "Destination",
+            "plural": "Destination",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec14": {
+            "original": "Review",
+            "singular": "Review",
+            "plural": "Review",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec15": {
+            "original": "Request Summary",
+            "singular": "Request Summary",
+            "plural": "Request Summary",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec16": {
+            "original": "Transfer Details",
+            "singular": "Transfer Details",
+            "plural": "Transfer Details",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec17": {
+            "original": "Approval Details",
+            "singular": "Approval Details",
+            "plural": "Approval Details",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec18": {
+            "original": "Requestor’s Manager Approval",
+            "singular": "Requestor’s Manager Approval",
+            "plural": "Requestor’s Manager Approval",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec19": {
+            "original": "Receiver Approval 1",
+            "singular": "Receiver Approval 1",
+            "plural": "Receiver Approval 1",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec20": {
+            "original": "Receiver Approval 2",
+            "singular": "Receiver Approval 2",
+            "plural": "Receiver Approval 2",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec21": {
+            "original": "All Requisitions",
+            "singular": "All Requisitions",
+            "plural": "All Requisitions",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec22": {
+            "original": "Pending My Approval",
+            "singular": "Pending My Approval",
+            "plural": "Pending My Approval",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec23": {
+            "original": "Edit Requisition Note",
+            "singular": "Edit Requisition Note",
+            "plural": "Edit Requisition Note",
+            "setupEdit": true,
+            "setupVisible": true
+        }
+        },
+        "fields": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "priority": {
+            "original": "Priority",
+            "singular": "Priority",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "company": {
+            "original": "Company",
+            "singular": "Company",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "stateRefNo": {
+            "original": "State Ref No:",
+            "singular": "State Ref No:",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "from": {
+            "original": "From",
+            "singular": "From",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "m4dbRefNo": {
+            "original": "M4DB Ref No:",
+            "singular": "M4DB Ref No:",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "requisitionFor": {
+            "original": "Requisition For",
+            "singular": "Requisition For",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "other": {
+            "original": "Other",
+            "singular": "Other",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "date": {
+            "original": "Date",
+            "singular": "Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvedBy": {
+            "original": "Approved By",
+            "singular": "Approved By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvedDate": {
+            "original": "Approved Date",
+            "singular": "Approved Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "uploadSignedCopy": {
+            "original": "Upload Signed Copy",
+            "singular": "Upload Signed Copy",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "acknowledgedDate": {
+            "original": "Acknowledge Date",
+            "singular": "Acknowledge Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "verifiedBy": {
+            "original": "Verified By",
+            "singular": "Verified By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "verificationStatus": {
+            "original": "Verification Status",
+            "singular": "Verification Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "verifiedDate": {
+            "original": "Verified Date",
+            "singular": "Verified Date",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "verifierComment": {
+            "original": "Verifier Comment",
+            "singular": "Verifier Comment",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "submitToHod": {
+            "original": "Submit to HOD",
+            "singular": "Submit to HOD",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "hodVerifiedBy": {
+            "original": "HOD Verified By",
+            "singular": "HOD Verified By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "hodApprovalStatus": {
+            "original": "HOD Approval Status",
+            "singular": "HOD Approval Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "hodComment": {
+            "original": "HOD Comment",
+            "singular": "HOD Comment",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "type": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "serialNumber": {
+            "original": "Serial Number",
+            "singular": "Serial Number",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "partNumber": {
+            "original": "Part Number",
+            "singular": "Part Number",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "otherItem": {
+            "original": "Other Item",
+            "singular": "Other Item",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "itemName": {
+            "original": "Item Name",
+            "singular": "Item Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "itemNo": {
+            "original": "Item No.",
+            "singular": "Item No.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "quantity": {
+            "original": "Quantity",
+            "singular": "Quantity",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "verificationComment": {
+            "original": "Verification Comment",
+            "singular": "Verification Comment",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "picToNotify": {
+            "original": "PIC To Notify",
+            "singular": "PIC To Notify",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "requisitionNo": {
+            "original": "Requisition No.",
+            "singular": "Requisition No.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "totalUnit": {
+            "original": "Total Units",
+            "singular": "Total Unit",
+            "plural": "Total Units",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "qtyToTransfer": {
+            "original": "Qty to Transfer",
+            "singular": "Qty to Transfer",
+            "plural": "Qty to Transfer",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvalStatus": {
+            "original": "Approval Status",
+            "singular": "Approval Status",
+            "plural": "Approval Status",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "requestDate": {
+            "original": "Request Date",
+            "singular": "Request Date",
+            "plural": "Request Date",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "approvedDateTime": {
+            "original": "Approved Date & Time",
+            "singular": "Approved Date & Time",
+            "plural": "Approved Date & Time",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "requestedBy": {
+            "original": "Requested By",
+            "singular": "Requested By",
+            "plural": "Requested By",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "note": {
+            "original": "Note",
+            "singular": "Note",
+            "plural": "Notes",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "transferId": {
+            "original": "Transfer ID",
+            "singular": "Transfer ID",
+            "plural": "Transfer ID",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "fromBin": {
+            "original": "From Bin",
+            "singular": "From Bin",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "toBin": {
+            "original": "To Bin",
+            "singular": "To Bin",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "approver": {
+            "original": "Approver",
+            "singular": "Approver",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "responseDateTime": {
+            "original": "Response Date & Time",
+            "singular": "Response Date & Time",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "remark": {
+            "original": "Remarks",
+            "singular": "Remark",
+            "plural": "Remarks",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "requestNote": {
+            "original": "Request Note",
+            "singular": "Request Note",
+            "plural": "Request Notes",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "totalCount": {
+            "original": "Total Count",
+            "singular": "Total Count",
+            "plural": "Total Count",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "item": {
+            "original": "Items",
+            "singular": "Item",
+            "plural": "Items",
+            "setupEdit": true,
+            "setupVisible": true
+        }
+        },
+        "tooltips": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "assetSerialNoLookup": {
+            "original": "Asset Serial No. Lookup",
+            "singular": "Equipment Serial No. Lookup",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "productPartNoLookup": {
+            "original": "Spare Part Part No. Lookup",
+            "singular": "Spare Part Part No. Lookup",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "includeChildAsset": {
+            "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+            "singular": "Includes child equipments of selected equipments in the transfer. Only child equipments in the same bin as their parent will be included",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        }
+        },
+        "validationFE": {
+        "atLeastOneAssetRequired":"At least one equipment is required to proceed",
+        "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
+        "atLeastOneItemRequired":"At least one item is required to proceed"
+        },
+        "validationBE": {
+        "requisitionIdNotFound": "Id not found",
+        "requisitionNotFound": "Requisition not found",
+        "requisitionStatusNotPending": "Only Pending Verification Requisition Notes can be verified/rejected",
+        "requisitionRequiredCreatedUser": "Created User required for verification/rejection",
+        "requisitionNotApproved": "Requisition not approved",
+        "requisitionCreatedUserSupervisorNotFound": "Supervisor required for Created user of Requisition",
+        "requisitionEmailNotFound": "Email not found",
+        "requisitionCreatedByUserNotFound": "Requisition Created By User Not found",
+        "requisitionVerifiedByUserNotFound": "Requisition Verified By User Not found",
+        "requisitionHODVerifiedByUserNotFound": "Requisition HOD Verified By User Not found",
+        "requisitionRequiredVerifiedUser": "Verified User required for verification/rejection",
+        "requisitionRequiredHODVerifiedUser": "HOD Verified User required for verification/rejection",
+        "requisitionVerifiedUserSupervisorNotFound": "Supervisor required for Verified user of Requisition",
+        "requisitionHODStatusNotPending": "Only Pending HOD Approval Requisition can be verified/rejected",
+        "requisitionNotSubmitToHOD": "Only Submit-to-HOD checked Requisition can be verified/rejected",
+        "requisitionIdExists": "A new requisitionNote cannot already have an ID",
+        "requisitionItemIdExists": "A new requisitionItem cannot already have an ID",
+        "requisitionItemTypeFound": "RequisitionItem type not found",
+        "requisitionItemIdNotFound": "Id not found",
+        "userGroupNotFoundOfFromBin": "UserGroup not found for zone of From Bin",
+        "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
+        "fromBinNotFound": "From Bin not found",
+        "toBinNotFound": "To Bin not found",
+        "noAssetsOrProductsFound": "No equipments or products found",
+        "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
+        "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending requisitions",
+        "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending requisitions"
+        },
+        "messages": {
+        "selectPriority": "Select Priority",
+        "selectType": "Select Type",
+        "selectCompany": "Select Company",
+        "selectUser": "Select User",
+        "uploadCopyApproved":"Please upload a copy of Approved Requisition",
+        "requisitionAcceptedSuccessfully": "Requisition accepted successfully",
+        "requisitionRejectedSuccessfully": "Requisition rejected successfully",
+        "requisitionSubmittedSuccessfully": "Requisition submitted successfully",
+        "whatWouldYouLikeRequest":"What would you like to request?",
+        "defineCustomListOfItems":"Define a custom list of items to request",
+        "specificAssets":"Specific Equipments",
+        "requestByType":"Request by Type",
+        "requestFromBin":"Request from Bin",
+        "requestAnyAvailable":"Request Any Available",
+        "chooseThisSerialNumber":"Choose this if you know the bin and equipment serial numbers.",
+        "requestAssetByTypeQty":"Request equipments by type and quantity instead of serial numbers",
+        "selectSparePartFromBin":"Select specific spare parts from a known bin",
+        "requestSparePartFromBin":"Request spare parts from any available bin",
+        "selectBinRequestAssetFrom":"Select the bin you are requesting equipments from",
+        "unsureOfAssetLocation":"Not sure of equipment locations?",
+        "notSureBinAvailableAsset":"Not sure which bin the equipments are available in?",
+        "selectItemsRequested":"Select the items to be requested",
+        "selectBinToTransferAssetTo":"Select the bin you would like to transfer the equipments to",
+        "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
+        "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
+        "selectBinRequestSparePartFrom":"Select the bin you are requesting spare parts from",
+        "unsureOfSparePartAvailability":"Not sure of spare part availability?",
+        "notSureBinAvailableSpareParts":"Not sure which bin the spare parts are available in?",
+        "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
+        "selectBinToTransferSparePartTo":"Select the bin you would like to transfer the spare parts to",
+        "unsureItemsRequestStored":"If you're unsure where the items you are requesting are stored, select a bin managed by a team that can locate and fulfill your request",
+        "selectBinRequestFrom":"Select the bin you are requesting items from",
+        "selectBinToTransferTo":"Select the bin you would like to transfer the items to",
+        "hasRejectedRequisitionNote":"has Rejected your Requisition Note",
+        "hasApprovedRequisitionNote":"has Approved your Requisition Note",
+        "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
+        "has":"has",
+        "hasBeen":"has been",
+        "yourRequisitionNote":"your Requisition Note",
+        "youCanProceedToTransfer":"You can now proceed to transfer the selected items.",
+        "hasCreatedRequisitionNote":"has created a Requisition Note",
+        "andIsWaitingApproval":"and is awaiting your approval",
+        "from":"from",
+        "selectAssetToRequest":"Select the equipments to be requested",
+        "selectSparePartToRequest":"Select the spare parts to be requested",
+        "selectItemsToRequest":"Select the items to be requested",
+        "includeChildAsset":"Include Child Equipment",
+        "selectAssetWishToTransfer":"Select the equipments you wish to transfer",
+        "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
+        "selectItemsWishToTransfer":"Select the items you wish to transfer",
+        "filteredBySparePart":"Filtered by spare parts in selected from bin",
+        "filteredByAsset":"Filtered by equipment in selected from bin",
+        "areYouSureCancelRequisitionNote":"Are you sure you want to cancel this requisition note?"
         }
     },
     "product": {
@@ -3323,7 +4490,7 @@
             },
             "sec8": {
                 "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
-                "singular": "Add a spare part and quantity to be created under Work Orders generated from this template",
+                "singular": "Add a spare part and quantity to be created under Job Orders generated from this template",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3355,14 +4522,14 @@
             },
             "type": {
                 "original": "Type",
-                "singular": "Logistics Class",
+                "singular": "Type",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "productFamily": {
                 "original": "Spare Part Family",
-                "singular": "Commodity Group",
+                "singular": "Spare Part Family",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -3561,14 +4728,14 @@
         "validationBE": {
             "productNotFound": "Spare Part not found",
             "productIdNotFound": "Id not found",
-            "productHasJobOrderOrSalesOrder": "Work Order/Sales Order Data exists in the system for the Spare Part",
+            "productHasJobOrderOrSalesOrder": "Job Order/Sales Order Data exists in the system for the Spare Part",
             "productHasCustomerServiceReportItem": "Customer Service Report Item Data exists in the system for the Spare Part",
             "productHasInventoryItem": "Inventory Item Data exists in the system for the Spare Part",
             "productHasConsignmentItem": "Consignment Item Data exists in the system for the Spare Part",
             "productHasRequisitionItem": "Requisition Item Data exists in the system for the Spare Part",
             "productTableSetupNotFound": "Spare Part Table Setup not found, please contact support",
             "productWithExtIdNotFound": "Invalid ExternalId",
-            "productFamilyNotFound": "Spare Part Family not found",
+            "productFamilyNotFound": "Family not found",
             "productTypeNotFound": "Spare Part Type not found",
             "productMeasureUnitNotFound": "Spare Part Measure Unit not found",
             "productIdExists": "A new Spare Part cannot already have an ID",
@@ -3586,10 +4753,10 @@
             }
         },
         "messages": {
-            "productFamilyRemoved": "Spare Part family removed successfully",
-            "deleteProductFamily": "Delete Spare Part Family",
+            "productFamilyRemoved": "Family removed successfully",
+            "deleteProductFamily": "Delete Family",
             "deleteProductType": "Delete Spare Part Type",
-            "newProductFamily": "New Spare Part Family",
+            "newProductFamily": "New Family",
             "newProductType": "New Spare Part Type",
             "subTotal": "Sub Total",
             "totalAmount": "Total Amount",
@@ -3602,8 +4769,8 @@
         "setupEdit": true,
         "label": {
             "original": "Job Order",
-            "singular": "Work Order",
-            "plural": "Work Orders",
+            "singular": "Job Order",
+            "plural": "Job Orders",
             "setupEdit": true,
             "setupVisible": true
         },
@@ -3745,8 +4912,8 @@
             },
             "sec19": {
                 "original": "Job Details",
-                "singular": "Work Details",
-                "plural": "Work Details",
+                "singular": "Job Details",
+                "plural": "Job Details",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -3892,8 +5059,8 @@
             },
             "sec40": {
                 "original": "Job Order Details",
-                "singular": "Work Order Details",
-                "plural": "Work Order Details",
+                "singular": "Job Order Details",
+                "plural": "Job Order Details",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -4379,7 +5546,7 @@
             },
             "createTaskThisJo": {
                 "original": "Create a Task for this Job Order",
-                "singular": "Create a Task for this Work Order",
+                "singular": "Create a Task for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4750,63 +5917,63 @@
             },
             "joContact": {
                 "original": "Job Order Contact",
-                "singular": "Work Order Contact",
+                "singular": "Job Order Contact",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "joOwner": {
                 "original": "Job Order Owner",
-                "singular": "Work Order Owner",
+                "singular": "Job Order Owner",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobNumber": {
                 "original": "Job No.",
-                "singular": "Work No.",
+                "singular": "Job No.",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobOrderCompletionForm": {
                 "original": "Job Order Completion Form",
-                "singular": "Work Order Completion Form",
+                "singular": "Job Order Completion Form",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobOrderId": {
                 "original": "Job Order ID",
-                "singular": "Work Order ID",
+                "singular": "Job Order ID",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobOrderNo": {
                 "original": "Job Order No",
-                "singular": "Work Order No",
+                "singular": "Job Order No",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobStatus": {
                 "original": "Job Status",
-                "singular": "Work Status",
+                "singular": "Job Status",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobStatusRemark": {
                 "original": "Job Status Remark",
-                "singular": "Work Status Remark",
+                "singular": "Job Status Remark",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobSummary": {
                 "original": "Job Summary",
-                "singular": "Work Summary",
+                "singular": "Job Summary",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5100,7 +6267,7 @@
             },
             "referenceJobOrder": {
                 "original": "Reference Job Order",
-                "singular": "Reference Work Order",
+                "singular": "Reference Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5233,7 +6400,7 @@
             },
             "selectToSendCalendlyLink": {
                 "original": "Send a link to your customer to book their slot for this Job Order",
-                "singular": "Send a link to your site host to book their slot for this Work Order",
+                "singular": "Send a link to your site host to book their slot for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5268,7 +6435,7 @@
             },
             "sendSurveyToCustJo": {
                 "original": "Send a survey link to your customer for this Job Order",
-                "singular": "Send a survey link to your site host for this Work Order",
+                "singular": "Send a survey link to your site host for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5436,7 +6603,7 @@
             },
             "createTaskForThisJo": {
                 "original": "Create task for this Job Order",
-                "singular": "Create task for this Work Order",
+                "singular": "Create task for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5597,7 +6764,7 @@
             },
             "updateJoTimeDate": {
                 "original": "Update this Job Orders's Time & Date",
-                "singular": "Update this Work Orders's Time & Date",
+                "singular": "Update this Job Orders's Time & Date",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5646,7 +6813,7 @@
             },
             "whatHappenCustBooking": {
                 "original": "What should happen when the customer makes an appointment for this Job Order?",
-                "singular": "What should happen when the site host makes an appointment for this Work Order?",
+                "singular": "What should happen when the site host makes an appointment for this Job Order?",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6157,7 +7324,7 @@
             },
             "joNumber": {
                 "original": "Job Order No.",
-                "singular": "Work Order No.",
+                "singular": "Job Order No.",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6171,8 +7338,8 @@
             },
             "orderOwner": {
                 "original": "Order Owner",
-                "singular": "Scheduler",
-                "plural": "Scheduler",
+                "singular": "Order Owner",
+                "plural": "Order Owner",
                 "setupVisible": true,
                 "setupEdit": true
             },
@@ -6185,21 +7352,21 @@
             },
             "system": {
                 "original": "System",
-                "singular": "Affected Subsystem",
-                "plural": "Affected Subsystem",
+                "singular": "System",
+                "plural": "System",
                 "setupVisible": true,
                 "setupEdit": true
             },
             "fault": {
                 "original": "Fault",
-                "singular": "Failure Code",
-                "plural": "Failure Code",
+                "singular": "Fault",
+                "plural": "Fault",
                 "setupVisible": true,
                 "setupEdit": true
             },
             "faultDetails": {
                 "original": "Fault Details",
-                "singular": "Diagnosis",
+                "singular": "Fault Details",
                 "plural": "",
                 "setupVisible": true,
                 "setupEdit": true
@@ -6255,7 +7422,7 @@
             },
             "extId": {
                 "original": "External ID",
-                "singular": "CPMS Ticket ID",
+                "singular": "External ID",
                 "plural": "",
                 "setupVisible": true,
                 "setupEdit": true
@@ -6337,27 +7504,27 @@
             "onDemand": "On Demand",
             "selectAProduct": "Select a Spare Part",
             "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
-            "noContactFoundForThisJobOrder": "No contact found for this Work Order",
-            "noContactFoundForTheJobOrdersCustomer": "No contact found for the Work Order's Site Host"
+            "noContactFoundForThisJobOrder": "No contact found for this Job Order",
+            "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Site Host"
         },
         "validationBE": {
             "jobOrderStatusNotFound": "Status Not Found",
-            "jobOrderNotFound": "Work Order Not Found",
+            "jobOrderNotFound": "Job Order Not Found",
             "jobOrderIdExists": "A new WorkOrder cannot already have an ID",
             "jobOrderExidNotFound": "External Id Not Found",
             "jobOrderIdNotFound": "Id Not Found",
             "jobOrderSfExidNotFound": "Sf External Id Not Found",
-            "jobOrderBiDirectionalLinkFound": "Work Orders cannot be linked bidirectionally",
-            "jobOrderHasTask": "Task Data exists in the system for the Work order",
-            "jobOrderTableSetupNotFound": "Work order Table Setup not found, please contact support",
+            "jobOrderBiDirectionalLinkFound": "Job Orders cannot be linked bidirectionally",
+            "jobOrderHasTask": "Task Data exists in the system for the Job Order",
+            "jobOrderTableSetupNotFound": "Job Order Table Setup not found, please contact support",
             "jobOrderCustomerNotFound": "Site Host Not Found",
             "jobOrderSalesOrderNotFound": "Sales Order Not Found",
             "jobOrderOwnerNotFound": "Order owner Not Found",
             "jobOrderCustomerPurchaseHistoryNotFound": "Site Host Purchase History owner Not Found",
-            "jobOrderTypeNotFound": "Work Order Type Not Found",
-            "jobOrderFaultTypeNotFound": "Work Order Fault Type Not Found",
+            "jobOrderTypeNotFound": "Job Order Type Not Found",
+            "jobOrderFaultTypeNotFound": "Job Order Fault Type Not Found",
             "jobOrderServiceZoneNotFound": "Service Zone Not Found",
-            "jobOrderUncompletedNotFound": "Uncompleted Work Order Not Found",
+            "jobOrderUncompletedNotFound": "Uncompleted Job Order Not Found",
             "jobOrderAssetNotFound": "Equipment Not Found",
             "jobOrderFaultNotFound": "Fault Not Found",
             "jobOrderResolutionNotFound": "Resolution Not Found",
@@ -6371,32 +7538,32 @@
             "jobOrderCustomerSurveyNotFound": "Customer Survey Not Found",
             "jobOrderCustomerSurveyIdNotFound": "Customer Survey Id Not Found",
             "jobOrderCustomerSurveyToEmailsNotFound": "Customer Survey To Emails Not Found",
-            "jobOrderAuditEventHistoryIdExists": "A new Work Order Audit Event History cannot already have an ID",
-            "jobOrderCalendlyIdExists": "A new Work Order Calendly cannot already have an ID",
+            "jobOrderAuditEventHistoryIdExists": "A new Job Order Audit Event History cannot already have an ID",
+            "jobOrderCalendlyIdExists": "A new Job Order Calendly cannot already have an ID",
             "jobOrderCalendlyToEmailNotFound": "To-Email not found",
             "jobOrderCalendlyIdNotFound": "Id not found",
             "jobOrderCalendlyFromUserNotFound": "From-User not found",
-            "jobOrderCalendlyJobOrderNotFound": "Work Order not found",
-            "jobOrderCalendlyWithJobOrderIdNotFound": "Invalid Work Order Id",
-            "jobOrderChecklistIdExists": "A new Work Order Checklist cannot already have an ID",
+            "jobOrderCalendlyJobOrderNotFound": "Job Order not found",
+            "jobOrderCalendlyWithJobOrderIdNotFound": "Invalid Job Order Id",
+            "jobOrderChecklistIdExists": "A new Job Order Checklist cannot already have an ID",
             "jobOrderChecklistAttachmentNotFound": "Invalid attachment",
-            "jobOrderChecklistJobOrderNotFound": "Work Order Checklist referenced Work Order not found",
+            "jobOrderChecklistJobOrderNotFound": "Job Order Checklist referenced Job Order not found",
             "jobOrderChecklistIdEmailNotFound": "Id/ Email not found",
             "jobOrderChecklistPDFGenerationError": "Error in PDF generation",
-            "jobOrderChecklistSectionItemIdExists": "A new Work Order Checklist Section Item cannot already have an ID",
+            "jobOrderChecklistSectionItemIdExists": "A new Job Order Checklist Section Item cannot already have an ID",
             "jobOrderChecklistSectionItemIdNotFound": "Id not found",
-            "jobOrderChecklistSectionIdExists": "A new Work Order Checklist Section cannot already have an ID",
+            "jobOrderChecklistSectionIdExists": "A new Job Order Checklist Section cannot already have an ID",
             "jobOrderChecklistSectionIdNotFound": "Id not found",
-            "jobOrderCompletionRecordIdExists": "A new Work Order Completion Record cannot already have an ID",
+            "jobOrderCompletionRecordIdExists": "A new Job Order Completion Record cannot already have an ID",
             "jobOrderCompletionRecordIdNotFound": "Id not found",
-            "jobOrderFaultTypeIdExists": "A new Work Order Fault Type cannot already have an ID",
+            "jobOrderFaultTypeIdExists": "A new Job Order Fault Type cannot already have an ID",
             "jobOrderFaultTypeIdNotFound": "Id not found",
-            "jobOrderProductIdExists": "A new Work Order Spare Part cannot already have an ID",
+            "jobOrderProductIdExists": "A new Job Order Spare Part cannot already have an ID",
             "jobOrderProductIdNotFound": "Id not found",
-            "jobOrderProductNotFound": "Work Order Spare Part not found",
-            "jobOrderProductStatusIdExists": "A new Work Order Spare Part Status cannot already have an ID",
+            "jobOrderProductNotFound": "Job Order Spare Part not found",
+            "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
             "jobOrderProductStatusIdNotFound": "Id not found",
-            "slaJobOrderIdExists": "A new Sla Work Order cannot already have an ID",
+            "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
             "jobOrderPriceBookNotFound": "Price Book not found"
         },
         "tooltips": {
@@ -6404,7 +7571,7 @@
             "setupEdit": false,
             "jobOrderLookup": {
                 "original": "Job Order Lookup",
-                "singular": "Work Order Lookup",
+                "singular": "Job Order Lookup",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6418,7 +7585,7 @@
             },
             "refJobOrderLookup": {
                 "original": "Reference Job Order Lookup",
-                "singular": "Reference Work Order Lookup",
+                "singular": "Reference Job Order Lookup",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6433,11 +7600,11 @@
         },
         "messages": {
             "systemTestPassed": "System tested with CMS in good working condition",
-            "newTaskForSelectedDateTime": "A new task will be created under this Work Order for the selected date and time",
-            "noJobOrderCustomerContact": "No contact found for the Work Order's Site Host",
-            "noJobOrderContact": "No contact found for the Work Order",
+            "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
+            "noJobOrderCustomerContact": "No contact found for the Job Order's Site Host",
+            "noJobOrderContact": "No contact found for the Job Order",
             "noSlaStepDefined": "No SLA step yet",
-            "createJobOrder": "Create Work Order",
+            "createJobOrder": "Create Job Order",
             "linkCopied": "Link Copied",
             "beforeViolation": "before Violation",
             "afterViolation": "after Violation",
@@ -6449,12 +7616,12 @@
             "paused": "Paused",
             "violated": "Violated",
             "completedWithin": "Completed within",
-            "viewCompletionPdf": "View Work Order Completion form in PDF",
+            "viewCompletionPdf": "View Job Order Completion form in PDF",
             "days": "day(s)",
             "hours": "hour(s)",
             "mins": "min(s)",
             "startSLA": "Start SLA",
-            "removeSparePartsLinkedTask": "Do you want to remove all spare parts linked to this task from the Work Order?",
+            "removeSparePartsLinkedTask": "Do you want to remove all spare parts linked to this task from the Job Order?",
             "listOfTask": "List of Task(s)",
             "listOfSparePart": "List of Spare Part(s)",
             "changeStatusTo": "Change status to",
@@ -7019,7 +8186,7 @@
             "selectBin": "Select Bin",
             "confirmAcceptance": "Confirm Acceptance",
             "confirmRejection": "Confirm Rejection",
-            "enterJobOrderNumber": "Enter Work Order Number",
+            "enterJobOrderNumber": "Enter Job Order Number",
             "reasonOptional": "Reason (Optional)",
             "declineTransfer": "Are you sure you want to decline this transfer?",
             "acceptTransfer": "Are you sure you want to accept this transfer?",
@@ -7032,7 +8199,7 @@
             "pleaseSelectFromBinTransfer": "Please select from  bin transfer.",
             "pleaseSelectFromTransfer": "Please select from transfer",
             "pleaseSelectBinTransferType": "Please select to  bin transfer type",
-            "pleaseSelectToTransJoType": "Please select to transfer work order type",
+            "pleaseSelectToTransJoType": "Please select to transfer Job Order type",
             "pleaseSelectToTransfer": "Please select to transfer.",
             "pleaseSelectAtLeastOneTransItem": "Please select at least one transfer item.",
             "binTransfer": "Bin Transfer",
@@ -7040,7 +8207,7 @@
             "binTransferSavedSuccessfully": "Bin Transfer saved successfully",
             "assetsTransferred": "Equipment(s) transferred",
             "productsTransferred": "Spare Part(s) transferred",
-            "assetsAreNotAllowedToTransfer": "Equipments are not allowed to transfer to Work order",
+            "assetsAreNotAllowedToTransfer": "Equipments are not allowed to transfer to Job Order",
             "selectAssetsToTransfer": "Select the equipments you want to transfer",
             "selectBinToTransferAssets": "Select the bin you want to transfer the equipments to",
             "confirmAssetToTransfer": "Confirm the equipment you want to transfer",
@@ -8157,7 +9324,7 @@
             },
             "generateJobOrder": {
                 "original": "Generate Job Order",
-                "singular": "Generate Work Order",
+                "singular": "Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -8384,7 +9551,7 @@
             "taskStockCheckRunningNoValidation": "Invalid Stock Check runningNo",
             "taskAssignedByUserValidation": "Invalid assigned by user",
             "taskProductExidValidation": "Invalid Spare Part externalId",
-            "taskJobOrderExidValidation": "Invalid Work Order externalId",
+            "taskJobOrderExidValidation": "Invalid Job Order externalId",
             "taskSiteExidValidation": "Invalid Station externalId",
             "taskProjectExidValidation": "Invalid deployment externalId",
             "taskAssignedToLiteUserLoginValidation": "Invalid assigned to lite user login",
@@ -8438,7 +9605,7 @@
             },
             "skillsUsedToFind": {
                 "original": "Skills are used to find the best staff for the job when using Smart Assign",
-                "singular": "Skills are used to find the best staff for the Work when using Smart Assign",
+                "singular": "Skills are used to find the best staff for the job when using Smart Assign",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -8614,7 +9781,7 @@
             "areYouSureWantToRemoveMember": "Are you sure you want to remove the member?",
             "changeOwner": "Change Owner",
             "areYouSureWantToMakeOwner": "Are you sure you want to change the owner?",
-            "generateJobOrderForThisTask": " A Work order will be generated for this task",
+            "generateJobOrderForThisTask": " A Job Order will be generated for this task",
             "selectDateRange": "Please select a date range"
         }
     },
@@ -8693,28 +9860,28 @@
             },
             "type": {
                 "original": "Type",
-                "singular": "Electrical Topology",
+                "singular": "Type",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "referenceNo": {
                 "original": "Reference No.",
-                "singular": "Meter ID",
+                "singular": "Reference No.",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "area": {
                 "original": "Area",
-                "singular": "DNO",
+                "singular": "Area",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "category": {
                 "original": "Category",
-                "singular": "Site Classification",
+                "singular": "Category",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -8728,7 +9895,7 @@
             },
             "subCategory": {
                 "original": "Sub Category",
-                "singular": "Physical Environment",
+                "singular": "Sub Category",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -8803,17 +9970,17 @@
             "siteWithExtIdNotFound": "Invalid ExternalId",
             "siteNotFound": "Station not found",
             "siteTableSetupNotFound": "Station Table Setup not found, please contact support",
-            "siteHasJobOrder": "Work Order Data exists in the system for the Station",
+            "siteHasJobOrder": "Job Order Data exists in the system for the Station",
             "siteHasAssets": "Equipments Data exists in the system for the Station",
             "siteHasContact": "Contact Data exists in the system for the Station",
             "siteHasTicket": "Ticket Data exists in the system for the Station",
             "siteHasTask": "Task Data exists in the system for the Station",
-            "siteHasJobOrderTemplate": "Work Order Template Data exists in the system for the Station",
+            "siteHasJobOrderTemplate": "Job Order Template Data exists in the system for the Station",
             "siteHasTaskTemplate": "Task Template Data exists in the system for the Station",
             "siteCustomerNotFound": "Station Host not found",
-            "siteTypeNotFound": "Station Electrical Topology not found",
+            "siteTypeNotFound": "Station Type not found",
             "siteCategoryNotFound": "Station Classification not found",
-            "siteSubCategoryNotFound": "Station Physical Environment not found",
+            "siteSubCategoryNotFound": "Station Sub Category not found",
             "siteAreaNotFound": "Station Area not found",
             "siteGeoFenceNotFound": "Station GeoFence not found",
             "siteServiceZoneNotFound": "Station Service Zone not found",
@@ -8832,12 +9999,12 @@
             "siteStatusIdExists": "A new Station Status cannot already have an ID",
             "siteStatusExists": "Station Status already exist",
             "siteStatusSystemGenerated": "System generated Station Status are not allowed to be deleted",
-            "siteSubCategoryExists": "Station Physical Environment already exist",
-            "siteSubCategorySystemGenerated": "System generated Station Physical Environment are not allowed to be deleted",
-            "siteSubCategoryIdExists": "A new Station Physical Environment cannot already have an ID",
-            "siteTypeExists": "Station Electrical Topology already exist",
-            "siteTypeSystemGenerated": "System generated Station Electrical Topology are not allowed to be deleted",
-            "siteTypeIdExists": "A new Station Electrical Topology cannot already have an ID"
+            "siteSubCategoryExists": "Station Sub Category already exist",
+            "siteSubCategorySystemGenerated": "System generated Station Sub Category are not allowed to be deleted",
+            "siteSubCategoryIdExists": "A new Station Sub Category cannot already have an ID",
+            "siteTypeExists": "Station Type already exist",
+            "siteTypeSystemGenerated": "System generated Station Type are not allowed to be deleted",
+            "siteTypeIdExists": "A new Station Type cannot already have an ID"
         },
         "tooltips": {
             "setupVisible": false,
@@ -8916,14 +10083,14 @@
             "setupVisible": true,
             "category": {
                 "original": "Category",
-                "singular": "Construction Scope",
-                "plural": "Construction Scope",
+                "singular": "Category",
+                "plural": "Category",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "description": {
                 "original": "Description",
-                "singular": "Scope of Work",
+                "singular": "Description",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -8937,7 +10104,7 @@
             },
             "extId": {
                 "original": "External ID",
-                "singular": "Permit Number",
+                "singular": "External ID",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9000,7 +10167,7 @@
             },
             "referenceNo": {
                 "original": "Reference No.",
-                "singular": "Utility Job Number",
+                "singular": "Reference No.",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9014,15 +10181,15 @@
             },
             "source": {
                 "original": "Source",
-                "singular": "Funding Program",
+                "singular": "Source",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "type": {
                 "original": "Type",
-                "singular": "Deployment Class",
-                "plural": "Deployment Classes",
+                "singular": "Type",
+                "plural": "Type",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -9035,7 +10202,7 @@
             },
             "paymentTerm": {
                 "original": "Payment Term",
-                "singular": "Milestone Schedule",
+                "singular": "Payment Term",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9059,15 +10226,15 @@
             "projectWithSFExtIdNotFound": "Invalid SF ExternalId",
             "projectGeoFenceNotFound": "Deployment GeoFence not found",
             "projectServiceZoneNotFound": "Deployment Service Zone not found",
-            "projectCategoryNotFound": "Deployment Scope not found",
+            "projectCategoryNotFound": "Deployment Category not found",
             "projectStatusNotFound": "Deployment Status not found",
             "projectCustomerNotFound": "Deployment Site Host not found",
-            "projectTypeNotFound": "Deployment Class not found",
+            "projectTypeNotFound": "Deployment Type not found",
             "projectIdExists": "A new deployment cannot already have an ID",
             "projectExtidNotFound": "Deployment ExternalId not found",
             "projectCannotDeleteBySites": "Unable to delete, Deployment is used in one or more Stations",
-            "projectCannotDeleteByJobOrders": "Unable to delete, Deployment is used in one or more Work Order",
-            "projectCannotDeleteByJobOrderTemplates": "Unable to delete, Deployment is used in one or more work order templates",
+            "projectCannotDeleteByJobOrders": "Unable to delete, Deployment is used in one or more Job Order",
+            "projectCannotDeleteByJobOrderTemplates": "Unable to delete, Deployment is used in one or more job order templates",
             "projectCannotDeleteByTaskTemplates": "Unable to delete, Deployment is used in one or more task templates",
             "projectHasContact": "Unable to delete, Deployment is used in one or more Contact",
             "projectHasTicket": "Unable to delete, Deployment is used in one or more Ticket"
@@ -9171,7 +10338,7 @@
             },
             "sec10": {
                 "original": "Latest Escalated Job Order",
-                "singular": "Latest Escalated Work Order",
+                "singular": "Latest Escalated Job Order",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10053,21 +11220,21 @@
                     },
                     "sec4": {
                         "original": "Job Order Statuses",
-                        "singular": "Work Order Statuses",
+                        "singular": "Job Order Statuses",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "sec5": {
                         "original": "Not allowed to update Job Order status to",
-                        "singular": "Not allowed to update Work Order status to",
+                        "singular": "Not allowed to update Job Order status to",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "sec6": {
                         "original": "Allowed to update Job Order status to",
-                        "singular": "Allowed to update Work Order status to",
+                        "singular": "Allowed to update Job Order status to",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -10130,7 +11297,7 @@
                     },
                     "sec15": {
                         "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
-                        "singular": "Add the statuses that are available to this access profile in the Work Order. Items in the right-side box will be visible in the Work order status picklist for this access profile",
+                        "singular": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job Order status picklist for this access profile",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -10210,7 +11377,7 @@
                     },
                     "jobOrderStatus": {
                         "original": "Job Order Status",
-                        "singular": "Work Order Status",
+                        "singular": "Job Order Status",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -10493,7 +11660,7 @@
                     },
                     "usersIntegrateCalendly": {
                         "original": "Users will be able to integrate to Calendly for Job scheduling",
-                        "singular": "Users will be able to integrate to Calendly for Work scheduling",
+                        "singular": "Users will be able to integrate to Calendly for Job scheduling",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -10554,7 +11721,7 @@
                     "goTo": "Go to",
                     "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
                     "selectAtLeaseOneModule": "Select at least one Module Access checkbox",
-                    "enableOneJobOrder": "Please enable at least one work order status for profiles with create access",
+                    "enableOneJobOrder": "Please enable at least one job order status for profiles with create access",
                     "viewOnlyAccess": "View Only Access",
                     "profileCloned": "Profile cloned successfully",
                     "selectAccessPermission": "Please select an Access Permissions",
@@ -11390,7 +12557,7 @@
                     },
                     "connectToCalendly": {
                         "original": "Connect your Calendly account to your FieldEx calendar for job scheduling",
-                        "singular": "Connect your Calendly account to your FieldEx calendar for Work scheduling",
+                        "singular": "Connect your Calendly account to your FieldEx calendar for Job scheduling",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -12035,7 +13202,7 @@
                     "selectWhereLikeNotificationNavigate": "Pick where the notification should link to.",
                     "textWithinCurly": "Note: The text within the curly braces ({{}}) will be replaced by the actual field values when the notification is sent",
                     "selectEmailTemplate": "Choose the email template you want to use for this notification.",
-                    "defineEmailRecipients": "Choose who will receive this email by selecting system users, specific email addresses, or contacts from fields (e.g. a work order's contact email)",
+                    "defineEmailRecipients": "Choose who will receive this email by selecting system users, specific email addresses, or contacts from fields (e.g. a job order's contact email)",
                     "defineAppRecipients": "Choose who will receive this email by selecting system users or groups",
                     "makeKeyDataBold": "Make key data bold",
                     "createEmailTemplate": "Create an Email Template",
@@ -12239,7 +13406,7 @@
                     },
                     "jobOrderType": {
                         "original": "Job Order Type",
-                        "singular": "Work Order Type",
+                        "singular": "Job Order Type",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -12654,15 +13821,15 @@
                     },
                     "dailyJobRundown": {
                         "original": "Daily Job Rundown",
-                        "singular": "Daily Work Rundown",
-                        "plural": "Daily Work Rundown",
+                        "singular": "Daily Job Rundown",
+                        "plural": "Daily Job Rundown",
                         "setupEdit": false,
                         "setupVisible": false
                     },
                     "postJobSummary": {
                         "original": "Post-Job Summary",
-                        "singular": "Post-Work Summary",
-                        "plural": "Post-Work Summaries",
+                        "singular": "Post-Job Summary",
+                        "plural": "Post-Job Summaries",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -12682,15 +13849,15 @@
                     },
                     "jobOrderNoteSuggestions": {
                         "original": "Job Order Note Suggestions",
-                        "singular": "Work Order Note Suggestions",
-                        "plural": "Work Order Note Suggestions",
+                        "singular": "Job Order Note Suggestions",
+                        "plural": "Job Order Note Suggestions",
                         "setupEdit": false,
                         "setupVisible": false
                     },
                     "jobOrderSparePartSuggestions": {
                         "original": "Job Order Spare Part Suggestions",
-                        "singular": "Work Order Spare Part Suggestions",
-                        "plural": "Work Order Spare Part Suggestions",
+                        "singular": "Job Order Spare Part Suggestions",
+                        "plural": "Job Order Spare Part Suggestions",
                         "setupEdit": false,
                         "setupVisible": false
                     }
@@ -12703,9 +13870,9 @@
                     "completedBy": "Completed by",
                     "beta": "beta",
                     "enableOrDisableSuggestions": "Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off.",
-                    "aCategorizedSummary": "A categorized summary of your works for today.",
-                    "conciseSummaryKeyDetails": "A concise summary of key details for completed work orders, displayed in the work order view",
-                    "taskTimeSuggestions": "Task time suggestions based on previous work and task data.",
+                    "aCategorizedSummary":"A categorized summary of your jobs for today.",
+                    "conciseSummaryKeyDetails": "A concise summary of key details for completed job orders, displayed in the job order view",
+                    "taskTimeSuggestions": "Task time suggestions based on previous job and task data.",
                     "useAiToGenerateChecklist": "Use AI to generate checklist questions from a brief prompt or sample forms.",
                     "web": "Web",
                     "mobile": "Mobile",
@@ -12714,8 +13881,8 @@
                     "tips": "Tips",
                     "onHowTo": "on how to make the most out of this feature.",
                     "storage": "Storage",
-                    "allowAiSuggestJob": "Allow AI to suggest work completion steps based on the training materials you have uploaded to FieldEx.",
-                    "allowAiSuggestJobSpareParts": "Allow AI to suggest work spare parts based on the training materials you have uploaded to FieldEx.",
+                    "allowAiSuggestJob": "Allow AI to suggest job completion steps based on the training materials you have uploaded to FieldEx.",
+                    "allowAiSuggestJobSpareParts": "Allow AI to suggest job spare parts based on the training materials you have uploaded to FieldEx.",
                     "of": "of",
                     "selectAFileDropHere": "Select a file or drag and drop here",
                     "txtPdfNoMore15Mb": "TXT or PDF file size no more than 15MB",
@@ -13403,7 +14570,7 @@
                     "label": {
                         "original": "Type",
                         "singular": "Type",
-                        "plural": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13426,7 +14593,7 @@
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Type. Those in the right hand box will be displayed in the status picklist when this Work Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13491,9 +14658,9 @@
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
                         "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Type. Those in the right hand box will be displayed in the status picklist when this Work Order Type is selected",
-                        "notForThisJobType": "Not for this Work Order Type",
-                        "forThisJobType": "For this Work Order Type"
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "category": {
@@ -13655,8 +14822,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "SLA Tier",
-                        "plural": "SLA Tiers",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13665,21 +14832,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "SLA Tier Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this SLA Tier",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order SLA Tier. Those in the right hand box will be displayed in the status picklist when this Work Order SLA Tier is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13739,14 +14906,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the SLA Tier of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this SLA Tier",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order SLA Tier. Those in the right hand box will be displayed in the status picklist when this Work Order SLA Tier is selected",
-                        "notForThisJobType": "Not for this Work Order SLA Tier",
-                        "forThisJobType": "For this Work Order SLA Tier"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "category": {
@@ -13754,8 +14921,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Ownership Model",
-                        "plural": "Ownership Models",
+                        "singular": "Category",
+                        "plural": "Categories",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13764,7 +14931,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Ownership Model Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13826,8 +14993,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sector",
-                        "singular": "Market Vertical",
-                        "plural": "Market Vertical",
+                        "singular": "Sector",
+                        "plural": "Sector",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13836,7 +15003,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sector Details",
-                            "singular": "Market Vertical Details",
+                            "singular": "Sector Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13898,8 +15065,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub-sector",
-                        "singular": "Facility Classification",
-                        "plural": "Facility Classification",
+                        "singular": "Sub-sector",
+                        "plural": "Sub-sector",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13908,7 +15075,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub-sector Details",
-                            "singular": "Facility Classification Details",
+                            "singular": "Sub-sector Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13968,7 +15135,7 @@
                         }
                     },
                     "messages": {
-                        "aMoreSpecificSubCategory": "A more specific facility classification within the"
+                        "aMoreSpecificSubCategory": "A more specific sub-category within the"
                     }
                 }
             },
@@ -14059,8 +15226,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Fault",
-                        "singular": "Failure Code",
-                        "plural": "Failure Code",
+                        "singular": "Fault",
+                        "plural": "Faults",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14069,14 +15236,14 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Fault Type",
-                            "singular": "Failure Code Type",
+                            "singular": "Fault Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Fault Type Details",
-                            "singular": "Failure Code Type Details",
+                            "singular": "Fault Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14136,7 +15303,7 @@
                         }
                     },
                     "messages": {
-                        "commonFaultsRaised": "The list of most common failure code raised"
+                        "commonFaultsRaised": "The list of most common fault raised"
                     }
                 },
                 "resolution": {
@@ -14229,8 +15396,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "System",
-                        "singular": "Affected Subsystem",
-                        "plural": "Affected Subsystems",
+                        "singular": "System",
+                        "plural": "Systems",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14239,7 +15406,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "System Details",
-                            "singular": "Affected Subsystem Details",
+                            "singular": "System Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14292,7 +15459,7 @@
                         }
                     },
                     "messages": {
-                        "differentSystem": "The different affected subsystem by which your",
+                        "differentSystem": "The different system by which your",
                         "areCategorized": "are categorized"
                     }
                 },
@@ -14301,8 +15468,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Logistics Class",
-                        "plural": "Logistics Class",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14311,21 +15478,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Logistics Class Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Logistics Class",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14385,14 +15552,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the logistics class of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Logistics Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
-                        "notForThisJobType": "Not for this Work Order Logistics Class",
-                        "forThisJobType": "For this Work Order Logistics Class"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 }
             },
@@ -14404,8 +15571,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Logistics Class",
-                        "plural": "Logistics Class",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14414,21 +15581,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Logistics Class Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Logistics Class",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14488,14 +15655,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the logistics class of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Logistics Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
-                        "notForThisJobType": "Not for this Work Order Logistics Class",
-                        "forThisJobType": "For this Work Order Logistics Class"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "family": {
@@ -14503,8 +15670,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Family",
-                        "singular": "Commodity Group",
-                        "plural": "Commodity Group",
+                        "singular": "Family",
+                        "plural": "Family",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14513,7 +15680,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Family Details",
-                            "singular": "Commodity Group Details",
+                            "singular": "Family Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14665,8 +15832,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Deployment Class",
-                        "plural": "Deployment Class",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14675,21 +15842,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Deployment Class Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Deployment Class",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Work Order Deployment Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14749,14 +15916,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the deployment class of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Deployment Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Work Order Deployment Class is selected",
-                        "notForThisJobType": "Not for this Work Order Deployment Class",
-                        "forThisJobType": "For this Work Order Deployment Class"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "category": {
@@ -14764,8 +15931,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Construction Scope",
-                        "plural": "Construction Scope",
+                        "singular": "Category",
+                        "plural": "Category",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14774,7 +15941,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Construction Scope Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14828,7 +15995,7 @@
                     },
                     "messages": {
                         "differentWays": "The different ways your",
-                        "categorized": "scoped"
+                        "categorized": "categorized"
                     }
                 }
             },
@@ -15094,8 +16261,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Electrical Topology",
-                        "plural": "Electrical Topology",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15104,21 +16271,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Electrical Topology Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Electrical Topology",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Topology. Those in the right hand box will be displayed in the status picklist when this Work Order Topology is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Topology. Those in the right hand box will be displayed in the status picklist when this Job Order Topology is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15178,14 +16345,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the Electrical Topology of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Electrical Topology",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Topology. Those in the right hand box will be displayed in the status picklist when this Work Order Topology is selected",
-                        "notForThisJobType": "Not for this Work Order Topology",
-                        "forThisJobType": "For this Work Order Topology"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Topology. Those in the right hand box will be displayed in the status picklist when this Job Order Topology is selected",
+                        "notForThisJobType": "Not for this Job Order Topology",
+                        "forThisJobType": "For this Job Order Topology"
                     }
                 },
                 "category": {
@@ -15193,8 +16360,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Site Classification",
-                        "plural": "Site Classifications",
+                        "singular": "Category",
+                        "plural": "Categories",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15203,7 +16370,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Site Classification Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15265,8 +16432,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub Category",
-                        "singular": "Physical Environment",
-                        "plural": "Physical Environment",
+                        "singular": "Sub Category",
+                        "plural": "Sub Category",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15275,7 +16442,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub Category Details",
-                            "singular": "Physical Environment Details",
+                            "singular": "Sub Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15343,8 +16510,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Area",
-                        "singular": "DNO",
-                        "plural": "DNO",
+                        "singular": "Area",
+                        "plural": "Area",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15353,7 +16520,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Area Details",
-                            "singular": "DNO Details",
+                            "singular": "Area Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15406,7 +16573,7 @@
                         }
                     },
                     "messages": {
-                        "yourListOf": "Your list of DNOs your",
+                        "yourListOf": "Your list of areas your",
                         "resideIn": "reside in"
                     }
                 }
@@ -17339,14 +18506,14 @@
                     "setupVisible": false,
                     "sec0": {
                         "original": "Job Order Template Details",
-                        "singular": "Work Order Template Details",
+                        "singular": "Job Order Template Details",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "sec1": {
                         "original": "Job Order Details",
-                        "singular": "Work Order Details",
+                        "singular": "Job Order Details",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -17388,7 +18555,7 @@
                     },
                     "sec7": {
                         "original": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
-                        "singular": "Please fill up the fields and their details to be populated in the Work Orders created from this template",
+                        "singular": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -17650,7 +18817,7 @@
                     },
                     "prependJobName": {
                         "original": "Prepend Job Order Name",
-                        "singular": "Prepend Work Order Name",
+                        "singular": "Prepend Job Order Name",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -17685,7 +18852,7 @@
                     },
                     "sameAsJobOrderDate": {
                         "original": "Same as Job Order Date",
-                        "singular": "Same as Work Order Date",
+                        "singular": "Same as Job Order Date",
                         "plural": "",
                         "setupEdit": false,
                         "setupVisible": false
@@ -17706,21 +18873,21 @@
                     "setupVisible": false,
                     "prependJobName": {
                         "original": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
-                        "singular": "The Task Name will attach the name of the Work Order it is tied to before it. I.e. Work Order Name - Task Name",
+                        "singular": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "jobTemplateLookup": {
                         "original": "Job Order Templates Lookup",
-                        "singular": "Work Order Templates Lookup",
+                        "singular": "Job Order Templates Lookup",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "dateOptions": {
                         "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
-                        "singular": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Work Order is created or have it match the Work Order Date by choosing 'Same as Work Order Date'.",
+                        "singular": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
                         "plural": "",
                         "setupEdit": false,
                         "setupVisible": false
@@ -17857,7 +19024,7 @@
                     },
                     "sec1": {
                         "original": "Job Order Details",
-                        "singular": "Work Order Details",
+                        "singular": "Job Order Details",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -17888,14 +19055,14 @@
                     },
                     "jobOrderType": {
                         "original": "Job Order Type",
-                        "singular": "Work Order Type",
+                        "singular": "Job Order Type",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "autoGeneratedJobOrder": {
                         "original": "Auto-generate Job Order",
-                        "singular": "Auto-generate Work Order",
+                        "singular": "Auto-generate Job Order",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -18179,7 +19346,7 @@
                 },
                 "sec15": {
                     "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
-                    "singular": "Specify the details of the Work Orders this Checklist is for. Work Orders matching the below values will trigger this Checklist.",
+                    "singular": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18441,7 +19608,7 @@
                 },
                 "sec3": {
                     "original": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
-                    "singular": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Work Order based on the selected template",
+                    "singular": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18455,7 +19622,7 @@
                 },
                 "sec5": {
                     "original": "Additional Job Order Spare Parts generated by this answer",
-                    "singular": "Additional Work Order Spare Parts generated by this answer",
+                    "singular": "Additional Job Order Spare Parts generated by this answer",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18493,7 +19660,7 @@
                 },
                 "jobOrderTemplates": {
                     "original": "Job Order Templates",
-                    "singular": "Work Order Templates",
+                    "singular": "Job Order Templates",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18567,7 +19734,7 @@
                 },
                 "aJobOrderGeneratedSelectedTemplate": {
                     "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
-                    "singular": "A Work Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
+                    "singular": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18581,15 +19748,15 @@
                 },
                 "enterRangeOfNumbers": {
                     "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
-                    "singular": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Work Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+                    "singular": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 }
             },
             "messages": {
-                "noJobOrderCreatedForThisSelection": "No Works Order created if this answer is selected",
-                "createsJobOrder": "Creates Work Order",
+                "noJobOrderCreatedForThisSelection": "No JobsOrder created if this answer is selected",
+                "createsJobOrder": "Creates Job Order",
                 "defaultAnswer": "Default answer"
             }
         },
@@ -19434,14 +20601,14 @@
                 },
                 "sec7": {
                     "original": "Update the mappings between your Job Order Types and Calendly Events",
-                    "singular": "Update the mappings between your Work Order Types and Calendly Events",
+                    "singular": "Update the mappings between your Job Order Types and Calendly Events",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "sec8": {
                     "original": "Connect each Job Order Type to a Calendly Event",
-                    "singular": "Connect each Work Order Type to a Calendly Event",
+                    "singular": "Connect each Job Order Type to a Calendly Event",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19507,7 +20674,7 @@
                 },
                 "updateMappingsJobOrderCalendlyEvents": {
                     "original": "Update the mappings between your Job Order Types and Calendly Events",
-                    "singular": "Update the mappings between your Work Order Types and Calendly Events",
+                    "singular": "Update the mappings between your Job Order Types and Calendly Events",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19549,7 +20716,7 @@
                 },
                 "jobOrderType": {
                     "original": "Job Order Type",
-                    "singular": "Work Order Type",
+                    "singular": "Job Order Type",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19598,7 +20765,7 @@
                 },
                 "onceAssignAutoUpdateJobOrderTask": {
                     "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                    "singular": "Once set up, your site hosts can book slots (events) through Calendly that will automatically update your Work Order Date and Time, as well as create and",
+                    "singular": "Once set up, your site hosts can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19640,7 +20807,7 @@
                 },
                 "syncJobOrders": {
                     "original": "Sync Job Orders",
-                    "singular": "Sync Work Orders",
+                    "singular": "Sync Job Orders",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19856,7 +21023,8 @@
                     "ifYouLose":"If you lose the",
                     "youCanGenerateNew":"you can generate a new one at any time",
                     "theCaps":"The",
-                    "canBeViewed":"can be viewed at any time"
+                    "canBeViewed":"can be viewed at any time",
+                    "permissionAppCanAccess":"Permissions your integration app can access"
                 }
             }
         },
@@ -20184,14 +21352,14 @@
                 },
                 "whenJobOrderType": {
                     "original": "When Job Order Type is",
-                    "singular": "When Work Order Type is",
+                    "singular": "When Job Order Type is",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "andJobOrderStatus": {
                     "original": "And Job Order Status is",
-                    "singular": "And Work Order Status is",
+                    "singular": "And Job Order Status is",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20205,7 +21373,7 @@
                 },
                 "jobOrderContact": {
                     "original": "Job Order Contact",
-                    "singular": "Work Order Contact",
+                    "singular": "Job Order Contact",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20240,14 +21408,14 @@
                 },
                 "jobOrderType": {
                     "original": "Job Order Type",
-                    "singular": "Work Order Type",
+                    "singular": "Job Order Type",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "jobOrderStatus": {
                     "original": "Job Order Status",
-                    "singular": "Work Order Status",
+                    "singular": "Job Order Status",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20255,8 +21423,8 @@
             },
             "messages": {
                 "autoSendSurvey": "Automatically send this survey to site hosts when the following conditions are met",
-                "surveySentToEmailAddress": "The survey will be sent to the email address of the contact specified in the Work Order (if given)",
-                "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Work Order Site Host's main contact (shown in the site host detail page)"
+                "surveySentToEmailAddress": "The survey will be sent to the email address of the contact specified in the Job Order (if given)",
+                "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Job Order Site Host's main contact (shown in the site host detail page)"
             }
         },
         "devices": {
@@ -21061,9 +22229,9 @@
             "setupServiceZoneSystemGenerated": "System generated Service Zones is not allowed to be deleted",
             "setupServiceZoneHasAsset": "Equipment Data exists in the system for the Service Zone",
             "setupServiceZoneHasCustomer": "Site Host Data exists in the system for the Service Zone",
-            "setupServiceZoneHasJobOrder": "Work Order Data exists in the system for the Service Zone",
+            "setupServiceZoneHasJobOrder": "Job Order Data exists in the system for the Service Zone",
             "setupServiceZoneHasProject": "Deployment Data exists in the system for the Service Zone",
-            "setupServiceZoneHasJobOrderTemplate": "Work Order Template Data exists in the system for the Service Zone",
+            "setupServiceZoneHasJobOrderTemplate": "Job Order Template Data exists in the system for the Service Zone",
             "setupGeoFenceIdExists": "A new Geo Fence cannot already have an ID",
             "setupGeoFenceNotFound": "Geo Fence not found",
             "setupWareHouseLocationIdExists": "A new Ware House Location cannot already have an ID",
@@ -21080,44 +22248,44 @@
             "setupZoneHasBin": "Bin Data exists in the system for the Zone",
             "setupZoneExternalIdExists": "External Id already exists",
             "setupZoneWithExtIdNotFound": "Invalid External Id",
-            "setupJobOrderConfigIdExists": "A new Work Order Config cannot already have an ID",
+            "setupJobOrderConfigIdExists": "A new Job Order Config cannot already have an ID",
             "setupJobOrderConfigIdNotFound": "Id not found",
             "setupFaultIdExists": "A new Fault cannot already have an ID",
             "setupFaultIdNotFound": "Id not found",
             "setupFaultNameExists": "Name already exists",
             "setupFaultUnableToDelete": "Not allowed to delete system values",
-            "setupFaultHasJobOrder": "Work Order Data exists in the system for the Fault",
+            "setupFaultHasJobOrder": "Job Order Data exists in the system for the Fault",
             "setupFaultHasFaultMapping": "Fault Mapping Data exists in the system for the Fault",
-            "setupFaultHasFaultJobOrderMapping": "Fault Work Order Mapping Data exists in the system for the Fault",
-            "setupFaultHasJobOrderTemplate": "Work Order Template Data exists in the system for the Fault",
+            "setupFaultHasFaultJobOrderMapping": "Fault Job Order Mapping Data exists in the system for the Fault",
+            "setupFaultHasJobOrderTemplate": "Job Order Template Data exists in the system for the Fault",
             "setupResolutionIdExists": "A new Resolution cannot already have an ID",
             "setupResolutionIdNotFound": "Id not found",
             "setupResolutionNameExists": "Name already exists",
             "setupResolutionUnableToDelete": "Not allowed to delete system values",
-            "setupResolutionHasJobOrder": "Work Order Data exists in the system for the Resolution",
+            "setupResolutionHasJobOrder": "Job Order Data exists in the system for the Resolution",
             "setupResolutionHasResolutionMapping": "Resolution Mapping Data exists in the system for the Resolution",
-            "setupResolutionHasResolutionJobOrderMapping": "Resolution Work Order Mapping Data exists in the system for the Resolution",
-            "setupResolutionHasJobOrderTemplate": "Work Order Template Data exists in the system for the Resolution",
-            "setupJobOrderStatusIdExists": "A new Work Order Status cannot already have an ID",
+            "setupResolutionHasResolutionJobOrderMapping": "Resolution Job Order Mapping Data exists in the system for the Resolution",
+            "setupResolutionHasJobOrderTemplate": "Job Order Template Data exists in the system for the Resolution",
+            "setupJobOrderStatusIdExists": "A new Job Order Status cannot already have an ID",
             "setupJobOrderStatusIdNotFound": "Id not found",
             "setupJobOrderStatusNameNotFound": "Name not found",
             "setupJobOrderStatusDisplayNameNotFound": "Display Name not found",
             "setupJobOrderStatusNameExists": "Name already exists",
-            "setupJobOrderStatusUnableToDeactivate": "System generated Work Order Statuses are not allowed to be inactive",
-            "setupJobOrderStatusUnableToDelete": "System generated Work Order Statuses are not allowed to be deleted",
-            "setupJobOrderStatusCannotDeleteByJobOrderTemplates": "Unable to Delete: Work Order Status is part of one or more work order templates",
+            "setupJobOrderStatusUnableToDeactivate": "System generated Job Order Statuses are not allowed to be inactive",
+            "setupJobOrderStatusUnableToDelete": "System generated Job Order Statuses are not allowed to be deleted",
+            "setupJobOrderStatusCannotDeleteByJobOrderTemplates": "Unable to Delete: Job Order Status is part of one or more job order templates",
             "setupSystemCategoryIdExists": "A new System Category cannot already have an ID",
             "setupSystemCategoryIdNotFound": "Id not found",
             "setupSystemCategoryNameExists": "Name already exists",
-            "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Unable to Delete: system category is part of one or more work order templates",
-            "setupJobOrderTypeIdExists": "A new Work Order Type cannot already have an ID",
+            "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Unable to Delete: system category is part of one or more job order templates",
+            "setupJobOrderTypeIdExists": "A new Job Order Type cannot already have an ID",
             "setupJobOrderTypeIdNotFound": "Id not found",
             "setupJobOrderTypeNameExists": "Name already exists",
             "setupJobOrderTypeUnableToDelete": "Not allowed to delete system values",
-            "setupJobOrderTypeHasDynamicFormConfig": "Dynamic Form Config Data exists in the system for the Work Order Type",
-            "setupJobOrderTypeHasJobOrder": "Work Order Data exists in the system for the Work Order Type",
-            "setupJobOrderTypeHasCalendlyEventJobOrder": "Calendly Event Work Order Data exists in the system for the Work Order Type",
-            "setupJobOrderTypeHasJobOrderTemplate": "Work Order Template Data exists in the system for the Work Order Type",
+            "setupJobOrderTypeHasDynamicFormConfig": "Dynamic Form Config Data exists in the system for the Job Order Type",
+            "setupJobOrderTypeHasJobOrder": "Job Order Data exists in the system for the Job Order Type",
+            "setupJobOrderTypeHasCalendlyEventJobOrder": "Calendly Event Job Order Data exists in the system for the Job Order Type",
+            "setupJobOrderTypeHasJobOrderTemplate": "Job Order Template Data exists in the system for the Job Order Type",
             "setupSalesOrderConfigIdExists": "A new Sales Order Config cannot already have an ID",
             "setupSalesOrderConfigIdNotFound": "Id not found",
             "setupSalesOrderChannelIdExists": "A new Sales Order Channel cannot already have an ID",
@@ -21160,9 +22328,9 @@
             "setupCalendlyConfigIdNotFound": "Id not found",
             "setupCountryIdExists": "A new Country cannot already have an ID",
             "setupCustomerSurveyConfigIdExists": "A new Site Host Survey Config cannot already have an ID",
-            "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more work orders.",
+            "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more job orders.",
             "setupCustomerSurveyConfigWorkflowIdExists": "A new Site Host Survey Config Workflow cannot already have an ID",
-            "setupFaultJobOrderMappingIdExists": "A new Fault Work Order Mapping cannot already have an ID",
+            "setupFaultJobOrderMappingIdExists": "A new Fault Job Order Mapping cannot already have an ID",
             "setupFaultJobOrderMappingIdNotFound": "Id not found",
             "setupFaultMappingIdExists": "A new Fault Mapping cannot already have an ID",
             "setupFaultMappingIdNotFound": "Id not found",
@@ -21170,19 +22338,19 @@
             "setupGeoFenceMappingIdExists": "A new Geo Fence Mapping cannot already have an ID",
             "setupIndustryIdExists": "A new Industry cannot already have an ID",
             "setupIntergrationLogIdExists": "A new Integration Log cannot already have an ID",
-            "setupJobOrderSurveyIdExists": "A new Work Order Survey cannot already have an ID",
-            "setupJobTypeIdExists": "A new Work Type cannot already have an ID",
+            "setupJobOrderSurveyIdExists": "A new Job Order Survey cannot already have an ID",
+            "setupJobTypeIdExists": "A new Job Type cannot already have an ID",
             "setupJobTypeIdNotFound": "Id not found",
-            "setupJobTypeSkillsIdExists": "A new Work Type Skill cannot already have an ID",
+            "setupJobTypeSkillsIdExists": "A new Job Type Skill cannot already have an ID",
             "setupJobTypeSkillsIdNotFound": "Id not found",
             "setupLeaveOutTurnCodeIdExists": "A new Leave Out Turn Code cannot already have an ID",
             "setupOutTurnCodeIdExists": "A new Out Turn Code cannot already have an ID",
             "setupPreventiveMaintenanceNotificationSetupIdExists": "A new Preventive Maintenance Notification Setup cannot already have an ID",
             "setupProductConfigIdExists": "A new Spare Part Config cannot already have an ID",
             "setupProductConfigIdNotFound": "Id not found",
-            "setupProductFamilyIdExists": "A new Spare Part Family cannot already have an ID",
-            "setupProductFamilyHasProduct": "Spare Part Data exists in the system for the Spare Part Family",
-            "setupProductFamilyNotFound": "Spare Part Family not found",
+            "setupProductFamilyIdExists": "A new Family cannot already have an ID",
+            "setupProductFamilyHasProduct": "Spare Part Data exists in the system for the Family",
+            "setupProductFamilyNotFound": "Family not found",
             "setupProductMeasureUnitIdExists": "A new Spare Part Measure Unit cannot already have an ID",
             "setupProductMeasureUnitNameExists": "Name already exists",
             "setupProductTypeIdExists": "A new Spare Part Type cannot already have an ID",
@@ -21194,14 +22362,14 @@
             "setupProjectCategorySystemGenerated": "System generated Deployment Scope are not allowed to be deleted",
             "setupProjectConfigIdExists": "A new Deployment Config cannot already have an ID",
             "setupProjectStatusIdExists": "A new Deployment Status cannot already have an ID",
-            "setupProjectTypeIdExists": "A new Deployment Class cannot already have an ID",
+            "setupProjectTypeIdExists": "A new Type cannot already have an ID",
             "setupProjectTypeNameLabelExists": "Name/ Label already exists",
             "setupRegionalHolidayIdExists": "A new Regional Holiday cannot already have an ID",
             "setupRegionalHolidayHolidayNotFound": "Holiday not found",
             "setupRegionalHolidayRegionNotFound": "Region not found",
             "setupRegionalHolidayAlreadyExist": "Regional holiday already exist",
             "setupRegionalHolidayIdNotFound": "Id not found",
-            "setupResolutionJobOrderMappingIdExists": "A new Resolution Work Order Mapping cannot already have an ID",
+            "setupResolutionJobOrderMappingIdExists": "A new Resolution Job Order Mapping cannot already have an ID",
             "setupResolutionJobOrderMappingIdNotFound": "Id not found",
             "setupResolutionMappingIdExists": "A new Resolution Mapping cannot already have an ID",
             "setupResolutionMappingIdNotFound": "Id not found",
@@ -21276,8 +22444,8 @@
             "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
             "setupTmplJobOrderLimitReached": "You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
             "tmplTaskLimitExceeded": "You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
-            "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more work orders",
-            "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Work Order Products",
+            "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more Job Orders",
+            "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products",
             "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Equipment Meters for selected Equipment Type",
             "setupAssetMeterHasAssetsRecord": "Equipments Meter is linked with one or more Equipments records, hence unable to delete"
         },
@@ -21287,7 +22455,7 @@
                     "assets": "Equipment",
                     "contract": "Contract",
                     "customer": "Site Host",
-                    "job_order": "Work Order",
+                    "job_order": "Job Order",
                     "maintenance_item": "Preventive Maintenance",
                     "product": "Product",
                     "project": "Deployment",
@@ -21303,7 +22471,7 @@
                         "name": {
                             "customers": "Site Host",
                             "sales_order": "Sales Order",
-                            "job_order": "Work Order",
+                            "job_order": "Job Order",
                             "products": "Spare Part",
                             "teams": "Teams",
                             "tasks": "Task",
@@ -21371,14 +22539,14 @@
                 },
                 "job_order": {
                     "description": {
-                        "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Work Order",
-                        "job_order_completed": "Sent to an order owner's manager when a Work Order status has changed to 'Completed' (or equivalent)",
-                        "job_order_appointment_updated": "Sent to the Work Order owner when its time and date has been updated through Calendly",
-                        "survey_responded": "Sent to the owner when a Work Order receives a Survey response from a Site Host"
+                        "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Job Order",
+                        "job_order_completed": "Sent to an order owner's manager when a Job Order status has changed to 'Completed' (or equivalent)",
+                        "job_order_appointment_updated": "Sent to the Job Order owner when its time and date has been updated through Calendly",
+                        "survey_responded": "Sent to the owner when a Job Order receives a Survey response from a Site Host"
                     },
                     "name": {
-                        "job_order_assigned": "Work Order Assignment",
-                        "job_order_completed": "Work Order Completion",
+                        "job_order_assigned": "Job Order Assignment",
+                        "job_order_completed": "Job Order Completion",
                         "job_order_appointment_updated": "Appointment Updated through Calendly",
                         "survey_responded": "Survey Response Received"
                     }
@@ -21448,8 +22616,8 @@
         "messages": {
             "weRequireTheFollowingAccess": "We require the following access from your mobile device while using respective features in our application for a good user experience:",
             "toCollectAndRecordBackground": "To collect and record background location data for journey tracking, task check-in/out locations and live proximity location data while using the app and when it is running in the background. Location data will not be tracked if you go offline in FieldEx.",
-            "toRetrieveImages": "To retrieve images, videos or documents from device storage to upload in tasks or work orders.",
-            "toCaptureImages": "To capture images from your device camera and upload to tasks or work orders.",
+            "toRetrieveImages": "To retrieve images, videos or documents from device storage to upload in tasks or job orders.",
+            "toCaptureImages": "To capture images from your device camera and upload to tasks or job orders.",
             "toCallTheTaskAssigner": "To call the task assigner or site host's contact directly from the applicaton.",
             "locationPermission": "Location Permission:",
             "fileStoragePermission": "File/Storage Permission:",
@@ -21483,8 +22651,8 @@
             "messageThreadWithIdNotFound": "Invalid Message Thread Id",
             "messageThreadUserIdExists": "A new Message Thread User cannot already have an ID",
             "calendlyNotConnected": "This user does not have Calendly integrated to their account",
-            "calendlyJobOrderTypeNotFound": "Job Order Required to Have a Work OrderType Selected",
-            "calendlyJobOrderTypeNotMappedToEvent": "Work Order : Work OrderType Does not have a configured value to map the calendly event",
+            "calendlyJobOrderTypeNotFound": "Job Order Required to Have a Job OrderType Selected",
+            "calendlyJobOrderTypeNotMappedToEvent": "Job Order : Job OrderType Does not have a configured value to map the calendly event",
             "calendlyEventIdNotSharedToUser": "Event slug is not shared with user in calendly system. please contact your Calendly Account Manager"
         }
     },
@@ -23743,8 +24911,8 @@
                 "setupVisible": false
             },
             "messages": {
-                "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Works or Tasks will be triggered using this status",
-                "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Work Orders and Tasks related to this checklist's answers",
+                "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobsor Tasks will be triggered using this status",
+                "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
                 "updateStatusTo": "Update status to",
                 "updateStatus": "Update Status",
                 "confirmMarkTaskComplete": "Would you like to mark this task as complete?",
@@ -23844,7 +25012,7 @@
             "statusUpdated": "Status Updated",
             "imageUploaded": "Image uploaded successfully",
             "endDateExceeds": "End date should not exceed start date",
-            "selectJobOrderFromList": "Select a Work Order from the list",
+            "selectJobOrderFromList": "Select a Job Order from the list",
             "selectAssetFromList": "Select an Equipment from the list",
             "selectChecklistFromList": "Select Checklist From List",
             "selectCustomerFromList": "Select a Site Host from the list",
@@ -23860,9 +25028,9 @@
             "selectUserFromList": "Select a User from the list",
             "selectCustomer": "Select a Site Host",
             "selectBinLocation": "Select a Bin Location",
-            "noJobOrderFound": "No Work Order found",
+            "noJobOrderFound": "No Job Order found",
             "noSalesOrdersFound": "No Sales Orders found",
-            "noJobOrdersToDisplay": "No Work Orders to display",
+            "noJobOrdersToDisplay": "No Job Orders to display",
             "noProductsFound": "No Spare Parts found",
             "noHistoriesToDisplay": "No Histories to display",
             "noProductsToDisplay": "No Spare Parts to display",
@@ -24240,7 +25408,9 @@
             "filenameMustNotContain": "File name must not contain spaces or special characters (e.g., ! @ # $ % ^ & ( ) ).",
             "thisFieldIsRequired": "This field is required",
             "pleaseMakeOneSelection": "Please make one selection to proceed",
-            "itemExists": "This item already exists in the list"
+            "itemExists": "This item already exists in the list",
+            "pleaseEnterValidUrl":"Please enter valid website URL. You are only allowed to add 1 URL",
+            "capacityReached":"Capacity Reached"
         },
         "validationBE": {
             "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
@@ -24256,14 +25426,14 @@
             "slaPackageNotFound": "SlaPackage not found",
             "slaPackageHasCustomer": "Site Host Data exists in the system for the SlaPackage",
             "slaPackageHasSLATicket": "SLA Ticket Data exists in the system for the SlaPackage",
-            "slaPackageHasSLAJobOrder": "SLA Work Order Data exists in the system for the SlaPackage",
+            "slaPackageHasSLAJobOrder": "SLA Job Order Data exists in the system for the SlaPackage",
             "slaBusinessHoursNotFound": "Business hours not defined"
         },
         "tabs": {
             "details": "Details",
             "purchaseHistory": "Purchase History",
             "products": "Products",
-            "jobOrders": "Work Orders",
+            "jobOrders": "Job Orders",
             "history": "History",
             "contacts": "Contacts",
             "assets": "Equipments",
@@ -24564,14 +25734,14 @@
                 },
                 "sec6": {
                     "original": "Select Job Order Template From List",
-                    "singular": "Select Work Order Template From List",
+                    "singular": "Select Job Order Template From List",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "sec7": {
                     "original": "Select a Job Order from the list",
-                    "singular": "Select a Work Order from the list",
+                    "singular": "Select a Job Order from the list",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -24634,8 +25804,8 @@
                 },
                 "sec16": {
                     "original": "Job Order Template Selection",
-                    "singular": "Work Order Template Selection",
-                    "plural": "Work Order Template Selection",
+                    "singular": "Job Order Template Selection",
+                    "plural": "Job Order Template Selection",
                     "setupEdit": false,
                     "setupVisible": false
                 },
@@ -24848,7 +26018,7 @@
             "addYourOfficeAddress": "Add your office address",
             "passwordUpdatedSuccessfully": "Password updated successfully",
             "personalInformation": "Personal Information",
-            "dailyJobOrderSummary": "Daily Work Order Summary",
+            "dailyJobOrderSummary": "Daily Job Order Summary",
             "sparePartRecommendations": "Spare Part Recommendations",
             "resolutionSuggestions": "Resolution Suggestions"
         },
@@ -24897,8 +26067,8 @@
             "setupVisible": false
         },
         "messages": {
-            "pendingJobOrders": "Pending Work Orders",
-            "pendingWorkOrders": "Pending Work Orders",
+            "pendingJobOrders": "Pending Job Orders",
+            "pendingWorkOrders": "Pending Job Orders",
             "todaysTasks": "Today's Tasks",
             "tasksToAcceptDecline": "Tasks to Accept/Decline",
             "toAccept": "To Accept",
@@ -25038,7 +26208,7 @@
                 },
                 "totalJobs": {
                     "original": "Total Jobs",
-                    "singular": "Total Works",
+                    "singular": "Total Jobs",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -25133,7 +26303,7 @@
                 },
                 "sec2": {
                     "original": "Technician Jobs",
-                    "singular": "Technician Works",
+                    "singular": "Technician Jobs",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -26231,7 +27401,7 @@
                 "inviteManageUser": "Invite and manage users",
                 "configureSettings": "Configure checklists, work templates, and preventive maintenance settings",
                 "updateSystemWideSetting": "Update system-wide settings that affect the entire account",
-                "createAssignJobOrder": "Create and assign work orders to the right technicians",
+                "createAssignJobOrder": "Create and assign job orders to the right technicians",
                 "trackProgressCompletion": "Track work progress and completion in real-time",
                 "monitorUpdates": "Monitor updates from the field, including:",
                 "assetMeterLogs": "Meter logs",

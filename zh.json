@@ -15470,7 +15470,9 @@
       "filenameMustNotContain":"文件名不得包含空格或特殊字符（例如：! @ # $ % ^ & ( ) ）。",
       "thisFieldIsRequired":"此字段为必填项",
       "pleaseMakeOneSelection":"请选择一项以继续",
-      "itemExists":"此项目已存在于列表中"
+      "itemExists":"此项目已存在于列表中",
+      "pleaseEnterValidUrl":"请输入有效的网站 URL。您只能添加 1 个 URL。",
+      "capacityReached":"容量已满"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",
@@ -26038,7 +26040,8 @@
             "ifYouLose":"如果您丢失了",
             "youCanGenerateNew":"您可以随时生成一个新的",
             "theCaps":"该",
-            "canBeViewed":"可以随时查看"
+            "canBeViewed":"可以随时查看",
+            "permissionAppCanAccess":"您的集成应用可以访问的权限"
         }
       }
     },

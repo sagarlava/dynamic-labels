@@ -15470,7 +15470,9 @@
       "thisFieldIsRequired": "Este campo es obligatorio",
       "pleaseMakeOneSelection": "Por favor, haga una selección para continuar",
       "itemExists": "Este elemento ya existe en la lista",
-      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) )."
+      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) ).",
+      "pleaseEnterValidUrl":"Por favor, introduzca una URL de sitio web válida. Solo se permite añadir 1 URL.",
+      "capacityReached":"Capacidad alcanzada"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -26038,7 +26040,8 @@
             "ifYouLose":"Si pierde el",
             "youCanGenerateNew":"puede generar uno nuevo en cualquier momento",
             "theCaps":"El",
-            "canBeViewed":"se puede ver en cualquier momento"
+            "canBeViewed":"se puede ver en cualquier momento",
+            "permissionAppCanAccess":"Permisos a los que puede acceder su aplicación de integración"
         }
       }
     },
