@@ -151,7 +151,7 @@
             },
             "area": {
                 "original": "Area",
-                "singular": "Utility Territory",
+                "singular": "Area",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true

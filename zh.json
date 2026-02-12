@@ -14456,6 +14456,69 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enable":{
+        "original": "Enable",
+        "singular": "启用",
+        "plural": "启用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disable":{
+        "original": "Disable",
+        "singular": "禁用",
+        "plural": "禁用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activate":{
+        "original": "Activate",
+        "singular": "激活",
+        "plural": "激活",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deactivate":{
+        "original": "Deactivate",
+        "singular": "停用",
+        "plural": "停用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hide":{
+        "original": "Hide",
+        "singular": "隐藏",
+        "plural": "隐藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "show":{
+        "original": "Show",
+        "singular": "显示",
+        "plural": "显示",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display":{
+        "original": "Display",
+        "singular": "展示",
+        "plural": "展示",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hidden":{
+        "original": "Hidden",
+        "singular": "已隐藏",
+        "plural": "已隐藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "regenerate":{
+        "original": "Regenerate",
+        "singular": "重新生成",
+        "plural": "重新生成",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -27164,69 +27227,6 @@
               "singular": "筛选条件",
               "plural": "",
               "setupEdit": true,
-              "setupVisible": false
-            },
-            "enable":{
-              "original": "Enable",
-              "singular": "启用",
-              "plural": "启用",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "disable":{
-              "original": "Disable",
-              "singular": "禁用",
-              "plural": "禁用",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "activate":{
-              "original": "Activate",
-              "singular": "激活",
-              "plural": "激活",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "deactivate":{
-              "original": "Deactivate",
-              "singular": "停用",
-              "plural": "停用",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hide":{
-              "original": "Hide",
-              "singular": "隐藏",
-              "plural": "隐藏",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "show":{
-              "original": "Show",
-              "singular": "显示",
-              "plural": "显示",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "display":{
-              "original": "Display",
-              "singular": "展示",
-              "plural": "展示",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hidden":{
-              "original": "Hidden",
-              "singular": "已隐藏",
-              "plural": "已隐藏",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "regenerate":{
-              "original": "Regenerate",
-              "singular": "重新生成",
-              "plural": "重新生成",
-              "setupEdit": false,
               "setupVisible": false
             }
           },

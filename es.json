@@ -14456,6 +14456,69 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enable":{
+        "original": "Enable",
+        "singular": "Habilitar",
+        "plural": "Habilitar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disable":{
+        "original": "Disable",
+        "singular": "Deshabilitar",
+        "plural": "Deshabilitar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activate":{
+        "original": "Activate",
+        "singular": "Activar",
+        "plural": "Activar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deactivate":{
+        "original": "Deactivate",
+        "singular": "Desactivar",
+        "plural": "Desactivar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hide":{
+        "original": "Hide",
+        "singular": "Ocultar",
+        "plural": "Ocultar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "show":{
+        "original": "Show",
+        "singular": "Mostrar",
+        "plural": "Mostrar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display":{
+        "original": "Display",
+        "singular": "Mostrar",
+        "plural": "Mostrar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hidden":{
+        "original": "Hidden",
+        "singular": "Oculto",
+        "plural": "Oculto",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "regenerate":{
+        "original": "Regenerate",
+        "singular": "Regenerar",
+        "plural": "Regenerar",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -27164,69 +27227,6 @@
               "singular": "Filtrar por",
               "plural": "",
               "setupEdit": true,
-              "setupVisible": false
-            },
-            "enable":{
-              "original": "Enable",
-              "singular": "Habilitar",
-              "plural": "Habilitar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "disable":{
-              "original": "Disable",
-              "singular": "Deshabilitar",
-              "plural": "Deshabilitar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "activate":{
-              "original": "Activate",
-              "singular": "Activar",
-              "plural": "Activar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "deactivate":{
-              "original": "Deactivate",
-              "singular": "Desactivar",
-              "plural": "Desactivar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hide":{
-              "original": "Hide",
-              "singular": "Ocultar",
-              "plural": "Ocultar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "show":{
-              "original": "Show",
-              "singular": "Mostrar",
-              "plural": "Mostrar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "display":{
-              "original": "Display",
-              "singular": "Mostrar",
-              "plural": "Mostrar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hidden":{
-              "original": "Hidden",
-              "singular": "Oculto",
-              "plural": "Oculto",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "regenerate":{
-              "original": "Regenerate",
-              "singular": "Regenerar",
-              "plural": "Regenerar",
-              "setupEdit": false,
               "setupVisible": false
             }
           },
