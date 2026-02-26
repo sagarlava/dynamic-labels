@@ -727,9 +727,16 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-       "original": "Purchase Date",
+        "original": "Acquisition Date",
+        "singular": "采购日期",
+        "plural": "采购日期",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "purchaseDate": {
+        "original": "Purchase Date",
         "singular": "购买日期",
-        "plural": "",
+        "plural": "购买日期",
         "setupEdit": true,
         "setupVisible": true
       },

@@ -727,9 +727,16 @@
         "setupVisible": false
       },
       "acquisitionDate": {
+        "original": "Acquisition Date",
+        "singular": "Tarikh Pemerolehan",
+        "plural": "Tarikh Pemerolehan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "purchaseDate": {
         "original": "Purchase Date",
         "singular": "Tarikh Pembelian",
-        "plural": "",
+        "plural": "Tarikh Pembelian",
         "setupEdit": true,
         "setupVisible": true
       },
