@@ -1546,6 +1546,41 @@
         "plural": "Analisis Prestasi dan Kos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Prestasi & Kebolehpercayaan",
+        "plural": "Prestasi & Kebolehpercayaan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Kesihatan Kewangan",
+        "plural": "Kesihatan Kewangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Kitaran Hayat",
+        "plural": "Kitaran Hayat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Kos Operasi",
+        "plural": "Kos-Kos Operasi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Pecahan Jumlah Perbelanjaan",
+        "plural": "Pecahan Jumlah Perbelanjaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1608,9 +1643,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Jangka Hayat Berguna Baki (RUL)",
-        "plural": "Jangka Hayat Berguna Baki (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Jangka Hayat Berguna Baki",
+        "plural": "Jangka Hayat Berguna Baki",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1643,12 +1678,12 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Bilangan Pembaikan",
-        "plural": "Bilangan Pembaikan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
+          "original": "Repairs",
+          "singular": "Pembaikan",
+          "plural": "Pembaikan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
       "totalRepairTime": {
         "original": "Total Repair Time",
         "singular": "Jumlah Masa Pembaikan",
@@ -1657,16 +1692,16 @@
         "setupVisible": false
       },
       "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Purata Masa Untuk Membaiki)",
-        "plural": "MTTR (Purata Masa Untuk Membaiki)",
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Purata Masa Antara Kegagalan)",
-        "plural": "MTBF (Purata Masa Antara Kegagalan)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1699,16 +1734,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Kos Operasi setiap Jam",
-        "plural": "Kos Operasi setiap Jam",
+        "original": "Operational Cost/Hour",
+        "singular": "Kos Operasi/Jam",
+        "plural": "Kos Operasi/Jam",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Kos Pembaikan setiap Jam",
-        "plural": "Kos Pembaikan setiap Jam",
+        "original": "Repair Cost/Hour",
+        "singular": "Kos Pembaikan/Jam",
+        "plural": "Kos Pembaikan/Jam",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1725,7 +1760,87 @@
         "plural": "Kos Penyelenggaraan Sepanjang Hayat",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "Jumlah Kerja",
+        "plural": "Jumlah Kerja",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Jumlah Pembaikan",
+        "plural": "Jumlah Pembaikan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Masa Henti",
+        "plural": "Masa Henti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Jumlah Masa Digunakan",
+        "plural": "Jumlah Masa Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Nilai Buku Semasa",
+        "plural": "Nilai Buku Semasa",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Terakhir",
+        "plural": "Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Tarikh",
+        "plural": "Tarikh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "Berdasarkan Jumlah Masa Operasi dan Bilangan Kegagalan. MTBF = Jumlah Masa Tersedia ÷ Bilangan Pembaikan",
+      "totalJobsDesc": "Kiraan semua Pesanan Kerja dalam sistem. Jumlah Kerja = Kiraan semua Pesanan Kerja",
+      "failureRateDesc": "Dikira berdasarkan Jumlah Tempoh Masa Henti dan Bilangan Kegagalan. Kadar Kegagalan = (Jumlah Masa Henti ÷ Jumlah Masa Tersedia) x 100",
+      "mttrDesc": "Dikira berdasarkan Bilangan Pembaikan dan Jumlah Masa Pembaikan. MTTR = Jumlah Masa Pembaikan ÷ Bilangan Pembaikan",
+      "totalRepairDesc": "Jumlah masa terkumpul untuk semua pembaikan. Jumlah Masa Pembaikan = Jumlah semua masa daftar masuk PK Kategori 'Pembetulan/Pembaikan'",
+      "downtimeDesc": "Masa henti terkumpul dari mula penggunaan. Jumlah Masa Henti = Jumlah (Tempoh di mana kategori status = 'Masa Henti')",
+      "utilizationRateDesc": "Peratusan penggunaan berdasarkan Masa Digunakan dan Jumlah Masa Tersedia. Kadar Penggunaan = (Masa Digunakan ÷ Jumlah Masa Tersedia) x 100",
+      "totalAvailTimeDesc": "Masa operasi terkumpul dari mula penggunaan. Jumlah Masa Tersedia = Jumlah (Tempoh di mana kumpulan status = 'Aktif' ATAU 'Tidak Aktif')",
+      "timeUsedDesc": "Masa sebenar aset telah digunakan. Masa Digunakan = Jumlah (Tempoh di mana kumpulan status = 'Aktif')",
+      "currentBookValueDesc": "Nilai perakaunan semasa aset. Nilai Buku = Kos Awal - Susut Nilai Terkumpul",
+      "initialCostDesc": "Masukkan kos pembelian atau pemerolehan aset. Kos Awal = Input Pengguna (Harga Aset)",
+      "depreciationRateDesc": "Mengukur kehilangan nilai aset dari semasa ke semasa. Kadar Susut Nilai % = Input Pengguna (Kadar Susut Nilai Tahunan Aset)",
+      "operationalCostHourDesc": "Dikira menggunakan Jumlah Jam Aktif dan Jumlah Kos Operasi. Kos Operasi/Jam = (Jumlah Kos Pembaikan Sepanjang Hayat + Jumlah Kos Penyelenggaraan Sepanjang Hayat) ÷ Jumlah Masa Tersedia",
+      "repairCostHourDesc": "Memaparkan purata kos pembaikan bagi setiap jam aset beroperasi. Kos Pembaikan/Jam = Jumlah Kos Pembaikan Sepanjang Hayat ÷ Jumlah Masa Tersedia",
+      "lifetimeMaintenanceDesc": "Kos Penyelenggaraan Sepanjang Hayat = (Jika (Kategori PK ialah 'Penyelenggaraan Pencegahan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "avgMaintenanceCostDesc": "Kos untuk setiap peristiwa penyelenggaraan. Purata Kos Penyelenggaraan = Purata (Jika (Kategori PK ialah 'Penyelenggaraan Pencegahan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "repairsDesc": "Kos Pembaikan Sepanjang Hayat = (Jika (Kategori PK ialah 'Pembetulan/Pembaikan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "avgRepairCostDesc": "Kos untuk setiap peristiwa pembaikan. Purata Kos Pembaikan = Purata (Jika (Kategori PK ialah 'Pembetulan/Pembaikan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "assetAgeDesc": "Masa yang berlalu sejak tarikh pembelian aset. Umur Aset = Tarikh Semasa - Tarikh Pembelian",
+      "remainingUsefulLifeDesc": "Dikira berdasarkan Tarikh Pembelian dan Jangka Hayat Anggaran. Baki Hayat Berguna (BHB) = Jangka Hayat Anggaran - Umur Aset",
+      "lastMaintenanceDateDesc": "Tarikh penyelenggaraan terakhir. Tarikh Penyelenggaraan Terkini = Tarikh kerja terakhir di mana Kategori PK = 'Penyelenggaraan Pencegahan'",
+      "lastRepairDateDesc": "Tarikh pembaikan terakhir. Tarikh Pembaikan Terakhir = Tarikh kerja terakhir di mana Kategori PK = 'Pembetulan/Pembaikan'"
     }
   },
   "assetLog": {
@@ -19251,6 +19366,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "Aktifkan Orang Awam",
+            "plural": "Aktifkan Orang Awam",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "Borang",
+            "plural": "Borang-Borang",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19331,6 +19460,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "Bahasa Lalai",
+            "plural": "Bahasa Lalai",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Lalai",
+            "plural": "Lalai",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -19358,7 +19501,12 @@
           "monthVariable": "Aksara M mewakili bulan angka tarikh penciptaan tiket ('01' = Jan, '02' = Feb)",
           "dayVariable": "Aksara D mewakili hari angka dalam bulan tarikh penciptaan rekod (Cth. '01' hingga '31' untuk Jan)",
           "autoCloseAfterNoActivity": "Tutup tiket secara automatik selepas tiada aktiviti (Jam)",
-          "hereExamples": "Berikut adalah beberapa contoh:"
+          "hereExamples": "Berikut adalah beberapa contoh:",
+          "enablingThePublic": "Membolehkan orang awam",
+          "allowsUserScan": "membenarkan pengguna mengimbas",
+          "or": "atau",
+          "qrCodesCreate": "kod QR untuk mencipta",
+          "publicFormLink": "Pautan Borang Awam"
         }
       },
       "listView": {
@@ -19649,7 +19797,9 @@
             },
             "messages": {
               "possibleStatus": "Status yang mungkin dilalui oleh",
-              "mayGoThrough": ""
+              "mayGoThrough": "",
+              "statusCategories": "Kategori status adalah cara untuk mengumpulkan status anda. Kumpulan ini akan digunakan dalam",
+              "analyticCalc": "pengiraan analitik."
             }
           },
           "type": {

@@ -1546,6 +1546,41 @@
         "plural": "Performance and Cost Analysis",
         "setupEdit": false,
         "setupVisible": false
+      },
+       "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Performance & Reliability",
+        "plural": "Performance & Reliability",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Financial Health",
+        "plural": "Financial Health",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Lifecycle",
+        "plural": "Lifecycle",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Running Cost",
+        "plural": "Running Costs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Total Spend Breakdown",
+        "plural": "Total Spend Breakdown",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1608,9 +1643,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Remaining Useful Life (RUL)",
-        "plural": "Remaining Useful Life (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Remaining Useful Life",
+        "plural": "Remaining Useful Life",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1643,9 +1678,9 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Number of Repair",
-        "plural": "Number of Repairs",
+        "original": "Repairs",
+        "singular": "Repair",
+        "plural": "Repairs",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1657,16 +1692,16 @@
         "setupVisible": false
       },
       "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Mean Time To Repair)",
-        "plural": "MTTR (Mean Time To Repair)",
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Mean Time Between Failures)",
-        "plural": "MTBF (Mean Time Between Failures)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1699,16 +1734,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Operating Costs per Hour",
-        "plural": "Operating Costs per Hour",
+        "original": "Operational Cost/Hour",
+        "singular": "Operational Cost/Hour",
+        "plural": "Operational Cost/Hour",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Repair Costs per Hour",
-        "plural": "Repair Costs per Hour",
+        "original": "Repair Cost/Hour",
+        "singular": "Repair Cost/Hour",
+        "plural": "Repair Cost/Hour",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1725,7 +1760,87 @@
         "plural": "Lifetime Maintenance Cost",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "Total Job",
+        "plural": "Total Jobs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Total Repair",
+        "plural": "Total Repairs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Downtime",
+        "plural": "Downtime",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Total Time Used",
+        "plural": "Total Time Used",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Current Book Value",
+        "plural": "Current Book Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Last",
+        "plural": "Last",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "messages":{
+      "mtbfDesc":"Based on Total Operational Time and Number of Failures. MTBF = Total Available Time ÷ Number of Repairs",
+      "totalJobsDesc":"Count of all Job Orders in the system. Total Jobs = Count of all Job Orders",
+      "failureRateDesc":"Calculated based on Total Downtime Period and Number of Failures. Failure Rate = (Total Downtime ÷ Total Available Time) x 100",
+      "mttrDesc":"Calculated based on Number of Repairs and Total Repair Time. MTTR = Total Repair Time ÷ Number of Repairs",
+      "totalRepairDesc":"Cumulative time taken for all repairs. Total Repair Time = Sum of all check-in time JO Category is ‘Corrective/Repair’",
+      "downtimeDesc":"Cumulative downtime from the start of use. Total Downtime = Sum (Duration where status category = 'Downtime')",
+      "utilizationRateDesc":"Percentage usage based on Time Used and Total Available Time. Utilization Rate = (Time Used ÷ Total Available Time) x 100",
+      "totalAvailTimeDesc":"Cumulative operational time from the start of use. Total Available Time = Sum (Duration where status group = 'Active' OR 'Idle')",
+      "timeUsedDesc":"Actual time the asset has been in use. Time Used = Sum (Duration where status group = ’Active’)",
+      "currentBookValueDesc":"Current accounting value of an asset. Book Value = Initial Cost - Accumulated Depreciation",
+      "initialCostDesc":"Enter the purchase or acquisition cost of the asset. Initial Cost = User Input (Price of Asset)",
+      "depreciationRateDesc":"Measures loss in asset value over time. Depreciation Rate % = User Input(Yearly Depreciation Rate of Asset)",
+      "operationalCostHourDesc":"Calculated by Total Active Hours and Total Operating Cost. Operating Cost/Hour = (Sum of Lifetime Repair Costs + Sum of Lifetime Maintenance Costs) ÷ Total Available Time",
+      "repairCostHourDesc":"Displays the average cost of repairs for every hour the asset has been operational. Repair Cost/Hour = Sum of Lifetime Repair Costs ÷ Total Available Time",
+      "lifetimeMaintenanceDesc":"Lifetime Maintenance Cost = (If (JO Category is ‘Preventive Maintenance’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+      "avgMaintenanceCostDesc":"Cost for each maintenance event. Average Maintenance Cost = Average of (If (JO Category is ‘Preventive Maintenance’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+      "repairsDesc":"Lifetime Repair Cost = (If (JO Category is ‘Corrective/Repair’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+      "avgRepairCostDesc":"Cost for each repair event. Average Repair Cost = Average of (If (JO Category is ‘Corrective/Repair’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+      "assetAgeDesc":"Time elapsed since the asset's purchase date. Asset Age = Current Date - Purchase Date",
+      "remainingUsefulLifeDesc":"Calculated based on Purchase Date and Estimated Lifespan. Remaining Useful Life (RUL) = Estimated Lifespan - Asset Age",
+      "lastMaintenanceDateDesc":"Date of the last maintenance. Latest Maintenance Date = Date of the last job where JO Category = ‘Preventive Maintenance’",
+      "lastRepairDateDesc":"Date of the last repair. Last Repair Date = Date of the last job where JO Category = ‘Corrective/Repair’"
     }
   },
   "assetLog": {
@@ -19258,6 +19373,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "Enable Public",
+            "plural": "Enable Public",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "Form",
+            "plural": "Forms",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19338,6 +19467,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "Default Language",
+            "plural": "Default Language",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "Default",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -19365,7 +19508,12 @@
           "monthVariable": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
           "dayVariable": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
           "autoCloseAfterNoActivity": "Auto-close ticket after no activity (Hrs)",
-          "hereExamples": "Here are some examples:"
+          "hereExamples": "Here are some examples:",
+          "enablingThePublic":"Enabling the public",
+          "allowsUserScan":"allows users to scan",
+          "or":"or",
+          "qrCodesCreate":"QR codes to create",
+          "publicFormLink":"Public Form Link"
         }
       },
       "listView": {
@@ -19656,7 +19804,9 @@
             },
             "messages": {
               "possibleStatus": "The possible statuses your",
-              "mayGoThrough": "may go through"
+              "mayGoThrough": "may go through",
+              "statusCategories":"Status categories are a way to group your statuses. These groups will be used in",
+              "analyticCalc":"analytic calculations."
             }
           },
           "type": {

@@ -1546,6 +1546,41 @@
         "plural": "Leistungs- und Kostenanalysen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Leistung & Zuverlässigkeit",
+        "plural": "Leistung & Zuverlässigkeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Finanzielle Gesundheit",
+        "plural": "Finanzielle Gesundheit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Lebenszyklus",
+        "plural": "Lebenszyklen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Betriebskosten",
+        "plural": "Betriebskosten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Gesamtausgaben Aufschlüsselung",
+        "plural": "Gesamtausgaben Aufschlüsselung",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1608,9 +1643,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Verbleibende Nutzungsdauern (RUL)",
-        "plural": "Verbleibende Nutzungsdauern (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Verbleibende Nutzungsdauern",
+        "plural": "Verbleibende Nutzungsdauern",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1643,9 +1678,9 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Anzahl der Reparaturen",
-        "plural": "Anzahl der Reparaturen",
+        "original": "Repairs",
+        "singular": "Reparatur",
+        "plural": "Reparaturen",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1657,16 +1692,16 @@
         "setupVisible": false
       },
       "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Durchschnittliche Reparaturzeiten)",
-        "plural": "MTTR (Durchschnittliche Reparaturzeiten)",
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Mittlere Zeiten zwischen Ausfällen)",
-        "plural": "MTBF (Mittlere Zeiten zwischen Ausfällen)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1699,16 +1734,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Betriebskosten pro Stunde",
-        "plural": "Betriebskosten pro Stunde",
+        "original": "Operational Cost/Hour",
+        "singular": "Betriebskosten/Stunde",
+        "plural": "Betriebskosten/Stunde",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Reparaturkosten pro Stunde",
-        "plural": "Reparaturkosten pro Stunde",
+        "original": "Repair Cost/Hour",
+        "singular": "Reparaturkosten/Stunde",
+        "plural": "Reparaturkosten/Stunde",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1725,7 +1760,87 @@
         "plural": "Lebenslange Wartungskosten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "Gesamtauftrag",
+        "plural": "Gesamtaufträge",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Gesamtreparatur",
+        "plural": "Gesamtreparaturen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Ausfallzeit",
+        "plural": "Ausfallzeiten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Gesamte Nutzungszeit",
+        "plural": "Gesamte Nutzungszeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Aktueller Buchwert",
+        "plural": "Aktuelle Buchwerte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Letzter",
+        "plural": "Letzte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Datum",
+        "plural": "Daten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Wartung",
+        "plural": "Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "Basierend auf der gesamten Betriebszeit und der Anzahl der Ausfälle. MTBF = Gesamte verfügbare Zeit ÷ Anzahl der Reparaturen",
+      "totalJobsDesc": "Anzahl aller Arbeitsaufträge im System. Gesamtaufträge = Anzahl aller Arbeitsaufträge",
+      "failureRateDesc": "Berechnet auf Basis der gesamten Ausfallzeit und der Anzahl der Ausfälle. Ausfallrate = (Gesamte Ausfallzeit ÷ Gesamte verfügbare Zeit) x 100",
+      "mttrDesc": "Berechnet auf Basis der Anzahl der Reparaturen und der gesamten Reparaturzeit. MTTR = Gesamte Reparaturzeit ÷ Anzahl der Reparaturen",
+      "totalRepairDesc": "Kumulierte Zeit für alle Reparaturen. Gesamte Reparaturzeit = Summe aller Eincheckzeiten AA-Kategorie 'Korrektur/Reparatur'",
+      "downtimeDesc": "Kumulierte Ausfallzeit seit Beginn der Nutzung. Gesamte Ausfallzeit = Summe (Dauer, bei der Statuskategorie = 'Ausfallzeit')",
+      "utilizationRateDesc": "Prozentuale Nutzung basierend auf genutzter Zeit und gesamter verfügbarer Zeit. Auslastungsrate = (Genutzte Zeit ÷ Gesamte verfügbare Zeit) x 100",
+      "totalAvailTimeDesc": "Kumulierte Betriebszeit seit Beginn der Nutzung. Gesamte verfügbare Zeit = Summe (Dauer, bei der Statusgruppe = 'Aktiv' ODER 'Inaktiv')",
+      "timeUsedDesc": "Tatsächliche Nutzungszeit des Assets. Genutzte Zeit = Summe (Dauer, bei der Statusgruppe = 'Aktiv')",
+      "currentBookValueDesc": "Aktueller Buchwert eines Assets. Buchwert = Anschaffungskosten - Kumulierte Abschreibung",
+      "initialCostDesc": "Geben Sie die Kauf- oder Anschaffungskosten des Assets ein. Anschaffungskosten = Benutzereingabe (Preis des Assets)",
+      "depreciationRateDesc": "Misst den Wertverlust des Assets über die Zeit. Abschreibungsrate % = Benutzereingabe (Jährliche Abschreibungsrate des Assets)",
+      "operationalCostHourDesc": "Berechnet durch die gesamten aktiven Stunden und die gesamten Betriebskosten. Betriebskosten/Stunde = (Summe der Reparaturkosten über die Lebensdauer + Summe der Wartungskosten über die Lebensdauer) ÷ Gesamte verfügbare Zeit",
+      "repairCostHourDesc": "Zeigt die durchschnittlichen Reparaturkosten für jede Betriebsstunde des Assets. Reparaturkosten/Stunde = Summe der Reparaturkosten über die Lebensdauer ÷ Gesamte verfügbare Zeit",
+      "lifetimeMaintenanceDesc": "Wartungskosten über die Lebensdauer = (Wenn (AA-Kategorie ist 'Vorbeugende Wartung' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "avgMaintenanceCostDesc": "Kosten für jedes Wartungsereignis. Durchschnittliche Wartungskosten = Durchschnitt von (Wenn (AA-Kategorie ist 'Vorbeugende Wartung' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "repairsDesc": "Reparaturkosten über die Lebensdauer = (Wenn (AA-Kategorie ist 'Korrektur/Reparatur' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "avgRepairCostDesc": "Kosten für jedes Reparaturereignis. Durchschnittliche Reparaturkosten = Durchschnitt von (Wenn (AA-Kategorie ist 'Korrektur/Reparatur' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "assetAgeDesc": "Verstrichene Zeit seit dem Kaufdatum des Assets. Asset-Alter = Aktuelles Datum - Kaufdatum",
+      "remainingUsefulLifeDesc": "Berechnet auf Basis des Kaufdatums und der geschätzten Nutzungsdauer. Verbleibende Nutzungsdauer (VND) = Geschätzte Nutzungsdauer - Asset-Alter",
+      "lastMaintenanceDateDesc": "Datum der letzten Wartung. Letztes Wartungsdatum = Datum des letzten Auftrags, bei dem AA-Kategorie = 'Vorbeugende Wartung'",
+      "lastRepairDateDesc": "Datum der letzten Reparatur. Letztes Reparaturdatum = Datum des letzten Auftrags, bei dem AA-Kategorie = 'Korrektur/Reparatur'"
     }
   },
   "assetLog": {
@@ -19250,6 +19365,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "Öffentlich Aktivieren",
+            "plural": "Öffentlich Aktivieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "Formular",
+            "plural": "Formulare",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19330,6 +19459,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "Standardsprache",
+            "plural": "Standardsprachen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Standard",
+            "plural": "Standards",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -19357,7 +19500,12 @@
           "monthVariable": "M-Zeichen repräsentieren den numerischen Monat des Ticket-Erstellungsdatums ('01' = Jan, '02' = Feb)",
           "dayVariable": "D-Zeichen repräsentieren den numerischen Tag des Monats des Datensatz-Erstellungsdatums (z. B. '01' bis '31' für Januar)",
           "autoCloseAfterNoActivity": "Ticket automatisch nach Inaktivität schließen (Std.)",
-          "hereExamples": "Hier sind einige Beispiele:"
+          "hereExamples": "Hier sind einige Beispiele:",
+          "enablingThePublic": "Die Öffentlichkeit aktivieren",
+          "allowsUserScan": "ermöglicht Benutzern das Scannen von",
+          "or": "oder",
+          "qrCodesCreate": "QR-Codes zum Erstellen von",
+          "publicFormLink": "Öffentlicher Formularlink"
         }
       },
       "listView": {
@@ -19648,7 +19796,9 @@
             },
             "messages": {
               "possibleStatus": "Die möglichen Status, die Ihre",
-              "mayGoThrough": "durchlaufen können"
+              "mayGoThrough": "durchlaufen können",
+              "statusCategories": "Statuskategorien sind eine Möglichkeit, Ihre Status zu gruppieren. Diese Gruppen werden verwendet in",
+              "analyticCalc": "analytischen Berechnungen."
             }
           },
           "type": {

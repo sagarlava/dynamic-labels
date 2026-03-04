@@ -1546,6 +1546,41 @@
         "plural": "性能和成本分析",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "性能与可靠性",
+        "plural": "性能与可靠性",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "财务状况",
+        "plural": "财务状况",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "生命周期",
+        "plural": "生命周期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "运营成本",
+        "plural": "运营成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "总支出明细",
+        "plural": "总支出明细",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1608,9 +1643,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "剩余使用寿命 (RUL)",
-        "plural": "剩余使用寿命 (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "剩余使用寿命",
+        "plural": "剩余使用寿命",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1643,9 +1678,9 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "维修次数",
-        "plural": "维修次数",
+        "original": "Repairs",
+        "singular": "维修",
+        "plural": "维修",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1656,17 +1691,17 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (平均维修时间)",
-        "plural": "MTTR (平均维修时间)",
+       "mttr": {
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (平均故障间隔时间)",
-        "plural": "MTBF (平均故障间隔时间)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1699,16 +1734,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "每小时运营成本",
-        "plural": "每小时运营成本",
+        "original": "Operational Cost/Hour",
+        "singular": "运营成本/小时",
+        "plural": "运营成本/小时",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "每小时维修成本",
-        "plural": "每小时维修成本",
+        "original": "Repair Cost/Hour",
+        "singular": "维修成本/小时",
+        "plural": "维修成本/小时",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1725,7 +1760,87 @@
         "plural": "生命周期维护成本",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "总工作数",
+        "plural": "总工作数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "维修总计",
+        "plural": "维修总计",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "停机时间",
+        "plural": "停机时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "总使用时间",
+        "plural": "总使用时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "当前账面价值",
+        "plural": "当前账面价值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "最近",
+        "plural": "最近",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "日期",
+        "plural": "日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "基于总运营时间和故障次数。MTBF = 总可用时间 ÷ 维修次数",
+      "totalJobsDesc": "系统中所有工单的计数。总工作数 = 所有工单的计数",
+      "failureRateDesc": "根据总停机时间和故障次数计算。故障率 = (总停机时间 ÷ 总可用时间) x 100",
+      "mttrDesc": "根据维修次数和总维修时间计算。MTTR = 总维修时间 ÷ 维修次数",
+      "totalRepairDesc": "所有维修的累计时间。总维修时间 = 工单类别为'纠正/维修'的所有签入时间之和",
+      "downtimeDesc": "从开始使用起的累计停机时间。总停机时间 = 总和（状态类别 = '停机'的持续时间）",
+      "utilizationRateDesc": "基于使用时间和总可用时间的使用百分比。利用率 = (使用时间 ÷ 总可用时间) x 100",
+      "totalAvailTimeDesc": "从开始使用起的累计运营时间。总可用时间 = 总和（状态组 = '活跃'或'空闲'的持续时间）",
+      "timeUsedDesc": "资产实际使用时间。使用时间 = 总和（状态组 = '活跃'的持续时间）",
+      "currentBookValueDesc": "资产当前账面价值。账面价值 = 初始成本 - 累计折旧",
+      "initialCostDesc": "输入资产的购买或采购成本。初始成本 = 用户输入（资产价格）",
+      "depreciationRateDesc": "衡量资产价值随时间的损失。折旧率 % = 用户输入（资产年折旧率）",
+      "operationalCostHourDesc": "通过总活跃小时数和总运营成本计算。运营成本/小时 = (终身维修成本总和 + 终身维护成本总和) ÷ 总可用时间",
+      "repairCostHourDesc": "显示资产每运营一小时的平均维修成本。维修成本/小时 = 终身维修成本总和 ÷ 总可用时间",
+      "lifetimeMaintenanceDesc": "终身维护成本 = (如果（工单类别为'预防性维护' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "avgMaintenanceCostDesc": "每次维护事件的成本。平均维护成本 = 平均值（如果（工单类别为'预防性维护' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "repairsDesc": "终身维修成本 = (如果（工单类别为'纠正/维修' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "avgRepairCostDesc": "每次维修事件的成本。平均维修成本 = 平均值（如果（工单类别为'纠正/维修' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "assetAgeDesc": "自资产购买日期以来经过的时间。资产年龄 = 当前日期 - 购买日期",
+      "remainingUsefulLifeDesc": "根据购买日期和预计使用寿命计算。剩余使用寿命（RUL）= 预计使用寿命 - 资产年龄",
+      "lastMaintenanceDateDesc": "最后一次维护的日期。最近维护日期 = 工单类别 = '预防性维护'的最后一项工作日期",
+      "lastRepairDateDesc": "最后一次维修的日期。最后维修日期 = 工单类别 = '纠正/维修'的最后一项工作日期"
     }
   },
   "assetLog": {
@@ -19250,6 +19365,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "启用公众",
+            "plural": "启用公众",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "表单",
+            "plural": "表单",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19330,6 +19459,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "默认语言",
+            "plural": "默认语言",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "默认",
+            "plural": "默认",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -19357,7 +19500,12 @@
           "monthVariable": "M字符表示票据创建日期的月份数字（'01' = 一月，'02' = 二月）",
           "dayVariable": "D字符表示记录创建日期的月份数字天数（例如，一月为'01'到'31'）",
           "autoCloseAfterNoActivity": "在没有活动后自动关闭票据（小时）",
-          "hereExamples": "以下是一些示例："
+          "hereExamples": "以下是一些示例：",
+          "enablingThePublic": "允许公众",
+          "allowsUserScan": "允许用户扫描",
+          "or": "或",
+          "qrCodesCreate": "二维码以创建",
+          "publicFormLink": "公开表单链接"
         }
       },
       "listView": {
@@ -19648,7 +19796,9 @@
             },
             "messages": {
               "possibleStatus": "可能的状态",
-              "mayGoThrough": "可能经历的"
+              "mayGoThrough": "可能经历的",
+              "statusCategories": "状态类别是对状态进行分组的一种方式。这些分组将用于",
+              "analyticCalc": "分析计算。"
             }
           },
           "type": {
