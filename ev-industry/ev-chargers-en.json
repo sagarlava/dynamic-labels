@@ -2772,7 +2772,8 @@
             "totalJobsDesc":"Count of all Job Orders in the system. Total Jobs = Count of all Job Orders",
             "failureRateDesc":"Calculated based on Total Downtime Period and Number of Failures. Failure Rate = (Total Downtime ÷ Total Available Time) x 100",
             "mttrDesc":"Calculated based on Number of Repairs and Total Repair Time. MTTR = Total Repair Time ÷ Number of Repairs",
-            "totalRepairDesc":"Cumulative time taken for all repairs. Total Repair Time = Sum of all check-in time JO Category is ‘Corrective/Repair’",
+            "totalRepairDesc":"Count of repair occurrences. Number Of Repairs = Count of all Job Orders where JO Category is ‘Corrective/Repair’",
+            "totalRepairTimeDesc":"Cumulative time taken for all repairs. Total Repair Time = Sum of all check-in time JO Category is ‘Corrective/Repair’",
             "downtimeDesc":"Cumulative downtime from the start of use. Total Downtime = Sum (Duration where status category = 'Downtime')",
             "utilizationRateDesc":"Percentage usage based on Time Used and Total Available Time. Utilization Rate = (Time Used ÷ Total Available Time) x 100",
             "totalAvailTimeDesc":"Cumulative operational time from the start of use. Total Available Time = Sum (Duration where status group = 'Active' OR 'Idle')",
@@ -5510,6 +5511,13 @@
                 "original": "Task and Spare Part Details",
                 "singular": "Task and Spare Part Details",
                 "plural": "Task and Spare Part Details",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec55": {
+                "original": "Activity",
+                "singular": "Activity",
+                "plural": "Activities",
                 "setupEdit": false,
                 "setupVisible": false
             }
