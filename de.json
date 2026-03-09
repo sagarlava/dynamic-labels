@@ -12619,85 +12619,94 @@
     }
   },
   "history": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "History",
       "singular": "Historie",
       "plural": "Historien",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "fields": {
-      "setupVisible": true,
+      "setupEdit": false,
+      "setupVisible": false,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Zeit & Datum",
+        "original": "Transferred Date",
+        "singular": "Übertragungsdatum",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "field": {
         "original": "Field",
         "singular": "Feld",
         "plural": "Felder",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "modifiedBy": {
         "original": "Modified By",
         "singular": "Geändert Von",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Angepasst Von",
+        "original": "Transferred By",
+        "singular": "Übertragen Von",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "Neuer Wert",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Neu Angepasste Menge",
+        "original": "New Quantity",
+        "singular": "Neue Menge",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "Alter Wert",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newQty": {
         "original": "New Qty",
         "singular": "Neue Menge",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "oldQty": {
-        "original": "Old Qty",
+        "original": "Old Quantity",
         "singular": "Alte Menge",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "displayName": {
         "original": "Display Name",
         "singular": "Anzeigename",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Menge",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1,528 +1,110 @@
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.label.setupEdit": false } }
+{ "module": "asset", "language": "de" },
+{ $set: { "setup.fields.acquisitionDate.original": "Acquisition Date" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fields.label.setupEdit": false } }
+{ "module": "asset", "language": "de" },
+{ $set: { "setup.fields.acquisitionDate.singular": "Erwerbsdatum" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fields.description.setupEdit": false } }
+{ "module": "asset", "language": "de" },
+{ $set: { "setup.fields.acquisitionDate.plural": "Erwerbsdaten" } }
 )
 
-
-// Type
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.sections.sec1.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.sections.sec2.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.fields.description.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.type.fields.default.setupEdit": false } }
-)
-
-// Status
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.fields.default.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.status.fields.colorCode.setupEdit": false } }
-)
-
-// Channel
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.channel.fields.default.setupEdit": false } }
-)
-
-// Area
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.area.fields.default.setupEdit": false } }
-)
-
-// Category
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.category.fields.default.setupEdit": false } }
-)
-
-// SubCategory
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.fields.category.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.subCategory.fields.default.setupEdit": false } }
-)
-
-// Departments
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.departments.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.departments.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.departments.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.departments.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.departments.fields.default.setupEdit": false } }
-)
-
-// Fault
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.sections.sec1.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.fields.displayName.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.fields.default.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.fault.fields.code.setupEdit": false } }
-)
-
-// Priority
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.priority.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.priority.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.priority.fields.name.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.priority.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.priority.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.priority.fields.default.setupEdit": false } }
-)
-
-// Resolution
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.sections.sec1.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.fields.name.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.fields.code.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.fields.status.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.resolution.fields.default.setupEdit": false } }
-)
-
-// System
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.sections.sec0.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.sections.sec1.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.fields.label.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.fields.order.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.fields.status.setupEdit": false } }
-)
-
+// remainingUsefulLife
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.fields.code.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.remainingUsefulLife.original": "Remaining Useful Life" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.system.fields.default.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.remainingUsefulLife.singular": "Verbleibende Nutzungsdauern" } }
 )
 
-// Family
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.label.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.remainingUsefulLife.plural": "Verbleibende Nutzungsdauern" } }
 )
 
+// numberOfRepair
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.sections.sec0.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.numberOfRepair.original": "Repairs" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.fields.name.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.numberOfRepair.singular": "Reparatur" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.fields.label.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.numberOfRepair.plural": "Reparaturen" } }
 )
 
+// mttr
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.fields.order.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mttr.original": "MTTR" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.fields.status.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mttr.singular": "MTTR" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.fields.code.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mttr.plural": "MTTR" } }
 )
 
+// mtbf
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.family.fields.default.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mtbf.original": "MTBF" } }
 )
 
-// Unit Measurement
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.label.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mtbf.singular": "MTBF" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.sections.sec0.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mtbf.plural": "MTBF" } }
 )
 
+// operatingCostHour
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.fields.name.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.operatingCostHour.original": "Operational Cost/Hour" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.fields.label.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.operatingCostHour.singular": "Betriebskosten/Stunde" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.fields.order.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.operatingCostHour.plural": "Betriebskosten/Stunde" } }
 )
 
+// repairCostHour
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.fields.status.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.repairCostHour.original": "Repair Cost/Hour" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.fields.code.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.repairCostHour.singular": "Reparaturkosten/Stunde" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "setup", "language": "de" },
-{ $set: { "setup.modules.picklist.unitMeasurement.fields.default.setupEdit": false } }
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.repairCostHour.plural": "Reparaturkosten/Stunde" } }
 )
