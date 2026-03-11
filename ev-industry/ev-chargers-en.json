@@ -5113,7 +5113,23 @@
             "subTotal": "Sub Total",
             "totalAmount": "Total Amount",
             "groupByTask": "Group by Task",
-            "deleteTaskTemplateRemoveSpareParts": "Deleting this task template will also remove all associated spare parts"
+            "deleteTaskTemplateRemoveSpareParts": "Deleting this task template will also remove all associated spare parts",
+            "filterSelectProduct":"Filter and select the spare parts you want to export QR codes for",
+            "exportQrForAll":"Export QR codes for all components too",
+            "exportQrSettings":"Export QR Settings",
+            "selectQrCodeSize":"Select QR Code Size",
+            "selectFileFormat":"Select File Format",
+            "uncheckSelectAll":"Uncheck “select all” to view the whole list again",
+            "addComponents":"Add Components",
+            "selectComponentsToAdd":"Select components that you’d like to add to this spare part",
+            "updateFieldsOfComponents":"Update fields of component(s) to match the parent spare part.",
+            "someComponentsSelected":"Some components that you have selected already belong to a parent spare part. Continuing will edit their parent spare part to",
+            "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this spare part’s components?",
+            "respectiveFieldsOverridden":"The respective fields in the component will be overridden if selected above",
+            "youCanCheckOnceOneFilterSelected":"You can only check this when you have selected at least one filter. All filtered spare parts will be selected. Note: Only 500 spare parts can be exported at a time.",
+            "alsoUpdateComponentStatus":"Also update component statuses",
+            "wouldYouAlsoUpdateFields":"Would you also like up to update the respective fields in this",
+            "component":"component"
         }
     },
     "jobOrder": {

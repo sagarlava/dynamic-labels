@@ -3961,7 +3961,23 @@
       "subTotal": "Zwischensumme",
       "totalAmount": "Gesamtbetrag",
        "groupByTask": "Gruppieren nach Aufgabe",
-      "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile"
+      "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile",
+      "filterSelectProduct": "Filtern und wählen Sie die Ersatzteile aus, für die Sie QR-Codes exportieren möchten",
+      "exportQrForAll": "QR-Codes auch für alle Komponenten exportieren",
+      "exportQrSettings": "QR-Export-Einstellungen",
+      "selectQrCodeSize": "QR-Code-Größe auswählen",
+      "selectFileFormat": "Dateiformat auswählen",
+      "uncheckSelectAll": "Deaktivieren Sie “Alle auswählen”, um die gesamte Liste erneut anzuzeigen",
+      "addComponents": "Komponenten hinzufügen",
+      "selectComponentsToAdd": "Wählen Sie Komponenten aus, die Sie diesem Ersatzteil hinzufügen möchten",
+      "updateFieldsOfComponents": "Felder der Komponente aktualisieren, um dem übergeordneten Ersatzteil zu entsprechen.",
+      "someComponentsSelected": "Einige der ausgewählten Komponenten gehören bereits zu einem übergeordneten Ersatzteil. Wenn Sie fortfahren, wird deren übergeordnetes Ersatzteil geändert zu",
+      "wouldYouAlsoLikeToUpdate": "Möchten Sie auch die entsprechenden Felder in den Komponenten dieses Ersatzteils aktualisieren?",
+      "respectiveFieldsOverridden": "Die entsprechenden Felder in der Komponente werden überschrieben, wenn oben ausgewählt",
+      "youCanCheckOnceOneFilterSelected": "Sie können dies nur aktivieren, wenn Sie mindestens einen Filter ausgewählt haben. Alle gefilterten Ersatzteile werden ausgewählt. Hinweis: Es können nur 500 Ersatzteile auf einmal exportiert werden.",
+      "alsoUpdateComponentStatus": "Komponentenstatus ebenfalls aktualisieren",
+      "wouldYouAlsoUpdateFields": "Möchten Sie auch die entsprechenden Felder in diesem",
+      "component": "Komponente"
     }
   },
   "usage":{

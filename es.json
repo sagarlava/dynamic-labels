@@ -3961,7 +3961,23 @@
       "subTotal": "Subtotal",
       "totalAmount": "Monto Total",
       "groupByTask": "Group By Task",
-      "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
+      "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas",
+      "filterSelectProduct": "Filtra y selecciona los repuestos para los que deseas exportar códigos QR",
+      "exportQrForAll": "Exportar códigos QR para todos los componentes también",
+      "exportQrSettings": "Configuración de Exportación QR",
+      "selectQrCodeSize": "Seleccionar Tamaño del Código QR",
+      "selectFileFormat": "Seleccionar Formato de Archivo",
+      "uncheckSelectAll": "Desmarca “seleccionar todo” para ver la lista completa nuevamente",
+      "addComponents": "Agregar Componentes",
+      "selectComponentsToAdd": "Selecciona los componentes que deseas agregar a este repuesto",
+      "updateFieldsOfComponents": "Actualiza los campos del componente para que coincidan con el repuesto principal.",
+      "someComponentsSelected": "Algunos componentes que has seleccionado ya pertenecen a un repuesto principal. Continuar editará su repuesto principal a",
+      "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos respectivos en los componentes de este repuesto?",
+      "respectiveFieldsOverridden": "Los campos respectivos en el componente serán reemplazados si se selecciona arriba",
+      "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los repuestos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 repuestos a la vez.",
+      "alsoUpdateComponentStatus": "También actualizar los estados de los componentes",
+      "wouldYouAlsoUpdateFields": "¿También deseas actualizar los campos respectivos en este",
+      "component": "componente"
     }
   },
   "usage":{

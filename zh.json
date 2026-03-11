@@ -3961,7 +3961,23 @@
       "subTotal": "小计",
       "totalAmount": "总金额",
       "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件",
-       "groupByTask": "按任务分组"
+      "groupByTask": "按任务分组",
+      "filterSelectProduct": "筛选并选择您要导出二维码的备件",
+      "exportQrForAll": "同时导出所有组件的二维码",
+      "exportQrSettings": "导出二维码设置",
+      "selectQrCodeSize": "选择二维码尺寸",
+      "selectFileFormat": "选择文件格式",
+      "uncheckSelectAll": "取消勾选“全选”以再次查看完整列表",
+      "addComponents": "添加组件",
+      "selectComponentsToAdd": "选择您想添加到此备件的组件",
+      "updateFieldsOfComponents": "更新组件字段以匹配父备件。",
+      "someComponentsSelected": "您选择的某些组件已属于一个父备件。继续操作将把其父备件编辑为",
+      "wouldYouAlsoLikeToUpdate": "您是否也想更新此备件组件中的相应字段？",
+      "respectiveFieldsOverridden": "如果在上方选择，组件中的相应字段将被覆盖",
+      "youCanCheckOnceOneFilterSelected": "只有在选择至少一个筛选条件后才能勾选此项。所有已筛选的备件将被选中。注意：每次最多只能导出500个备件。",
+      "alsoUpdateComponentStatus": "同时更新组件状态",
+      "wouldYouAlsoUpdateFields": "您是否也想更新此",
+      "component": "组件"
     }
   },
   "usage":{

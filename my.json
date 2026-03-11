@@ -3962,7 +3962,23 @@
       "subTotal": "Jumlah Kecil",
       "totalAmount": "Jumlah Keseluruhan",
        "groupByTask": "Kumpulkan mengikut Tugas",
-      "deleteTaskTemplateRemoveSpareParts":"Menghapus templat tugas ini juga akan membuang semua alat ganti yang berkaitan"
+      "deleteTaskTemplateRemoveSpareParts":"Menghapus templat tugas ini juga akan membuang semua alat ganti yang berkaitan",
+      "filterSelectProduct": "Tapis dan pilih alat ganti yang anda ingin eksport kod QR",
+      "exportQrForAll": "Eksport kod QR untuk semua komponen juga",
+      "exportQrSettings": "Tetapan Eksport QR",
+      "selectQrCodeSize": "Pilih Saiz Kod QR",
+      "selectFileFormat": "Pilih Format Fail",
+      "uncheckSelectAll": "Nyahtanda “pilih semua” untuk melihat senarai penuh semula",
+      "addComponents": "Tambah Komponen",
+      "selectComponentsToAdd": "Pilih komponen yang anda ingin tambah pada alat ganti ini",
+      "updateFieldsOfComponents": "Kemas kini medan komponen untuk sepadan dengan alat ganti induk.",
+      "someComponentsSelected": "Sesetengah komponen yang anda pilih sudah dimiliki oleh alat ganti induk. Meneruskan akan mengedit alat ganti induk mereka kepada",
+      "wouldYouAlsoLikeToUpdate": "Adakah anda juga ingin mengemas kini medan yang berkaitan dalam komponen alat ganti ini?",
+      "respectiveFieldsOverridden": "Medan yang berkaitan dalam komponen akan ditindih jika dipilih di atas",
+      "youCanCheckOnceOneFilterSelected": "Anda hanya boleh menandai ini apabila anda telah memilih sekurang-kurangnya satu penapis. Semua alat ganti yang ditapis akan dipilih. Nota: Hanya 500 alat ganti boleh dieksport pada satu masa.",
+      "alsoUpdateComponentStatus": "Kemas kini status komponen juga",
+      "wouldYouAlsoUpdateFields": "Adakah anda juga ingin mengemas kini medan yang berkaitan dalam",
+      "component": "komponen"
     }
   },
   "usage":{
