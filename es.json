@@ -27713,7 +27713,11 @@
       "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo",
       "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo",
       "setupAssetMeterMaxAssetsTypeReached": "Ya se ha alcanzado el número máximo de medidores para el tipo de activo seleccionado",
-      "setupAssetMeterHasAssetsRecord": "El medidor de activos está vinculado a uno o más registros de activos, por lo tanto, no se puede eliminar"
+      "setupAssetMeterHasAssetsRecord": "El medidor de activos está vinculado a uno o más registros de activos, por lo tanto, no se puede eliminar",
+      "SetupCustomerPortalTemplateJobOrderTypeMissing": "El tipo de orden de trabajo relacionado con la plantilla no está configurado en el portal. Por favor, agréguelo a los tipos de órdenes de trabajo.",
+      "setupJobOrderStatusNotFound": "Estado de la Orden de Trabajo no encontrado",
+      "SetupCustomerPortalConfigNotFound": "Configuración del portal del cliente no encontrada para este tenant",
+      "SetupCustomerPortalSubDomainAlreadyInUse": "El subdominio ya está en uso por otro tenant"
     },
     "labelBE": {
       "profileTableColumnSetup": {

@@ -27713,7 +27713,11 @@
       "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja",
       "setupTmplTaskHasJobOrderProduct": "Tidak dapat dipadam: Templat digunakan untuk mencipta satu atau lebih Produk Pesanan Kerja",      
       "setupAssetMeterMaxAssetsTypeReached": "Telah mencapai bilangan maksimum Meter Aset untuk Jenis Aset yang dipilih",
-      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam"
+      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam",
+      "SetupCustomerPortalTemplateJobOrderTypeMissing": "Jenis pesanan kerja yang berkaitan dengan templat tidak dikonfigurasi dalam portal. Sila tambahkannya ke jenis pesanan kerja.",
+      "setupJobOrderStatusNotFound": "Status Pesanan Kerja tidak dijumpai",
+      "SetupCustomerPortalConfigNotFound": "Konfigurasi portal pelanggan tidak dijumpai untuk penyewa ini",
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain sudah digunakan oleh penyewa lain"
     },
     "labelBE": {
       "profileTableColumnSetup": {

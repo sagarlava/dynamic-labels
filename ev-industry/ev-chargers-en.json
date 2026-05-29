@@ -22858,7 +22858,11 @@
             "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more Job Orders",
             "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products",
             "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Equipment Meters for selected Equipment Type",
-            "setupAssetMeterHasAssetsRecord": "Equipments Meter is linked with one or more Equipments records, hence unable to delete"
+            "setupAssetMeterHasAssetsRecord": "Equipments Meter is linked with one or more Equipments records, hence unable to delete",
+            "SetupCustomerPortalTemplateJobOrderTypeMissing": "Job order type related to the template is not configured in the portal. Please add it to the job order types.",
+            "setupJobOrderStatusNotFound": "Job Order Status not found",
+            "SetupCustomerPortalConfigNotFound": "Customer portal configuration not found for this tenant",
+            "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant"
         },
         "labelBE": {
             "profileTableColumnSetup": {

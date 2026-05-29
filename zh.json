@@ -27713,7 +27713,11 @@
       "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单",
       "setupTmplTaskHasJobOrderProduct": "无法删除：该模板用于创建一个或多个工单产品",      
       "setupAssetMeterMaxAssetsTypeReached": "所选资产类型的资产计量器数量已达上限",
-      "setupAssetMeterHasAssetsRecord": "资产计量器已关联一个或多个资产记录，因此无法删除"
+      "setupAssetMeterHasAssetsRecord": "资产计量器已关联一个或多个资产记录，因此无法删除",
+      "SetupCustomerPortalTemplateJobOrderTypeMissing": "模板相关的工单类型未在门户中配置。请将其添加到工单类型中。",
+      "setupJobOrderStatusNotFound": "未找到工单状态",
+      "SetupCustomerPortalConfigNotFound": "未找到此租户的客户门户配置",
+      "SetupCustomerPortalSubDomainAlreadyInUse": "子域名已被另一个租户使用"
     },
     "labelBE": {
       "profileTableColumnSetup": {
