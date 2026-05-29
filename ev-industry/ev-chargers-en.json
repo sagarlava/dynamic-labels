@@ -1426,7 +1426,8 @@
             "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Equipment Sub Category is used in one or more Equipments",
             "assetParentInvalid": "The chosen parent is already in the equipment hierarchy",
             "assetHasChildAssets": "This equipment cannot be deleted because it has dependent child equipments. Please unlink them first",
-            "assetHasBinTransfer": "This equipment cannot be deleted because it has dependent bin transfers. Please unlink them first"
+            "assetHasBinTransfer": "This equipment cannot be deleted because it has dependent bin transfers. Please unlink them first",
+            "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
         },
         "tooltips": {
             "setupVisible": false,

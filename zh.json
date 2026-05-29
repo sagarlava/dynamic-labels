@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets":"无法删除：资产子类别在一个或多个资产中使用",
       "assetParentInvalid":"所选父级已在资产层次结构中",
       "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联",
-      "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。"
+      "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。",
+      "assetHasJobOrder": "系统中已存在该资产的工单数据"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9467,7 +9468,9 @@
       "selectAProduct": "选择一个备件",
       "userCalendlyNoIntegrate": "该用户未将Calendly集成到他们的账户",
       "noContactFoundForThisJobOrder": "未找到此工作单的联系人",
-      "noContactFoundForTheJobOrdersCustomer": "未找到工作单客户的联系人"
+      "noContactFoundForTheJobOrdersCustomer": "未找到工作单客户的联系人",
+      "quickBooksCustomerRequired":"需要一个有效的 QuickBooks 客户才能生成发票。请确保客户信息完整后再试一次",
+      "quickBooksProductsRequired": "至少需要一个产品才能生成发票。请向工作订单添加产品，然后重试。"
     },
     "validationBE": {
       "jobOrderStatusNotFound": "未找到状态",

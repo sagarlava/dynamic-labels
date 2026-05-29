@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos", 
       "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos",
       "assetHasChildAssets": "Este activo no se puede eliminar porque tiene activos hijos dependientes. Por favor, desvincúlelos primero",
-      "assetHasBinTransfer": "Este activo no se puede eliminar porque tiene transferencias de contenedor dependientes. Por favor, desvincúlelas primero."
+      "assetHasBinTransfer": "Este activo no se puede eliminar porque tiene transferencias de contenedor dependientes. Por favor, desvincúlelas primero.",
+      "assetHasJobOrder": "Existen datos de órdenes de trabajo en el sistema para los activos"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9467,7 +9468,9 @@
       "selectAProduct": "Seleccione una Pieza de Repuesto",
       "userCalendlyNoIntegrate": "Este usuario no tiene Calendly integrado en su cuenta",
       "noContactFoundForThisJobOrder": "No se encontró contacto para esta Orden de Trabajo",
-      "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo"
+      "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo",
+      "quickBooksCustomerRequired":"Se requiere un Cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e intente nuevamente.",
+      "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e intente nuevamente."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Estado No Encontrado",

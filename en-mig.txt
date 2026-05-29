@@ -1,110 +1,166 @@
+// history.label
 db.dynamic_label_setup.updateMany(
-{ "module": "asset", "language": "en" },
-{ $set: { "setup.fields.acquisitionDate.original": "Acquisition Date" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.label.setupEdit": false } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "asset", "language": "en" },
-{ $set: { "setup.fields.acquisitionDate.singular": "Acquisition Date" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.label.setupVisible": false } }
+)
+
+// history.fields
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.setupVisible": false } }
+)
+
+// history.fields.timeDate
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.timeDate.original": "Transferred Date" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "asset", "language": "en" },
-{ $set: { "setup.fields.acquisitionDate.plural": "Acquisition Date" } }
-)
-
-// remainingUsefulLife
-db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.remainingUsefulLife.original": "Remaining Useful Life" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.timeDate.singular": "Transferred Date" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.remainingUsefulLife.singular": "Remaining Useful Life" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.timeDate.setupEdit": false } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.remainingUsefulLife.plural": "Remaining Useful Life" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.timeDate.setupVisible": false } }
 )
 
-// numberOfRepair
+// history.fields.field
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.numberOfRepair.original": "Repairs" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.numberOfRepair.singular": "Repair" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.field.setupEdit": false } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.numberOfRepair.plural": "Repairs" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.field.setupVisible": false } }
 )
 
-// mttr
+// history.fields.modifiedBy
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.mttr.original": "MTTR" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.mttr.singular": "MTTR" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.modifiedBy.setupEdit": false } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.mttr.plural": "MTTR" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.modifiedBy.setupVisible": false } }
 )
 
-// mtbf
+// history.fields.adjustedBy
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.mtbf.original": "MTBF" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.mtbf.singular": "MTBF" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.adjustedBy.original": "Transferred By" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.mtbf.plural": "MTBF" } }
-)
-
-// operatingCostHour
-db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.operatingCostHour.original": "Operational Cost/Hour" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.adjustedBy.singular": "Transferred By" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.operatingCostHour.singular": "Operational Cost/Hour" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.adjustedBy.setupEdit": false } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.operatingCostHour.plural": "Operational Cost/Hour" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.adjustedBy.setupVisible": false } }
 )
 
-// repairCostHour
+// history.fields.newValue
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.repairCostHour.original": "Repair Cost/Hour" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.repairCostHour.singular": "Repair Cost/Hour" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newValue.setupEdit": false } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "analytic", "language": "en" },
-{ $set: { "setup.fields.repairCostHour.plural": "Repair Cost/Hour" } }
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newValue.setupVisible": false } }
+)
+
+// history.fields.newlyAdjustedQty
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newlyAdjustedQty.original": "New Quantity" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newlyAdjustedQty.singular": "New Quantity" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newlyAdjustedQty.setupEdit": false } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newlyAdjustedQty.setupVisible": false } }
+)
+
+// history.fields.oldValue
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.oldValue.setupEdit": false } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.oldValue.setupVisible": false } }
+)
+
+// history.fields.newQty
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newQty.setupEdit": false } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.newQty.setupVisible": false } }
+)
+
+// history.fields.oldQty
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.oldQty.original": "Old Quantity" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.oldQty.singular": "Old Quantity" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.oldQty.setupEdit": false } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.oldQty.setupVisible": false } }
+)
+
+// history.fields.displayName
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.displayName.setupEdit": false } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "history", "language": "en" },
+{ $set: { "setup.fields.displayName.setupVisible": false } }
 )

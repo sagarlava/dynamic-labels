@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset",
       "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset",
       "assetHasChildAssets": "Aset ini tidak boleh dipadam kerana ia mempunyai aset anak bergantung. Sila putuskan hubungan mereka terlebih dahulu",
-      "assetHasBinTransfer": "Aset ini tidak boleh dipadam kerana ia mempunyai pemindahan bin yang bergantung. Sila nyahpautkannya terlebih dahulu."
+      "assetHasBinTransfer": "Aset ini tidak boleh dipadam kerana ia mempunyai pemindahan bin yang bergantung. Sila nyahpautkannya terlebih dahulu.",
+      "assetHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk aset"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9468,7 +9469,9 @@
       "selectAProduct": "Pilih Alat Ganti",
       "userCalendlyNoIntegrate": "Pengguna ini tidak mempunyai integrasi Calendly dalam akaun mereka",
       "noContactFoundForThisJobOrder": "Tiada kenalan dijumpai untuk Pesanan Kerja ini",
-      "noContactFoundForTheJobOrdersCustomer": "Tiada kenalan dijumpai untuk Pelanggan Pesanan Kerja ini"
+      "noContactFoundForTheJobOrdersCustomer": "Tiada kenalan dijumpai untuk Pelanggan Pesanan Kerja ini",
+      "quickBooksCustomerRequired":"Pelanggan QuickBooks yang sah diperlukan untuk menjana invois. Sila pastikan maklumat pelanggan lengkap dan cuba lagi.",
+      "quickBooksProductsRequired": "Sekurang-kurangnya satu produk diperlukan untuk menjana invois. Sila tambah produk ke pesanan kerja dan cuba lagi."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status Tidak Dijumpai",

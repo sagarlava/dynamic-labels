@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet",
       "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie",
       "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst",
-      "assetHasBinTransfer": "Dieses Asset kann nicht gelöscht werden, da es abhängige Umlagerungen hat. Bitte trennen Sie diese zuerst."
+      "assetHasBinTransfer": "Dieses Asset kann nicht gelöscht werden, da es abhängige Umlagerungen hat. Bitte trennen Sie diese zuerst.",
+      "assetHasJobOrder": "Auftragsdaten sind im System für die Assets vorhanden"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9467,7 +9468,9 @@
       "selectAProduct": "Wählen Sie ein Ersatzteil",
       "userCalendlyNoIntegrate": "Dieser Benutzer hat Calendly nicht in sein Konto integriert",
       "noContactFoundForThisJobOrder": "Kein Kontakt für diesen Arbeitsauftrag gefunden",
-      "noContactFoundForTheJobOrdersCustomer": "Kein Kontakt für den Kunden des Arbeitsauftrags gefunden"
+      "noContactFoundForTheJobOrdersCustomer": "Kein Kontakt für den Kunden des Arbeitsauftrags gefunden",
+      "quickBooksCustomerRequired":"Ein gültiger QuickBooks-Kunde ist erforderlich, um eine Rechnung zu erstellen. Bitte stellen Sie sicher, dass die Kundeninformationen vollständig sind, und versuchen Sie es erneut.",
+      "quickBooksProductsRequired": "Mindestens ein Produkt ist erforderlich, um eine Rechnung zu erstellen. Bitte fügen Sie Produkte zum Arbeitsauftrag hinzu und versuchen Sie es erneut."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status nicht gefunden",

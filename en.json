@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
       "assetParentInvalid":"The chosen parent is already in the asset hierarchy",
       "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first",
-      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first"
+      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first",
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9468,7 +9469,9 @@
       "selectAProduct": "Select a Spare Part",
       "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
       "noContactFoundForThisJobOrder": "No contact found for this Job Order",
-      "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer"
+      "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer",
+      "quickBooksCustomerRequired":"A Valid QuickBooks Customer is required to generate an invoice. Please ensure the customer information is complete and try again.",
+      "quickBooksProductsRequired": "At least one product is required to generate an invoice. Please add products to the job order and try again."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status Not Found",
@@ -12408,7 +12411,7 @@
     "messages":{
       "searchContact": "Search Contact",
       "noContactsFound": "No contacts found",
-      "confirmResendActivationEmail": "Are you sure you want to send Resend Activation Email?",
+      "confirmResendActivationEmail": "Are you sure you want to Resend Activation Email?",
       "confirmActivateUser": "Are you sure you want to activate this user?",
       "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? This user cannot be activated again after deactivation.",
       "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
