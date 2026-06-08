@@ -9530,7 +9530,15 @@
       "jobOrderProductStatusIdNotFound": "ID nicht gefunden",
       "slaJobOrderIdExists": "Ein neuer SLA-Arbeitsauftrag kann nicht bereits eine ID haben",
       "jobOrderPriceBookNotFound": "Price Book nicht gefunden",
-      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen."
+      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen.",
+      "pdfTemplateNotFound": "PDF-Vorlage nicht gefunden",
+      "pdfTemplateSettingMissing": "PDF-Vorlage hat keine Einstellungen",
+      "pdfTemplateNotActive": "PDF-Vorlage ist nicht aktiv",
+      "noValidTrigger": "Kein gültiger Auslöser für den Arbeitsauftrag gefunden",
+      "pdfTemplateNameRequired": "Vorlagenname ist erforderlich",
+      "pdfTemplateTriggerRequired": "Mindestens ein Auslöser ist erforderlich",
+      "pdfTemplateNameTooLong": "Der Vorlagenname überschreitet die maximale Länge von 255 Zeichen",
+      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12635,6 +12643,148 @@
       "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
       "allowedFileSize4MB":"Die Dateigröße überschreitet das Limit von 4 MB. Bitte laden Sie eine kleinere Datei hoch.",
       "onlyAcceptImagesExt":"Nur JPG, JPEG und PNG werden akzeptiert"
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Dokument",
+      "plural": "Dokumente",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Erstellt am",
+        "plural": "Erstellt am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Version",
+        "plural": "Versionen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Auslösestatus",
+        "plural": "Auslösestatus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Auslösertyp",
+        "plural": "Auslösertypen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Notiz",
+        "plural": "Notizen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Zuweisen an",
+        "plural": "Zuweisen an",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "An",
+        "plural": "An",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "E-Mail",
+        "plural": "E-Mails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Empfänger",
+        "plural": "Empfänger",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Prüfpfad",
+        "plural": "Prüfpfade",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "Wählen Sie die zu generierende Vorlage aus",
+      "selectATemplate": "Vorlage auswählen",
+      "addNotesOptional": "Notizen hinzufügen (optional)",
+      "selectEmailRecipients": "E-Mail-Empfänger auswählen",
+      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte eingeben",
+      "selectAContact": "Empfänger auswählen",
+      "enterRecipientEmail": "Empfänger-E-Mail eingeben",
+      "enterCCEmails": "E-Mail-Adressen eingeben",
+      "ccHint": "Adressen mit Kommas trennen. Maximal 2.",
+      "generateNewVersion": "Diese Aktion generiert eine neue Version dieses Dokuments mit aktualisierten Informationen.",
+      "storedOnServer": "Im Server-Dateisystem gespeichert"
+    },
+    "validationFE": {
+      "sentSuccesfully": "erfolgreich gesendet",
+      "generatedSuccesfully": "erfolgreich generiert",
+      "regeneratedSuccesfully": "erfolgreich neu generiert",
+      "failedGenerate": "Generierung fehlgeschlagen",
+      "failedRegenerate": "Neugenerierung fehlgeschlagen",
+      "failedSend": "Senden fehlgeschlagen",
+      "maxCCExceeded": "Maximal 2 CC-Adressen erlaubt.",
+      "invalidCCEmail": "Eine oder mehrere CC-Adressen sind ungültig.",
+      "noUrlAvailable": "Keine Datei-URL verfügbar für dieses",
+      "filePathCopied": "Dateipfad in die Zwischenablage kopiert",
+      "recipientRequired": "Empfänger ist erforderlich.",
+      "emailRequired": "E-Mail ist erforderlich.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "isMissing": "ist nicht vorhanden",
+      "noFileUrlAvailable": "Keine Datei-URL für dieses PDF verfügbar",
+      "browsersCannotPreview": "Browser können lokale Pfade nicht in der Vorschau anzeigen",
+      "noAuditTrail": "Kein Prüfpfad verfügbar"
     }
   },
   "history": {

@@ -9531,7 +9531,15 @@
       "jobOrderProductStatusIdNotFound": "Id not found",
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
       "jobOrderPriceBookNotFound": "Price Book not found",
-      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order."
+      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order.",
+      "pdfTemplateNotFound": "PDF Template not found",
+      "pdfTemplateSettingMissing": "PDF Template has no settings",
+      "pdfTemplateNotActive": "PDF Template is not active",
+      "noValidTrigger": "No valid trigger found for Job Order",
+      "pdfTemplateNameRequired": "Template name is required",
+      "pdfTemplateTriggerRequired": "At least one trigger is required",
+      "pdfTemplateNameTooLong": "Template name exceeds maximum length of 255 characters",
+      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12636,6 +12644,148 @@
       "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
       "allowedFileSize4MB":"File size exceeds 4MB limit. Please upload a smaller file.",
       "onlyAcceptImagesExt":"Only Accept JPG, JPEG and PNG"
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Document",
+      "plural": "Documents",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Generated On",
+        "plural": "Generated On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Version",
+        "plural": "Versions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Trigger Status",
+        "plural": "Trigger Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Trigger Type",
+        "plural": "Trigger Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Assign To",
+        "plural": "Assign To",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "To",
+        "plural": "To",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "Emails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Recipient",
+        "plural": "Recipients",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Audit Trail",
+        "plural": "Audit Trails",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "selectTemplateToGenerate": "Select the template to be generated",
+      "selectATemplate": "Select a template",
+      "addNotesOptional": "Add notes (optional)",
+      "selectEmailRecipients": "Select Email Recipients",
+      "selectRecipientsHint": "Select the recipients of this file, you may enter multiple cc values",
+      "selectAContact": "Select a recipient",
+      "enterRecipientEmail": "Enter recipient email",
+      "enterCCEmails": "Enter email addresses",
+      "ccHint": "Separate addresses with commas. Maximum 2.",
+      "generateNewVersion":"This action will generate a new version of this document with updated information.",
+      "storedOnServer":"Stored on server filesystem"
+    },
+    "validationFE":{
+      "sentSuccesfully":"sent successfully",
+      "generatedSuccesfully":"generated successfully",
+      "regeneratedSuccesfully":"regenerated successfully",
+      "failedGenerate":"Failed to generate",
+      "failedRegenerate":"Failed to regenerate",
+      "failedSend":"Failed to send",
+      "maxCCExceeded": "Maximum 2 CC addresses allowed.",
+      "invalidCCEmail": "One or more CC addresses are invalid.",
+      "noUrlAvailable":"No file URL available for this",
+      "filePathCopied":"File path copied to clipboard",
+      "recipientRequired": "Recipient is required.",
+      "emailRequired": "Email is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "isMissing":"is missing",
+      "noFileUrlAvailable":"No file URL available for this PDF",
+      "browsersCannotPreview":"Browsers cannot preview local paths",
+      "noAuditTrail":"No audit trail available"
     }
   },
   "history": {

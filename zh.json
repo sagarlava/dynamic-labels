@@ -1193,7 +1193,15 @@
       "assetParentInvalid":"所选父级已在资产层次结构中",
       "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联",
       "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。",
-      "assetHasJobOrder": "系统中已存在该资产的工单数据"
+      "assetHasJobOrder": "系统中已存在该资产的工单数据",
+      "pdfTemplateNotFound": "未找到PDF模板",
+      "pdfTemplateSettingMissing": "PDF模板没有设置",
+      "pdfTemplateNotActive": "PDF模板未激活",
+      "noValidTrigger": "未找到有效的工单触发器",
+      "pdfTemplateNameRequired": "模板名称为必填项",
+      "pdfTemplateTriggerRequired": "至少需要一个触发器",
+      "pdfTemplateNameTooLong": "模板名称超过255个字符的最大长度",
+      "pdfTemplateNamePatternMissing": "未配置生成的PDF名称格式"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12635,6 +12643,147 @@
       "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
       "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。",
       "onlyAcceptImagesExt":"仅接受 JPG、JPEG 和 PNG"
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "文件",
+      "plural": "文件",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "生成时间",
+        "plural": "生成时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "版本",
+        "plural": "版本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "触发状态",
+        "plural": "触发状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "触发类型",
+        "plural": "触发类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "singular": "分配给",
+        "plural": "分配给",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "收件人",
+        "plural": "收件人",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "抄送",
+        "plural": "抄送",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "邮箱",
+        "plural": "邮箱",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "姓名",
+        "plural": "姓名",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "收件人",
+        "plural": "收件人",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "审计跟踪",
+        "plural": "审计跟踪",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "选择要生成的模板",
+      "selectATemplate": "选择模板",
+      "addNotesOptional": "添加备注（可选）",
+      "selectEmailRecipients": "选择电子邮件收件人",
+      "selectRecipientsHint": "选择此文件的收件人，您可以输入多个抄送值",
+      "selectAContact": "选择收件人",
+      "enterRecipientEmail": "输入收件人电子邮件",
+      "enterCCEmails": "输入电子邮件地址",
+      "ccHint": "用逗号分隔地址，最多 2 个。",
+      "generateNewVersion": "此操作将使用最新信息生成此文档的新版本。",
+      "storedOnServer": "存储在服务器文件系统中"
+    },
+    "validationFE": {
+      "sentSuccesfully": "发送成功",
+      "generatedSuccesfully": "生成成功",
+      "regeneratedSuccesfully": "重新生成成功",
+      "failedGenerate": "生成失败",
+      "failedRegenerate": "重新生成失败",
+      "failedSend": "发送失败",
+      "maxCCExceeded": "最多允许 2 个抄送地址。",
+      "invalidCCEmail": "一个或多个抄送地址无效。",
+      "noUrlAvailable": "此项目没有可用的文件链接",
+      "filePathCopied": "文件路径已复制到剪贴板",
+      "recipientRequired": "收件人为必填项。",
+      "emailRequired": "电子邮件为必填项。",
+      "invalidEmail": "请输入有效的电子邮件地址。",
+      "isMissing": "缺失",
+      "noFileUrlAvailable": "此 PDF 没有可用的文件链接",
+      "browsersCannotPreview": "浏览器无法预览本地路径",
+      "noAuditTrail": "暂无审计跟踪记录"
     }
   },
   "history": {

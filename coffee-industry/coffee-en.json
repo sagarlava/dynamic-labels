@@ -770,7 +770,15 @@
       "assetParentInvalid": "The chosen parent is already in the equipment hierarchy",
       "assetHasChildAssets": "This equipment cannot be deleted because it has dependent child equipment. Please unlink them first",
       "assetHasBinTransfer": "This equipment cannot be deleted because it has dependent bin transfers. Please unlink them first",
-      "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets",
+      "pdfTemplateNotFound": "PDF Template not found",
+      "pdfTemplateSettingMissing": "PDF Template has no settings",
+      "pdfTemplateNotActive": "PDF Template is not active",
+      "noValidTrigger": "No valid trigger found for Job Order",
+      "pdfTemplateNameRequired": "Template name is required",
+      "pdfTemplateTriggerRequired": "At least one trigger is required",
+      "pdfTemplateNameTooLong": "Template name exceeds maximum length of 255 characters",
+      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured"
     },
     "tooltips": {
       "setupVisible": false,

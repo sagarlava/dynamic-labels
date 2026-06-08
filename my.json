@@ -9531,7 +9531,15 @@
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
       "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID",
       "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai",
-      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini."
+      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini.",
+      "pdfTemplateNotFound": "Templat PDF tidak dijumpai",
+      "pdfTemplateSettingMissing": "Templat PDF tiada tetapan",
+      "pdfTemplateNotActive": "Templat PDF tidak aktif",
+      "noValidTrigger": "Tiada pencetus yang sah dijumpai untuk Job Order",
+      "pdfTemplateNameRequired": "Nama templat diperlukan",
+      "pdfTemplateTriggerRequired": "Sekurang-kurangnya satu pencetus diperlukan",
+      "pdfTemplateNameTooLong": "Nama templat melebihi panjang maksimum 255 aksara",
+      "pdfTemplateNamePatternMissing": "Corak nama PDF yang dijana belum dikonfigurasi"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12636,6 +12644,148 @@
       "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
       "allowedFileSize4MB":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil.",
       "onlyAcceptImagesExt":"Hanya Terima JPG, JPEG dan PNG"
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Dokumen",
+      "plural": "Dokumen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Dijana Pada",
+        "plural": "Dijana Pada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Versi",
+        "plural": "Versi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Status Pencetus",
+        "plural": "Status Pencetus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Jenis Pencetus",
+        "plural": "Jenis Pencetus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Nota",
+        "plural": "Nota",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Tugaskan Kepada",
+        "plural": "Tugaskan Kepada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "Kepada",
+        "plural": "Kepada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Emel",
+        "plural": "Emel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Penerima",
+        "plural": "Penerima",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Jejak Audit",
+        "plural": "Jejak-jejak Audit",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "Pilih templat yang akan dijana",
+      "selectATemplate": "Pilih templat",
+      "addNotesOptional": "Tambah nota (pilihan)",
+      "selectEmailRecipients": "Pilih Penerima E-mel",
+      "selectRecipientsHint": "Pilih penerima fail ini, anda boleh masukkan beberapa nilai CC",
+      "selectAContact": "Pilih penerima",
+      "enterRecipientEmail": "Masukkan e-mel penerima",
+      "enterCCEmails": "Masukkan alamat e-mel",
+      "ccHint": "Asingkan alamat dengan koma. Maksimum 2.",
+      "generateNewVersion": "Tindakan ini akan menjana versi baharu dokumen ini dengan maklumat terkini.",
+      "storedOnServer": "Disimpan dalam sistem fail pelayan"
+    },
+    "validationFE": {
+      "sentSuccesfully": "berjaya dihantar",
+      "generatedSuccesfully": "berjaya dijana",
+      "regeneratedSuccesfully": "berjaya dijana semula",
+      "failedGenerate": "Gagal menjana",
+      "failedRegenerate": "Gagal menjana semula",
+      "failedSend": "Gagal menghantar",
+      "maxCCExceeded": "Maksimum 2 alamat CC dibenarkan.",
+      "invalidCCEmail": "Satu atau lebih alamat CC tidak sah.",
+      "noUrlAvailable": "Tiada URL fail tersedia untuk ini",
+      "filePathCopied": "Laluan fail disalin ke papan klip",
+      "recipientRequired": "Penerima diperlukan.",
+      "emailRequired": "E-mel diperlukan.",
+      "invalidEmail": "Sila masukkan alamat e-mel yang sah.",
+      "isMissing": "hilang",
+      "noFileUrlAvailable": "Tiada URL fail tersedia untuk PDF ini",
+      "browsersCannotPreview": "Pelayar tidak boleh pratonton laluan tempatan",
+      "noAuditTrail": "Tiada jejak audit tersedia"
     }
   },
   "history": {
