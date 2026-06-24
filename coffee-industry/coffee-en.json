@@ -4477,6 +4477,20 @@
         "plural": "Activities",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec56": {
+        "original": "Additional Information",
+        "singular": "Additional Information",
+        "plural": "Additional Information",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec57": {
+        "original": "Record",
+        "singular": "Record",
+        "plural": "Records",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6662,7 +6676,7 @@
       "note": {
         "original": "Note",
         "singular": "Note",
-        "plural": "",
+        "plural": "Notes",
         "setupVisible": true,
         "setupEdit": true
       },
@@ -6812,6 +6826,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "order": {
+        "original": "Order",
+        "singular": "Order",
+        "plural": "Orders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Reference",
+        "plural": "References",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recent": {
+        "original": "Recent",
+        "singular": "Recent",
+        "plural": "Recent",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -6948,7 +6983,11 @@
       "signOff" : "Sign off",
       "photoUpload": "Photo Upload",
       "viewPdf" : "View Pdf",
-      "emailPdf" : "Email Pdf"
+      "emailPdf" : "Email Pdf",
+      "linkThis":"Link this",
+      "jobTitle":"Job Title",
+      "willBeAssigned":"will be assigned to group members in a round-robin order (shared among team members in turn).",
+      "toAllAdded":"to all added"
     }
   },
   "inventory": {
@@ -9061,6 +9100,13 @@
         "original": "User Type",
         "singular": "User Type",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "visit": {
+        "original": "Visit",
+        "singular": "Visit",
+        "plural": "Visits",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -11324,6 +11370,48 @@
         "plural": "Regenerate",
         "setupEdit": false,
         "setupVisible": false
+      },
+       "clickViewSeparate":{
+        "original": "Click to view in a separate tab",
+        "singular": "Click to view in a separate tab",
+        "plural": "Click to view in a separate tab",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "markOptional":{
+        "original": "Mark Optional",
+        "singular": "Mark Optional",
+        "plural": "Mark Optional",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeMandatory":{
+        "original": "Make Mandatory",
+        "singular": "Make Mandatory",
+        "plural": "Make Mandatory",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reAssign":{
+        "original": "Re-Assign",
+        "singular": "Re-Assign",
+        "plural": "Re-Assign",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enter":{
+        "original": "Enter",
+        "singular": "Enter",
+        "plural": "Enter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview":{
+        "original": "Live Form Preview",
+        "singular": "Live Form Preview",
+        "plural": "Live Form Preview",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12056,7 +12144,40 @@
       "confirmation":"Confirmation",
       "makeFilterSelectionsCheckAvail":"Make filter selections to check availability",
       "updateConfirmation":"Update Confirmation",
-      "confirmProceed":"Are you sure you want to proceed"
+      "confirmProceed":"Are you sure you want to proceed",
+      "theLower":"the",
+      "thisLower":"this",
+      "andLower":"and",
+      "toLower":"to",
+      "aLower":"a",
+      "anLower":"an",
+      "orLower":"or",
+      "fromLower": "from",
+      "addClearDesc":"Add a clear description for this",
+      "optional":"optional",
+      "toGetStarted":"To get started",
+      "type":"Type",
+      "noHave":"No",
+      "no":"No",
+      "yes":"Yes",
+      "addedYet":"added yet",
+      "any":"Any",
+      "all":"All",
+      "select":"Select",
+      "selectOption":"Select an option",
+      "selectOptions":"Select options",
+      "selectOne":"Select one",
+      "selectOneOrMore":"Select one or more",
+      "selectAtLeastOne":"Select at least one",
+      "last": "Last",
+      "latest": "Latest",
+      "yetToBeScheduled": "Yet to be scheduled",
+      "scheduled": "Scheduled",
+      "rescheduled": "Rescheduled",
+      "removeAllAssociated":"This action will also remove all associated",
+      "howToUse":"How to Use",
+      "quickSteps":"Quick steps",
+      "one":"one"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -12340,7 +12461,12 @@
       "pleaseMakeOneSelection":"Please make one selection to proceed",
       "itemExists":"This item already exists in the list",
       "pleaseEnterValidUrl":"Please enter valid website URL. You are only allowed to add 1 URL",
-      "capacityReached":"Capacity Reached"
+      "capacityReached":"Capacity Reached",
+      "exceedCharacterLimit":"exceeds character limit",
+      "invalidValue":"Invalid value",
+      "selectFromList":"Please select from the list",
+      "startDateTimeRequired":"Start date, time, and duration is required",
+      "maxChar255Exceed":"Maximum character length of 255 exceeded"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
@@ -20784,6 +20910,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "daysAt": {
+            "original": "days at",
+            "singular": "days at",
+            "plural": "days at",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hour": {
+            "original": "hours",
+            "singular": "hour",
+            "plural": "hours",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "item": {
+            "original": "Item",
+            "singular": "Item",
+            "plural": "Items",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
@@ -20814,7 +20961,20 @@
             "setupVisible": false
           }
         },
-        "messages": {}
+        "messages":{
+          "tiedTo":"tied to",
+          "willDisplayHere":"will be displayed here",
+          "selectIcon":"Select Icon",
+          "enterThe":"Enter the",
+          "andChoose":"and choose when to schedule the work",
+          "for":"for",
+          "to":"to",
+          "needToComplete":"that need to be completed",
+          "searchSelect":"Search and select a",
+          "toBeAdded":"to be added",
+          "willInitiallyBased":"Price will initially be based on Qty and will follow Qty Utilized when",
+          "haveBeenUtilized":"have been utilized"
+        }
       },
       "preventiveMaintenance": {
         "setupVisible": false,
@@ -21146,6 +21306,448 @@
           "selectType":"Select Type",
           "selectSource":"Select Source",
           "chooseAssetTypes":"Choose the equipment types this meter should apply to. Any equipment of the selected types will automatically include this meter."
+        }
+      },
+      "types":{
+         "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Type",
+          "singular": "Type",
+          "plural": "Types",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Basics",
+            "singular": "Basic",
+            "plural": "Basics",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Form Sections",
+            "singular": "Form Section",
+            "plural": "Form Sections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Statuses",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Settings",
+            "singular": "Setting",
+            "plural": "Settings",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon":{
+            "original": "Select Icon",
+            "singular": "Select Icon",
+            "plural": "Select Icons",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo":{
+            "original": "Basic Info",
+            "singular": "Basic Info",
+            "plural": "Basic Info",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field":{
+            "original": "Field",
+            "singular": "Field",
+            "plural": "Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch":{
+            "original": "Branch",
+            "singular": "Branch",
+            "plural": "Branches",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor":{
+            "original": "Floor",
+            "singular": "Floor",
+            "plural": "Floors",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden":{
+            "original": "Hidden",
+            "singular": "Hidden",
+            "plural": "Hidden",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible":{
+            "original": "Visible",
+            "singular": "Visible",
+            "plural": "Visible",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown":{
+            "original": "Shown",
+            "singular": "Shown",
+            "plural": "Shown",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category":{
+            "original": "Category",
+            "singular": "Category",
+            "plural": "Categories",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Types",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label":{
+            "original": "Label",
+            "singular": "Label",
+            "plural": "Labels",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code":{
+            "original": "Code",
+            "singular": "Code",
+            "plural": "Codes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Colors",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default":{
+            "original": "Default",
+            "singular": "Default",
+            "plural": "Default",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available":{
+            "original": "Available",
+            "singular": "Available",
+            "plural": "Available",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress":{
+            "original": "Auto-populate address from",
+            "singular": "Auto-populate address from",
+            "plural": "Auto-populate address from",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact":{
+            "original": "Auto-populate contact from",
+            "singular": "Auto-populate contact from",
+            "plural": "Auto-populate contact from",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus":{
+            "original": "Add the status to",
+            "singular": "Add the status to",
+            "plural": "Add the status to",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse":{
+            "original": "Which profiles can use the status",
+            "singular": "Which profiles can use the status",
+            "plural": "Which profiles can use the status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price":{
+            "original": "Price",
+            "singular": "Price",
+            "plural": "Prices",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "job":{
+            "original": "Job",
+            "singular": "Job",
+            "plural": "Jobs",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "Installation",
+            "plural": "Installations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "preventiveMaintenance": {
+            "original": "Preventive Maintenance",
+            "singular": "Preventive Maintenance",
+            "plural": "Preventive Maintenances",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "correctiveRepair": {
+            "original": "Corrective / Repair",
+            "singular": "Corrective / Repair",
+            "plural": "Corrective / Repairs",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "inspection": {
+            "original": "Inspection",
+            "singular": "Inspection",
+            "plural": "Inspections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "survey": {
+            "original": "Survey",
+            "singular": "Survey",
+            "plural": "Surveys",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "logistics": {
+            "original": "Logistics",
+            "singular": "Logistics",
+            "plural": "Logistics",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "warehouse": {
+            "original": "Warehouse",
+            "singular": "Warehouse",
+            "plural": "Warehouses",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On-Demand",
+            "singular": "On-Demand",
+            "plural": "On-Demands",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "addDescriptionForThis":"Add a description for this",
+          "here":"here...",
+          "untitled":"Untitled",
+          "configureFieldsAppear":"Configure which fields appear when planners create a",
+          "ofThis":"of this",
+          "toggleOptionsBelow":"Toggle the options below and click on the live form preview to view updates instantly",
+          "decideIfThis":"Decide if this",
+          "alwaysInvolvesSpecific":"always involves a specific",
+          "enable":"Enable",
+          "and":"and",
+          "trackingIfPlanners":"tracking if planners must capture them",
+          "ifThis":"if this",
+          "requiresBulkInstallations":"requires bulk installations",
+          "reviewLivePreview":"Review the live preview and click the 'Save' button to proceed",
+          "linkedToAn":"linked to an",
+          "turnOnIfWork":"Turn on if work usually involves a particular equipment or",
+          "leaveOff":"Leave off for general work like",
+          "inspectionSurvey":"inspections or surveys.",
+          "workDoneFor":"Work done for a",
+          "turnOnToSpecify":"Turn on to specify which",
+          "workingForWhenCreating":"you're working for when creating jobs",
+          "doYouNeed":"Do you need the",
+          "enableToRecord":"Enable to record the exact",
+          "forEach":"for each",
+          "willTheseJobsLink":"Will these jobs link to a",
+          "turnOnIfGroupMultipleJobs":"Turn on if you group multiple jobs. You'll be able to generate a summary of all completed jobs.",
+          "chooseWhatYourTeam":"Choose what your team sees on the",
+          "formInWhatOrder":"form and in what order. Keep only what's needed so the form is fast and clear.",
+          "showTheSectionsNeed":"Show the sections you need",
+          "hideSectionsTeam":"Hide the sections that your team doesn't use",
+          "orderTheseSections":"Order these sections so the flow feels natural to you",
+          "shownTo":"Shown to",
+          "hiddenFrom":"Hidden from",
+          "whereJobHappensWhoToCall":"Where the job happens and who to call",
+          "whatsWrongHowFixed":"What's wrong and how it's fixed",
+          "stepsForTechnician":"Steps for the technician",
+          "usedForInstallationsRepairs":"used for installations or repairs",
+          "extraNotesFiles":"Extra notes and files",
+          "additional":"Additional",
+          "information":"Information",
+          "additionalJobInfo":"Additional Job Information",
+          "plannersSee":"This is what planners will see for this",
+          "addStatusesForThis":"Add the statuses for this",
+          "statusesControlLifecycle":"Statuses control the life-cycle shown to planners and technicians",
+          "addStatusWith":"Add a status with Label, Code, and Color Hex Code (Example: #4F46E5)",
+          "availableToggle":"Available: Toggle the statuses you want to make available for this type",
+          "defaultSelectStatus":"Default: Select one status that will be the default for new jobs of this type",
+          "saveYourChanges":"Save your changes",
+          "newlyCreatedStatus":"Newly created statuses will be visible but not set as",
+          "defineDetailsOfThis":"Define the details of this",
+          "groupingReportingFiltering":"Grouping for reporting and filtering",
+          "nameShownTo":"Name shown to",
+          "shortUniqueIdentifier":"Short unique identifier used by integrations and automations",
+          "chooseWhereStatus":"Choose where this status appears",
+          "selectThe":"Select the",
+          "whichWillUseThis":"which will use this status",
+          "addStatusTo":"Add the status to",
+          "thisStatusSelectable":"This status will only be selectable for the",
+          "youInclude":"you include",
+          "selectWhoCanUseStatus":"Select who can use this status",
+          "whoCanSetStatus":"Who can set this status in a",
+          "selectedProfilesCan":"Selected profiles can use this status",
+          "enterStatusLabel":"Enter a status label...",
+          "enterStatusCode":"Enter a status code...",
+          "allowUserViewPriceOf":"Allow users to view the price of",
+          "allowToSee":"Allow to see",
+          "enableThisIfYou":"Enable this if you would like to display the price of each",
+          "createdUnderThisType":"created under this type will follow this rule",
+          "is":"is",
+          "asTheyShouldAppearInThe":"as they should appear in the",
+          "dropdown":"drop-down",
+          "any": "any",
+          "all": "all",
+          "cloningFrom":"Cloning from",
+          "adjustSettings":"Adjust the settings and provide a name for your",
+          "chooseName":"Choose a name that reflects the kind of work",
+          "installationDesc": "New equipment setup, commissioning, or configuration.",
+          "preventiveMaintenanceDesc": "Planned servicing to avoid failures.",
+          "correctiveRepairDesc": "Fixing reported faults or breakdowns.",
+          "inspectionDesc": "Condition or compliance checks, minimal work done.",
+          "surveyDesc": "Site survey, assessment, or quotation visit before work.",
+          "logisticsDesc": "Delivery, collection, relocation, or transport tasks.",
+          "warehouseDesc": "Internal stock moves, picking, put-away, or counting.",
+          "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule.",
+          "joTypeStandaloneDesc":"group jobs by work type (installation, repair, maintenance, damage). Set them up here so each job is tagged correctly. To get started, clone an existing one."
+        },
+        "validationFE":{
+          "maximum80Chars":"Maximum length of 80 characters exceeded",
+          "maximumCharsExceed":"Maximum character length exceeded",
+          "noDefaultStatus":"No default status found. Please set a status as default.",
+          "systemStatusNotAllowedDelete":"System statuses cannot be deleted. Feel free to change the label.",
+          "toDeleteStatus":"To delete this status, ensure it's turned off in all the"
+        }
+
+      },
+      "procedure":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "Procedure",
+          "plural": "Procedures",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "General Details",
+            "plural": "General Details",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description":{
+            "original": "Description",
+            "singular": "Description",
+            "plural": "Description",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status":{
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Color",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "Are you sure you want to delete this procedure? This action cannot be undone.",
+          "groupOf":"are groups of",
+          "regularBasis":"that you perform on a regular basis",
+          "createUse":"You can create and use",
+          "for":"for",
+          "to":"to",
+          "whereSame":"where the same",
+          "needToBeDone":"need to be done each time",
+          "groupsOf": "are groups of",
+          "performRegularly": "you perform regularly. Use a",
+          "whenSameTasks": "when the same",
+          "listThe": "You can list the",
+          "mustFollowOrder": "Must follow order",
+          "inOrder": "in order, and turn on",
+          "ifTheyShouldDone": "if they should be done one after another.",
+          "usingSearchBox": "using the search box; once added your selection is displayed in the table below.",
+          "reorder": "Reorder the",
+          "withHandles": "with the handles.",
+          "atTopAppearFirst": "at the top will appear first.",
+          "setTheSlider": "Set the slider to 'enabled' to enforce the",
+          "orderTurnOff": "order; turn it off to allow any sequence.",
+          "mandatory": "Mandatory",
+          "tick": "Tick",
+          "completedBefore": "for steps that must be completed before closing a",
+          "savingMakes": "Saving makes this",
+          "availablePlanners": "available to planners and technicians. Editing a",
+          "willNotDelete": "here will not delete",
+          "fromLibrary": "from your library or change past",
+          "pastJobData": "data.",
+          "no":"No",
+          "hasBeenSelected":"has been selected",
+          "pleaseSelect":"Please select",
+          "ifSelected": "If selected",
+          "inThe": "in the",
+          "mustBeFinished": "must be finished in order",
+          "each": "Each",
+          "markedComplete": "has to be marked complete before the next one can be started.",
+          "nameThe":"Name the",
+          "pickAColor":"(optionally) pick a color",
+          "beDone":"be done for",
+          "specific":"specific"
         }
       }
     },

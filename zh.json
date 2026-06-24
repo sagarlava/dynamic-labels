@@ -3931,6 +3931,55 @@
         "plural": "型号",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "price": {
+        "original": "Price",
+        "singular": "价格",
+        "plural": "价格",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "used": {
+        "original": "Used",
+        "singular": "已使用",
+        "plural": "已使用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantityCaps": {
+        "original": "Quantity",
+        "singular": "数量",
+        "plural": "数量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalQuantity": {
+        "original": "Total Quantity",
+        "singular": "总量",
+        "plural": "总量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ungrouped":{
+        "original": "Ungrouped",
+        "singular": "未分组",
+        "plural": "未分组",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "从货箱中取用",
+        "plural": "从货箱中取用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "已使用数量",
+        "plural": "已使用数量",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5739,6 +5788,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "visit": {
+        "original": "Visit",
+        "singular": "访问",
+        "plural": "访问",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -7132,6 +7188,20 @@
         "plural": "活动",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec56": {
+        "original": "Additional Information",
+        "singular": "附加信息",
+        "plural": "附加信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec57": {
+        "original": "Record",
+        "singular": "记录",
+        "plural": "记录",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8014,8 +8084,8 @@
       },
       "note": {
         "original": "Note",
-        "singular": "注释",
-        "plural": "",
+        "singular": "备注",
+        "plural": "备注",
         "setupVisible": true,
         "setupEdit": true
       },
@@ -9467,6 +9537,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "order": {
+        "original": "Order",
+        "singular": "订单",
+        "plural": "订单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "参考",
+        "plural": "参考",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recent": {
+        "original": "Recent",
+        "singular": "最近",
+        "plural": "最近",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9603,7 +9694,11 @@
       "signOff": "登出",
       "photoUpload": "上傳照片",
       "viewPdf": "查看PDF",
-      "emailPdf": "发送PDF邮件"
+      "emailPdf": "发送PDF邮件",
+      "linkThis":"链接到这个",
+      "jobTitle":"工作标题",
+      "willBeAssigned": "将按轮询顺序分配给小组成员（依次在团队成员之间共享）。",
+      "toAllAdded": "给所有已添加的"
     }
   },
   "inventory": {
@@ -14757,6 +14852,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "filterBy": {
+        "original": "Filter by",
+        "singular": "按...筛选",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "enable":{
         "original": "Enable",
         "singular": "启用",
@@ -14817,6 +14919,48 @@
         "original": "Regenerate",
         "singular": "重新生成",
         "plural": "重新生成",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clickViewSeparate": {
+        "original": "Click to view in a separate tab",
+        "singular": "点击在新标签页中查看",
+        "plural": "点击在新标签页中查看",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "markOptional":{
+        "original": "Mark Optional",
+        "singular": "标记为可选",
+        "plural": "标记为可选",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeMandatory":{
+        "original": "Make Mandatory",
+        "singular": "标记为必填",
+        "plural": "标记为必填",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reAssign":{
+        "original": "Re-Assign",
+        "singular": "重新分配",
+        "plural": "重新分配",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "输入",
+        "plural": "输入",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "实时表单预览",
+        "plural": "实时表单预览",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -15551,7 +15695,40 @@
       "confirmation":"确认",
       "makeFilterSelectionsCheckAvail":"进行筛选以检查可用性",
       "updateConfirmation":"更新确认",
-      "confirmProceed": "您确定要继续吗"
+      "confirmProceed": "您确定要继续吗",
+      "theLower": "",
+      "thisLower": "此",
+      "andLower": "和",
+      "toLower": "到",
+      "aLower": "",
+      "anLower": "",
+      "orLower": "或",
+      "fromLower": "从",
+      "addClearDesc": "为此添加清晰的描述",
+      "optional":"可选",
+      "toGetStarted": "开始使用",
+      "type": "类型",
+      "noHave": "没有",
+      "no": "否",
+      "yes": "是",
+      "addedYet": "尚未添加",
+      "any": "任意",
+      "all": "全部",
+      "select": "选择",
+      "selectOption": "选择一个选项",
+      "selectOptions": "选择多个选项",
+      "selectOne": "选择一个",
+      "selectOneOrMore": "选择一个或多个",
+      "selectAtLeastOne": "至少选择一个",
+      "last": "最后一个",
+      "latest": "最新",
+      "yetToBeScheduled": "尚未安排",
+      "scheduled": "已安排",
+      "rescheduled": "已重新安排",
+      "removeAllAssociated":"此操作还将删除所有相关项目",
+      "howToUse": "使用方法",
+      "quickSteps": "快速步骤",
+      "one": "一个"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15835,7 +16012,12 @@
       "pleaseMakeOneSelection":"请选择一项以继续",
       "itemExists":"此项目已存在于列表中",
       "pleaseEnterValidUrl":"请输入有效的网站 URL。您只能添加 1 个 URL。",
-      "capacityReached":"容量已满"
+      "capacityReached":"容量已满",
+      "exceedCharacterLimit":"超出字符限制",
+      "invalidValue":"无效值",
+      "selectFromList":"请从列表中选择",
+      "startDateTimeRequired":"需要开始日期、时间和持续时间",
+      "maxChar255Exceed":"超出最大字符长度 255"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",
@@ -24278,6 +24460,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "daysAt": {
+            "original": "days at",
+            "singular": "天，时间为",
+            "plural": "天，时间为",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hour": {
+            "original": "hours",
+            "singular": "小时",
+            "plural": "小时",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "item": {
+            "original": "Item",
+            "singular": "项目",
+            "plural": "项目",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
@@ -24308,7 +24511,20 @@
             "setupVisible": false
           }
         },
-        "messages": {}
+        "messages":{
+          "tiedTo": "关联到",
+          "willDisplayHere": "将显示在此处",
+          "selectIcon": "选择图标",
+          "enterThe": "输入",
+          "andChoose": "并选择安排工作的时间",
+          "for": "用于",
+          "to": "到",
+          "needToComplete": "需要完成的",
+          "searchSelect": "搜索并选择",
+          "toBeAdded": "待添加",
+          "willInitiallyBased": "价格最初将基于数量，并在以下情况下遵循已使用数量",
+          "haveBeenUtilized": "已被使用"
+        }
       },
       "preventiveMaintenance": {
         "setupVisible": false,
@@ -24640,6 +24856,447 @@
           "selectType": "选择类型",
           "selectSource": "选择来源",
           "chooseAssetTypes": "选择此仪表应适用的资产类型。任何属于所选类型的资产都会自动包含此仪表。"
+        }
+      },
+      "types": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Type",
+          "singular": "类型",
+          "plural": "类型",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Basics",
+            "singular": "基础",
+            "plural": "基础",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Form Sections",
+            "singular": "表单部分",
+            "plural": "表单部分",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Statuses",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Settings",
+            "singular": "设置",
+            "plural": "设置",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon": {
+            "original": "Select Icon",
+            "singular": "选择图标",
+            "plural": "选择图标",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo": {
+            "original": "Basic Info",
+            "singular": "基本信息",
+            "plural": "基本信息",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field": {
+            "original": "Field",
+            "singular": "字段",
+            "plural": "字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch": {
+            "original": "Branch",
+            "singular": "分支",
+            "plural": "分支",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor": {
+            "original": "Floor",
+            "singular": "楼层",
+            "plural": "楼层",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden": {
+            "original": "Hidden",
+            "singular": "隐藏",
+            "plural": "隐藏",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible": {
+            "original": "Visible",
+            "singular": "可见",
+            "plural": "可见",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown": {
+            "original": "Shown",
+            "singular": "已显示",
+            "plural": "已显示",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category": {
+            "original": "Category",
+            "singular": "类别",
+            "plural": "类别",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Types",
+            "singular": "类型",
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label": {
+            "original": "Label",
+            "singular": "标签",
+            "plural": "标签",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "代码",
+            "plural": "代码",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "颜色",
+            "plural": "颜色",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "默认",
+            "plural": "默认",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "可用",
+            "plural": "可用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress": {
+            "original": "Auto-populate address from",
+            "singular": "自动填充地址来自",
+            "plural": "自动填充地址来自",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact": {
+            "original": "Auto-populate contact from",
+            "singular": "自动填充联系人来自",
+            "plural": "自动填充联系人来自",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus": {
+            "original": "Add the status to",
+            "singular": "将状态添加到",
+            "plural": "将状态添加到",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse": {
+            "original": "Which profiles can use the status",
+            "singular": "哪些配置文件可以使用此状态",
+            "plural": "哪些配置文件可以使用此状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price": {
+            "original": "Price",
+            "singular": "价格",
+            "plural": "价格",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "job": {
+            "original": "Job",
+            "singular": "工单",
+            "plural": "工单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "安装",
+            "plural": "安装",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "preventiveMaintenance": {
+            "original": "Preventive Maintenance",
+            "singular": "预防性维护",
+            "plural": "预防性维护",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "correctiveRepair": {
+            "original": "Corrective / Repair",
+            "singular": "纠正 / 维修",
+            "plural": "纠正 / 维修",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "inspection": {
+            "original": "Inspection",
+            "singular": "检查",
+            "plural": "检查",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "survey": {
+            "original": "Survey",
+            "singular": "勘测",
+            "plural": "勘测",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "logistics": {
+            "original": "Logistics",
+            "singular": "物流",
+            "plural": "物流",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "warehouse": {
+            "original": "Warehouse",
+            "singular": "仓库",
+            "plural": "仓库",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On-Demand",
+            "singular": "按需",
+            "plural": "按需",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "addDescriptionForThis": "为此添加描述",
+          "here": "在此处...",
+          "untitled": "无标题",
+          "configureFieldsAppear": "配置计划人员创建时显示的字段",
+          "ofThis": "此",
+          "toggleOptionsBelow": "切换以下选项并点击实时表单预览以立即查看更新",
+          "decideIfThis": "决定此",
+          "alwaysInvolvesSpecific": "是否始终涉及特定",
+          "enable": "启用",
+          "and": "和",
+          "trackingIfPlanners": "跟踪（如果计划人员必须捕获）",
+          "ifThis": "如果此",
+          "requiresBulkInstallations": "需要批量安装",
+          "reviewLivePreview": "查看实时预览并点击'保存'按钮继续",
+          "linkedToAn": "关联到",
+          "turnOnIfWork": "如果工作通常涉及特定设备或",
+          "leaveOff": "对于常规工作如",
+          "inspectionSurvey": "检查或勘测，请保持关闭。",
+          "workDoneFor": "为以下对象完成的工作",
+          "turnOnToSpecify": "开启以指定",
+          "workingForWhenCreating": "创建工单时为哪个客户工作",
+          "doYouNeed": "您是否需要",
+          "enableToRecord": "启用以记录确切的",
+          "forEach": "对于每个",
+          "willTheseJobsLink": "这些工单是否关联到",
+          "turnOnIfGroupMultipleJobs": "如果您将多个工单分组，请开启。您将能够生成所有已完成工单的摘要。",
+          "chooseWhatYourTeam": "选择您的团队在",
+          "formInWhatOrder": "表单上看到的内容及顺序。只保留必要的内容，使表单快速清晰。",
+          "showTheSectionsNeed": "显示您需要的部分",
+          "hideSectionsTeam": "隐藏您的团队不使用的部分",
+          "orderTheseSections": "对这些部分进行排序，使流程对您来说感觉自然",
+          "shownTo": "显示给",
+          "hiddenFrom": "隐藏自",
+          "whereJobHappensWhoToCall": "工作发生的地点及联系人",
+          "whatsWrongHowFixed": "问题所在及修复方式",
+          "stepsForTechnician": "技术人员的操作步骤",
+          "usedForInstallationsRepairs": "用于安装或维修",
+          "extraNotesFiles": "额外备注和文件",
+          "additional": "附加",
+          "information": "信息",
+          "additionalJobInfo": "附加工单信息",
+          "plannersSee": "这是计划人员将看到的内容",
+          "addStatusesForThis": "为此添加状态",
+          "statusesControlLifecycle": "状态控制显示给计划人员和技术人员的生命周期",
+          "addStatusWith": "添加带有标签、代码和颜色十六进制代码的状态（示例：#4F46E5）",
+          "availableToggle": "可用：切换您希望为此类型提供的状态",
+          "defaultSelectStatus": "默认：选择一个状态作为此类型新工单的默认状态",
+          "saveYourChanges": "保存您的更改",
+          "newlyCreatedStatus": "新创建的状态将可见，但不会设置为",
+          "defineDetailsOfThis": "定义此",
+          "groupingReportingFiltering": "用于报告和筛选的分组",
+          "nameShownTo": "显示给以下人员的名称",
+          "shortUniqueIdentifier": "集成和自动化使用的简短唯一标识符",
+          "chooseWhereStatus": "选择此状态出现的位置",
+          "selectThe": "选择",
+          "whichWillUseThis": "将使用此状态的",
+          "addStatusTo": "将状态添加到",
+          "thisStatusSelectable": "此状态仅可为以下对象选择",
+          "youInclude": "您包含的",
+          "selectWhoCanUseStatus": "选择谁可以使用此状态",
+          "whoCanSetStatus": "谁可以在以下位置设置此状态",
+          "selectedProfilesCan": "所选配置文件可以使用此状态",
+          "enterStatusLabel": "输入状态标签...",
+          "enterStatusCode": "输入状态代码...",
+          "allowUserViewPriceOf": "允许用户查看以下内容的价格",
+          "allowToSee": "允许查看",
+          "enableThisIfYou": "如果您希望显示每个",
+          "createdUnderThisType": "在此类型下创建的将遵循此规则",
+          "is": "是",
+          "asTheyShouldAppearInThe": "它们应在以下位置显示的方式",
+          "dropdown": "下拉列表",
+          "any": "任意",
+          "all": "全部",
+          "cloningFrom": "克隆自",
+          "adjustSettings": "调整设置并为您的",
+          "chooseName": "选择反映工作类型的名称",
+          "installationDesc": "新设备安装、调试或配置。",
+          "preventiveMaintenanceDesc": "计划性维护，以避免故障。",
+          "correctiveRepairDesc": "修复已报告的故障或损坏。",
+          "inspectionDesc": "状态或合规性检查，完成的工作量最少。",
+          "surveyDesc": "工作前的现场勘测、评估或报价访问。",
+          "logisticsDesc": "交付、收取、搬迁或运输任务。",
+          "warehouseDesc": "内部库存移动、拣货、上架或盘点。",
+          "onDemandDesc": "不遵循固定计划的临时工单。",
+          "joTypeStandaloneDesc": "按工作类型（安装、维修、维护、损坏）对工单进行分组。在此处进行设置，以便每个工单都能正确标记。如需开始，请克隆现有类型。"
+        },
+        "validationFE": {
+          "maximum80Chars": "超过最大长度 80 个字符",
+          "maximumCharsExceed": "超过最大字符长度",
+          "noDefaultStatus": "未找到默认状态。请将一个状态设置为默认。",
+          "systemStatusNotAllowedDelete": "系统状态无法删除。请随意更改标签。",
+          "toDeleteStatus": "要删除此状态，请确保它在所有"
+        }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "程序",
+          "plural": "程序",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "一般详情",
+            "plural": "一般详情",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "描述",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "颜色",
+            "plural": "颜色",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "您确定要删除此程序吗？此操作无法撤销。",
+          "groupOf": "是",
+          "regularBasis": "的组，您定期执行",
+          "createUse": "您可以创建和使用",
+          "for": "用于",
+          "to": "到",
+          "whereSame": "其中相同的",
+          "needToBeDone": "每次都需要完成",
+          "groupsOf": "是",
+          "performRegularly": "的组，您定期执行。使用",
+          "whenSameTasks": "当相同的",
+          "listThe": "您可以列出",
+          "mustFollowOrder": "必须按顺序",
+          "inOrder": "按顺序，并开启",
+          "ifTheyShouldDone": "如果它们需要依次完成。",
+          "usingSearchBox": "使用搜索框；添加后，您的选择将显示在下方表格中。",
+          "reorder": "重新排列",
+          "withHandles": "使用手柄。",
+          "atTopAppearFirst": "顶部的将首先显示。",
+          "setTheSlider": "将滑块设置为 '启用' 以强制执行",
+          "orderTurnOff": "顺序；关闭以允许任意顺序。",
+          "mandatory": "必填",
+          "tick": "勾选",
+          "completedBefore": "表示在关闭之前必须完成的步骤",
+          "savingMakes": "保存后，此",
+          "availablePlanners": "将可供计划人员和技术人员使用。编辑",
+          "willNotDelete": "不会从您的库中删除",
+          "fromLibrary": "或更改过去的",
+          "pastJobData": "数据。",
+          "no": "无",
+          "hasBeenSelected": "已被选择",
+          "pleaseSelect": "请选择",
+          "ifSelected": "如果选中",
+          "inThe": "在",
+          "mustBeFinished": "必须按顺序完成",
+          "each": "每个",
+          "markedComplete": "必须标记为完成，才能开始下一个。",
+          "nameThe": "命名",
+          "pickAColor": "（可选）选择颜色",
+          "beDone": "为以下对象完成",
+          "specific": "特定"
         }
       }
     },

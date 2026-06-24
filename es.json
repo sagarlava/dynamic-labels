@@ -3923,6 +3923,55 @@
         "plural": "Modelos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "price": {
+        "original": "Precio",
+        "singular": "Precio",
+        "plural": "Precios",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "used": {
+        "original": "Used",
+        "singular": "Usado",
+        "plural": "Usados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantityCaps": {
+        "original": "Quantity",
+        "singular": "Cantidad",
+        "plural": "Cantidades",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalQuantity": {
+        "original": "Total Quantity",
+        "singular": "Cantidad Total",
+        "plural": "Cantidades Totales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ungrouped": {
+        "original": "Ungrouped",
+        "singular": "Sin agrupar",
+        "plural": "Sin agrupar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "Utilizado desde el contenedor",
+        "plural": "Utilizado desde el contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "Cantidad utilizada",
+        "plural": "Cantidad utilizada",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5731,6 +5780,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "visit": {
+        "original": "Visit",
+        "singular": "Visita",
+        "plural": "Visitas",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -7122,6 +7178,20 @@
         "original": "Activity",
         "singular": "Actividad",
         "plural": "Actividades",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec56": {
+        "original": "Additional Information",
+        "singular": "Información Adicional",
+        "plural": "Información Adicional",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec57": {
+        "original": "Record",
+        "singular": "Registro",
+        "plural": "Registros",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9309,7 +9379,7 @@
       "note": {
         "original": "Note",
         "singular": "Nota",
-        "plural": "",
+        "plural": "Notas",
         "setupVisible": true,
         "setupEdit": true
       },
@@ -9459,6 +9529,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "order": {
+        "original": "Order",
+        "singular": "Orden",
+        "plural": "Órdenes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Referencia",
+        "plural": "Referencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recent": {
+        "original": "Recent",
+        "singular": "Reciente",
+        "plural": "Recientes",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9603,7 +9694,11 @@
       "signOff": "Cerrar sesión",
       "photoUpload": "Subir foto",
       "viewPdf": "Ver PDF",
-      "emailPdf": "Enviar PDF por correo"
+      "emailPdf": "Enviar PDF por correo",
+      "linkThis":"Vincular esto",
+      "jobTitle":"Título del Trabajo",
+      "willBeAssigned": "se asignará a los miembros del grupo en orden rotativo (compartido entre los miembros del equipo por turnos).",
+      "toAllAdded": "a todos los agregados"
     }
   },
   "inventory": {
@@ -14758,6 +14853,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "filterBy": {
+        "original": "Filter by",
+        "singular": "Filtrar por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "enable":{
         "original": "Enable",
         "singular": "Habilitar",
@@ -14818,6 +14920,48 @@
         "original": "Regenerate",
         "singular": "Regenerar",
         "plural": "Regenerar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clickViewSeparate": {
+        "original": "Click to view in a separate tab",
+        "singular": "Haz clic para ver en una pestaña separada",
+        "plural": "Haz clic para ver en una pestaña separada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "markOptional":{
+        "original": "Mark Optional",
+        "singular": "Marcar como opcional",
+        "plural": "Marcar como opcional",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeMandatory":{
+        "original": "Make Mandatory",
+        "singular": "Hacer obligatorio",
+        "plural": "Hacer obligatorio",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reAssign":{
+        "original": "Re-Assign",
+        "singular": "Reasignar",
+        "plural": "Reasignar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "Ingresar",
+        "plural": "Ingresar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "Vista previa del formulario en vivo",
+        "plural": "Vista previa del formulario en vivo",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -15552,7 +15696,40 @@
       "confirmation":"Confirmación",
       "makeFilterSelectionsCheckAvail":"Haz selecciones de filtro para comprobar la disponibilidad",
       "updateConfirmation":"Confirmación de Actualización",
-      "confirmProceed": "¿Está seguro de que desea continuar?"
+      "confirmProceed": "¿Está seguro de que desea continuar?",
+      "theLower": "el/la",
+      "thisLower": "este/esta",
+      "andLower": "y",
+      "toLower": "a",
+      "aLower": "un/una",
+      "anLower": "un/una",
+      "orLower": "o",
+      "fromLower": "de",
+      "addClearDesc": "Agregue una descripción clara para este",
+      "optional":"opcional",
+      "toGetStarted": "Para comenzar",
+      "type": "Tipo",
+      "noHave": "No tienes",
+      "no": "No",
+      "yes": "Sí",
+      "addedYet": "aún no agregado",
+      "any": "Cualquiera",
+      "all": "Todos",
+      "select": "Seleccionar",
+      "selectOption": "Seleccionar una opción",
+      "selectOptions": "Seleccionar opciones",
+      "selectOne": "Seleccionar uno",
+      "selectOneOrMore": "Seleccionar uno o más",
+      "selectAtLeastOne": "Seleccionar al menos uno",
+      "last": "Último",
+      "latest": "Más reciente",
+      "yetToBeScheduled": "Aún por programar",
+      "scheduled": "Programado",
+      "rescheduled": "Reprogramado",
+      "removeAllAssociated":"Esta acción también eliminará todos los elementos asociados",
+      "howToUse": "Cómo usar",
+      "quickSteps": "Pasos rápidos",
+      "one": "uno"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15836,7 +16013,12 @@
       "itemExists": "Este elemento ya existe en la lista",
       "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) ).",
       "pleaseEnterValidUrl":"Por favor, introduzca una URL de sitio web válida. Solo se permite añadir 1 URL.",
-      "capacityReached":"Capacidad alcanzada"
+      "capacityReached":"Capacidad alcanzada",
+      "exceedCharacterLimit":"El texto excede el límite de caracteres",
+      "invalidValue":"Valor no válido",
+      "selectFromList":"Por favor, seleccione de la lista",
+      "startDateTimeRequired":"Se requiere fecha de inicio, hora y duración",
+      "maxChar255Exceed":"Se excedió la longitud máxima de caracteres de 255"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -24279,6 +24461,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "daysAt": {
+            "original": "days at",
+            "singular": "días a las",
+            "plural": "días a las",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hour": {
+            "original": "hours",
+            "singular": "hora",
+            "plural": "horas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "item": {
+            "original": "Item",
+            "singular": "Elemento",
+            "plural": "Elementos",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
@@ -24309,7 +24512,20 @@
             "setupVisible": false
           }
         },
-        "messages": {}
+        "messages":{
+          "tiedTo": "vinculado a",
+          "willDisplayHere": "se mostrará aquí",
+          "selectIcon": "Seleccionar icono",
+          "enterThe": "Ingresar",
+          "andChoose": "y elija cuándo programar el trabajo",
+          "for": "para",
+          "to": "a",
+          "needToComplete": "que deben completarse",
+          "searchSelect": "Buscar y seleccionar",
+          "toBeAdded": "para agregar",
+          "willInitiallyBased": "El precio se basará inicialmente en la cantidad y seguirá la cantidad utilizada cuando",
+          "haveBeenUtilized": "hayan sido utilizados"
+        }
       },
       "preventiveMaintenance": {
         "setupVisible": false,
@@ -24641,6 +24857,447 @@
           "selectType": "Seleccionar Tipo",
           "selectSource": "Seleccionar Fuente",
           "chooseAssetTypes": "Elige los tipos de activos a los que debe aplicarse este medidor. Cualquier activo de los tipos seleccionados incluirá automáticamente este medidor."
+        }
+      },
+      "types": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Type",
+          "singular": "Tipo",
+          "plural": "Tipos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Basics",
+            "singular": "Básico",
+            "plural": "Básicos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Form Sections",
+            "singular": "Sección de formulario",
+            "plural": "Secciones de formulario",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Statuses",
+            "singular": "Estado",
+            "plural": "Estados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Settings",
+            "singular": "Configuración",
+            "plural": "Configuraciones",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon": {
+            "original": "Select Icon",
+            "singular": "Seleccionar icono",
+            "plural": "Seleccionar iconos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo": {
+            "original": "Basic Info",
+            "singular": "Información básica",
+            "plural": "Información básica",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field": {
+            "original": "Field",
+            "singular": "Campo",
+            "plural": "Campos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch": {
+            "original": "Branch",
+            "singular": "Sucursal",
+            "plural": "Sucursales",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor": {
+            "original": "Floor",
+            "singular": "Piso",
+            "plural": "Pisos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden": {
+            "original": "Hidden",
+            "singular": "Oculto",
+            "plural": "Ocultos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible": {
+            "original": "Visible",
+            "singular": "Visible",
+            "plural": "Visibles",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown": {
+            "original": "Shown",
+            "singular": "Mostrado",
+            "plural": "Mostrados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category": {
+            "original": "Category",
+            "singular": "Categoría",
+            "plural": "Categorías",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Types",
+            "singular": "Tipo",
+            "plural": "Tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Etiqueta",
+            "plural": "Etiquetas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "Código",
+            "plural": "Códigos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Colores",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Predeterminado",
+            "plural": "Predeterminados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "Disponible",
+            "plural": "Disponibles",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress": {
+            "original": "Auto-populate address from",
+            "singular": "Autocompletar dirección desde",
+            "plural": "Autocompletar dirección desde",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact": {
+            "original": "Auto-populate contact from",
+            "singular": "Autocompletar contacto desde",
+            "plural": "Autocompletar contacto desde",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus": {
+            "original": "Add the status to",
+            "singular": "Agregar el estado a",
+            "plural": "Agregar el estado a",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse": {
+            "original": "Which profiles can use the status",
+            "singular": "Qué perfiles pueden usar el estado",
+            "plural": "Qué perfiles pueden usar el estado",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price": {
+            "original": "Price",
+            "singular": "Precio",
+            "plural": "Precios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "job": {
+            "original": "Job",
+            "singular": "Trabajo",
+            "plural": "Trabajos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "Instalación",
+            "plural": "Instalaciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "preventiveMaintenance": {
+            "original": "Preventive Maintenance",
+            "singular": "Mantenimiento preventivo",
+            "plural": "Mantenimientos preventivos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "correctiveRepair": {
+            "original": "Corrective / Repair",
+            "singular": "Correctivo / Reparación",
+            "plural": "Correctivos / Reparaciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "inspection": {
+            "original": "Inspection",
+            "singular": "Inspección",
+            "plural": "Inspecciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "survey": {
+            "original": "Survey",
+            "singular": "Encuesta",
+            "plural": "Encuestas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "logistics": {
+            "original": "Logistics",
+            "singular": "Logística",
+            "plural": "Logística",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "warehouse": {
+            "original": "Warehouse",
+            "singular": "Almacén",
+            "plural": "Almacenes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On-Demand",
+            "singular": "Bajo demanda",
+            "plural": "Bajo demanda",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "addDescriptionForThis": "Agregar una descripción para este",
+          "here": "aquí...",
+          "untitled": "Sin título",
+          "configureFieldsAppear": "Configure qué campos aparecen cuando los planificadores crean un",
+          "ofThis": "de este",
+          "toggleOptionsBelow": "Active las opciones a continuación y haga clic en la vista previa del formulario en vivo para ver las actualizaciones al instante",
+          "decideIfThis": "Decida si este",
+          "alwaysInvolvesSpecific": "siempre involucra un",
+          "enable": "Habilitar",
+          "and": "y",
+          "trackingIfPlanners": "seguimiento si los planificadores deben capturarlos",
+          "ifThis": "si este",
+          "requiresBulkInstallations": "requiere instalaciones masivas",
+          "reviewLivePreview": "Revise la vista previa en vivo y haga clic en el botón 'Guardar' para continuar",
+          "linkedToAn": "vinculado a un",
+          "turnOnIfWork": "Active si el trabajo generalmente involucra un equipo particular o",
+          "leaveOff": "Deje desactivado para trabajos generales como",
+          "inspectionSurvey": "inspecciones o encuestas.",
+          "workDoneFor": "Trabajo realizado para un",
+          "turnOnToSpecify": "Active para especificar qué",
+          "workingForWhenCreating": "está trabajando al crear trabajos",
+          "doYouNeed": "¿Necesita el",
+          "enableToRecord": "Habilitar para registrar el exacto",
+          "forEach": "para cada",
+          "willTheseJobsLink": "¿Estos trabajos se vincularán a un",
+          "turnOnIfGroupMultipleJobs": "Active si agrupa varios trabajos. Podrá generar un resumen de todos los trabajos completados.",
+          "chooseWhatYourTeam": "Elija lo que su equipo ve en el",
+          "formInWhatOrder": "formulario y en qué orden. Mantenga solo lo necesario para que el formulario sea rápido y claro.",
+          "showTheSectionsNeed": "Muestre las secciones que necesita",
+          "hideSectionsTeam": "Oculte las secciones que su equipo no usa",
+          "orderTheseSections": "Ordene estas secciones para que el flujo se sienta natural para usted",
+          "shownTo": "Mostrado a",
+          "hiddenFrom": "Oculto de",
+          "whereJobHappensWhoToCall": "Dónde ocurre el trabajo y a quién llamar",
+          "whatsWrongHowFixed": "Qué está mal y cómo se soluciona",
+          "stepsForTechnician": "Pasos para el técnico",
+          "usedForInstallationsRepairs": "utilizado para instalaciones o reparaciones",
+          "extraNotesFiles": "Notas y archivos adicionales",
+          "additional": "Adicional",
+          "information": "Información",
+          "additionalJobInfo": "Información adicional del trabajo",
+          "plannersSee": "Esto es lo que los planificadores verán para este",
+          "addStatusesForThis": "Agregar estados para este",
+          "statusesControlLifecycle": "Los estados controlan el ciclo de vida mostrado a planificadores y técnicos",
+          "addStatusWith": "Agregar un estado con Etiqueta, Código y Código Hex de Color (Ejemplo: #4F46E5)",
+          "availableToggle": "Disponible: Active los estados que desea hacer disponibles para este tipo",
+          "defaultSelectStatus": "Predeterminado: Seleccione un estado que será el predeterminado para nuevos trabajos de este tipo",
+          "saveYourChanges": "Guardar sus cambios",
+          "newlyCreatedStatus": "Los estados recién creados serán visibles pero no se establecerán como",
+          "defineDetailsOfThis": "Definir los detalles de este",
+          "groupingReportingFiltering": "Agrupación para informes y filtrado",
+          "nameShownTo": "Nombre mostrado a",
+          "shortUniqueIdentifier": "Identificador único corto utilizado por integraciones y automatizaciones",
+          "chooseWhereStatus": "Elija dónde aparece este estado",
+          "selectThe": "Seleccione el",
+          "whichWillUseThis": "que utilizará este estado",
+          "addStatusTo": "Agregar el estado a",
+          "thisStatusSelectable": "Este estado solo será seleccionable para el",
+          "youInclude": "que incluya",
+          "selectWhoCanUseStatus": "Seleccione quién puede usar este estado",
+          "whoCanSetStatus": "Quién puede establecer este estado en un",
+          "selectedProfilesCan": "Los perfiles seleccionados pueden usar este estado",
+          "enterStatusLabel": "Ingrese una etiqueta de estado...",
+          "enterStatusCode": "Ingrese un código de estado...",
+          "allowUserViewPriceOf": "Permitir a los usuarios ver el precio de",
+          "allowToSee": "Permitir ver",
+          "enableThisIfYou": "Habilite esto si desea mostrar el precio de cada",
+          "createdUnderThisType": "creado bajo este tipo seguirá esta regla",
+          "is": "es",
+          "asTheyShouldAppearInThe": "como deben aparecer en el",
+          "dropdown": "menú desplegable",
+          "any": "cualquiera",
+          "all": "todos",
+          "cloningFrom": "Clonando desde",
+          "adjustSettings": "Ajuste la configuración y proporcione un nombre para su",
+          "chooseName": "Elija un nombre que refleje el tipo de trabajo",
+          "installationDesc": "Configuración, puesta en marcha o configuración de nuevos equipos.",
+          "preventiveMaintenanceDesc": "Servicio planificado para evitar fallas.",
+          "correctiveRepairDesc": "Reparación de fallas o averías reportadas.",
+          "inspectionDesc": "Verificaciones de estado o cumplimiento, trabajo mínimo realizado.",
+          "surveyDesc": "Visita de levantamiento, evaluación o cotización antes del trabajo.",
+          "logisticsDesc": "Tareas de entrega, recolección, reubicación o transporte.",
+          "warehouseDesc": "Movimientos internos de stock, picking, almacenamiento o conteo.",
+          "onDemandDesc": "Trabajos ad-hoc que no siguen un horario fijo.",
+          "joTypeStandaloneDesc": "agrupe los trabajos por tipo de trabajo (instalación, reparación, mantenimiento, daño). Configúrelos aquí para que cada trabajo esté etiquetado correctamente. Para comenzar, clone uno existente."
+        },
+        "validationFE": {
+          "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",
+          "maximumCharsExceed": "Se superó la longitud máxima de caracteres",
+          "noDefaultStatus": "No se encontró estado predeterminado. Por favor establezca un estado como predeterminado.",
+          "systemStatusNotAllowedDelete": "Los estados del sistema no se pueden eliminar. Siéntase libre de cambiar la etiqueta.",
+          "toDeleteStatus": "Para eliminar este estado, asegúrese de que esté desactivado en todos los"
+        }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "Procedimiento",
+          "plural": "Procedimientos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Detalles Generales",
+            "plural": "Detalles Generales",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nombre",
+            "plural": "Nombre",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Descripción",
+            "plural": "Descripción",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Estado",
+            "plural": "Estado",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Color",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "¿Estás seguro de que deseas eliminar este procedimiento? Esta acción no se puede deshacer.",
+          "groupOf": "son grupos de",
+          "regularBasis": "que realizas de forma regular",
+          "createUse": "Puedes crear y usar",
+          "for": "para",
+          "to": "a",
+          "whereSame": "donde las mismas",
+          "needToBeDone": "deben realizarse cada vez",
+          "groupsOf": "son grupos de",
+          "performRegularly": "que realizas regularmente. Usa un",
+          "whenSameTasks": "cuando las mismas",
+          "listThe": "Puedes listar las",
+          "mustFollowOrder": "Debe seguir el orden",
+          "inOrder": "en orden y activar",
+          "ifTheyShouldDone": "si deben realizarse una tras otra.",
+          "usingSearchBox": "usando el cuadro de búsqueda; una vez agregadas, tu selección se muestra en la tabla de abajo.",
+          "reorder": "Reordena las",
+          "withHandles": "con los controles.",
+          "atTopAppearFirst": "en la parte superior aparecerán primero.",
+          "setTheSlider": "Configura el control deslizante en 'habilitado' para imponer el",
+          "orderTurnOff": "orden; desactívalo para permitir cualquier secuencia.",
+          "mandatory": "Obligatorio",
+          "tick": "Marca",
+          "completedBefore": "para los pasos que deben completarse antes de cerrar un",
+          "savingMakes": "Guardar hace que este",
+          "availablePlanners": "esté disponible para planificadores y técnicos. Editar un",
+          "willNotDelete": "aquí no eliminará",
+          "fromLibrary": "de tu biblioteca ni cambiará datos pasados de",
+          "pastJobData": ".",
+          "no": "No",
+          "hasBeenSelected": "ha sido seleccionado",
+          "pleaseSelect": "Por favor selecciona",
+          "ifSelected": "Si se selecciona",
+          "inThe": "en el",
+          "mustBeFinished": "deben completarse en orden",
+          "each": "Cada",
+          "markedComplete": "debe marcarse como completada antes de que se pueda iniciar la siguiente.",
+          "nameThe": "Nombrar el",
+          "pickAColor": "(opcionalmente) elegir un color",
+          "beDone": "realizarse para",
+          "specific": "específico"
         }
       }
     },
