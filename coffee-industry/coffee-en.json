@@ -3647,6 +3647,8 @@
       "sMeterFrequency": "'s meter frequency",
       "whenBothConditionsAreMet": ", when both conditions are met",
       "whicheverComesFirstLower": ", whichever comes first",
+      "howShouldMaintenanceCalculated": "How should the next maintenance date be calculated?",
+      "whatShouldMaintenanceBasedOn": "What should the first maintenance date be based on?",
       "chooseWhetherScheduleFollows": "Choose whether the schedule follows the calendar or when work is actually completed.",
       "floatingBasedOnCompletion": "Floating (Based on Completion)",
       "nextJobDateMovesBased": "Next job date moves based on when the last job was actually completed.",
@@ -3691,7 +3693,33 @@
       "timeMeterBasedBullet3": "Automatically reschedules based on actual",
       "usage": "usage",
       "timeMeterBasedBestForStart": "generators, vehicles, pumps, or any",
-      "withRuntimeMeters": "with runtime meters"
+      "withRuntimeMeters": "with runtime meters",
+      "howToStepAHybrid":"Name your plan (e.g. 'PM – Generator #3 – 500hr / 3mo')",
+      "howToStepBHybrid":"Set the plan duration",
+      "howToStepCHybrid":"Pick the job template and assignee. Optional: set per-tier services (Minor / Major)",
+      "howToStepDHybrid":"Configure BOTH the time interval AND the meter interval",
+      "howToStepEHybrid":"Choose whether to trigger on whichever comes first, or only when both are met",
+      "enterThe":"Enter the",
+      "currentMeterSoCalculate":"current meter reading so the first job calculates correctly",
+      "intoPlanActivate":"into the plan and activate it. Make sure those",
+      "haveMeterFreq":"have meter frequency set",
+      "setUpATimeMeterPlan":"Set up a Time + Meter plan when an",
+      "wearsBothTimeUsage":"wears with both time and usage",
+      "triggersWhenEitherOrBoth":"The job triggers when EITHER threshold is reached first or when BOTH thresholds are reached",
+      "each":"Each",
+      "unit": "unit",
+      "custodianAssignNote": "Automatically assign the job to the",
+      "designatedCustodian": "designated custodian.",
+      "userAssignNote": "Manually select a single user to assign this job to.",
+      "groupAssignNote": "Assign the job to a",
+      "groupAssignNoteB": "Jobs will be distributed to group members in round-robin order, so work is shared fairly among the team.",
+      "multiple": "multiple",
+      "toThisMaintenancePlanInBulk": "to this maintenance plan in bulk.",
+      "autoApplyToNew": "Auto-apply to",
+      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to"
+    },
+    "validationFE":{
+      "enterValueOfOne":"Enter a value of 1 or greater."
     }
   },
   "contracts": {
@@ -11880,6 +11908,13 @@
         "original": "Pick",
         "singular": "Pick",
         "plural": "Pick",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "use":{
+        "original": "Use",
+        "singular": "Use",
+        "plural": "Use",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -22152,7 +22187,8 @@
           "willOnlyBe":"will only be selectable on the",
           "listedAbove":"listed above",
           "enterA":"Enter a",
-          "availability":"Availability"
+          "availability":"Availability",
+          "defaultForNew":"Default: Select one status that will be the default for new"
         },
         "validationFE":{
           "maximum80Chars":"Maximum length of 80 characters exceeded",
