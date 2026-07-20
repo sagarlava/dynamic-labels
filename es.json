@@ -2816,6 +2816,8 @@
       "sMeterFrequency": "frecuencia del medidor",
       "whenBothConditionsAreMet": ", cuando ambas condiciones se cumplan",
       "whicheverComesFirstLower": ", lo que ocurra primero",
+      "howShouldMaintenanceCalculated": "¿Cómo debe calcularse la próxima fecha de mantenimiento?",
+      "whatShouldMaintenanceBasedOn": "¿En qué debe basarse la primera fecha de mantenimiento?",
       "chooseWhetherScheduleFollows": "Elija si el programa sigue el calendario o cuándo se completa realmente el trabajo.",
       "floatingBasedOnCompletion": "Flotante (basado en finalización)",
       "nextJobDateMovesBased": "La fecha del siguiente trabajo se mueve según cuándo se completó realmente el último trabajo.",
@@ -2860,7 +2862,33 @@
       "timeMeterBasedBullet3": "Se reprograma automáticamente según el uso real del",
       "usage": "uso",
       "timeMeterBasedBestForStart": "generadores, vehículos, bombas, o cualquier",
-      "withRuntimeMeters": "con medidores de tiempo de funcionamiento"
+      "withRuntimeMeters": "con medidores de tiempo de funcionamiento",
+      "howToStepAHybrid": "Nombre su plan (p. ej., 'PM – Generador #3 – 500h / 3m')",
+      "howToStepBHybrid": "Establezca la duración del plan",
+      "howToStepCHybrid": "Elija la plantilla de trabajo y el asignado. Opcional: configurar servicios por nivel (Menor / Mayor)",
+      "howToStepDHybrid": "Configure TANTO el intervalo de tiempo COMO el intervalo del medidor",
+      "howToStepEHybrid": "Elija si activar cuando cualquiera de las condiciones se alcance primero, o solo cuando ambas se cumplan",
+      "enterThe": "Ingrese el",
+      "currentMeterSoCalculate": "lectura actual del medidor para que el primer trabajo se calcule correctamente",
+      "intoPlanActivate": "al plan y actívelo. Asegúrese de que estos",
+      "haveMeterFreq": "tengan la frecuencia del medidor configurada",
+      "setUpATimeMeterPlan": "Configure un plan de Tiempo + Medidor cuando un",
+      "wearsBothTimeUsage": "se desgasta tanto con el tiempo como con el uso",
+      "triggersWhenEitherOrBoth": "El trabajo se activa cuando CUALQUIERA de los umbrales se alcanza primero o cuando AMBOS umbrales se alcanzan",
+      "each": "Cada",
+      "unit": "unidad",
+      "custodianAssignNote": "Asignar automáticamente el trabajo al",
+      "designatedCustodian": "custodio designado.",
+      "userAssignNote": "Seleccione manualmente un único usuario para asignar este trabajo.",
+      "groupAssignNote": "Asignar el trabajo a un",
+      "groupAssignNoteB": "Los trabajos se distribuirán a los miembros del grupo en orden rotativo, para que el trabajo se comparta equitativamente entre el equipo.",
+      "multiple": "múltiples",
+      "toThisMaintenancePlanInBulk": "a este plan de mantenimiento de forma masiva.",
+      "autoApplyToNew": "Aplicar automáticamente a",
+      "setConditionsToAutoApply": "Establezca las condiciones para aplicar automáticamente este plan a"
+    },
+    "validationFE": {
+      "enterValueOfOne": "Ingrese un valor de 1 o mayor."
     }
   },
   "contracts": {
@@ -15406,6 +15434,13 @@
         "plural": "Elegir",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "Usar",
+        "plural": "Usar",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25675,7 +25710,8 @@
           "willOnlyBe": "solo será seleccionable en el",
           "listedAbove": "listado arriba",
           "enterA": "Ingresar un",
-          "availability": "Disponibilidad"
+          "availability": "Disponibilidad",
+          "defaultForNew": "Predeterminado: Seleccione un estado que será el predeterminado para los nuevos"
         },
         "validationFE": {
           "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",

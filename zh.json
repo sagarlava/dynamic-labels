@@ -2824,6 +2824,8 @@
       "sMeterFrequency": "的仪表频率",
       "whenBothConditionsAreMet": "，当两个条件都满足时",
       "whicheverComesFirstLower": "，以先到者为准",
+      "howShouldMaintenanceCalculated": "下一个维护日期应如何计算？",
+      "whatShouldMaintenanceBasedOn": "第一个维护日期应基于什么？",
       "chooseWhetherScheduleFollows": "选择计划是遵循日历还是实际完成工作的时间。",
       "floatingBasedOnCompletion": "浮动（基于完成）",
       "nextJobDateMovesBased": "下一个工单日期根据上一个工单实际完成的时间移动。",
@@ -2868,7 +2870,33 @@
       "timeMeterBasedBullet3": "根据实际",
       "usage": "使用情况自动重新安排",
       "timeMeterBasedBestForStart": "发电机、车辆、泵，或任何",
-      "withRuntimeMeters": "带有运行时仪表的"
+      "withRuntimeMeters": "带有运行时仪表的",
+      "howToStepAHybrid": "为您的计划命名（例如：'PM – 发电机 #3 – 500小时 / 3个月'）",
+      "howToStepBHybrid": "设置计划持续时间",
+      "howToStepCHybrid": "选择工单模板和负责人。可选：设置按级别的服务（小修 / 大修）",
+      "howToStepDHybrid": "同时配置时间间隔和仪表间隔",
+      "howToStepEHybrid": "选择是在任一条件先达到时触发，还是仅在两者都满足时触发",
+      "enterThe": "输入",
+      "currentMeterSoCalculate": "当前仪表读数，以便正确计算第一个工单",
+      "intoPlanActivate": "加入计划并激活。确保这些",
+      "haveMeterFreq": "已设置仪表频率",
+      "setUpATimeMeterPlan": "当某个",
+      "wearsBothTimeUsage": "同时受时间和使用量影响时，设置时间+仪表计划",
+      "triggersWhenEitherOrBoth": "当任一阈值先达到或两个阈值都达到时触发工单",
+      "each": "每个",
+      "unit": "单位",
+      "custodianAssignNote": "自动将工单分配给",
+      "designatedCustodian": "指定保管人。",
+      "userAssignNote": "手动选择单个用户来分配此工单。",
+      "groupAssignNote": "将工单分配给",
+      "groupAssignNoteB": "工单将按轮询顺序分配给小组成员，确保工作在团队中公平分配。",
+      "multiple": "多个",
+      "toThisMaintenancePlanInBulk": "批量添加到此维护计划。",
+      "autoApplyToNew": "自动应用到",
+      "setConditionsToAutoApply": "设置条件以自动将此计划应用于"
+    },
+    "validationFE": {
+      "enterValueOfOne": "请输入 1 或更大的值。"
     }
   },
   "contracts": {
@@ -15405,6 +15433,13 @@
         "plural": "选取",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "使用",
+        "plural": "使用",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25674,7 +25709,8 @@
           "willOnlyBe": "只能在以下位置选择",
           "listedAbove": "上面列出的",
           "enterA": "输入",
-          "availability": "可用性"
+          "availability": "可用性",
+          "defaultForNew": "默认：选择一个将作为新记录默认状态的状态"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

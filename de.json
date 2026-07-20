@@ -2816,6 +2816,8 @@
       "sMeterFrequency": "Zählerfrequenz",
       "whenBothConditionsAreMet": ", wenn beide Bedingungen erfüllt sind",
       "whicheverComesFirstLower": ", was auch immer zuerst kommt",
+      "howShouldMaintenanceCalculated": "Wie soll das nächste Wartungsdatum berechnet werden?",
+      "whatShouldMaintenanceBasedOn": "Worauf soll das erste Wartungsdatum basieren?",
       "chooseWhetherScheduleFollows": "Wählen Sie, ob der Zeitplan dem Kalender oder der tatsächlichen Fertigstellung folgt.",
       "floatingBasedOnCompletion": "Gleitend (basierend auf Abschluss)",
       "nextJobDateMovesBased": "Das nächste Auftragsdatum verschiebt sich basierend auf dem tatsächlichen Abschluss des letzten Auftrags.",
@@ -2860,7 +2862,33 @@
       "timeMeterBasedBullet3": "Wird automatisch basierend auf der tatsächlichen",
       "usage": "Nutzung neu geplant",
       "timeMeterBasedBestForStart": "Generatoren, Fahrzeuge, Pumpen oder jede",
-      "withRuntimeMeters": "mit Laufzeitzählern"
+      "withRuntimeMeters": "mit Laufzeitzählern",
+      "howToStepAHybrid": "Benennen Sie Ihren Plan (z. B. 'PM – Generator #3 – 500Std / 3Mo')",
+      "howToStepBHybrid": "Legen Sie die Plandauer fest",
+      "howToStepCHybrid": "Wählen Sie die Auftragsvorlage und den Beauftragten. Optional: Serviceleistungen pro Stufe festlegen (Klein / Groß)",
+      "howToStepDHybrid": "Konfigurieren Sie SOWOHL das Zeitintervall ALS AUCH das Zählerintervall",
+      "howToStepEHybrid": "Wählen Sie, ob bei Erreichen einer der Bedingungen oder nur wenn beide erfüllt sind ausgelöst werden soll",
+      "enterThe": "Geben Sie den",
+      "currentMeterSoCalculate": "aktuellen Zählerstand ein, damit der erste Auftrag korrekt berechnet wird",
+      "intoPlanActivate": "zum Plan hinzufügen und aktivieren. Stellen Sie sicher, dass diese",
+      "haveMeterFreq": "Zählerfrequenz eingestellt haben",
+      "setUpATimeMeterPlan": "Richten Sie einen Zeit + Zähler Plan ein, wenn ein",
+      "wearsBothTimeUsage": "sowohl durch Zeit als auch durch Nutzung verschleißt",
+      "triggersWhenEitherOrBoth": "Der Auftrag wird ausgelöst, wenn ENTWEDER ein Schwellenwert zuerst erreicht wird oder wenn BEIDE Schwellenwerte erreicht sind",
+      "each": "Jeder",
+      "unit": "Einheit",
+      "custodianAssignNote": "Den Auftrag automatisch zuweisen an den",
+      "designatedCustodian": "zugewiesenen Verwalter.",
+      "userAssignNote": "Wählen Sie manuell einen einzelnen Benutzer aus, dem dieser Auftrag zugewiesen werden soll.",
+      "groupAssignNote": "Den Auftrag einer",
+      "groupAssignNoteB": "Aufträge werden in Round-Robin-Reihenfolge an Gruppenmitglieder verteilt, sodass die Arbeit fair im Team aufgeteilt wird.",
+      "multiple": "mehrere",
+      "toThisMaintenancePlanInBulk": "zu diesem Wartungsplan in einem Schritt hinzufügen.",
+      "autoApplyToNew": "Automatisch anwenden auf",
+      "setConditionsToAutoApply": "Legen Sie die Bedingungen fest, um diesen Plan automatisch anzuwenden auf"
+    },
+    "validationFE": {
+      "enterValueOfOne": "Geben Sie einen Wert von 1 oder größer ein."
     }
   },
   "contracts": {
@@ -15406,6 +15434,13 @@
         "plural": "Auswählen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "Verwenden",
+        "plural": "Verwenden",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25675,7 +25710,8 @@
           "willOnlyBe": "wird nur auswählbar sein auf dem",
           "listedAbove": "oben aufgeführten",
           "enterA": "Eingeben eines",
-          "availability": "Verfügbarkeit"
+          "availability": "Verfügbarkeit",
+          "defaultForNew": "Standard: Wählen Sie einen Status, der als Standard für neue gilt"
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",

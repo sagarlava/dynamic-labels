@@ -20439,7 +20439,8 @@
                     "willOnlyBe":"will only be selectable on the",
                     "listedAbove":"listed above",
                     "enterA":"Enter a",
-                    "availability":"Availability"
+                    "availability":"Availability",
+          "defaultForNew":"Default: Select one status that will be the default for new"
                 },
                 "validationFE":{
                     "maximum80Chars":"Maximum length of 80 characters exceeded",
@@ -25794,6 +25795,13 @@
                 "original": "Pick",
                 "singular": "Pick",
                 "plural": "Pick",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "use":{
+                "original": "Use",
+                "singular": "Use",
+                "plural": "Use",
                 "setupEdit": false,
                 "setupVisible": false
             }

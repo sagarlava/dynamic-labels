@@ -2816,6 +2816,8 @@
       "sMeterFrequency": "kekerapan meter",
       "whenBothConditionsAreMet": ", apabila kedua-dua syarat dipenuhi",
       "whicheverComesFirstLower": ", yang mana dahulu",
+      "howShouldMaintenanceCalculated": "Bagaimana tarikh penyelenggaraan seterusnya harus dikira?",
+      "whatShouldMaintenanceBasedOn": "Apakah yang harus menjadi asas tarikh penyelenggaraan pertama?",
       "chooseWhetherScheduleFollows": "Pilih sama ada jadual mengikut kalendar atau apabila kerja sebenarnya selesai.",
       "floatingBasedOnCompletion": "Terapung (Berdasarkan Penyelesaian)",
       "nextJobDateMovesBased": "Tarikh kerja seterusnya berubah berdasarkan bila kerja terakhir sebenarnya diselesaikan.",
@@ -2860,7 +2862,33 @@
       "timeMeterBasedBullet3": "Dijadualkan semula secara automatik berdasarkan penggunaan sebenar",
       "usage": "penggunaan",
       "timeMeterBasedBestForStart": "penjana, kenderaan, pam, atau mana-mana",
-      "withRuntimeMeters": "dengan meter masa jalan"
+      "withRuntimeMeters": "dengan meter masa jalan",
+      "howToStepAHybrid": "Namakan pelan anda (cth. 'PM – Penjana #3 – 500jam / 3bln')",
+      "howToStepBHybrid": "Tetapkan tempoh pelan",
+      "howToStepCHybrid": "Pilih templat kerja dan orang yang ditugaskan. Pilihan: tetapkan perkhidmatan per-peringkat (Minor / Major)",
+      "howToStepDHybrid": "Konfigurasikan selang MASA DAN selang meter",
+      "howToStepEHybrid": "Pilih sama ada untuk mencetuskan apabila yang mana-mana dicapai dahulu, atau hanya apabila kedua-duanya dipenuhi",
+      "enterThe": "Masukkan",
+      "currentMeterSoCalculate": "bacaan meter semasa supaya kerja pertama dikira dengan betul",
+      "intoPlanActivate": "ke dalam pelan dan aktifkannya. Pastikan",
+      "haveMeterFreq": "mempunyai kekerapan meter yang ditetapkan",
+      "setUpATimeMeterPlan": "Sediakan pelan Masa + Meter apabila",
+      "wearsBothTimeUsage": "haus dengan kedua-dua masa dan penggunaan",
+      "triggersWhenEitherOrBoth": "Kerja dicetuskan apabila ambang MANA-MANA dicapai dahulu atau apabila KEDUA-DUA ambang dicapai",
+      "each": "Setiap",
+      "unit": "unit",
+      "custodianAssignNote": "Tugaskan kerja secara automatik kepada",
+      "designatedCustodian": "penjaga yang ditetapkan.",
+      "userAssignNote": "Pilih seorang pengguna secara manual untuk menugaskan kerja ini.",
+      "groupAssignNote": "Tugaskan kerja kepada",
+      "groupAssignNoteB": "Kerja akan diagihkan kepada ahli kumpulan secara giliran, supaya kerja dikongsi secara adil dalam pasukan.",
+      "multiple": "berbilang",
+      "toThisMaintenancePlanInBulk": "ke dalam pelan penyelenggaraan ini secara pukal.",
+      "autoApplyToNew": "Guna secara automatik kepada",
+      "setConditionsToAutoApply": "Tetapkan syarat untuk menggunakan pelan ini secara automatik kepada"
+    },
+    "validationFE": {
+      "enterValueOfOne": "Masukkan nilai 1 atau lebih."
     }
   },
   "contracts": {
@@ -15406,6 +15434,13 @@
         "plural": "Pilih",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "Guna",
+        "plural": "Guna",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25674,7 +25709,8 @@
           "willOnlyBe": "hanya boleh dipilih pada",
           "listedAbove": "yang disenaraikan di atas",
           "enterA": "Masukkan",
-          "availability": "Ketersediaan"
+          "availability": "Ketersediaan",
+          "defaultForNew": "Lalai: Pilih satu status yang akan menjadi lalai untuk yang baharu"
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",
