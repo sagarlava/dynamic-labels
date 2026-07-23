@@ -5650,7 +5650,7 @@
       "taskNotFound": "Task not found",
       "taskRecommendNotFound": "Task recommendation not found",
       "taskRecommendUsersNotFound": "Task recommendated users not found",
-      "taskUserIsEnRoute": "Currently, a user is en route to this task",
+      "taskUserIsEnRoute": "Currently, a user is en route to this task, so you can't update task status",
       "taskHasJourneyManagementPlan": "Journey Management Plan Data exists in the system for the Task",
       "taskUserIdNotFound": "User id not found",
       "taskStatusNotFound": "Task not found",
