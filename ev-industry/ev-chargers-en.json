@@ -1782,6 +1782,13 @@
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
+            },
+            "sec4": {
+                "original": "Maintenance",
+                "singular": "Maintenance",
+                "plural": "Maintenances",
+                "setupEdit": false,
+                "setupVisible": false
             }
         },
         "fields": {

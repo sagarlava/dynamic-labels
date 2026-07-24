@@ -2186,6 +2186,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

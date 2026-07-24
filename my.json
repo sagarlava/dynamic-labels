@@ -2178,6 +2178,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan-penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
