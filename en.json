@@ -2721,24 +2721,175 @@
         "plural": "Meter",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "anchorDate":{
+        "original": "Anchor Date",
+        "singular": "Anchor Date",
+        "plural": "Anchor Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "floating":{
+        "original": "Floating",
+        "singular": "Floating",
+        "plural": "Floating",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixed":{
+        "original": "Fixed",
+        "singular": "Fixed",
+        "plural": "Fixed",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages":{
       "nameYour":"Name your",
-      "setStatusChooseWhen":"set its status, and choose when",
-      "shouldOccur":"should occur. Use time-based intervals, meter-based usage triggers, or both to ensure the right work happens at the right time.",
       "start":"Start",
       "from":"from",
       "andEnd": "and End",
       "chooseHowYour":"Choose how your",
       "shouldTrigger":"should trigger",
-      "basedTimeIntervals":"Based on time intervals like weekly, monthly, or quarterly. Perfect for routine inspections and seasonal maintenance.",
-      "basedOnUsageMetrics":"Based on usage metrics like miles driven, hours operated, or cycles completed. Ideal for equipment with measurable usage.",
-      "combineBothMethods":"Combine both methods",
-      "triggersOnWhichever":"triggers on whichever condition is met first, then intelligently reschedules.",
-      "activateYourPlan":"Activate your plan after adding items or setting up auto-assignment conditions."
+      "setupNew": "Set up a new",
+      "allowToAutomate": "allow you to automate the creation of jobs",
+      "setupThe": "Setup the",
+      "criteria": "criteria",
+      "howToStepA": "Name your plan so it's easy to recognise later (e.g. 'PM – Generator #3 – Quarterly')",
+      "howToStepB": "Set the plan duration – how long this plan should stay active",
+      "howToStepC": "Choose how often jobs repeat – weekly, monthly, or Advanced if you follow a custom cycle",
+      "howToStepD": "Pick a job template and assignee – who will do the work",
+      "howToStepE": "Choose how follow-up jobs are scheduled – Fixed date or Floating based on completion.",
+      "howToStepF": "Decide when jobs are created so planners have enough lead time. (Optional) Turn on self-healing to automatically reschedule overdue jobs.",
+      "addIntoThePlanAndActivate": "into the plan and activate it",
+      "planName": "Plan name",
+      "giveYourPlanAName": "Give your plan a name.",
+      "planWillBeActivatedOn": "Plan will be activated on",
+      "whenToStartThePlan": "When to start the plan",
+      "jobsCreatedBetweenDates": "Jobs are created only between the start and end dates. If you leave the end as Never, the plan keeps running until you cancel it.",
+      "startPlanFrom": "Start plan from",
+      "enterStartDateToProceed": "Enter a start date to proceed.",
+      "enterEndDateToProceed": "Enter a end date to proceed.",
+      "activateFrom": "Activate from",
+      "until": "until",
+      "withNoEndDate": "with no end date",
+      "setTheSchedule": "Set the Schedule",
+      "needDifferentTemplates": "Need different templates for different months?",
+      "tryAdvanced": "Try Advanced.",
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "specifyHowFrequently": "Specify how frequently this maintenance should occur.",
+      "every": "Every",
+      "cycleRepeatsEvery": "Cycle repeats every",
+      "setHowOftenScheduleRepeats": "Set how often this schedule repeats (in days, weeks, months, or years)",
+      "repeatsEvery": "Repeats every",
+      "forEveryWeekOrMonth": "For every week or month in this schedule, the system will create jobs using this template and assign them to the person you selected (if any)",
+      "assignToOptional": "Assign to (Optional)",
+      "assignTo": "Assign to",
+      "noMaintenance": "No Maintenance",
+      "assignedTo": "Assigned To",
+      "jobWillBeCreatedAsUnassigned": "Job will be created as unassigned",
+      "notAssigned": "Not Assigned",
+      "cycle": "Cycle",
+      "custodian": "Custodian",
+      "customValue": "Custom value",
+      "overrideWithFixedInterval": "Override with a fixed interval applied to every",
+      "inThisPlan": "in this plan.",
+      "withoutDefaultSetWillBeFlagged": "without a default set will be flagged when added to the plan.",
+      "meterFrequencyFromIts": "meter frequency from its",
+      "recordBestForMixedFleets": "record. Best for mixed fleets.",
+      "sRecordWillBeUsed": "'s record will be used.",
+      "customMeterInterval": "Custom Meter Interval",
+      "kmRemaining": "km remaining",
+      "meterSourceMustExistOnEvery": "The meter source must exist on every",
+      "attachedToThisPlan": "attached to this plan.",
+      "frequency": "Frequency",
+      "triggerType": "Trigger Type",
+      "whicheverComesFirst": "Whichever comes first",
+      "triggerAsSoonAsTimeOrMeter": "Trigger as soon as time OR meter threshold is reached.",
+      "onlyWhenBothAreMet": "Only when both are met",
+      "waitUntilBothThresholds": "Wait until BOTH time AND meter thresholds are reached. Used for less critical PMs.",
+      "runsEvery": "Runs every",
+      "orLower": "or",
+      "everyLower": "every",
+      "km": "km",
+      "sMeterFrequency": "'s meter frequency",
+      "whenBothConditionsAreMet": ", when both conditions are met",
+      "whicheverComesFirstLower": ", whichever comes first",
+      "howShouldMaintenanceCalculated": "How should the next maintenance date be calculated?",
+      "whatShouldMaintenanceBasedOn": "What should the first maintenance date be based on?",
+      "chooseWhetherScheduleFollows": "Choose whether the schedule follows the calendar or when work is actually completed.",
+      "floatingBasedOnCompletion": "Floating (Based on Completion)",
+      "nextJobDateMovesBased": "Next job date moves based on when the last job was actually completed.",
+      "fixedCalendarBased": "Fixed (Calendar based)",
+      "nextJobDateAlwaysCalculated": "Next job date is always calculated from the planned schedule, even if the previous job was completed late.",
+      "dateUsedToCalculateFirstJob": "This date is used to calculate the very first job added to the plan. Future jobs follows the frequency above",
+      "startScheduleFrom": "Start schedule from",
+      "onThe": "On the",
+      "dayOfTheMonth": "day of the month",
+      "ofTheMonth": "of the month",
+      "onLower": "On",
+      "schedullingWillStartFrom": "Schedulling will start from",
+      "dayOfEvery": "day of every",
+      "year": "year",
+      "month": "month",
+      "ofEvery": "of every",
+      "everyUpper": "Every",
+      "automateCreationSelfHealing": "Automate Creation & Self-healing",
+      "controlHowJobsAreCreated": "Control how jobs are created, what happens when jobs are missed, and how the plan recovers from delays.",
+      "whenShouldJobBeCreated": "When should the job be created?",
+      "chooseHowFarInAdvance": "Choose how far in advance the job should be created",
+      "createTheJob": "Create the job",
+      "beforeTheDueDate": "before the due date.",
+      "createTheJobOn": "Create the job on",
+      "autoRescheduleMissedMaintenance": "Auto-reschedule missed maintenance",
+      "automaticallyRescheduleJobs": "Automatically reschedule jobs for overdue maintenance.",
+      "maintenanceJobRemainsOverdueFor": "Maintenance job remains Overdue for",
+      "beforeBeingRescheduled": "before being rescheduled",
+      "later": "later.",
+      "keepTheJobInOverdueFor": "Keep the job in Overdue for",
+      "daysBforeRescheduling": "day(s) before rescheduling, then reschedule the job",
+      "afterItBecomesOverdue": "after it becomes overdue.",
+      "timeBasedDesc": "runs on a fixed calendar schedule, set it once and it repeats automatically.",
+      "timeBasedBullet1": "Repeats weekly, monthly, quarterly, or on any custom interval",
+      "timeBasedBullet2": "Ideal for routine inspections with predictable cycles",
+      "timeBasedBullet3": "Jobs are auto-created ahead of each due date",
+      "bestFor": "Best for:",
+      "timeBasedBestFor": "air filters, fire extinguisher checks, lubrication schedules",
+      "timeMeterBasedDesc": "Combines a calendar schedule with a usage meter whichever is hit first triggers the job.",
+      "timeMeterBasedBullet1": "Tracks both elapsed time and usage (hours, km, cycles)",
+      "timeMeterBasedBullet2": "Triggers on whichever condition is reached first",
+      "timeMeterBasedBullet3": "Automatically reschedules based on actual",
+      "usage": "usage",
+      "timeMeterBasedBestForStart": "generators, vehicles, pumps, or any",
+      "withRuntimeMeters": "with runtime meters",
+      "howToStepAHybrid":"Name your plan (e.g. 'PM – Generator #3 – 500hr / 3mo')",
+      "howToStepBHybrid":"Set the plan duration",
+      "howToStepCHybrid":"Pick the job template and assignee. Optional: set per-tier services (Minor / Major)",
+      "howToStepDHybrid":"Configure BOTH the time interval AND the meter interval",
+      "howToStepEHybrid":"Choose whether to trigger on whichever comes first, or only when both are met",
+      "enterThe":"Enter the",
+      "currentMeterSoCalculate":"current meter reading so the first job calculates correctly",
+      "intoPlanActivate":"into the plan and activate it. Make sure those",
+      "haveMeterFreq":"have meter frequency set",
+      "setUpATimeMeterPlan":"Set up a Time + Meter plan when an",
+      "wearsBothTimeUsage":"wears with both time and usage",
+      "triggersWhenEitherOrBoth":"The job triggers when EITHER threshold is reached first or when BOTH thresholds are reached",
+      "each":"Each",
+      "unit": "unit",
+      "custodianAssignNote": "Automatically assign the job to the",
+      "designatedCustodian": "designated custodian.",
+      "userAssignNote": "Manually select a single user to assign this job to.",
+      "groupAssignNote": "Assign the job to a",
+      "groupAssignNoteB": "Jobs will be distributed to group members in round-robin order, so work is shared fairly among the team.",
+      "multiple": "multiple",
+      "toThisMaintenancePlanInBulk": "to this maintenance plan in bulk.",
+      "autoApplyToNew": "Auto-apply to",
+      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to"
+    },
+    "validationFE":{
+      "enterValueOfOne":"Enter a value of 1 or greater."
     }
-
   },
   "contracts": {
     "setupVisible": true,
@@ -12883,6 +13034,296 @@
       "noAuditTrail":"No audit trail available"
     }
   },
+   "certification": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Certification",
+      "singular": "Certification",
+      "plural": "Certifications",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1":{
+        "original": "Details",
+        "singular": "Details",
+        "plural": "Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2":{
+        "original": "Basics",
+        "singular": "Basic",
+        "plural": "Basics",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3":{
+        "original": "Reminders",
+        "singular": "Reminder",
+        "plural": "Reminders",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked":{
+        "original": "Linked",
+        "singular": "Linked",
+        "plural": "Linked",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency":{
+        "original": "Frequency",
+        "singular": "Frequency",
+        "plural": "Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue":{
+        "original": "Next Due",
+        "singular": "Next Due",
+        "plural": "Next Due",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record":{
+        "original": "Record",
+        "singular": "Record",
+        "plural": "Records",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference":{
+        "original": "Reference",
+        "singular": "Reference",
+        "plural": "References",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate":{
+        "original": "Due Date",
+        "singular": "Due Date",
+        "plural": "Due Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status":{
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy":{
+        "original": "Performed By",
+        "singular": "Performed By",
+        "plural": "Performed By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate":{
+        "original": "Completion Date",
+        "singular": "Completion Date",
+        "plural": "Completion Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "result":{
+        "original": "Result",
+        "singular": "Result",
+        "plural": "Results",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark":{
+        "original": "Remarks",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "authority":{
+        "original": "Authority",
+        "singular": "Authority",
+        "plural": "Authorities",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notify":{
+        "original": "Notify",
+        "singular": "Notify",
+        "plural": "Notify",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "setupAutomated": "Set up automated",
+      "trackingRecords": "tracking. Records are generated on each schedule, and reminders go to the right people before due dates",
+      "configureA": "Configure a",
+      "howToStepA": "Click",
+      "howToStepAToDefine": "to define a",
+      "howToStepB": "Name it clearly so it's easy to recognize later (e.g., 'Annual Safety Certification')",
+      "howToStepD": "Choose how often the record should repeat — every 3, 6, 12 months, or custom.",
+      "setTheAuthority": "Set the authority (e.g., TÜV SÜD) and who should be notified.",
+      "addUpTo": "Add up to 3 reminders (e.g., 60, 30, and 7 days before each due date)",
+      "trackRecordStayCompliant":"Track records and stay compliant",
+      "expandAnyRow":"Expand any row to see its records inline; click “Mark Complete” to close one",
+      "complianceStatus":"The compliance status at the top updates automatically based on overdue records",
+      "useAllRecords":"Use “All Records” at the bottom to search, filter, or audit across all",
+      "sendCompleteNotification":"Send a completion notification",
+      "recordingCompletion":"Recording completion for"
+    },
+    "validationFE":{
+      "recordsAre":"records are overdue",
+      "actionRequired":"Actions required"
+    }
+  },
+   "inspection": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Inspection",
+      "singular": "Inspection",
+      "plural": "Inspections",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1":{
+        "original": "Details",
+        "singular": "Details",
+        "plural": "Details",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked":{
+        "original": "Linked",
+        "singular": "Linked",
+        "plural": "Linked",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency":{
+        "original": "Frequency",
+        "singular": "Frequency",
+        "plural": "Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue":{
+        "original": "Next Due",
+        "singular": "Next Due",
+        "plural": "Next Due",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record":{
+        "original": "Record",
+        "singular": "Record",
+        "plural": "Records",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference":{
+        "original": "Reference",
+        "singular": "Reference",
+        "plural": "References",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate":{
+        "original": "Due Date",
+        "singular": "Due Date",
+        "plural": "Due Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status":{
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy":{
+        "original": "Performed By",
+        "singular": "Performed By",
+        "plural": "Performed By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate":{
+        "original": "Completion Date",
+        "singular": "Completion Date",
+        "plural": "Completion Date",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "setupAutomated": "Set up automated",
+      "trackingRecords": "tracking. Records are generated on each schedule, and reminders go to the right people before due dates",
+      "configureAn": "Configure an",
+      "howToStepA": "Click",
+      "howToStepAToDefine": "to define a",
+      "howToStepB": "Name it clearly so it's easy to recognize later (e.g., 'Monthly Safety Inspection')",
+      "howToStepC": "Select the linked",
+      "howToStepCForThis": "for this",
+      "howToStepD": "Choose how often the record should repeat — every 3, 6, 12 months, or custom.",
+      "trackRecordStayCompliant":"Track records and stay compliant",
+      "expandAnyRow":"Expand any row to see its records inline; click “Mark Complete” to close one",
+      "complianceStatus":"The compliance status at the top updates automatically based on overdue records",
+      "useAllRecords":"Use “All Records” at the bottom to search, filter, or audit across all",
+      "showing":"Use “All Records” at the bottom to search, filter, or audit across all",
+      "of":"Use “All Records” at the bottom to search, filter, or audit across all"
+    },
+    "validationFE":{
+      "recordsAre":"records are overdue",
+      "actionRequired":"Actions required"
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
@@ -14991,6 +15432,13 @@
         "original": "Pick",
         "singular": "Pick",
         "plural": "Pick",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "use":{
+        "original": "Use",
+        "singular": "Use",
+        "plural": "Use",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -25143,6 +25591,13 @@
             "plural": "On-Demands",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "Description",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -25193,6 +25648,7 @@
           "addStatusWith":"Add a status with Label, Code, and Color Hex Code (Example: #4F46E5)",
           "availableToggle":"Available: Toggle the statuses you want to make available for this type",
           "defaultSelectStatus":"Default: Select one status that will be the default for new jobs of this type",
+          "defaultSelectStatusStandard":"Default: Select one status that will be the default for",
           "saveYourChanges":"Save your changes",
           "newlyCreatedStatus":"Newly created statuses will be visible but not set as",
           "defineDetailsOfThis":"Define the details of this",
@@ -25233,14 +25689,43 @@
           "joTypeStandaloneDesc":"group jobs by work type (installation, repair, maintenance, damage). Set them up here so each job is tagged correctly. To get started, clone an existing one.",
           "helpsGroup":"helps you group",
           "forPlanningReporting":"for planning and reporting.",
-          "chooseOptionMatches":"Choose the option that best matches the main purpose of this"
+          "chooseOptionMatches":"Choose the option that best matches the main purpose of this",
+          "assetTypeStandaloneDesc":"are used to group similar equipment like tools or vehicles.",
+          "assetTypeStandaloneDescLink":"Create one and link it to your equipment.",
+          "setUnitMeasurement":"Sets the unit of measurement (e.g. km, hours, cycles) for",
+          "default":"Default",
+          "setHowOften":"Sets how often",
+          "isTriggered":"is triggered",
+          "overridenPer":"Can be overridden per",
+          "afterCreation":"after creation",
+          "based":"based",
+          "usedForCalc":"Used for calculations and grouping in",
+          "andFilters":"and filters",
+          "displayedFor":"Displayed to",
+          "on":"on",
+          "recordsList":"records and lists",
+          "chooseWhich":"Choose which",
+          "canUseThis":"can use this",
+          "this":"This",
+          "willOnlyBe":"will only be selectable on the",
+          "listedAbove":"listed above",
+          "enterA":"Enter a",
+          "availability":"Availability",
+          "defaultForNew":"Default: Select one status that will be the default for new"
         },
         "validationFE":{
           "maximum80Chars":"Maximum length of 80 characters exceeded",
           "maximumCharsExceed":"Maximum character length exceeded",
           "noDefaultStatus":"No default status found. Please set a status as default.",
           "systemStatusNotAllowedDelete":"System statuses cannot be deleted. Feel free to change the label.",
-          "toDeleteStatus":"To delete this status, ensure it's turned off in all the"
+          "toDeleteStatus":"To delete this status, ensure it's turned off in all the",
+          "statusUsedInOther":"This status may be used in other",
+          "haveBeenSetUp":"have been set up",
+          "hasBeenSetUp":"has been set up",
+          "pleaseSetUp":"Please set up",
+          "isFound":"is found",
+          "pleaseSetA":"Please set a",
+          "as":"as"
         }
       },
       "procedure":{

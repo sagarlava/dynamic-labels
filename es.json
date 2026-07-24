@@ -2623,13 +2623,13 @@
     },
     "messages": {}
   },
-   "maintenancePlan":{
+  "maintenancePlan": {
     "setupVisible": false,
     "setupEdit": false,
     "label": {
       "original": "Preventive Maintenance",
-      "singular": "Mantenimiento Preventivo",
-      "plural": "Mantenimientos Preventivos",
+      "singular": "Mantenimiento preventivo",
+      "plural": "Mantenimientos preventivos",
       "setupEdit": false,
       "setupVisible": false
     },
@@ -2638,105 +2638,257 @@
       "setupEdit": false,
       "sec0": {
         "original": "Maintenance Jobs",
-        "singular": "Trabajo de Mantenimiento",
-        "plural": "Trabajos de Mantenimiento",
+        "singular": "Trabajo de mantenimiento",
+        "plural": "Trabajos de mantenimiento",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec1": {
         "original": "Maintenance Plans",
-        "singular": "Plan de Mantenimiento",
-        "plural": "Planes de Mantenimiento",
+        "singular": "Plan de mantenimiento",
+        "plural": "Planes de mantenimiento",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec2": {
         "original": "Define Your Maintenance Plan",
-        "singular": "Define tu Plan de Mantenimiento",
-        "plural": "Define tus Planes de Mantenimiento",
+        "singular": "Defina su plan de mantenimiento",
+        "plural": "Defina su plan de mantenimiento",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec3": {
         "original": "Create Schedule",
-        "singular": "Crear Horario",
-        "plural": "Crear Horarios",
+        "singular": "Crear programa",
+        "plural": "Crear programa",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec4": {
         "original": "Configure Creation",
-        "singular": "Configurar Creación",
-        "plural": "Configurar Creaciones",
+        "singular": "Configurar creación",
+        "plural": "Configurar creación",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec5": {
         "original": "Self-healing",
-        "singular": "Autorreparación",
-        "plural": "Autorreparaciones",
+        "singular": "Autocorrección",
+        "plural": "Autocorrección",
         "setupEdit": false,
         "setupVisible": false
       }
     },
-    "fields":{
-      "maintenance":{
+    "fields": {
+      "maintenance": {
         "original": "Maintenance",
-        "singular": "Maintenance",
-        "plural": "Maintenance",
+        "singular": "Mantenimiento",
+        "plural": "Mantenimientos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "plan":{
+      "plan": {
         "original": "Plan",
         "singular": "Plan",
-        "plural": "Plans",
+        "plural": "Planes",
         "setupEdit": false,
         "setupVisible": false
       },
-      "timeBased":{
+      "timeBased": {
         "original": "Time-based",
-        "singular": "Time-based",
-        "plural": "Time-based",
+        "singular": "Basado en tiempo",
+        "plural": "Basado en tiempo",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meterBased":{
+      "meterBased": {
         "original": "Meter-based",
-        "singular": "Meter-based",
-        "plural": "Meter-based",
+        "singular": "Basado en medidor",
+        "plural": "Basado en medidor",
         "setupEdit": false,
         "setupVisible": false
       },
-      "time":{
+      "time": {
         "original": "Time",
-        "singular": "Time",
-        "plural": "Time",
+        "singular": "Tiempo",
+        "plural": "Tiempos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meter":{
+      "meter": {
         "original": "Meter",
-        "singular": "Meter",
-        "plural": "Meter",
+        "singular": "Medidor",
+        "plural": "Medidores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "anchorDate": {
+        "original": "Anchor Date",
+        "singular": "Fecha ancla",
+        "plural": "Fechas ancla",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "floating": {
+        "original": "Floating",
+        "singular": "Flotante",
+        "plural": "Flotantes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixed": {
+        "original": "Fixed",
+        "singular": "Fijo",
+        "plural": "Fijos",
         "setupEdit": false,
         "setupVisible": false
       }
     },
-    "messages":{
-      "nameYour": "Nombra tu",
-      "setStatusChooseWhen": "establece su estado y elige cuándo",
-      "shouldOccur": "debe ocurrir. Usa intervalos basados en el tiempo, disparadores basados en el uso o ambos para asegurar que el trabajo correcto se realice en el momento adecuado.",
-      "start": "Iniciar",
+    "messages": {
+      "nameYour": "Nombrar su",
+      "start": "Inicio",
       "from": "desde",
-      "andEnd": "y Terminar",
-      "chooseHowYour": "Elige cómo tu",
+      "andEnd": "y Fin",
+      "chooseHowYour": "Elija cómo su",
       "shouldTrigger": "debe activarse",
-      "basedTimeIntervals": "Basado en intervalos de tiempo como semanal, mensual o trimestral. Perfecto para inspecciones rutinarias y mantenimiento estacional.",
-      "basedOnUsageMetrics": "Basado en métricas de uso como millas recorridas, horas operadas o ciclos completados. Ideal para equipos con uso medible.",
-      "combineBothMethods": "Combina ambos métodos",
-      "triggersOnWhichever": "se activa con la condición que se cumpla primero, y luego se reprograma inteligentemente.",
-      "activateYourPlan": "Activa tu plan después de agregar elementos o configurar condiciones de asignación automática."
+      "setupNew": "Configurar nuevo",
+      "allowToAutomate": "le permiten automatizar la creación de trabajos",
+      "setupThe": "Configure los",
+      "criteria": "criterios",
+      "howToStepA": "Nombre su plan para que sea fácil de reconocer más tarde (p. ej., 'PM – Generador #3 – Trimestral')",
+      "howToStepB": "Establezca la duración del plan – cuánto tiempo debe estar activo",
+      "howToStepC": "Elija con qué frecuencia se repiten los trabajos – semanal, mensual, o Avanzado si sigue un ciclo personalizado",
+      "howToStepD": "Elija una plantilla de trabajo y un asignado – quién hará el trabajo",
+      "howToStepE": "Elija cómo se programan los trabajos de seguimiento – Fecha fija o Flotante basada en la finalización.",
+      "howToStepF": "Decida cuándo se crean los trabajos para que los planificadores tengan suficiente tiempo de anticipación. (Opcional) Active la autocorrección para reprogramar automáticamente los trabajos vencidos.",
+      "addIntoThePlanAndActivate": "al plan y activarlo",
+      "planName": "Nombre del plan",
+      "giveYourPlanAName": "Asigne un nombre a su plan.",
+      "planWillBeActivatedOn": "El plan se activará el",
+      "whenToStartThePlan": "Cuándo iniciar el plan",
+      "jobsCreatedBetweenDates": "Los trabajos se crean solo entre las fechas de inicio y fin. Si deja el fin como Nunca, el plan seguirá ejecutándose hasta que lo cancele.",
+      "startPlanFrom": "Iniciar plan desde",
+      "enterStartDateToProceed": "Ingrese una fecha de inicio para continuar.",
+      "enterEndDateToProceed": "Ingrese una fecha de fin para continuar.",
+      "activateFrom": "Activar desde",
+      "until": "hasta",
+      "withNoEndDate": "sin fecha de fin",
+      "setTheSchedule": "Establecer el programa",
+      "needDifferentTemplates": "¿Necesita diferentes plantillas para diferentes meses?",
+      "tryAdvanced": "Pruebe Avanzado.",
+      "basic": "Básico",
+      "advanced": "Avanzado",
+      "specifyHowFrequently": "Especifique con qué frecuencia debe ocurrir este mantenimiento.",
+      "every": "Cada",
+      "cycleRepeatsEvery": "El ciclo se repite cada",
+      "setHowOftenScheduleRepeats": "Establezca con qué frecuencia se repite este programa (en días, semanas, meses o años)",
+      "repeatsEvery": "Se repite cada",
+      "forEveryWeekOrMonth": "Para cada semana o mes en este programa, el sistema creará trabajos usando esta plantilla y los asignará a la persona que seleccionó (si corresponde)",
+      "assignToOptional": "Asignar a (Opcional)",
+      "assignTo": "Asignar a",
+      "noMaintenance": "Sin mantenimiento",
+      "assignedTo": "Asignado a",
+      "jobWillBeCreatedAsUnassigned": "El trabajo se creará sin asignar",
+      "notAssigned": "No asignado",
+      "cycle": "Ciclo",
+      "custodian": "Custodio",
+      "customValue": "Valor personalizado",
+      "overrideWithFixedInterval": "Reemplazar con un intervalo fijo aplicado a cada",
+      "inThisPlan": "en este plan.",
+      "withoutDefaultSetWillBeFlagged": "sin valor predeterminado establecido serán marcados al agregarse al plan.",
+      "meterFrequencyFromIts": "frecuencia del medidor de su",
+      "recordBestForMixedFleets": "registro. Ideal para flotas mixtas.",
+      "sRecordWillBeUsed": "registro será utilizado.",
+      "customMeterInterval": "Intervalo de medidor personalizado",
+      "kmRemaining": "km restantes",
+      "meterSourceMustExistOnEvery": "La fuente del medidor debe existir en cada",
+      "attachedToThisPlan": "adjunto a este plan.",
+      "frequency": "Frecuencia",
+      "triggerType": "Tipo de activación",
+      "whicheverComesFirst": "Lo que ocurra primero",
+      "triggerAsSoonAsTimeOrMeter": "Activar tan pronto como se alcance el umbral de tiempo O medidor.",
+      "onlyWhenBothAreMet": "Solo cuando ambos se cumplan",
+      "waitUntilBothThresholds": "Esperar hasta que se alcancen ambos umbrales de tiempo Y medidor. Para PM menos críticos.",
+      "runsEvery": "Se ejecuta cada",
+      "orLower": "o",
+      "everyLower": "cada",
+      "km": "km",
+      "sMeterFrequency": "frecuencia del medidor",
+      "whenBothConditionsAreMet": ", cuando ambas condiciones se cumplan",
+      "whicheverComesFirstLower": ", lo que ocurra primero",
+      "howShouldMaintenanceCalculated": "¿Cómo debe calcularse la próxima fecha de mantenimiento?",
+      "whatShouldMaintenanceBasedOn": "¿En qué debe basarse la primera fecha de mantenimiento?",
+      "chooseWhetherScheduleFollows": "Elija si el programa sigue el calendario o cuándo se completa realmente el trabajo.",
+      "floatingBasedOnCompletion": "Flotante (basado en finalización)",
+      "nextJobDateMovesBased": "La fecha del siguiente trabajo se mueve según cuándo se completó realmente el último trabajo.",
+      "fixedCalendarBased": "Fijo (basado en calendario)",
+      "nextJobDateAlwaysCalculated": "La fecha del siguiente trabajo siempre se calcula a partir del programa planificado, incluso si el trabajo anterior se completó tarde.",
+      "dateUsedToCalculateFirstJob": "Esta fecha se usa para calcular el primer trabajo agregado al plan. Los trabajos futuros siguen la frecuencia anterior",
+      "startScheduleFrom": "Iniciar programa desde",
+      "onThe": "El",
+      "dayOfTheMonth": "día del mes",
+      "ofTheMonth": "del mes",
+      "onLower": "El",
+      "schedullingWillStartFrom": "La programación comenzará desde",
+      "dayOfEvery": "día de cada",
+      "year": "año",
+      "month": "mes",
+      "ofEvery": "de cada",
+      "everyUpper": "Cada",
+      "automateCreationSelfHealing": "Automatizar creación y autocorrección",
+      "controlHowJobsAreCreated": "Controle cómo se crean los trabajos, qué sucede cuando se pierden trabajos y cómo el plan se recupera de los retrasos.",
+      "whenShouldJobBeCreated": "¿Cuándo debe crearse el trabajo?",
+      "chooseHowFarInAdvance": "Elija con cuánta anticipación debe crearse el trabajo",
+      "createTheJob": "Crear el trabajo",
+      "beforeTheDueDate": "antes de la fecha de vencimiento.",
+      "createTheJobOn": "Crear el trabajo el",
+      "autoRescheduleMissedMaintenance": "Reprogramar automáticamente el mantenimiento perdido",
+      "automaticallyRescheduleJobs": "Reprogramar automáticamente los trabajos para el mantenimiento vencido.",
+      "maintenanceJobRemainsOverdueFor": "El trabajo de mantenimiento permanece vencido durante",
+      "beforeBeingRescheduled": "antes de ser reprogramado",
+      "later": "después.",
+      "keepTheJobInOverdueFor": "Mantener el trabajo en estado Vencido durante",
+      "daysBforeRescheduling": "día(s) antes de reprogramar, luego reprogramar el trabajo",
+      "afterItBecomesOverdue": "después de que se venza.",
+      "timeBasedDesc": "se ejecuta en un programa de calendario fijo, configúrelo una vez y se repite automáticamente.",
+      "timeBasedBullet1": "Se repite semanal, mensual, trimestral o en cualquier intervalo personalizado",
+      "timeBasedBullet2": "Ideal para inspecciones de rutina con ciclos predecibles",
+      "timeBasedBullet3": "Los trabajos se crean automáticamente antes de cada fecha de vencimiento",
+      "bestFor": "Ideal para:",
+      "timeBasedBestFor": "filtros de aire, revisiones de extintores, programas de lubricación",
+      "timeMeterBasedDesc": "Combina un programa de calendario con un medidor de uso — el que se alcance primero activa el trabajo.",
+      "timeMeterBasedBullet1": "Rastrea tanto el tiempo transcurrido como el uso (horas, km, ciclos)",
+      "timeMeterBasedBullet2": "Se activa cuando se alcanza primero cualquiera de las condiciones",
+      "timeMeterBasedBullet3": "Se reprograma automáticamente según el uso real del",
+      "usage": "uso",
+      "timeMeterBasedBestForStart": "generadores, vehículos, bombas, o cualquier",
+      "withRuntimeMeters": "con medidores de tiempo de funcionamiento",
+      "howToStepAHybrid": "Nombre su plan (p. ej., 'PM – Generador #3 – 500h / 3m')",
+      "howToStepBHybrid": "Establezca la duración del plan",
+      "howToStepCHybrid": "Elija la plantilla de trabajo y el asignado. Opcional: configurar servicios por nivel (Menor / Mayor)",
+      "howToStepDHybrid": "Configure TANTO el intervalo de tiempo COMO el intervalo del medidor",
+      "howToStepEHybrid": "Elija si activar cuando cualquiera de las condiciones se alcance primero, o solo cuando ambas se cumplan",
+      "enterThe": "Ingrese el",
+      "currentMeterSoCalculate": "lectura actual del medidor para que el primer trabajo se calcule correctamente",
+      "intoPlanActivate": "al plan y actívelo. Asegúrese de que estos",
+      "haveMeterFreq": "tengan la frecuencia del medidor configurada",
+      "setUpATimeMeterPlan": "Configure un plan de Tiempo + Medidor cuando un",
+      "wearsBothTimeUsage": "se desgasta tanto con el tiempo como con el uso",
+      "triggersWhenEitherOrBoth": "El trabajo se activa cuando CUALQUIERA de los umbrales se alcanza primero o cuando AMBOS umbrales se alcanzan",
+      "each": "Cada",
+      "unit": "unidad",
+      "custodianAssignNote": "Asignar automáticamente el trabajo al",
+      "designatedCustodian": "custodio designado.",
+      "userAssignNote": "Seleccione manualmente un único usuario para asignar este trabajo.",
+      "groupAssignNote": "Asignar el trabajo a un",
+      "groupAssignNoteB": "Los trabajos se distribuirán a los miembros del grupo en orden rotativo, para que el trabajo se comparta equitativamente entre el equipo.",
+      "multiple": "múltiples",
+      "toThisMaintenancePlanInBulk": "a este plan de mantenimiento de forma masiva.",
+      "autoApplyToNew": "Aplicar automáticamente a",
+      "setConditionsToAutoApply": "Establezca las condiciones para aplicar automáticamente este plan a"
+    },
+    "validationFE": {
+      "enterValueOfOne": "Ingrese un valor de 1 o mayor."
     }
   },
   "contracts": {
@@ -12882,6 +13034,296 @@
       "noAuditTrail": "No hay registro de auditoría disponible"
     }
   },
+  "certification": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Certification",
+      "singular": "Certificación",
+      "plural": "Certificaciones",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Detalles Generales",
+        "plural": "Detalles Generales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "Detalles",
+        "plural": "Detalles",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Basics",
+        "singular": "Básico",
+        "plural": "Básicos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Reminders",
+        "singular": "Recordatorio",
+        "plural": "Recordatorios",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "Vinculado",
+        "plural": "Vinculados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frecuencia",
+        "plural": "Frecuencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "Próximo vencimiento",
+        "plural": "Próximos vencimientos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "Registro",
+        "plural": "Registros",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Referencia",
+        "plural": "Referencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "Fecha de vencimiento",
+        "plural": "Fechas de vencimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "Estados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "Realizado por",
+        "plural": "Realizado por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Fecha de finalización",
+        "plural": "Fechas de finalización",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "result": {
+        "original": "Result",
+        "singular": "Resultado",
+        "plural": "Resultados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "Observación",
+        "plural": "Observaciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "authority": {
+        "original": "Authority",
+        "singular": "Autoridad",
+        "plural": "Autoridades",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notify": {
+        "original": "Notify",
+        "singular": "Notificar",
+        "plural": "Notificar",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "Configure el seguimiento automatizado de",
+      "trackingRecords": ". Los registros se generan en cada programación y los recordatorios se envían a las personas correctas antes de las fechas de vencimiento",
+      "configureA": "Configure una",
+      "howToStepA": "Haga clic en",
+      "howToStepAToDefine": "para definir un nuevo tipo.",
+      "howToStepB": "Nómbrelo claramente para que sea fácil de reconocer más tarde (p. ej., 'Certificación de Seguridad Anual')",
+      "howToStepD": "Elija con qué frecuencia debe repetirse el registro — cada 3, 6, 12 meses o personalizado.",
+      "setTheAuthority": "Establezca la autoridad (p. ej., TÜV SÜD) y quién debe ser notificado.",
+      "addUpTo": "Agregue hasta 3 recordatorios (p. ej., 60, 30 y 7 días antes de cada fecha de vencimiento)",
+      "trackRecordStayCompliant": "Rastree registros y manténgase en cumplimiento",
+      "expandAnyRow": "Expanda cualquier fila para ver sus registros en línea; haga clic en 'Marcar como completado' para cerrar uno",
+      "complianceStatus": "El estado de cumplimiento en la parte superior se actualiza automáticamente según los registros vencidos",
+      "useAllRecords": "Use 'Todos los registros' en la parte inferior para buscar, filtrar o auditar todos los",
+      "sendCompleteNotification": "Enviar notificación de finalización",
+      "recordingCompletion": "Registrando finalización para"
+    },
+    "validationFE": {
+      "recordsAre": "registros están vencidos",
+      "actionRequired": "Acciones requeridas"
+    }
+  },
+  "inspection": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Inspection",
+      "singular": "Inspección",
+      "plural": "Inspecciones",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Detalles Generales",
+        "plural": "Detalles Generales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "Detalles",
+        "plural": "Detalles",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "Vinculado",
+        "plural": "Vinculados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frecuencia",
+        "plural": "Frecuencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "Próximo vencimiento",
+        "plural": "Próximos vencimientos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "Registro",
+        "plural": "Registros",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Referencia",
+        "plural": "Referencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "Fecha de vencimiento",
+        "plural": "Fechas de vencimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "Estados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "Realizado por",
+        "plural": "Realizado por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Fecha de finalización",
+        "plural": "Fechas de finalización",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "Configure el seguimiento automatizado de",
+      "trackingRecords": ". Los registros se generan en cada programación y los recordatorios se envían a las personas correctas antes de las fechas de vencimiento",
+      "configureAn": "Configure una",
+      "howToStepA": "Haga clic en",
+      "howToStepAToDefine": "para definir un nuevo tipo.",
+      "howToStepB": "Nómbrelo claramente para que sea fácil de reconocer más tarde (p. ej., 'Inspección de Seguridad Mensual')",
+      "howToStepC": "Seleccione el",
+      "howToStepCForThis": "vinculado para esta",
+      "howToStepD": "Elija con qué frecuencia debe repetirse el registro — cada 3, 6, 12 meses o personalizado.",
+      "trackRecordStayCompliant": "Rastree registros y manténgase en cumplimiento",
+      "expandAnyRow": "Expanda cualquier fila para ver sus registros en línea; haga clic en 'Marcar como completado' para cerrar uno",
+      "complianceStatus": "El estado de cumplimiento en la parte superior se actualiza automáticamente según los registros vencidos",
+      "useAllRecords": "Use 'Todos los registros' en la parte inferior para buscar, filtrar o auditar todos los",
+      "showing": "Mostrando",
+      "of": "de"
+    },
+    "validationFE": {
+      "recordsAre": "registros están vencidos",
+      "actionRequired": "Acciones requeridas"
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
@@ -14990,6 +15432,13 @@
         "original": "Pick",
         "singular": "Elegir",
         "plural": "Elegir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "Usar",
+        "plural": "Usar",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -25142,6 +25591,13 @@
             "plural": "Bajo demanda",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Descripción",
+            "plural": "Descripciones",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -25192,6 +25648,7 @@
           "addStatusWith": "Agregar un estado con Etiqueta, Código y Código Hex de Color (Ejemplo: #4F46E5)",
           "availableToggle": "Disponible: Active los estados que desea hacer disponibles para este tipo",
           "defaultSelectStatus": "Predeterminado: Seleccione un estado que será el predeterminado para nuevos trabajos de este tipo",
+          "defaultSelectStatusStandard": "Predeterminado: Seleccione un estado que será el predeterminado para",
           "saveYourChanges": "Guardar sus cambios",
           "newlyCreatedStatus": "Los estados recién creados serán visibles pero no se establecerán como",
           "defineDetailsOfThis": "Definir los detalles de este",
@@ -25232,14 +25689,43 @@
           "joTypeStandaloneDesc": "agrupe los trabajos por tipo de trabajo (instalación, reparación, mantenimiento, daño). Configúrelos aquí para que cada trabajo esté etiquetado correctamente. Para comenzar, clone uno existente.",
           "helpsGroup": "le ayuda a agrupar",
           "forPlanningReporting": "para planificación e informes.",
-          "chooseOptionMatches": "Elija la opción que mejor se adapte al propósito principal de este"
+          "chooseOptionMatches": "Elija la opción que mejor se adapte al propósito principal de este",
+          "assetTypeStandaloneDesc": "se utilizan para agrupar equipos similares como herramientas o vehículos.",
+          "assetTypeStandaloneDescLink": "Cree uno y vincúlelo a su equipo.",
+          "setUnitMeasurement": "Establece la unidad de medida (p. ej. km, horas, ciclos) para",
+          "default": "Predeterminado",
+          "setHowOften": "Establece con qué frecuencia",
+          "isTriggered": "se activa",
+          "overridenPer": "Se puede anular por cada",
+          "afterCreation": "después de la creación",
+          "based": "basado",
+          "usedForCalc": "Usado para cálculos y agrupación en",
+          "andFilters": "y filtros",
+          "displayedFor": "Mostrado a",
+          "on": "en",
+          "recordsList": "registros y listas",
+          "chooseWhich": "Elija cuál",
+          "canUseThis": "puede usar este",
+          "this": "Este",
+          "willOnlyBe": "solo será seleccionable en el",
+          "listedAbove": "listado arriba",
+          "enterA": "Ingresar un",
+          "availability": "Disponibilidad",
+          "defaultForNew": "Predeterminado: Seleccione un estado que será el predeterminado para los nuevos"
         },
         "validationFE": {
           "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",
           "maximumCharsExceed": "Se superó la longitud máxima de caracteres",
           "noDefaultStatus": "No se encontró estado predeterminado. Por favor establezca un estado como predeterminado.",
           "systemStatusNotAllowedDelete": "Los estados del sistema no se pueden eliminar. Siéntase libre de cambiar la etiqueta.",
-          "toDeleteStatus": "Para eliminar este estado, asegúrese de que esté desactivado en todos los"
+          "toDeleteStatus": "Para eliminar este estado, asegúrese de que esté desactivado en todos los",
+          "statusUsedInOther": "Este estado puede estar siendo utilizado en otros",
+          "haveBeenSetUp": "han sido configurados",
+          "hasBeenSetUp": "ha sido configurado",
+          "pleaseSetUp": "Por favor configure",
+          "isFound": "se encuentra",
+          "pleaseSetA": "Por favor establezca un",
+          "as": "como"
         }
       },
       "procedure": {
