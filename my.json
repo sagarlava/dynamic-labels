@@ -2248,6 +2248,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan-penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -31745,6 +31752,17 @@
       "preventTaskAssignmentForUsersOnLeave": "Pengguna yang sedang bercuti tidak akan tersedia untuk dipilih bagi tugasan.",
       "leaveOverview": "Gambaran Keseluruhan Cuti",
       "requestAndManageStaffTimeOff": "Mohon cuti dan urus permintaan cuti daripada kakitangan anda."
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Pematuhan",
+      "plural": "Pematuhan-pematuhan",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {

@@ -2248,6 +2248,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "Wartung",
+        "plural": "Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -31745,6 +31752,17 @@
       "preventTaskAssignmentForUsersOnLeave": "Mitarbeiter im Urlaub stehen für die Zuweisung von Aufgaben nicht zur Verfügung.",
       "leaveOverview": "Urlaubsübersicht",
       "requestAndManageStaffTimeOff": "Beantragen Sie Urlaub und verwalten Sie die Urlaubsanträge Ihrer Mitarbeiter."
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Konformität",
+      "plural": "Konformitäten",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {

@@ -2248,6 +2248,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -31746,6 +31753,17 @@
       "preventTaskAssignmentForUsersOnLeave": "Users on leave will not be available to select from for task assignment.",
       "leaveOverview": "Leave Overview",
       "requestAndManageStaffTimeOff": "Request for time-off and manage time-off requests from your staff."
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Compliance",
+      "plural": "Compliances",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {

@@ -2256,6 +2256,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -31744,6 +31751,17 @@
       "preventTaskAssignmentForUsersOnLeave": "休假的用户将无法被选为任务分配对象。",
       "leaveOverview": "请假概览",
       "requestAndManageStaffTimeOff": "提交休假申请并管理员工的休假请求。"
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "合规",
+      "plural": "合规",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {

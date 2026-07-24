@@ -2248,6 +2248,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "Mantenimiento",
+        "plural": "Mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -31745,6 +31752,17 @@
       "preventTaskAssignmentForUsersOnLeave": "Los usuarios en permiso no estarán disponibles para asignación de tareas.",
       "leaveOverview": "Resumen de permisos",
       "requestAndManageStaffTimeOff": "Solicita tiempo libre y gestiona las solicitudes de tu personal."
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Cumplimiento",
+      "plural": "Cumplimientos",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {
