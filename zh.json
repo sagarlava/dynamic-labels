@@ -29784,6 +29784,17 @@
       "paternityMaternityLeave": "陪产假/产假"
     }
   },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "合规",
+      "plural": "合规",
+      "setupEdit": false,
+      "setupVisible": false
+    }
+  },
   "login": {
     "setupVisible": false,
     "label": {

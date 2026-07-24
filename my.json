@@ -29785,6 +29785,17 @@
       "paternityMaternityLeave": "Cuti Bapa/Ibu"
     }
   },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Pematuhan",
+      "plural": "Pematuhan-pematuhan",
+      "setupEdit": false,
+      "setupVisible": false
+    }
+  },
   "login": {
     "setupVisible": false,
     "label": {

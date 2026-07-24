@@ -29784,6 +29784,17 @@
       "paternityMaternityLeave": "Vaterschafts-/Mutterschaftsurlaub"
     }
   },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Konformität",
+      "plural": "Konformitäten",
+      "setupEdit": false,
+      "setupVisible": false
+    }
+  },
   "login": {
     "setupVisible": false,
     "label": {

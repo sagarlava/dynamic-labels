@@ -29786,6 +29786,17 @@
       "paternityMaternityLeave": "Paternity/Maternity"
     }
   },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Compliance",
+      "plural": "Compliances",
+      "setupEdit": false,
+      "setupVisible": false
+    }
+  },
   "login": {
     "setupVisible": false,
     "label": {
