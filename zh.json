@@ -2631,7 +2631,7 @@
     },
     "messages": {}
   },
-  "maintenancePlan":{
+  "maintenancePlan": {
     "setupVisible": false,
     "setupEdit": false,
     "label": {
@@ -2646,8 +2646,8 @@
       "setupEdit": false,
       "sec0": {
         "original": "Maintenance Jobs",
-        "singular": "维护工作",
-        "plural": "维护工作",
+        "singular": "维护工单",
+        "plural": "维护工单",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -2667,8 +2667,8 @@
       },
       "sec3": {
         "original": "Create Schedule",
-        "singular": "创建计划表",
-        "plural": "创建计划表",
+        "singular": "创建计划",
+        "plural": "创建计划",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -2681,70 +2681,222 @@
       },
       "sec5": {
         "original": "Self-healing",
-        "singular": "自我修复",
-        "plural": "自我修复",
+        "singular": "自愈",
+        "plural": "自愈",
         "setupEdit": false,
         "setupVisible": false
       }
     },
-    "fields":{
-      "maintenance":{
+    "fields": {
+      "maintenance": {
         "original": "Maintenance",
-        "singular": "Maintenance",
-        "plural": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
         "setupEdit": false,
         "setupVisible": false
       },
-      "plan":{
+      "plan": {
         "original": "Plan",
-        "singular": "Plan",
-        "plural": "Plans",
+        "singular": "计划",
+        "plural": "计划",
         "setupEdit": false,
         "setupVisible": false
       },
-      "timeBased":{
+      "timeBased": {
         "original": "Time-based",
-        "singular": "Time-based",
-        "plural": "Time-based",
+        "singular": "基于时间",
+        "plural": "基于时间",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meterBased":{
+      "meterBased": {
         "original": "Meter-based",
-        "singular": "Meter-based",
-        "plural": "Meter-based",
+        "singular": "基于仪表",
+        "plural": "基于仪表",
         "setupEdit": false,
         "setupVisible": false
       },
-      "time":{
+      "time": {
         "original": "Time",
-        "singular": "Time",
-        "plural": "Time",
+        "singular": "时间",
+        "plural": "时间",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meter":{
+      "meter": {
         "original": "Meter",
-        "singular": "Meter",
-        "plural": "Meter",
+        "singular": "仪表",
+        "plural": "仪表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "anchorDate": {
+        "original": "Anchor Date",
+        "singular": "锚定日期",
+        "plural": "锚定日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "floating": {
+        "original": "Floating",
+        "singular": "浮动",
+        "plural": "浮动",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixed": {
+        "original": "Fixed",
+        "singular": "固定",
+        "plural": "固定",
         "setupEdit": false,
         "setupVisible": false
       }
     },
-    "messages":{
+    "messages": {
       "nameYour": "命名您的",
-      "setStatusChooseWhen": "设置其状态，并选择何时",
-      "shouldOccur": "应发生。使用基于时间的间隔、基于计量的使用触发器或两者兼用，以确保在正确的时间执行正确的工作。",
       "start": "开始",
       "from": "从",
-      "andEnd": "并结束",
+      "andEnd": "和结束",
       "chooseHowYour": "选择您的",
-      "shouldTrigger": "应触发的方式",
-      "basedTimeIntervals": "基于时间间隔，如每周、每月或每季度。非常适合例行检查和季节性维护。",
-      "basedOnUsageMetrics": "基于使用指标，如行驶里程、运行小时或完成循环。非常适合具有可测使用量的设备。",
-      "combineBothMethods": "结合两种方法",
-      "triggersOnWhichever": "在首先满足的条件时触发，然后智能地重新安排计划。",
-      "activateYourPlan": "在添加项目或设置自动分配条件后激活您的计划。"
+      "shouldTrigger": "应如何触发",
+      "setupNew": "设置新的",
+      "allowToAutomate": "允许您自动创建工单",
+      "setupThe": "设置",
+      "criteria": "条件",
+      "howToStepA": "为您的计划命名，以便日后识别（例如：'PM – 发电机 #3 – 季度'）",
+      "howToStepB": "设置计划持续时间 – 此计划应保持活跃多长时间",
+      "howToStepC": "选择工单重复频率 – 每周、每月，或如果遵循自定义周期则选择高级",
+      "howToStepD": "选择工单模板和负责人 – 谁来完成工作",
+      "howToStepE": "选择后续工单的计划方式 – 固定日期或基于完成的浮动。",
+      "howToStepF": "决定何时创建工单，以便计划人员有足够的准备时间。（可选）开启自愈以自动重新安排逾期工单。",
+      "addIntoThePlanAndActivate": "加入计划并激活",
+      "planName": "计划名称",
+      "giveYourPlanAName": "为您的计划命名。",
+      "planWillBeActivatedOn": "计划将于以下日期激活",
+      "whenToStartThePlan": "何时开始计划",
+      "jobsCreatedBetweenDates": "工单仅在开始和结束日期之间创建。如果将结束设置为从不，计划将持续运行直到您取消。",
+      "startPlanFrom": "计划开始于",
+      "enterStartDateToProceed": "请输入开始日期以继续。",
+      "enterEndDateToProceed": "请输入结束日期以继续。",
+      "activateFrom": "激活自",
+      "until": "直到",
+      "withNoEndDate": "无结束日期",
+      "setTheSchedule": "设置计划",
+      "needDifferentTemplates": "不同月份需要不同模板？",
+      "tryAdvanced": "试试高级模式。",
+      "basic": "基础",
+      "advanced": "高级",
+      "specifyHowFrequently": "指定此维护应发生的频率。",
+      "every": "每",
+      "cycleRepeatsEvery": "周期每隔",
+      "setHowOftenScheduleRepeats": "设置此计划重复的频率（以天、周、月或年为单位）",
+      "repeatsEvery": "每隔",
+      "forEveryWeekOrMonth": "对于此计划中的每周或每月，系统将使用此模板创建工单，并将其分配给您选择的人员（如有）",
+      "assignToOptional": "分配给（可选）",
+      "assignTo": "分配给",
+      "noMaintenance": "无维护",
+      "assignedTo": "已分配给",
+      "jobWillBeCreatedAsUnassigned": "工单将创建为未分配",
+      "notAssigned": "未分配",
+      "cycle": "周期",
+      "custodian": "保管人",
+      "customValue": "自定义值",
+      "overrideWithFixedInterval": "使用固定间隔覆盖，应用于每个",
+      "inThisPlan": "在此计划中。",
+      "withoutDefaultSetWillBeFlagged": "未设置默认值的将在添加到计划时被标记。",
+      "meterFrequencyFromIts": "仪表频率来自其",
+      "recordBestForMixedFleets": "记录。适合混合车队。",
+      "sRecordWillBeUsed": "的记录将被使用。",
+      "customMeterInterval": "自定义仪表间隔",
+      "kmRemaining": "剩余公里",
+      "meterSourceMustExistOnEvery": "仪表来源必须存在于每个",
+      "attachedToThisPlan": "附属于此计划的。",
+      "frequency": "频率",
+      "triggerType": "触发类型",
+      "whicheverComesFirst": "以先到者为准",
+      "triggerAsSoonAsTimeOrMeter": "一旦达到时间或仪表阈值即触发。",
+      "onlyWhenBothAreMet": "仅当两者都满足时",
+      "waitUntilBothThresholds": "等待时间和仪表两个阈值都达到。用于不太关键的 PM。",
+      "runsEvery": "每隔",
+      "orLower": "或",
+      "everyLower": "每",
+      "km": "公里",
+      "sMeterFrequency": "的仪表频率",
+      "whenBothConditionsAreMet": "，当两个条件都满足时",
+      "whicheverComesFirstLower": "，以先到者为准",
+      "howShouldMaintenanceCalculated": "下一个维护日期应如何计算？",
+      "whatShouldMaintenanceBasedOn": "第一个维护日期应基于什么？",
+      "chooseWhetherScheduleFollows": "选择计划是遵循日历还是实际完成工作的时间。",
+      "floatingBasedOnCompletion": "浮动（基于完成）",
+      "nextJobDateMovesBased": "下一个工单日期根据上一个工单实际完成的时间移动。",
+      "fixedCalendarBased": "固定（基于日历）",
+      "nextJobDateAlwaysCalculated": "下一个工单日期始终从计划时间表计算，即使上一个工单完成较晚。",
+      "dateUsedToCalculateFirstJob": "此日期用于计算添加到计划的第一个工单。未来工单遵循上述频率",
+      "startScheduleFrom": "计划开始于",
+      "onThe": "在第",
+      "dayOfTheMonth": "天（每月）",
+      "ofTheMonth": "（每月）",
+      "onLower": "在",
+      "schedullingWillStartFrom": "计划将从以下时间开始",
+      "dayOfEvery": "日，每",
+      "year": "年",
+      "month": "月",
+      "ofEvery": "每",
+      "everyUpper": "每",
+      "automateCreationSelfHealing": "自动创建与自愈",
+      "controlHowJobsAreCreated": "控制工单的创建方式、工单遗漏时的处理方式以及计划如何从延迟中恢复。",
+      "whenShouldJobBeCreated": "工单应何时创建？",
+      "chooseHowFarInAdvance": "选择工单应提前多长时间创建",
+      "createTheJob": "创建工单",
+      "beforeTheDueDate": "在到期日之前。",
+      "createTheJobOn": "在以下时间创建工单",
+      "autoRescheduleMissedMaintenance": "自动重新安排错过的维护",
+      "automaticallyRescheduleJobs": "自动重新安排逾期维护的工单。",
+      "maintenanceJobRemainsOverdueFor": "维护工单保持逾期状态",
+      "beforeBeingRescheduled": "后重新安排",
+      "later": "之后。",
+      "keepTheJobInOverdueFor": "将工单保持在逾期状态",
+      "daysBforeRescheduling": "天后重新安排，然后重新安排工单",
+      "afterItBecomesOverdue": "在变为逾期后。",
+      "timeBasedDesc": "按固定日历计划运行，设置一次后自动重复。",
+      "timeBasedBullet1": "每周、每月、每季度或按任意自定义间隔重复",
+      "timeBasedBullet2": "适合具有可预测周期的例行检查",
+      "timeBasedBullet3": "在每个到期日之前自动创建工单",
+      "bestFor": "最适合：",
+      "timeBasedBestFor": "空气过滤器、灭火器检查、润滑计划",
+      "timeMeterBasedDesc": "将日历计划与使用仪表相结合——先达到任一条件即触发工单。",
+      "timeMeterBasedBullet1": "同时跟踪已用时间和使用量（小时、公里、循环次数）",
+      "timeMeterBasedBullet2": "在最先达到的条件触发",
+      "timeMeterBasedBullet3": "根据实际",
+      "usage": "使用情况自动重新安排",
+      "timeMeterBasedBestForStart": "发电机、车辆、泵，或任何",
+      "withRuntimeMeters": "带有运行时仪表的",
+      "howToStepAHybrid": "为您的计划命名（例如：'PM – 发电机 #3 – 500小时 / 3个月'）",
+      "howToStepBHybrid": "设置计划持续时间",
+      "howToStepCHybrid": "选择工单模板和负责人。可选：设置按级别的服务（小修 / 大修）",
+      "howToStepDHybrid": "同时配置时间间隔和仪表间隔",
+      "howToStepEHybrid": "选择是在任一条件先达到时触发，还是仅在两者都满足时触发",
+      "enterThe": "输入",
+      "currentMeterSoCalculate": "当前仪表读数，以便正确计算第一个工单",
+      "intoPlanActivate": "加入计划并激活。确保这些",
+      "haveMeterFreq": "已设置仪表频率",
+      "setUpATimeMeterPlan": "当某个",
+      "wearsBothTimeUsage": "同时受时间和使用量影响时，设置时间+仪表计划",
+      "triggersWhenEitherOrBoth": "当任一阈值先达到或两个阈值都达到时触发工单",
+      "each": "每个",
+      "unit": "单位",
+      "custodianAssignNote": "自动将工单分配给",
+      "designatedCustodian": "指定保管人。",
+      "userAssignNote": "手动选择单个用户来分配此工单。",
+      "groupAssignNote": "将工单分配给",
+      "groupAssignNoteB": "工单将按轮询顺序分配给小组成员，确保工作在团队中公平分配。",
+      "multiple": "多个",
+      "toThisMaintenancePlanInBulk": "批量添加到此维护计划。",
+      "autoApplyToNew": "自动应用到",
+      "setConditionsToAutoApply": "设置条件以自动将此计划应用于"
+    },
+    "validationFE": {
+      "enterValueOfOne": "请输入 1 或更大的值。"
     }
   },
   "contracts": {
@@ -12881,6 +13033,296 @@
       "noAuditTrail": "暂无审计跟踪记录"
     }
   },
+  "certification": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Certification",
+      "singular": "认证",
+      "plural": "认证",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Basics",
+        "singular": "基础",
+        "plural": "基础",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Reminders",
+        "singular": "提醒",
+        "plural": "提醒",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "已关联",
+        "plural": "已关联",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "频率",
+        "plural": "频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "下次到期",
+        "plural": "下次到期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "记录",
+        "plural": "记录",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "参考",
+        "plural": "参考",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "到期日",
+        "plural": "到期日",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "执行人",
+        "plural": "执行人",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "完成日期",
+        "plural": "完成日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "result": {
+        "original": "Result",
+        "singular": "结果",
+        "plural": "结果",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "authority": {
+        "original": "Authority",
+        "singular": "权威机构",
+        "plural": "权威机构",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notify": {
+        "original": "Notify",
+        "singular": "通知",
+        "plural": "通知",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "设置自动化",
+      "trackingRecords": "跟踪。每个计划都会生成记录，并在到期日前将提醒发送给相关人员",
+      "configureA": "配置",
+      "howToStepA": "点击",
+      "howToStepAToDefine": "以定义",
+      "howToStepB": "清晰命名，以便日后识别（例如：'年度安全认证'）",
+      "howToStepD": "选择记录重复的频率 — 每 3、6、12 个月或自定义。",
+      "setTheAuthority": "设置权威机构（例如：TÜV SÜD）及需要通知的人员。",
+      "addUpTo": "添加最多 3 个提醒（例如：每次到期日前 60、30 和 7 天）",
+      "trackRecordStayCompliant": "跟踪记录并保持合规",
+      "expandAnyRow": "展开任意行以内联查看其记录；点击'标记完成'以关闭",
+      "complianceStatus": "顶部的合规状态根据逾期记录自动更新",
+      "useAllRecords": "使用底部的'所有记录'进行搜索、筛选或审计所有",
+      "sendCompleteNotification": "发送完成通知",
+      "recordingCompletion": "记录完成情况，针对"
+    },
+    "validationFE": {
+      "recordsAre": "条记录已逾期",
+      "actionRequired": "需要采取行动"
+    }
+  },
+  "inspection": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Inspection",
+      "singular": "检查",
+      "plural": "检查",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "详情",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "已关联",
+        "plural": "已关联",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "频率",
+        "plural": "频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "下次到期",
+        "plural": "下次到期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "记录",
+        "plural": "记录",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "参考",
+        "plural": "参考",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "到期日",
+        "plural": "到期日",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "执行人",
+        "plural": "执行人",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "完成日期",
+        "plural": "完成日期",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "设置自动化",
+      "trackingRecords": "跟踪。每个计划都会生成记录，并在到期日前将提醒发送给相关人员",
+      "configureAn": "配置",
+      "howToStepA": "点击",
+      "howToStepAToDefine": "以定义",
+      "howToStepB": "清晰命名，以便日后识别（例如：'月度安全检查'）",
+      "howToStepC": "选择关联的",
+      "howToStepCForThis": "用于此",
+      "howToStepD": "选择记录重复的频率 — 每 3、6、12 个月或自定义。",
+      "trackRecordStayCompliant": "跟踪记录并保持合规",
+      "expandAnyRow": "展开任意行以内联查看其记录；点击'标记完成'以关闭",
+      "complianceStatus": "顶部的合规状态根据逾期记录自动更新",
+      "useAllRecords": "使用底部的'所有记录'进行搜索、筛选或审计所有",
+      "showing": "显示",
+      "of": "共"
+    },
+    "validationFE": {
+      "recordsAre": "条记录已逾期",
+      "actionRequired": "需要采取行动"
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
@@ -14989,6 +15431,13 @@
         "original": "Pick",
         "singular": "选取",
         "plural": "选取",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "使用",
+        "plural": "使用",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -25141,6 +25590,13 @@
             "plural": "按需",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "描述",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -25191,6 +25647,7 @@
           "addStatusWith": "添加带有标签、代码和颜色十六进制代码的状态（示例：#4F46E5）",
           "availableToggle": "可用：切换您希望为此类型提供的状态",
           "defaultSelectStatus": "默认：选择一个状态作为此类型新工单的默认状态",
+          "defaultSelectStatusStandard": "默认：选择一个将作为默认状态的状态，用于",
           "saveYourChanges": "保存您的更改",
           "newlyCreatedStatus": "新创建的状态将可见，但不会设置为",
           "defineDetailsOfThis": "定义此",
@@ -25231,14 +25688,43 @@
           "joTypeStandaloneDesc": "按工作类型（安装、维修、维护、损坏）对工单进行分组。在此处进行设置，以便每个工单都能正确标记。如需开始，请克隆现有类型。",
           "helpsGroup": "帮助您将",
           "forPlanningReporting": "用于计划和报告。",
-          "chooseOptionMatches": "选择最符合此项主要用途的选项"
+          "chooseOptionMatches": "选择最符合此项主要用途的选项",
+          "assetTypeStandaloneDesc": "用于将类似设备（如工具或车辆）进行分组。",
+          "assetTypeStandaloneDescLink": "创建一个并将其与您的设备关联。",
+          "setUnitMeasurement": "设置测量单位（例如 km、小时、循环次数）用于",
+          "default": "默认",
+          "setHowOften": "设置触发频率",
+          "isTriggered": "被触发",
+          "overridenPer": "可按每个进行覆盖",
+          "afterCreation": "创建后",
+          "based": "基于",
+          "usedForCalc": "用于计算和分组在",
+          "andFilters": "和筛选器",
+          "displayedFor": "显示给",
+          "on": "在",
+          "recordsList": "记录和列表",
+          "chooseWhich": "选择哪些",
+          "canUseThis": "可以使用此",
+          "this": "此",
+          "willOnlyBe": "只能在以下位置选择",
+          "listedAbove": "上面列出的",
+          "enterA": "输入",
+          "availability": "可用性",
+          "defaultForNew": "默认：选择一个将作为新记录默认状态的状态"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",
           "maximumCharsExceed": "超过最大字符长度",
           "noDefaultStatus": "未找到默认状态。请将一个状态设置为默认。",
           "systemStatusNotAllowedDelete": "系统状态无法删除。请随意更改标签。",
-          "toDeleteStatus": "要删除此状态，请确保它在所有"
+          "toDeleteStatus": "要删除此状态，请确保它在所有",
+          "statusUsedInOther": "此状态可能在其他",
+          "haveBeenSetUp": "已设置",
+          "hasBeenSetUp": "已设置",
+          "pleaseSetUp": "请设置",
+          "isFound": "已找到",
+          "pleaseSetA": "请设置一个",
+          "as": "作为"
         }
       },
       "procedure": {

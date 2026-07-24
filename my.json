@@ -2623,13 +2623,13 @@
     },
     "messages": {}
   },
-   "maintenancePlan":{
+  "maintenancePlan": {
     "setupVisible": false,
     "setupEdit": false,
     "label": {
       "original": "Preventive Maintenance",
       "singular": "Penyelenggaraan Pencegahan",
-      "plural": "Penyelenggaraan Pencegahan",
+      "plural": "Penyelenggaraan-penyelenggaraan Pencegahan",
       "setupEdit": false,
       "setupVisible": false
     },
@@ -2639,21 +2639,21 @@
       "sec0": {
         "original": "Maintenance Jobs",
         "singular": "Kerja Penyelenggaraan",
-        "plural": "Kerja-Kerja Penyelenggaraan",
+        "plural": "Kerja-kerja Penyelenggaraan",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec1": {
         "original": "Maintenance Plans",
         "singular": "Pelan Penyelenggaraan",
-        "plural": "Pelan-Pelan Penyelenggaraan",
+        "plural": "Pelan-pelan Penyelenggaraan",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec2": {
         "original": "Define Your Maintenance Plan",
-        "singular": "Tentukan Pelan Penyelenggaraan Anda",
-        "plural": "Tentukan Pelan-Pelan Penyelenggaraan Anda",
+        "singular": "Takrifkan Pelan Penyelenggaraan Anda",
+        "plural": "Takrifkan Pelan Penyelenggaraan Anda",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -2666,8 +2666,8 @@
       },
       "sec4": {
         "original": "Configure Creation",
-        "singular": "Konfigurasi Penciptaan",
-        "plural": "Konfigurasi Penciptaan",
+        "singular": "Konfigurasikan Penciptaan",
+        "plural": "Konfigurasikan Penciptaan",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -2679,65 +2679,216 @@
         "setupVisible": false
       }
     },
-    "fields":{
-      "maintenance":{
+    "fields": {
+      "maintenance": {
         "original": "Maintenance",
-        "singular": "Maintenance",
-        "plural": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan",
         "setupEdit": false,
         "setupVisible": false
       },
-      "plan":{
+      "plan": {
         "original": "Plan",
-        "singular": "Plan",
-        "plural": "Plans",
+        "singular": "Pelan",
+        "plural": "Pelan-pelan",
         "setupEdit": false,
         "setupVisible": false
       },
-      "timeBased":{
+      "timeBased": {
         "original": "Time-based",
-        "singular": "Time-based",
-        "plural": "Time-based",
+        "singular": "Berasaskan Masa",
+        "plural": "Berasaskan Masa",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meterBased":{
+      "meterBased": {
         "original": "Meter-based",
-        "singular": "Meter-based",
-        "plural": "Meter-based",
+        "singular": "Berasaskan Meter",
+        "plural": "Berasaskan Meter",
         "setupEdit": false,
         "setupVisible": false
       },
-      "time":{
+      "time": {
         "original": "Time",
-        "singular": "Time",
-        "plural": "Time",
+        "singular": "Masa",
+        "plural": "Masa",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meter":{
+      "meter": {
         "original": "Meter",
         "singular": "Meter",
         "plural": "Meter",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "anchorDate": {
+        "original": "Anchor Date",
+        "singular": "Tarikh Sauh",
+        "plural": "Tarikh Sauh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "floating": {
+        "original": "Floating",
+        "singular": "Terapung",
+        "plural": "Terapung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixed": {
+        "original": "Fixed",
+        "singular": "Tetap",
+        "plural": "Tetap",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "messages":{
+    "messages": {
       "nameYour": "Namakan",
-      "setStatusChooseWhen": "tetapkan statusnya, dan pilih bila",
-      "shouldOccur": "harus berlaku. Gunakan selang masa berasaskan masa, pencetus penggunaan berasaskan meter, atau kedua-duanya untuk memastikan kerja yang betul dilakukan pada masa yang tepat.",
       "start": "Mula",
       "from": "dari",
       "andEnd": "dan Tamat",
-      "chooseHowYour": "Pilih bagaimana",
+      "chooseHowYour": "Pilih cara",
       "shouldTrigger": "harus dicetuskan",
-      "basedTimeIntervals": "Berdasarkan selang masa seperti mingguan, bulanan, atau suku tahunan. Sesuai untuk pemeriksaan rutin dan penyelenggaraan bermusim.",
-      "basedOnUsageMetrics": "Berdasarkan metrik penggunaan seperti jarak perjalanan, jam operasi, atau kitaran selesai. Sesuai untuk peralatan dengan penggunaan yang boleh diukur.",
-      "combineBothMethods": "Gabungkan kedua-dua kaedah",
-      "triggersOnWhichever": "dicetuskan pada syarat yang dipenuhi dahulu, kemudian dijadualkan semula dengan pintar.",
-      "activateYourPlan": "Aktifkan pelan anda selepas menambah item atau menetapkan syarat tugasan automatik."
-
+      "setupNew": "Sediakan",
+      "allowToAutomate": "membolehkan anda mengautomasikan penciptaan kerja",
+      "setupThe": "Sediakan",
+      "criteria": "kriteria",
+      "howToStepA": "Namakan pelan anda supaya mudah dikenali kemudian (cth. 'PM – Penjana #3 – Suku Tahunan')",
+      "howToStepB": "Tetapkan tempoh pelan – berapa lama pelan ini harus aktif",
+      "howToStepC": "Pilih berapa kerap kerja berulang – mingguan, bulanan, atau Lanjutan jika anda mengikuti kitaran tersuai",
+      "howToStepD": "Pilih templat kerja dan orang yang ditugaskan – siapa yang akan melakukan kerja",
+      "howToStepE": "Pilih cara kerja susulan dijadualkan – Tarikh Tetap atau Terapung berdasarkan penyelesaian.",
+      "howToStepF": "Tentukan bila kerja dicipta supaya perancang mempunyai masa yang cukup. (Pilihan) Hidupkan pemulihan kendiri untuk menjadual semula kerja yang tertunggak secara automatik.",
+      "addIntoThePlanAndActivate": "ke dalam pelan dan aktifkannya",
+      "planName": "Nama pelan",
+      "giveYourPlanAName": "Berikan nama untuk pelan anda.",
+      "planWillBeActivatedOn": "Pelan akan diaktifkan pada",
+      "whenToStartThePlan": "Bila untuk memulakan pelan",
+      "jobsCreatedBetweenDates": "Kerja hanya dicipta antara tarikh mula dan tamat. Jika anda biarkan tamat sebagai Tidak Pernah, pelan akan terus berjalan sehingga anda membatalkannya.",
+      "startPlanFrom": "Mulakan pelan dari",
+      "enterStartDateToProceed": "Masukkan tarikh mula untuk meneruskan.",
+      "enterEndDateToProceed": "Masukkan tarikh tamat untuk meneruskan.",
+      "activateFrom": "Aktifkan dari",
+      "until": "sehingga",
+      "withNoEndDate": "tanpa tarikh tamat",
+      "setTheSchedule": "Tetapkan Jadual",
+      "needDifferentTemplates": "Perlukan templat berbeza untuk bulan yang berbeza?",
+      "tryAdvanced": "Cuba Lanjutan.",
+      "basic": "Asas",
+      "advanced": "Lanjutan",
+      "specifyHowFrequently": "Tentukan berapa kerap penyelenggaraan ini harus berlaku.",
+      "every": "Setiap",
+      "cycleRepeatsEvery": "Kitaran berulang setiap",
+      "setHowOftenScheduleRepeats": "Tetapkan berapa kerap jadual ini berulang (dalam hari, minggu, bulan, atau tahun)",
+      "repeatsEvery": "Berulang setiap",
+      "forEveryWeekOrMonth": "Untuk setiap minggu atau bulan dalam jadual ini, sistem akan mencipta kerja menggunakan templat ini dan menugaskannya kepada orang yang anda pilih (jika ada)",
+      "assignToOptional": "Tugaskan kepada (Pilihan)",
+      "assignTo": "Tugaskan kepada",
+      "noMaintenance": "Tiada Penyelenggaraan",
+      "assignedTo": "Ditugaskan Kepada",
+      "jobWillBeCreatedAsUnassigned": "Kerja akan dicipta tanpa tugasan",
+      "notAssigned": "Tidak Ditugaskan",
+      "cycle": "Kitaran",
+      "custodian": "Penjaga",
+      "customValue": "Nilai Tersuai",
+      "overrideWithFixedInterval": "Ganti dengan selang tetap yang digunakan pada setiap",
+      "inThisPlan": "dalam pelan ini.",
+      "withoutDefaultSetWillBeFlagged": "tanpa lalai yang ditetapkan akan ditanda apabila ditambah ke dalam pelan.",
+      "meterFrequencyFromIts": "kekerapan meter dari",
+      "recordBestForMixedFleets": "rekodnya. Terbaik untuk fleet campuran.",
+      "sRecordWillBeUsed": "rekodnya akan digunakan.",
+      "customMeterInterval": "Selang Meter Tersuai",
+      "kmRemaining": "km yang tinggal",
+      "meterSourceMustExistOnEvery": "Sumber meter mesti wujud pada setiap",
+      "attachedToThisPlan": "yang dilampirkan pada pelan ini.",
+      "frequency": "Kekerapan",
+      "triggerType": "Jenis Pencetus",
+      "whicheverComesFirst": "Yang mana dahulu",
+      "triggerAsSoonAsTimeOrMeter": "Cetus sebaik sahaja ambang masa ATAU meter dicapai.",
+      "onlyWhenBothAreMet": "Hanya apabila kedua-duanya dipenuhi",
+      "waitUntilBothThresholds": "Tunggu sehingga ambang masa DAN meter kedua-duanya dicapai. Digunakan untuk PM yang kurang kritikal.",
+      "runsEvery": "Berjalan setiap",
+      "orLower": "atau",
+      "everyLower": "setiap",
+      "km": "km",
+      "sMeterFrequency": "kekerapan meter",
+      "whenBothConditionsAreMet": ", apabila kedua-dua syarat dipenuhi",
+      "whicheverComesFirstLower": ", yang mana dahulu",
+      "howShouldMaintenanceCalculated": "Bagaimana tarikh penyelenggaraan seterusnya harus dikira?",
+      "whatShouldMaintenanceBasedOn": "Apakah yang harus menjadi asas tarikh penyelenggaraan pertama?",
+      "chooseWhetherScheduleFollows": "Pilih sama ada jadual mengikut kalendar atau apabila kerja sebenarnya selesai.",
+      "floatingBasedOnCompletion": "Terapung (Berdasarkan Penyelesaian)",
+      "nextJobDateMovesBased": "Tarikh kerja seterusnya berubah berdasarkan bila kerja terakhir sebenarnya diselesaikan.",
+      "fixedCalendarBased": "Tetap (Berasaskan Kalendar)",
+      "nextJobDateAlwaysCalculated": "Tarikh kerja seterusnya sentiasa dikira dari jadual yang dirancang, walaupun kerja sebelumnya diselesaikan lewat.",
+      "dateUsedToCalculateFirstJob": "Tarikh ini digunakan untuk mengira kerja pertama yang ditambah ke dalam pelan. Kerja masa hadapan mengikut kekerapan di atas",
+      "startScheduleFrom": "Mulakan jadual dari",
+      "onThe": "Pada",
+      "dayOfTheMonth": "hari dalam bulan",
+      "ofTheMonth": "dalam bulan",
+      "onLower": "Pada",
+      "schedullingWillStartFrom": "Penjadualan akan bermula dari",
+      "dayOfEvery": "hari setiap",
+      "year": "tahun",
+      "month": "bulan",
+      "ofEvery": "setiap",
+      "everyUpper": "Setiap",
+      "automateCreationSelfHealing": "Automatikan Penciptaan & Pemulihan Kendiri",
+      "controlHowJobsAreCreated": "Kawal cara kerja dicipta, apa yang berlaku apabila kerja terlepas, dan bagaimana pelan pulih dari kelewatan.",
+      "whenShouldJobBeCreated": "Bila kerja harus dicipta?",
+      "chooseHowFarInAdvance": "Pilih berapa jauh lebih awal kerja harus dicipta",
+      "createTheJob": "Cipta kerja",
+      "beforeTheDueDate": "sebelum tarikh akhir.",
+      "createTheJobOn": "Cipta kerja pada",
+      "autoRescheduleMissedMaintenance": "Jadual semula penyelenggaraan yang terlepas secara automatik",
+      "automaticallyRescheduleJobs": "Jadualkan semula kerja untuk penyelenggaraan yang tertunggak secara automatik.",
+      "maintenanceJobRemainsOverdueFor": "Kerja penyelenggaraan kekal Tertunggak selama",
+      "beforeBeingRescheduled": "sebelum dijadualkan semula",
+      "later": "kemudian.",
+      "keepTheJobInOverdueFor": "Simpan kerja dalam status Tertunggak selama",
+      "daysBforeRescheduling": "hari sebelum menjadual semula, kemudian jadualkan semula kerja",
+      "afterItBecomesOverdue": "selepas ia menjadi tertunggak.",
+      "timeBasedDesc": "berjalan mengikut jadual kalendar tetap, tetapkan sekali dan ia berulang secara automatik.",
+      "timeBasedBullet1": "Berulang setiap minggu, bulanan, suku tahunan, atau pada mana-mana selang tersuai",
+      "timeBasedBullet2": "Sesuai untuk pemeriksaan rutin dengan kitaran yang boleh dijangka",
+      "timeBasedBullet3": "Kerja dicipta secara automatik sebelum setiap tarikh akhir",
+      "bestFor": "Terbaik untuk:",
+      "timeBasedBestFor": "penapis udara, pemeriksaan alat pemadam api, jadual pelinciran",
+      "timeMeterBasedDesc": "Menggabungkan jadual kalendar dengan meter penggunaan — yang mana-mana dicapai dahulu akan mencetuskan kerja.",
+      "timeMeterBasedBullet1": "Menjejak masa yang telah berlalu dan penggunaan (jam, km, kitaran)",
+      "timeMeterBasedBullet2": "Dicetuskan apabila syarat yang mana-mana dicapai dahulu",
+      "timeMeterBasedBullet3": "Dijadualkan semula secara automatik berdasarkan penggunaan sebenar",
+      "usage": "penggunaan",
+      "timeMeterBasedBestForStart": "penjana, kenderaan, pam, atau mana-mana",
+      "withRuntimeMeters": "dengan meter masa jalan",
+      "howToStepAHybrid": "Namakan pelan anda (cth. 'PM – Penjana #3 – 500jam / 3bln')",
+      "howToStepBHybrid": "Tetapkan tempoh pelan",
+      "howToStepCHybrid": "Pilih templat kerja dan orang yang ditugaskan. Pilihan: tetapkan perkhidmatan per-peringkat (Minor / Major)",
+      "howToStepDHybrid": "Konfigurasikan selang MASA DAN selang meter",
+      "howToStepEHybrid": "Pilih sama ada untuk mencetuskan apabila yang mana-mana dicapai dahulu, atau hanya apabila kedua-duanya dipenuhi",
+      "enterThe": "Masukkan",
+      "currentMeterSoCalculate": "bacaan meter semasa supaya kerja pertama dikira dengan betul",
+      "intoPlanActivate": "ke dalam pelan dan aktifkannya. Pastikan",
+      "haveMeterFreq": "mempunyai kekerapan meter yang ditetapkan",
+      "setUpATimeMeterPlan": "Sediakan pelan Masa + Meter apabila",
+      "wearsBothTimeUsage": "haus dengan kedua-dua masa dan penggunaan",
+      "triggersWhenEitherOrBoth": "Kerja dicetuskan apabila ambang MANA-MANA dicapai dahulu atau apabila KEDUA-DUA ambang dicapai",
+      "each": "Setiap",
+      "unit": "unit",
+      "custodianAssignNote": "Tugaskan kerja secara automatik kepada",
+      "designatedCustodian": "penjaga yang ditetapkan.",
+      "userAssignNote": "Pilih seorang pengguna secara manual untuk menugaskan kerja ini.",
+      "groupAssignNote": "Tugaskan kerja kepada",
+      "groupAssignNoteB": "Kerja akan diagihkan kepada ahli kumpulan secara giliran, supaya kerja dikongsi secara adil dalam pasukan.",
+      "multiple": "berbilang",
+      "toThisMaintenancePlanInBulk": "ke dalam pelan penyelenggaraan ini secara pukal.",
+      "autoApplyToNew": "Guna secara automatik kepada",
+      "setConditionsToAutoApply": "Tetapkan syarat untuk menggunakan pelan ini secara automatik kepada"
+    },
+    "validationFE": {
+      "enterValueOfOne": "Masukkan nilai 1 atau lebih."
     }
   },
   "contracts": {
@@ -12883,6 +13034,296 @@
       "noAuditTrail": "Tiada jejak audit tersedia"
     }
   },
+  "certification": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Certification",
+      "singular": "Pensijilan",
+      "plural": "Pensijilan-pensijilan",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Maklumat Umum",
+        "plural": "Maklumat Umum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "Butiran",
+        "plural": "Butiran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Basics",
+        "singular": "Asas",
+        "plural": "Asas-asas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Reminders",
+        "singular": "Peringatan",
+        "plural": "Peringatan-peringatan",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama-nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "Dikaitkan",
+        "plural": "Dikaitkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Kekerapan",
+        "plural": "Kekerapan-kekerapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "Tarikh Seterusnya",
+        "plural": "Tarikh Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "Rekod",
+        "plural": "Rekod-rekod",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Rujukan",
+        "plural": "Rujukan-rujukan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "Tarikh Akhir",
+        "plural": "Tarikh Akhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status-status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "Dilaksanakan Oleh",
+        "plural": "Dilaksanakan Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Tarikh Siap",
+        "plural": "Tarikh Siap",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "result": {
+        "original": "Result",
+        "singular": "Keputusan",
+        "plural": "Keputusan-keputusan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "Catatan",
+        "plural": "Catatan-catatan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "authority": {
+        "original": "Authority",
+        "singular": "Pihak Berkuasa",
+        "plural": "Pihak-pihak Berkuasa",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notify": {
+        "original": "Notify",
+        "singular": "Maklumkan",
+        "plural": "Maklumkan",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "Sediakan",
+      "trackingRecords": "penjejakan automatik. Rekod dijana pada setiap jadual, dan peringatan dihantar kepada orang yang tepat sebelum tarikh akhir",
+      "configureA": "Konfigurasikan",
+      "howToStepA": "Klik",
+      "howToStepAToDefine": "untuk menentukan",
+      "howToStepB": "Namakan dengan jelas supaya mudah dikenali kemudian (cth., 'Pensijilan Keselamatan Tahunan')",
+      "howToStepD": "Pilih berapa kerap rekod harus berulang — setiap 3, 6, 12 bulan, atau tersuai.",
+      "setTheAuthority": "Tetapkan pihak berkuasa (cth., TÜV SÜD) dan siapa yang perlu diberitahu.",
+      "addUpTo": "Tambah sehingga 3 peringatan (cth., 60, 30, dan 7 hari sebelum setiap tarikh akhir)",
+      "trackRecordStayCompliant": "Jejak rekod dan kekal patuh",
+      "expandAnyRow": "Kembangkan mana-mana baris untuk melihat rekodnya secara sebaris; klik 'Tandai Selesai' untuk menutupnya",
+      "complianceStatus": "Status pematuhan di bahagian atas dikemas kini secara automatik berdasarkan rekod yang tertunggak",
+      "useAllRecords": "Gunakan 'Semua Rekod' di bahagian bawah untuk mencari, menapis, atau mengaudit semua",
+      "sendCompleteNotification": "Hantar pemberitahuan penyelesaian",
+      "recordingCompletion": "Merekod penyelesaian untuk"
+    },
+    "validationFE": {
+      "recordsAre": "rekod tertunggak",
+      "actionRequired": "Tindakan diperlukan"
+    }
+  },
+  "inspection": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Inspection",
+      "singular": "Pemeriksaan",
+      "plural": "Pemeriksaan-pemeriksaan",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Maklumat Umum",
+        "plural": "Maklumat Umum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "Butiran",
+        "plural": "Butiran",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama-nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "Dikaitkan",
+        "plural": "Dikaitkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Kekerapan",
+        "plural": "Kekerapan-kekerapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "Tarikh Seterusnya",
+        "plural": "Tarikh Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "Rekod",
+        "plural": "Rekod-rekod",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Rujukan",
+        "plural": "Rujukan-rujukan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "Tarikh Akhir",
+        "plural": "Tarikh Akhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status-status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "Dilaksanakan Oleh",
+        "plural": "Dilaksanakan Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Tarikh Siap",
+        "plural": "Tarikh Siap",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "Sediakan",
+      "trackingRecords": "penjejakan automatik. Rekod dijana pada setiap jadual, dan peringatan dihantar kepada orang yang tepat sebelum tarikh akhir",
+      "configureAn": "Konfigurasikan",
+      "howToStepA": "Klik",
+      "howToStepAToDefine": "untuk menentukan",
+      "howToStepB": "Namakan dengan jelas supaya mudah dikenali kemudian (cth., 'Pemeriksaan Keselamatan Bulanan')",
+      "howToStepC": "Pilih",
+      "howToStepCForThis": "yang dikaitkan untuk ini",
+      "howToStepD": "Pilih berapa kerap rekod harus berulang — setiap 3, 6, 12 bulan, atau tersuai.",
+      "trackRecordStayCompliant": "Jejak rekod dan kekal patuh",
+      "expandAnyRow": "Kembangkan mana-mana baris untuk melihat rekodnya secara sebaris; klik 'Tandai Selesai' untuk menutupnya",
+      "complianceStatus": "Status pematuhan di bahagian atas dikemas kini secara automatik berdasarkan rekod yang tertunggak",
+      "useAllRecords": "Gunakan 'Semua Rekod' di bahagian bawah untuk mencari, menapis, atau mengaudit semua",
+      "showing": "Menunjukkan",
+      "of": "daripada"
+    },
+    "validationFE": {
+      "recordsAre": "rekod tertunggak",
+      "actionRequired": "Tindakan diperlukan"
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
@@ -14991,6 +15432,13 @@
         "original": "Pick",
         "singular": "Pilih",
         "plural": "Pilih",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "Guna",
+        "plural": "Guna",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -25142,6 +25590,13 @@
             "plural": "Atas Permintaan",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Penerangan",
+            "plural": "Penerangan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -25192,6 +25647,7 @@
           "addStatusWith": "Tambah status dengan Label, Kod, dan Kod Hex Warna (Contoh: #4F46E5)",
           "availableToggle": "Tersedia: Togol status yang ingin anda jadikan tersedia untuk jenis ini",
           "defaultSelectStatus": "Lalai: Pilih satu status yang akan menjadi lalai untuk kerja baharu jenis ini",
+          "defaultSelectStatusStandard": "Lalai: Pilih satu status yang akan menjadi lalai untuk",
           "saveYourChanges": "Simpan perubahan anda",
           "newlyCreatedStatus": "Status yang baru dibuat akan kelihatan tetapi tidak ditetapkan sebagai",
           "defineDetailsOfThis": "Tentukan butiran untuk ini",
@@ -25232,14 +25688,43 @@
           "joTypeStandaloneDesc": "kumpulkan kerja mengikut jenis kerja (pemasangan, pembaikan, penyelenggaraan, kerosakan). Sediakan di sini supaya setiap kerja ditandai dengan betul. Untuk memulakan, klon yang sedia ada.",
           "helpsGroup": "membantu anda mengumpulkan",
           "forPlanningReporting": "untuk perancangan dan pelaporan.",
-          "chooseOptionMatches": "Pilih pilihan yang paling sesuai dengan tujuan utama ini"
+          "chooseOptionMatches": "Pilih pilihan yang paling sesuai dengan tujuan utama ini",
+          "assetTypeStandaloneDesc": "digunakan untuk mengumpulkan peralatan yang serupa seperti alatan atau kenderaan.",
+          "assetTypeStandaloneDescLink": "Cipta satu dan kaitkan dengan peralatan anda.",
+          "setUnitMeasurement": "Menetapkan unit pengukuran (cth. km, jam, kitaran) untuk",
+          "default": "Lalai",
+          "setHowOften": "Menetapkan seberapa kerap",
+          "isTriggered": "dicetuskan",
+          "overridenPer": "Boleh diatasi bagi setiap",
+          "afterCreation": "selepas penciptaan",
+          "based": "berdasarkan",
+          "usedForCalc": "Digunakan untuk pengiraan dan pengelompokan dalam",
+          "andFilters": "dan penapis",
+          "displayedFor": "Dipaparkan kepada",
+          "on": "pada",
+          "recordsList": "rekod dan senarai",
+          "chooseWhich": "Pilih yang mana",
+          "canUseThis": "boleh menggunakan ini",
+          "this": "Ini",
+          "willOnlyBe": "hanya boleh dipilih pada",
+          "listedAbove": "yang disenaraikan di atas",
+          "enterA": "Masukkan",
+          "availability": "Ketersediaan",
+          "defaultForNew": "Lalai: Pilih satu status yang akan menjadi lalai untuk yang baharu"
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",
           "maximumCharsExceed": "Panjang aksara maksimum telah dilampaui",
           "noDefaultStatus": "Tiada status lalai ditemui. Sila tetapkan status sebagai lalai.",
           "systemStatusNotAllowedDelete": "Status sistem tidak boleh dipadam. Sila tukar label.",
-          "toDeleteStatus": "Untuk memadamkan status ini, pastikan ia dimatikan dalam semua"
+          "toDeleteStatus": "Untuk memadamkan status ini, pastikan ia dimatikan dalam semua",
+          "statusUsedInOther": "Status ini mungkin digunakan dalam",
+          "haveBeenSetUp": "telah disediakan",
+          "hasBeenSetUp": "telah disediakan",
+          "pleaseSetUp": "Sila sediakan",
+          "isFound": "ditemui",
+          "pleaseSetA": "Sila tetapkan",
+          "as": "sebagai"
         }
       },
       "procedure": {

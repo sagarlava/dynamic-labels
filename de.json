@@ -2623,7 +2623,7 @@
     },
     "messages": {}
   },
-   "maintenancePlan":{
+  "maintenancePlan": {
     "setupVisible": false,
     "setupEdit": false,
     "label": {
@@ -2652,91 +2652,243 @@
       },
       "sec2": {
         "original": "Define Your Maintenance Plan",
-        "singular": "Definieren Sie Ihren Wartungsplan",
-        "plural": "Definieren Sie Ihre Wartungspläne",
+        "singular": "Ihren Wartungsplan definieren",
+        "plural": "Ihren Wartungsplan definieren",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec3": {
         "original": "Create Schedule",
-        "singular": "Zeitplan Erstellen",
-        "plural": "Zeitpläne Erstellen",
+        "singular": "Zeitplan erstellen",
+        "plural": "Zeitplan erstellen",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec4": {
         "original": "Configure Creation",
-        "singular": "Erstellung Konfigurieren",
-        "plural": "Erstellungen Konfigurieren",
+        "singular": "Erstellung konfigurieren",
+        "plural": "Erstellung konfigurieren",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec5": {
         "original": "Self-healing",
         "singular": "Selbstheilung",
-        "plural": "Selbstheilungen",
+        "plural": "Selbstheilung",
         "setupEdit": false,
         "setupVisible": false
       }
     },
-    "fields":{
-      "maintenance":{
+    "fields": {
+      "maintenance": {
         "original": "Maintenance",
-        "singular": "Maintenance",
-        "plural": "Maintenance",
+        "singular": "Wartung",
+        "plural": "Wartungen",
         "setupEdit": false,
         "setupVisible": false
       },
-      "plan":{
+      "plan": {
         "original": "Plan",
         "singular": "Plan",
-        "plural": "Plans",
+        "plural": "Pläne",
         "setupEdit": false,
         "setupVisible": false
       },
-      "timeBased":{
+      "timeBased": {
         "original": "Time-based",
-        "singular": "Time-based",
-        "plural": "Time-based",
+        "singular": "Zeitbasiert",
+        "plural": "Zeitbasiert",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meterBased":{
+      "meterBased": {
         "original": "Meter-based",
-        "singular": "Meter-based",
-        "plural": "Meter-based",
+        "singular": "Zählerbasiert",
+        "plural": "Zählerbasiert",
         "setupEdit": false,
         "setupVisible": false
       },
-      "time":{
+      "time": {
         "original": "Time",
-        "singular": "Time",
-        "plural": "Time",
+        "singular": "Zeit",
+        "plural": "Zeiten",
         "setupEdit": false,
         "setupVisible": false
       },
-      "meter":{
+      "meter": {
         "original": "Meter",
-        "singular": "Meter",
-        "plural": "Meter",
+        "singular": "Zähler",
+        "plural": "Zähler",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "anchorDate": {
+        "original": "Anchor Date",
+        "singular": "Ankerdatum",
+        "plural": "Ankerdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "floating": {
+        "original": "Floating",
+        "singular": "Gleitend",
+        "plural": "Gleitend",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixed": {
+        "original": "Fixed",
+        "singular": "Fest",
+        "plural": "Fest",
         "setupEdit": false,
         "setupVisible": false
       }
     },
-    "messages":{
-      "nameYour": "Benenne dein",
-      "setStatusChooseWhen": "lege seinen Status fest und wähle, wann es",
-      "shouldOccur": "stattfinden soll. Verwende zeitbasierte Intervalle, nutzungsbasierte Auslöser oder beides, um sicherzustellen, dass die richtige Arbeit zur richtigen Zeit erledigt wird.",
+    "messages": {
+      "nameYour": "Benennen Sie Ihren",
       "start": "Start",
       "from": "von",
       "andEnd": "und Ende",
-      "chooseHowYour": "Wähle, wie dein",
+      "chooseHowYour": "Wählen Sie, wie Ihr",
       "shouldTrigger": "ausgelöst werden soll",
-      "basedTimeIntervals": "Basierend auf Zeitintervallen wie wöchentlich, monatlich oder vierteljährlich. Perfekt für routinemäßige Inspektionen und saisonale Wartung.",
-      "basedOnUsageMetrics": "Basierend auf Nutzungsmetriken wie gefahrene Kilometer, Betriebsstunden oder abgeschlossene Zyklen. Ideal für Geräte mit messbarer Nutzung.",
-      "combineBothMethods": "Kombiniere beide Methoden",
-      "triggersOnWhichever": "wird durch die zuerst erfüllte Bedingung ausgelöst und anschließend intelligent neu geplant.",
-      "activateYourPlan": "Aktiviere deinen Plan, nachdem du Elemente hinzugefügt oder automatische Zuweisungsbedingungen eingerichtet hast."
+      "setupNew": "Neuen einrichten",
+      "allowToAutomate": "ermöglichen Ihnen die automatische Erstellung von Aufträgen",
+      "setupThe": "Richten Sie die",
+      "criteria": "Kriterien ein",
+      "howToStepA": "Benennen Sie Ihren Plan, damit er später leicht erkennbar ist (z. B. 'PM – Generator #3 – Quartalsweise')",
+      "howToStepB": "Legen Sie die Plandauer fest – wie lange dieser Plan aktiv bleiben soll",
+      "howToStepC": "Wählen Sie, wie oft Aufträge wiederholt werden – wöchentlich, monatlich oder Erweitert für einen benutzerdefinierten Zyklus",
+      "howToStepD": "Wählen Sie eine Auftragsvorlage und einen Beauftragten – wer die Arbeit erledigt",
+      "howToStepE": "Wählen Sie, wie Folgeaufträge geplant werden – Festes Datum oder Gleitend basierend auf dem Abschluss.",
+      "howToStepF": "Legen Sie fest, wann Aufträge erstellt werden, damit Planer genug Vorlaufzeit haben. (Optional) Schalten Sie die Selbstheilung ein, um überfällige Aufträge automatisch neu zu planen.",
+      "addIntoThePlanAndActivate": "zum Plan hinzufügen und aktivieren",
+      "planName": "Planname",
+      "giveYourPlanAName": "Geben Sie Ihrem Plan einen Namen.",
+      "planWillBeActivatedOn": "Plan wird aktiviert am",
+      "whenToStartThePlan": "Wann soll der Plan beginnen",
+      "jobsCreatedBetweenDates": "Aufträge werden nur zwischen dem Start- und Enddatum erstellt. Wenn Sie das Ende auf Nie lassen, läuft der Plan weiter, bis Sie ihn abbrechen.",
+      "startPlanFrom": "Plan starten ab",
+      "enterStartDateToProceed": "Geben Sie ein Startdatum ein, um fortzufahren.",
+      "enterEndDateToProceed": "Geben Sie ein Enddatum ein, um fortzufahren.",
+      "activateFrom": "Aktivieren ab",
+      "until": "bis",
+      "withNoEndDate": "ohne Enddatum",
+      "setTheSchedule": "Zeitplan festlegen",
+      "needDifferentTemplates": "Benötigen Sie verschiedene Vorlagen für verschiedene Monate?",
+      "tryAdvanced": "Versuchen Sie Erweitert.",
+      "basic": "Einfach",
+      "advanced": "Erweitert",
+      "specifyHowFrequently": "Geben Sie an, wie häufig diese Wartung stattfinden soll.",
+      "every": "Alle",
+      "cycleRepeatsEvery": "Zyklus wiederholt sich alle",
+      "setHowOftenScheduleRepeats": "Legen Sie fest, wie oft sich dieser Zeitplan wiederholt (in Tagen, Wochen, Monaten oder Jahren)",
+      "repeatsEvery": "Wiederholt sich alle",
+      "forEveryWeekOrMonth": "Für jede Woche oder jeden Monat in diesem Zeitplan erstellt das System Aufträge mit dieser Vorlage und weist sie der von Ihnen ausgewählten Person zu (falls vorhanden)",
+      "assignToOptional": "Zuweisen an (Optional)",
+      "assignTo": "Zuweisen an",
+      "noMaintenance": "Keine Wartung",
+      "assignedTo": "Zugewiesen an",
+      "jobWillBeCreatedAsUnassigned": "Auftrag wird ohne Zuweisung erstellt",
+      "notAssigned": "Nicht zugewiesen",
+      "cycle": "Zyklus",
+      "custodian": "Verwalter",
+      "customValue": "Benutzerdefinierter Wert",
+      "overrideWithFixedInterval": "Mit einem festen Intervall überschreiben, das auf jeden angewendet wird",
+      "inThisPlan": "in diesem Plan.",
+      "withoutDefaultSetWillBeFlagged": "ohne festgelegten Standard werden beim Hinzufügen zum Plan markiert.",
+      "meterFrequencyFromIts": "Zählerfrequenz aus seinem",
+      "recordBestForMixedFleets": "Datensatz. Am besten für gemischte Flotten.",
+      "sRecordWillBeUsed": "Datensatz wird verwendet.",
+      "customMeterInterval": "Benutzerdefiniertes Zählerintervall",
+      "kmRemaining": "km verbleibend",
+      "meterSourceMustExistOnEvery": "Die Zählerquelle muss bei jedem vorhanden sein",
+      "attachedToThisPlan": "das diesem Plan zugeordnet ist.",
+      "frequency": "Häufigkeit",
+      "triggerType": "Auslösertyp",
+      "whicheverComesFirst": "Was auch immer zuerst kommt",
+      "triggerAsSoonAsTimeOrMeter": "Auslösen, sobald die Zeit- oder Zählerschwelle erreicht ist.",
+      "onlyWhenBothAreMet": "Nur wenn beide erfüllt sind",
+      "waitUntilBothThresholds": "Warten, bis beide Schwellenwerte (Zeit und Zähler) erreicht sind. Für weniger kritische PMs.",
+      "runsEvery": "Läuft alle",
+      "orLower": "oder",
+      "everyLower": "alle",
+      "km": "km",
+      "sMeterFrequency": "Zählerfrequenz",
+      "whenBothConditionsAreMet": ", wenn beide Bedingungen erfüllt sind",
+      "whicheverComesFirstLower": ", was auch immer zuerst kommt",
+      "howShouldMaintenanceCalculated": "Wie soll das nächste Wartungsdatum berechnet werden?",
+      "whatShouldMaintenanceBasedOn": "Worauf soll das erste Wartungsdatum basieren?",
+      "chooseWhetherScheduleFollows": "Wählen Sie, ob der Zeitplan dem Kalender oder der tatsächlichen Fertigstellung folgt.",
+      "floatingBasedOnCompletion": "Gleitend (basierend auf Abschluss)",
+      "nextJobDateMovesBased": "Das nächste Auftragsdatum verschiebt sich basierend auf dem tatsächlichen Abschluss des letzten Auftrags.",
+      "fixedCalendarBased": "Fest (kalenderbasiert)",
+      "nextJobDateAlwaysCalculated": "Das nächste Auftragsdatum wird immer aus dem geplanten Zeitplan berechnet, auch wenn der vorherige Auftrag zu spät abgeschlossen wurde.",
+      "dateUsedToCalculateFirstJob": "Dieses Datum wird verwendet, um den ersten zum Plan hinzugefügten Auftrag zu berechnen. Zukünftige Aufträge folgen der obigen Häufigkeit",
+      "startScheduleFrom": "Zeitplan beginnen ab",
+      "onThe": "Am",
+      "dayOfTheMonth": "Tag des Monats",
+      "ofTheMonth": "des Monats",
+      "onLower": "Am",
+      "schedullingWillStartFrom": "Planung beginnt ab",
+      "dayOfEvery": "Tag jedes",
+      "year": "Jahres",
+      "month": "Monats",
+      "ofEvery": "jedes",
+      "everyUpper": "Alle",
+      "automateCreationSelfHealing": "Erstellung automatisieren & Selbstheilung",
+      "controlHowJobsAreCreated": "Steuern Sie, wie Aufträge erstellt werden, was passiert, wenn Aufträge verpasst werden, und wie der Plan sich von Verzögerungen erholt.",
+      "whenShouldJobBeCreated": "Wann soll der Auftrag erstellt werden?",
+      "chooseHowFarInAdvance": "Wählen Sie, wie weit im Voraus der Auftrag erstellt werden soll",
+      "createTheJob": "Auftrag erstellen",
+      "beforeTheDueDate": "vor dem Fälligkeitsdatum.",
+      "createTheJobOn": "Auftrag erstellen am",
+      "autoRescheduleMissedMaintenance": "Verpasste Wartung automatisch neu planen",
+      "automaticallyRescheduleJobs": "Aufträge für überfällige Wartung automatisch neu planen.",
+      "maintenanceJobRemainsOverdueFor": "Wartungsauftrag bleibt überfällig für",
+      "beforeBeingRescheduled": "bevor er neu geplant wird",
+      "later": "später.",
+      "keepTheJobInOverdueFor": "Auftrag für folgende Zeit im Status Überfällig behalten",
+      "daysBforeRescheduling": "Tag(e) vor der Neuplanung, dann den Auftrag neu planen",
+      "afterItBecomesOverdue": "nachdem er überfällig geworden ist.",
+      "timeBasedDesc": "läuft nach einem festen Kalenderplan – einmal einrichten und sie wiederholt sich automatisch.",
+      "timeBasedBullet1": "Wiederholt sich wöchentlich, monatlich, vierteljährlich oder in einem beliebigen benutzerdefinierten Intervall",
+      "timeBasedBullet2": "Ideal für Routineinspektionen mit vorhersehbaren Zyklen",
+      "timeBasedBullet3": "Aufträge werden automatisch vor jedem Fälligkeitsdatum erstellt",
+      "bestFor": "Am besten geeignet für:",
+      "timeBasedBestFor": "Luftfilter, Feuerlöscherprüfungen, Schmierungspläne",
+      "timeMeterBasedDesc": "Kombiniert einen Kalenderplan mit einem Nutzungszähler – welche Bedingung auch immer zuerst erreicht wird, löst den Auftrag aus.",
+      "timeMeterBasedBullet1": "Verfolgt sowohl verstrichene Zeit als auch Nutzung (Stunden, km, Zyklen)",
+      "timeMeterBasedBullet2": "Wird ausgelöst, wenn eine der Bedingungen zuerst erreicht wird",
+      "timeMeterBasedBullet3": "Wird automatisch basierend auf der tatsächlichen",
+      "usage": "Nutzung neu geplant",
+      "timeMeterBasedBestForStart": "Generatoren, Fahrzeuge, Pumpen oder jede",
+      "withRuntimeMeters": "mit Laufzeitzählern",
+      "howToStepAHybrid": "Benennen Sie Ihren Plan (z. B. 'PM – Generator #3 – 500Std / 3Mo')",
+      "howToStepBHybrid": "Legen Sie die Plandauer fest",
+      "howToStepCHybrid": "Wählen Sie die Auftragsvorlage und den Beauftragten. Optional: Serviceleistungen pro Stufe festlegen (Klein / Groß)",
+      "howToStepDHybrid": "Konfigurieren Sie SOWOHL das Zeitintervall ALS AUCH das Zählerintervall",
+      "howToStepEHybrid": "Wählen Sie, ob bei Erreichen einer der Bedingungen oder nur wenn beide erfüllt sind ausgelöst werden soll",
+      "enterThe": "Geben Sie den",
+      "currentMeterSoCalculate": "aktuellen Zählerstand ein, damit der erste Auftrag korrekt berechnet wird",
+      "intoPlanActivate": "zum Plan hinzufügen und aktivieren. Stellen Sie sicher, dass diese",
+      "haveMeterFreq": "Zählerfrequenz eingestellt haben",
+      "setUpATimeMeterPlan": "Richten Sie einen Zeit + Zähler Plan ein, wenn ein",
+      "wearsBothTimeUsage": "sowohl durch Zeit als auch durch Nutzung verschleißt",
+      "triggersWhenEitherOrBoth": "Der Auftrag wird ausgelöst, wenn ENTWEDER ein Schwellenwert zuerst erreicht wird oder wenn BEIDE Schwellenwerte erreicht sind",
+      "each": "Jeder",
+      "unit": "Einheit",
+      "custodianAssignNote": "Den Auftrag automatisch zuweisen an den",
+      "designatedCustodian": "zugewiesenen Verwalter.",
+      "userAssignNote": "Wählen Sie manuell einen einzelnen Benutzer aus, dem dieser Auftrag zugewiesen werden soll.",
+      "groupAssignNote": "Den Auftrag einer",
+      "groupAssignNoteB": "Aufträge werden in Round-Robin-Reihenfolge an Gruppenmitglieder verteilt, sodass die Arbeit fair im Team aufgeteilt wird.",
+      "multiple": "mehrere",
+      "toThisMaintenancePlanInBulk": "zu diesem Wartungsplan in einem Schritt hinzufügen.",
+      "autoApplyToNew": "Automatisch anwenden auf",
+      "setConditionsToAutoApply": "Legen Sie die Bedingungen fest, um diesen Plan automatisch anzuwenden auf"
+    },
+    "validationFE": {
+      "enterValueOfOne": "Geben Sie einen Wert von 1 oder größer ein."
     }
   },
   "contracts": {
@@ -12882,6 +13034,296 @@
       "noAuditTrail": "Kein Prüfpfad verfügbar"
     }
   },
+  "certification": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Certification",
+      "singular": "Zertifizierung",
+      "plural": "Zertifizierungen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Basics",
+        "singular": "Grundlagen",
+        "plural": "Grundlagen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Reminders",
+        "singular": "Erinnerung",
+        "plural": "Erinnerungen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "Verknüpft",
+        "plural": "Verknüpft",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Häufigkeit",
+        "plural": "Häufigkeiten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "Nächste Fälligkeit",
+        "plural": "Nächste Fälligkeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "Datensatz",
+        "plural": "Datensätze",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Referenz",
+        "plural": "Referenzen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "Fälligkeitsdatum",
+        "plural": "Fälligkeitsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "Durchgeführt von",
+        "plural": "Durchgeführt von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Abschlussdatum",
+        "plural": "Abschlussdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "result": {
+        "original": "Result",
+        "singular": "Ergebnis",
+        "plural": "Ergebnisse",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "Anmerkung",
+        "plural": "Anmerkungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "authority": {
+        "original": "Authority",
+        "singular": "Behörde",
+        "plural": "Behörden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notify": {
+        "original": "Notify",
+        "singular": "Benachrichtigen",
+        "plural": "Benachrichtigen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "Automatisierte",
+      "trackingRecords": "Nachverfolgung einrichten. Datensätze werden nach jedem Zeitplan erstellt und Erinnerungen rechtzeitig an die richtigen Personen gesendet",
+      "configureA": "Konfigurieren Sie eine",
+      "howToStepA": "Klicken Sie",
+      "howToStepAToDefine": "um einen neuen Typ zu definieren",
+      "howToStepB": "Benennen Sie ihn klar, damit er später leicht erkennbar ist (z. B. 'Jährliche Sicherheitszertifizierung')",
+      "howToStepD": "Wählen Sie, wie oft der Datensatz wiederholt werden soll — alle 3, 6, 12 Monate oder benutzerdefiniert.",
+      "setTheAuthority": "Legen Sie die Behörde fest (z. B. TÜV SÜD) und wer benachrichtigt werden soll.",
+      "addUpTo": "Fügen Sie bis zu 3 Erinnerungen hinzu (z. B. 60, 30 und 7 Tage vor jedem Fälligkeitsdatum)",
+      "trackRecordStayCompliant": "Datensätze verfolgen und konform bleiben",
+      "expandAnyRow": "Erweitern Sie eine beliebige Zeile, um die Datensätze inline anzuzeigen; klicken Sie auf 'Als abgeschlossen markieren', um sie zu schließen",
+      "complianceStatus": "Der Konformitätsstatus oben wird automatisch basierend auf überfälligen Datensätzen aktualisiert",
+      "useAllRecords": "Verwenden Sie 'Alle Datensätze' unten, um alle zu suchen, zu filtern oder zu prüfen",
+      "sendCompleteNotification": "Abschlussbenachrichtigung senden",
+      "recordingCompletion": "Abschluss erfassen für"
+    },
+    "validationFE": {
+      "recordsAre": "Datensätze sind überfällig",
+      "actionRequired": "Maßnahmen erforderlich"
+    }
+  },
+  "inspection": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Inspection",
+      "singular": "Inspektion",
+      "plural": "Inspektionen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "Details",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "linked": {
+        "original": "Linked",
+        "singular": "Verknüpft",
+        "plural": "Verknüpft",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Häufigkeit",
+        "plural": "Häufigkeiten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextDue": {
+        "original": "Next Due",
+        "singular": "Nächste Fälligkeit",
+        "plural": "Nächste Fälligkeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "record": {
+        "original": "Record",
+        "singular": "Datensatz",
+        "plural": "Datensätze",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Referenz",
+        "plural": "Referenzen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueDate": {
+        "original": "Due Date",
+        "singular": "Fälligkeitsdatum",
+        "plural": "Fälligkeitsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "performedBy": {
+        "original": "Performed By",
+        "singular": "Durchgeführt von",
+        "plural": "Durchgeführt von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Abschlussdatum",
+        "plural": "Abschlussdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "setupAutomated": "Automatisierte",
+      "trackingRecords": "Nachverfolgung einrichten. Datensätze werden nach jedem Zeitplan erstellt und Erinnerungen rechtzeitig an die richtigen Personen gesendet",
+      "configureAn": "Konfigurieren Sie eine",
+      "howToStepA": "Klicken Sie",
+      "howToStepAToDefine": "um einen neuen Typ zu definieren",
+      "howToStepB": "Benennen Sie ihn klar, damit er später leicht erkennbar ist (z. B. 'Monatliche Sicherheitsinspektion')",
+      "howToStepC": "Wählen Sie die verknüpfte",
+      "howToStepCForThis": "für diese",
+      "howToStepD": "Wählen Sie, wie oft der Datensatz wiederholt werden soll — alle 3, 6, 12 Monate oder benutzerdefiniert.",
+      "trackRecordStayCompliant": "Datensätze verfolgen und konform bleiben",
+      "expandAnyRow": "Erweitern Sie eine beliebige Zeile, um die Datensätze inline anzuzeigen; klicken Sie auf 'Als abgeschlossen markieren', um sie zu schließen",
+      "complianceStatus": "Der Konformitätsstatus oben wird automatisch basierend auf überfälligen Datensätzen aktualisiert",
+      "useAllRecords": "Verwenden Sie 'Alle Datensätze' unten, um alle zu suchen, zu filtern oder zu prüfen",
+      "showing": "Anzeigen",
+      "of": "von"
+    },
+    "validationFE": {
+      "recordsAre": "Datensätze sind überfällig",
+      "actionRequired": "Maßnahmen erforderlich"
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
@@ -14990,6 +15432,13 @@
         "original": "Pick",
         "singular": "Auswählen",
         "plural": "Auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "use": {
+        "original": "Use",
+        "singular": "Verwenden",
+        "plural": "Verwenden",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -25142,6 +25591,13 @@
             "plural": "Auf Anfrage",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Beschreibung",
+            "plural": "Beschreibungen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -25192,6 +25648,7 @@
           "addStatusWith": "Status mit Bezeichnung, Code und Farb-Hex-Code hinzufügen (Beispiel: #4F46E5)",
           "availableToggle": "Verfügbar: Schalten Sie die Status um, die Sie für diesen Typ verfügbar machen möchten",
           "defaultSelectStatus": "Standard: Wählen Sie einen Status als Standard für neue Aufträge dieses Typs",
+          "defaultSelectStatusStandard": "Standard: Wählen Sie einen Status, der als Standard gilt für",
           "saveYourChanges": "Änderungen speichern",
           "newlyCreatedStatus": "Neu erstellte Status sind sichtbar, werden aber nicht als",
           "defineDetailsOfThis": "Details dieses festlegen",
@@ -25232,14 +25689,43 @@
           "joTypeStandaloneDesc": "Aufträge nach Arbeitstyp gruppieren (Installation, Reparatur, Wartung, Schaden). Richten Sie diese hier ein, damit jeder Auftrag korrekt gekennzeichnet wird. Klonen Sie zum Einstieg einen vorhandenen Typ.",
           "helpsGroup": "hilft Ihnen dabei,",
           "forPlanningReporting": "für Planung und Berichterstattung zu gruppieren.",
-          "chooseOptionMatches": "Wählen Sie die Option, die dem Hauptzweck dieses am besten entspricht"
+          "chooseOptionMatches": "Wählen Sie die Option, die dem Hauptzweck dieses am besten entspricht",
+          "assetTypeStandaloneDesc": "werden verwendet, um ähnliche Geräte wie Werkzeuge oder Fahrzeuge zu gruppieren.",
+          "assetTypeStandaloneDescLink": "Erstellen Sie einen und verknüpfen Sie ihn mit Ihrem Gerät.",
+          "setUnitMeasurement": "Legt die Maßeinheit fest (z. B. km, Stunden, Zyklen) für",
+          "default": "Standard",
+          "setHowOften": "Legt fest, wie oft",
+          "isTriggered": "ausgelöst wird",
+          "overridenPer": "Kann pro überschrieben werden",
+          "afterCreation": "nach der Erstellung",
+          "based": "basierend",
+          "usedForCalc": "Wird für Berechnungen und Gruppierungen verwendet in",
+          "andFilters": "und Filter",
+          "displayedFor": "Angezeigt für",
+          "on": "auf",
+          "recordsList": "Datensätze und Listen",
+          "chooseWhich": "Wählen Sie, welche",
+          "canUseThis": "dies verwenden können",
+          "this": "Dieser",
+          "willOnlyBe": "wird nur auswählbar sein auf dem",
+          "listedAbove": "oben aufgeführten",
+          "enterA": "Eingeben eines",
+          "availability": "Verfügbarkeit",
+          "defaultForNew": "Standard: Wählen Sie einen Status, der als Standard für neue gilt"
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",
           "maximumCharsExceed": "Maximale Zeichenlänge überschritten",
           "noDefaultStatus": "Kein Standardstatus gefunden. Bitte setzen Sie einen Status als Standard.",
           "systemStatusNotAllowedDelete": "Systemstatus können nicht gelöscht werden. Ändern Sie gerne die Bezeichnung.",
-          "toDeleteStatus": "Um diesen Status zu löschen, stellen Sie sicher, dass er in allen deaktiviert ist"
+          "toDeleteStatus": "Um diesen Status zu löschen, stellen Sie sicher, dass er in allen deaktiviert ist",
+          "statusUsedInOther": "Dieser Status wird möglicherweise in anderen verwendet",
+          "haveBeenSetUp": "wurden eingerichtet",
+          "hasBeenSetUp": "wurde eingerichtet",
+          "pleaseSetUp": "Bitte richten Sie ein",
+          "isFound": "wurde gefunden",
+          "pleaseSetA": "Bitte legen Sie einen fest",
+          "as": "als"
         }
       },
       "procedure": {
