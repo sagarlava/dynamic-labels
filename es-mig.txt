@@ -1,161 +1,162 @@
-// history.label
+// label
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.label.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.label.singular": "Mantenimiento preventivo" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.label.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.label.plural": "Mantenimientos preventivos" } }
 )
 
-// history.fields
+// sections.sec0
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.setupVisible": false } }
-)
-
-// history.fields.timeDate
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.timeDate.original": "Transferred Date" } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec0.singular": "Trabajo de mantenimiento" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.timeDate.singular": "Fecha de Transferencia" } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec0.plural": "Trabajos de mantenimiento" } }
+)
+
+// sections.sec1
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec1.singular": "Plan de mantenimiento" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.timeDate.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec1.plural": "Planes de mantenimiento" } }
+)
+
+// sections.sec2
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec2.singular": "Defina su plan de mantenimiento" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.timeDate.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec2.plural": "Defina su plan de mantenimiento" } }
 )
 
-// history.fields.field
+// sections.sec3
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.field.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.field.setupVisible": false } }
-)
-
-// history.fields.modifiedBy
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.modifiedBy.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec3.singular": "Crear programa" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.modifiedBy.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec3.plural": "Crear programa" } }
 )
 
-// history.fields.adjustedBy
+// sections.sec4
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.adjustedBy.original": "Transferred By" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.adjustedBy.singular": "Transferido Por" } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec4.singular": "Configurar creación" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.adjustedBy.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec4.plural": "Configurar creación" } }
+)
+
+// sections.sec5
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec5.singular": "Autocorrección" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.adjustedBy.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.sections.sec5.plural": "Autocorrección" } }
 )
 
-// history.fields.newValue
+// fields.maintenance
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newValue.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newValue.setupVisible": false } }
-)
-
-// history.fields.newlyAdjustedQty
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newlyAdjustedQty.original": "New Quantity" } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.maintenance.singular": "Mantenimiento" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newlyAdjustedQty.singular": "Nueva Cantidad" } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.maintenance.plural": "Mantenimientos" } }
+)
+
+// fields.plan
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.plan.plural": "Planes" } }
+)
+
+// fields.timeBased
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.timeBased.singular": "Basado en tiempo" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newlyAdjustedQty.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.timeBased.plural": "Basado en tiempo" } }
+)
+
+// fields.meterBased
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.meterBased.singular": "Basado en medidor" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newlyAdjustedQty.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.meterBased.plural": "Basado en medidor" } }
 )
 
-// history.fields.oldValue
+// fields.time
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.oldValue.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.oldValue.setupVisible": false } }
-)
-
-// history.fields.newQty
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newQty.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.time.singular": "Tiempo" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.newQty.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.time.plural": "Tiempos" } }
 )
 
-// history.fields.oldQty
+// fields.meter
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.oldQty.original": "Old Quantity" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.oldQty.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.meter.singular": "Medidor" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.oldQty.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.fields.meter.plural": "Medidores" } }
 )
 
-// history.fields.displayName
+
+// messages.nameYour
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.displayName.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.messages.nameYour": "Nombrar su" } }
 )
 
+// messages.start
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "es" },
-{ $set: { "setup.fields.displayName.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.messages.start": "Inicio" } }
+)
+
+// messages.andEnd
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.messages.andEnd": "y Fin" } }
+)
+
+// messages.chooseHowYour
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "es" },
+  { $set: { "setup.messages.chooseHowYour": "Elija cómo su" } }
 )
