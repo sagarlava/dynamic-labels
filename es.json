@@ -30578,7 +30578,9 @@
               "overtime": "Horas Extra",
               "pmv": "PMV",
               "visit": "Visitas",
-              "machine_specialist": "Especialista en Máquinas"
+              "machine_specialist": "Especialista en Máquinas",
+              "asset_inspection": "Inspecciones",
+              "asset_certification": "Certificación"
             }
           }
         },
