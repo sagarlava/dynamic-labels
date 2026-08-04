@@ -25880,7 +25880,9 @@
               "overtime": "Overtime",
               "pmv": "PMV",
               "visit": "Visits",
-              "machine_specialist": "Machine Specialist"
+              "machine_specialist": "Machine Specialist",
+              "asset_inspection":"Inspections",
+              "asset_certification":"Certification"
             }
           }
         },

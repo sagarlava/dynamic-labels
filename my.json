@@ -30577,7 +30577,9 @@
               "overtime": "Kerja Lebih Masa",
               "pmv": "PMV",
               "visit": "Lawatan",
-              "machine_specialist": "Pakar Mesin"
+              "machine_specialist": "Pakar Mesin",
+              "asset_inspection": "Pemeriksaan",
+              "asset_certification": "Pensijilan"
             }
           }
         },
