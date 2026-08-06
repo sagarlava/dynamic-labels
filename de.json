@@ -29106,7 +29106,9 @@
               "overtime": "Überstunden",
               "pmv": "PMV",
               "visit": "Besuche",
-              "machine_specialist": "Maschinenspezialist"
+              "machine_specialist": "Maschinenspezialist",
+              "asset_inspection": "Inspektionen",
+              "asset_certification": "Zertifizierung"
             }
           }
         },

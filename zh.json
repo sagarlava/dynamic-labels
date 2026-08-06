@@ -29105,7 +29105,9 @@
               "overtime": "加班",
               "pmv": "PMV",
               "visit": "访问",
-              "machine_specialist": "机器专家"
+              "machine_specialist": "机器专家",
+              "asset_inspection": "检查",
+              "asset_certification": "认证"
             }
           }
         },
