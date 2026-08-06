@@ -24012,7 +24012,8 @@
                             "manage_customer_surveys": "Manage Customer Surveys",
                             "manage_integrations": "Manage Integrations",
                             "customer_survey_link": "Manage Customer Surveys",
-                            "calendly_integration": "Manage Integrations"
+                            "calendly_integration": "Manage Integrations",
+                            "manage_standard_reports":"Manage Standard Reports"
                         }
                     }
                 }
