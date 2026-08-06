@@ -1,161 +1,110 @@
-// history.label
+// sections.sec0
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.label.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.sections.sec0.singular": "维护工单" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.label.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.sections.sec0.plural": "维护工单" } }
 )
 
-// history.fields
+// sections.sec3
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.setupVisible": false } }
-)
-
-// history.fields.timeDate
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.timeDate.original": "Transferred Date" } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.sections.sec3.singular": "创建计划" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.timeDate.singular": "转移日期" } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.sections.sec3.plural": "创建计划" } }
+)
+
+// sections.sec5
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.sections.sec5.singular": "自愈" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.timeDate.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.sections.sec5.plural": "自愈" } }
+)
+
+// fields.maintenance
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.maintenance.singular": "维护" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.timeDate.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.maintenance.plural": "维护" } }
 )
 
-// history.fields.field
+// fields.plan
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.field.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.field.setupVisible": false } }
-)
-
-// history.fields.modifiedBy
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.modifiedBy.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.plan.singular": "计划" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.modifiedBy.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.plan.plural": "计划" } }
 )
 
-// history.fields.adjustedBy
+// fields.timeBased
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.adjustedBy.original": "Transferred By" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.adjustedBy.singular": "转移人" } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.timeBased.singular": "基于时间" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.adjustedBy.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.timeBased.plural": "基于时间" } }
+)
+
+// fields.meterBased
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.meterBased.singular": "基于仪表" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.adjustedBy.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.meterBased.plural": "基于仪表" } }
 )
 
-// history.fields.newValue
+// fields.time
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newValue.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newValue.setupVisible": false } }
-)
-
-// history.fields.newlyAdjustedQty
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newlyAdjustedQty.original": "New Quantity" } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.time.singular": "时间" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newlyAdjustedQty.singular": "新数量" } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.time.plural": "时间" } }
+)
+
+// fields.meter
+db.dynamic_label_setup.updateMany(
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.meter.singular": "仪表" } }
 )
 
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newlyAdjustedQty.setupEdit": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.fields.meter.plural": "仪表" } }
 )
 
+// messages.andEnd
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newlyAdjustedQty.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.messages.andEnd": "和结束" } }
 )
 
-// history.fields.oldValue
+// messages.shouldTrigger
 db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.oldValue.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.oldValue.setupVisible": false } }
-)
-
-// history.fields.newQty
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newQty.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.newQty.setupVisible": false } }
-)
-
-// history.fields.oldQty
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.oldQty.original": "Old Quantity" } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.oldQty.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.oldQty.setupVisible": false } }
-)
-
-// history.fields.displayName
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.displayName.setupEdit": false } }
-)
-
-db.dynamic_label_setup.updateMany(
-{ "module": "history", "language": "zh" },
-{ $set: { "setup.fields.displayName.setupVisible": false } }
+  { "module": "maintenancePlan", "language": "zh" },
+  { $set: { "setup.messages.shouldTrigger": "应如何触发" } }
 )

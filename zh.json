@@ -29129,7 +29129,8 @@
               "manage_customer_surveys": "管理客户调查",
               "manage_integrations": "管理集成",
               "customer_survey_link": "管理客户调查",
-              "calendly_integration": "管理集成"
+              "calendly_integration": "管理集成",
+              "manage_standard_reports":"管理标准报告"
             }
           }
         }
