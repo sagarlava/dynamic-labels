@@ -2178,6 +2178,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -30279,6 +30286,17 @@
       "unpaidLeave": "Unpaid",
       "emergencyLeave": "Emergency",
       "paternityMaternityLeave": "Paternity/Maternity"
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "Compliance",
+      "plural": "Compliances",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {
