@@ -2186,6 +2186,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec4": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -30278,6 +30285,17 @@
       "unpaidLeave": "无薪假",
       "emergencyLeave": "紧急假",
       "paternityMaternityLeave": "陪产假/产假"
+    }
+  },
+  "compliance": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Compliance",
+      "singular": "合规",
+      "plural": "合规",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "login": {
