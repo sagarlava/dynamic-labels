@@ -30602,7 +30602,8 @@
               "manage_customer_surveys": "Kundenumfragen verwalten",
               "manage_integrations": "Integrationen verwalten",
               "customer_survey_link": "Kundenumfragen verwalten",
-              "calendly_integration": "Integrationen verwalten"
+              "calendly_integration": "Integrationen verwalten",
+              "manage_standard_reports":"Standardberichte verwalten"
             }
           }
         }
