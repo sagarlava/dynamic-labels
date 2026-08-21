@@ -591,8 +591,6 @@
       }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
       "category": {
         "original": "Category",
         "singular": "Categoría",
@@ -607,6 +605,8 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "setupVisible": true,
+      "setupEdit": true,
       "type": {
         "original": "Type",
         "singular": "Tipo",
@@ -1076,27 +1076,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Elegir formato de archivo",
-          "plural": "Elegir formato de archivo",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "Establecer tamaño del código QR",
-          "plural": "Establecer tamaño del código QR",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Seleccionar diseño de página",
-          "plural": "Seleccionar diseño de página",
-          "setupEdit": false,
-          "setupVisible": false
-        },
+      "chooseFileFormat": {
+        "original": "Choose File Format",
+        "singular": "Elegir formato de archivo",
+        "plural": "Elegir formato de archivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "setQrCodeSize": {
+        "original": "Set QR Code Size",
+        "singular": "Establecer tamaño del código QR",
+        "plural": "Establecer tamaño del código QR",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectPageLayout": {
+        "original": "Select Page Layout",
+        "singular": "Seleccionar diseño de página",
+        "plural": "Seleccionar diseño de página",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "installationDate": {
         "original": "Installation Date",
         "singular": "Fecha de instalación",
@@ -1118,7 +1118,7 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "numberAssetSelected":{
+      "numberAssetSelected": {
         "original": "assets have been selected",
         "singular": "Se ha seleccionado",
         "plural": "Se han seleccionado",
@@ -1189,8 +1189,8 @@
       "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
       "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
       "assetCategoryCannotDeleteByAssets": "No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
-      "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos", 
-      "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos",
+      "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos",
+      "assetParentInvalid": "El padre elegido ya está en la jerarquía de activos",
       "assetHasChildAssets": "Este activo no se puede eliminar porque tiene activos hijos dependientes. Por favor, desvincúlelos primero",
       "assetHasBinTransfer": "Este activo no se puede eliminar porque tiene transferencias de contenedor dependientes. Por favor, desvincúlelas primero.",
       "assetHasJobOrder": "Existen datos de órdenes de trabajo en el sistema para los activos"
@@ -1482,22 +1482,22 @@
       "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios",
       "logs": "Registros",
       "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:",
-        "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
-        "exportQrForAll":"Exportar también los códigos QR para todos los componentes",
-        "exportQrSettings":"Exportar configuración de QR",
-        "selectQrCodeSize":"Seleccionar tamaño del código QR",
-        "selectFileFormat":"Seleccionar formato de archivo",
-        "uncheckSelectAll":"Desmarca “seleccionar todo” para ver la lista completa de nuevo",
-        "addComponents": "Agregar componentes",
-        "selectComponentsToAdd": "Selecciona los componentes que deseas agregar a este activo",
-        "updateFieldsOfComponents": "Actualiza los campos de los componentes para que coincidan con el activo principal.",
-        "someComponentsSelected":"Algunos componentes que has seleccionado ya pertenecen a un activo principal. Si continúas, se modificará su activo principal a",
-        "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos correspondientes en los componentes de este activo?",
-        "respectiveFieldsOverridden": "Los campos correspondientes en el componente se sobrescribirán si se selecciona arriba",
-        "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los activos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 activos a la vez.",
-        "alsoUpdateComponentStatus": "También actualizar los estados de los componentes",
-        "wouldYouAlsoUpdateFields": "¿También desea actualizar los campos correspondientes en este",
-        "component": "componente"
+      "filterSelectAsset": "Filtra y selecciona los activos para los que deseas exportar los códigos QR",
+      "exportQrForAll": "Exportar también los códigos QR para todos los componentes",
+      "exportQrSettings": "Exportar configuración de QR",
+      "selectQrCodeSize": "Seleccionar tamaño del código QR",
+      "selectFileFormat": "Seleccionar formato de archivo",
+      "uncheckSelectAll": "Desmarca “seleccionar todo” para ver la lista completa de nuevo",
+      "addComponents": "Agregar componentes",
+      "selectComponentsToAdd": "Selecciona los componentes que deseas agregar a este activo",
+      "updateFieldsOfComponents": "Actualiza los campos de los componentes para que coincidan con el activo principal.",
+      "someComponentsSelected": "Algunos componentes que has seleccionado ya pertenecen a un activo principal. Si continúas, se modificará su activo principal a",
+      "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos correspondientes en los componentes de este activo?",
+      "respectiveFieldsOverridden": "Los campos correspondientes en el componente se sobrescribirán si se selecciona arriba",
+      "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los activos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 activos a la vez.",
+      "alsoUpdateComponentStatus": "También actualizar los estados de los componentes",
+      "wouldYouAlsoUpdateFields": "¿También desea actualizar los campos correspondientes en este",
+      "component": "componente"
     }
   },
   "analytic": {
@@ -3749,8 +3749,8 @@
       "totalTimeSpent": "Tiempo total gastado",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "No se puede eliminar esta tarea porque el viaje está en curso",
       "journeyAlreadyRunningForAnotherTask": "El viaje ya está en curso para otra tarea",
-      "resolvingLocation": "Resolviendo ubicación",
       "endJourney": "Terminar viaje",
+      "resolvingLocation": "Resolviendo ubicación",
       "readyToCheckIn": "¿Listo para registrarte?",
       "readyToCheckOut": "¿Listo para salir?",
       "startNow": "Comenzar ahora",
@@ -4196,7 +4196,7 @@
       "component": "componente"
     }
   },
-  "usage":{
+  "usage": {
     "setupVisible": false,
     "setupEdit": false,
     "label": {
@@ -4206,31 +4206,31 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "fields":{
+    "fields": {
       "setupVisible": false,
       "setupEdit": false,
-      "name":{
+      "name": {
         "original": "Name",
         "singular": "Nombre",
         "plural": "Nombres",
         "setupEdit": false,
         "setupVisible": false
       },
-      "qtyUsed":{
+      "qtyUsed": {
         "original": "Qty Used",
         "singular": "Cantidad Utilizada",
         "plural": "Cantidades Utilizadas",
         "setupEdit": false,
         "setupVisible": false
       },
-      "usedBy":{
+      "usedBy": {
         "original": "Used By",
         "singular": "Usado Por",
         "plural": "Usados Por",
         "setupEdit": false,
         "setupVisible": false
       },
-      "usageDate":{
+      "usageDate": {
         "original": "Usage Date",
         "singular": "Fecha de Uso",
         "plural": "Fechas de Uso",
@@ -5823,6 +5823,13 @@
         "plural": "Formularios",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Block",
+        "singular": "Bloquear",
+        "plural": "Bloques",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -5953,6 +5960,104 @@
         "plural": "Visitas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "level": {
+        "original": "Level",
+        "singular": "Nivel",
+        "plural": "Niveles",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Fecha de inicio",
+        "plural": "Fecha de inicio",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Fecha de finalización",
+        "plural": "Fecha de finalización",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobTemplate": {
+        "original": "Job Template",
+        "singular": "Plantilla de trabajo",
+        "plural": "Plantilla de trabajo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredSkill": {
+        "original": "Required Skill",
+        "singular": "Habilidad requerida",
+        "plural": "Habilidad requerida",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frecuencia",
+        "plural": "Frecuencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "start": {
+        "original": "Start",
+        "singular": "Comenzar",
+        "plural": "Comenzar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "end": {
+        "original": "End",
+        "singular": "Fin",
+        "plural": "Fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfWeek": {
+        "original": "Day of the Week",
+        "singular": "Día de la semana",
+        "plural": "Día de la semana",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfMonth": {
+        "original": "Day of the Month",
+        "singular": "Día del mes",
+        "plural": "Día del mes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfQuarter": {
+        "original": "Day of the Quarter",
+        "singular": "Día del trimestre",
+        "plural": "Día del trimestre",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "month": {
+        "original": "Month",
+        "singular": "Mes",
+        "plural": "Meses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Día",
+        "plural": "Días",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Asignación",
+        "plural": "Asignación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6010,7 +6115,66 @@
     },
     "messages": {
       "noSitesFound": "No se encontraron sitios",
-      "filterSites": "Filtrar Sitios"
+      "filterSites": "Filtrar Sitios",
+      "setupBlocksLevelsAreasTitle": "1. Configurar bloques > Niveles > Áreas",
+      "setupBlocksLevelsAreasDescPrefixThis": "este es tu",
+      "setupBlocksLevelsAreasDescPrefixPhysical": "disposición física. Constrúyalo de arriba hacia abajo: un bloque es un edificio, cada bloque tiene niveles y cada nivel tiene áreas donde",
+      "setupBlocksLevelsAreasDescSuffix": "realmente terminar.",
+      "bulkImportExport": "Importación/exportación masiva",
+      "selectExisting": "Seleccione un existente",
+      "change": "Cambiar",
+      "scheduled": "Programado",
+      "scopeOfWorkForThis": "Alcance del trabajo para este",
+      "toViewTheGenerated": "Para ver el generado",
+      "pleaseGoTo": "por favor ve a",
+      "plannerView": "vista del planificador",
+      "pleaseSelectA": "Por favor seleccione un",
+      "pleaseSelectAn": "Por favor seleccione un",
+      "scheduledForThis": "programado para esto",
+      "yet": "todavía",
+      "toViewAny": "para ver cualquier",
+      "fromTheLeftTo": "de izquierda a",
+      "itsScheduled": "esta programado",
+      "theGenerated": "el generado",
+      "isNeededBeforeSchedule": "es necesario antes de poder programar",
+      "isNeededBeforeScheduling": "es necesario antes de programar",
+      "selectA": "Seleccione un",
+      "useThis": "Usa esto",
+      "enterAName": "Introduzca un nombre para esto",
+      "todaysDate": "Fecha de hoy + 1 día",
+      "daysBefore": "dias antes",
+      "onDayOfPreviousMonthCurrent": "El día del mes anterior para el mes actual.",
+      "onDayOfPreviousMonth": "El día del mes anterior",
+      "none": "No generar automáticamente",
+      "jobTemplateHint": "El",
+      "jobTemplateHintScope": "generado en cada ocurrencia utilizará esta plantilla",
+      "jobTemplateHintScopeSuffix": "alcance, lista de verificación y habilidad requerida.",
+      "selectJobTemplatePlaceholder": "Seleccione una plantilla de trabajo",
+      "selectRequiredSkillsPlaceholder": "Seleccione las habilidades requeridas aquí...",
+      "loading": "Cargando...",
+      "daysBeforeDueDateSuffix": "día(s) antes de la fecha de vencimiento",
+      "createOnThe": "Crear en el",
+      "dayOfPreviousMonthCurrentSuffix": "día del mes anterior para el mes actual",
+      "dayOfPreviousMonthSuffix": "día del mes anterior",
+      "willNotBeAutoGenerated": "no se generará automáticamente",
+      "selectUserToAssignJob": "Seleccione un usuario para asignarle este trabajo.",
+      "selectUserPlaceholder": "Seleccione un usuario",
+      "autoAssignNote": "Cada",
+      "autoAssignNoteSuffix": "se asignará automáticamente usando las reglas de elegibilidad configuradas para",
+      "autoAssignNoteFallback": "Si ningún técnico es elegible, vuelve al grupo siguiente.",
+      "assignLaterNote": "Asigne este trabajo más tarde después de haber sido creado",
+      "autoGenerate": "Generación automática",
+      "chooseHowFarAhead": "Elija con qué anticipación de la fecha de vencimiento",
+      "shouldBeCreated": "debe crearse.",
+      "enterJobDetails": "Ingrese los detalles del trabajo",
+      "enterThePlaceholder": "Introduzca el",
+      "enterAPlaceholder": "Introduzca un",
+      "enterTaskJobNamePlaceholder": "nombre del trabajo..",
+      "relatedToArea": "Se encuentra relacionado con la zona.",
+      "pleaseCreateSelect": "Por favor cree/seleccione un",
+      "defineTheBuilding": "Definir la estructura del edificio.",
+      "defineTheLevels": "Definir los niveles en el edificio.",
+      "defineTheAreas": "Definir las áreas dentro del nivel."
     }
   },
   "salesOrder": {
@@ -9726,7 +9890,7 @@
       "userCalendlyNoIntegrate": "Este usuario no tiene Calendly integrado en su cuenta",
       "noContactFoundForThisJobOrder": "No se encontró contacto para esta Orden de Trabajo",
       "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo",
-      "quickBooksCustomerRequired":"Se requiere un Cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e intente nuevamente.",
+      "quickBooksCustomerRequired": "Se requiere un Cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e intente nuevamente.",
       "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e intente nuevamente."
     },
     "validationBE": {
@@ -9861,8 +10025,8 @@
       "photoUpload": "Subir foto",
       "viewPdf": "Ver PDF",
       "emailPdf": "Enviar PDF por correo",
-      "linkThis":"Vincular esto",
-      "jobTitle":"Título del Trabajo",
+      "linkThis": "Vincular esto",
+      "jobTitle": "Título del Trabajo",
       "willBeAssigned": "se asignará a los miembros del grupo en orden rotativo (compartido entre los miembros del equipo por turnos).",
       "toAllAdded": "a todos los agregados"
     }
@@ -10314,12 +10478,12 @@
       "sameProductBinTransferNotAllowed": "No está permitido seleccionar el mismo Repuesto en una transferencia de contenedor",
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
       "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
-      "selectCategory": "Seleccionar Categoría",
-      "selectSubCategory": "Seleccionar Subcategoría",
-      "selectStatus": "Seleccionar Estado",
       "utilizeFromBin": "Utilizar desde el contenedor",
       "utilizeSpareParts": "Utilizar repuestos",
-      "transferFrom": "Transferir desde"
+      "transferFrom": "Transferir desde",
+      "selectCategory": "Seleccionar Categoría",
+      "selectSubCategory": "Seleccionar Subcategoría",
+      "selectStatus": "Seleccionar Estado"
     }
   },
   "bin": {
@@ -11165,8 +11329,8 @@
       "selectedBinNoLongerContains": "El contenedor seleccionado ya no contiene los siguientes artículos",
       "needTransferItemManually": "Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos.",
       "transferCannotContinue": "La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos",
-      "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?",
-      "max50SerialNumbers":"Puedes introducir un máximo de 50 números de serie/SKU.",
+      "aBinTransferInitiate": "Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?",
+      "max50SerialNumbers": "Puedes introducir un máximo de 50 números de serie/SKU.",
       "selectedAssetManagedBySameGroup": "Los activos seleccionados deben provenir de contenedores gestionados por el mismo grupo de usuarios",
       "selectedSparePartsManagedBySameGroup": "Los repuestos seleccionados deben provenir de contenedores gestionados por el mismo grupo de usuarios",
       "quantityTransferExceedsStock": "La cantidad a transferir excede el stock disponible en los campos marcados. Reduzca la cantidad para continuar.",
@@ -11831,8 +11995,8 @@
       "youCanSelectBinInCharge": "Solo puede seleccionar los contenedores de los que está a cargo",
       "selectItemsToBeSent": "Seleccione los artículos a enviar",
       "selectBinSendAssetTo": "Seleccione el contenedor al que desea enviar los activos",
-      "reviewSelectionsMade": "Revise las selecciones que ha realizado antes de enviar su solicitud.",
       "reviewSelectionsMadeBeforeSubmit": "Revise las selecciones que ha realizado antes de enviar",
+      "reviewSelectionsMade": "Revise las selecciones que ha realizado antes de enviar su solicitud.",
       "selectBinSendingSparePartFrom": "Seleccione el contenedor desde el cual está enviando repuestos",
       "enterQtySparePartsRequired": "Ingrese la cantidad de repuestos requeridos",
       "selectBinSendSparePartsTo": "Seleccione el contenedor al que desea enviar los repuestos",
@@ -12484,7 +12648,7 @@
       "selectItemsWishToTransfer": "Seleccione los artículos que desea transferir",
       "filteredBySparePart": "Filtrado por repuestos en el contenedor seleccionado",
       "filteredByAsset": "Filtrado por activos en el contenedor seleccionado",
-      "areYouSureCancelRequisitionNote":"¿Estás seguro de que deseas cancelar esta nota de requisición?"
+      "areYouSureCancelRequisitionNote": "¿Estás seguro de que deseas cancelar esta nota de requisición?"
     }
   },
   "contacts": {
@@ -14952,154 +15116,154 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "previewCsv":{
+      "previewCsv": {
         "original": "Preview CSV",
         "singular": "Vista previa CSV",
         "plural": "Vista previa CSV",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addNewStatus":{
+      "addNewStatus": {
         "original": "Add New Status",
         "singular": "Añadir Nuevo Estado",
         "plural": "Añadir Nuevo Estado",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addNewType":{
+      "addNewType": {
         "original": "Add New Type",
         "singular": "Añadir Nuevo Tipo",
         "plural": "Añadir Nuevo Tipo",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addNewResolution":{
+      "addNewResolution": {
         "original": "Add New Resolution",
         "singular": "Agregar nueva resolución",
         "plural": "Agregar nueva resolución",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addNewFault":{
+      "addNewFault": {
         "original": "Add New Fault",
         "singular": "Agregar nueva falla",
         "plural": "Agregar nueva falla",
         "setupEdit": false,
         "setupVisible": false
       },
-      "saveConfigurationImportAsset":{
+      "saveConfigurationImportAsset": {
         "original": "Save Configurations & Import Assets",
         "singular": "Guardar Configuraciones e Importar Activos",
         "plural": "Guardar Configuraciones e Importar Activos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "skip":{
+      "skip": {
         "original": "Skip",
         "singular": "Omitir",
         "plural": "Omitir",
         "setupEdit": false,
         "setupVisible": false
       },
-      "saveConfigurationImportWorkOrders":{
+      "saveConfigurationImportWorkOrders": {
         "original": "Save Configurations & Import Work Orders",
         "singular": "Guardar Configuraciones e Importar Órdenes de Trabajo",
         "plural": "Guardar Configuraciones e Importar Órdenes de Trabajo",
         "setupEdit": false,
         "setupVisible": false
       },
-      "chooseFile":{
+      "chooseFile": {
         "original": "Choose a File",
         "singular": "Elegir un Archivo",
         "plural": "Elegir un Archivo",
         "setupEdit": false,
         "setupVisible": false
       },
-      "choose":{
+      "choose": {
         "original": "Choose",
         "singular": "Elegir",
         "plural": "Elegir",
         "setupEdit": false,
         "setupVisible": false
       },
-      "startLearning":{
+      "startLearning": {
         "original": "Start Learning",
         "singular": "Comenzar a aprender",
         "plural": "Comenzar a aprender",
         "setupEdit": false,
         "setupVisible": false
       },
-      "watchVideo":{
+      "watchVideo": {
         "original": "Watch Videos",
         "singular": "Ver video",
         "plural": "Ver video",
         "setupEdit": false,
         "setupVisible": false
       },
-      "exploreDocs":{
+      "exploreDocs": {
         "original": "Explore Docs",
         "singular": "Explorar documentos",
         "plural": "Explorar documentos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "browseFaqs":{
+      "browseFaqs": {
         "original": "Browse FAQs",
         "singular": "Explorar preguntas frecuentes",
         "plural": "Explorar preguntas frecuentes",
         "setupEdit": false,
         "setupVisible": false
       },
-      "contactSupport":{
+      "contactSupport": {
         "original": "Contact Support",
         "singular": "Contactar soporte",
         "plural": "Contactar soporte",
         "setupEdit": false,
         "setupVisible": false
       },
-      "exploreLatestInnovations":{
+      "exploreLatestInnovations": {
         "original": "Explore Latest Innovations",
         "singular": "Explorar las últimas innovaciones",
         "plural": "Explorar las últimas innovaciones",
         "setupEdit": false,
         "setupVisible": false
       },
-      "claimFreeSession":{
+      "claimFreeSession": {
         "original": "Claim Your 2 Free Sessions",
         "singular": "Reclama tus 2 sesiones gratuitas",
         "plural": "Reclama tus 2 sesiones gratuitas",
         "setupEdit": false,
         "setupVisible": false
       },
-      "launchSetup":{
+      "launchSetup": {
         "original": "Launch Setup",
         "singular": "Iniciar configuración",
         "plural": "Iniciar configuración",
         "setupEdit": false,
         "setupVisible": false
       },
-      "finalize":{
+      "finalize": {
         "original": "Finalize",
         "singular": "Finalizar",
         "plural": "Finalizar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addUser":{
+      "addUser": {
         "original": "Add User",
         "singular": "Agregar usuario",
         "plural": "Agregar usuario",
         "setupEdit": false,
         "setupVisible": false
       },
-      "letAiCreateConfigure":{
+      "letAiCreateConfigure": {
         "original": "Let AI Create Your Data & Configure Your System",
         "singular": "Deja que la IA cree tus datos y configure tu sistema",
         "plural": "Deja que la IA cree tus datos y configure tu sistema",
         "setupEdit": false,
         "setupVisible": false
       },
-      "saveConfigurationImportModule":{
+      "saveConfigurationImportModule": {
         "original": "Save Configurations & Import",
         "singular": "Guardar configuraciones e importar",
         "plural": "Guardar configuraciones e importar",
@@ -15183,21 +15347,21 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "exportQr":{
+      "exportQr": {
         "original": "Export QR",
         "singular": "Exportar QR",
         "plural": "Exportar QR",
         "setupEdit": false,
         "setupVisible": false
       },
-      "pro":{
+      "pro": {
         "original": "Pro",
         "singular": "Pro",
         "plural": "Pro",
         "setupEdit": false,
         "setupVisible": false
       },
-      "enterprise":{
+      "enterprise": {
         "original": "Enterprise",
         "singular": "Enterprise",
         "plural": "Enterprise",
@@ -15316,63 +15480,63 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "enable":{
+      "enable": {
         "original": "Enable",
         "singular": "Habilitar",
         "plural": "Habilitar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "disable":{
+      "disable": {
         "original": "Disable",
         "singular": "Deshabilitar",
         "plural": "Deshabilitar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "activate":{
+      "activate": {
         "original": "Activate",
         "singular": "Activar",
         "plural": "Activar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "deactivate":{
+      "deactivate": {
         "original": "Deactivate",
         "singular": "Desactivar",
         "plural": "Desactivar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "hide":{
+      "hide": {
         "original": "Hide",
         "singular": "Ocultar",
         "plural": "Ocultar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "show":{
+      "show": {
         "original": "Show",
         "singular": "Mostrar",
         "plural": "Mostrar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "display":{
+      "display": {
         "original": "Display",
         "singular": "Mostrar",
         "plural": "Mostrar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "hidden":{
+      "hidden": {
         "original": "Hidden",
         "singular": "Oculto",
         "plural": "Oculto",
         "setupEdit": false,
         "setupVisible": false
       },
-      "regenerate":{
+      "regenerate": {
         "original": "Regenerate",
         "singular": "Regenerar",
         "plural": "Regenerar",
@@ -15386,21 +15550,21 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "markOptional":{
+      "markOptional": {
         "original": "Mark Optional",
         "singular": "Marcar como opcional",
         "plural": "Marcar como opcional",
         "setupEdit": false,
         "setupVisible": false
       },
-      "makeMandatory":{
+      "makeMandatory": {
         "original": "Make Mandatory",
         "singular": "Hacer obligatorio",
         "plural": "Hacer obligatorio",
         "setupEdit": false,
         "setupVisible": false
       },
-      "reAssign":{
+      "reAssign": {
         "original": "Re-Assign",
         "singular": "Reasignar",
         "plural": "Reasignar",
@@ -15900,27 +16064,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferPending": {
-        "original": "Transfer Pending",
-        "singular": "Transferencia pendiente",
-        "plural": "Transferencias pendientes",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFulfilled": {
-        "original": "Transfer Fulfilled",
-        "singular": "Transferencia completada",
-        "plural": "Transferencias completadas",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "followUp": {
-        "original": "Follow Up",
-        "singular": "Seguimiento",
-        "plural": "Seguimiento",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "systemValue": {
         "original": "System Value",
         "singular": "Valores del sistema",
@@ -15932,6 +16075,13 @@
         "original": "AI Detected",
         "singular": "Detectado por IA",
         "plural": "Detectado por IA",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "Seguimiento",
+        "plural": "Seguimiento",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15962,6 +16112,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferPending": {
+        "original": "Transfer Pending",
+        "singular": "Transferencia pendiente",
+        "plural": "Transferencias pendientes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFulfilled": {
+        "original": "Transfer Fulfilled",
+        "singular": "Transferencia completada",
+        "plural": "Transferencias completadas",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferRejected": {
         "original": "Transfer Rejected",
@@ -16011,8 +16175,8 @@
       "confirmAction": "¿Está seguro?",
       "confirmDelete": "¿Está seguro de que desea eliminar?",
       "confirmRemove": "¿Está seguro de que desea eliminar",
-      "confirmDeleteThis": "¿Está seguro de que desea eliminar esto",
       "confirmRemoveThis": "¿Está seguro de que desea eliminar esto",
+      "confirmDeleteThis": "¿Está seguro de que desea eliminar esto",
       "doYouWishToProceed": "¿Desea continuar?",
       "irreversibleAction": "Esta acción es irreversible.",
       "cannotBeUndone": "Esta acción no se puede deshacer.",
@@ -16138,29 +16302,17 @@
       "unsavedChanges": "Cambios No Guardados",
       "time": "Tiempo",
       "distance": "Distancia",
+      "timeAndDistance": "Tiempo y distancia",
       "priorityAndDistance": "Prioridad y Distancia",
       "days": "día(s)",
       "hours": "hora(s)",
       "mins": "min(s)",
       "noBuffer": "Sin Buffer",
-      "timeAndDistance": "Tiempo y distancia",
       "anErrorOccuredDuringLogout": "Ocurrió un error durante el cierre de sesión",
       "errorOccuredWhileSigning": "Ocurrió un error al firmar",
       "noDocumentIsGenerated": "No se ha generado ningún documento ya que los datos están incompletos.",
       "pullToRefreshToSeeTheCompletion": "Desliza hacia abajo para actualizar y ver la finalización",
       "phoneNumberNotAvailable": "Número de teléfono no disponible",
-      "approvalConfirmation": "Confirmación de aprobación",
-      "approval": "Aprobación",
-      "areYouSureApprove": "¿Está seguro de que desea aprobar",
-      "approvedSuccessfully": "Aprobado con éxito",
-      "rejectionConfirmation": "Confirmación de rechazo",
-      "rejection": "Rechazo",
-      "areYouSureReject": "¿Está seguro de que desea rechazar",
-      "editedSuccessfully": "Editado con éxito",
-      "total": "Total",
-      "from": "De",
-      "to": "A",
-      "or": "O",
       "noMatchesFound": "No se encontraron coincidencias. Intenta ajustar tus criterios de búsqueda.",
       "noHistoryAvailable": "No hay historial disponible. Tu actividad aparecerá aquí.",
       "noAttachmentsFoundUploadFiles": "No se encontraron archivos adjuntos. Sube archivos para verlos aquí.",
@@ -16180,13 +16332,25 @@
       "wasChangedFrom": "se cambió de",
       "wasChangedTo": "se cambió a",
       "selectDateRange": "Seleccionar rango de fechas",
+      "approvalConfirmation": "Confirmación de aprobación",
+      "approval": "Aprobación",
+      "areYouSureApprove": "¿Está seguro de que desea aprobar",
+      "approvedSuccessfully": "Aprobado con éxito",
+      "rejectionConfirmation": "Confirmación de rechazo",
+      "rejection": "Rechazo",
+      "areYouSureReject": "¿Está seguro de que desea rechazar",
+      "editedSuccessfully": "Editado con éxito",
+      "total": "Total",
+      "from": "De",
+      "to": "A",
+      "or": "O",
       "anyAdditionalComments": "¿Algún comentario adicional? Agrégalo aquí",
-      "tip":"Consejo",
-      "tips":"Consejos",
-      "makeFilterSelections":"Haz selecciones de filtro para localizar activos",
-      "confirmation":"Confirmación",
-      "makeFilterSelectionsCheckAvail":"Haz selecciones de filtro para comprobar la disponibilidad",
-      "updateConfirmation":"Confirmación de Actualización",
+      "tip": "Consejo",
+      "tips": "Consejos",
+      "makeFilterSelections": "Haz selecciones de filtro para localizar activos",
+      "confirmation": "Confirmación",
+      "makeFilterSelectionsCheckAvail": "Haz selecciones de filtro para comprobar la disponibilidad",
+      "updateConfirmation": "Confirmación de Actualización",
       "confirmProceed": "¿Está seguro de que desea continuar?",
       "theLower": "el/la",
       "thisLower": "este/esta",
@@ -16197,7 +16361,7 @@
       "orLower": "o",
       "fromLower": "de",
       "addClearDesc": "Agregue una descripción clara para este",
-      "optional":"opcional",
+      "optional": "opcional",
       "toGetStarted": "Para comenzar",
       "type": "Tipo",
       "noHave": "No tienes",
@@ -16217,10 +16381,40 @@
       "yetToBeScheduled": "Aún por programar",
       "scheduled": "Programado",
       "rescheduled": "Reprogramado",
-      "removeAllAssociated":"Esta acción también eliminará todos los elementos asociados",
+      "removeAllAssociated": "Esta acción también eliminará todos los elementos asociados",
       "howToUse": "Cómo usar",
       "quickSteps": "Pasos rápidos",
-      "one": "uno"
+      "one": "uno",
+      "daily": "A diario",
+      "weekly": "Semanalmente",
+      "monthly": "Mensual",
+      "quarterly": "Trimestral",
+      "yearly": "Anual",
+      "autoAssign": "Asignación automática",
+      "assignUser": "Asignar usuario",
+      "assignLater": "Asignar más tarde",
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado",
+      "sunday": "Domingo",
+      "jan": "Ene",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Abr",
+      "may": "Puede",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Ago",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dic",
+      "weekdays": "Días laborables",
+      "weekend": "Fin de semana",
+      "both": "Ambos"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -16499,17 +16693,18 @@
       "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
+      "filenameMustNotContain": "El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) ).",
       "thisFieldIsRequired": "Este campo es obligatorio",
       "pleaseMakeOneSelection": "Por favor, haga una selección para continuar",
       "itemExists": "Este elemento ya existe en la lista",
-      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) ).",
-      "pleaseEnterValidUrl":"Por favor, introduzca una URL de sitio web válida. Solo se permite añadir 1 URL.",
-      "capacityReached":"Capacidad alcanzada",
-      "exceedCharacterLimit":"El texto excede el límite de caracteres",
-      "invalidValue":"Valor no válido",
-      "selectFromList":"Por favor, seleccione de la lista",
-      "startDateTimeRequired":"Se requiere fecha de inicio, hora y duración",
-      "maxChar255Exceed":"Se excedió la longitud máxima de caracteres de 255"
+      "pleaseEnterValidUrl": "Por favor, introduzca una URL de sitio web válida. Solo se permite añadir 1 URL.",
+      "capacityReached": "Capacidad alcanzada",
+      "exceedCharacterLimit": "El texto excede el límite de caracteres",
+      "invalidValue": "Valor no válido",
+      "selectFromList": "Por favor, seleccione de la lista",
+      "startDateTimeRequired": "Se requiere fecha de inicio, hora y duración",
+      "maxChar255Exceed": "Se excedió la longitud máxima de caracteres de 255",
+      "onlyAlphabetsNumbers": "Sólo se permiten alfabetos y números."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -16775,14 +16970,14 @@
       },
       "messages": {
         "theFollowingAssetTransferToBin": "Los siguientes activos serán transferidos a los siguientes contenedores",
+        "theFollowingSparePartTransferToBin": "Las siguientes piezas de repuesto serán transferidas a los siguientes contenedores",
         "theFollowingAssetTransferTo": "Los siguientes activos serán transferidos a",
+        "theFollowingSparePartTransferTo": "Las siguientes piezas de repuesto serán transferidas a",
         "willBeTransferTo": "será transferido a",
+        "willBeAdjustedInBin": "serán ajustadas en los siguientes contenedores",
         "theFollowingAssetRemoveFromBin": "Los siguientes activos serán eliminados de los siguientes contenedores",
         "theFollowingAssetRemoveFrom": "Los siguientes activos serán eliminados de",
-        "willBeRemovedFrom": "será eliminado de",
-        "theFollowingSparePartTransferToBin": "Las siguientes piezas de repuesto serán transferidas a los siguientes contenedores",
-        "theFollowingSparePartTransferTo": "Las siguientes piezas de repuesto serán transferidas a",
-        "willBeAdjustedInBin": "serán ajustadas en los siguientes contenedores"
+        "willBeRemovedFrom": "será eliminado de"
       }
     },
     "commonComponent": {
@@ -18949,11 +19144,11 @@
           "theseSettingsDetermineOverallFlow": "Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema",
           "theseSettingsDetermineOverallFlowConsignment": "Estas configuraciones determinan el flujo general de todas las notas de consignación en el sistema",
           "selectGroup": "Seleccionar grupo",
-          "managingGroupBinLocated":"El grupo de gestión de la zona donde se encuentra el contenedor",
-          "groupSupervisesLevelOne":"El grupo que supervisa o gestiona al grupo de Nivel 1",
-          "level":"Nivel",
-          "levelOne":"Nivel 1",
-          "levelTwo":"Nivel 2"
+          "managingGroupBinLocated": "El grupo de gestión de la zona donde se encuentra el contenedor",
+          "groupSupervisesLevelOne": "El grupo que supervisa o gestiona al grupo de Nivel 1",
+          "level": "Nivel",
+          "levelOne": "Nivel 1",
+          "levelTwo": "Nivel 2"
         }
       }
     },
@@ -20912,7 +21107,7 @@
             "label": {
               "original": "Type",
               "singular": "Tipo",
-            "plural": "Tipos",
+              "plural": "Tipos",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -21077,155 +21272,155 @@
               "categorized": "está categorizado"
             }
           },
-        "sector": {
+          "sector": {
             "setupEdit": false,
             "setupVisible": false,
             "label": {
-                "original": "Sector",
-                "singular": "Sector",
-                "plural": "Sectores",
-                "setupEdit": false,
-                "setupVisible": false
+              "original": "Sector",
+              "singular": "Sector",
+              "plural": "Sectores",
+              "setupEdit": false,
+              "setupVisible": false
             },
             "sections": {
-                "setupEdit": false,
-                "setupVisible": false,
-                "sec0": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
                 "original": "Sector Details",
                 "singular": "Detalles del sector",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
-                },
-                "sec1": {
+              },
+              "sec1": {
                 "original": "Details",
                 "singular": "Detalles",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
-                }
+              }
             },
             "fields": {
-                "setupEdit": false,
-                "setupVisible": false,
-                "label": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
                 "original": "Label",
                 "singular": "Etiqueta",
                 "plural": "Etiquetas",
                 "setupEdit": false,
                 "setupVisible": false
-                },
-                "code": {
+              },
+              "code": {
                 "original": "Code",
                 "singular": "Código",
                 "plural": "Códigos",
                 "setupEdit": false,
                 "setupVisible": false
-                },
-                "order": {
+              },
+              "order": {
                 "original": "Order",
                 "singular": "Orden",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
-                },
-                "status": {
+              },
+              "status": {
                 "original": "Status",
                 "singular": "Estado",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
-                },
-                "default": {
+              },
+              "default": {
                 "original": "Default",
                 "singular": "Predeterminado",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
-                }
+              }
             },
             "messages": {
-                "broadCategoryIndustry": "La categoría o industria principal en la que",
-                "operates": "opera"
+              "broadCategoryIndustry": "La categoría o industria principal en la que",
+              "operates": "opera"
             }
           },
-        "subSector": {
-          "setupEdit": false,
-          "setupVisible": false,
-          "label": {
+          "subSector": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
               "original": "Sub-sector",
               "singular": "子行业",
               "plural": "子行业",
               "setupEdit": false,
               "setupVisible": false
-          },
-          "sections": {
+            },
+            "sections": {
               "setupEdit": false,
               "setupVisible": false,
               "sec0": {
-              "original": "Sub-sector Details",
-              "singular": "子行业详情",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
+                "original": "Sub-sector Details",
+                "singular": "子行业详情",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
               },
               "sec1": {
-              "original": "Details",
-              "singular": "详情",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
+                "original": "Details",
+                "singular": "详情",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
               }
-          },
-          "fields": {
+            },
+            "fields": {
               "setupEdit": false,
               "setupVisible": false,
               "label": {
-              "original": "Label",
-              "singular": "标签",
-              "plural": "标签",
-              "setupEdit": false,
-              "setupVisible": false
+                "original": "Label",
+                "singular": "标签",
+                "plural": "标签",
+                "setupEdit": false,
+                "setupVisible": false
               },
               "code": {
-              "original": "Code",
-              "singular": "代码",
-              "plural": "代码",
-              "setupEdit": false,
-              "setupVisible": false
-              },
-              "order": {
-              "original": "Order",
-              "singular": "顺序",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-              },
-              "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-              },
-              "default": {
-              "original": "Default",
-              "singular": "默认",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
+                "original": "Code",
+                "singular": "代码",
+                "plural": "代码",
+                "setupEdit": false,
+                "setupVisible": false
               },
               "active": {
-              "original": "Active",
-              "singular": "启用",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
+                "original": "Active",
+                "singular": "启用",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "顺序",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "状态",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "默认",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
               }
-          },
-          "messages": {
+            },
+            "messages": {
               "aMoreSpecificSubCategory": "更具体的子类别，属于"
-          }
+            }
           }
         },
         "jobOrder": {
@@ -21495,7 +21690,7 @@
               "setupVisible": false,
               "sec0": {
                 "original": "System Details",
-              "singular": "Detalles del sistema",
+                "singular": "Detalles del sistema",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -21558,7 +21753,7 @@
             "label": {
               "original": "Type",
               "singular": "Tipo",
-            "plural": "Tipos",
+              "plural": "Tipos",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -21828,7 +22023,7 @@
                 "setupVisible": false
               }
             },
-            "messages":{
+            "messages": {
               "describesAGroupOf": "Describe un grupo de",
               "whichHaveSimilarFunction": "que tienen una funcionalidad similar"
             }
@@ -21838,7 +22033,7 @@
             "setupVisible": false,
             "label": {
               "original": "Unit of Measurement",
-            "singular": "Unidad de Medida",
+              "singular": "Unidad de Medida",
               "plural": "Unidades de Medida",
               "setupEdit": false,
               "setupVisible": false
@@ -21907,9 +22102,9 @@
                 "setupVisible": false
               }
             },
-            "messages":{
-            "quantityUnitThat": "La cantidad o unidad en la que",
-            "isMeasuredIn": "se mide"
+            "messages": {
+              "quantityUnitThat": "La cantidad o unidad en la que",
+              "isMeasuredIn": "se mide"
             }
           }
         },
@@ -21922,7 +22117,7 @@
             "label": {
               "original": "Type",
               "singular": "Tipo",
-            "plural": "Tipos",
+              "plural": "Tipos",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -22248,7 +22443,7 @@
             "label": {
               "original": "Type",
               "singular": "Tipo",
-            "plural": "Tipos",
+              "plural": "Tipos",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -22351,7 +22546,7 @@
             "label": {
               "original": "Type",
               "singular": "Tipo",
-            "plural": "Tipos",
+              "plural": "Tipos",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -22609,7 +22804,7 @@
               "setupVisible": false,
               "sec0": {
                 "original": "Area Details",
-              "singular": "Detalles del área",
+                "singular": "Detalles del área",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -22827,7 +23022,7 @@
             "label": {
               "original": "Type",
               "singular": "Tipo",
-            "plural": "Tipos",
+              "plural": "Tipos",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -22975,7 +23170,7 @@
             },
             "messages": {
               "departmentEachAssign": "Los departamentos a los que cada uno de sus",
-                "mayAssignTo": "puede ser asignado"
+              "mayAssignTo": "puede ser asignado"
             }
           },
           "fault": {
@@ -24317,9 +24512,9 @@
             "setupVisible": false
           },
           "sections": {
-          "setupEdit": false,
-          "setupVisible": false,
-           "sec0": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
               "original": "Bin Details",
               "singular": "Detalles del Contenedor",
               "plural": "",
@@ -24342,8 +24537,8 @@
             }
           },
           "fields": {
-          "setupEdit": false,
-          "setupVisible": false,
+            "setupEdit": false,
+            "setupVisible": false,
             "binNumber": {
               "original": "Bin Number",
               "singular": "Número de Contenedor",
@@ -24416,8 +24611,8 @@
             }
           },
           "messages": {
-            "whenSelectingBin":"Al seleccionar un contenedor en FieldEx, se mostrará en el formato",
-            "useShortCodes":"Utiliza códigos cortos para nombres de Ubicación, Zona y Contenedor para facilitar la referencia"
+            "whenSelectingBin": "Al seleccionar un contenedor en FieldEx, se mostrará en el formato",
+            "useShortCodes": "Utiliza códigos cortos para nombres de Ubicación, Zona y Contenedor para facilitar la referencia"
           }
         },
         "userBin": {
@@ -24429,7 +24624,7 @@
             "plural": "Contenedor de usuario",
             "setupEdit": false,
             "setupVisible": false
-          },          
+          },
           "sections": {
             "setupEdit": false,
             "setupVisible": false,
@@ -24461,7 +24656,7 @@
           },
           "messages": {
             "selectUser": "Seleccionar usuario",
-            "selectUserCreateBin":"Selecciona el usuario para quien deseas crear un contenedor"
+            "selectUserCreateBin": "Selecciona el usuario para quien deseas crear un contenedor"
           }
         },
         "validationFE": {},
@@ -25003,7 +25198,7 @@
             "setupVisible": false
           }
         },
-        "messages":{
+        "messages": {
           "tiedTo": "vinculado a",
           "willDisplayHere": "se mostrará aquí",
           "selectIcon": "Seleccionar icono",
@@ -25271,88 +25466,88 @@
           "partUpdatedSuccessfully": "Parte actualizada con éxito"
         }
       },
-      "meter":{
+      "meter": {
         "setupEdit": false,
         "setupVisible": false,
-        "label":{
+        "label": {
           "original": "Meters",
-          "singular": "Medidor", 
+          "singular": "Medidor",
           "plural": "Medidores",
           "setupEdit": false,
           "setupVisible": false
         },
-        "sections":{
+        "sections": {
           "setupEdit": false,
           "setupVisible": false,
-          "sec0":{
+          "sec0": {
             "original": "Meter Details",
-            "singular": "Detalles del Medidor", 
+            "singular": "Detalles del Medidor",
             "plural": "Detalles del Medidor",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec1":{
+          "sec1": {
             "original": "Asset Types",
-            "singular": "Tipo de Activo", 
+            "singular": "Tipo de Activo",
             "plural": "Tipos de Activo",
             "setupEdit": false,
             "setupVisible": false
           }
         },
-        "fields":{
+        "fields": {
           "setupEdit": false,
           "setupVisible": false,
-          "name":{
+          "name": {
             "original": "Name",
-            "singular": "Nombre", 
+            "singular": "Nombre",
             "plural": "Nombres",
             "setupEdit": false,
             "setupVisible": false
           },
-          "type":{
+          "type": {
             "original": "Type",
-            "singular": "Tipo", 
+            "singular": "Tipo",
             "plural": "Tipos",
             "setupEdit": false,
             "setupVisible": false
           },
-          "unitOfMeasurement":{
+          "unitOfMeasurement": {
             "original": "Unit of Measurement",
-            "singular": "Unidad de Medida", 
+            "singular": "Unidad de Medida",
             "plural": "Unidades de Medida",
             "setupEdit": false,
             "setupVisible": false
           },
-          "readingSource":{
+          "readingSource": {
             "original": "Reading Source",
-            "singular": "Fuente de Lectura", 
+            "singular": "Fuente de Lectura",
             "plural": "Fuentes de Lectura",
             "setupEdit": false,
             "setupVisible": false
           },
-          "allTypes":{
+          "allTypes": {
             "original": "All Types",
-            "singular": "Todos los Tipos", 
+            "singular": "Todos los Tipos",
             "plural": "Todos los Tipos",
             "setupEdit": false,
             "setupVisible": false
           },
-          "includeMeterForType":{
+          "includeMeterForType": {
             "original": "Include this meter for assets of types",
-            "singular": "Incluir este medidor para activos de tipo", 
+            "singular": "Incluir este medidor para activos de tipo",
             "plural": "Incluir este medidor para activos de tipos",
             "setupEdit": false,
             "setupVisible": false
           },
-          "applyToExisting":{
+          "applyToExisting": {
             "original": "Apply to all existing",
-            "singular": "Aplicar a todos los existentes", 
+            "singular": "Aplicar a todos los existentes",
             "plural": "Aplicar a todos los existentes",
             "setupEdit": false,
             "setupVisible": false
           }
         },
-        "messages":{
+        "messages": {
           "selectType": "Seleccionar Tipo",
           "selectSource": "Seleccionar Fuente",
           "chooseAssetTypes": "Elige los tipos de activos a los que debe aplicarse este medidor. Cualquier activo de los tipos seleccionados incluirá automáticamente este medidor."
@@ -27597,7 +27792,7 @@
             "setupEdit": false,
             "setupVisible": false
           },
-           "status": {
+          "status": {
             "original": "Status",
             "singular": "Estado",
             "plural": "Estados",
@@ -27612,31 +27807,31 @@
             "setupVisible": false
           }
         },
-        "validationFE":{
-            "selectAtLeastOneScope":"Por favor, seleccione al menos un alcance",
-            "areYouSureChangeTo":"¿Está seguro de que desea cambiar el estado a",
-            "areYouSureDisableThis":"¿Está seguro de que desea deshabilitar esto",
-            "keyCopiedSuccessfully":"Clave copiada con éxito",
-            "unableCopyKey":"No se pudo copiar la clave. Por favor, inténtelo de nuevo."
+        "validationFE": {
+          "selectAtLeastOneScope": "Por favor, seleccione al menos un alcance",
+          "areYouSureChangeTo": "¿Está seguro de que desea cambiar el estado a",
+          "areYouSureDisableThis": "¿Está seguro de que desea deshabilitar esto",
+          "keyCopiedSuccessfully": "Clave copiada con éxito",
+          "unableCopyKey": "No se pudo copiar la clave. Por favor, inténtelo de nuevo."
         },
-         "messages": {
+        "messages": {
           "createClientApp": "Cree una aplicación cliente y defina los ámbitos para las integraciones.",
           "giveYourIntegrationApp": "Asigne un nombre a su aplicación de integración y defina la URL de devolución de llamada",
           "chooseThePermission": "Elija los permisos a los que puede acceder su integración. Mantenga los ámbitos al mínimo por seguridad.",
           "basicInformationRelated": "Información básica relacionada con su aplicación de integración.",
           "redirectUri": "Utilice el URI de redirección de su integración (p. ej., https://yourapp.com/oauth/callback)",
           "selectedUser": "El usuario seleccionado será el creador y el modificador de los registros para fines de auditoría.",
-           "please":"Por favor",
-            "securely":"de forma segura",
-            "storeThe":"guarde el",
-            "thisIsThe":"Esta es la",
-            "only":"única",
-            "timeDisplayed":"vez que se mostrará",
-            "ifYouLose":"Si pierde el",
-            "youCanGenerateNew":"puede generar uno nuevo en cualquier momento",
-            "theCaps":"El",
-            "canBeViewed":"se puede ver en cualquier momento",
-            "permissionAppCanAccess":"Permisos a los que puede acceder su aplicación de integración"
+          "please": "Por favor",
+          "securely": "de forma segura",
+          "storeThe": "guarde el",
+          "thisIsThe": "Esta es la",
+          "only": "única",
+          "timeDisplayed": "vez que se mostrará",
+          "ifYouLose": "Si pierde el",
+          "youCanGenerateNew": "puede generar uno nuevo en cualquier momento",
+          "theCaps": "El",
+          "canBeViewed": "se puede ver en cualquier momento",
+          "permissionAppCanAccess": "Permisos a los que puede acceder su aplicación de integración"
         }
       }
     },
@@ -29138,7 +29333,7 @@
               "manage_integrations": "Gestionar Integraciones",
               "customer_survey_link": "Gestionar encuestas de clientes",
               "calendly_integration": "Gestionar integraciones",
-              "manage_standard_reports":"Gestionar informes estándar"
+              "manage_standard_reports": "Gestionar informes estándar"
             }
           }
         }
@@ -29502,6 +29697,7 @@
     }
   },
   "report": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Reports",
@@ -29510,10 +29706,10 @@
       "setupEdit": true,
       "setupVisible": false
     },
-    "sections":{
+    "sections": {
       "setupEdit": false,
       "setupVisible": false,
-      "sec0":{
+      "sec0": {
         "original": "Folders",
         "singular": "Carpeta",
         "plural": "Carpetas",
@@ -29598,7 +29794,7 @@
         "setupVisible": false
       }
     },
-    "fields":{
+    "fields": {
       "setupEdit": false,
       "setupVisible": false,
       "name": {
@@ -29650,21 +29846,21 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "csv":{
+      "csv": {
         "original": "CSV",
         "singular": "CSV",
         "plural": "CSV",
         "setupEdit": false,
         "setupVisible": false
       },
-      "excel":{
+      "excel": {
         "original": "Excel",
         "singular": "Excel",
         "plural": "Excel",
         "setupEdit": false,
         "setupVisible": false
       },
-      "pdf":{
+      "pdf": {
         "original": "PDF",
         "singular": "PDF",
         "plural": "PDF",
@@ -29763,91 +29959,91 @@
         "setupVisible": false
       },
       "subfolder": {
-      "original": "Subfolder",
-      "singular": "Subcarpeta",
-      "plural": "",
-      "setupEdit": true,
-      "setupVisible": false
+        "original": "Subfolder",
+        "singular": "Subcarpeta",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Horario",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryCap": {
+        "original": "Entry",
+        "singular": "Entrada",
+        "plural": "Entradas",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryLower": {
+        "original": "entry",
+        "singular": "entrada",
+        "plural": "entradas",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "Columna",
+        "plural": "Columnas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fileType": {
+        "original": "File Type",
+        "singular": "Tipo de archivo",
+        "plural": "Tipo de archivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Fecha de inicio",
+        "plural": "Fecha de inicio",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Fecha de finalización",
+        "plural": "Fecha de finalización",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "Tipo de programación",
+        "plural": "Tipo de programación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "Valor del mes",
+        "plural": "Valor del mes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Día",
+        "plural": "Días",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Hora",
+        "plural": "Hora",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
-    "schedule": {
-      "original": "Schedule",
-      "singular": "Horario",
-      "plural": "",
-      "setupEdit": true,
-      "setupVisible": false
-    },
-    "entryCap": {
-      "original": "Entry",
-      "singular": "Entrada",
-      "plural": "Entradas",
-      "setupEdit": true,
-      "setupVisible": false
-    },
-    "entryLower": {
-      "original": "entry",
-      "singular": "entrada",
-      "plural": "entradas",
-      "setupEdit": true,
-      "setupVisible": false
-    },
-    "column": {
-      "original": "Column",
-      "singular": "Columna",
-      "plural": "Columnas",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fileType": {
-      "original": "File Type",
-      "singular": "Tipo de archivo",
-      "plural": "Tipo de archivo",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "startDate": {
-      "original": "Start Date",
-      "singular": "Fecha de inicio",
-      "plural": "Fecha de inicio",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "endDate": {
-      "original": "End Date",
-      "singular": "Fecha de finalización",
-      "plural": "Fecha de finalización",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "scheduleType": {
-      "original": "Schedule Type",
-      "singular": "Tipo de programación",
-      "plural": "Tipo de programación",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "monthValue": {
-      "original": "Month Value",
-      "singular": "Valor del mes",
-      "plural": "Valor del mes",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "day": {
-      "original": "Day",
-      "singular": "Día",
-      "plural": "Días",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "time": {
-      "original": "Time",
-      "singular": "Hora",
-      "plural": "Hora",
-      "setupEdit": false,
-      "setupVisible": false
-    }
-    },
-    "tooltips":{
+    "tooltips": {
       "setupEdit": false,
       "setupVisible": false,
       "newFolder": {
@@ -29879,7 +30075,7 @@
         "setupVisible": false
       }
     },
-    "validationFE":{
+    "validationFE": {
       "exceedCharacterLimit": "El nombre de la carpeta supera el límite de caracteres",
       "ownerNotAllowedRemoved": "No se permite eliminar al propietario de la lista compartida. Transfiere la propiedad a otro usuario e inténtalo de nuevo.",
       "onlyTenUsersAddAtTime": "Solo se pueden añadir 10 usuarios a la vez.",
@@ -29907,9 +30103,9 @@
       "maximumGroupSelectionExceeded": "Se ha superado el número máximo de grupos",
       "maximumEmailsExceeded": "Se ha superado el número máximo de correos electrónicos",
       "hasBeenAddedToThe": "ha sido añadido a",
-    "successfully": "correctamente"
+      "successfully": "correctamente"
     },
-    "messages":{
+    "messages": {
       "generateExistingReports": "Generar existentes o crear nuevos",
       "withYourFieldexData": "con tus datos de FieldEx para obtener más información sobre tus operaciones y ayudarte a tomar decisiones",
       "thereAreNoReports": "No hay",
@@ -30034,7 +30230,7 @@
       "selectUser": "Seleccionar usuario(s)",
       "selectGroup": "Seleccionar grupo(s)",
       "enterEmailAddr": "Ingresar dirección de correo electrónico",
-       "enterEmailAddresses": "Introduzca direcciones de correo electrónico",
+      "enterEmailAddresses": "Introduzca direcciones de correo electrónico",
       "never": "Nunca",
       "doYouWantToSendThis": "¿Deseas enviar esto",
       "to": "a",
@@ -31704,161 +31900,160 @@
           "setupVisible": false
         }
       },
-      "fields":{
+      "fields": {
         "setupVisible": false,
-        "setupEdit":false,
-        "email":{
-         "original": "Email",
+        "setupEdit": false,
+        "email": {
+          "original": "Email",
           "singular": "Correo electrónico",
           "plural": "Correos electrónicos",
           "setupEdit": false,
           "setupVisible": false
         },
-        "role":{
+        "role": {
           "original": "Role",
-           "singular": "Rol",
-           "plural": "Roles",
-           "setupEdit": false,
-           "setupVisible": false
-          },
-          "systemField":{
-            "original": "Fieldex System Fields",
-            "singular": "Campos del sistema Fieldex",
-            "plural": "Campos del sistema Fieldex",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "csvColumn":{
-            "original": "CSV Columns",
-            "singular": "Columnas CSV",
-            "plural": "Columnas CSV",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "confidence":{
-            "original": "Confidence",
-            "singular": "Confianza",
-            "plural": "Confianza",
-            "setupEdit": false,
-            "setupVisible": false
-          }
+          "singular": "Rol",
+          "plural": "Roles",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "systemField": {
+          "original": "Fieldex System Fields",
+          "singular": "Campos del sistema Fieldex",
+          "plural": "Campos del sistema Fieldex",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "csvColumn": {
+          "original": "CSV Columns",
+          "singular": "Columnas CSV",
+          "plural": "Columnas CSV",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "confidence": {
+          "original": "Confidence",
+          "singular": "Confianza",
+          "plural": "Confianza",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
-      "messages":{
-        "letsImportAsset":"Vamos a importar tus activos",
-        "assetAreHeartCmms":"Los activos son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, historial y asignaciones",
-        "aiPoweredImport":"Importación impulsada por IA",
-        "automaticallyMapYourCSV":"FieldEx puede mapear automáticamente tus columnas CSV, extraer tipos, estados, categorías y configurar tu sistema - ¡sin necesidad de configuración manual!",
-        "letOurIntelligentSystem":"Deja que nuestro sistema inteligente haga el trabajo por ti. FieldEx puede automáticamente:",
-        "mapCsvToSystemField":"Mapear tus columnas CSV a campos del sistema",
-        "extractConfigureAssetType":"Extraer y configurar listas de tipos de activos",
-        "detectSetUpStatus":"Detectar y configurar valores de estado con colores apropiados",
-        "configureSystemInSeconds":"Configura tu sistema en segundos - sin necesidad de configuración manual",
-        "uploadExistingAsset":"Sube tus activos existentes y te ayudaremos a mapear los campos y configurar el módulo de activos",
-        "dragDropCsvHere":"Arrastra y suelta tu archivo CSV aquí",
-        "needATemplate":"¿Necesitas una plantilla?",
-        "downloadCsvTemplate":"Descargar plantilla CSV",
-        "letAiCreateData":"Deja que la IA cree tus datos y configure tu sistema",
-        "startBuildingMaintenanceSystem":"Comienza a construir tu sistema de mantenimiento en minutos",
-        "helpsReduceDowntime":"FieldEx te ayuda a reducir el tiempo de inactividad en un 37%, extender la vida útil de los activos y reducir los costos de mantenimiento. Configura tu sistema en minutos y comienza a transformar tus operaciones de mantenimiento hoy",
-        "getQuickLook":"Echa un vistazo rápido a cómo FieldEx permite a los equipos gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo.",
-        "bookTrainingSession":"Reserva una sesión de capacitación de 45 minutos",
-        "withRealHumanForFree":"con una persona real para ayudarte a comenzar gratis",
-        "whatYouCanDo":"Qué puedes hacer con FieldEx",
-        "management":"Gestión",
-        "digitizeEveryAsset":"Digitaliza cada activo y haz seguimiento en tiempo real",
-        "viewUptimeLogs":"Consulta al instante el tiempo de actividad, los registros y el rendimiento",
-        "tagEquipmentQrCode":"Etiquetar equipos con códigos QR para escaneos rápidos en el sitio",
-        "setUpSmartSchedules":"Configura horarios inteligentes para prevenir averías",
-        "getAlertsBefore":"Recibe alertas antes de que algo salga mal",
-        "automateServicePlan":"Automatiza los planes de servicio",
-        "createAssignInOnePlace":"Crea, asigna y cierra trabajos — todo en un solo lugar",
-        "trackJobProgressStatusLive":"Haz seguimiento del progreso y estado de trabajos en tiempo real desde el campo",
-        "useQrCodesStartCompleteJobs":"Usa códigos QR para iniciar o completar trabajos sobre la marcha",
-        "trackEveryPartAcrossAllSite":"Haz seguimiento de cada pieza en todos los sitios y equipos",
-        "knowWhatsInStock":"Conoce lo que hay en stock, lo que se necesita y haz pedidos",
-        "scanUpdateInventory":"Escanea y actualiza inventario en tiempo real",
-        "inviteYourTeam":"Invita a tu equipo",
-        "admin":"Administrador",
-        "planner":"Planificador",
-        "fieldEngineer":"Ingeniero de campo",
-        "accessEverythingManageSettings":"Accede a todo, gestiona configuraciones, usuarios e informes",
-        "createAssignJobsTrackProgress":"Crea y asigna tareas, haz seguimiento del progreso y optimiza horarios",
-        "receiveTaskUpdateJobStatus":"Recibe tareas, actualiza el estado del trabajo, sube fotos, escanea códigos QR.",
-        "addYourTeammates":"Agrega a tus compañeros a FieldEx y asígnales roles que se ajusten a sus superpoderes. Ya sea detrás de la pantalla o en el campo, estás a una invitación de la sinergia.",
-        "reviewCsvColumns":"La IA ha emparejado automáticamente tus campos. La columna de confianza indica el porcentaje de coincidencia para cada campo",
-        "reviewCustomizeAssetType":"Revise y personalice los tipos de activos detectados en su CSV y los tipos de sistema existentes",
-        "reviewCustomizeAssetStatus":"Revise y personalice el estado de los activos detectados en su CSV y el estado del sistema existente",
-        "reviewCustomizeWorkOrderType":"Revise y personalice los tipos de órdenes de trabajo detectados en su CSV y los tipos de sistema existentes",
-        "reviewCustomizeWorkOrderStatus":"Revise y personalice el estado de las órdenes de trabajo detectados en su CSV y el estado del sistema existente",
-        "reviewCustomize":"Revise y personalice",
-        "statusDetected":"estado detectado en su CSV y estado del sistema existente",
-        "typesDetected":"tipos detectados en su CSV y estado del sistema existente",
-        "youCanReviewAdjustAnytime":"Puede revisar y ajustar en cualquier momento",
-        "viewMoreField":"Ver más campos...",
-        "showLessField":"Mostrar menos campos...",
-        "enterNewAssetType":"Introducir nuevo tipo de activo...",
-        "enterNewAssetStatus":"Introducir nuevo estado de activo...",
-       "enterNewType": "Ingresar nuevo tipo...",
+      "messages": {
+        "letsImportAsset": "Vamos a importar tus activos",
+        "assetAreHeartCmms": "Los activos son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, historial y asignaciones",
+        "aiPoweredImport": "Importación impulsada por IA",
+        "automaticallyMapYourCSV": "FieldEx puede mapear automáticamente tus columnas CSV, extraer tipos, estados, categorías y configurar tu sistema - ¡sin necesidad de configuración manual!",
+        "letOurIntelligentSystem": "Deja que nuestro sistema inteligente haga el trabajo por ti. FieldEx puede automáticamente:",
+        "mapCsvToSystemField": "Mapear tus columnas CSV a campos del sistema",
+        "extractConfigureAssetType": "Extraer y configurar listas de tipos de activos",
+        "detectSetUpStatus": "Detectar y configurar valores de estado con colores apropiados",
+        "configureSystemInSeconds": "Configura tu sistema en segundos - sin necesidad de configuración manual",
+        "uploadExistingAsset": "Sube tus activos existentes y te ayudaremos a mapear los campos y configurar el módulo de activos",
+        "dragDropCsvHere": "Arrastra y suelta tu archivo CSV aquí",
+        "needATemplate": "¿Necesitas una plantilla?",
+        "downloadCsvTemplate": "Descargar plantilla CSV",
+        "letAiCreateData": "Deja que la IA cree tus datos y configure tu sistema",
+        "startBuildingMaintenanceSystem": "Comienza a construir tu sistema de mantenimiento en minutos",
+        "helpsReduceDowntime": "FieldEx te ayuda a reducir el tiempo de inactividad en un 37%, extender la vida útil de los activos y reducir los costos de mantenimiento. Configura tu sistema en minutos y comienza a transformar tus operaciones de mantenimiento hoy",
+        "getQuickLook": "Echa un vistazo rápido a cómo FieldEx permite a los equipos gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo.",
+        "bookTrainingSession": "Reserva una sesión de capacitación de 45 minutos",
+        "withRealHumanForFree": "con una persona real para ayudarte a comenzar gratis",
+        "whatYouCanDo": "Qué puedes hacer con FieldEx",
+        "management": "Gestión",
+        "digitizeEveryAsset": "Digitaliza cada activo y haz seguimiento en tiempo real",
+        "viewUptimeLogs": "Consulta al instante el tiempo de actividad, los registros y el rendimiento",
+        "tagEquipmentQrCode": "Etiquetar equipos con códigos QR para escaneos rápidos en el sitio",
+        "setUpSmartSchedules": "Configura horarios inteligentes para prevenir averías",
+        "getAlertsBefore": "Recibe alertas antes de que algo salga mal",
+        "automateServicePlan": "Automatiza los planes de servicio",
+        "createAssignInOnePlace": "Crea, asigna y cierra trabajos — todo en un solo lugar",
+        "trackJobProgressStatusLive": "Haz seguimiento del progreso y estado de trabajos en tiempo real desde el campo",
+        "useQrCodesStartCompleteJobs": "Usa códigos QR para iniciar o completar trabajos sobre la marcha",
+        "trackEveryPartAcrossAllSite": "Haz seguimiento de cada pieza en todos los sitios y equipos",
+        "knowWhatsInStock": "Conoce lo que hay en stock, lo que se necesita y haz pedidos",
+        "scanUpdateInventory": "Escanea y actualiza inventario en tiempo real",
+        "inviteYourTeam": "Invita a tu equipo",
+        "admin": "Administrador",
+        "planner": "Planificador",
+        "fieldEngineer": "Ingeniero de campo",
+        "accessEverythingManageSettings": "Accede a todo, gestiona configuraciones, usuarios e informes",
+        "createAssignJobsTrackProgress": "Crea y asigna tareas, haz seguimiento del progreso y optimiza horarios",
+        "receiveTaskUpdateJobStatus": "Recibe tareas, actualiza el estado del trabajo, sube fotos, escanea códigos QR.",
+        "addYourTeammates": "Agrega a tus compañeros a FieldEx y asígnales roles que se ajusten a sus superpoderes. Ya sea detrás de la pantalla o en el campo, estás a una invitación de la sinergia.",
+        "reviewCsvColumns": "La IA ha emparejado automáticamente tus campos. La columna de confianza indica el porcentaje de coincidencia para cada campo",
+        "reviewCustomizeAssetType": "Revise y personalice los tipos de activos detectados en su CSV y los tipos de sistema existentes",
+        "reviewCustomizeAssetStatus": "Revise y personalice el estado de los activos detectados en su CSV y el estado del sistema existente",
+        "reviewCustomizeWorkOrderType": "Revise y personalice los tipos de órdenes de trabajo detectados en su CSV y los tipos de sistema existentes",
+        "reviewCustomizeWorkOrderStatus": "Revise y personalice el estado de las órdenes de trabajo detectados en su CSV y el estado del sistema existente",
+        "reviewCustomize": "Revise y personalice",
+        "statusDetected": "estado detectado en su CSV y estado del sistema existente",
+        "typesDetected": "tipos detectados en su CSV y estado del sistema existente",
+        "faultsDetected": "fallos detectados en tu CSV y en el estado del sistema existente",
+        "resolutionsDetected": "resoluciones detectadas en tu CSV y en el estado del sistema existente",
+        "youCanReviewAdjustAnytime": "Puede revisar y ajustar en cualquier momento",
+        "viewMoreField": "Ver más campos...",
+        "showLessField": "Mostrar menos campos...",
+        "enterNewAssetType": "Introducir nuevo tipo de activo...",
+        "enterNewAssetStatus": "Introducir nuevo estado de activo...",
+        "enterNewType": "Ingresar nuevo tipo...",
         "enterNewStatus": "Ingresar nuevo estado...",
         "enterNewFault": "Ingresar nueva falla...",
         "enterNewResolution": "Ingresar nueva resolución...",
-        "tip":"Consejo",
-        "watchDemo":"Ver demostración: Lo que puedes lograr con Fieldex",
-        "quickLookEmpowersTeam":"Echa un vistazo rápido a cómo FieldEx ayuda a los equipos a gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo",
-        "select":"Seleccionar",
-        "selectRole":"Seleccionar rol",
-        "aiAnalysisComplete":"Análisis de IA completado",
-        "dataInsight":"Información de datos",
-        "fieldMapping":"Mapea tus campos CSV a los campos del sistema FieldEx",
-        "assetTypes":"Tipos de activos",
-        "bookTrainingExperience":"Reserva una capacitación: Potencia tu experiencia con FieldEx",
-        "freeOnboardingCaps":"INCORPORACIÓN GRATUITA",
-        "bookTwoSessions":"Reserva tus dos sesiones de capacitación gratuitas con nuestros especialistas de producto y aprende a maximizar la eficiencia de tus operaciones en campo. ¡Sin cargos durante la incorporación!",
-        "comprehensiveLearning":"Ecosistema de aprendizaje integral con módulos interactivos para todos los niveles de habilidad",
-        "focusSolutionOriented":"Guías en video enfocadas y orientadas a soluciones que cubren todos los aspectos de la plataforma FieldEx",
-        "apiDocumentation":"Documentación de API y guías de integración",
-        "answersCommonlyAsked":"Respuestas a preguntas frecuentes",
-        "getHelpFromCustomerSuccess":"Obtén ayuda de nuestro equipo de éxito del cliente en support@fieldex.com",
-        "discoverNewlyImplementedFeature":"Descubre nuevas funciones implementadas y mejoras próximas en la plataforma",
-        "fieldExAcademy":"Academia FieldEx",
-        "videoTutorials":"Tutoriales en video",
-        "developerResources":"Recursos para desarrolladores",
-        "faq":"Preguntas Frecuentes",
-        "emailSupport":"Soporte por correo electrónico",
-        "releaseNotes":"Notas de la versión",
-        "exploreSettingUp":"Explora la configuración de estas automatizaciones",
-        "setUpAutomations":"Configura automatizaciones potentes para agilizar tus operaciones y aumentar la eficiencia",
-        "setupJobOrdTemplate":"Configurar plantillas de órdenes de trabajo",
-        "setupPreventiveMaintenance":"Configurar mantenimiento preventivo",
-        "createChecklist":"Crear lista de verificación",
-        "setupQrcodeBarcode":"Configurar código QR / código de barras",
-        "setupNotifications":"Configurar notificaciones",
-        "importData":"Importar datos",
-        "streamlineOperations":"Agiliza las operaciones con plantillas personalizables accesibles en cualquier lugar a través de nuestra plataforma móvil de nivel empresarial",
-        "proactivelyManage":"Gestiona proactivamente el ciclo de vida del equipo con programación automatizada",
-        "designComprehensiveDigital":"Diseña listas de verificación digitales integrales con lógica condicional y activadores",
-        "configureQrcodeBarcode":"Configura tecnología de código QR/código de barras para la gestión en tiempo real de inventario y equipos",
-        "configureTargetedAlerts":"Configura alertas y actualizaciones dirigidas con reglas personalizables y preferencias de entrega",
-        "watchVideo":"Ver video interactivo",
-        "hunnedPercent":"100% GRATIS",
-        "noMatchFound":"No se encontró coincidencia",
-        "match":"Coincidencia",
-
-        "letsImport":"Vamos a importar tus",
-        "areTheHeartCmms":"son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, el historial y las asignaciones.",
-        "areTheHeartOperations":"son el corazón de tus operaciones. Comienza subiéndolos para gestionar eficazmente horarios, equipos y tareas.",
-        "detectSetUp":"Detectar y configurar",
-        "extractConfigure":"Extrahieren und konfigurieren",
-        "types":"tipos",
-        "typePicklist":"listas desplegables de tipo",
-        "uploadExisting":"Sube tus",
-        "andWeHelpMap":"y te ayudaremos a mapear los campos y configurar el",
-        "moduleForYou":"módulo para ti",
-        "reviewAndCustomize":"Revisar y personalizar",
-        "typesDetectedInCsv":"tipos detectados en tu CSV y en los tipos del sistema existente",
-        "faultsDetected":"fallos detectados en tu CSV y en el estado del sistema existente",
-        "resolutionsDetected":"resoluciones detectadas en tu CSV y en el estado del sistema existente",
-        "statusDetectedInCsv":"estado detectado en tu CSV y en el estado del sistema existente",
+        "tip": "Consejo",
+        "watchDemo": "Ver demostración: Lo que puedes lograr con Fieldex",
+        "quickLookEmpowersTeam": "Echa un vistazo rápido a cómo FieldEx ayuda a los equipos a gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo",
+        "select": "Seleccionar",
+        "selectRole": "Seleccionar rol",
+        "aiAnalysisComplete": "Análisis de IA completado",
+        "dataInsight": "Información de datos",
+        "fieldMapping": "Mapea tus campos CSV a los campos del sistema FieldEx",
+        "assetTypes": "Tipos de activos",
+        "bookTrainingExperience": "Reserva una capacitación: Potencia tu experiencia con FieldEx",
+        "freeOnboardingCaps": "INCORPORACIÓN GRATUITA",
+        "bookTwoSessions": "Reserva tus dos sesiones de capacitación gratuitas con nuestros especialistas de producto y aprende a maximizar la eficiencia de tus operaciones en campo. ¡Sin cargos durante la incorporación!",
+        "comprehensiveLearning": "Ecosistema de aprendizaje integral con módulos interactivos para todos los niveles de habilidad",
+        "focusSolutionOriented": "Guías en video enfocadas y orientadas a soluciones que cubren todos los aspectos de la plataforma FieldEx",
+        "apiDocumentation": "Documentación de API y guías de integración",
+        "answersCommonlyAsked": "Respuestas a preguntas frecuentes",
+        "getHelpFromCustomerSuccess": "Obtén ayuda de nuestro equipo de éxito del cliente en support@fieldex.com",
+        "discoverNewlyImplementedFeature": "Descubre nuevas funciones implementadas y mejoras próximas en la plataforma",
+        "fieldExAcademy": "Academia FieldEx",
+        "videoTutorials": "Tutoriales en video",
+        "developerResources": "Recursos para desarrolladores",
+        "faq": "Preguntas Frecuentes",
+        "emailSupport": "Soporte por correo electrónico",
+        "releaseNotes": "Notas de la versión",
+        "exploreSettingUp": "Explora la configuración de estas automatizaciones",
+        "setUpAutomations": "Configura automatizaciones potentes para agilizar tus operaciones y aumentar la eficiencia",
+        "setupJobOrdTemplate": "Configurar plantillas de órdenes de trabajo",
+        "setupPreventiveMaintenance": "Configurar mantenimiento preventivo",
+        "createChecklist": "Crear lista de verificación",
+        "setupQrcodeBarcode": "Configurar código QR / código de barras",
+        "setupNotifications": "Configurar notificaciones",
+        "importData": "Importar datos",
+        "streamlineOperations": "Agiliza las operaciones con plantillas personalizables accesibles en cualquier lugar a través de nuestra plataforma móvil de nivel empresarial",
+        "proactivelyManage": "Gestiona proactivamente el ciclo de vida del equipo con programación automatizada",
+        "designComprehensiveDigital": "Diseña listas de verificación digitales integrales con lógica condicional y activadores",
+        "configureQrcodeBarcode": "Configura tecnología de código QR/código de barras para la gestión en tiempo real de inventario y equipos",
+        "configureTargetedAlerts": "Configura alertas y actualizaciones dirigidas con reglas personalizables y preferencias de entrega",
+        "watchVideo": "Ver video interactivo",
+        "hunnedPercent": "100% GRATIS",
+        "noMatchFound": "No se encontró coincidencia",
+        "match": "Coincidencia",
+        "letsImport": "Vamos a importar tus",
+        "areTheHeartCmms": "son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, el historial y las asignaciones.",
+        "areTheHeartOperations": "son el corazón de tus operaciones. Comienza subiéndolos para gestionar eficazmente horarios, equipos y tareas.",
+        "detectSetUp": "Detectar y configurar",
+        "extractConfigure": "Extrahieren und konfigurieren",
+        "types": "tipos",
+        "typePicklist": "listas desplegables de tipo",
+        "uploadExisting": "Sube tus",
+        "andWeHelpMap": "y te ayudaremos a mapear los campos y configurar el",
+        "moduleForYou": "módulo para ti",
+        "reviewAndCustomize": "Revisar y personalizar",
+        "typesDetectedInCsv": "tipos detectados en tu CSV y en los tipos del sistema existente",
+        "statusDetectedInCsv": "estado detectado en tu CSV y en el estado del sistema existente",
         "fullAccessConfigurationControl": "Acceso total y control de configuración",
         "dailyOperationManager": "Gestor de operaciones diarias",
         "taskExecuter": "Ejecutor de tareas en movimiento",
@@ -31881,17 +32076,17 @@
         "bestExperiencedFieldEx": "Nota: La mejor experiencia es en el navegador web de FieldEx para control total operativo.",
         "roleCanOnlyAccessViaMobile": "Nota: Este rol solo puede acceder a FieldEx a través de la aplicación móvil (App Store / Play Store).",
         "doNotShowAgain": "No volver a mostrar",
-        "areYouSure":"¿Estás seguro de que quieres dejar de mostrar esta página?",
-        "inBulkStreaming":"en masa para agilizar la planificación, reducir errores y ahorrar tiempo de configuración",
-        "yourProTrialEndsIn":"Tu prueba Pro termina en"
+        "areYouSure": "¿Estás seguro de que quieres dejar de mostrar esta página?",
+        "inBulkStreaming": "en masa para agilizar la planificación, reducir errores y ahorrar tiempo de configuración",
+        "yourProTrialEndsIn": "Tu prueba Pro termina en"
       },
-      "validationFE":{
+      "validationFE": {
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",
         "pleaseAttachCsv": "Por favor adjunta tu archivo CSV para importar",
-        "pleaseEnterNewType":"Por favor ingresa un nuevo nombre de tipo",
-        "pleaseEnterNewStatus":"Por favor ingresa un nuevo nombre de estado",
-        "pleaseEnterNewFault":"Por favor ingresa un nuevo nombre de falla",
-        "pleaseEnterNewResolution":"Por favor ingresa un nuevo nombre de resolución"
+        "pleaseEnterNewType": "Por favor ingresa un nuevo nombre de tipo",
+        "pleaseEnterNewStatus": "Por favor ingresa un nuevo nombre de estado",
+        "pleaseEnterNewFault": "Por favor ingresa un nuevo nombre de falla",
+        "pleaseEnterNewResolution": "Por favor ingresa un nuevo nombre de resolución"
       }
     }
   },

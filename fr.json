@@ -5823,6 +5823,13 @@
         "plural": "Formulaires",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Block",
+        "singular": "Bloc",
+        "plural": "Blocs",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -5953,6 +5960,104 @@
         "plural": "Visites",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "level": {
+        "original": "Level",
+        "singular": "Niveau",
+        "plural": "Niveaux",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Date de début",
+        "plural": "Date de début",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Date de fin",
+        "plural": "Date de fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobTemplate": {
+        "original": "Job Template",
+        "singular": "Modèle de travail",
+        "plural": "Modèle de travail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredSkill": {
+        "original": "Required Skill",
+        "singular": "Compétence requise",
+        "plural": "Compétence requise",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Fréquence",
+        "plural": "Fréquences",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "start": {
+        "original": "Start",
+        "singular": "Commencer",
+        "plural": "Commencer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "end": {
+        "original": "End",
+        "singular": "Fin",
+        "plural": "Fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfWeek": {
+        "original": "Day of the Week",
+        "singular": "Jour de la semaine",
+        "plural": "Jour de la semaine",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfMonth": {
+        "original": "Day of the Month",
+        "singular": "Jour du mois",
+        "plural": "Jour du mois",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfQuarter": {
+        "original": "Day of the Quarter",
+        "singular": "Jour du trimestre",
+        "plural": "Jour du trimestre",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "month": {
+        "original": "Month",
+        "singular": "Mois",
+        "plural": "Mois",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Jour",
+        "plural": "Jours",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Affectation",
+        "plural": "Affectation",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6010,7 +6115,66 @@
     },
     "messages": {
       "noSitesFound": "Aucun site trouvé",
-      "filterSites": "Filtrer les sites"
+      "filterSites": "Filtrer les sites",
+      "setupBlocksLevelsAreasTitle": "1. Blocs de configuration > Niveaux > Zones",
+      "setupBlocksLevelsAreasDescPrefixThis": "C'est votre",
+      "setupBlocksLevelsAreasDescPrefixPhysical": "disposition physique. Construisez-le de haut en bas : un bloc est un bâtiment, chaque bloc a des niveaux et chaque niveau a des zones où",
+      "setupBlocksLevelsAreasDescSuffix": "en fait, c'est fait.",
+      "bulkImportExport": "Importation/Exportation en masse",
+      "selectExisting": "Sélectionnez un existant",
+      "change": "Changement",
+      "scheduled": "Programmé",
+      "scopeOfWorkForThis": "Portée des travaux pour cela",
+      "toViewTheGenerated": "Pour visualiser le généré",
+      "pleaseGoTo": "s'il te plaît, va à",
+      "plannerView": "vue du planificateur",
+      "pleaseSelectA": "Veuillez sélectionner un",
+      "pleaseSelectAn": "Veuillez sélectionner un",
+      "scheduledForThis": "prévu pour cela",
+      "yet": "encore",
+      "toViewAny": "pour voir n'importe quel",
+      "fromTheLeftTo": "de la gauche à",
+      "itsScheduled": "c'est prévu",
+      "theGenerated": "le généré",
+      "isNeededBeforeSchedule": "est nécessaire avant de pouvoir planifier",
+      "isNeededBeforeScheduling": "est nécessaire avant de planifier",
+      "selectA": "Sélectionnez un",
+      "useThis": "Utilisez ceci",
+      "enterAName": "Entrez un nom pour cela",
+      "todaysDate": "Date du jour + 1 jour",
+      "daysBefore": "Jours avant",
+      "onDayOfPreviousMonthCurrent": "Le jour du mois précédent pour le mois en cours",
+      "onDayOfPreviousMonth": "Le jour du mois précédent",
+      "none": "Ne pas générer automatiquement",
+      "jobTemplateHint": "Le",
+      "jobTemplateHintScope": "généré à chaque occurrence utilisera le modèle de ce modèle",
+      "jobTemplateHintScopeSuffix": "portée, liste de contrôle et compétences requises.",
+      "selectJobTemplatePlaceholder": "Sélectionnez un modèle de travail",
+      "selectRequiredSkillsPlaceholder": "Sélectionnez ici les compétences requises...",
+      "loading": "Chargement...",
+      "daysBeforeDueDateSuffix": "jour(s) avant la date d'échéance",
+      "createOnThe": "Créer sur le",
+      "dayOfPreviousMonthCurrentSuffix": "jour du mois précédent pour le mois en cours",
+      "dayOfPreviousMonthSuffix": "jour du mois précédent",
+      "willNotBeAutoGenerated": "ne sera pas généré automatiquement",
+      "selectUserToAssignJob": "Sélectionnez un utilisateur auquel attribuer cette tâche.",
+      "selectUserPlaceholder": "Sélectionnez un utilisateur",
+      "autoAssignNote": "Chaque",
+      "autoAssignNoteSuffix": "sera attribué automatiquement en utilisant les règles d'éligibilité configurées pour",
+      "autoAssignNoteFallback": "Si aucun technicien n'est éligible, il revient au groupe ci-dessous.",
+      "assignLaterNote": "Attribuer cette tâche ultérieurement après sa création",
+      "autoGenerate": "Génération automatique",
+      "chooseHowFarAhead": "Choisissez combien de temps avant la date d'échéance le",
+      "shouldBeCreated": "devrait être créé.",
+      "enterJobDetails": "Saisir les détails du travail",
+      "enterThePlaceholder": "Entrez le",
+      "enterAPlaceholder": "Entrez un",
+      "enterTaskJobNamePlaceholder": "nom du travail..",
+      "relatedToArea": "liés à la zone sont trouvés.",
+      "pleaseCreateSelect": "Veuillez créer/sélectionner un",
+      "defineTheBuilding": "Définir la structure du bâtiment",
+      "defineTheLevels": "Définir les niveaux dans le bâtiment",
+      "defineTheAreas": "Définir les zones au sein du niveau"
     }
   },
   "salesOrder": {
@@ -16220,7 +16384,37 @@
       "removeAllAssociated": "Cette action supprimera également tous les",
       "howToUse": "Comment utiliser",
       "quickSteps": "Étapes rapides",
-      "one": "un"
+      "one": "un",
+      "daily": "Tous les jours",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "quarterly": "Trimestriel",
+      "yearly": "Annuel",
+      "autoAssign": "Attribution automatique",
+      "assignUser": "Attribuer un utilisateur",
+      "assignLater": "Attribuer plus tard",
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "jan": "Jan",
+      "feb": "Fév",
+      "mar": "Mar",
+      "apr": "Avr",
+      "may": "Peut",
+      "jun": "juin",
+      "jul": "Juillet",
+      "aug": "Août",
+      "sep": "Sep",
+      "oct": "Octobre",
+      "nov": "Nov",
+      "dec": "Déc",
+      "weekdays": "Jours de la semaine",
+      "weekend": "Fin de semaine",
+      "both": "Les deux"
     },
     "currency": {
       "australianDollar": "EUR",
@@ -16509,7 +16703,8 @@
       "invalidValue": "Valeur invalide",
       "selectFromList": "Veuillez sélectionner dans la liste",
       "startDateTimeRequired": "La date, l'heure et la durée de début sont obligatoires",
-      "maxChar255Exceed": "Longueur maximale de caractères de 255 dépassée"
+      "maxChar255Exceed": "Longueur maximale de caractères de 255 dépassée",
+      "onlyAlphabetsNumbers": "Seuls les alphabets et les chiffres sont autorisés"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Une nouvelle référence de locataire par e-mail Send Grid ne peut pas déjà avoir un identifiant",
@@ -33005,7 +33200,7 @@
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
+        "singular": "Asset status after checklist",
         "plural": "Asset status after checklist",
         "setupEdit": false,
         "setupVisible": false

@@ -5823,6 +5823,13 @@
         "plural": "படிவங்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Block",
+        "singular": "தடு",
+        "plural": "தொகுதிகள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -5953,6 +5960,104 @@
         "plural": "வருகைகள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "level": {
+        "original": "Level",
+        "singular": "நிலை",
+        "plural": "நிலைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "தொடக்க தேதி",
+        "plural": "தொடக்க தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "முடிவு தேதி",
+        "plural": "முடிவு தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobTemplate": {
+        "original": "Job Template",
+        "singular": "வேலை டெம்ப்ளேட்",
+        "plural": "வேலை டெம்ப்ளேட்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredSkill": {
+        "original": "Required Skill",
+        "singular": "தேவையான திறன்",
+        "plural": "தேவையான திறன்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "அதிர்வெண்",
+        "plural": "அதிர்வெண்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "start": {
+        "original": "Start",
+        "singular": "தொடங்கு",
+        "plural": "தொடங்கு",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "end": {
+        "original": "End",
+        "singular": "முடிவு",
+        "plural": "முடிவு",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfWeek": {
+        "original": "Day of the Week",
+        "singular": "வாரத்தின் நாள்",
+        "plural": "வாரத்தின் நாள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfMonth": {
+        "original": "Day of the Month",
+        "singular": "மாதத்தின் நாள்",
+        "plural": "மாதத்தின் நாள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfQuarter": {
+        "original": "Day of the Quarter",
+        "singular": "காலாண்டின் நாள்",
+        "plural": "காலாண்டின் நாள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "month": {
+        "original": "Month",
+        "singular": "மாதம்",
+        "plural": "மாதங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "நாள்",
+        "plural": "நாட்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "பணி",
+        "plural": "பணி",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6010,7 +6115,66 @@
     },
     "messages": {
       "noSitesFound": "தளங்கள் எதுவும் இல்லை",
-      "filterSites": "வடிகட்டி தளங்கள்"
+      "filterSites": "வடிகட்டி தளங்கள்",
+      "setupBlocksLevelsAreasTitle": "1. அமைவுத் தொகுதிகள் > நிலைகள் > பகுதிகள்",
+      "setupBlocksLevelsAreasDescPrefixThis": "இது உங்களுடையது",
+      "setupBlocksLevelsAreasDescPrefixPhysical": "உடல் அமைப்பு. அதை மேலிருந்து கீழாகக் கட்டுங்கள்: ஒரு தொகுதி என்பது ஒரு கட்டிடம், ஒவ்வொரு தொகுதிக்கும் நிலைகள் உள்ளன, மேலும் ஒவ்வொரு மட்டத்திலும் பகுதிகள் உள்ளன",
+      "setupBlocksLevelsAreasDescSuffix": "உண்மையில் செய்து முடிக்க.",
+      "bulkImportExport": "மொத்தமாக இறக்குமதி/ஏற்றுமதி",
+      "selectExisting": "ஏற்கனவே உள்ளதைத் தேர்ந்தெடுக்கவும்",
+      "change": "மாற்றவும்",
+      "scheduled": "திட்டமிடப்பட்டது",
+      "scopeOfWorkForThis": "இதற்கான பணியின் நோக்கம்",
+      "toViewTheGenerated": "உருவாக்கப்பட்டதைப் பார்க்க",
+      "pleaseGoTo": "தயவுசெய்து செல்லுங்கள்",
+      "plannerView": "திட்டமிடுபவர் பார்வை",
+      "pleaseSelectA": "தயவுசெய்து ஒரு தேர்வு செய்யவும்",
+      "pleaseSelectAn": "தயவுசெய்து ஒன்றைத் தேர்ந்தெடுக்கவும்",
+      "scheduledForThis": "இதற்காக திட்டமிடப்பட்டுள்ளது",
+      "yet": "இன்னும்",
+      "toViewAny": "எதையும் பார்க்க",
+      "fromTheLeftTo": "இடமிருந்து",
+      "itsScheduled": "அதன் திட்டமிடப்பட்டது",
+      "theGenerated": "உருவாக்கப்பட்ட",
+      "isNeededBeforeSchedule": "நீங்கள் திட்டமிடுவதற்கு முன் தேவை",
+      "isNeededBeforeScheduling": "திட்டமிடுவதற்கு முன் தேவை",
+      "selectA": "ஒரு தேர்ந்தெடுக்கவும்",
+      "useThis": "இதை பயன்படுத்தவும்",
+      "enterAName": "இதற்கு ஒரு பெயரை உள்ளிடவும்",
+      "todaysDate": "இன்றைய தேதி + 1 நாள்",
+      "daysBefore": "நாட்களுக்கு முன்",
+      "onDayOfPreviousMonthCurrent": "நடப்பு மாதத்திற்கான முந்தைய மாதத்தின் நாளில்",
+      "onDayOfPreviousMonth": "முந்தைய மாதத்தின் நாளில்",
+      "none": "தானாக உருவாக்க வேண்டாம்",
+      "jobTemplateHint": "தி",
+      "jobTemplateHintScope": "ஒவ்வொரு நிகழ்விலும் உருவாக்கப்படும் இந்த டெம்ப்ளேட்டைப் பயன்படுத்தும்",
+      "jobTemplateHintScopeSuffix": "நோக்கம், சரிபார்ப்பு பட்டியல் மற்றும் தேவையான திறன்.",
+      "selectJobTemplatePlaceholder": "வேலை டெம்ப்ளேட்டைத் தேர்ந்தெடுக்கவும்",
+      "selectRequiredSkillsPlaceholder": "தேவையான திறன்களை இங்கே தேர்ந்தெடுக்கவும்...",
+      "loading": "ஏற்றுகிறது...",
+      "daysBeforeDueDateSuffix": "குறிப்பிட்ட தேதிக்கு முந்தைய நாள்(கள்).",
+      "createOnThe": "மீது உருவாக்கவும்",
+      "dayOfPreviousMonthCurrentSuffix": "நடப்பு மாதத்திற்கான முந்தைய மாதத்தின் நாள்",
+      "dayOfPreviousMonthSuffix": "முந்தைய மாதத்தின் நாள்",
+      "willNotBeAutoGenerated": "தானாக உருவாக்கப்படாது",
+      "selectUserToAssignJob": "இந்த வேலையை ஒதுக்க ஒரு பயனரைத் தேர்ந்தெடுக்கவும்.",
+      "selectUserPlaceholder": "ஒரு பயனரைத் தேர்ந்தெடுக்கவும்",
+      "autoAssignNote": "ஒவ்வொன்றும்",
+      "autoAssignNoteSuffix": "கட்டமைக்கப்பட்ட தகுதி விதிகளைப் பயன்படுத்தி தானாகவே ஒதுக்கப்படும்",
+      "autoAssignNoteFallback": "எந்த தொழில்நுட்ப வல்லுநரும் தகுதி பெறவில்லை என்றால், அது கீழே உள்ள குழுவிற்கு திரும்பும்.",
+      "assignLaterNote": "இந்த வேலையை உருவாக்கிய பிறகு அதை ஒதுக்கவும்",
+      "autoGenerate": "தானாக உருவாக்கு",
+      "chooseHowFarAhead": "நிலுவைத் தேதிக்கு எவ்வளவு தூரம் முன்னதாக என்பதைத் தேர்வு செய்யவும்",
+      "shouldBeCreated": "உருவாக்கப்பட வேண்டும்.",
+      "enterJobDetails": "வேலை விவரங்களை உள்ளிடவும்",
+      "enterThePlaceholder": "உள்ளிடவும்",
+      "enterAPlaceholder": "ஒரு உள்ளிடவும்",
+      "enterTaskJobNamePlaceholder": "வேலை பெயர்..",
+      "relatedToArea": "பகுதியுடன் தொடர்புடையது காணப்படுகிறது.",
+      "pleaseCreateSelect": "தயவுசெய்து உருவாக்கவும்/தேர்ந்தெடுக்கவும்",
+      "defineTheBuilding": "கட்டிட கட்டமைப்பை வரையறுக்கவும்",
+      "defineTheLevels": "கட்டிடத்தில் உள்ள நிலைகளை வரையறுக்கவும்",
+      "defineTheAreas": "மட்டத்தில் உள்ள பகுதிகளை வரையறுக்கவும்"
     }
   },
   "salesOrder": {
@@ -16220,7 +16384,37 @@
       "removeAllAssociated": "இந்தச் செயல் தொடர்புடைய அனைத்தையும் அகற்றும்",
       "howToUse": "எப்படி பயன்படுத்துவது",
       "quickSteps": "விரைவான படிகள்",
-      "one": "ஒன்று"
+      "one": "ஒன்று",
+      "daily": "தினசரி",
+      "weekly": "வாரந்தோறும்",
+      "monthly": "மாதாந்திர",
+      "quarterly": "காலாண்டு",
+      "yearly": "ஆண்டுதோறும்",
+      "autoAssign": "தானியங்கு ஒதுக்கீடு",
+      "assignUser": "பயனரை ஒதுக்கவும்",
+      "assignLater": "பின்னர் ஒதுக்கவும்",
+      "monday": "திங்கட்கிழமை",
+      "tuesday": "செவ்வாய்",
+      "wednesday": "புதன்",
+      "thursday": "வியாழன்",
+      "friday": "வெள்ளிக்கிழமை",
+      "saturday": "சனிக்கிழமை",
+      "sunday": "ஞாயிறு",
+      "jan": "ஜன",
+      "feb": "பிப்",
+      "mar": "மார்",
+      "apr": "ஏப்",
+      "may": "மே",
+      "jun": "ஜூன்",
+      "jul": "ஜூலை",
+      "aug": "ஆக",
+      "sep": "செப்",
+      "oct": "அக்",
+      "nov": "நவ",
+      "dec": "டிச",
+      "weekdays": "வார நாட்கள்",
+      "weekend": "வார இறுதி",
+      "both": "இரண்டும்"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -16509,7 +16703,8 @@
       "invalidValue": "தவறான மதிப்பு",
       "selectFromList": "பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
       "startDateTimeRequired": "தொடக்க தேதி, நேரம் மற்றும் கால அளவு தேவை",
-      "maxChar255Exceed": "அதிகபட்ச எழுத்து நீளம் 255ஐ மீறியது"
+      "maxChar255Exceed": "அதிகபட்ச எழுத்து நீளம் 255ஐ மீறியது",
+      "onlyAlphabetsNumbers": "எழுத்துக்கள் மற்றும் எண்கள் மட்டுமே அனுமதிக்கப்படும்"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "ஒரு புதிய Send Grid மின்னஞ்சல் குத்தகைதாரர் குறிப்புக்கு ஏற்கனவே ஐடி இருக்க முடியாது",
@@ -33005,7 +33200,7 @@
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
+        "singular": "Asset status after checklist",
         "plural": "Asset status after checklist",
         "setupEdit": false,
         "setupVisible": false
