@@ -9090,6 +9090,113 @@
       "areYouSureCancelRequisitionNote":"Are you sure you want to cancel this requisition note?"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Bulk Schedule Import/Export",
+      "plural": "Bulk Schedule Imports/Exports",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Download Template",
+        "plural": "Download Templates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Upload & Create",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "Locations",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Schedule",
+        "plural": "Schedules",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frequency",
+        "plural": "Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Assignment",
+        "plural": "Assignments",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Issue",
+        "plural": "Issues",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Bulk schedule import/export",
+      "bulkScheduleImportExportSubtitle": "Set up recurring cleaning schedules for many areas at once using a spreadsheet.",
+      "chooseWhatToIncludeTitle": "Choose what to include",
+      "chooseWhatToIncludeDesc": "Pick which blocks to export. Each area becomes one or more rows in the spreadsheet.",
+      "selectNone": "Select none",
+      "includeExistingSchedulesTitle": "Include existing schedules",
+      "includeExistingSchedulesHint": "On: Areas that already have schedules export those rows so you can review or edit them. Off: Every area gets one blank row, for a clean re-set.",
+      "exportSummaryBanner": "This file will have.",
+      "exportSummaryBannerRows": "rows across",
+      "in": "in",
+      "downloadFileTitle": "Download the file",
+      "downloadFileDesc": "Open as a spreadsheet. Fill in job template, frequency, start/end time and assignment for each row you want scheduled, then come back and upload it.",
+      "downloadCsvTemplate": "Download CSV Template",
+      "wizardStepReviewFix": "Review & fix",
+      "uploadYourFileTitle": "Upload your completed file",
+      "uploadYourFileDesc": "Use the file you filled in from the downloaded template. We'll check every row before anything is created.",
+      "dropzoneTitle": "Drop your CSV here, or click to browse",
+      "dropzoneSubtitle": ".csv from Excel or Google Sheets",
+      "noFileHandy": "Don't have a file handy?",
+      "tryASampleFile": "Try a sample file with a few errors",
+      "reviewAndFixTitle": "Review and fix issues",
+      "reviewAndFixDesc": "Rows in red need a fix before they can be created.",
+      "errorsNeedFixing": "errors need fixing before you can continue — or check the box to skip them.",
+      "createValidSkipRest": "Create valid rows and skip the rest",
+      "createSchedulesButton": "Create schedules",
+      "schedulesCreatedTitle": "schedules created",
+      "across": "Across",
+      "willStartGenerating": "will start generating from their next due date.",
+      "importAnotherFile": "Import another file"
+    }
+  },
   "site": {
     "setupVisible": true,
     "setupEdit": true,
@@ -9331,7 +9438,66 @@
     },
     "messages": {
       "noSitesFound" : "No Sites Found",
-      "filterSites" : "Filter Sites"
+      "filterSites" : "Filter Sites",
+      "setupBlocksLevelsAreasTitle": "1. Setup Blocks > Levels > Areas",
+      "setupBlocksLevelsAreasDescPrefixThis": "This is your",
+      "setupBlocksLevelsAreasDescPrefixPhysical": "physical layout. Build it top-down: a Block is a building, each Block has Levels, and each Level has Areas where",
+      "setupBlocksLevelsAreasDescSuffix": "actually get done.",
+      "bulkImportExport": "Bulk Import/Export",
+      "selectExisting": "Select an existing",
+      "change": "Change",
+      "scheduled": "Scheduled",
+      "scopeOfWorkForThis": "Scope of work for this",
+      "toViewTheGenerated": "To view the generated",
+      "pleaseGoTo": "please go to",
+      "plannerView": "planner view",
+      "pleaseSelectA":"Please select a",
+      "pleaseSelectAn":"Please select an",
+      "scheduledForThis":"scheduled for this",
+      "yet":"yet",
+      "toViewAny":"to view any",
+      "fromTheLeftTo":"from the left to",
+      "itsScheduled":"its scheduled",
+      "theGenerated":"the generated",
+      "isNeededBeforeSchedule":"is needed before you can schedule",
+      "isNeededBeforeScheduling":"is needed before scheduling",
+      "selectA":"Select a",
+      "useThis":"Use this",
+      "enterAName":"Enter a name for this",
+      "todaysDate":"Today's Date + 1 Day",
+      "daysBefore": "Days before",
+      "onDayOfPreviousMonthCurrent": "On day of previous month for the current month",
+      "onDayOfPreviousMonth": "On day of previous month",
+      "none": "Do not auto generate",
+      "jobTemplateHint": "The",
+      "jobTemplateHintScope": "generated on each occurrence will use this template's",
+      "jobTemplateHintScopeSuffix": "scope, checklist and required skill.",
+      "selectJobTemplatePlaceholder": "Select a job template",
+      "selectRequiredSkillsPlaceholder": "Select required skills here...",
+      "loading": "Loading...",
+      "daysBeforeDueDateSuffix": "day(s) before due date",
+      "createOnThe": "Create on the",
+      "dayOfPreviousMonthCurrentSuffix": "day of the previous month for the current month",
+      "dayOfPreviousMonthSuffix": "day of the previous month",
+      "willNotBeAutoGenerated": "will not be automatically generated",
+      "selectUserToAssignJob": "Select a user to assign this job to.",
+      "selectUserPlaceholder": "Select a user",
+      "autoAssignNote": "Each",
+      "autoAssignNoteSuffix": "will be assigned automatically using the eligibility rules configured for",
+      "autoAssignNoteFallback": "If no technician is eligible, it falls back to the group below.",
+      "assignLaterNote": "Assign this job later after it has been created",
+      "autoGenerate": "Auto Generate",
+      "chooseHowFarAhead": "Choose how far ahead of the due date the",
+      "shouldBeCreated": "should be created.",
+      "enterJobDetails": "Enter Job Details",
+      "enterThePlaceholder": "Enter the",
+      "enterAPlaceholder": "Enter a",
+      "enterTaskJobNamePlaceholder": "job name..",
+      "relatedToArea":"related to the area is found.",
+      "pleaseCreateSelect":"Please create/select a",
+      "defineTheBuilding":"Define the building structure",
+      "defineTheLevels":"Define the levels in the building",
+      "defineTheAreas":"Define the areas within the level"
     }
   },
   "ticket": {
@@ -12414,6 +12580,20 @@
         "original": "Transfer Rejected",
         "singular": "Transfer Rejected",
         "plural": "Transfer Rejected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "Error",
+        "plural": "Errors",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Valid",
+        "plural": "Valid",
         "setupEdit": false,
         "setupVisible": false
       },

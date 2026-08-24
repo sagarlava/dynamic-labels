@@ -6185,6 +6185,113 @@
       "defineTheAreas": "定义级别内的区域"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "批量计划导入/导出",
+      "plural": "批量计划进口/出口",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "下载模板",
+        "plural": "下载模板",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "上传并创建",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "地位",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "地点",
+        "plural": "地点",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "日程",
+        "plural": "时间表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "频率",
+        "plural": "频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "任务",
+        "plural": "作业",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "问题",
+        "plural": "问题",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "批量计划导入/导出",
+      "bulkScheduleImportExportSubtitle": "使用电子表格同时为多个区域设置定期清洁计划。",
+      "chooseWhatToIncludeTitle": "选择要包含的内容",
+      "chooseWhatToIncludeDesc": "选择要导出的块。每个区域都成为电子表格中的一行或多行。",
+      "selectNone": "不选择",
+      "includeExistingSchedulesTitle": "包括现有的时间表",
+      "includeExistingSchedulesHint": "开：已具有计划的区域会导出这些行，以便您可以查看或编辑它们。关闭：每个区域都有一个空白行，以便进行干净的重新设置。",
+      "exportSummaryBanner": "这个文件会有。",
+      "exportSummaryBannerRows": "行跨",
+      "in": "在",
+      "downloadFileTitle": "下载文件",
+      "downloadFileDesc": "作为电子表格打开。填写您想要安排的每一行的作业模板、频率、开始/结束时间和分配，然后返回并上传。",
+      "downloadCsvTemplate": "下载 CSV 模板",
+      "wizardStepReviewFix": "审查并修复",
+      "uploadYourFileTitle": "上传您完成的文件",
+      "uploadYourFileDesc": "使用您从下载的模板中填写的文件。在创建任何内容之前，我们将检查每一行。",
+      "dropzoneTitle": "将您的 CSV 拖放到此处，或单击浏览",
+      "dropzoneSubtitle": "来自 Excel 或 Google Sheets 的 .csv",
+      "noFileHandy": "手边没有文件吗？",
+      "tryASampleFile": "尝试一个有一些错误的示例文件",
+      "reviewAndFixTitle": "检查并修复问题",
+      "reviewAndFixDesc": "红色行需要修复才能创建。",
+      "errorsNeedFixing": "需要先修复错误，然后才能继续 - 或选中该框以跳过它们。",
+      "createValidSkipRest": "创建有效行并跳过其余行",
+      "createSchedulesButton": "创建时间表",
+      "schedulesCreatedTitle": "已创建时间表",
+      "across": "穿过",
+      "willStartGenerating": "将从下一个到期日开始生成。",
+      "importAnotherFile": "导入另一个文件"
+    }
+  },
   "salesOrder": {
     "setupVisible": true,
     "setupEdit": true,
@@ -16139,6 +16246,20 @@
         "original": "Transfer Rejected",
         "singular": "转移被拒绝",
         "plural": "转移被拒绝",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "错误",
+        "plural": "错误",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "有效的",
+        "plural": "有效的",
         "setupEdit": false,
         "setupVisible": false
       },

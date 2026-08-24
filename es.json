@@ -6177,6 +6177,113 @@
       "defineTheAreas": "Definir las áreas dentro del nivel."
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Importación/exportación programada masiva",
+      "plural": "Programar importaciones/exportaciones masivas",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Descargar plantilla",
+        "plural": "Descargar plantillas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Cargar y crear",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Ubicación",
+        "plural": "Ubicaciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Cronograma",
+        "plural": "Horarios",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frecuencia",
+        "plural": "Frecuencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Asignación",
+        "plural": "Asignaciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Asunto",
+        "plural": "Asuntos",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Importación/exportación programada masiva",
+      "bulkScheduleImportExportSubtitle": "Configure horarios de limpieza recurrentes para muchas áreas a la vez usando una hoja de cálculo.",
+      "chooseWhatToIncludeTitle": "Elige qué incluir",
+      "chooseWhatToIncludeDesc": "Elija qué bloques exportar. Cada área se convierte en una o más filas de la hoja de cálculo.",
+      "selectNone": "No seleccionar ninguno",
+      "includeExistingSchedulesTitle": "Incluir horarios existentes",
+      "includeExistingSchedulesHint": "Activado: las áreas que ya tienen horarios exportan esas filas para que pueda revisarlas o editarlas. Desactivado: cada área tiene una fila en blanco para un reinicio limpio.",
+      "exportSummaryBanner": "Este archivo tendrá.",
+      "exportSummaryBannerRows": "filas a lo largo",
+      "in": "en",
+      "downloadFileTitle": "Descarga el archivo",
+      "downloadFileDesc": "Abrir como una hoja de cálculo. Complete la plantilla de trabajo, la frecuencia, la hora de inicio/finalización y la asignación para cada fila que desee programar, luego regrese y cárguela.",
+      "downloadCsvTemplate": "Descargar plantilla CSV",
+      "wizardStepReviewFix": "Revisar y arreglar",
+      "uploadYourFileTitle": "Sube tu archivo completo",
+      "uploadYourFileDesc": "Utilice el archivo que completó desde la plantilla descargada. Comprobaremos cada fila antes de crear algo.",
+      "dropzoneTitle": "Suelta tu CSV aquí o haz clic para navegar",
+      "dropzoneSubtitle": ".csv de Excel o Google Sheets",
+      "noFileHandy": "¿No tienes un archivo a mano?",
+      "tryASampleFile": "Pruebe un archivo de muestra con algunos errores",
+      "reviewAndFixTitle": "Revisar y solucionar problemas",
+      "reviewAndFixDesc": "Las filas en rojo necesitan una corrección antes de poder crearse.",
+      "errorsNeedFixing": "Es necesario corregir los errores antes de poder continuar, o marque la casilla para omitirlos.",
+      "createValidSkipRest": "Crea filas válidas y omite el resto.",
+      "createSchedulesButton": "Crear horarios",
+      "schedulesCreatedTitle": "horarios creados",
+      "across": "Al otro lado de",
+      "willStartGenerating": "comenzarán a generarse a partir de su próxima fecha de vencimiento.",
+      "importAnotherFile": "Importar otro archivo"
+    }
+  },
   "salesOrder": {
     "setupVisible": true,
     "setupEdit": true,
@@ -16131,6 +16238,20 @@
         "original": "Transfer Rejected",
         "singular": "Transferencia rechazada",
         "plural": "Transferencias rechazadas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "Error",
+        "plural": "Errores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Válido",
+        "plural": "Válido",
         "setupEdit": false,
         "setupVisible": false
       },

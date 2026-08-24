@@ -6177,6 +6177,113 @@
       "defineTheAreas": "Tentukan kawasan dalam tahap"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Jadual Pukal Import/Eksport",
+      "plural": "Jadual Pukal Import/Eksport",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Muat turun Templat",
+        "plural": "Muat turun Templat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Muat Naik & Buat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Lokasi",
+        "plural": "Lokasi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Jadual",
+        "plural": "Jadual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Kekerapan",
+        "plural": "Kekerapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Tugasan",
+        "plural": "Tugasan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Isu",
+        "plural": "Isu",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Jadual pukal import/eksport",
+      "bulkScheduleImportExportSubtitle": "Sediakan jadual pembersihan berulang untuk banyak kawasan serentak menggunakan hamparan.",
+      "chooseWhatToIncludeTitle": "Pilih perkara yang hendak disertakan",
+      "chooseWhatToIncludeDesc": "Pilih blok yang hendak dieksport. Setiap kawasan menjadi satu atau lebih baris dalam hamparan.",
+      "selectNone": "Pilih tiada",
+      "includeExistingSchedulesTitle": "Sertakan jadual sedia ada",
+      "includeExistingSchedulesHint": "Hidup: Kawasan yang sudah mempunyai jadual mengeksport baris tersebut supaya anda boleh menyemak atau mengeditnya. Mati: Setiap kawasan mendapat satu baris kosong, untuk set semula yang bersih.",
+      "exportSummaryBanner": "Fail ini akan mempunyai.",
+      "exportSummaryBannerRows": "baris melintang",
+      "in": "dalam",
+      "downloadFileTitle": "Muat turun fail",
+      "downloadFileDesc": "Buka sebagai hamparan. Isikan templat kerja, kekerapan, masa mula/tamat dan tugasan untuk setiap baris yang anda mahu dijadualkan, kemudian kembali dan muat naiknya.",
+      "downloadCsvTemplate": "Muat turun Templat CSV",
+      "wizardStepReviewFix": "Semak & betulkan",
+      "uploadYourFileTitle": "Muat naik fail anda yang lengkap",
+      "uploadYourFileDesc": "Gunakan fail yang anda isi daripada templat yang dimuat turun. Kami akan menyemak setiap baris sebelum apa-apa dibuat.",
+      "dropzoneTitle": "Letakkan CSV anda di sini, atau klik untuk menyemak imbas",
+      "dropzoneSubtitle": ".csv daripada Excel atau Helaian Google",
+      "noFileHandy": "Tiada fail berguna?",
+      "tryASampleFile": "Cuba fail sampel dengan beberapa ralat",
+      "reviewAndFixTitle": "Semak dan selesaikan isu",
+      "reviewAndFixDesc": "Baris berwarna merah memerlukan pembetulan sebelum ia boleh dibuat.",
+      "errorsNeedFixing": "ralat perlu diperbaiki sebelum anda boleh meneruskan — atau tandai kotak untuk melangkaunya.",
+      "createValidSkipRest": "Buat baris yang sah dan langkau yang lain",
+      "createSchedulesButton": "Buat jadual",
+      "schedulesCreatedTitle": "jadual dibuat",
+      "across": "Di seberang",
+      "willStartGenerating": "akan mula menjana dari tarikh tamat tempoh berikutnya.",
+      "importAnotherFile": "Import fail lain"
+    }
+  },
   "salesOrder": {
     "setupVisible": true,
     "setupEdit": true,
@@ -16131,6 +16238,20 @@
         "original": "Transfer Rejected",
         "singular": "Pemindahan Ditolak",
         "plural": "Pemindahan Ditolak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "Ralat",
+        "plural": "Ralat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Sah",
+        "plural": "Sah",
         "setupEdit": false,
         "setupVisible": false
       },

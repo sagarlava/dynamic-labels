@@ -6177,6 +6177,113 @@
       "defineTheAreas": "மட்டத்தில் உள்ள பகுதிகளை வரையறுக்கவும்"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "மொத்த அட்டவணை இறக்குமதி/ஏற்றுமதி",
+      "plural": "மொத்த அட்டவணை இறக்குமதி/ஏற்றுமதி",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "டெம்ப்ளேட்டைப் பதிவிறக்கவும்",
+        "plural": "டெம்ப்ளேட்களைப் பதிவிறக்கவும்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "பதிவேற்ற & உருவாக்கவும்",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "நிலை",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "இடம்",
+        "plural": "இடங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "அட்டவணை",
+        "plural": "அட்டவணைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "அதிர்வெண்",
+        "plural": "அதிர்வெண்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "பணி",
+        "plural": "பணிகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "பிரச்சினை",
+        "plural": "சிக்கல்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "மொத்த அட்டவணை இறக்குமதி/ஏற்றுமதி",
+      "bulkScheduleImportExportSubtitle": "விரிதாளைப் பயன்படுத்தி ஒரே நேரத்தில் பல பகுதிகளுக்கு தொடர்ச்சியான சுத்தம் செய்யும் அட்டவணையை அமைக்கவும்.",
+      "chooseWhatToIncludeTitle": "எதைச் சேர்க்க வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்",
+      "chooseWhatToIncludeDesc": "எந்தத் தொகுதிகளை ஏற்றுமதி செய்ய வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும். ஒவ்வொரு பகுதியும் விரிதாளில் ஒன்று அல்லது அதற்கு மேற்பட்ட வரிசைகளாக மாறும்.",
+      "selectNone": "எதையும் தேர்ந்தெடுக்கவும்",
+      "includeExistingSchedulesTitle": "ஏற்கனவே உள்ள அட்டவணைகளைச் சேர்க்கவும்",
+      "includeExistingSchedulesHint": "ஆன்: ஏற்கனவே அட்டவணைகள் உள்ள பகுதிகள் அந்த வரிசைகளை ஏற்றுமதி செய்கின்றன, எனவே அவற்றை நீங்கள் மதிப்பாய்வு செய்யலாம் அல்லது திருத்தலாம். ஆஃப்: ஒவ்வொரு பகுதிக்கும் ஒரு வெற்று வரிசை கிடைக்கும், சுத்தமான ரீ-செட்.",
+      "exportSummaryBanner": "இந்தக் கோப்பு இருக்கும்.",
+      "exportSummaryBannerRows": "குறுக்கே வரிசைகள்",
+      "in": "உள்ளே",
+      "downloadFileTitle": "கோப்பைப் பதிவிறக்கவும்",
+      "downloadFileDesc": "விரிதாளாகத் திறக்கவும். நீங்கள் திட்டமிட விரும்பும் ஒவ்வொரு வரிசையிலும் வேலை டெம்ப்ளேட், அதிர்வெண், தொடக்க/முடிவு நேரம் மற்றும் ஒதுக்கீட்டை நிரப்பவும், பின்னர் திரும்பி வந்து பதிவேற்றவும்.",
+      "downloadCsvTemplate": "CSV டெம்ப்ளேட்டைப் பதிவிறக்கவும்",
+      "wizardStepReviewFix": "மதிப்பாய்வு செய்து சரிசெய்யவும்",
+      "uploadYourFileTitle": "உங்கள் பூர்த்தி செய்யப்பட்ட கோப்பை பதிவேற்றவும்",
+      "uploadYourFileDesc": "பதிவிறக்கம் செய்யப்பட்ட டெம்ப்ளேட்டிலிருந்து நீங்கள் நிரப்பிய கோப்பைப் பயன்படுத்தவும். எதையும் உருவாக்கும் முன் ஒவ்வொரு வரிசையையும் சரிபார்ப்போம்.",
+      "dropzoneTitle": "உங்கள் CSV ஐ இங்கே விடுங்கள் அல்லது உலாவ கிளிக் செய்யவும்",
+      "dropzoneSubtitle": "Excel அல்லது Google Sheets இலிருந்து .csv",
+      "noFileHandy": "கோப்பு கையில் இல்லையா?",
+      "tryASampleFile": "சில பிழைகள் உள்ள மாதிரி கோப்பை முயற்சிக்கவும்",
+      "reviewAndFixTitle": "சிக்கல்களைச் சரிபார்த்து சரிசெய்யவும்",
+      "reviewAndFixDesc": "சிவப்பு நிறத்தில் உள்ள வரிசைகளை உருவாக்குவதற்கு முன் அவற்றை சரிசெய்ய வேண்டும்.",
+      "errorsNeedFixing": "நீங்கள் தொடரும் முன் பிழைகளை சரிசெய்ய வேண்டும் - அல்லது அவற்றைத் தவிர்க்க பெட்டியை சரிபார்க்கவும்.",
+      "createValidSkipRest": "சரியான வரிசைகளை உருவாக்கி, மீதமுள்ளவற்றைத் தவிர்க்கவும்",
+      "createSchedulesButton": "அட்டவணைகளை உருவாக்கவும்",
+      "schedulesCreatedTitle": "அட்டவணைகள் உருவாக்கப்பட்டன",
+      "across": "முழுவதும்",
+      "willStartGenerating": "அவர்களின் அடுத்த காலக்கெடுவில் இருந்து உருவாக்கத் தொடங்கும்.",
+      "importAnotherFile": "மற்றொரு கோப்பை இறக்குமதி செய்யவும்"
+    }
+  },
   "salesOrder": {
     "setupVisible": true,
     "setupEdit": true,
@@ -16131,6 +16238,20 @@
         "original": "Transfer Rejected",
         "singular": "இடமாற்றம் நிராகரிக்கப்பட்டது",
         "plural": "இடமாற்றம் நிராகரிக்கப்பட்டது",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "பிழை",
+        "plural": "பிழைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "செல்லுபடியாகும்",
+        "plural": "செல்லுபடியாகும்",
         "setupEdit": false,
         "setupVisible": false
       },

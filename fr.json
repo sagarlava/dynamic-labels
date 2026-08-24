@@ -6177,6 +6177,113 @@
       "defineTheAreas": "Définir les zones au sein du niveau"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Importation/Exportation planifiée en masse",
+      "plural": "Planifier des importations/exportations en masse",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Télécharger le modèle",
+        "plural": "Télécharger des modèles",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Télécharger et créer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Statut",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Emplacement",
+        "plural": "Emplacements",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Calendrier",
+        "plural": "Horaires",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Fréquence",
+        "plural": "Fréquences",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Affectation",
+        "plural": "Missions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Problème",
+        "plural": "Problèmes",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Importation/exportation planifiée en masse",
+      "bulkScheduleImportExportSubtitle": "Établissez des programmes de nettoyage récurrents pour plusieurs zones à la fois à l'aide d'une feuille de calcul.",
+      "chooseWhatToIncludeTitle": "Choisissez ce que vous souhaitez inclure",
+      "chooseWhatToIncludeDesc": "Choisissez les blocs à exporter. Chaque zone devient une ou plusieurs lignes dans la feuille de calcul.",
+      "selectNone": "N'en sélectionner aucun",
+      "includeExistingSchedulesTitle": "Inclure les plannings existants",
+      "includeExistingSchedulesHint": "Activé: les zones qui disposent déjà de planifications exportent ces lignes afin que vous puissiez les consulter ou les modifier. Désactivé: chaque zone reçoit une ligne vide, pour une réinitialisation propre.",
+      "exportSummaryBanner": "Ce fichier aura.",
+      "exportSummaryBannerRows": "rangées à travers",
+      "in": "dans",
+      "downloadFileTitle": "Téléchargez le fichier",
+      "downloadFileDesc": "Ouvrir sous forme de feuille de calcul. Remplissez le modèle de travail, la fréquence, l'heure de début/fin et l'affectation pour chaque ligne que vous souhaitez planifier, puis revenez et téléchargez-le.",
+      "downloadCsvTemplate": "Télécharger le modèle CSV",
+      "wizardStepReviewFix": "Vérifier et corriger",
+      "uploadYourFileTitle": "Téléchargez votre dossier complété",
+      "uploadYourFileDesc": "Utilisez le fichier que vous avez rempli à partir du modèle téléchargé. Nous vérifierons chaque ligne avant que quoi que ce soit ne soit créé.",
+      "dropzoneTitle": "Déposez votre CSV ici ou cliquez pour parcourir",
+      "dropzoneSubtitle": ".csv depuis Excel ou Google Sheets",
+      "noFileHandy": "Vous n'avez pas de fichier à portée de main ?",
+      "tryASampleFile": "Essayez un exemple de fichier avec quelques erreurs",
+      "reviewAndFixTitle": "Examiner et résoudre les problèmes",
+      "reviewAndFixDesc": "Les lignes en rouge nécessitent un correctif avant de pouvoir être créées.",
+      "errorsNeedFixing": "les erreurs doivent être corrigées avant de pouvoir continuer – ou cochez la case pour les ignorer.",
+      "createValidSkipRest": "Créez des lignes valides et ignorez le reste",
+      "createSchedulesButton": "Créer des horaires",
+      "schedulesCreatedTitle": "plannings créés",
+      "across": "À travers",
+      "willStartGenerating": "commenceront à générer à partir de leur prochaine date d'échéance.",
+      "importAnotherFile": "Importer un autre fichier"
+    }
+  },
   "salesOrder": {
     "setupVisible": true,
     "setupEdit": true,
@@ -16131,6 +16238,20 @@
         "original": "Transfer Rejected",
         "singular": "Transfert rejeté",
         "plural": "Transfert rejeté",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "Erreur",
+        "plural": "Erreurs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Valide",
+        "plural": "Valide",
         "setupEdit": false,
         "setupVisible": false
       },

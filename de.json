@@ -6177,6 +6177,113 @@
       "defineTheAreas": "Definieren Sie die Bereiche innerhalb des Levels"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Massenplan-Import/Export",
+      "plural": "Importe/Exporte in großen Mengen planen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Vorlage herunterladen",
+        "plural": "Laden Sie Vorlagen herunter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Hochladen und erstellen",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Standort",
+        "plural": "Standorte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Zeitplan",
+        "plural": "Zeitpläne",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frequenz",
+        "plural": "Frequenzen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Abtretung",
+        "plural": "Aufgaben",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Ausgabe",
+        "plural": "Probleme",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Import/Export in großen Mengen planen",
+      "bulkScheduleImportExportSubtitle": "Erstellen Sie mithilfe einer Tabellenkalkulation wiederkehrende Reinigungspläne für viele Bereiche gleichzeitig.",
+      "chooseWhatToIncludeTitle": "Wählen Sie aus, was enthalten sein soll",
+      "chooseWhatToIncludeDesc": "Wählen Sie aus, welche Blöcke exportiert werden sollen. Jeder Bereich wird zu einer oder mehreren Zeilen in der Tabelle.",
+      "selectNone": "Wählen Sie „Keine“ aus",
+      "includeExistingSchedulesTitle": "Beziehen Sie vorhandene Zeitpläne ein",
+      "includeExistingSchedulesHint": "Ein: Bereiche, in denen bereits Pläne vorhanden sind, exportieren diese Zeilen, damit Sie sie überprüfen oder bearbeiten können. Aus: Jeder Bereich erhält eine leere Zeile für einen sauberen Reset.",
+      "exportSummaryBanner": "Diese Datei wird haben.",
+      "exportSummaryBannerRows": "Reihen quer",
+      "in": "In",
+      "downloadFileTitle": "Laden Sie die Datei herunter",
+      "downloadFileDesc": "Als Tabellenkalkulation öffnen. Geben Sie die Jobvorlage, die Häufigkeit, die Start-/Endzeit und die Zuweisung für jede Zeile ein, die Sie planen möchten, und laden Sie sie dann wieder hoch.",
+      "downloadCsvTemplate": "Laden Sie die CSV-Vorlage herunter",
+      "wizardStepReviewFix": "Überprüfen und beheben",
+      "uploadYourFileTitle": "Laden Sie Ihre fertige Datei hoch",
+      "uploadYourFileDesc": "Verwenden Sie die Datei, die Sie aus der heruntergeladenen Vorlage ausgefüllt haben. Wir überprüfen jede Zeile, bevor etwas erstellt wird.",
+      "dropzoneTitle": "Geben Sie Ihre CSV-Datei hier ein oder klicken Sie zum Durchsuchen",
+      "dropzoneSubtitle": ".csv aus Excel oder Google Sheets",
+      "noFileHandy": "Sie haben keine Datei zur Hand?",
+      "tryASampleFile": "Versuchen Sie es mit einer Beispieldatei mit einigen Fehlern",
+      "reviewAndFixTitle": "Überprüfen und beheben Sie Probleme",
+      "reviewAndFixDesc": "Rot markierte Zeilen müssen korrigiert werden, bevor sie erstellt werden können.",
+      "errorsNeedFixing": "Fehler müssen behoben werden, bevor Sie fortfahren können – oder aktivieren Sie das Kontrollkästchen, um sie zu überspringen.",
+      "createValidSkipRest": "Erstellen Sie gültige Zeilen und überspringen Sie den Rest",
+      "createSchedulesButton": "Erstellen Sie Zeitpläne",
+      "schedulesCreatedTitle": "Zeitpläne erstellt",
+      "across": "Über",
+      "willStartGenerating": "beginnt mit der Generierung ab dem nächsten Fälligkeitsdatum.",
+      "importAnotherFile": "Importieren Sie eine andere Datei"
+    }
+  },
   "salesOrder": {
     "setupVisible": true,
     "setupEdit": true,
@@ -16131,6 +16238,20 @@
         "original": "Transfer Rejected",
         "singular": "Übertragungen abgelehnt",
         "plural": "Übertragungen abgelehnt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "error": {
+        "original": "Error",
+        "singular": "Fehler",
+        "plural": "Fehler",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Gültig",
+        "plural": "Gültig",
         "setupEdit": false,
         "setupVisible": false
       },
