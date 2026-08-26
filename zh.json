@@ -6066,6 +6066,27 @@
         "plural": "任务",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "时长",
+        "plural": "时长",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "工作频率",
+        "plural": "工作频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "building": {
+        "original": "Buildings",
+        "singular": "楼宇",
+        "plural": "楼宇",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6290,6 +6311,115 @@
       "across": "穿过",
       "willStartGenerating": "将从下一个到期日开始生成。",
       "importAnotherFile": "导入另一个文件"
+    }
+  },
+  "planner": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Planner",
+      "singular": "计划器",
+      "plural": "计划器",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "dayOfTheMonth": {
+        "original": "Day of the Month",
+        "singular": "每月的日期",
+        "plural": "每月的日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfTheWeek": {
+        "original": "Day of the Week",
+        "singular": "星期几",
+        "plural": "星期几",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "时长",
+        "plural": "时长",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "工作频率",
+        "plural": "工作频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "楼宇/区块",
+        "plural": "楼宇/区块",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "开始日期",
+        "plural": "开始日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "结束日期",
+        "plural": "结束日期",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "plannerLookup": {
+        "original": "Planner Lookup",
+        "singular": "计划器查找",
+        "plural": "计划器查找",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userFilterOptional": {
+        "original": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "singular": "可选 — 仅生成与所选用户相关的工作。保留“全部用户”可生成所有符合条件的工作，无论指派给谁。",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "fromTheSelectedPeriod": "从所选时间段。",
+      "narrowTheScope": "按以下范围缩小",
+      "userFrequencyBuilding": "用户、频率、楼宇，",
+      "or": "或",
+      "leaveAnyFilterOnAll": "— 将任意筛选保留为“全部”以包含所有内容。",
+      "thisMonth": "本月",
+      "nextMonth": "下个月",
+      "next3Months": "未来3个月",
+      "customRange": "自定义范围",
+      "estimatedJobsPrefix": "预计",
+      "estimatedJobsSuffix": "个工作将被生成"
+    },
+    "validationFE": {
+      "onlyTextNumberAllowed": "只允许字母和数字"
     }
   },
   "salesOrder": {
@@ -15734,6 +15864,27 @@
         "plural": "使用",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "autoAssign": {
+        "original": "Auto-Assign",
+        "singular": "自动分配",
+        "plural": "自动分配",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignUser": {
+        "original": "Assign User",
+        "singular": "分配用户",
+        "plural": "分配用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignLater": {
+        "original": "Assign Later",
+        "singular": "稍后分配",
+        "plural": "稍后分配",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16543,7 +16694,16 @@
       "dec": "十二月",
       "weekdays": "平日",
       "weekend": "周末",
-      "both": "两个都"
+      "both": "两个都",
+      "setupApprovals": "尚未创建审批关系。添加一个后即可在此查看。",
+      "setupImportExport": "暂无导入或导出记录。导入或导出数据后即可在此查看。",
+      "setupEmails": "暂无可用的电子邮件模板。创建一个后即可在此查看。",
+      "setupWorkflows": "暂无可用的工作流。创建一个后即可在此查看。",
+      "setupNotificationsEmail": "尚未有电子邮件通知。创建一个后即可在此查看。",
+      "setupNotificationsInApp": "暂无应用内通知。创建一个后即可在此查看。",
+      "setupSkills": "尚未创建技能。创建一个后即可在此查看。",
+      "setupTeams": "尚未创建团队。创建一个后即可在此查看。",
+      "toViewScheduledJobsForToday": "以查看今天的已排程工作"
     },
     "currency": {
       "australianDollar": "AUD",

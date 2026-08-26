@@ -6058,6 +6058,27 @@
         "plural": "Asignación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duración",
+        "plural": "Duración",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Frecuencia del trabajo",
+        "plural": "Frecuencia del trabajo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "building": {
+        "original": "Buildings",
+        "singular": "Edificio",
+        "plural": "Edificios",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6282,6 +6303,115 @@
       "across": "Al otro lado de",
       "willStartGenerating": "comenzarán a generarse a partir de su próxima fecha de vencimiento.",
       "importAnotherFile": "Importar otro archivo"
+    }
+  },
+  "planner": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Planner",
+      "singular": "Planificador",
+      "plural": "Planificadores",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Detalles generales",
+        "plural": "Detalles generales",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "dayOfTheMonth": {
+        "original": "Day of the Month",
+        "singular": "Día del mes",
+        "plural": "Día del mes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfTheWeek": {
+        "original": "Day of the Week",
+        "singular": "Día de la semana",
+        "plural": "Día de la semana",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duración",
+        "plural": "Duración",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Frecuencia del trabajo",
+        "plural": "Frecuencia del trabajo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Edificio/Bloque",
+        "plural": "Edificios/Bloques",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Fecha de inicio",
+        "plural": "Fecha de inicio",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Fecha de fin",
+        "plural": "Fecha de fin",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "plannerLookup": {
+        "original": "Planner Lookup",
+        "singular": "Búsqueda de planificador",
+        "plural": "Búsqueda de planificador",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userFilterOptional": {
+        "original": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "singular": "Opcional: filtra la generación a trabajos vinculados a los usuarios seleccionados. Déjelo en 'Todos los usuarios' para generar todos los trabajos elegibles independientemente del asignado.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "fromTheSelectedPeriod": "del período seleccionado.",
+      "narrowTheScope": "Reduzca el alcance por",
+      "userFrequencyBuilding": "usuario, frecuencia, edificio,",
+      "or": "o",
+      "leaveAnyFilterOnAll": "— deje cualquier filtro en \"Todos\" para incluirlo todo.",
+      "thisMonth": "Este mes",
+      "nextMonth": "El próximo mes",
+      "next3Months": "Próximos 3 meses",
+      "customRange": "Rango personalizado",
+      "estimatedJobsPrefix": "Estimado",
+      "estimatedJobsSuffix": "trabajos serán generados"
+    },
+    "validationFE": {
+      "onlyTextNumberAllowed": "Solo se permiten letras y números"
     }
   },
   "salesOrder": {
@@ -15726,6 +15856,27 @@
         "plural": "Usar",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "autoAssign": {
+        "original": "Auto-Assign",
+        "singular": "Asignación automática",
+        "plural": "Asignación automática",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignUser": {
+        "original": "Assign User",
+        "singular": "Asignar usuario",
+        "plural": "Asignar usuario",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignLater": {
+        "original": "Assign Later",
+        "singular": "Asignar más tarde",
+        "plural": "Asignar más tarde",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16535,7 +16686,16 @@
       "dec": "Dic",
       "weekdays": "Días laborables",
       "weekend": "Fin de semana",
-      "both": "Ambos"
+      "both": "Ambos",
+      "setupApprovals": "Aún no se han creado relaciones de aprobación. Agregue una para verla aquí.",
+      "setupImportExport": "No hay registros de importación o exportación disponibles. Importe o exporte datos para verlos aquí.",
+      "setupEmails": "No hay plantillas de correo disponibles. Cree una para verla aquí.",
+      "setupWorkflows": "No hay flujos de trabajo disponibles. Cree uno para verlo aquí.",
+      "setupNotificationsEmail": "Aún no hay notificaciones por correo disponibles. Cree una para verla aquí.",
+      "setupNotificationsInApp": "No hay notificaciones en la aplicación disponibles. Cree una para verla aquí.",
+      "setupSkills": "Aún no se han creado habilidades. Cree una para verla aquí.",
+      "setupTeams": "Aún no se han creado equipos. Cree uno para verlo aquí.",
+      "toViewScheduledJobsForToday": "para ver los trabajos programados de hoy"
     },
     "currency": {
       "australianDollar": "AUD",

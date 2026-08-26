@@ -6058,6 +6058,34 @@
         "plural": "Assignment",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duration",
+        "plural": "Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Job Frequency",
+        "plural": "Job Frequency",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "building": {
+        "original": "Buildings",
+        "singular": "Building",
+        "plural": "Buildings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Building/Block",
+        "plural": "Buildings/Blocks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6282,6 +6310,115 @@
       "across": "Across",
       "willStartGenerating": "will start generating from their next due date.",
       "importAnotherFile": "Import another file"
+    }
+  },
+  "planner": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Planner",
+      "singular": "Planner",
+      "plural": "Planners",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "dayOfTheMonth": {
+        "original": "Day of the Month",
+        "singular": "Day of the Month",
+        "plural": "Day of the Month",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfTheWeek": {
+        "original": "Day of the Week",
+        "singular": "Day of the Week",
+        "plural": "Day of the Week",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duration",
+        "plural": "Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Job Frequency",
+        "plural": "Job Frequency",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Building/Block",
+        "plural": "Buildings/Blocks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "plannerLookup": {
+        "original": "Planner Lookup",
+        "singular": "Planner Lookup",
+        "plural": "Planner Lookup",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userFilterOptional": {
+        "original": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "singular": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "fromTheSelectedPeriod": "from the selected period.",
+      "narrowTheScope": "Narrow the scope by",
+      "userFrequencyBuilding": "user, frequency, building,",
+      "or": "or",
+      "leaveAnyFilterOnAll": "— leave any filter on 'All' to include everything.",
+      "thisMonth": "This month",
+      "nextMonth": "Next month",
+      "next3Months": "Next 3 months",
+      "customRange": "Custom range",
+      "estimatedJobsPrefix": "Estimated",
+      "estimatedJobsSuffix": "jobs will be generated"
+    },
+    "validationFE": {
+      "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
     }
   },
   "salesOrder": {
@@ -15726,6 +15863,27 @@
         "plural": "Use",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "autoAssign":{
+        "original": "Auto-Assign",
+        "singular": "Auto-Assign",
+        "plural": "Auto-Assign",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignUser":{
+        "original": "Assign User",
+        "singular": "Assign User",
+        "plural": "Assign User",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignLater":{
+        "original": "Assign Later",
+        "singular": "Assign Later",
+        "plural": "Assign Later",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16535,7 +16693,16 @@
       "dec": "Dec",
       "weekdays": "Weekdays",
       "weekend": "Weekend",
-      "both": "Both"
+      "both": "Both",
+      "setupApprovals": "No approval relationships created yet. Add one to see it here.",
+      "setupImportExport": "No import or export records available. Import or export data to see it here.",
+      "setupEmails": "No email templates available. Create one to see it here.",
+      "setupWorkflows": "No workflows available. Create one to see it here.",
+      "setupNotificationsEmail": "No email notifications available yet. Create one to see it here.",
+      "setupNotificationsInApp": "No in-app notifications available. Create one to see it here.",
+      "setupSkills": "No skills created yet. Create one to see it here.",
+      "setupTeams": "No teams created yet. Create one to see it here.",
+      "toViewScheduledJobsForToday": "to view scheduled jobs for today"
     },
     "currency":{
       "australianDollar": "AUD",

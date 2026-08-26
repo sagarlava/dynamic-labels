@@ -6058,6 +6058,27 @@
         "plural": "பணி",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "காலம்",
+        "plural": "காலம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "வேலை அதிர்வெண்",
+        "plural": "வேலை அதிர்வெண்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "building": {
+        "original": "Buildings",
+        "singular": "கட்டிடம்",
+        "plural": "கட்டிடங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6282,6 +6303,115 @@
       "across": "முழுவதும்",
       "willStartGenerating": "அவர்களின் அடுத்த காலக்கெடுவில் இருந்து உருவாக்கத் தொடங்கும்.",
       "importAnotherFile": "மற்றொரு கோப்பை இறக்குமதி செய்யவும்"
+    }
+  },
+  "planner": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Planner",
+      "singular": "திட்டமிடுபவர்",
+      "plural": "திட்டமிடுபவர்கள்",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "பொது விவரங்கள்",
+        "plural": "பொது விவரங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "dayOfTheMonth": {
+        "original": "Day of the Month",
+        "singular": "மாதத்தின் நாள்",
+        "plural": "மாதத்தின் நாள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfTheWeek": {
+        "original": "Day of the Week",
+        "singular": "வாரத்தின் நாள்",
+        "plural": "வாரத்தின் நாள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "காலம்",
+        "plural": "காலம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "வேலை அதிர்வெண்",
+        "plural": "வேலை அதிர்வெண்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "கட்டிடம்/தொகுதி",
+        "plural": "கட்டிடங்கள்/தொகுதிகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "தொடக்க தேதி",
+        "plural": "தொடக்க தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "முடிவு தேதி",
+        "plural": "முடிவு தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "plannerLookup": {
+        "original": "Planner Lookup",
+        "singular": "திட்டமிடுபவர் தேடல்",
+        "plural": "திட்டமிடுபவர் தேடல்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userFilterOptional": {
+        "original": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "singular": "விருப்பத்தேர்வு — தேர்ந்தெடுக்கப்பட்ட பயனர்(கள்) தொடர்பான வேலைகளுக்கு மட்டும் உருவாக்கலை வடிகட்டும். ஒதுக்கப்பட்டவரைப் பொருட்படுத்தாமல் தகுதியான அனைத்து வேலைகளையும் உருவாக்க 'அனைத்து பயனர்கள்' இல் விடவும்.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "fromTheSelectedPeriod": "தேர்ந்தெடுக்கப்பட்ட காலத்திலிருந்து.",
+      "narrowTheScope": "வரம்பை சுருக்கவும்",
+      "userFrequencyBuilding": "பயனர், அதிர்வெண், கட்டிடம்,",
+      "or": "அல்லது",
+      "leaveAnyFilterOnAll": "— அனைத்தையும் சேர்க்க எந்த வடிகட்டியையும் \"அனைத்தும்\" இல் விடவும்.",
+      "thisMonth": "இந்த மாதம்",
+      "nextMonth": "அடுத்த மாதம்",
+      "next3Months": "அடுத்த 3 மாதங்கள்",
+      "customRange": "தனிப்பயன் வரம்பு",
+      "estimatedJobsPrefix": "மதிப்பிடப்பட்ட",
+      "estimatedJobsSuffix": "வேலைகள் உருவாக்கப்படும்"
+    },
+    "validationFE": {
+      "onlyTextNumberAllowed": "எழுத்துகள் மற்றும் எண்கள் மட்டுமே அனுமதிக்கப்படும்"
     }
   },
   "salesOrder": {
@@ -15726,6 +15856,27 @@
         "plural": "பயன்படுத்தவும்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "autoAssign": {
+        "original": "Auto-Assign",
+        "singular": "தானியங்கு ஒதுக்கீடு",
+        "plural": "தானியங்கு ஒதுக்கீடு",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignUser": {
+        "original": "Assign User",
+        "singular": "பயனரை ஒதுக்கவும்",
+        "plural": "பயனரை ஒதுக்கவும்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignLater": {
+        "original": "Assign Later",
+        "singular": "பின்னர் ஒதுக்கவும்",
+        "plural": "பின்னர் ஒதுக்கவும்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16535,7 +16686,16 @@
       "dec": "டிச",
       "weekdays": "வார நாட்கள்",
       "weekend": "வார இறுதி",
-      "both": "இரண்டும்"
+      "both": "இரண்டும்",
+      "setupApprovals": "இன்னும் ஒப்புதல் உறவுகள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றைச் சேர்க்கவும்.",
+      "setupImportExport": "இறக்குமதி அல்லது ஏற்றுமதி பதிவுகள் இல்லை. இங்கே காண தரவை இறக்குமதி அல்லது ஏற்றுமதி செய்யவும்.",
+      "setupEmails": "மின்னஞ்சல் வார்ப்புருக்கள் இல்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
+      "setupWorkflows": "பணிப்பாய்வுகள் இல்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
+      "setupNotificationsEmail": "இன்னும் மின்னஞ்சல் அறிவிப்புகள் இல்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
+      "setupNotificationsInApp": "பயன்பாட்டு அறிவிப்புகள் இல்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
+      "setupSkills": "இன்னும் திறன்கள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
+      "setupTeams": "இன்னும் குழுக்கள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
+      "toViewScheduledJobsForToday": "இன்றைய திட்டமிடப்பட்ட வேலைகளைப் பார்க்க"
     },
     "currency": {
       "australianDollar": "AUD",
