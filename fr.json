@@ -10265,7 +10265,9 @@
       "linkThis": "Liez ceci",
       "jobTitle": "Titre d'emploi",
       "willBeAssigned": "seront attribués aux membres du groupe dans un ordre circulaire (partagés à tour de rôle entre les membres de l'équipe).",
-      "toAllAdded": "à tous ajoutés"
+      "toAllAdded": "à tous ajoutés",
+      "noJobsScheduledFor": "Aucun travail planifié pour",
+      "scheduledToViewHere": "planifiez pour les voir ici"
     }
   },
   "inventory": {

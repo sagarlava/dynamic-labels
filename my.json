@@ -10265,7 +10265,9 @@
       "linkThis": "Pautkan ini",
       "jobTitle": "Judul Pekerjaan",
       "willBeAssigned": "akan diberikan kepada ahli kumpulan secara giliran (dikongsi antara ahli pasukan secara bergilir-gilir).",
-      "toAllAdded": "kepada semua yang ditambah"
+      "toAllAdded": "kepada semua yang ditambah",
+      "noJobsScheduledFor": "Tiada kerja berjadual untuk",
+      "scheduledToViewHere": "jadualkan untuk melihatnya di sini"
     }
   },
   "inventory": {

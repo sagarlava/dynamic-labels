@@ -10273,7 +10273,9 @@
       "linkThis": "链接到这个",
       "jobTitle": "工作标题",
       "willBeAssigned": "将按轮询顺序分配给小组成员（依次在团队成员之间共享）。",
-      "toAllAdded": "给所有已添加的"
+      "toAllAdded": "给所有已添加的",
+      "noJobsScheduledFor": "没有已排程的工作，针对",
+      "scheduledToViewHere": "排程后即可在此查看"
     }
   },
   "inventory": {

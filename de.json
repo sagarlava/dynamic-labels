@@ -10265,7 +10265,9 @@
       "linkThis": "Diesen Link verwenden",
       "jobTitle": "Job-Titel",
       "willBeAssigned": "wird den Gruppenmitgliedern in einer Round-Robin-Reihenfolge zugewiesen (abwechselnd unter den Teammitgliedern aufgeteilt).",
-      "toAllAdded": "an alle hinzugefügten"
+      "toAllAdded": "an alle hinzugefügten",
+      "noJobsScheduledFor": "Keine Aufträge geplant für",
+      "scheduledToViewHere": "planen, um sie hier anzuzeigen"
     }
   },
   "inventory": {

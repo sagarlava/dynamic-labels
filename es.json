@@ -10265,7 +10265,9 @@
       "linkThis": "Vincular esto",
       "jobTitle": "Título del Trabajo",
       "willBeAssigned": "se asignará a los miembros del grupo en orden rotativo (compartido entre los miembros del equipo por turnos).",
-      "toAllAdded": "a todos los agregados"
+      "toAllAdded": "a todos los agregados",
+      "noJobsScheduledFor": "No hay trabajos programados para",
+      "scheduledToViewHere": "programe para verlos aquí"
     }
   },
   "inventory": {
