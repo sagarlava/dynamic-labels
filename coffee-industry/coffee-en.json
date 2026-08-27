@@ -9091,6 +9091,222 @@
       "areYouSureCancelRequisitionNote":"Are you sure you want to cancel this requisition note?"
     }
   },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Bulk Schedule Import/Export",
+      "plural": "Bulk Schedule Imports/Exports",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Download Template",
+        "plural": "Download Templates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Upload & Create",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "Locations",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Schedule",
+        "plural": "Schedules",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frequency",
+        "plural": "Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Assignment",
+        "plural": "Assignments",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Issue",
+        "plural": "Issues",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Bulk schedule import/export",
+      "bulkScheduleImportExportSubtitle": "Set up recurring cleaning schedules for many areas at once using a spreadsheet.",
+      "chooseWhatToIncludeTitle": "Choose what to include",
+      "chooseWhatToIncludeDesc": "Pick which blocks to export. Each area becomes one or more rows in the spreadsheet.",
+      "selectNone": "Select none",
+      "includeExistingSchedulesTitle": "Include existing schedules",
+      "includeExistingSchedulesHint": "On: Areas that already have schedules export those rows so you can review or edit them. Off: Every area gets one blank row, for a clean re-set.",
+      "exportSummaryBanner": "This file will have.",
+      "exportSummaryBannerRows": "rows across",
+      "in": "in",
+      "downloadFileTitle": "Download the file",
+      "downloadFileDesc": "Open as a spreadsheet. Fill in job template, frequency, start/end time and assignment for each row you want scheduled, then come back and upload it.",
+      "downloadCsvTemplate": "Download CSV Template",
+      "wizardStepReviewFix": "Review & fix",
+      "uploadYourFileTitle": "Upload your completed file",
+      "uploadYourFileDesc": "Use the file you filled in from the downloaded template. We'll check every row before anything is created.",
+      "dropzoneTitle": "Drop your CSV here, or click to browse",
+      "dropzoneSubtitle": ".csv from Excel or Google Sheets",
+      "noFileHandy": "Don't have a file handy?",
+      "tryASampleFile": "Try a sample file with a few errors",
+      "reviewAndFixTitle": "Review and fix issues",
+      "reviewAndFixDesc": "Rows in red need a fix before they can be created.",
+      "errorsNeedFixing": "errors need fixing before you can continue — or check the box to skip them.",
+      "createValidSkipRest": "Create valid rows and skip the rest",
+      "createSchedulesButton": "Create schedules",
+      "schedulesCreatedTitle": "schedules created",
+      "across": "Across",
+      "willStartGenerating": "will start generating from their next due date.",
+      "importAnotherFile": "Import another file"
+    }
+  },
+  "planner": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Planner",
+      "singular": "Planner",
+      "plural": "Planners",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "dayOfTheMonth": {
+        "original": "Day of the Month",
+        "singular": "Day of the Month",
+        "plural": "Day of the Month",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfTheWeek": {
+        "original": "Day of the Week",
+        "singular": "Day of the Week",
+        "plural": "Day of the Week",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duration",
+        "plural": "Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Job Frequency",
+        "plural": "Job Frequency",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Building/Block",
+        "plural": "Buildings/Blocks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "plannerLookup": {
+        "original": "Planner Lookup",
+        "singular": "Planner Lookup",
+        "plural": "Planner Lookup",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userFilterOptional": {
+        "original": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "singular": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "fromTheSelectedPeriod": "from the selected period.",
+      "narrowTheScope": "Narrow the scope by",
+      "userFrequencyBuilding": "user, frequency, building,",
+      "or": "or",
+      "leaveAnyFilterOnAll": "— leave any filter on 'All' to include everything.",
+      "thisMonth": "This month",
+      "nextMonth": "Next month",
+      "next3Months": "Next 3 months",
+      "customRange": "Custom range",
+      "estimatedJobsPrefix": "Estimated",
+      "estimatedJobsSuffix": "jobs will be generated"
+    },
+    "validationFE": {
+      "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
+    }
+  },
   "site": {
     "setupVisible": true,
     "setupEdit": true,
@@ -9275,6 +9491,132 @@
         "plural": "Visits",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "level": {
+        "original": "Level",
+        "singular": "Level",
+        "plural": "Levels",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobTemplate": {
+        "original": "Job Template",
+        "singular": "Job Template",
+        "plural": "Job Template",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredSkill": {
+        "original": "Required Skill",
+        "singular": "Required Skill",
+        "plural": "Required Skill",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Frequency",
+        "plural": "Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "start": {
+        "original": "Start",
+        "singular": "Start",
+        "plural": "Start",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "end": {
+        "original": "End",
+        "singular": "End",
+        "plural": "End",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfWeek": {
+        "original": "Day of the Week",
+        "singular": "Day of the Week",
+        "plural": "Day of the Week",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfMonth": {
+        "original": "Day of the Month",
+        "singular": "Day of the Month",
+        "plural": "Day of the Month",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfQuarter": {
+        "original": "Day of the Quarter",
+        "singular": "Day of the Quarter",
+        "plural": "Day of the Quarter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "month": {
+        "original": "Month",
+        "singular": "Month",
+        "plural": "Months",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Day",
+        "plural": "Days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Assignment",
+        "plural": "Assignment",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duration",
+        "plural": "Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Job Frequency",
+        "plural": "Job Frequency",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "building": {
+        "original": "Buildings",
+        "singular": "Building",
+        "plural": "Buildings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Building/Block",
+        "plural": "Buildings/Blocks",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -9332,7 +9674,66 @@
     },
     "messages": {
       "noSitesFound" : "No Sites Found",
-      "filterSites" : "Filter Sites"
+      "filterSites" : "Filter Sites",
+      "setupBlocksLevelsAreasTitle": "1. Setup Blocks > Levels > Areas",
+      "setupBlocksLevelsAreasDescPrefixThis": "This is your",
+      "setupBlocksLevelsAreasDescPrefixPhysical": "physical layout. Build it top-down: a Block is a building, each Block has Levels, and each Level has Areas where",
+      "setupBlocksLevelsAreasDescSuffix": "actually get done.",
+      "bulkImportExport": "Bulk Import/Export",
+      "selectExisting": "Select an existing",
+      "change": "Change",
+      "scheduled": "Scheduled",
+      "scopeOfWorkForThis": "Scope of work for this",
+      "toViewTheGenerated": "To view the generated",
+      "pleaseGoTo": "please go to",
+      "plannerView": "planner view",
+      "pleaseSelectA":"Please select a",
+      "pleaseSelectAn":"Please select an",
+      "scheduledForThis":"scheduled for this",
+      "yet":"yet",
+      "toViewAny":"to view any",
+      "fromTheLeftTo":"from the left to",
+      "itsScheduled":"its scheduled",
+      "theGenerated":"the generated",
+      "isNeededBeforeSchedule":"is needed before you can schedule",
+      "isNeededBeforeScheduling":"is needed before scheduling",
+      "selectA":"Select a",
+      "useThis":"Use this",
+      "enterAName":"Enter a name for this",
+      "todaysDate":"Today's Date + 1 Day",
+      "daysBefore": "Days before",
+      "onDayOfPreviousMonthCurrent": "On day of previous month for the current month",
+      "onDayOfPreviousMonth": "On day of previous month",
+      "none": "Do not auto generate",
+      "jobTemplateHint": "The",
+      "jobTemplateHintScope": "generated on each occurrence will use this template's",
+      "jobTemplateHintScopeSuffix": "scope, checklist and required skill.",
+      "selectJobTemplatePlaceholder": "Select a job template",
+      "selectRequiredSkillsPlaceholder": "Select required skills here...",
+      "loading": "Loading...",
+      "daysBeforeDueDateSuffix": "day(s) before due date",
+      "createOnThe": "Create on the",
+      "dayOfPreviousMonthCurrentSuffix": "day of the previous month for the current month",
+      "dayOfPreviousMonthSuffix": "day of the previous month",
+      "willNotBeAutoGenerated": "will not be automatically generated",
+      "selectUserToAssignJob": "Select a user to assign this job to.",
+      "selectUserPlaceholder": "Select a user",
+      "autoAssignNote": "Each",
+      "autoAssignNoteSuffix": "will be assigned automatically using the eligibility rules configured for",
+      "autoAssignNoteFallback": "If no technician is eligible, it falls back to the group below.",
+      "assignLaterNote": "Assign this job later after it has been created",
+      "autoGenerate": "Auto Generate",
+      "chooseHowFarAhead": "Choose how far ahead of the due date the",
+      "shouldBeCreated": "should be created.",
+      "enterJobDetails": "Enter Job Details",
+      "enterThePlaceholder": "Enter the",
+      "enterAPlaceholder": "Enter a",
+      "enterTaskJobNamePlaceholder": "job name..",
+      "relatedToArea":"related to the area is found.",
+      "pleaseCreateSelect":"Please create/select a",
+      "defineTheBuilding":"Define the building structure",
+      "defineTheLevels":"Define the levels in the building",
+      "defineTheAreas":"Define the areas within the level"
     }
   },
   "ticket": {
@@ -11931,6 +12332,27 @@
         "plural": "Use",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "autoAssign":{
+        "original": "Auto-Assign",
+        "singular": "Auto-Assign",
+        "plural": "Auto-Assign",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignUser":{
+        "original": "Assign User",
+        "singular": "Assign User",
+        "plural": "Assign User",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignLater":{
+        "original": "Assign Later",
+        "singular": "Assign Later",
+        "plural": "Assign Later",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12446,6 +12868,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "error": {
+        "original": "Error",
+        "singular": "Error",
+        "plural": "Errors",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Valid",
+        "plural": "Valid",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -12696,7 +13132,46 @@
       "removeAllAssociated":"This action will also remove all associated",
       "howToUse":"How to Use",
       "quickSteps":"Quick steps",
-      "one":"one"
+      "one":"one",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "yearly": "Yearly",
+      "autoAssign": "Auto Assign",
+      "assignUser": "Assign user",
+      "assignLater": "Assign later",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec",
+      "weekdays": "Weekdays",
+      "weekend": "Weekend",
+      "both": "Both",
+      "setupApprovals": "No approval relationships created yet. Add one to see it here.",
+      "setupImportExport": "No import or export records available. Import or export data to see it here.",
+      "setupEmails": "No email templates available. Create one to see it here.",
+      "setupWorkflows": "No workflows available. Create one to see it here.",
+      "setupNotificationsEmail": "No email notifications available yet. Create one to see it here.",
+      "setupNotificationsInApp": "No in-app notifications available. Create one to see it here.",
+      "setupSkills": "No skills created yet. Create one to see it here.",
+      "setupTeams": "No teams created yet. Create one to see it here.",
+      "toViewScheduledJobsForToday": "to view scheduled jobs for today"
     },
     "currency":{
       "australianDollar": "AUD",

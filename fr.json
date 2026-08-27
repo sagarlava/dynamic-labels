@@ -5823,6 +5823,13 @@
         "plural": "Formulaires",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Block",
+        "singular": "Bloc",
+        "plural": "Blocs",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -5953,6 +5960,125 @@
         "plural": "Visites",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "level": {
+        "original": "Level",
+        "singular": "Niveau",
+        "plural": "Niveaux",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Date de début",
+        "plural": "Date de début",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Date de fin",
+        "plural": "Date de fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobTemplate": {
+        "original": "Job Template",
+        "singular": "Modèle de travail",
+        "plural": "Modèle de travail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredSkill": {
+        "original": "Required Skill",
+        "singular": "Compétence requise",
+        "plural": "Compétence requise",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Fréquence",
+        "plural": "Fréquences",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "start": {
+        "original": "Start",
+        "singular": "Commencer",
+        "plural": "Commencer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "end": {
+        "original": "End",
+        "singular": "Fin",
+        "plural": "Fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfWeek": {
+        "original": "Day of the Week",
+        "singular": "Jour de la semaine",
+        "plural": "Jour de la semaine",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfMonth": {
+        "original": "Day of the Month",
+        "singular": "Jour du mois",
+        "plural": "Jour du mois",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfQuarter": {
+        "original": "Day of the Quarter",
+        "singular": "Jour du trimestre",
+        "plural": "Jour du trimestre",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "month": {
+        "original": "Month",
+        "singular": "Mois",
+        "plural": "Mois",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Jour",
+        "plural": "Jours",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Affectation",
+        "plural": "Affectation",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Durée",
+        "plural": "Durée",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Fréquence du travail",
+        "plural": "Fréquence du travail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "building": {
+        "original": "Buildings",
+        "singular": "Bâtiment",
+        "plural": "Bâtiments",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -6010,7 +6136,282 @@
     },
     "messages": {
       "noSitesFound": "Aucun site trouvé",
-      "filterSites": "Filtrer les sites"
+      "filterSites": "Filtrer les sites",
+      "setupBlocksLevelsAreasTitle": "1. Blocs de configuration > Niveaux > Zones",
+      "setupBlocksLevelsAreasDescPrefixThis": "C'est votre",
+      "setupBlocksLevelsAreasDescPrefixPhysical": "disposition physique. Construisez-le de haut en bas : un bloc est un bâtiment, chaque bloc a des niveaux et chaque niveau a des zones où",
+      "setupBlocksLevelsAreasDescSuffix": "en fait, c'est fait.",
+      "bulkImportExport": "Importation/Exportation en masse",
+      "selectExisting": "Sélectionnez un existant",
+      "change": "Changement",
+      "scheduled": "Programmé",
+      "scopeOfWorkForThis": "Portée des travaux pour cela",
+      "toViewTheGenerated": "Pour visualiser le généré",
+      "pleaseGoTo": "s'il te plaît, va à",
+      "plannerView": "vue du planificateur",
+      "pleaseSelectA": "Veuillez sélectionner un",
+      "pleaseSelectAn": "Veuillez sélectionner un",
+      "scheduledForThis": "prévu pour cela",
+      "yet": "encore",
+      "toViewAny": "pour voir n'importe quel",
+      "fromTheLeftTo": "de la gauche à",
+      "itsScheduled": "c'est prévu",
+      "theGenerated": "le généré",
+      "isNeededBeforeSchedule": "est nécessaire avant de pouvoir planifier",
+      "isNeededBeforeScheduling": "est nécessaire avant de planifier",
+      "selectA": "Sélectionnez un",
+      "useThis": "Utilisez ceci",
+      "enterAName": "Entrez un nom pour cela",
+      "todaysDate": "Date du jour + 1 jour",
+      "daysBefore": "Jours avant",
+      "onDayOfPreviousMonthCurrent": "Le jour du mois précédent pour le mois en cours",
+      "onDayOfPreviousMonth": "Le jour du mois précédent",
+      "none": "Ne pas générer automatiquement",
+      "jobTemplateHint": "Le",
+      "jobTemplateHintScope": "généré à chaque occurrence utilisera le modèle de ce modèle",
+      "jobTemplateHintScopeSuffix": "portée, liste de contrôle et compétences requises.",
+      "selectJobTemplatePlaceholder": "Sélectionnez un modèle de travail",
+      "selectRequiredSkillsPlaceholder": "Sélectionnez ici les compétences requises...",
+      "loading": "Chargement...",
+      "daysBeforeDueDateSuffix": "jour(s) avant la date d'échéance",
+      "createOnThe": "Créer sur le",
+      "dayOfPreviousMonthCurrentSuffix": "jour du mois précédent pour le mois en cours",
+      "dayOfPreviousMonthSuffix": "jour du mois précédent",
+      "willNotBeAutoGenerated": "ne sera pas généré automatiquement",
+      "selectUserToAssignJob": "Sélectionnez un utilisateur auquel attribuer cette tâche.",
+      "selectUserPlaceholder": "Sélectionnez un utilisateur",
+      "autoAssignNote": "Chaque",
+      "autoAssignNoteSuffix": "sera attribué automatiquement en utilisant les règles d'éligibilité configurées pour",
+      "autoAssignNoteFallback": "Si aucun technicien n'est éligible, il revient au groupe ci-dessous.",
+      "assignLaterNote": "Attribuer cette tâche ultérieurement après sa création",
+      "autoGenerate": "Génération automatique",
+      "chooseHowFarAhead": "Choisissez combien de temps avant la date d'échéance le",
+      "shouldBeCreated": "devrait être créé.",
+      "enterJobDetails": "Saisir les détails du travail",
+      "enterThePlaceholder": "Entrez le",
+      "enterAPlaceholder": "Entrez un",
+      "enterTaskJobNamePlaceholder": "nom du travail..",
+      "relatedToArea": "liés à la zone sont trouvés.",
+      "pleaseCreateSelect": "Veuillez créer/sélectionner un",
+      "defineTheBuilding": "Définir la structure du bâtiment",
+      "defineTheLevels": "Définir les niveaux dans le bâtiment",
+      "defineTheAreas": "Définir les zones au sein du niveau"
+    }
+  },
+  "bulkSchedule": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Bulk Schedule Import Export",
+      "singular": "Importation/Exportation planifiée en masse",
+      "plural": "Planifier des importations/exportations en masse",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Download Template",
+        "singular": "Télécharger le modèle",
+        "plural": "Télécharger des modèles",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Upload Create",
+        "singular": "Télécharger et créer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "status": {
+        "original": "Status",
+        "singular": "Statut",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Emplacement",
+        "plural": "Emplacements",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Calendrier",
+        "plural": "Horaires",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "frequency": {
+        "original": "Frequency",
+        "singular": "Fréquence",
+        "plural": "Fréquences",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignment": {
+        "original": "Assignment",
+        "singular": "Affectation",
+        "plural": "Missions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issues": {
+        "original": "Issues",
+        "singular": "Problème",
+        "plural": "Problèmes",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "messages": {
+      "bulkScheduleImportExportTitle": "Importation/exportation planifiée en masse",
+      "bulkScheduleImportExportSubtitle": "Établissez des programmes de nettoyage récurrents pour plusieurs zones à la fois à l'aide d'une feuille de calcul.",
+      "chooseWhatToIncludeTitle": "Choisissez ce que vous souhaitez inclure",
+      "chooseWhatToIncludeDesc": "Choisissez les blocs à exporter. Chaque zone devient une ou plusieurs lignes dans la feuille de calcul.",
+      "selectNone": "N'en sélectionner aucun",
+      "includeExistingSchedulesTitle": "Inclure les plannings existants",
+      "includeExistingSchedulesHint": "Activé: les zones qui disposent déjà de planifications exportent ces lignes afin que vous puissiez les consulter ou les modifier. Désactivé: chaque zone reçoit une ligne vide, pour une réinitialisation propre.",
+      "exportSummaryBanner": "Ce fichier aura.",
+      "exportSummaryBannerRows": "rangées à travers",
+      "in": "dans",
+      "downloadFileTitle": "Téléchargez le fichier",
+      "downloadFileDesc": "Ouvrir sous forme de feuille de calcul. Remplissez le modèle de travail, la fréquence, l'heure de début/fin et l'affectation pour chaque ligne que vous souhaitez planifier, puis revenez et téléchargez-le.",
+      "downloadCsvTemplate": "Télécharger le modèle CSV",
+      "wizardStepReviewFix": "Vérifier et corriger",
+      "uploadYourFileTitle": "Téléchargez votre dossier complété",
+      "uploadYourFileDesc": "Utilisez le fichier que vous avez rempli à partir du modèle téléchargé. Nous vérifierons chaque ligne avant que quoi que ce soit ne soit créé.",
+      "dropzoneTitle": "Déposez votre CSV ici ou cliquez pour parcourir",
+      "dropzoneSubtitle": ".csv depuis Excel ou Google Sheets",
+      "noFileHandy": "Vous n'avez pas de fichier à portée de main ?",
+      "tryASampleFile": "Essayez un exemple de fichier avec quelques erreurs",
+      "reviewAndFixTitle": "Examiner et résoudre les problèmes",
+      "reviewAndFixDesc": "Les lignes en rouge nécessitent un correctif avant de pouvoir être créées.",
+      "errorsNeedFixing": "les erreurs doivent être corrigées avant de pouvoir continuer – ou cochez la case pour les ignorer.",
+      "createValidSkipRest": "Créez des lignes valides et ignorez le reste",
+      "createSchedulesButton": "Créer des horaires",
+      "schedulesCreatedTitle": "plannings créés",
+      "across": "À travers",
+      "willStartGenerating": "commenceront à générer à partir de leur prochaine date d'échéance.",
+      "importAnotherFile": "Importer un autre fichier"
+    }
+  },
+  "planner": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Planner",
+      "singular": "Planificateur",
+      "plural": "Planificateurs",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Détails généraux",
+        "plural": "Détails généraux",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "dayOfTheMonth": {
+        "original": "Day of the Month",
+        "singular": "Jour du mois",
+        "plural": "Jour du mois",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayOfTheWeek": {
+        "original": "Day of the Week",
+        "singular": "Jour de la semaine",
+        "plural": "Jour de la semaine",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Durée",
+        "plural": "Durée",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobFrequency": {
+        "original": "Job Frequency",
+        "singular": "Fréquence du travail",
+        "plural": "Fréquence du travail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Bâtiment/Bloc",
+        "plural": "Bâtiments/Blocs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Date de début",
+        "plural": "Date de début",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Date de fin",
+        "plural": "Date de fin",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "plannerLookup": {
+        "original": "Planner Lookup",
+        "singular": "Recherche planificateur",
+        "plural": "Recherche planificateur",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userFilterOptional": {
+        "original": "Optional - Filters generation to jobs tied to the selected user(s). Leave on 'All users' to generate every eligible job regardless of assignee.",
+        "singular": "Facultatif — Filtre la génération aux travaux liés aux utilisateurs sélectionnés. Laissez sur « Tous les utilisateurs » pour générer tous les travaux éligibles, quel que soit l’assigné.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "fromTheSelectedPeriod": "de la période sélectionnée.",
+      "narrowTheScope": "Restreignez la portée par",
+      "userFrequencyBuilding": "utilisateur, fréquence, bâtiment,",
+      "or": "ou",
+      "leaveAnyFilterOnAll": "— laissez tout filtre sur « Tous » pour tout inclure.",
+      "thisMonth": "Ce mois-ci",
+      "nextMonth": "Le mois prochain",
+      "next3Months": "3 prochains mois",
+      "customRange": "Plage personnalisée",
+      "estimatedJobsPrefix": "Estimé",
+      "estimatedJobsSuffix": "travaux seront générés"
+    },
+    "validationFE": {
+      "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés"
     }
   },
   "salesOrder": {
@@ -15455,6 +15856,27 @@
         "plural": "Utiliser",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "autoAssign": {
+        "original": "Auto-Assign",
+        "singular": "Attribution automatique",
+        "plural": "Attribution automatique",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignUser": {
+        "original": "Assign User",
+        "singular": "Attribuer un utilisateur",
+        "plural": "Attribuer un utilisateur",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignLater": {
+        "original": "Assign Later",
+        "singular": "Attribuer plus tard",
+        "plural": "Attribuer plus tard",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15970,6 +16392,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "error": {
+        "original": "Error",
+        "singular": "Erreur",
+        "plural": "Erreurs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "valid": {
+        "original": "Valid",
+        "singular": "Valide",
+        "plural": "Valide",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Pour que les listes de contrôle incomplètes soient mises à jour à l'avenir. Aucun travail ou tâche ne sera déclenché en utilisant ce statut",
         "thisStatusWillTriggerAnyJobOrders": "Ce statut déclenchera tous les ordres de travail et tâches liés aux réponses de cette liste de contrôle.",
@@ -16220,7 +16656,46 @@
       "removeAllAssociated": "Cette action supprimera également tous les",
       "howToUse": "Comment utiliser",
       "quickSteps": "Étapes rapides",
-      "one": "un"
+      "one": "un",
+      "daily": "Tous les jours",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "quarterly": "Trimestriel",
+      "yearly": "Annuel",
+      "autoAssign": "Attribution automatique",
+      "assignUser": "Attribuer un utilisateur",
+      "assignLater": "Attribuer plus tard",
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "jan": "Jan",
+      "feb": "Fév",
+      "mar": "Mar",
+      "apr": "Avr",
+      "may": "Peut",
+      "jun": "juin",
+      "jul": "Juillet",
+      "aug": "Août",
+      "sep": "Sep",
+      "oct": "Octobre",
+      "nov": "Nov",
+      "dec": "Déc",
+      "weekdays": "Jours de la semaine",
+      "weekend": "Fin de semaine",
+      "both": "Les deux",
+      "setupApprovals": "Aucune relation d’approbation n’a encore été créée. Ajoutez-en une pour la voir ici.",
+      "setupImportExport": "Aucun enregistrement d’importation ou d’exportation disponible. Importez ou exportez des données pour les voir ici.",
+      "setupEmails": "Aucun modèle d’e-mail disponible. Créez-en un pour le voir ici.",
+      "setupWorkflows": "Aucun flux de travail disponible. Créez-en un pour le voir ici.",
+      "setupNotificationsEmail": "Aucune notification par e-mail n’est encore disponible. Créez-en une pour la voir ici.",
+      "setupNotificationsInApp": "Aucune notification in-app disponible. Créez-en une pour la voir ici.",
+      "setupSkills": "Aucune compétence n’a encore été créée. Créez-en une pour la voir ici.",
+      "setupTeams": "Aucune équipe n’a encore été créée. Créez-en une pour la voir ici.",
+      "toViewScheduledJobsForToday": "pour voir les travaux planifiés pour aujourd’hui"
     },
     "currency": {
       "australianDollar": "EUR",
@@ -16509,7 +16984,8 @@
       "invalidValue": "Valeur invalide",
       "selectFromList": "Veuillez sélectionner dans la liste",
       "startDateTimeRequired": "La date, l'heure et la durée de début sont obligatoires",
-      "maxChar255Exceed": "Longueur maximale de caractères de 255 dépassée"
+      "maxChar255Exceed": "Longueur maximale de caractères de 255 dépassée",
+      "onlyAlphabetsNumbers": "Seuls les alphabets et les chiffres sont autorisés"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Une nouvelle référence de locataire par e-mail Send Grid ne peut pas déjà avoir un identifiant",
@@ -33005,7 +33481,7 @@
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
+        "singular": "Asset status after checklist",
         "plural": "Asset status after checklist",
         "setupEdit": false,
         "setupVisible": false
