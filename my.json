@@ -6079,6 +6079,13 @@
         "plural": "Bangunan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Bangunan/Blok",
+        "plural": "Bangunan/Blok",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15879,6 +15886,13 @@
         "plural": "Tugaskan kemudian",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manage": {
+        "original": "Manage",
+        "singular": "Urus",
+        "plural": "Urus",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16408,6 +16422,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assigned": {
+        "original": "Assigned",
+        "singular": "Ditugaskan",
+        "plural": "Ditugaskan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -16697,7 +16718,8 @@
       "setupNotificationsInApp": "Tiada pemberitahuan dalam apl tersedia. Cipta satu untuk melihatnya di sini.",
       "setupSkills": "Belum ada kemahiran dicipta. Cipta satu untuk melihatnya di sini.",
       "setupTeams": "Belum ada pasukan dicipta. Cipta satu untuk melihatnya di sini.",
-      "toViewScheduledJobsForToday": "untuk melihat kerja berjadual untuk hari ini"
+      "toViewScheduledJobsForToday": "untuk melihat kerja berjadual untuk hari ini",
+      "enterA": "Masukkan"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18407,6 +18429,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec3": {
+            "original": "Library",
+            "singular": "Perpustakaan",
+            "plural": "Perpustakaan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -18471,7 +18500,18 @@
           "pleaseEnterLevelNames": "Sila masukkan nama tahap",
           "pleaseEnterRoleNames": "Sila masukkan nama peranan",
           "pleaseEnterADepartmentName": "Sila masukkan nama jabatan",
-          "assignUserTo": "Tetapkan Pengguna kepada"
+          "assignUserTo": "Tetapkan Pengguna kepada",
+          "orManageFullListSuffix": "atau urus senarai penuh",
+          "listSuffix": "senarai",
+          "currentlyAssignedSubtitle": "Ini ialah",
+          "currentlyAssignedSuffix": "yang ditugaskan buat masa ini.",
+          "selectedCountSuffix": "dipilih",
+          "selectedYet": "belum dipilih",
+          "fromListBelow": "daripada senarai di bawah.",
+          "libraryTabSuffix": "Perpustakaan",
+          "editingMasterListInstruction": "Anda sedang mengedit senarai induk",
+          "editingMasterListInstructionSuffix": "Warna yang ditetapkan di sini akan muncul secara konsisten untuk semua pengguna/kerja",
+          "inLibrarySuffix": "dalam perpustakaan"
         }
       },
       "teams": {
@@ -19063,7 +19103,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "idIsMissing": "ID tiada"
+        },
         "descriptions": {
           "setupVisible": false,
           "aNotificationWillBe": {

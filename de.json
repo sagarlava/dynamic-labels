@@ -6079,6 +6079,13 @@
         "plural": "Gebäude",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Gebäude/Block",
+        "plural": "Gebäude/Blöcke",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15879,6 +15886,13 @@
         "plural": "Später zuweisen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manage": {
+        "original": "Manage",
+        "singular": "Verwalten",
+        "plural": "Verwaltet",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16408,6 +16422,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assigned": {
+        "original": "Assigned",
+        "singular": "Zugewiesen",
+        "plural": "Zugewiesen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",
@@ -16697,7 +16718,8 @@
       "setupNotificationsInApp": "Keine In-App-Benachrichtigungen verfügbar. Erstellen Sie eine, um sie hier zu sehen.",
       "setupSkills": "Noch keine Fähigkeiten erstellt. Erstellen Sie eine, um sie hier zu sehen.",
       "setupTeams": "Noch keine Teams erstellt. Erstellen Sie eines, um es hier zu sehen.",
-      "toViewScheduledJobsForToday": "um die für heute geplanten Aufträge anzuzeigen"
+      "toViewScheduledJobsForToday": "um die für heute geplanten Aufträge anzuzeigen",
+      "enterA": "Geben Sie ein"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18407,6 +18429,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec3": {
+            "original": "Library",
+            "singular": "Bibliothek",
+            "plural": "Bibliotheken",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -18471,7 +18500,18 @@
           "pleaseEnterLevelNames": "Bitte geben Sie die Ebenennamen ein",
           "pleaseEnterRoleNames": "Bitte geben Sie die Rollennamen ein",
           "pleaseEnterADepartmentName": "Bitte geben Sie einen Abteilungsnamen ein",
-          "assignUserTo": "Benutzer zuweisen zu"
+          "assignUserTo": "Benutzer zuweisen zu",
+          "orManageFullListSuffix": "oder die vollständige",
+          "listSuffix": "Liste verwalten",
+          "currentlyAssignedSubtitle": "Dies sind die",
+          "currentlyAssignedSuffix": "derzeit zugewiesenen.",
+          "selectedCountSuffix": "ausgewählt",
+          "selectedYet": "noch ausgewählt",
+          "fromListBelow": "aus der Liste unten.",
+          "libraryTabSuffix": "Bibliothek",
+          "editingMasterListInstruction": "Sie bearbeiten die Master-",
+          "editingMasterListInstructionSuffix": "Liste. Hier festgelegte Farben werden für alle Benutzer/Aufträge einheitlich angezeigt",
+          "inLibrarySuffix": "in der Bibliothek"
         }
       },
       "teams": {
@@ -19063,7 +19103,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "idIsMissing": "ID fehlt"
+        },
         "descriptions": {
           "setupVisible": false,
           "aNotificationWillBe": {

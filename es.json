@@ -6079,6 +6079,13 @@
         "plural": "Edificios",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Edificio/Bloque",
+        "plural": "Edificios/Bloques",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15879,6 +15886,13 @@
         "plural": "Asignar más tarde",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manage": {
+        "original": "Manage",
+        "singular": "Gestionar",
+        "plural": "Gestiona",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16408,6 +16422,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assigned": {
+        "original": "Assigned",
+        "singular": "Asignado",
+        "plural": "Asignado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -16697,7 +16718,8 @@
       "setupNotificationsInApp": "No hay notificaciones en la aplicación disponibles. Cree una para verla aquí.",
       "setupSkills": "Aún no se han creado habilidades. Cree una para verla aquí.",
       "setupTeams": "Aún no se han creado equipos. Cree uno para verlo aquí.",
-      "toViewScheduledJobsForToday": "para ver los trabajos programados de hoy"
+      "toViewScheduledJobsForToday": "para ver los trabajos programados de hoy",
+      "enterA": "Ingrese un"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18407,6 +18429,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec3": {
+            "original": "Library",
+            "singular": "Biblioteca",
+            "plural": "Bibliotecas",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -18471,7 +18500,18 @@
           "pleaseEnterLevelNames": "Por favor ingrese los nombres de los niveles",
           "pleaseEnterRoleNames": "Por favor ingrese los nombres de los roles",
           "pleaseEnterADepartmentName": "Por favor ingrese un nombre de departamento",
-          "assignUserTo": "Asignar usuarios a"
+          "assignUserTo": "Asignar usuarios a",
+          "orManageFullListSuffix": "o gestionar la lista completa de",
+          "listSuffix": "lista",
+          "currentlyAssignedSubtitle": "Estos son los",
+          "currentlyAssignedSuffix": "actualmente asignados.",
+          "selectedCountSuffix": "seleccionado",
+          "selectedYet": "seleccionado aún",
+          "fromListBelow": "de la lista a continuación.",
+          "libraryTabSuffix": "Biblioteca",
+          "editingMasterListInstruction": "Está editando la lista maestra de",
+          "editingMasterListInstructionSuffix": "lista. Los colores establecidos aquí aparecerán de forma consistente para todos los usuarios/trabajos",
+          "inLibrarySuffix": "en la biblioteca"
         }
       },
       "teams": {
@@ -19063,7 +19103,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "idIsMissing": "Falta el ID"
+        },
         "descriptions": {
           "setupVisible": false,
           "aNotificationWillBe": {

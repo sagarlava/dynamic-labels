@@ -6079,6 +6079,13 @@
         "plural": "கட்டிடங்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "கட்டிடம்/தொகுதி",
+        "plural": "கட்டிடங்கள்/தொகுதிகள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15879,6 +15886,13 @@
         "plural": "பின்னர் ஒதுக்கவும்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manage": {
+        "original": "Manage",
+        "singular": "நிர்வகி",
+        "plural": "நிர்வகிக்கிறது",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16408,6 +16422,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assigned": {
+        "original": "Assigned",
+        "singular": "ஒதுக்கப்பட்டது",
+        "plural": "ஒதுக்கப்பட்டது",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "முழுமையற்ற சரிபார்ப்புப் பட்டியல்கள் எதிர்காலத்தில் புதுப்பிக்கப்படும். இந்த நிலையைப் பயன்படுத்தி வேலைகள் அல்லது பணிகள் எதுவும் தூண்டப்படாது",
         "thisStatusWillTriggerAnyJobOrders": "இந்தச் சரிபார்ப்புப் பட்டியலின் பதில்கள் தொடர்பான எந்த வேலை ஆணைகளையும் பணிகளையும் இந்த நிலை தூண்டும்",
@@ -16697,7 +16718,8 @@
       "setupNotificationsInApp": "பயன்பாட்டு அறிவிப்புகள் இல்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
       "setupSkills": "இன்னும் திறன்கள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
       "setupTeams": "இன்னும் குழுக்கள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
-      "toViewScheduledJobsForToday": "இன்றைய திட்டமிடப்பட்ட வேலைகளைப் பார்க்க"
+      "toViewScheduledJobsForToday": "இன்றைய திட்டமிடப்பட்ட வேலைகளைப் பார்க்க",
+      "enterA": "ஒரு ... உள்ளிடவும்"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18407,6 +18429,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec3": {
+            "original": "Library",
+            "singular": "நூலகம்",
+            "plural": "நூலகங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -18471,7 +18500,18 @@
           "pleaseEnterLevelNames": "நிலைப் பெயர்களை உள்ளிடவும்",
           "pleaseEnterRoleNames": "பாத்திரப் பெயர்களை உள்ளிடவும்",
           "pleaseEnterADepartmentName": "துறையின் பெயரை உள்ளிடவும்",
-          "assignUserTo": "பயனர்களை ஒதுக்கவும்"
+          "assignUserTo": "பயனர்களை ஒதுக்கவும்",
+          "orManageFullListSuffix": "அல்லது முழு",
+          "listSuffix": "பட்டியலை நிர்வகிக்கவும்",
+          "currentlyAssignedSubtitle": "இவை தற்போது",
+          "currentlyAssignedSuffix": "ஒதுக்கப்பட்டவை.",
+          "selectedCountSuffix": "தேர்ந்தெடுக்கப்பட்டது",
+          "selectedYet": "இன்னும் தேர்ந்தெடுக்கப்படவில்லை",
+          "fromListBelow": "கீழே உள்ள பட்டியலிலிருந்து.",
+          "libraryTabSuffix": "நூலகம்",
+          "editingMasterListInstruction": "நீங்கள் முதன்மை",
+          "editingMasterListInstructionSuffix": "பட்டியலைத் திருத்துகிறீர்கள். இங்கே அமைக்கப்பட்ட நிறங்கள் அனைத்து பயனர்/வேலைகளுக்கும் ஒரே மாதிரியாகத் தோன்றும்",
+          "inLibrarySuffix": "நூலகத்தில்"
         }
       },
       "teams": {
@@ -19063,7 +19103,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "idIsMissing": "ID காணவில்லை"
+        },
         "descriptions": {
           "setupVisible": false,
           "aNotificationWillBe": {

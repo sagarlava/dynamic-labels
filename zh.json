@@ -6087,6 +6087,13 @@
         "plural": "楼宇",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "楼宇/区块",
+        "plural": "楼宇/区块",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15887,6 +15894,13 @@
         "plural": "稍后分配",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manage": {
+        "original": "Manage",
+        "singular": "管理",
+        "plural": "管理",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16416,6 +16430,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assigned": {
+        "original": "Assigned",
+        "singular": "已分配",
+        "plural": "已分配",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -16705,7 +16726,8 @@
       "setupNotificationsInApp": "暂无应用内通知。创建一个后即可在此查看。",
       "setupSkills": "尚未创建技能。创建一个后即可在此查看。",
       "setupTeams": "尚未创建团队。创建一个后即可在此查看。",
-      "toViewScheduledJobsForToday": "以查看今天的已排程工作"
+      "toViewScheduledJobsForToday": "以查看今天的已排程工作",
+      "enterA": "输入一个"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18415,6 +18437,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec3": {
+            "original": "Library",
+            "singular": "库",
+            "plural": "库",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -18479,7 +18508,18 @@
           "pleaseEnterLevelNames": "请输入等级名称",
           "pleaseEnterRoleNames": "请输入角色名称",
           "pleaseEnterADepartmentName": "请输入部门名称",
-          "assignUserTo": "分配用户到"
+          "assignUserTo": "分配用户到",
+          "orManageFullListSuffix": "或管理完整的",
+          "listSuffix": "列表",
+          "currentlyAssignedSubtitle": "这些是",
+          "currentlyAssignedSuffix": "当前已分配的。",
+          "selectedCountSuffix": "已选",
+          "selectedYet": "尚未选择",
+          "fromListBelow": "从下方列表中选择。",
+          "libraryTabSuffix": "库",
+          "editingMasterListInstruction": "您正在编辑主",
+          "editingMasterListInstructionSuffix": "列表。此处设置的颜色将对所有用户/工作一致显示",
+          "inLibrarySuffix": "在库中"
         }
       },
       "teams": {
@@ -19071,7 +19111,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "idIsMissing": "缺少 ID"
+        },
         "descriptions": {
           "setupVisible": true,
           "aNotificationWillBe": {
