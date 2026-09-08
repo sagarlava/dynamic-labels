@@ -18564,6 +18564,13 @@
           "editingMasterListInstruction": "Sie bearbeiten die Master-",
           "editingMasterListInstructionSuffix": "Liste. Hier festgelegte Farben werden für alle Benutzer/Aufträge einheitlich angezeigt",
           "inLibrarySuffix": "in der Bibliothek"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"Die Qualifikation ist Benutzern zugewiesen",
+          "setupSkillLibraryLinkedToJobOrder":"Die Qualifikation ist mit Aufträgen verknüpft",
+          "setupSkillLibraryLinkedToTemplate":"Die Qualifikation ist mit Auftragsvorlagen verknüpft",
+          "setupSkillLibraryLinkedToJobOrderType":"Die Qualifikation ist mit Auftragsarten verknüpft",
+          "setupSkillLibraryNameRequired":"Qualifikationsname ist erforderlich"
         }
       },
       "teams": {
@@ -19877,6 +19884,24 @@
           "csvOnlyHint": "Nur CSV-Dateien werden akzeptiert.",
           "onlyCsvFilesAllowedError": "Nur CSV-Dateien sind erlaubt",
           "endDateAfterStartDate": "Das Enddatum muss am oder nach dem Startdatum liegen"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"Schichtart ist erforderlich",
+          "setupShiftTypeNotFound":"Schichtart nicht gefunden",
+          "setupShiftTypeInactive":"Eine inaktive Schichtart kann nicht zugewiesen werden",
+          "setupShiftEffectiveStartRequired":"Gültigkeitsbeginn ist erforderlich",
+          "setupShiftEffectiveEndBeforeStart":"Das Gültigkeitsende darf nicht vor dem Gültigkeitsbeginn liegen",
+          "setupShiftAssignmentNotFound":"Schichtzuweisung nicht gefunden",
+          "setupShiftAssigneeTypeRequired":"Zuweisungstyp ist erforderlich",
+          "setupShiftUserRequired":"Zielbenutzer ist erforderlich",
+          "setupShiftUserNotFound":"Benutzer nicht gefunden",
+          "setupShiftUserGroupRequired":"Zielgruppe ist erforderlich",
+          "setupShiftUserGroupNotFound":"Benutzergruppe nicht gefunden",
+          "setupShiftImportTemplateFailed":"Die Importvorlage konnte nicht erstellt werden",
+          "setupShiftExportAssigneeTypeRequired":"Zuweisungstyp ist für den Export erforderlich",
+          "setupShiftExportFailed":"Die Exportdatei konnte nicht erstellt werden",
+          "setupShiftImportFileUnreadable":"Die Importdatei konnte nicht gelesen werden",
+          "setupShiftAssignmentIdsRequired":"Mindestens eine Schichtzuweisungs-ID ist erforderlich"
         }
       }
     },

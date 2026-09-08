@@ -18564,6 +18564,13 @@
           "editingMasterListInstruction": "நீங்கள் முதன்மை",
           "editingMasterListInstructionSuffix": "பட்டியலைத் திருத்துகிறீர்கள். இங்கே அமைக்கப்பட்ட நிறங்கள் அனைத்து பயனர்/வேலைகளுக்கும் ஒரே மாதிரியாகத் தோன்றும்",
           "inLibrarySuffix": "நூலகத்தில்"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"திறன் பயனர்களுக்கு ஒதுக்கப்பட்டுள்ளது",
+          "setupSkillLibraryLinkedToJobOrder":"திறன் வேலை ஆணைகளுடன் இணைக்கப்பட்டுள்ளது",
+          "setupSkillLibraryLinkedToTemplate":"திறன் வேலை ஆணை வார்ப்புருக்களுடன் இணைக்கப்பட்டுள்ளது",
+          "setupSkillLibraryLinkedToJobOrderType":"திறன் வேலை ஆணை வகைகளுடன் இணைக்கப்பட்டுள்ளது",
+          "setupSkillLibraryNameRequired":"திறன் பெயர் தேவை"
         }
       },
       "teams": {
@@ -19877,6 +19884,24 @@
           "csvOnlyHint": "CSV கோப்புகள் மட்டுமே ஏற்றுக்கொள்ளப்படும்.",
           "onlyCsvFilesAllowedError": "CSV கோப்புகள் மட்டுமே அனுமதிக்கப்படும்",
           "endDateAfterStartDate": "முடிவு தேதி தொடக்க தேதிக்கு சமமாகவோ அதற்குப் பிறகோ இருக்க வேண்டும்"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"பணிமுறை வகை தேவை",
+          "setupShiftTypeNotFound":"பணிமுறை வகை கண்டறியப்படவில்லை",
+          "setupShiftTypeInactive":"செயலில் இல்லாத பணிமுறை வகையை ஒதுக்க முடியாது",
+          "setupShiftEffectiveStartRequired":"அமல் தொடக்க தேதி தேவை",
+          "setupShiftEffectiveEndBeforeStart":"அமல் முடிவு தேதி, அமல் தொடக்க தேதிக்கு முன்பாக இருக்கக்கூடாது",
+          "setupShiftAssignmentNotFound":"பணிமுறை ஒதுக்கம் கண்டறியப்படவில்லை",
+          "setupShiftAssigneeTypeRequired":"ஒதுக்கப்பட்டவர் வகை தேவை",
+          "setupShiftUserRequired":"இலக்கு பயனர் தேவை",
+          "setupShiftUserNotFound":"பயனர் கண்டறியப்படவில்லை",
+          "setupShiftUserGroupRequired":"இலக்கு குழு தேவை",
+          "setupShiftUserGroupNotFound":"பயனர் குழு கண்டறியப்படவில்லை",
+          "setupShiftImportTemplateFailed":"இறக்குமதி வார்ப்புருவை உருவாக்க முடியவில்லை",
+          "setupShiftExportAssigneeTypeRequired":"ஏற்றுமதிக்கு ஒதுக்கப்பட்டவர் வகை தேவை",
+          "setupShiftExportFailed":"ஏற்றுமதி கோப்பை உருவாக்க முடியவில்லை",
+          "setupShiftImportFileUnreadable":"இறக்குமதி கோப்பைப் படிக்க முடியவில்லை",
+          "setupShiftAssignmentIdsRequired":"குறைந்தது ஒரு பணிமுறை ஒதுக்கம் ஐடி தேவை"
         }
       }
     },

@@ -18564,6 +18564,13 @@
           "editingMasterListInstruction": "Anda sedang mengedit senarai induk",
           "editingMasterListInstructionSuffix": "Warna yang ditetapkan di sini akan muncul secara konsisten untuk semua pengguna/kerja",
           "inLibrarySuffix": "dalam perpustakaan"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"Kemahiran telah ditetapkan kepada pengguna",
+          "setupSkillLibraryLinkedToJobOrder":"Kemahiran dipautkan kepada pesanan kerja",
+          "setupSkillLibraryLinkedToTemplate":"Kemahiran dipautkan kepada templat pesanan kerja",
+          "setupSkillLibraryLinkedToJobOrderType":"Kemahiran dipautkan kepada jenis pesanan kerja",
+          "setupSkillLibraryNameRequired":"Nama kemahiran diperlukan"
         }
       },
       "teams": {
@@ -19877,6 +19884,24 @@
           "csvOnlyHint": "Hanya fail CSV diterima.",
           "onlyCsvFilesAllowedError": "Hanya fail CSV dibenarkan",
           "endDateAfterStartDate": "Tarikh tamat mesti pada atau selepas tarikh mula"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"Jenis syif diperlukan",
+          "setupShiftTypeNotFound":"Jenis Syif tidak dijumpai",
+          "setupShiftTypeInactive":"Jenis syif yang tidak aktif tidak boleh ditetapkan",
+          "setupShiftEffectiveStartRequired":"Tarikh mula berkuat kuasa diperlukan",
+          "setupShiftEffectiveEndBeforeStart":"Tarikh tamat berkuat kuasa tidak boleh sebelum tarikh mula berkuat kuasa",
+          "setupShiftAssignmentNotFound":"Penetapan Syif tidak dijumpai",
+          "setupShiftAssigneeTypeRequired":"Jenis penerima diperlukan",
+          "setupShiftUserRequired":"Pengguna sasaran diperlukan",
+          "setupShiftUserNotFound":"Pengguna tidak dijumpai",
+          "setupShiftUserGroupRequired":"Kumpulan sasaran diperlukan",
+          "setupShiftUserGroupNotFound":"Kumpulan Pengguna tidak dijumpai",
+          "setupShiftImportTemplateFailed":"Templat import tidak dapat dibina",
+          "setupShiftExportAssigneeTypeRequired":"Jenis penerima diperlukan untuk eksport",
+          "setupShiftExportFailed":"Fail eksport tidak dapat dibina",
+          "setupShiftImportFileUnreadable":"Fail import tidak dapat dibaca",
+          "setupShiftAssignmentIdsRequired":"Sekurang-kurangnya satu id Penetapan Syif diperlukan"
         }
       }
     },

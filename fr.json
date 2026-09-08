@@ -18564,6 +18564,13 @@
           "editingMasterListInstruction": "Vous modifiez la liste principale des",
           "editingMasterListInstructionSuffix": "Les couleurs définies ici apparaîtront de manière cohérente pour tous les utilisateurs/travaux",
           "inLibrarySuffix": "dans la bibliothèque"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"La compétence est affectée à des utilisateurs",
+          "setupSkillLibraryLinkedToJobOrder":"La compétence est liée à des ordres de travail",
+          "setupSkillLibraryLinkedToTemplate":"La compétence est liée à des modèles d'ordre de travail",
+          "setupSkillLibraryLinkedToJobOrderType":"La compétence est liée à des types d'ordre de travail",
+          "setupSkillLibraryNameRequired":"Le nom de la compétence est obligatoire"
         }
       },
       "teams": {
@@ -19877,6 +19884,24 @@
           "csvOnlyHint": "Seuls les fichiers CSV sont acceptés.",
           "onlyCsvFilesAllowedError": "Seuls les fichiers CSV sont autorisés",
           "endDateAfterStartDate": "La date de fin doit être égale ou postérieure à la date de début"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"Le type de poste est obligatoire",
+          "setupShiftTypeNotFound":"Type de poste introuvable",
+          "setupShiftTypeInactive":"Un type de poste inactif ne peut pas être affecté",
+          "setupShiftEffectiveStartRequired":"La date de début de validité est obligatoire",
+          "setupShiftEffectiveEndBeforeStart":"La date de fin de validité ne peut pas être antérieure à la date de début de validité",
+          "setupShiftAssignmentNotFound":"Affectation de poste introuvable",
+          "setupShiftAssigneeTypeRequired":"Le type d'assigné est obligatoire",
+          "setupShiftUserRequired":"L'utilisateur cible est obligatoire",
+          "setupShiftUserNotFound":"Utilisateur introuvable",
+          "setupShiftUserGroupRequired":"Le groupe cible est obligatoire",
+          "setupShiftUserGroupNotFound":"Groupe d'utilisateurs introuvable",
+          "setupShiftImportTemplateFailed":"Le modèle d'importation n'a pas pu être généré",
+          "setupShiftExportAssigneeTypeRequired":"Le type d'assigné est obligatoire pour l'exportation",
+          "setupShiftExportFailed":"Le fichier d'exportation n'a pas pu être généré",
+          "setupShiftImportFileUnreadable":"Le fichier d'importation n'a pas pu être lu",
+          "setupShiftAssignmentIdsRequired":"Au moins un identifiant d'affectation de poste est obligatoire"
         }
       }
     },
