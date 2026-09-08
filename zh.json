@@ -13099,7 +13099,7 @@
       "noContactsFound": "未找到联系人",
       "confirmResendActivationEmail": "您确定要重新发送激活邮件吗？",
       "confirmActivateUser": "您确定要激活该用户吗？",
-      "confirmDeactivateUser": "您确定要停用该用户的帐户吗？停用后，该用户不能再次被激活。",
+      "confirmDeactivateUser": "您确定要停用该用户的帐户吗？如有需要，您可以重新激活该用户。",
       "confirmSuspendUser": "您确定要暂停该用户的帐户吗？"
     }
   },

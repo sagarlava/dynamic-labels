@@ -13091,7 +13091,7 @@
       "noContactsFound": "Aucun contact trouvé",
       "confirmResendActivationEmail": "Êtes-vous sûr de vouloir renvoyer l'e-mail d'activation ?",
       "confirmActivateUser": "Êtes-vous sûr de vouloir activer cet utilisateur ?",
-      "confirmDeactivateUser": "Êtes-vous sûr de vouloir désactiver le compte de cet utilisateur ? Cet utilisateur ne peut pas être réactivé après la désactivation.",
+      "confirmDeactivateUser": "Êtes-vous sûr de vouloir désactiver le compte de cet utilisateur ? Vous pourrez réactiver cet utilisateur si nécessaire.",
       "confirmSuspendUser": "Êtes-vous sûr de vouloir suspendre le compte de cet utilisateur ?"
     }
   },

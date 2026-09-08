@@ -13091,7 +13091,7 @@
       "noContactsFound": "Tiada kontak ditemui",
       "confirmResendActivationEmail": "Adakah anda pasti mahu menghantar semula Email Pengaktifan?",
       "confirmActivateUser": "Adakah anda pasti mahu mengaktifkan pengguna ini?",
-      "confirmDeactivateUser": "Adakah anda pasti mahu menyahaktifkan akaun pengguna ini? Pengguna ini tidak boleh diaktifkan semula selepas penyahaktifan.",
+      "confirmDeactivateUser": "Adakah anda pasti mahu menyahaktifkan akaun pengguna ini? Anda boleh mengaktifkan semula pengguna ini jika perlu.",
       "confirmSuspendUser": "Adakah anda pasti mahu menggantung akaun pengguna ini?"
     }
   },
