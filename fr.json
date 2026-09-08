@@ -6079,6 +6079,13 @@
         "plural": "Bâtiments",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "buildingBlock": {
+        "original": "Building/Block",
+        "singular": "Bâtiment/Bloc",
+        "plural": "Bâtiments/Blocs",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -10265,7 +10272,9 @@
       "linkThis": "Liez ceci",
       "jobTitle": "Titre d'emploi",
       "willBeAssigned": "seront attribués aux membres du groupe dans un ordre circulaire (partagés à tour de rôle entre les membres de l'équipe).",
-      "toAllAdded": "à tous ajoutés"
+      "toAllAdded": "à tous ajoutés",
+      "noJobsScheduledFor": "Aucun travail planifié pour",
+      "scheduledToViewHere": "planifiez pour les voir ici"
     }
   },
   "inventory": {
@@ -13082,7 +13091,7 @@
       "noContactsFound": "Aucun contact trouvé",
       "confirmResendActivationEmail": "Êtes-vous sûr de vouloir renvoyer l'e-mail d'activation ?",
       "confirmActivateUser": "Êtes-vous sûr de vouloir activer cet utilisateur ?",
-      "confirmDeactivateUser": "Êtes-vous sûr de vouloir désactiver le compte de cet utilisateur ? Cet utilisateur ne peut pas être réactivé après la désactivation.",
+      "confirmDeactivateUser": "Êtes-vous sûr de vouloir désactiver le compte de cet utilisateur ? Vous pourrez réactiver cet utilisateur si nécessaire.",
       "confirmSuspendUser": "Êtes-vous sûr de vouloir suspendre le compte de cet utilisateur ?"
     }
   },
@@ -15877,6 +15886,48 @@
         "plural": "Attribuer plus tard",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manage": {
+        "original": "Manage",
+        "singular": "Gérer",
+        "plural": "Gère",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "En masse",
+        "plural": "En masse",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadTemplate": {
+        "original": "Download Template (.csv)",
+        "singular": "Télécharger le modèle (.csv)",
+        "plural": "Télécharger le modèle (.csv)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileUnlimit": {
+        "original": "Choose File",
+        "singular": "Choisir un fichier",
+        "plural": "Choisir un fichier",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmApplyValidRows": {
+        "original": "Confirm & Apply Valid Rows",
+        "singular": "Confirmer et appliquer les lignes valides",
+        "plural": "Confirmer et appliquer les lignes valides",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadErrorReport": {
+        "original": "Download Error Report",
+        "singular": "Télécharger le rapport d’erreurs",
+        "plural": "Télécharger le rapport d’erreurs",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16406,6 +16457,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "assigned": {
+        "original": "Assigned",
+        "singular": "Assigné",
+        "plural": "Assigné",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "onLeave": {
+        "original": "On Leave",
+        "singular": "En congé",
+        "plural": "En congé",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offShift": {
+        "original": "Off Shift",
+        "singular": "Hors quart",
+        "plural": "Hors quart",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Pour que les listes de contrôle incomplètes soient mises à jour à l'avenir. Aucun travail ou tâche ne sera déclenché en utilisant ce statut",
         "thisStatusWillTriggerAnyJobOrders": "Ce statut déclenchera tous les ordres de travail et tâches liés aux réponses de cette liste de contrôle.",
@@ -16470,6 +16542,7 @@
       "disconnectedSuccessfully": "Déconnecté avec succès",
       "updateNotSuccesful": "La mise à jour n'a pas réussi",
       "addedSuccessfully": "Ajouté avec succès",
+      "assignedSuccessfully": "Affecté avec succès",
       "doYouWishToContinue": "Souhaitez-vous continuer ?",
       "approve": "Approuver",
       "confirm": "Confirmer",
@@ -16632,6 +16705,8 @@
       "anLower": "un",
       "orLower": "ou",
       "fromLower": "depuis",
+      "haveBeen": "ont été",
+      "has been": "a été",
       "addClearDesc": "Ajoutez une description claire pour cela",
       "optional": "facultatif",
       "toGetStarted": "Pour commencer",
@@ -16695,7 +16770,8 @@
       "setupNotificationsInApp": "Aucune notification in-app disponible. Créez-en une pour la voir ici.",
       "setupSkills": "Aucune compétence n’a encore été créée. Créez-en une pour la voir ici.",
       "setupTeams": "Aucune équipe n’a encore été créée. Créez-en une pour la voir ici.",
-      "toViewScheduledJobsForToday": "pour voir les travaux planifiés pour aujourd’hui"
+      "toViewScheduledJobsForToday": "pour voir les travaux planifiés pour aujourd’hui",
+      "enterA": "Saisir un"
     },
     "currency": {
       "australianDollar": "EUR",
@@ -18405,6 +18481,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec3": {
+            "original": "Library",
+            "singular": "Bibliothèque",
+            "plural": "Bibliothèques",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -18469,7 +18552,18 @@
           "pleaseEnterLevelNames": "Veuillez entrer les noms des niveaux",
           "pleaseEnterRoleNames": "Veuillez saisir les noms de rôle",
           "pleaseEnterADepartmentName": "Veuillez entrer un nom de département",
-          "assignUserTo": "Attribuer des utilisateurs à"
+          "assignUserTo": "Attribuer des utilisateurs à",
+          "orManageFullListSuffix": "ou gérer la liste complète des",
+          "listSuffix": "liste",
+          "currentlyAssignedSubtitle": "Voici les",
+          "currentlyAssignedSuffix": "actuellement assignés.",
+          "selectedCountSuffix": "sélectionné",
+          "selectedYet": "pas encore sélectionné",
+          "fromListBelow": "dans la liste ci-dessous.",
+          "libraryTabSuffix": "Bibliothèque",
+          "editingMasterListInstruction": "Vous modifiez la liste principale des",
+          "editingMasterListInstructionSuffix": "Les couleurs définies ici apparaîtront de manière cohérente pour tous les utilisateurs/travaux",
+          "inLibrarySuffix": "dans la bibliothèque"
         }
       },
       "teams": {
@@ -18853,6 +18947,20 @@
             "plural": "Télécharger le logo",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec24": {
+            "original": "Employment",
+            "singular": "Emploi",
+            "plural": "Emploi",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec25": {
+            "original": "Login History",
+            "singular": "Historique de connexion",
+            "plural": "Historique de connexion",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19059,9 +19167,39 @@
             "plural": "Langues par défaut",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "designation": {
+            "original": "Designation",
+            "singular": "Désignation",
+            "plural": "Désignation",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "loginDate": {
+            "original": "Login Date",
+            "singular": "Date de connexion",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "ipAddress": {
+            "original": "IP Address",
+            "singular": "Adresse IP",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "ID de l’appareil",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "idIsMissing": "L'ID est manquant"
+        },
         "descriptions": {
           "setupVisible": false,
           "aNotificationWillBe": {
@@ -19430,6 +19568,315 @@
           "level": "Niveau",
           "levelOne": "Niveau 1",
           "levelTwo": "Niveau 2"
+        }
+      },
+      "shifts": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Shifts",
+          "singular": "Quart",
+          "plural": "Quarts",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Assignment",
+            "singular": "Affectation",
+            "plural": "Affectations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Day-by-Day Timing",
+            "singular": "Horaires jour par jour",
+            "plural": "Horaires jour par jour",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Step 1 — Download Template",
+            "singular": "Étape 1 — Télécharger le modèle",
+            "plural": "Étape 1 — Télécharger le modèle",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Step 2 — Upload Completed File",
+            "singular": "Étape 2 — Téléverser le fichier complété",
+            "plural": "Étape 2 — Téléverser le fichier complété",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Step 3 — Validation Preview",
+            "singular": "Étape 3 — Aperçu de validation",
+            "plural": "Étape 3 — Aperçu de validation",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Step 4 — Confirm & Apply",
+            "singular": "Étape 4 — Confirmer et appliquer",
+            "plural": "Étape 4 — Confirmer et appliquer",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Statut",
+            "plural": "Statuts",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "Plage de dates",
+            "plural": "Plages de dates",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "Affectation",
+            "plural": "Affectations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "Nom",
+            "plural": "Noms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "Codes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Couleur",
+            "plural": "Couleurs",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "colorTag": {
+            "original": "Color Tag",
+            "singular": "Étiquette de couleur",
+            "plural": "Étiquettes de couleur",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "day": {
+            "original": "Day",
+            "singular": "Jour",
+            "plural": "Jours",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "off": {
+            "original": "Off",
+            "singular": "Repos",
+            "plural": "Repos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "start": {
+            "original": "Start",
+            "singular": "Début",
+            "plural": "Débuts",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "end": {
+            "original": "End",
+            "singular": "Fin",
+            "plural": "Fins",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "duration": {
+            "original": "Duration",
+            "singular": "Durée",
+            "plural": "Durées",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "techniciansAssigned": {
+            "original": "Technicians Assigned",
+            "singular": "Technicien assigné",
+            "plural": "Techniciens assignés",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetUser": {
+            "original": "Target User",
+            "singular": "Utilisateur cible",
+            "plural": "Utilisateurs cibles",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetGroup": {
+            "original": "Target Group",
+            "singular": "Groupe cible",
+            "plural": "Groupes cibles",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveStartDate": {
+            "original": "Effective Start Date",
+            "singular": "Date de début effective",
+            "plural": "Dates de début effectives",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveEndDate": {
+            "original": "Effective End Date",
+            "singular": "Date de fin effective",
+            "plural": "Dates de fin effectives",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effStart": {
+            "original": "Eff. Start",
+            "singular": "Début eff.",
+            "plural": "Début eff.",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effEnd": {
+            "original": "Eff. End",
+            "singular": "Fin eff.",
+            "plural": "Fin eff.",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "source": {
+            "original": "Source",
+            "singular": "Source",
+            "plural": "Sources",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "row": {
+            "original": "Row",
+            "singular": "Ligne",
+            "plural": "Lignes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "identifier": {
+            "original": "Identifier",
+            "singular": "Identifiant",
+            "plural": "Identifiants",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "result": {
+            "original": "Result",
+            "singular": "Résultat",
+            "plural": "Résultats",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "valid": {
+            "original": "Valid",
+            "singular": "Valide",
+            "plural": "Valide",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "error": {
+            "original": "Error",
+            "singular": "Erreur",
+            "plural": "Erreurs",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "areWhere": "sont l’endroit où",
+          "templatesActually": "les modèles sont réellement appliqués. Assignez un modèle à un ou plusieurs",
+          "setHowLong": "définissez la durée de l’affectation et gérez tout ce qui est actif depuis cet écran.",
+          "assignStepToggleView": "Basculer entre",
+          "dependingOn": "selon que vous assignez à toute une équipe d’un coup ou à un seul technicien.",
+          "click": "Cliquez",
+          "chooseThe": "choisissez le",
+          "templateAndPick": "modèle, et sélectionnez le(s) groupe(s) ou utilisateur(s) concernés.",
+          "assignStepSetDates": "Définissez les dates de début et de fin effectives pour contrôler la période d’activité de l’affectation.",
+          "useThe": "Utilisez les",
+          "narrowListDown": "filtres Statut, Plage de dates et Recherche pour réduire la liste à une affectation précise.",
+          "manageStepEditDelete": "Cliquez sur le crayon pour modifier les dates ou le modèle d’une affectation, ou sur l’icône corbeille pour la supprimer.",
+          "manageStepImportExport": "Utilisez Importer pour téléverser des affectations en masse depuis un tableur, ou Exporter pour télécharger la liste actuelle.",
+          "howToUseShiftTypesSubtitle": "sont des modèles réutilisables. Créez-en un ici (p. ex. « Quart AM »), puis assignez-le à n’importe quel nombre d’utilisateurs ou de groupes sans redéfinir les heures à chaque fois.",
+          "configureStepNew": "pour en créer un à partir de zéro.",
+          "configureStepEdit": "sur une ligne existante pour modifier son nom, sa couleur ou ses horaires jour par jour.",
+          "configureStepAssignedCount": "# Assignés indique combien de techniciens s’appuient sur ce modèle aujourd’hui. Vérifiez avant de modifier ou de désactiver.",
+          "configureStepDeactivate": "Désactiver un",
+          "doesntRemoveExisting": "ne supprime pas les affectations existantes ; cela empêche seulement de l’assigner à l’avenir.",
+          "selected": "sélectionné",
+          "rowsSelected": "lignes sélectionnées",
+          "exportSummaryTitle": "Résumé",
+          "exportConfirmMessage": "Vérifiez les filtres ci-dessous, puis confirmez pour exporter les",
+          "shiftNameInput": "Saisissez le nom de ce",
+          "shiftCodeInput": "Saisissez le code de ce",
+          "dayByDayTimingDesc": "Configurez Début / Fin indépendamment par jour. Activez « Off » pour les jours non travaillés. La durée se calcule automatiquement.",
+          "howToUseAssignSubtitle": "Les affectations de quart peuvent s’appliquer de trois façons, chacune avec un niveau de priorité différent.",
+          "groupAssignmentDesc": "Affectation de groupe — Applique un type de quart à tout un groupe. Tous les membres héritent du quart assigné. Un groupe ne peut avoir qu’un seul type de quart à la fois.",
+          "individualPermanentDesc": "Individuel (Permanent) — Assigne un",
+          "individualPermanentAssignsTo": "directement à un",
+          "individualPermanentNoEndDate": "sans date de fin.",
+          "individualOverrideDesc": "Individuel (Remplacement) — Assigne un ",
+          "individualOverrideAssignsTo": "à un",
+          "individualOverrideDateRange": "pour une plage de dates définie, en remplaçant temporairement leur quart existant.",
+          "groupPrecedenceNote": "Remarque :",
+          "groupPrecedenceTakesPrecedence": "les affectations ont toujours priorité sur les affectations individuelles. Si un",
+          "groupPrecedenceBelongsTo": "appartient à un",
+          "groupPrecedenceWithAssignedShift": "avec un quart assigné, ce",
+          "groupPrecedenceShiftOverride": "quart remplacera tout paramètre de quart individuel pour cet",
+          "assignShiftToSelectedButton": "Assigner le quart aux sélectionnés",
+          "individualLockedTooltip": "Champ de quart individuel verrouillé par",
+          "precedence": "priorité",
+          "overlapConflictTooltip": "Conflit de chevauchement avec une affectation existante pour ce",
+          "legendOverlapConflict": "ligne = conflit de chevauchement avec une affectation existante pour ce",
+          "legendIndividualLocked": "= champ de quart individuel verrouillé par",
+          "importColumnsHint": "Colonnes : Identifiant utilisateur/groupe, Code du type de quart, Date de début effective, Date de fin effective",
+          "noFileSelected": "Aucun fichier sélectionné",
+          "rowsSkippedNote": "Les lignes avec erreurs sont ignorées et n’empêchent pas les lignes valides.",
+          "partialSuccessPrefix": "Succès partiel — ",
+          "partialSuccessMiddle": " de",
+          "partialSuccessSuffix": " lignes seront appliquées."
+        },
+        "validationFE": {
+          "atLeastOneDayMustBeWorking": "Au moins un jour doit être décoché (jour travaillé)",
+          "csvOnlyHint": "Seuls les fichiers CSV sont acceptés.",
+          "onlyCsvFilesAllowedError": "Seuls les fichiers CSV sont autorisés",
+          "endDateAfterStartDate": "La date de fin doit être égale ou postérieure à la date de début"
         }
       }
     },
