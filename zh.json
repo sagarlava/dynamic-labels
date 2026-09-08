@@ -15901,6 +15901,41 @@
         "plural": "管理",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "批量",
+        "plural": "批量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadTemplate": {
+        "original": "Download Template (.csv)",
+        "singular": "下载模板 (.csv)",
+        "plural": "下载模板 (.csv)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileUnlimit": {
+        "original": "Choose File",
+        "singular": "选择文件",
+        "plural": "选择文件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmApplyValidRows": {
+        "original": "Confirm & Apply Valid Rows",
+        "singular": "确认并应用有效行",
+        "plural": "确认并应用有效行",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadErrorReport": {
+        "original": "Download Error Report",
+        "singular": "下载错误报告",
+        "plural": "下载错误报告",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16437,6 +16472,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "onLeave": {
+        "original": "On Leave",
+        "singular": "请假中",
+        "plural": "请假中",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offShift": {
+        "original": "Off Shift",
+        "singular": "非班次",
+        "plural": "非班次",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -16501,6 +16550,7 @@
       "disconnectedSuccessfully": "断开连接成功",
       "updateNotSuccesful": "更新失败",
       "addedSuccessfully": "添加成功",
+      "assignedSuccessfully": "分配成功",
       "doYouWishToContinue": "你希望继续吗？",
       "approve": "批准",
       "confirm": "确认",
@@ -16663,6 +16713,8 @@
       "anLower": "",
       "orLower": "或",
       "fromLower": "从",
+      "haveBeen": "已",
+      "has been": "已",
       "addClearDesc": "为此添加清晰的描述",
       "optional": "可选",
       "toGetStarted": "开始使用",
@@ -18903,6 +18955,20 @@
             "plural": "上传徽标",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec24": {
+            "original": "Employment",
+            "singular": "雇佣信息",
+            "plural": "雇佣信息",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec25": {
+            "original": "Login History",
+            "singular": "登录历史",
+            "plural": "登录历史",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19108,6 +19174,34 @@
             "singular": "默认语言",
             "plural": "默认语言",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "designation": {
+            "original": "Designation",
+            "singular": "职位",
+            "plural": "职位",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "loginDate": {
+            "original": "Login Date",
+            "singular": "登录日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "ipAddress": {
+            "original": "IP Address",
+            "singular": "IP 地址",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "设备 ID",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -19482,6 +19576,315 @@
           "level": "级别",
           "levelOne": "一级",
           "levelTwo": "二级"
+        }
+      },
+      "shifts": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Shifts",
+          "singular": "班次",
+          "plural": "班次",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Assignment",
+            "singular": "分配",
+            "plural": "分配",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Day-by-Day Timing",
+            "singular": "按日时段",
+            "plural": "按日时段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Step 1 — Download Template",
+            "singular": "步骤 1 — 下载模板",
+            "plural": "步骤 1 — 下载模板",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Step 2 — Upload Completed File",
+            "singular": "步骤 2 — 上传已完成文件",
+            "plural": "步骤 2 — 上传已完成文件",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Step 3 — Validation Preview",
+            "singular": "步骤 3 — 验证预览",
+            "plural": "步骤 3 — 验证预览",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Step 4 — Confirm & Apply",
+            "singular": "步骤 4 — 确认并应用",
+            "plural": "步骤 4 — 确认并应用",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "日期范围",
+            "plural": "日期范围",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "分配",
+            "plural": "分配",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "代码",
+            "plural": "代码",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "颜色",
+            "plural": "颜色",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "colorTag": {
+            "original": "Color Tag",
+            "singular": "颜色标签",
+            "plural": "颜色标签",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "day": {
+            "original": "Day",
+            "singular": "日",
+            "plural": "天",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "off": {
+            "original": "Off",
+            "singular": "休息",
+            "plural": "休息",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "start": {
+            "original": "Start",
+            "singular": "开始",
+            "plural": "开始",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "end": {
+            "original": "End",
+            "singular": "结束",
+            "plural": "结束",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "duration": {
+            "original": "Duration",
+            "singular": "时长",
+            "plural": "时长",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "techniciansAssigned": {
+            "original": "Technicians Assigned",
+            "singular": "已分配技术员",
+            "plural": "已分配技术员",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetUser": {
+            "original": "Target User",
+            "singular": "目标用户",
+            "plural": "目标用户",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetGroup": {
+            "original": "Target Group",
+            "singular": "目标组",
+            "plural": "目标组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveStartDate": {
+            "original": "Effective Start Date",
+            "singular": "生效开始日期",
+            "plural": "生效开始日期",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveEndDate": {
+            "original": "Effective End Date",
+            "singular": "生效结束日期",
+            "plural": "生效结束日期",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effStart": {
+            "original": "Eff. Start",
+            "singular": "生效开始",
+            "plural": "生效开始",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effEnd": {
+            "original": "Eff. End",
+            "singular": "生效结束",
+            "plural": "生效结束",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "source": {
+            "original": "Source",
+            "singular": "来源",
+            "plural": "来源",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "row": {
+            "original": "Row",
+            "singular": "行",
+            "plural": "行",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "identifier": {
+            "original": "Identifier",
+            "singular": "标识符",
+            "plural": "标识符",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "result": {
+            "original": "Result",
+            "singular": "结果",
+            "plural": "结果",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "valid": {
+            "original": "Valid",
+            "singular": "有效",
+            "plural": "有效",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "error": {
+            "original": "Error",
+            "singular": "错误",
+            "plural": "错误",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "areWhere": "是",
+          "templatesActually": "模板实际被应用。将模板分配给一个或多个",
+          "setHowLong": "设置分配运行时长，并在此屏幕管理当前所有活动项。",
+          "assignStepToggleView": "切换",
+          "dependingOn": "取决于您是一次分配给整个团队还是单个技术员。",
+          "click": "点击",
+          "chooseThe": "选择",
+          "templateAndPick": "模板，并选择适用的组或用户。",
+          "assignStepSetDates": "设置生效开始和结束日期，以控制分配的有效时间窗口。",
+          "useThe": "使用",
+          "narrowListDown": "状态、日期范围和搜索筛选器，将列表缩小到特定分配。",
+          "manageStepEditDelete": "点击铅笔图标可编辑分配的日期或模板，或点击垃圾桶图标将其删除。",
+          "manageStepImportExport": "使用导入从电子表格批量上传分配，或使用导出下载当前列表。",
+          "howToUseShiftTypesSubtitle": "是可复用模板。在此创建一个（例如“早班”），之后可分配给任意数量的用户或组，无需每次重新定义工时。",
+          "configureStepNew": "以从头创建。",
+          "configureStepEdit": "在现有行上更改其名称、颜色或按日时段。",
+          "configureStepAssignedCount": "# 已分配显示今天有多少技术员依赖该模板。编辑或停用前请先检查。",
+          "configureStepDeactivate": "停用",
+          "doesntRemoveExisting": "不会删除现有分配；仅阻止今后再被分配。",
+          "selected": "已选择",
+          "rowsSelected": "行已选择",
+          "exportSummaryTitle": "摘要",
+          "exportConfirmMessage": "检查下方筛选条件，然后确认导出匹配的",
+          "shiftNameInput": "输入此",
+          "shiftCodeInput": "输入此",
+          "dayByDayTimingDesc": "按日独立配置开始/结束。非工作日切换为“休息”。时长自动计算。",
+          "howToUseAssignSubtitle": "班次分配可通过三种方式应用，各自优先级不同。",
+          "groupAssignmentDesc": "组分配 — 将班次类型应用于整个组。所有成员继承所分配班次。同一时间一个组只能分配一种班次类型。",
+          "individualPermanentDesc": "个人（永久）— 分配一个",
+          "individualPermanentAssignsTo": "直接给特定",
+          "individualPermanentNoEndDate": "无结束日期。",
+          "individualOverrideDesc": "个人（覆盖）— 分配一个 ",
+          "individualOverrideAssignsTo": "给特定",
+          "individualOverrideDateRange": "在指定日期范围内，临时覆盖其现有班次。",
+          "groupPrecedenceNote": "注意：",
+          "groupPrecedenceTakesPrecedence": "分配始终优先于个人分配。如果一个",
+          "groupPrecedenceBelongsTo": "属于一个",
+          "groupPrecedenceWithAssignedShift": "已有分配班次，该",
+          "groupPrecedenceShiftOverride": "班次将覆盖该用户的任何个人班次设置",
+          "assignShiftToSelectedButton": "将班次分配给所选",
+          "individualLockedTooltip": "个人班次字段被锁定，由",
+          "precedence": "优先级",
+          "overlapConflictTooltip": "与此现有分配存在重叠冲突",
+          "legendOverlapConflict": "行 = 与该现有分配存在重叠冲突",
+          "legendIndividualLocked": "= 个人班次字段被锁定，由",
+          "importColumnsHint": "列：用户/组标识符、班次类型代码、生效开始日期、生效结束日期",
+          "noFileSelected": "未选择文件",
+          "rowsSkippedNote": "有错误的行将被跳过，不会阻止有效行。",
+          "partialSuccessPrefix": "部分成功 — ",
+          "partialSuccessMiddle": "的",
+          "partialSuccessSuffix": " 行将被应用。"
+        },
+        "validationFE": {
+          "atLeastOneDayMustBeWorking": "至少有一天必须取消勾选（工作日）",
+          "csvOnlyHint": "仅接受 CSV 文件。",
+          "onlyCsvFilesAllowedError": "仅允许 CSV 文件",
+          "endDateAfterStartDate": "结束日期必须等于或晚于开始日期"
         }
       }
     },

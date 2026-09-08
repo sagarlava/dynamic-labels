@@ -15893,6 +15893,41 @@
         "plural": "Gestiona",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Masivo",
+        "plural": "Masivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadTemplate": {
+        "original": "Download Template (.csv)",
+        "singular": "Descargar plantilla (.csv)",
+        "plural": "Descargar plantilla (.csv)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileUnlimit": {
+        "original": "Choose File",
+        "singular": "Elegir archivo",
+        "plural": "Elegir archivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmApplyValidRows": {
+        "original": "Confirm & Apply Valid Rows",
+        "singular": "Confirmar y aplicar filas válidas",
+        "plural": "Confirmar y aplicar filas válidas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadErrorReport": {
+        "original": "Download Error Report",
+        "singular": "Descargar informe de errores",
+        "plural": "Descargar informe de errores",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16429,6 +16464,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "onLeave": {
+        "original": "On Leave",
+        "singular": "De permiso",
+        "plural": "De permiso",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offShift": {
+        "original": "Off Shift",
+        "singular": "Fuera de turno",
+        "plural": "Fuera de turno",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -16493,6 +16542,7 @@
       "disconnectedSuccessfully": "Desconectado con éxito",
       "updateNotSuccesful": "Actualización no exitosa",
       "addedSuccessfully": "Añadido con éxito",
+      "assignedSuccessfully": "Asignado correctamente",
       "doYouWishToContinue": "¿Desea continuar?",
       "approve": "Aprobar",
       "confirm": "Confirmar",
@@ -16655,6 +16705,8 @@
       "anLower": "un/una",
       "orLower": "o",
       "fromLower": "de",
+      "haveBeen": "han sido",
+      "has been": "ha sido",
       "addClearDesc": "Agregue una descripción clara para este",
       "optional": "opcional",
       "toGetStarted": "Para comenzar",
@@ -18895,6 +18947,20 @@
             "plural": "Subir Logo",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec24": {
+            "original": "Employment",
+            "singular": "Empleo",
+            "plural": "Empleo",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec25": {
+            "original": "Login History",
+            "singular": "Historial de inicio de sesión",
+            "plural": "Historial de inicio de sesión",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19100,6 +19166,34 @@
             "singular": "Idioma Predeterminado",
             "plural": "Idiomas Predeterminados",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "designation": {
+            "original": "Designation",
+            "singular": "Designación",
+            "plural": "Designación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "loginDate": {
+            "original": "Login Date",
+            "singular": "Fecha de inicio de sesión",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "ipAddress": {
+            "original": "IP Address",
+            "singular": "Dirección IP",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "ID del dispositivo",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -19474,6 +19568,315 @@
           "level": "Nivel",
           "levelOne": "Nivel 1",
           "levelTwo": "Nivel 2"
+        }
+      },
+      "shifts": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Shifts",
+          "singular": "Turno",
+          "plural": "Turnos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Type",
+            "singular": "Tipo",
+            "plural": "Tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Assignment",
+            "singular": "Asignación",
+            "plural": "Asignaciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Day-by-Day Timing",
+            "singular": "Cronograma día a día",
+            "plural": "Cronograma día a día",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Step 1 — Download Template",
+            "singular": "Paso 1: Descargar plantilla",
+            "plural": "Paso 1: Descargar plantilla",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Step 2 — Upload Completed File",
+            "singular": "Paso 2: cargar el archivo completo",
+            "plural": "Paso 2: cargar el archivo completo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Step 3 — Validation Preview",
+            "singular": "Paso 3: Vista previa de validación",
+            "plural": "Paso 3: Vista previa de validación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Step 4 — Confirm & Apply",
+            "singular": "Paso 4: Confirmar y aplicar",
+            "plural": "Paso 4: Confirmar y aplicar",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "Tipo",
+            "plural": "Tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Estado",
+            "plural": "Estados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "Rango de fechas",
+            "plural": "Rangos de fechas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "Asignación",
+            "plural": "Asignaciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "Nombre",
+            "plural": "Nombres",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "Código",
+            "plural": "Códigos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Colores",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "colorTag": {
+            "original": "Color Tag",
+            "singular": "Etiqueta de color",
+            "plural": "Etiquetas de colores",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "day": {
+            "original": "Day",
+            "singular": "Día",
+            "plural": "Días",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "off": {
+            "original": "Off",
+            "singular": "Libre",
+            "plural": "Libre",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "start": {
+            "original": "Start",
+            "singular": "Inicio",
+            "plural": "Inicios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "end": {
+            "original": "End",
+            "singular": "Fin",
+            "plural": "Fines",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "duration": {
+            "original": "Duration",
+            "singular": "Duración",
+            "plural": "Duraciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "techniciansAssigned": {
+            "original": "Technicians Assigned",
+            "singular": "Técnico asignado",
+            "plural": "Técnicos Asignados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetUser": {
+            "original": "Target User",
+            "singular": "Usuario objetivo",
+            "plural": "Usuarios objetivo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetGroup": {
+            "original": "Target Group",
+            "singular": "Grupo objetivo",
+            "plural": "Grupos objetivo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveStartDate": {
+            "original": "Effective Start Date",
+            "singular": "Fecha de inicio efectiva",
+            "plural": "Fechas de inicio efectivas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveEndDate": {
+            "original": "Effective End Date",
+            "singular": "Fecha de finalización efectiva",
+            "plural": "Fechas de finalización efectivas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effStart": {
+            "original": "Eff. Start",
+            "singular": "Ef. Comenzar",
+            "plural": "Ef. Comenzar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effEnd": {
+            "original": "Eff. End",
+            "singular": "Ef. Fin",
+            "plural": "Ef. Fin",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "source": {
+            "original": "Source",
+            "singular": "Fuente",
+            "plural": "Fuentes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "row": {
+            "original": "Row",
+            "singular": "Fila",
+            "plural": "Filas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "identifier": {
+            "original": "Identifier",
+            "singular": "Identificador",
+            "plural": "Identificadores",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "result": {
+            "original": "Result",
+            "singular": "Resultado",
+            "plural": "Resultados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "valid": {
+            "original": "Valid",
+            "singular": "Válido",
+            "plural": "Válido",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "error": {
+            "original": "Error",
+            "singular": "Error",
+            "plural": "Errores",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "areWhere": "estan donde",
+          "templatesActually": "las plantillas realmente se aplican. Asignar una plantilla a uno o más",
+          "setHowLong": "establezca cuánto tiempo se ejecutará la tarea y administre todo lo que está actualmente activo desde esta única pantalla.",
+          "assignStepToggleView": "Alternar entre",
+          "dependingOn": "dependiendo de si estás asignando a todo un equipo a la vez o a un solo técnico.",
+          "click": "Haga clic",
+          "chooseThe": "elige el",
+          "templateAndPick": "plantilla y elija los grupos o usuarios a los que se aplica.",
+          "assignStepSetDates": "Establezca las fechas de inicio y finalización efectivas para controlar la ventana durante la cual está activa la tarea.",
+          "useThe": "Utilice el",
+          "narrowListDown": "Filtros de estado, rango de fechas y búsqueda para limitar la lista a una tarea específica.",
+          "manageStepEditDelete": "Haga clic en el lápiz para editar las fechas o la plantilla de una tarea, o en el ícono de la papelera para eliminarla.",
+          "manageStepImportExport": "Utilice Importar para cargar tareas de forma masiva desde una hoja de cálculo o Exportar para descargar la lista actual.",
+          "howToUseShiftTypesSubtitle": "Son plantillas reutilizables. Cree uno aquí (por ejemplo, 'Turno de mañana') y podrá asignarlo a cualquier número de usuarios o grupos posteriormente en lugar de redefinir las horas cada vez.",
+          "configureStepNew": "para crear uno desde cero.",
+          "configureStepEdit": "en una fila existente para cambiar su nombre, color o sincronización día a día.",
+          "configureStepAssignedCount": "# Asignado le indica cuántos técnicos dependen de esa plantilla hoy. Verifique esto antes de editar o desactivar uno.",
+          "configureStepDeactivate": "Desactivar un",
+          "doesntRemoveExisting": "no elimina las asignaciones existentes; solo impide que se asigne en el futuro.",
+          "selected": "seleccionado",
+          "rowsSelected": "filas seleccionadas",
+          "exportSummaryTitle": "Resumen",
+          "exportConfirmMessage": "Revise los filtros a continuación y luego confirme para exportar la coincidencia.",
+          "shiftNameInput": "Introduce el nombre de este",
+          "shiftCodeInput": "Introduce el código de este",
+          "dayByDayTimingDesc": "Configurar Inicio/Fin de forma independiente por día. Cambie a 'Desactivado' para los días no laborables. La duración se calcula automáticamente.",
+          "howToUseAssignSubtitle": "Las asignaciones de turnos se pueden aplicar de tres maneras, cada una con un nivel diferente de prioridad.",
+          "groupAssignmentDesc": "Asignación de grupo: aplica un tipo de turno a todo un grupo. Todos los miembros heredan el turno asignado. A un grupo solo se le puede asignar un tipo de turno en un momento dado.",
+          "individualPermanentDesc": "Individual (Permanente): asigna un",
+          "individualPermanentAssignsTo": "directamente a un determinado",
+          "individualPermanentNoEndDate": "sin fecha de finalización.",
+          "individualOverrideDesc": "Individual (Anulación): asigna un",
+          "individualOverrideAssignsTo": "a un especifico",
+          "individualOverrideDateRange": "para un rango de fechas definido, anulando temporalmente su turno existente.",
+          "groupPrecedenceNote": "Nota:",
+          "groupPrecedenceTakesPrecedence": "Las asignaciones siempre tienen prioridad sobre las asignaciones individuales. si un",
+          "groupPrecedenceBelongsTo": "pertenece a un",
+          "groupPrecedenceWithAssignedShift": "con un turno asignado, que",
+          "groupPrecedenceShiftOverride": "Shift anulará cualquier configuración de turno individual para ese",
+          "assignShiftToSelectedButton": "Asignar turno a seleccionado",
+          "individualLockedTooltip": "Campo de turno individual bloqueado por",
+          "precedence": "precedencia",
+          "overlapConflictTooltip": "Conflicto de superposición con una asignación existente para este",
+          "legendOverlapConflict": "fila = conflicto de superposición contra una asignación existente para esa",
+          "legendIndividualLocked": "= campo de turno individual bloqueado por",
+          "importColumnsHint": "Columnas: Identificador de usuario/grupo, Código de tipo de turno, Fecha de inicio efectiva, Fecha de finalización efectiva",
+          "noFileSelected": "Ningún archivo seleccionado",
+          "rowsSkippedNote": "Las filas con errores se omiten, no bloqueando las filas válidas.",
+          "partialSuccessPrefix": "Éxito parcial",
+          "partialSuccessMiddle": "de",
+          "partialSuccessSuffix": "Se aplicarán filas."
+        },
+        "validationFE": {
+          "atLeastOneDayMustBeWorking": "Al menos un día debe estar desmarcado (día laborable)",
+          "csvOnlyHint": "Solo se aceptan archivos CSV.",
+          "onlyCsvFilesAllowedError": "Solo se permiten archivos CSV",
+          "endDateAfterStartDate": "La fecha de finalización debe ser igual o posterior a la fecha de inicio"
         }
       }
     },

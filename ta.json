@@ -15893,6 +15893,41 @@
         "plural": "நிர்வகிக்கிறது",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "மொத்தம்",
+        "plural": "மொத்தம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadTemplate": {
+        "original": "Download Template (.csv)",
+        "singular": "டெம்ப்ளேட்டைப் பதிவிறக்கவும் (.csv)",
+        "plural": "டெம்ப்ளேட்டைப் பதிவிறக்கவும் (.csv)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileUnlimit": {
+        "original": "Choose File",
+        "singular": "கோப்பைத் தேர்ந்தெடுக்கவும்",
+        "plural": "கோப்பைத் தேர்ந்தெடுக்கவும்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmApplyValidRows": {
+        "original": "Confirm & Apply Valid Rows",
+        "singular": "உறுதிப்படுத்தி செல்லுபடியாகும் வரிசைகளைப் பயன்படுத்தவும்",
+        "plural": "உறுதிப்படுத்தி செல்லுபடியாகும் வரிசைகளைப் பயன்படுத்தவும்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadErrorReport": {
+        "original": "Download Error Report",
+        "singular": "பிழை அறிக்கையைப் பதிவிறக்கவும்",
+        "plural": "பிழை அறிக்கையைப் பதிவிறக்கவும்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16429,6 +16464,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "onLeave": {
+        "original": "On Leave",
+        "singular": "விடுப்பில்",
+        "plural": "விடுப்பில்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offShift": {
+        "original": "Off Shift",
+        "singular": "ஷிப்ட் அல்லாதது",
+        "plural": "ஷிப்ட் அல்லாதது",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "முழுமையற்ற சரிபார்ப்புப் பட்டியல்கள் எதிர்காலத்தில் புதுப்பிக்கப்படும். இந்த நிலையைப் பயன்படுத்தி வேலைகள் அல்லது பணிகள் எதுவும் தூண்டப்படாது",
         "thisStatusWillTriggerAnyJobOrders": "இந்தச் சரிபார்ப்புப் பட்டியலின் பதில்கள் தொடர்பான எந்த வேலை ஆணைகளையும் பணிகளையும் இந்த நிலை தூண்டும்",
@@ -16493,6 +16542,7 @@
       "disconnectedSuccessfully": "வெற்றிகரமாக துண்டிக்கப்பட்டது",
       "updateNotSuccesful": "புதுப்பிப்பு வெற்றிபெறவில்லை",
       "addedSuccessfully": "வெற்றிகரமாக சேர்க்கப்பட்டது",
+      "assignedSuccessfully": "வெற்றிகரமாக ஒதுக்கப்பட்டது",
       "doYouWishToContinue": "நீங்கள் தொடர விரும்புகிறீர்களா?",
       "approve": "ஒப்புதல்",
       "confirm": "உறுதிப்படுத்தவும்",
@@ -16655,6 +16705,8 @@
       "anLower": "ஒரு",
       "orLower": "அல்லது",
       "fromLower": "இருந்து",
+      "haveBeen": "செய்யப்பட்டன",
+      "has been": "செய்யப்பட்டது",
       "addClearDesc": "இதற்கான தெளிவான விளக்கத்தைச் சேர்க்கவும்",
       "optional": "விருப்பமானது",
       "toGetStarted": "தொடங்குவதற்கு",
@@ -18895,6 +18947,20 @@
             "plural": "லோகோவைப் பதிவேற்றவும்",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec24": {
+            "original": "Employment",
+            "singular": "வேலைவாய்ப்பு",
+            "plural": "வேலைவாய்ப்பு",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec25": {
+            "original": "Login History",
+            "singular": "உள்நுழைவு வரலாறு",
+            "plural": "உள்நுழைவு வரலாறு",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19100,6 +19166,34 @@
             "singular": "இயல்பு மொழி",
             "plural": "இயல்பு மொழிகள்",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "designation": {
+            "original": "Designation",
+            "singular": "பதவி",
+            "plural": "பதவி",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "loginDate": {
+            "original": "Login Date",
+            "singular": "உள்நுழைவு தேதி",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "ipAddress": {
+            "original": "IP Address",
+            "singular": "IP முகவரி",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "சாதன ID",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -19474,6 +19568,315 @@
           "level": "நிலை",
           "levelOne": "நிலை 1",
           "levelTwo": "நிலை 2"
+        }
+      },
+      "shifts": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Shifts",
+          "singular": "ஷிப்ட்",
+          "plural": "ஷிப்ட்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Type",
+            "singular": "வகை",
+            "plural": "வகைகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Assignment",
+            "singular": "ஒதுக்கீடு",
+            "plural": "ஒதுக்கீடுகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Day-by-Day Timing",
+            "singular": "நாள் வாரியான நேரம்",
+            "plural": "நாள் வாரியான நேரம்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Step 1 — Download Template",
+            "singular": "படி 1 — டெம்ப்ளேட்டைப் பதிவிறக்கவும்",
+            "plural": "படி 1 — டெம்ப்ளேட்டைப் பதிவிறக்கவும்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Step 2 — Upload Completed File",
+            "singular": "படி 2 — நிரப்பிய கோப்பைப் பதிவேற்றவும்",
+            "plural": "படி 2 — நிரப்பிய கோப்பைப் பதிவேற்றவும்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Step 3 — Validation Preview",
+            "singular": "படி 3 — சரிபார்ப்பு முன்னோட்டம்",
+            "plural": "படி 3 — சரிபார்ப்பு முன்னோட்டம்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Step 4 — Confirm & Apply",
+            "singular": "படி 4 — உறுதிப்படுத்தி பயன்படுத்தவும்",
+            "plural": "படி 4 — உறுதிப்படுத்தி பயன்படுத்தவும்",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "வகை",
+            "plural": "வகைகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "நிலை",
+            "plural": "நிலைகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "தேதி வரம்பு",
+            "plural": "தேதி வரம்புகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "ஒதுக்கீடு",
+            "plural": "ஒதுக்கீடுகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "பெயர்",
+            "plural": "பெயர்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "குறியீடு",
+            "plural": "குறியீடுகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "நிறம்",
+            "plural": "நிறங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "colorTag": {
+            "original": "Color Tag",
+            "singular": "நிறக் குறி",
+            "plural": "நிறக் குறிகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "day": {
+            "original": "Day",
+            "singular": "நாள்",
+            "plural": "நாட்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "off": {
+            "original": "Off",
+            "singular": "விடுப்பு",
+            "plural": "விடுப்பு",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "start": {
+            "original": "Start",
+            "singular": "தொடக்கம்",
+            "plural": "தொடக்கங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "end": {
+            "original": "End",
+            "singular": "முடிவு",
+            "plural": "முடிவுகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "duration": {
+            "original": "Duration",
+            "singular": "காலம்",
+            "plural": "காலங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "techniciansAssigned": {
+            "original": "Technicians Assigned",
+            "singular": "ஒதுக்கப்பட்ட தொழில்நுட்பவியலாளர்",
+            "plural": "ஒதுக்கப்பட்ட தொழில்நுட்பவியலாளர்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetUser": {
+            "original": "Target User",
+            "singular": "இலக்கு பயனர்",
+            "plural": "இலக்கு பயனர்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetGroup": {
+            "original": "Target Group",
+            "singular": "இலக்கு குழு",
+            "plural": "இலக்கு குழுக்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveStartDate": {
+            "original": "Effective Start Date",
+            "singular": "செயல்திறன் தொடக்க தேதி",
+            "plural": "செயல்திறன் தொடக்க தேதிகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveEndDate": {
+            "original": "Effective End Date",
+            "singular": "செயல்திறன் முடிவு தேதி",
+            "plural": "செயல்திறன் முடிவு தேதிகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effStart": {
+            "original": "Eff. Start",
+            "singular": "தொடக்கம்",
+            "plural": "தொடக்கம்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effEnd": {
+            "original": "Eff. End",
+            "singular": "முடிவு",
+            "plural": "முடிவு",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "source": {
+            "original": "Source",
+            "singular": "மூலம்",
+            "plural": "மூலங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "row": {
+            "original": "Row",
+            "singular": "வரிசை",
+            "plural": "வரிசைகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "identifier": {
+            "original": "Identifier",
+            "singular": "அடையாளங்காட்டி",
+            "plural": "அடையாளங்காட்டிகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "result": {
+            "original": "Result",
+            "singular": "முடிவு",
+            "plural": "முடிவுகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "valid": {
+            "original": "Valid",
+            "singular": "செல்லுபடியாகும்",
+            "plural": "செல்லுபடியாகும்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "error": {
+            "original": "Error",
+            "singular": "பிழை",
+            "plural": "பிழைகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "areWhere": "எங்கே",
+          "templatesActually": "டெம்ப்ளேட்கள் உண்மையில் பயன்படுத்தப்படுகின்றன. ஒன்று அல்லது அதற்கு மேற்பட்டவற்றுக்கு ஒரு டெம்ப்ளேட்டை ஒதுக்கவும்",
+          "setHowLong": "ஒதுக்கீடு எவ்வளவு நேரம் இயங்கும் என்பதை அமைத்து, செயலில் உள்ள அனைத்தையும் இந்தத் திரையிலிருந்து நிர்வகியுங்கள்.",
+          "assignStepToggleView": "இடையே மாற்றவும்",
+          "dependingOn": "முழு அணியையும் ஒரே நேரத்தில் ஒதுக்குகிறீர்களா அல்லது ஒரு தொழில்நுட்பவியலாளரை மட்டும் ஒதுக்குகிறீர்களா என்பதைப் பொறுத்து.",
+          "click": "கிளிக் செய்யவும்",
+          "chooseThe": "தேர்ந்தெடுக்கவும்",
+          "templateAndPick": "டெம்ப்ளேட், மற்றும் அது பொருந்தும் குழு(க்கள்) அல்லது பயனர்(கள்) ஐத் தேர்ந்தெடுக்கவும்.",
+          "assignStepSetDates": "ஒதுக்கீடு செயலில் இருக்கும் காலத்தைக் கட்டுப்படுத்த செயல்திறன் தொடக்க மற்றும் முடிவு தேதிகளை அமைக்கவும்.",
+          "useThe": "பயன்படுத்தவும்",
+          "narrowListDown": "நிலை, தேதி வரம்பு மற்றும் தேடல் வடிகட்டிகளைப் பயன்படுத்தி பட்டியலை ஒரு குறிப்பிட்ட ஒதுக்கீட்டிற்கு சுருக்கவும்.",
+          "manageStepEditDelete": "ஒதுக்கீட்டின் தேதிகள் அல்லது டெம்ப்ளேட்டைத் திருத்த பென்சிலைக் கிளிக் செய்யவும், அல்லது அகற்ற குப்பை ஐகானைக் கிளிக் செய்யவும்.",
+          "manageStepImportExport": "விரிதாளிலிருந்து ஒதுக்கீடுகளை மொத்தமாகப் பதிவேற்ற இறக்குமதியைப் பயன்படுத்தவும், அல்லது தற்போதைய பட்டியலைப் பதிவிறக்க ஏற்றுமதியைப் பயன்படுத்தவும்.",
+          "howToUseShiftTypesSubtitle": "மீண்டும் பயன்படுத்தக்கூடிய டெம்ப்ளேட்கள். இங்கே ஒன்றை உருவாக்கவும் (எ.கா. 'காலை ஷிப்ட்'), பின்னர் ஒவ்வொரு முறையும் மணிநேரங்களை மறுவரையறை செய்யாமல் எத்தனை பயனர் அல்லது குழுக்களுக்கும் ஒதுக்கலாம்.",
+          "configureStepNew": "புதிதாக ஒன்றை உருவாக்க.",
+          "configureStepEdit": "ஏற்கனவே உள்ள வரிசையில் பெயர், நிறம் அல்லது நாள் வாரியான நேரத்தை மாற்ற.",
+          "configureStepAssignedCount": "# ஒதுக்கப்பட்டது இன்று எத்தனை தொழில்நுட்பவியலாளர்கள் அந்த டெம்ப்ளேட்டை நம்பியிருக்கிறார்கள் என்பதைக் காட்டுகிறது. திருத்தும் அல்லது செயலிழக்கும் முன் சரிபார்க்கவும்.",
+          "configureStepDeactivate": "செயலிழக்கச் செய்வது",
+          "doesntRemoveExisting": "ஏற்கனவே உள்ள ஒதுக்கீடுகளை அகற்றாது; இனிமேல் ஒதுக்கப்படுவதை மட்டும் தடுக்கிறது.",
+          "selected": "தேர்ந்தெடுக்கப்பட்டது",
+          "rowsSelected": "வரிசைகள் தேர்ந்தெடுக்கப்பட்டன",
+          "exportSummaryTitle": "சுருக்கம்",
+          "exportConfirmMessage": "கீழே உள்ள வடிகட்டிகளை மதிப்பாய்வு செய்து, பொருந்தும்",
+          "shiftNameInput": "இதன் பெயரை உள்ளிடவும்",
+          "shiftCodeInput": "இதன் குறியீட்டை உள்ளிடவும்",
+          "dayByDayTimingDesc": "ஒவ்வொரு நாளுக்கும் தொடக்கம் / முடிவை தனித்தனியாக அமைக்கவும். வேலை செய்யாத நாட்களுக்கு 'விடுப்பு' ஐ மாற்றவும். காலம் தானாகக் கணக்கிடப்படும்.",
+          "howToUseAssignSubtitle": "ஷிப்ட் ஒதுக்கீடுகளை மூன்று வழிகளில் பயன்படுத்தலாம், ஒவ்வொன்றும் வெவ்வேறு முன்னுரிமை நிலையுடன்.",
+          "groupAssignmentDesc": "குழு ஒதுக்கீடு — ஒரு முழு குழுவிற்கும் ஷிப்ட் வகையைப் பயன்படுத்துகிறது. அனைத்து உறுப்பினர்களும் ஒதுக்கப்பட்ட ஷிப்டைப் பெறுவர். ஒரு குழுவுக்கு ஒரே நேரத்தில் ஒரு ஷிப்ட் வகை மட்டுமே ஒதுக்கப்படலாம்.",
+          "individualPermanentDesc": "தனிநபர் (நிரந்தரம்) — ஒதுக்குகிறது",
+          "individualPermanentAssignsTo": "நேரடியாக ஒரு குறிப்பிட்ட",
+          "individualPermanentNoEndDate": "முடிவு தேதி இல்லாமல்.",
+          "individualOverrideDesc": "தனிநபர் (மேலெழுதல்) — ஒதுக்குகிறது ",
+          "individualOverrideAssignsTo": "ஒரு குறிப்பிட்ட",
+          "individualOverrideDateRange": "வரையறுக்கப்பட்ட தேதி வரம்பிற்கு, அவர்களின் ஏற்கனவே உள்ள ஷிப்டை தற்காலிகமாக மேலெழுதும்.",
+          "groupPrecedenceNote": "குறிப்பு:",
+          "groupPrecedenceTakesPrecedence": "ஒதுக்கீடுகள் எப்போதும் தனிநபர் ஒதுக்கீடுகளை விட முன்னுரிமை பெறும். ஒரு",
+          "groupPrecedenceBelongsTo": "சேர்ந்தவர்",
+          "groupPrecedenceWithAssignedShift": "ஒதுக்கப்பட்ட ஷிப்டுடன், அந்த",
+          "groupPrecedenceShiftOverride": "ஷிப்ட் அந்த",
+          "assignShiftToSelectedButton": "தேர்ந்தெடுத்தவர்களுக்கு ஷிப்ட் ஒதுக்கவும்",
+          "individualLockedTooltip": "தனிநபர் ஷிப்ட் புலம் பூட்டப்பட்டது",
+          "precedence": "முன்னுரிமை",
+          "overlapConflictTooltip": "இதற்கான ஏற்கனவே உள்ள ஒதுக்கீட்டுடன் மேற்பொருதல் முரண்பாடு",
+          "legendOverlapConflict": "வரிசை = அதற்கான ஏற்கனவே உள்ள ஒதுக்கீட்டுடன் மேற்பொருதல் முரண்பாடு",
+          "legendIndividualLocked": "= தனிநபர் ஷிப்ட் புலம் பூட்டப்பட்டது",
+          "importColumnsHint": "நெடுவரிசைகள்: பயனர்/குழு அடையாளங்காட்டி, ஷிப்ட் வகை குறியீடு, செயல்திறன் தொடக்க தேதி, செயல்திறன் முடிவு தேதி",
+          "noFileSelected": "கோப்பு தேர்ந்தெடுக்கப்படவில்லை",
+          "rowsSkippedNote": "பிழைகள் உள்ள வரிசைகள் தவிர்க்கப்படும்; செல்லுபடியாகும் வரிசைகளைத் தடுக்காது.",
+          "partialSuccessPrefix": "பகுதி வெற்றி — ",
+          "partialSuccessMiddle": " ",
+          "partialSuccessSuffix": " வரிசைகள் பயன்படுத்தப்படும்."
+        },
+        "validationFE": {
+          "atLeastOneDayMustBeWorking": "குறைந்தது ஒரு நாள் தேர்வுநீக்கப்பட வேண்டும் (வேலை நாள்)",
+          "csvOnlyHint": "CSV கோப்புகள் மட்டுமே ஏற்றுக்கொள்ளப்படும்.",
+          "onlyCsvFilesAllowedError": "CSV கோப்புகள் மட்டுமே அனுமதிக்கப்படும்",
+          "endDateAfterStartDate": "முடிவு தேதி தொடக்க தேதிக்கு சமமாகவோ அதற்குப் பிறகோ இருக்க வேண்டும்"
         }
       }
     },

@@ -15893,6 +15893,41 @@
         "plural": "Manages",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Bulk",
+        "plural": "Bulk",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadTemplate": {
+        "original": "Download Template (.csv)",
+        "singular": "Download Template (.csv)",
+        "plural": "Download Template (.csv)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileUnlimit": {
+        "original": "Choose File",
+        "singular": "Choose File",
+        "plural": "Choose File",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmApplyValidRows": {
+        "original": "Confirm & Apply Valid Rows",
+        "singular": "Confirm & Apply Valid Rows",
+        "plural": "Confirm & Apply Valid Rows",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadErrorReport": {
+        "original": "Download Error Report",
+        "singular": "Download Error Report",
+        "plural": "Download Error Report",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16429,6 +16464,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "onLeave": {
+        "original": "On Leave",
+        "singular": "On Leave",
+        "plural": "On Leave",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offShift": {
+        "original": "Off Shift",
+        "singular": "Off Shift",
+        "plural": "Off Shift",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -16493,6 +16542,7 @@
       "disconnectedSuccessfully": "Disconnected successfully",
       "updateNotSuccesful": "Update not successful",
       "addedSuccessfully": "Added successfully",
+      "assignedSuccessfully": "Assigned successfully",
       "doYouWishToContinue": "Do you wish to continue?",
       "approve": "Approve",
       "confirm": "Confirm",
@@ -16655,6 +16705,8 @@
       "anLower": "an",
       "orLower": "or",
       "fromLower": "from",
+      "haveBeen": "have been",
+      "has been": "has been",
       "addClearDesc": "Add a clear description for this",
       "optional": "optional",
       "toGetStarted": "To get started",
@@ -18895,6 +18947,20 @@
             "plural": "Upload Logo",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec24": {
+            "original": "Employment",
+            "singular": "Employment",
+            "plural": "Employment",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec25": {
+            "original": "Login History",
+            "singular": "Login History",
+            "plural": "Login History",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19100,6 +19166,34 @@
             "singular": "Default Language",
             "plural": "Default Languages",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "designation": {
+            "original": "Designation",
+            "singular": "Designation",
+            "plural": "Designation",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "loginDate": {
+            "original": "Login Date",
+            "singular": "Login Date",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "ipAddress": {
+            "original": "IP Address",
+            "singular": "IP Address",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "Device ID",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -19475,7 +19569,317 @@
           "levelOne": "Level 1",
           "levelTwo": "Level 2"
         }
+      },
+      "shifts": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Shifts",
+          "singular": "Shift",
+          "plural": "Shifts",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Assignment",
+            "singular": "Assignment",
+            "plural": "Assignments",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Day-by-Day Timing",
+            "singular": "Day-by-Day Timing",
+            "plural": "Day-by-Day Timing",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Step 1 — Download Template",
+            "singular": "Step 1 — Download Template",
+            "plural": "Step 1 — Download Template",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Step 2 — Upload Completed File",
+            "singular": "Step 2 — Upload Completed File",
+            "plural": "Step 2 — Upload Completed File",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Step 3 — Validation Preview",
+            "singular": "Step 3 — Validation Preview",
+            "plural": "Step 3 — Validation Preview",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Step 4 — Confirm & Apply",
+            "singular": "Step 4 — Confirm & Apply",
+            "plural": "Step 4 — Confirm & Apply",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "Date Range",
+            "plural": "Date Ranges",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "Assignment",
+            "plural": "Assignments",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Names",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "Codes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Colors",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "colorTag": {
+            "original": "Color Tag",
+            "singular": "Color Tag",
+            "plural": "Color Tags",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "day": {
+            "original": "Day",
+            "singular": "Day",
+            "plural": "Days",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "off": {
+            "original": "Off",
+            "singular": "Off",
+            "plural": "Off",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "start": {
+            "original": "Start",
+            "singular": "Start",
+            "plural": "Starts",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "end": {
+            "original": "End",
+            "singular": "End",
+            "plural": "Ends",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "duration": {
+            "original": "Duration",
+            "singular": "Duration",
+            "plural": "Durations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "techniciansAssigned": {
+            "original": "Technicians Assigned",
+            "singular": "Technician Assigned",
+            "plural": "Technicians Assigned",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetUser": {
+            "original": "Target User",
+            "singular": "Target User",
+            "plural": "Target Users",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetGroup": {
+            "original": "Target Group",
+            "singular": "Target Group",
+            "plural": "Target Groups",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveStartDate": {
+            "original": "Effective Start Date",
+            "singular": "Effective Start Date",
+            "plural": "Effective Start Dates",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveEndDate": {
+            "original": "Effective End Date",
+            "singular": "Effective End Date",
+            "plural": "Effective End Dates",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effStart": {
+            "original": "Eff. Start",
+            "singular": "Eff. Start",
+            "plural": "Eff. Start",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effEnd": {
+            "original": "Eff. End",
+            "singular": "Eff. End",
+            "plural": "Eff. End",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "source": {
+            "original": "Source",
+            "singular": "Source",
+            "plural": "Sources",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "row": {
+            "original": "Row",
+            "singular": "Row",
+            "plural": "Rows",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "identifier": {
+            "original": "Identifier",
+            "singular": "Identifier",
+            "plural": "Identifiers",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "result": {
+            "original": "Result",
+            "singular": "Result",
+            "plural": "Results",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "valid": {
+            "original": "Valid",
+            "singular": "Valid",
+            "plural": "Valid",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "error": {
+            "original": "Error",
+            "singular": "Error",
+            "plural": "Errors",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "areWhere": "are where",
+          "templatesActually": "templates actually get applied. Assign a template to one or more",
+          "setHowLong": "set how long the assignment runs, and manage everything that's currently active from this one screen.",
+          "assignStepToggleView": "Toggle between",
+          "dependingOn": "depending on whether you're assigning to a whole team at once or a single technician.",
+          "click": "Click",
+          "chooseThe": "choose the",
+          "templateAndPick": "template, and pick the Group(s) or User(s) it applies to.",
+          "assignStepSetDates": "Set the Effective Start and End dates to control the window the assignment is active for.",
+          "useThe": "Use the",
+          "narrowListDown": "Status, Date Range, and Search filters to narrow the list down to a specific assignment.",
+          "manageStepEditDelete": "Click the pencil to edit an assignment's dates or template, or the trash icon to remove it.",
+          "manageStepImportExport": "Use Import to bulk-upload assignments from a spreadsheet, or Export to download the current list.",
+          "howToUseShiftTypesSubtitle": "are reusable templates. Create one here (e.g. 'AM Shift') and it can be assigned to any number of Users or Groups afterward rather than re-defining hours every time.",
+          "configureStepNew": "to create one from scratch.",
+          "configureStepEdit": "on an existing row to change its name, color, or day-by-day timing.",
+          "configureStepAssignedCount": "# Assigned tells you how many technicians rely on that template today. Check this before editing or deactivating one.",
+          "configureStepDeactivate": "Deactivating a",
+          "doesntRemoveExisting": "doesn't remove existing assignments; it only blocks it from being assigned going forward.",
+          "selected": "selected",
+          "rowsSelected": "rows selected",
+          "exportSummaryTitle": "Summary",
+          "exportConfirmMessage": "Review the filters below, then confirm to export the matching",
+          "shiftNameInput":"Enter the name of this",
+          "shiftCodeInput":"Enter the code of this",
+          "dayByDayTimingDesc": "Configure Start / End independently per day. Toggle 'Off' for non-working days. Duration auto-calculates.",
+          "howToUseAssignSubtitle": "Shift assignments can be applied in three ways, each with a different level of priority.",
+          "groupAssignmentDesc": "Group Assignment — Applies a shift type to an entire group. All members inherit the assigned shift. A group can only be assigned one shift type at any given time.",
+          "individualPermanentDesc": "Individual (Permanent) — Assigns a",
+          "individualPermanentAssignsTo": "directly to a specific",
+          "individualPermanentNoEndDate": "with no end date.",
+          "individualOverrideDesc": "Individual (Override) — Assigns a ",
+          "individualOverrideAssignsTo": "to a specific",
+          "individualOverrideDateRange": "for a defined date range, temporarily overriding their existing shift.",
+          "groupPrecedenceNote": "Note:",
+          "groupPrecedenceTakesPrecedence": "assignments always take precedence over individual assignments. If a",
+          "groupPrecedenceBelongsTo": "belongs to a",
+          "groupPrecedenceWithAssignedShift": "with an assigned shift, that",
+          "groupPrecedenceShiftOverride": "shift will override any individual shift settings for that",
+          "assignShiftToSelectedButton": "Assign Shift to Selected",
+          "individualLockedTooltip": "Individual shift field locked by",
+          "precedence": "precedence",
+          "overlapConflictTooltip": "Overlap conflict against an existing assignment for this",
+          "legendOverlapConflict": "row = overlap conflict against an existing assignment for that",
+          "legendIndividualLocked": "= individual shift field locked by",
+          "importColumnsHint": "Columns: User/Group Identifier, Shift Type Code, Effective Start Date, Effective End Date",
+          "noFileSelected": "No file selected",
+          "rowsSkippedNote": "Rows with errors are skipped, not blocking the valid rows.",
+          "partialSuccessPrefix": "Partial success — ",
+          "partialSuccessMiddle": " of",
+          "partialSuccessSuffix": " rows will be applied."
+        },
+        "validationFE":{
+          "atLeastOneDayMustBeWorking": "At least one day must be unchecked (working day)",
+          "csvOnlyHint": "Only CSV files are accepted.",
+          "onlyCsvFilesAllowedError": "Only CSV files are allowed",
+          "endDateAfterStartDate": "End date must be on or after start date"
+        }
       }
+
     },
     "configuration": {
       "setupVisible": false,

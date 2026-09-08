@@ -15893,6 +15893,41 @@
         "plural": "Urus",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Pukal",
+        "plural": "Pukal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadTemplate": {
+        "original": "Download Template (.csv)",
+        "singular": "Muat turun Templat (.csv)",
+        "plural": "Muat turun Templat (.csv)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileUnlimit": {
+        "original": "Choose File",
+        "singular": "Pilih Fail",
+        "plural": "Pilih Fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmApplyValidRows": {
+        "original": "Confirm & Apply Valid Rows",
+        "singular": "Sahkan & Guna Baris Sah",
+        "plural": "Sahkan & Guna Baris Sah",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadErrorReport": {
+        "original": "Download Error Report",
+        "singular": "Muat turun Laporan Ralat",
+        "plural": "Muat turun Laporan Ralat",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16429,6 +16464,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "onLeave": {
+        "original": "On Leave",
+        "singular": "Cuti",
+        "plural": "Cuti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offShift": {
+        "original": "Off Shift",
+        "singular": "Luar Syif",
+        "plural": "Luar Syif",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -16493,6 +16542,7 @@
       "disconnectedSuccessfully": "Berjaya diputuskan",
       "updateNotSuccesful": "Kemaskini tidak berjaya",
       "addedSuccessfully": "Berjaya ditambah",
+      "assignedSuccessfully": "Berjaya ditugaskan",
       "doYouWishToContinue": "Adakah anda ingin meneruskan?",
       "approve": "Luluskan",
       "confirm": "Sahkan",
@@ -16655,6 +16705,8 @@
       "anLower": "satu",
       "orLower": "atau",
       "fromLower": "dari",
+      "haveBeen": "telah",
+      "has been": "telah",
       "addClearDesc": "Tambah penerangan yang jelas untuk ini",
       "optional": "opsional",
       "toGetStarted": "Untuk memulakan",
@@ -18895,6 +18947,20 @@
             "plural": "Muat Naik Logo",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec24": {
+            "original": "Employment",
+            "singular": "Pekerjaan",
+            "plural": "Pekerjaan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec25": {
+            "original": "Login History",
+            "singular": "Sejarah Log Masuk",
+            "plural": "Sejarah Log Masuk",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19100,6 +19166,34 @@
             "singular": "Bahasa Lalai",
             "plural": "Bahasa Lalai",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "designation": {
+            "original": "Designation",
+            "singular": "Jawatan",
+            "plural": "Jawatan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "loginDate": {
+            "original": "Login Date",
+            "singular": "Tarikh Log Masuk",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "ipAddress": {
+            "original": "IP Address",
+            "singular": "Alamat IP",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "ID Peranti",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -19474,6 +19568,315 @@
           "level": "Tahap",
           "levelOne": "Tahap 1",
           "levelTwo": "Tahap 2"
+        }
+      },
+      "shifts": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Shifts",
+          "singular": "Syif",
+          "plural": "Syif",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Type",
+            "singular": "Jenis",
+            "plural": "Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Assignment",
+            "singular": "Tugasan",
+            "plural": "Tugasan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Day-by-Day Timing",
+            "singular": "Penjadualan Hari-ke-Hari",
+            "plural": "Penjadualan Hari-ke-Hari",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Step 1 — Download Template",
+            "singular": "Langkah 1 — Muat turun Templat",
+            "plural": "Langkah 1 — Muat turun Templat",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Step 2 — Upload Completed File",
+            "singular": "Langkah 2 — Muat naik Fail Lengkap",
+            "plural": "Langkah 2 — Muat naik Fail Lengkap",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Step 3 — Validation Preview",
+            "singular": "Langkah 3 — Pratonton Pengesahan",
+            "plural": "Langkah 3 — Pratonton Pengesahan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Step 4 — Confirm & Apply",
+            "singular": "Langkah 4 — Sahkan & Guna",
+            "plural": "Langkah 4 — Sahkan & Guna",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "Jenis",
+            "plural": "Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "Julat Tarikh",
+            "plural": "Julat Tarikh",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "Tugasan",
+            "plural": "Tugasan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "Kod",
+            "plural": "Kod",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Warna",
+            "plural": "Warna",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "colorTag": {
+            "original": "Color Tag",
+            "singular": "Tag Warna",
+            "plural": "Tag Warna",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "day": {
+            "original": "Day",
+            "singular": "Hari",
+            "plural": "Hari",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "off": {
+            "original": "Off",
+            "singular": "Off",
+            "plural": "Off",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "start": {
+            "original": "Start",
+            "singular": "Mula",
+            "plural": "Mula",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "end": {
+            "original": "End",
+            "singular": "Tamat",
+            "plural": "Tamat",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "duration": {
+            "original": "Duration",
+            "singular": "Tempoh",
+            "plural": "Tempoh",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "techniciansAssigned": {
+            "original": "Technicians Assigned",
+            "singular": "Juruteknik Ditugaskan",
+            "plural": "Juruteknik Ditugaskan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetUser": {
+            "original": "Target User",
+            "singular": "Pengguna Sasaran",
+            "plural": "Pengguna Sasaran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "targetGroup": {
+            "original": "Target Group",
+            "singular": "Kumpulan Sasaran",
+            "plural": "Kumpulan Sasaran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveStartDate": {
+            "original": "Effective Start Date",
+            "singular": "Tarikh Mula Berkuat kuasa",
+            "plural": "Tarikh Mula Berkuat kuasa",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effectiveEndDate": {
+            "original": "Effective End Date",
+            "singular": "Tarikh Tamat Berkuat kuasa",
+            "plural": "Tarikh Tamat Berkuat kuasa",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effStart": {
+            "original": "Eff. Start",
+            "singular": "Mula Berkuat",
+            "plural": "Mula Berkuat",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "effEnd": {
+            "original": "Eff. End",
+            "singular": "Tamat Berkuat",
+            "plural": "Tamat Berkuat",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "source": {
+            "original": "Source",
+            "singular": "Sumber",
+            "plural": "Sumber",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "row": {
+            "original": "Row",
+            "singular": "Baris",
+            "plural": "Baris",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "identifier": {
+            "original": "Identifier",
+            "singular": "Pengecam",
+            "plural": "Pengecam",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "result": {
+            "original": "Result",
+            "singular": "Hasil",
+            "plural": "Hasil",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "valid": {
+            "original": "Valid",
+            "singular": "Sah",
+            "plural": "Sah",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "error": {
+            "original": "Error",
+            "singular": "Ralat",
+            "plural": "Ralat",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "areWhere": "adalah tempat",
+          "templatesActually": "templat benar-benar digunakan. Tetapkan templat kepada satu atau lebih",
+          "setHowLong": "tetapkan berapa lama tugasan berjalan, dan urus semua yang aktif dari skrin ini.",
+          "assignStepToggleView": "Togol antara",
+          "dependingOn": "bergantung sama ada anda menugaskan kepada seluruh pasukan sekaligus atau seorang juruteknik.",
+          "click": "Klik",
+          "chooseThe": "pilih",
+          "templateAndPick": "templat, dan pilih Kumpulan atau Pengguna yang digunakannya.",
+          "assignStepSetDates": "Tetapkan Tarikh Mula dan Tamat Berkuat kuasa untuk mengawal tetingkap tugasan aktif.",
+          "useThe": "Gunakan",
+          "narrowListDown": "penapis Status, Julat Tarikh dan Carian untuk mengecilkan senarai kepada tugasan tertentu.",
+          "manageStepEditDelete": "Klik pensel untuk sunting tarikh atau templat tugasan, atau ikon tong sampah untuk buangkannya.",
+          "manageStepImportExport": "Guna Import untuk muat naik pukal tugasan dari hamparan, atau Eksport untuk muat turun senarai semasa.",
+          "howToUseShiftTypesSubtitle": "adalah templat boleh guna semula. Cipta satu di sini (cth. 'Syif AM') dan ia boleh ditugaskan kepada mana-mana bilangan Pengguna atau Kumpulan kemudian tanpa mentakrif semula jam setiap kali.",
+          "configureStepNew": "untuk mencipta satu dari awal.",
+          "configureStepEdit": "pada baris sedia ada untuk tukar nama, warna atau penjadualan hari-ke-hari.",
+          "configureStepAssignedCount": "# Ditugaskan memberitahu berapa ramai juruteknik bergantung pada templat itu hari ini. Semak sebelum sunting atau nyahaktifkan.",
+          "configureStepDeactivate": "Menyahaktifkan",
+          "doesntRemoveExisting": "tidak membuang tugasan sedia ada; ia hanya menghalang dari ditugaskan pada masa hadapan.",
+          "selected": "dipilih",
+          "rowsSelected": "baris dipilih",
+          "exportSummaryTitle": "Ringkasan",
+          "exportConfirmMessage": "Semak penapis di bawah, kemudian sahkan untuk mengeksport",
+          "shiftNameInput": "Masukkan nama",
+          "shiftCodeInput": "Masukkan kod",
+          "dayByDayTimingDesc": "Konfigurasi Mula / Tamat secara berasingan setiap hari. Togol 'Off' untuk hari bukan bekerja. Tempoh dikira automatik.",
+          "howToUseAssignSubtitle": "Tugasan syif boleh digunakan dalam tiga cara, setiap satu dengan tahap keutamaan berbeza.",
+          "groupAssignmentDesc": "Tugasan Kumpulan — Menggunakan jenis syif kepada seluruh kumpulan. Semua ahli mewarisi syif yang ditugaskan. Satu kumpulan hanya boleh ditugaskan satu jenis syif pada satu masa.",
+          "individualPermanentDesc": "Individu (Kekal) — Menugaskan",
+          "individualPermanentAssignsTo": "terus kepada",
+          "individualPermanentNoEndDate": "tanpa tarikh tamat.",
+          "individualOverrideDesc": "Individu (Override) — Menugaskan ",
+          "individualOverrideAssignsTo": "kepada",
+          "individualOverrideDateRange": "untuk julat tarikh ditakrif, sementara menindih syif sedia ada mereka.",
+          "groupPrecedenceNote": "Nota:",
+          "groupPrecedenceTakesPrecedence": "tugasan sentiasa diutamakan berbanding tugasan individu. Jika",
+          "groupPrecedenceBelongsTo": "tergolong dalam",
+          "groupPrecedenceWithAssignedShift": "dengan syif ditugaskan, itu",
+          "groupPrecedenceShiftOverride": "syif akan menindih sebarang tetapan syif individu untuk",
+          "assignShiftToSelectedButton": "Tugaskan Syif kepada Dipilih",
+          "individualLockedTooltip": "Medan syif individu dikunci oleh",
+          "precedence": "keutamaan",
+          "overlapConflictTooltip": "Konflik bertindih dengan tugasan sedia ada untuk",
+          "legendOverlapConflict": "baris = konflik bertindih dengan tugasan sedia ada untuk",
+          "legendIndividualLocked": "= medan syif individu dikunci oleh",
+          "importColumnsHint": "Lajur: Pengecam Pengguna/Kumpulan, Kod Jenis Syif, Tarikh Mula Berkuat kuasa, Tarikh Tamat Berkuat kuasa",
+          "noFileSelected": "Tiada fail dipilih",
+          "rowsSkippedNote": "Baris dengan ralat dilangkau, tidak menyekat baris sah.",
+          "partialSuccessPrefix": "Berjaya separa — ",
+          "partialSuccessMiddle": " ",
+          "partialSuccessSuffix": " baris akan digunakan."
+        },
+        "validationFE": {
+          "atLeastOneDayMustBeWorking": "Sekurang-kurangnya satu hari mesti dinyahpilih (hari bekerja)",
+          "csvOnlyHint": "Hanya fail CSV diterima.",
+          "onlyCsvFilesAllowedError": "Hanya fail CSV dibenarkan",
+          "endDateAfterStartDate": "Tarikh tamat mesti pada atau selepas tarikh mula"
         }
       }
     },
