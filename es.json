@@ -19411,6 +19411,13 @@
           "editingMasterListInstruction": "Está editando la lista maestra de",
           "editingMasterListInstructionSuffix": "lista. Los colores establecidos aquí aparecerán de forma consistente para todos los usuarios/trabajos",
           "inLibrarySuffix": "en la biblioteca"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"La habilidad está asignada a usuarios",
+          "setupSkillLibraryLinkedToJobOrder":"La habilidad está vinculada a órdenes de trabajo",
+          "setupSkillLibraryLinkedToTemplate":"La habilidad está vinculada a plantillas de órdenes de trabajo",
+          "setupSkillLibraryLinkedToJobOrderType":"La habilidad está vinculada a tipos de órdenes de trabajo",
+          "setupSkillLibraryNameRequired":"El nombre de la habilidad es obligatorio"
         }
       },
       "teams": {
@@ -20731,6 +20738,24 @@
           "csvOnlyHint": "Solo se aceptan archivos CSV.",
           "onlyCsvFilesAllowedError": "Solo se permiten archivos CSV",
           "endDateAfterStartDate": "La fecha de finalización debe ser igual o posterior a la fecha de inicio"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"Se requiere el tipo de turno",
+          "setupShiftTypeNotFound":"Tipo de turno no encontrado",
+          "setupShiftTypeInactive":"No se puede asignar un tipo de turno inactivo",
+          "setupShiftEffectiveStartRequired":"Se requiere la fecha de inicio efectiva",
+          "setupShiftEffectiveEndBeforeStart":"La fecha de finalización efectiva no puede ser anterior a la fecha de inicio efectiva",
+          "setupShiftAssignmentNotFound":"Asignación de turno no encontrada",
+          "setupShiftAssigneeTypeRequired":"Se requiere el tipo de asignado",
+          "setupShiftUserRequired":"Se requiere el usuario objetivo",
+          "setupShiftUserNotFound":"Usuario no encontrado",
+          "setupShiftUserGroupRequired":"Se requiere el grupo objetivo",
+          "setupShiftUserGroupNotFound":"Grupo de usuarios no encontrado",
+          "setupShiftImportTemplateFailed":"No se pudo construir la plantilla de importación",
+          "setupShiftExportAssigneeTypeRequired":"Se requiere el tipo de asignado para la exportación",
+          "setupShiftExportFailed":"No se pudo construir el archivo de exportación",
+          "setupShiftImportFileUnreadable":"No se pudo leer el archivo de importación",
+          "setupShiftAssignmentIdsRequired":"Se requiere al menos un ID de asignación de turno"
         }
       }
     },

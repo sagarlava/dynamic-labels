@@ -19356,6 +19356,13 @@
           "editingMasterListInstruction": "您正在编辑主",
           "editingMasterListInstructionSuffix": "列表。此处设置的颜色将对所有用户/工作一致显示",
           "inLibrarySuffix": "在库中"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"该技能已分配给用户",
+          "setupSkillLibraryLinkedToJobOrder":"该技能已关联工单",
+          "setupSkillLibraryLinkedToTemplate":"该技能已关联工单模板",
+          "setupSkillLibraryLinkedToJobOrderType":"该技能已关联工单类型",
+          "setupSkillLibraryNameRequired":"技能名称为必填项"
         }
       },
       "teams": {
@@ -20676,6 +20683,24 @@
           "csvOnlyHint": "仅接受 CSV 文件。",
           "onlyCsvFilesAllowedError": "仅允许 CSV 文件",
           "endDateAfterStartDate": "结束日期必须等于或晚于开始日期"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"班次类型为必填项",
+          "setupShiftTypeNotFound":"未找到班次类型",
+          "setupShiftTypeInactive":"无法分配已停用的班次类型",
+          "setupShiftEffectiveStartRequired":"生效开始日期为必填项",
+          "setupShiftEffectiveEndBeforeStart":"生效结束日期不能早于生效开始日期",
+          "setupShiftAssignmentNotFound":"未找到班次分配",
+          "setupShiftAssigneeTypeRequired":"分配对象类型为必填项",
+          "setupShiftUserRequired":"目标用户为必填项",
+          "setupShiftUserNotFound":"未找到用户",
+          "setupShiftUserGroupRequired":"目标用户组为必填项",
+          "setupShiftUserGroupNotFound":"未找到用户组",
+          "setupShiftImportTemplateFailed":"无法生成导入模板",
+          "setupShiftExportAssigneeTypeRequired":"导出时分配对象类型为必填项",
+          "setupShiftExportFailed":"无法生成导出文件",
+          "setupShiftImportFileUnreadable":"无法读取导入文件",
+          "setupShiftAssignmentIdsRequired":"至少需要一个班次分配 ID"
         }
       }
     },

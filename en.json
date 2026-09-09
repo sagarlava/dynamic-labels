@@ -19411,6 +19411,13 @@
           "editingMasterListInstruction": "You're editing the master",
           "editingMasterListInstructionSuffix": "list. Colours set here will appear consistently for all users/jobs",
           "inLibrarySuffix": "in library"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned":"Skill is assigned to users",
+          "setupSkillLibraryLinkedToJobOrder":"Skill is linked to job orders",
+          "setupSkillLibraryLinkedToTemplate":"Skill is linked to job order templates",
+          "setupSkillLibraryLinkedToJobOrderType":"Skill is linked to job order types",
+          "setupSkillLibraryNameRequired":"Skill name is required"
         }
       },
       "teams": {
@@ -20731,6 +20738,24 @@
           "csvOnlyHint": "Only CSV files are accepted.",
           "onlyCsvFilesAllowedError": "Only CSV files are allowed",
           "endDateAfterStartDate": "End date must be on or after start date"
+        },
+        "validationBE":{
+          "setupShiftTypeRequired":"Shift type is required",
+          "setupShiftTypeNotFound":"Shift Type not found",
+          "setupShiftTypeInactive":"An inactive shift type cannot be assigned",
+          "setupShiftEffectiveStartRequired":"Effective start date is required",
+          "setupShiftEffectiveEndBeforeStart":"Effective end date cannot be before the effective start date",
+          "setupShiftAssignmentNotFound":"Shift Assignment not found",
+          "setupShiftAssigneeTypeRequired":"Assignee type is required",
+          "setupShiftUserRequired":"Target user is required",
+          "setupShiftUserNotFound":"User not found",
+          "setupShiftUserGroupRequired":"Target group is required",
+          "setupShiftUserGroupNotFound":"User Group not found",
+          "setupShiftImportTemplateFailed":"The import template could not be built",
+          "setupShiftExportAssigneeTypeRequired":"Assignee type is required for export",
+          "setupShiftExportFailed":"The export file could not be built",
+          "setupShiftImportFileUnreadable":"The import file could not be read",
+          "setupShiftAssignmentIdsRequired":"At least one Shift Assignment id is required"
         }
       }
 
