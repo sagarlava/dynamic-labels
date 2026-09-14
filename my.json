@@ -10124,6 +10124,13 @@
         "plural": "Terkini",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Nombor Tugas Berjadual",
+        "plural": "Nombor Tugas Berjadual",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

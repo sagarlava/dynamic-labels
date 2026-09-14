@@ -10132,6 +10132,13 @@
         "plural": "最近",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "计划任务编号",
+        "plural": "计划任务编号",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

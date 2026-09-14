@@ -10124,6 +10124,13 @@
         "plural": "Kürzlich",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Geplante Aufgaben Nummer",
+        "plural": "Geplante Aufgaben Nummern",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

@@ -10124,6 +10124,13 @@
         "plural": "Recientes",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Número de Tarea Programada",
+        "plural": "Números de Tareas Programadas",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
