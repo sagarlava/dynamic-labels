@@ -5871,6 +5871,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+       "Block": {
+        "original": "Block",
+        "singular": "区块",
+        "plural": "区块",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "area": {
         "original": "Area",
         "singular": "区域",
@@ -7774,6 +7781,13 @@
         "original": "Record",
         "singular": "记录",
         "plural": "记录",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "位置 & 合同",
+        "plural": "位置 & 合同",
         "setupEdit": false,
         "setupVisible": false
       }

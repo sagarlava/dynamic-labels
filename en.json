@@ -5863,6 +5863,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+       "Block": {
+        "original": "Block",
+        "singular": "Block",
+        "plural": "Blocks",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "area": {
         "original": "Area",
         "singular": "Area",
@@ -7766,6 +7773,13 @@
         "original": "Record",
         "singular": "Record",
         "plural": "Records",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "Location & Contract",
+        "plural": "Location & Contracts",
         "setupEdit": false,
         "setupVisible": false
       }
