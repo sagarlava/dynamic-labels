@@ -6029,6 +6029,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+       "block": {
+        "original": "Block",
+        "singular": "Block",
+        "plural": "Blöcke",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "area": {
         "original": "Area",
         "singular": "Bereich",
@@ -6294,7 +6301,28 @@
       "siteSubCategoryIdExists": "Eine neue Unterkategorie des Standorts kann bereits keine ID haben",
       "siteTypeExists": "Standorttyp existiert bereits",
       "siteTypeSystemGenerated": "Systemgenerierte Standorttypen dürfen nicht gelöscht werden",
-      "siteTypeIdExists": "Ein neuer Standorttyp darf nicht bereits eine ID haben"
+      "siteTypeIdExists": "Ein neuer Standorttyp darf nicht bereits eine ID haben",
+      "siteWorkScopeGenerateRangeRequired": "Startdatum und Enddatum sind erforderlich",
+      "siteWorkScopeGenerateRangeInvalid": "Das Startdatum muss vor dem Enddatum liegen",
+      "siteWorkScopeImportSiteRequired": "Standort ist erforderlich",
+      "siteWorkScopeImportContractRequired": "Vertrag ist erforderlich",
+      "siteWorkScopeImportFileRequired": "CSV-Datei ist erforderlich",
+      "siteWorkScopeImportRequestRequired": "Importanfrage ist erforderlich",
+      "siteWorkScopeImportHasErrors": "Beheben Sie die Fehler in der Datei, bevor Sie fortfahren",
+      "siteWorkScopeImportTooManyRows": "Es können maximal 1000 Zeilen auf einmal importiert werden",
+      "siteWorkScopeImportBlockNotOnSite": "Der Block gehört nicht zu diesem Standort",
+      "siteWorkScopeImportCsvEmpty": "Die CSV-Datei ist leer",
+      "siteWorkScopeImportCsvHeader": "In der CSV-Datei fehlt eine erforderliche Spalte",
+      "siteWorkScopeImportCsvRead": "Die CSV-Datei konnte nicht gelesen werden",
+      "siteBlockNameRequired": "Blockname ist erforderlich",
+      "siteBlockSiteRequired": "Standort ist erforderlich",
+      "siteBlockNameExists": "Blockname existiert bereits an diesem Standort",
+      "siteLevelNameRequired": "Ebenenname ist erforderlich",
+      "siteLevelSiteBlockRequired": "Block ist erforderlich",
+      "siteLevelNameExists": "Ebenenname existiert bereits in diesem Block",
+      "siteBlockAreaNameRequired": "Bereichsname ist erforderlich",
+      "siteBlockAreaSiteLevelRequired": "Ebene ist erforderlich",
+      "siteBlockAreaNameExists": "Bereichsname existiert bereits auf dieser Ebene"
     },
     "tooltips": {
       "setupVisible": false,
@@ -7976,6 +8004,13 @@
         "original": "Record",
         "singular": "Rekod",
         "plural": "Rekods",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "Standort & Vertrag",
+        "plural": "Standorte & Verträge",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10332,6 +10367,13 @@
         "original": "Recent",
         "singular": "Kürzlich",
         "plural": "Kürzlich",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Geplante Aufgaben Nummer",
+        "plural": "Geplante Aufgaben Nummern",
         "setupEdit": false,
         "setupVisible": false
       }

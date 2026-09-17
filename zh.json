@@ -6037,6 +6037,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+       "block": {
+        "original": "Block",
+        "singular": "区块",
+        "plural": "区块",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "area": {
         "original": "Area",
         "singular": "区域",
@@ -6302,7 +6309,28 @@
       "siteSubCategoryIdExists": "新的站点子类别不能已有ID",
       "siteTypeExists": "站点类型已存在",
       "siteTypeSystemGenerated": "系统生成的站点类型不允许删除",
-      "siteTypeIdExists": "新的站点类型不能已有ID"
+      "siteTypeIdExists": "新的站点类型不能已有ID",
+      "siteWorkScopeGenerateRangeRequired": "开始日期和结束日期为必填项",
+      "siteWorkScopeGenerateRangeInvalid": "开始日期必须早于结束日期",
+      "siteWorkScopeImportSiteRequired": "站点为必填项",
+      "siteWorkScopeImportContractRequired": "合同为必填项",
+      "siteWorkScopeImportFileRequired": "CSV文件为必填项",
+      "siteWorkScopeImportRequestRequired": "导入请求为必填项",
+      "siteWorkScopeImportHasErrors": "请先修正文件中的错误再继续",
+      "siteWorkScopeImportTooManyRows": "一次最多可导入1000行",
+      "siteWorkScopeImportBlockNotOnSite": "该楼栋不属于此站点",
+      "siteWorkScopeImportCsvEmpty": "CSV文件为空",
+      "siteWorkScopeImportCsvHeader": "CSV文件缺少必填列",
+      "siteWorkScopeImportCsvRead": "无法读取CSV文件",
+      "siteBlockNameRequired": "楼栋名称为必填项",
+      "siteBlockSiteRequired": "站点为必填项",
+      "siteBlockNameExists": "该站点下楼栋名称已存在",
+      "siteLevelNameRequired": "楼层名称为必填项",
+      "siteLevelSiteBlockRequired": "楼栋为必填项",
+      "siteLevelNameExists": "该楼栋下楼层名称已存在",
+      "siteBlockAreaNameRequired": "区域名称为必填项",
+      "siteBlockAreaSiteLevelRequired": "楼层为必填项",
+      "siteBlockAreaNameExists": "该楼层下区域名称已存在"
     },
     "tooltips": {
       "setupVisible": false,
@@ -7984,6 +8012,13 @@
         "original": "Record",
         "singular": "记录",
         "plural": "记录",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "位置 & 合同",
+        "plural": "位置 & 合同",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10340,6 +10375,13 @@
         "original": "Recent",
         "singular": "最近",
         "plural": "最近",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "计划任务编号",
+        "plural": "计划任务编号",
         "setupEdit": false,
         "setupVisible": false
       }
