@@ -6444,7 +6444,14 @@
       "next3Months": "Next 3 months",
       "customRange": "Custom range",
       "estimatedJobsPrefix": "Estimated",
-      "estimatedJobsSuffix": "jobs will be generated"
+      "estimatedJobsSuffix": "jobs will be generated",
+      "bothAreRequiredBefore":"both are required before you can",
+      "forTheMonth":"for the month",
+      "thenUseFilters":"then use the filters below to narrow which recurring",
+      "areIncluded":"are included",
+      "datesWithDot":"Dates with a dot have",
+      "clickOneToView":"click one to view it on the right",
+      "scheduledForThisDate":"scheduled for this date will appear below once assigned"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
@@ -16814,7 +16821,9 @@
       "setupSkills": "No skills created yet. Create one to see it here.",
       "setupTeams": "No teams created yet. Create one to see it here.",
       "toViewScheduledJobsForToday": "to view scheduled jobs for today",
-      "enterA": "Enter a"
+      "enterA": "Enter a",
+      "current": "Current",
+      "another": "another"
     },
     "currency": {
       "australianDollar": "AUD",

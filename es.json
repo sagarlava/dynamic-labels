@@ -5863,7 +5863,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "Bloque",
         "plural": "Bloques",
@@ -5873,7 +5873,7 @@
       "area": {
         "original": "Area",
         "singular": "Área",
-        "plural": "",
+        "plural": "Áreas",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6156,7 +6156,8 @@
       "siteLevelNameExists": "El nombre del nivel ya existe en este bloque",
       "siteBlockAreaNameRequired": "El nombre del área es obligatorio",
       "siteBlockAreaSiteLevelRequired": "El nivel es obligatorio",
-      "siteBlockAreaNameExists": "El nombre del área ya existe en este nivel"
+      "siteBlockAreaNameExists": "El nombre del área ya existe en este nivel",
+      "startDateTimeAndEndDateTimeAreRequired": "La fecha de inicio y la fecha de fin son obligatorias"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6443,7 +6444,14 @@
       "next3Months": "Próximos 3 meses",
       "customRange": "Rango personalizado",
       "estimatedJobsPrefix": "Estimado",
-      "estimatedJobsSuffix": "trabajos serán generados"
+      "estimatedJobsSuffix": "trabajos serán generados",
+      "bothAreRequiredBefore": "ambos son obligatorios antes de poder",
+      "forTheMonth": "para el mes",
+      "thenUseFilters": "luego use los filtros abajo para limitar qué recurrentes",
+      "areIncluded": "están incluidos",
+      "datesWithDot": "Las fechas con un punto tienen",
+      "clickOneToView": "haga clic en una para verla a la derecha",
+      "scheduledForThisDate": "programados para esta fecha aparecerán abajo una vez asignados"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Solo se permiten letras y números"
@@ -7790,7 +7798,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      
       "sec57": {
         "original": "Record",
         "singular": "Registro",
@@ -16814,7 +16821,9 @@
       "setupSkills": "Aún no se han creado habilidades. Cree una para verla aquí.",
       "setupTeams": "Aún no se han creado equipos. Cree uno para verlo aquí.",
       "toViewScheduledJobsForToday": "para ver los trabajos programados de hoy",
-      "enterA": "Ingrese un"
+      "enterA": "Ingrese un",
+      "another": "otro",
+      "current": "Actual"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18609,11 +18618,11 @@
           "inLibrarySuffix": "en la biblioteca"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"La habilidad está asignada a usuarios",
-          "setupSkillLibraryLinkedToJobOrder":"La habilidad está vinculada a órdenes de trabajo",
-          "setupSkillLibraryLinkedToTemplate":"La habilidad está vinculada a plantillas de órdenes de trabajo",
-          "setupSkillLibraryLinkedToJobOrderType":"La habilidad está vinculada a tipos de órdenes de trabajo",
-          "setupSkillLibraryNameRequired":"El nombre de la habilidad es obligatorio"
+          "setupSkillLibraryAssigned": "La habilidad está asignada a usuarios",
+          "setupSkillLibraryLinkedToJobOrder": "La habilidad está vinculada a órdenes de trabajo",
+          "setupSkillLibraryLinkedToTemplate": "La habilidad está vinculada a plantillas de órdenes de trabajo",
+          "setupSkillLibraryLinkedToJobOrderType": "La habilidad está vinculada a tipos de órdenes de trabajo",
+          "setupSkillLibraryNameRequired": "El nombre de la habilidad es obligatorio"
         }
       },
       "teams": {
@@ -19928,23 +19937,23 @@
           "onlyCsvFilesAllowedError": "Solo se permiten archivos CSV",
           "endDateAfterStartDate": "La fecha de finalización debe ser igual o posterior a la fecha de inicio"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Se requiere el tipo de turno",
-          "setupShiftTypeNotFound":"Tipo de turno no encontrado",
-          "setupShiftTypeInactive":"No se puede asignar un tipo de turno inactivo",
-          "setupShiftEffectiveStartRequired":"Se requiere la fecha de inicio efectiva",
-          "setupShiftEffectiveEndBeforeStart":"La fecha de finalización efectiva no puede ser anterior a la fecha de inicio efectiva",
-          "setupShiftAssignmentNotFound":"Asignación de turno no encontrada",
-          "setupShiftAssigneeTypeRequired":"Se requiere el tipo de asignado",
-          "setupShiftUserRequired":"Se requiere el usuario objetivo",
-          "setupShiftUserNotFound":"Usuario no encontrado",
-          "setupShiftUserGroupRequired":"Se requiere el grupo objetivo",
-          "setupShiftUserGroupNotFound":"Grupo de usuarios no encontrado",
-          "setupShiftImportTemplateFailed":"No se pudo construir la plantilla de importación",
-          "setupShiftExportAssigneeTypeRequired":"Se requiere el tipo de asignado para la exportación",
-          "setupShiftExportFailed":"No se pudo construir el archivo de exportación",
-          "setupShiftImportFileUnreadable":"No se pudo leer el archivo de importación",
-          "setupShiftAssignmentIdsRequired":"Se requiere al menos un ID de asignación de turno"
+        "validationBE": {
+          "setupShiftTypeRequired": "Se requiere el tipo de turno",
+          "setupShiftTypeNotFound": "Tipo de turno no encontrado",
+          "setupShiftTypeInactive": "No se puede asignar un tipo de turno inactivo",
+          "setupShiftEffectiveStartRequired": "Se requiere la fecha de inicio efectiva",
+          "setupShiftEffectiveEndBeforeStart": "La fecha de finalización efectiva no puede ser anterior a la fecha de inicio efectiva",
+          "setupShiftAssignmentNotFound": "Asignación de turno no encontrada",
+          "setupShiftAssigneeTypeRequired": "Se requiere el tipo de asignado",
+          "setupShiftUserRequired": "Se requiere el usuario objetivo",
+          "setupShiftUserNotFound": "Usuario no encontrado",
+          "setupShiftUserGroupRequired": "Se requiere el grupo objetivo",
+          "setupShiftUserGroupNotFound": "Grupo de usuarios no encontrado",
+          "setupShiftImportTemplateFailed": "No se pudo construir la plantilla de importación",
+          "setupShiftExportAssigneeTypeRequired": "Se requiere el tipo de asignado para la exportación",
+          "setupShiftExportFailed": "No se pudo construir el archivo de exportación",
+          "setupShiftImportFileUnreadable": "No se pudo leer el archivo de importación",
+          "setupShiftAssignmentIdsRequired": "Se requiere al menos un ID de asignación de turno"
         }
       }
     },

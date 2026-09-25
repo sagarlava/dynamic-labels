@@ -5871,7 +5871,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "区块",
         "plural": "区块",
@@ -5881,7 +5881,7 @@
       "area": {
         "original": "Area",
         "singular": "区域",
-        "plural": "",
+        "plural": "区域",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6164,7 +6164,8 @@
       "siteLevelNameExists": "该楼栋下楼层名称已存在",
       "siteBlockAreaNameRequired": "区域名称为必填项",
       "siteBlockAreaSiteLevelRequired": "楼层为必填项",
-      "siteBlockAreaNameExists": "该楼层下区域名称已存在"
+      "siteBlockAreaNameExists": "该楼层下区域名称已存在",
+      "startDateTimeAndEndDateTimeAreRequired": "开始日期和结束日期为必填项"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6451,7 +6452,14 @@
       "next3Months": "未来3个月",
       "customRange": "自定义范围",
       "estimatedJobsPrefix": "预计",
-      "estimatedJobsSuffix": "个工作将被生成"
+      "estimatedJobsSuffix": "个工作将被生成",
+      "bothAreRequiredBefore": "在您可以之前，两者均为必填",
+      "forTheMonth": "本月",
+      "thenUseFilters": "然后使用下方筛选器缩小要包含的周期性",
+      "areIncluded": "被包含",
+      "datesWithDot": "带圆点的日期有",
+      "clickOneToView": "点击其一即可在右侧查看",
+      "scheduledForThisDate": "分配后，此日期的排程将显示在下方"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "只允许字母和数字"
@@ -16821,7 +16829,9 @@
       "setupSkills": "尚未创建技能。创建一个后即可在此查看。",
       "setupTeams": "尚未创建团队。创建一个后即可在此查看。",
       "toViewScheduledJobsForToday": "以查看今天的已排程工作",
-      "enterA": "输入一个"
+      "enterA": "输入一个",
+      "another": "另一个",
+      "current": "当前"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18616,11 +18626,11 @@
           "inLibrarySuffix": "在库中"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"该技能已分配给用户",
-          "setupSkillLibraryLinkedToJobOrder":"该技能已关联工单",
-          "setupSkillLibraryLinkedToTemplate":"该技能已关联工单模板",
-          "setupSkillLibraryLinkedToJobOrderType":"该技能已关联工单类型",
-          "setupSkillLibraryNameRequired":"技能名称为必填项"
+          "setupSkillLibraryAssigned": "该技能已分配给用户",
+          "setupSkillLibraryLinkedToJobOrder": "该技能已关联工单",
+          "setupSkillLibraryLinkedToTemplate": "该技能已关联工单模板",
+          "setupSkillLibraryLinkedToJobOrderType": "该技能已关联工单类型",
+          "setupSkillLibraryNameRequired": "技能名称为必填项"
         }
       },
       "teams": {
@@ -19935,23 +19945,23 @@
           "onlyCsvFilesAllowedError": "仅允许 CSV 文件",
           "endDateAfterStartDate": "结束日期必须等于或晚于开始日期"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"班次类型为必填项",
-          "setupShiftTypeNotFound":"未找到班次类型",
-          "setupShiftTypeInactive":"无法分配已停用的班次类型",
-          "setupShiftEffectiveStartRequired":"生效开始日期为必填项",
-          "setupShiftEffectiveEndBeforeStart":"生效结束日期不能早于生效开始日期",
-          "setupShiftAssignmentNotFound":"未找到班次分配",
-          "setupShiftAssigneeTypeRequired":"分配对象类型为必填项",
-          "setupShiftUserRequired":"目标用户为必填项",
-          "setupShiftUserNotFound":"未找到用户",
-          "setupShiftUserGroupRequired":"目标用户组为必填项",
-          "setupShiftUserGroupNotFound":"未找到用户组",
-          "setupShiftImportTemplateFailed":"无法生成导入模板",
-          "setupShiftExportAssigneeTypeRequired":"导出时分配对象类型为必填项",
-          "setupShiftExportFailed":"无法生成导出文件",
-          "setupShiftImportFileUnreadable":"无法读取导入文件",
-          "setupShiftAssignmentIdsRequired":"至少需要一个班次分配 ID"
+        "validationBE": {
+          "setupShiftTypeRequired": "班次类型为必填项",
+          "setupShiftTypeNotFound": "未找到班次类型",
+          "setupShiftTypeInactive": "无法分配已停用的班次类型",
+          "setupShiftEffectiveStartRequired": "生效开始日期为必填项",
+          "setupShiftEffectiveEndBeforeStart": "生效结束日期不能早于生效开始日期",
+          "setupShiftAssignmentNotFound": "未找到班次分配",
+          "setupShiftAssigneeTypeRequired": "分配对象类型为必填项",
+          "setupShiftUserRequired": "目标用户为必填项",
+          "setupShiftUserNotFound": "未找到用户",
+          "setupShiftUserGroupRequired": "目标用户组为必填项",
+          "setupShiftUserGroupNotFound": "未找到用户组",
+          "setupShiftImportTemplateFailed": "无法生成导入模板",
+          "setupShiftExportAssigneeTypeRequired": "导出时分配对象类型为必填项",
+          "setupShiftExportFailed": "无法生成导出文件",
+          "setupShiftImportFileUnreadable": "无法读取导入文件",
+          "setupShiftAssignmentIdsRequired": "至少需要一个班次分配 ID"
         }
       }
     },

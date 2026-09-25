@@ -5582,7 +5582,7 @@
       "area": {
         "original": "Area",
         "singular": "Area",
-        "plural": "",
+        "plural": "Areas",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -5802,6 +5802,13 @@
         "plural": "Buildings/Blocks",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "block": {
+        "original": "Block",
+        "singular": "Block",
+        "plural": "Blocks",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -5865,7 +5872,8 @@
       "siteLevelNameExists": "Station Level name already exists on this Block",
       "siteBlockAreaNameRequired": "Station Area name is required",
       "siteBlockAreaSiteLevelRequired": "Station Level is required",
-      "siteBlockAreaNameExists": "Station Area name already exists on this Level"
+      "siteBlockAreaNameExists": "Station Area name already exists on this Level",
+      "startDateTimeAndEndDateTimeAreRequired": "Start Date and End Date are required"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6152,7 +6160,14 @@
       "next3Months": "Next 3 months",
       "customRange": "Custom range",
       "estimatedJobsPrefix": "Estimated",
-      "estimatedJobsSuffix": "jobs will be generated"
+      "estimatedJobsSuffix": "jobs will be generated",
+      "bothAreRequiredBefore": "both are required before you can",
+      "forTheMonth": "for the month",
+      "thenUseFilters": "then use the filters below to narrow which recurring",
+      "areIncluded": "are included",
+      "datesWithDot": "Dates with a dot have",
+      "clickOneToView": "click one to view it on the right",
+      "scheduledForThisDate": "scheduled for this date will appear below once assigned"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
@@ -7503,6 +7518,13 @@
         "original": "Record",
         "singular": "Record",
         "plural": "Records",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "Location & Contract",
+        "plural": "Location & Contracts",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9859,6 +9881,13 @@
         "original": "Recent",
         "singular": "Recent",
         "plural": "Recent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Schedule Task Number",
+        "plural": "Schedule Task Numbers",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -15014,7 +15043,9 @@
       "setupSkills": "No skills created yet. Create one to see it here.",
       "setupTeams": "No teams created yet. Create one to see it here.",
       "toViewScheduledJobsForToday": "to view scheduled jobs for today",
-      "enterA": "Enter a"
+      "enterA": "Enter a",
+      "another": "another",
+      "current": "Current"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -16807,6 +16838,13 @@
           "editingMasterListInstruction": "You're editing the master",
           "editingMasterListInstructionSuffix": "list. Colours set here will appear consistently for all users/jobs",
           "inLibrarySuffix": "in library"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned": "Skill is assigned to users",
+          "setupSkillLibraryLinkedToJobOrder": "Skill is linked to job orders",
+          "setupSkillLibraryLinkedToJobOrderType": "Skill is linked to job order types",
+          "setupSkillLibraryLinkedToTemplate": "Skill is linked to job order templates",
+          "setupSkillLibraryNameRequired": "Skill name is required"
         }
       },
       "teams": {
@@ -18120,6 +18158,24 @@
           "csvOnlyHint": "Only CSV files are accepted.",
           "onlyCsvFilesAllowedError": "Only CSV files are allowed",
           "endDateAfterStartDate": "End date must be on or after start date"
+        },
+        "validationBE": {
+          "setupShiftAssigneeTypeRequired": "Assignee type is required",
+          "setupShiftAssignmentIdsRequired": "At least one Shift Assignment id is required",
+          "setupShiftAssignmentNotFound": "Shift Assignment not found",
+          "setupShiftEffectiveEndBeforeStart": "Effective end date cannot be before the effective start date",
+          "setupShiftEffectiveStartRequired": "Effective start date is required",
+          "setupShiftExportAssigneeTypeRequired": "Assignee type is required for export",
+          "setupShiftExportFailed": "The export file could not be built",
+          "setupShiftImportFileUnreadable": "The import file could not be read",
+          "setupShiftImportTemplateFailed": "The import template could not be built",
+          "setupShiftTypeInactive": "An inactive shift type cannot be assigned",
+          "setupShiftTypeNotFound": "Shift Type not found",
+          "setupShiftTypeRequired": "Shift type is required",
+          "setupShiftUserGroupNotFound": "User Group not found",
+          "setupShiftUserGroupRequired": "Target group is required",
+          "setupShiftUserNotFound": "User not found",
+          "setupShiftUserRequired": "Target user is required"
         }
       }
     },

@@ -5863,7 +5863,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "Blok",
         "plural": "Blok",
@@ -5873,7 +5873,7 @@
       "area": {
         "original": "Area",
         "singular": "Kawasan",
-        "plural": "",
+        "plural": "Kawasan",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6156,7 +6156,8 @@
       "siteLevelNameExists": "Nama Aras sudah wujud pada blok ini",
       "siteBlockAreaNameRequired": "Nama Kawasan diperlukan",
       "siteBlockAreaSiteLevelRequired": "Aras diperlukan",
-      "siteBlockAreaNameExists": "Nama Kawasan sudah wujud pada aras ini"
+      "siteBlockAreaNameExists": "Nama Kawasan sudah wujud pada aras ini",
+      "startDateTimeAndEndDateTimeAreRequired": "Tarikh Mula dan Tarikh Tamat diperlukan"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6443,7 +6444,14 @@
       "next3Months": "3 bulan seterusnya",
       "customRange": "Julat tersuai",
       "estimatedJobsPrefix": "Anggaran",
-      "estimatedJobsSuffix": "kerja akan dijana"
+      "estimatedJobsSuffix": "kerja akan dijana",
+      "bothAreRequiredBefore": "kedua-duanya diperlukan sebelum anda boleh",
+      "forTheMonth": "untuk bulan",
+      "thenUseFilters": "kemudian gunakan penapis di bawah untuk mengecilkan berulang mana",
+      "areIncluded": "termasuk",
+      "datesWithDot": "Tarikh dengan titik mempunyai",
+      "clickOneToView": "klik satu untuk melihatnya di sebelah kanan",
+      "scheduledForThisDate": "yang dijadualkan untuk tarikh ini akan muncul di bawah selepas ditugaskan"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Hanya abjad dan nombor dibenarkan"
@@ -16813,7 +16821,9 @@
       "setupSkills": "Belum ada kemahiran dicipta. Cipta satu untuk melihatnya di sini.",
       "setupTeams": "Belum ada pasukan dicipta. Cipta satu untuk melihatnya di sini.",
       "toViewScheduledJobsForToday": "untuk melihat kerja berjadual untuk hari ini",
-      "enterA": "Masukkan"
+      "enterA": "Masukkan",
+      "another": "satu lagi",
+      "current": "Semasa"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18608,11 +18618,11 @@
           "inLibrarySuffix": "dalam perpustakaan"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"Kemahiran telah ditetapkan kepada pengguna",
-          "setupSkillLibraryLinkedToJobOrder":"Kemahiran dipautkan kepada pesanan kerja",
-          "setupSkillLibraryLinkedToTemplate":"Kemahiran dipautkan kepada templat pesanan kerja",
-          "setupSkillLibraryLinkedToJobOrderType":"Kemahiran dipautkan kepada jenis pesanan kerja",
-          "setupSkillLibraryNameRequired":"Nama kemahiran diperlukan"
+          "setupSkillLibraryAssigned": "Kemahiran telah ditetapkan kepada pengguna",
+          "setupSkillLibraryLinkedToJobOrder": "Kemahiran dipautkan kepada pesanan kerja",
+          "setupSkillLibraryLinkedToTemplate": "Kemahiran dipautkan kepada templat pesanan kerja",
+          "setupSkillLibraryLinkedToJobOrderType": "Kemahiran dipautkan kepada jenis pesanan kerja",
+          "setupSkillLibraryNameRequired": "Nama kemahiran diperlukan"
         }
       },
       "teams": {
@@ -19927,23 +19937,23 @@
           "onlyCsvFilesAllowedError": "Hanya fail CSV dibenarkan",
           "endDateAfterStartDate": "Tarikh tamat mesti pada atau selepas tarikh mula"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Jenis syif diperlukan",
-          "setupShiftTypeNotFound":"Jenis Syif tidak dijumpai",
-          "setupShiftTypeInactive":"Jenis syif yang tidak aktif tidak boleh ditetapkan",
-          "setupShiftEffectiveStartRequired":"Tarikh mula berkuat kuasa diperlukan",
-          "setupShiftEffectiveEndBeforeStart":"Tarikh tamat berkuat kuasa tidak boleh sebelum tarikh mula berkuat kuasa",
-          "setupShiftAssignmentNotFound":"Penetapan Syif tidak dijumpai",
-          "setupShiftAssigneeTypeRequired":"Jenis penerima diperlukan",
-          "setupShiftUserRequired":"Pengguna sasaran diperlukan",
-          "setupShiftUserNotFound":"Pengguna tidak dijumpai",
-          "setupShiftUserGroupRequired":"Kumpulan sasaran diperlukan",
-          "setupShiftUserGroupNotFound":"Kumpulan Pengguna tidak dijumpai",
-          "setupShiftImportTemplateFailed":"Templat import tidak dapat dibina",
-          "setupShiftExportAssigneeTypeRequired":"Jenis penerima diperlukan untuk eksport",
-          "setupShiftExportFailed":"Fail eksport tidak dapat dibina",
-          "setupShiftImportFileUnreadable":"Fail import tidak dapat dibaca",
-          "setupShiftAssignmentIdsRequired":"Sekurang-kurangnya satu id Penetapan Syif diperlukan"
+        "validationBE": {
+          "setupShiftTypeRequired": "Jenis syif diperlukan",
+          "setupShiftTypeNotFound": "Jenis Syif tidak dijumpai",
+          "setupShiftTypeInactive": "Jenis syif yang tidak aktif tidak boleh ditetapkan",
+          "setupShiftEffectiveStartRequired": "Tarikh mula berkuat kuasa diperlukan",
+          "setupShiftEffectiveEndBeforeStart": "Tarikh tamat berkuat kuasa tidak boleh sebelum tarikh mula berkuat kuasa",
+          "setupShiftAssignmentNotFound": "Penetapan Syif tidak dijumpai",
+          "setupShiftAssigneeTypeRequired": "Jenis penerima diperlukan",
+          "setupShiftUserRequired": "Pengguna sasaran diperlukan",
+          "setupShiftUserNotFound": "Pengguna tidak dijumpai",
+          "setupShiftUserGroupRequired": "Kumpulan sasaran diperlukan",
+          "setupShiftUserGroupNotFound": "Kumpulan Pengguna tidak dijumpai",
+          "setupShiftImportTemplateFailed": "Templat import tidak dapat dibina",
+          "setupShiftExportAssigneeTypeRequired": "Jenis penerima diperlukan untuk eksport",
+          "setupShiftExportFailed": "Fail eksport tidak dapat dibina",
+          "setupShiftImportFileUnreadable": "Fail import tidak dapat dibaca",
+          "setupShiftAssignmentIdsRequired": "Sekurang-kurangnya satu id Penetapan Syif diperlukan"
         }
       }
     },

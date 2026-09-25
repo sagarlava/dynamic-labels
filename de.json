@@ -5863,7 +5863,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "Block",
         "plural": "Blöcke",
@@ -5873,7 +5873,7 @@
       "area": {
         "original": "Area",
         "singular": "Bereich",
-        "plural": "",
+        "plural": "Bereiche",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6156,7 +6156,8 @@
       "siteLevelNameExists": "Ebenenname existiert bereits in diesem Block",
       "siteBlockAreaNameRequired": "Bereichsname ist erforderlich",
       "siteBlockAreaSiteLevelRequired": "Ebene ist erforderlich",
-      "siteBlockAreaNameExists": "Bereichsname existiert bereits auf dieser Ebene"
+      "siteBlockAreaNameExists": "Bereichsname existiert bereits auf dieser Ebene",
+      "startDateTimeAndEndDateTimeAreRequired": "Startdatum und Enddatum sind erforderlich"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6443,7 +6444,14 @@
       "next3Months": "Nächste 3 Monate",
       "customRange": "Benutzerdefinierter Zeitraum",
       "estimatedJobsPrefix": "Geschätzt",
-      "estimatedJobsSuffix": "Aufträge werden generiert"
+      "estimatedJobsSuffix": "Aufträge werden generiert",
+      "bothAreRequiredBefore": "beide sind erforderlich, bevor Sie",
+      "forTheMonth": "für den Monat",
+      "thenUseFilters": "verwenden Sie dann die Filter unten, um einzugrenzen, welche wiederkehrenden",
+      "areIncluded": "enthalten sind",
+      "datesWithDot": "Daten mit einem Punkt haben",
+      "clickOneToView": "klicken Sie auf eine, um sie rechts anzuzeigen",
+      "scheduledForThisDate": "für dieses Datum geplante werden unten angezeigt, sobald sie zugewiesen sind"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Nur Buchstaben und Zahlen sind erlaubt"
@@ -16813,7 +16821,9 @@
       "setupSkills": "Noch keine Fähigkeiten erstellt. Erstellen Sie eine, um sie hier zu sehen.",
       "setupTeams": "Noch keine Teams erstellt. Erstellen Sie eines, um es hier zu sehen.",
       "toViewScheduledJobsForToday": "um die für heute geplanten Aufträge anzuzeigen",
-      "enterA": "Geben Sie ein"
+      "enterA": "Geben Sie ein",
+      "another": "einen anderen",
+      "current": "Aktuell"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18608,11 +18618,11 @@
           "inLibrarySuffix": "in der Bibliothek"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"Die Qualifikation ist Benutzern zugewiesen",
-          "setupSkillLibraryLinkedToJobOrder":"Die Qualifikation ist mit Aufträgen verknüpft",
-          "setupSkillLibraryLinkedToTemplate":"Die Qualifikation ist mit Auftragsvorlagen verknüpft",
-          "setupSkillLibraryLinkedToJobOrderType":"Die Qualifikation ist mit Auftragsarten verknüpft",
-          "setupSkillLibraryNameRequired":"Qualifikationsname ist erforderlich"
+          "setupSkillLibraryAssigned": "Die Qualifikation ist Benutzern zugewiesen",
+          "setupSkillLibraryLinkedToJobOrder": "Die Qualifikation ist mit Aufträgen verknüpft",
+          "setupSkillLibraryLinkedToTemplate": "Die Qualifikation ist mit Auftragsvorlagen verknüpft",
+          "setupSkillLibraryLinkedToJobOrderType": "Die Qualifikation ist mit Auftragsarten verknüpft",
+          "setupSkillLibraryNameRequired": "Qualifikationsname ist erforderlich"
         }
       },
       "teams": {
@@ -19927,23 +19937,23 @@
           "onlyCsvFilesAllowedError": "Nur CSV-Dateien sind erlaubt",
           "endDateAfterStartDate": "Das Enddatum muss am oder nach dem Startdatum liegen"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Schichtart ist erforderlich",
-          "setupShiftTypeNotFound":"Schichtart nicht gefunden",
-          "setupShiftTypeInactive":"Eine inaktive Schichtart kann nicht zugewiesen werden",
-          "setupShiftEffectiveStartRequired":"Gültigkeitsbeginn ist erforderlich",
-          "setupShiftEffectiveEndBeforeStart":"Das Gültigkeitsende darf nicht vor dem Gültigkeitsbeginn liegen",
-          "setupShiftAssignmentNotFound":"Schichtzuweisung nicht gefunden",
-          "setupShiftAssigneeTypeRequired":"Zuweisungstyp ist erforderlich",
-          "setupShiftUserRequired":"Zielbenutzer ist erforderlich",
-          "setupShiftUserNotFound":"Benutzer nicht gefunden",
-          "setupShiftUserGroupRequired":"Zielgruppe ist erforderlich",
-          "setupShiftUserGroupNotFound":"Benutzergruppe nicht gefunden",
-          "setupShiftImportTemplateFailed":"Die Importvorlage konnte nicht erstellt werden",
-          "setupShiftExportAssigneeTypeRequired":"Zuweisungstyp ist für den Export erforderlich",
-          "setupShiftExportFailed":"Die Exportdatei konnte nicht erstellt werden",
-          "setupShiftImportFileUnreadable":"Die Importdatei konnte nicht gelesen werden",
-          "setupShiftAssignmentIdsRequired":"Mindestens eine Schichtzuweisungs-ID ist erforderlich"
+        "validationBE": {
+          "setupShiftTypeRequired": "Schichtart ist erforderlich",
+          "setupShiftTypeNotFound": "Schichtart nicht gefunden",
+          "setupShiftTypeInactive": "Eine inaktive Schichtart kann nicht zugewiesen werden",
+          "setupShiftEffectiveStartRequired": "Gültigkeitsbeginn ist erforderlich",
+          "setupShiftEffectiveEndBeforeStart": "Das Gültigkeitsende darf nicht vor dem Gültigkeitsbeginn liegen",
+          "setupShiftAssignmentNotFound": "Schichtzuweisung nicht gefunden",
+          "setupShiftAssigneeTypeRequired": "Zuweisungstyp ist erforderlich",
+          "setupShiftUserRequired": "Zielbenutzer ist erforderlich",
+          "setupShiftUserNotFound": "Benutzer nicht gefunden",
+          "setupShiftUserGroupRequired": "Zielgruppe ist erforderlich",
+          "setupShiftUserGroupNotFound": "Benutzergruppe nicht gefunden",
+          "setupShiftImportTemplateFailed": "Die Importvorlage konnte nicht erstellt werden",
+          "setupShiftExportAssigneeTypeRequired": "Zuweisungstyp ist für den Export erforderlich",
+          "setupShiftExportFailed": "Die Exportdatei konnte nicht erstellt werden",
+          "setupShiftImportFileUnreadable": "Die Importdatei konnte nicht gelesen werden",
+          "setupShiftAssignmentIdsRequired": "Mindestens eine Schichtzuweisungs-ID ist erforderlich"
         }
       }
     },

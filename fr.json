@@ -5866,7 +5866,7 @@
       "area": {
         "original": "Area",
         "singular": "Zone",
-        "plural": "",
+        "plural": "Zones",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6086,6 +6086,13 @@
         "plural": "Bâtiments/Blocs",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "block": {
+        "original": "Block",
+        "singular": "Bloc",
+        "plural": "Blocs",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -6149,7 +6156,8 @@
       "siteLevelNameExists": "Le nom du niveau existe déjà dans ce bloc",
       "siteBlockAreaNameRequired": "Le nom de la zone est obligatoire",
       "siteBlockAreaSiteLevelRequired": "Le niveau est obligatoire",
-      "siteBlockAreaNameExists": "Le nom de la zone existe déjà à ce niveau"
+      "siteBlockAreaNameExists": "Le nom de la zone existe déjà à ce niveau",
+      "startDateTimeAndEndDateTimeAreRequired": "La date de début et la date de fin sont requises"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6436,7 +6444,14 @@
       "next3Months": "3 prochains mois",
       "customRange": "Plage personnalisée",
       "estimatedJobsPrefix": "Estimé",
-      "estimatedJobsSuffix": "travaux seront générés"
+      "estimatedJobsSuffix": "travaux seront générés",
+      "bothAreRequiredBefore": "les deux sont requis avant de pouvoir",
+      "forTheMonth": "pour le mois",
+      "thenUseFilters": "puis utilisez les filtres ci-dessous pour restreindre les récurrents",
+      "areIncluded": "sont inclus",
+      "datesWithDot": "Les dates avec un point ont",
+      "clickOneToView": "cliquez sur l’une pour la voir à droite",
+      "scheduledForThisDate": "planifiés pour cette date apparaîtront ci-dessous une fois assignés"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés"
@@ -7787,6 +7802,13 @@
         "original": "Record",
         "singular": "Enregistrer",
         "plural": "Enregistrements",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "Emplacement et contrat",
+        "plural": "Emplacements et contrats",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10143,6 +10165,13 @@
         "original": "Recent",
         "singular": "Récent",
         "plural": "Récent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Numéro de tâche planifiée",
+        "plural": "Numéros de tâche planifiée",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -16792,7 +16821,9 @@
       "setupSkills": "Aucune compétence n’a encore été créée. Créez-en une pour la voir ici.",
       "setupTeams": "Aucune équipe n’a encore été créée. Créez-en une pour la voir ici.",
       "toViewScheduledJobsForToday": "pour voir les travaux planifiés pour aujourd’hui",
-      "enterA": "Saisir un"
+      "enterA": "Saisir un",
+      "another": "un autre",
+      "current": "Actuel"
     },
     "currency": {
       "australianDollar": "EUR",
@@ -18587,11 +18618,11 @@
           "inLibrarySuffix": "dans la bibliothèque"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"La compétence est affectée à des utilisateurs",
-          "setupSkillLibraryLinkedToJobOrder":"La compétence est liée à des ordres de travail",
-          "setupSkillLibraryLinkedToTemplate":"La compétence est liée à des modèles d'ordre de travail",
-          "setupSkillLibraryLinkedToJobOrderType":"La compétence est liée à des types d'ordre de travail",
-          "setupSkillLibraryNameRequired":"Le nom de la compétence est obligatoire"
+          "setupSkillLibraryAssigned": "La compétence est affectée à des utilisateurs",
+          "setupSkillLibraryLinkedToJobOrder": "La compétence est liée à des ordres de travail",
+          "setupSkillLibraryLinkedToTemplate": "La compétence est liée à des modèles d'ordre de travail",
+          "setupSkillLibraryLinkedToJobOrderType": "La compétence est liée à des types d'ordre de travail",
+          "setupSkillLibraryNameRequired": "Le nom de la compétence est obligatoire"
         }
       },
       "teams": {
@@ -19906,23 +19937,23 @@
           "onlyCsvFilesAllowedError": "Seuls les fichiers CSV sont autorisés",
           "endDateAfterStartDate": "La date de fin doit être égale ou postérieure à la date de début"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Le type de poste est obligatoire",
-          "setupShiftTypeNotFound":"Type de poste introuvable",
-          "setupShiftTypeInactive":"Un type de poste inactif ne peut pas être affecté",
-          "setupShiftEffectiveStartRequired":"La date de début de validité est obligatoire",
-          "setupShiftEffectiveEndBeforeStart":"La date de fin de validité ne peut pas être antérieure à la date de début de validité",
-          "setupShiftAssignmentNotFound":"Affectation de poste introuvable",
-          "setupShiftAssigneeTypeRequired":"Le type d'assigné est obligatoire",
-          "setupShiftUserRequired":"L'utilisateur cible est obligatoire",
-          "setupShiftUserNotFound":"Utilisateur introuvable",
-          "setupShiftUserGroupRequired":"Le groupe cible est obligatoire",
-          "setupShiftUserGroupNotFound":"Groupe d'utilisateurs introuvable",
-          "setupShiftImportTemplateFailed":"Le modèle d'importation n'a pas pu être généré",
-          "setupShiftExportAssigneeTypeRequired":"Le type d'assigné est obligatoire pour l'exportation",
-          "setupShiftExportFailed":"Le fichier d'exportation n'a pas pu être généré",
-          "setupShiftImportFileUnreadable":"Le fichier d'importation n'a pas pu être lu",
-          "setupShiftAssignmentIdsRequired":"Au moins un identifiant d'affectation de poste est obligatoire"
+        "validationBE": {
+          "setupShiftTypeRequired": "Le type de poste est obligatoire",
+          "setupShiftTypeNotFound": "Type de poste introuvable",
+          "setupShiftTypeInactive": "Un type de poste inactif ne peut pas être affecté",
+          "setupShiftEffectiveStartRequired": "La date de début de validité est obligatoire",
+          "setupShiftEffectiveEndBeforeStart": "La date de fin de validité ne peut pas être antérieure à la date de début de validité",
+          "setupShiftAssignmentNotFound": "Affectation de poste introuvable",
+          "setupShiftAssigneeTypeRequired": "Le type d'assigné est obligatoire",
+          "setupShiftUserRequired": "L'utilisateur cible est obligatoire",
+          "setupShiftUserNotFound": "Utilisateur introuvable",
+          "setupShiftUserGroupRequired": "Le groupe cible est obligatoire",
+          "setupShiftUserGroupNotFound": "Groupe d'utilisateurs introuvable",
+          "setupShiftImportTemplateFailed": "Le modèle d'importation n'a pas pu être généré",
+          "setupShiftExportAssigneeTypeRequired": "Le type d'assigné est obligatoire pour l'exportation",
+          "setupShiftExportFailed": "Le fichier d'exportation n'a pas pu être généré",
+          "setupShiftImportFileUnreadable": "Le fichier d'importation n'a pas pu être lu",
+          "setupShiftAssignmentIdsRequired": "Au moins un identifiant d'affectation de poste est obligatoire"
         }
       }
     },

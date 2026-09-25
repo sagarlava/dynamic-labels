@@ -5866,7 +5866,7 @@
       "area": {
         "original": "Area",
         "singular": "பகுதி",
-        "plural": "",
+        "plural": "பகுதிகள்",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6086,6 +6086,13 @@
         "plural": "கட்டிடங்கள்/தொகுதிகள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "block": {
+        "original": "Block",
+        "singular": "பிளாக்",
+        "plural": "பிளாக்குகள்",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -6149,7 +6156,8 @@
       "siteLevelNameExists": "இந்த பிளாக்கில் நிலை பெயர் ஏற்கனவே உள்ளது",
       "siteBlockAreaNameRequired": "பகுதி பெயர் தேவை",
       "siteBlockAreaSiteLevelRequired": "நிலை தேவை",
-      "siteBlockAreaNameExists": "இந்த நிலையில் பகுதி பெயர் ஏற்கனவே உள்ளது"
+      "siteBlockAreaNameExists": "இந்த நிலையில் பகுதி பெயர் ஏற்கனவே உள்ளது",
+      "startDateTimeAndEndDateTimeAreRequired": "தொடக்க தேதி மற்றும் முடிவு தேதி தேவை"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6436,7 +6444,14 @@
       "next3Months": "அடுத்த 3 மாதங்கள்",
       "customRange": "தனிப்பயன் வரம்பு",
       "estimatedJobsPrefix": "மதிப்பிடப்பட்ட",
-      "estimatedJobsSuffix": "வேலைகள் உருவாக்கப்படும்"
+      "estimatedJobsSuffix": "வேலைகள் உருவாக்கப்படும்",
+      "bothAreRequiredBefore": "நீங்கள் செய்வதற்கு முன் இரண்டும் தேவை",
+      "forTheMonth": "மாதத்திற்கு",
+      "thenUseFilters": "பின்னர் எந்த தொடர்ச்சியானவை என்பதைக் குறைக்க கீழே உள்ள வடிப்பான்களைப் பயன்படுத்தவும்",
+      "areIncluded": "சேர்க்கப்பட்டுள்ளன",
+      "datesWithDot": "புள்ளியுள்ள தேதிகளில் உள்ளன",
+      "clickOneToView": "வலதுபுறத்தில் பார்க்க ஒன்றைக் கிளிக் செய்யவும்",
+      "scheduledForThisDate": "இந்த தேதிக்கு திட்டமிடப்பட்டவை ஒதுக்கப்பட்டதும் கீழே தோன்றும்"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "எழுத்துகள் மற்றும் எண்கள் மட்டுமே அனுமதிக்கப்படும்"
@@ -7787,6 +7802,13 @@
         "original": "Record",
         "singular": "பதிவு",
         "plural": "பதிவுகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "இடம் & ஒப்பந்தம்",
+        "plural": "இடங்கள் & ஒப்பந்தங்கள்",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10143,6 +10165,13 @@
         "original": "Recent",
         "singular": "சமீபத்திய",
         "plural": "சமீபத்திய",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "அட்டவணை பணி எண்",
+        "plural": "அட்டவணை பணி எண்கள்",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -16792,7 +16821,9 @@
       "setupSkills": "இன்னும் திறன்கள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
       "setupTeams": "இன்னும் குழுக்கள் உருவாக்கப்படவில்லை. இங்கே காண ஒன்றை உருவாக்கவும்.",
       "toViewScheduledJobsForToday": "இன்றைய திட்டமிடப்பட்ட வேலைகளைப் பார்க்க",
-      "enterA": "ஒரு ... உள்ளிடவும்"
+      "enterA": "ஒரு ... உள்ளிடவும்",
+      "another": "மற்றொரு",
+      "current": "தற்போதைய"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -18587,11 +18618,11 @@
           "inLibrarySuffix": "நூலகத்தில்"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"திறன் பயனர்களுக்கு ஒதுக்கப்பட்டுள்ளது",
-          "setupSkillLibraryLinkedToJobOrder":"திறன் வேலை ஆணைகளுடன் இணைக்கப்பட்டுள்ளது",
-          "setupSkillLibraryLinkedToTemplate":"திறன் வேலை ஆணை வார்ப்புருக்களுடன் இணைக்கப்பட்டுள்ளது",
-          "setupSkillLibraryLinkedToJobOrderType":"திறன் வேலை ஆணை வகைகளுடன் இணைக்கப்பட்டுள்ளது",
-          "setupSkillLibraryNameRequired":"திறன் பெயர் தேவை"
+          "setupSkillLibraryAssigned": "திறன் பயனர்களுக்கு ஒதுக்கப்பட்டுள்ளது",
+          "setupSkillLibraryLinkedToJobOrder": "திறன் வேலை ஆணைகளுடன் இணைக்கப்பட்டுள்ளது",
+          "setupSkillLibraryLinkedToTemplate": "திறன் வேலை ஆணை வார்ப்புருக்களுடன் இணைக்கப்பட்டுள்ளது",
+          "setupSkillLibraryLinkedToJobOrderType": "திறன் வேலை ஆணை வகைகளுடன் இணைக்கப்பட்டுள்ளது",
+          "setupSkillLibraryNameRequired": "திறன் பெயர் தேவை"
         }
       },
       "teams": {
@@ -19906,23 +19937,23 @@
           "onlyCsvFilesAllowedError": "CSV கோப்புகள் மட்டுமே அனுமதிக்கப்படும்",
           "endDateAfterStartDate": "முடிவு தேதி தொடக்க தேதிக்கு சமமாகவோ அதற்குப் பிறகோ இருக்க வேண்டும்"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"பணிமுறை வகை தேவை",
-          "setupShiftTypeNotFound":"பணிமுறை வகை கண்டறியப்படவில்லை",
-          "setupShiftTypeInactive":"செயலில் இல்லாத பணிமுறை வகையை ஒதுக்க முடியாது",
-          "setupShiftEffectiveStartRequired":"அமல் தொடக்க தேதி தேவை",
-          "setupShiftEffectiveEndBeforeStart":"அமல் முடிவு தேதி, அமல் தொடக்க தேதிக்கு முன்பாக இருக்கக்கூடாது",
-          "setupShiftAssignmentNotFound":"பணிமுறை ஒதுக்கம் கண்டறியப்படவில்லை",
-          "setupShiftAssigneeTypeRequired":"ஒதுக்கப்பட்டவர் வகை தேவை",
-          "setupShiftUserRequired":"இலக்கு பயனர் தேவை",
-          "setupShiftUserNotFound":"பயனர் கண்டறியப்படவில்லை",
-          "setupShiftUserGroupRequired":"இலக்கு குழு தேவை",
-          "setupShiftUserGroupNotFound":"பயனர் குழு கண்டறியப்படவில்லை",
-          "setupShiftImportTemplateFailed":"இறக்குமதி வார்ப்புருவை உருவாக்க முடியவில்லை",
-          "setupShiftExportAssigneeTypeRequired":"ஏற்றுமதிக்கு ஒதுக்கப்பட்டவர் வகை தேவை",
-          "setupShiftExportFailed":"ஏற்றுமதி கோப்பை உருவாக்க முடியவில்லை",
-          "setupShiftImportFileUnreadable":"இறக்குமதி கோப்பைப் படிக்க முடியவில்லை",
-          "setupShiftAssignmentIdsRequired":"குறைந்தது ஒரு பணிமுறை ஒதுக்கம் ஐடி தேவை"
+        "validationBE": {
+          "setupShiftTypeRequired": "பணிமுறை வகை தேவை",
+          "setupShiftTypeNotFound": "பணிமுறை வகை கண்டறியப்படவில்லை",
+          "setupShiftTypeInactive": "செயலில் இல்லாத பணிமுறை வகையை ஒதுக்க முடியாது",
+          "setupShiftEffectiveStartRequired": "அமல் தொடக்க தேதி தேவை",
+          "setupShiftEffectiveEndBeforeStart": "அமல் முடிவு தேதி, அமல் தொடக்க தேதிக்கு முன்பாக இருக்கக்கூடாது",
+          "setupShiftAssignmentNotFound": "பணிமுறை ஒதுக்கம் கண்டறியப்படவில்லை",
+          "setupShiftAssigneeTypeRequired": "ஒதுக்கப்பட்டவர் வகை தேவை",
+          "setupShiftUserRequired": "இலக்கு பயனர் தேவை",
+          "setupShiftUserNotFound": "பயனர் கண்டறியப்படவில்லை",
+          "setupShiftUserGroupRequired": "இலக்கு குழு தேவை",
+          "setupShiftUserGroupNotFound": "பயனர் குழு கண்டறியப்படவில்லை",
+          "setupShiftImportTemplateFailed": "இறக்குமதி வார்ப்புருவை உருவாக்க முடியவில்லை",
+          "setupShiftExportAssigneeTypeRequired": "ஏற்றுமதிக்கு ஒதுக்கப்பட்டவர் வகை தேவை",
+          "setupShiftExportFailed": "ஏற்றுமதி கோப்பை உருவாக்க முடியவில்லை",
+          "setupShiftImportFileUnreadable": "இறக்குமதி கோப்பைப் படிக்க முடியவில்லை",
+          "setupShiftAssignmentIdsRequired": "குறைந்தது ஒரு பணிமுறை ஒதுக்கம் ஐடி தேவை"
         }
       }
     },
