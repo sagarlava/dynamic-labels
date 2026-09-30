@@ -6037,7 +6037,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "区块",
         "plural": "区块",
@@ -6047,7 +6047,7 @@
       "area": {
         "original": "Area",
         "singular": "区域",
-        "plural": "",
+        "plural": "区域",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6330,7 +6330,8 @@
       "siteLevelNameExists": "该楼栋下楼层名称已存在",
       "siteBlockAreaNameRequired": "区域名称为必填项",
       "siteBlockAreaSiteLevelRequired": "楼层为必填项",
-      "siteBlockAreaNameExists": "该楼层下区域名称已存在"
+      "siteBlockAreaNameExists": "该楼层下区域名称已存在",
+      "startDateTimeAndEndDateTimeAreRequired": "开始日期和结束日期为必填项"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6617,7 +6618,14 @@
       "next3Months": "未来3个月",
       "customRange": "自定义范围",
       "estimatedJobsPrefix": "预计",
-      "estimatedJobsSuffix": "个工作将被生成"
+      "estimatedJobsSuffix": "个工作将被生成",
+      "bothAreRequiredBefore": "在您可以之前，两者均为必填",
+      "forTheMonth": "本月",
+      "thenUseFilters": "然后使用下方筛选器缩小要包含的周期性",
+      "areIncluded": "被包含",
+      "datesWithDot": "带圆点的日期有",
+      "clickOneToView": "点击其一即可在右侧查看",
+      "scheduledForThisDate": "分配后，此日期的排程将显示在下方"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "只允许字母和数字"
@@ -17372,7 +17380,9 @@
       "setupSkills": "尚未创建技能。创建一个后即可在此查看。",
       "setupTeams": "尚未创建团队。创建一个后即可在此查看。",
       "toViewScheduledJobsForToday": "以查看今天的已排程工作",
-      "enterA": "输入一个"
+      "enterA": "输入一个",
+      "another": "另一个",
+      "current": "当前"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -19400,11 +19410,11 @@
           "inLibrarySuffix": "在库中"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"该技能已分配给用户",
-          "setupSkillLibraryLinkedToJobOrder":"该技能已关联工单",
-          "setupSkillLibraryLinkedToTemplate":"该技能已关联工单模板",
-          "setupSkillLibraryLinkedToJobOrderType":"该技能已关联工单类型",
-          "setupSkillLibraryNameRequired":"技能名称为必填项"
+          "setupSkillLibraryAssigned": "该技能已分配给用户",
+          "setupSkillLibraryLinkedToJobOrder": "该技能已关联工单",
+          "setupSkillLibraryLinkedToTemplate": "该技能已关联工单模板",
+          "setupSkillLibraryLinkedToJobOrderType": "该技能已关联工单类型",
+          "setupSkillLibraryNameRequired": "技能名称为必填项"
         }
       },
       "teams": {
@@ -20726,23 +20736,23 @@
           "onlyCsvFilesAllowedError": "仅允许 CSV 文件",
           "endDateAfterStartDate": "结束日期必须等于或晚于开始日期"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"班次类型为必填项",
-          "setupShiftTypeNotFound":"未找到班次类型",
-          "setupShiftTypeInactive":"无法分配已停用的班次类型",
-          "setupShiftEffectiveStartRequired":"生效开始日期为必填项",
-          "setupShiftEffectiveEndBeforeStart":"生效结束日期不能早于生效开始日期",
-          "setupShiftAssignmentNotFound":"未找到班次分配",
-          "setupShiftAssigneeTypeRequired":"分配对象类型为必填项",
-          "setupShiftUserRequired":"目标用户为必填项",
-          "setupShiftUserNotFound":"未找到用户",
-          "setupShiftUserGroupRequired":"目标用户组为必填项",
-          "setupShiftUserGroupNotFound":"未找到用户组",
-          "setupShiftImportTemplateFailed":"无法生成导入模板",
-          "setupShiftExportAssigneeTypeRequired":"导出时分配对象类型为必填项",
-          "setupShiftExportFailed":"无法生成导出文件",
-          "setupShiftImportFileUnreadable":"无法读取导入文件",
-          "setupShiftAssignmentIdsRequired":"至少需要一个班次分配 ID"
+        "validationBE": {
+          "setupShiftTypeRequired": "班次类型为必填项",
+          "setupShiftTypeNotFound": "未找到班次类型",
+          "setupShiftTypeInactive": "无法分配已停用的班次类型",
+          "setupShiftEffectiveStartRequired": "生效开始日期为必填项",
+          "setupShiftEffectiveEndBeforeStart": "生效结束日期不能早于生效开始日期",
+          "setupShiftAssignmentNotFound": "未找到班次分配",
+          "setupShiftAssigneeTypeRequired": "分配对象类型为必填项",
+          "setupShiftUserRequired": "目标用户为必填项",
+          "setupShiftUserNotFound": "未找到用户",
+          "setupShiftUserGroupRequired": "目标用户组为必填项",
+          "setupShiftUserGroupNotFound": "未找到用户组",
+          "setupShiftImportTemplateFailed": "无法生成导入模板",
+          "setupShiftExportAssigneeTypeRequired": "导出时分配对象类型为必填项",
+          "setupShiftExportFailed": "无法生成导出文件",
+          "setupShiftImportFileUnreadable": "无法读取导入文件",
+          "setupShiftAssignmentIdsRequired": "至少需要一个班次分配 ID"
         }
       }
     },
@@ -27495,6 +27505,13 @@
             "plural": "设置",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "Permissions",
+            "singular": "权限",
+            "plural": "权限",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -27709,6 +27726,13 @@
             "plural": "描述",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "profile": {
+            "original": "Profiles",
+            "singular": "个人资料",
+            "plural": "个人资料",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -27822,7 +27846,76 @@
           "listedAbove": "上面列出的",
           "enterA": "输入",
           "availability": "可用性",
-          "defaultForNew": "默认：选择一个将作为新记录默认状态的状态"
+          "defaultForNew": "默认：选择一个将作为新记录默认状态的状态",
+          "addProfilePlaceholder": "+ 添加个人资料",
+          "alert": "提醒",
+          "alertBy": "提醒方式",
+          "alertOnRepeat": "重复时提醒",
+          "alertWhenThe": "当以下情况时提醒",
+          "allProfiles": "全部",
+          "always": "始终",
+          "andShowsTop3YouPickWhoToAssign": "并显示前 3 名。由您选择指派给谁。",
+          "appliesWhen": "适用于",
+          "as": "作为",
+          "asReadOnlyOnceIt": "设为只读，一旦它",
+          "assignDirectly": "直接指派",
+          "assignsBestMatchedUserNoActionNeeded": "立即指派最匹配的用户。无需任何操作。",
+          "autoAssign": "自动指派",
+          "banner": "横幅",
+          "checkedEachTimeA": "每次创建时都会检查",
+          "chooseHowAlertIsSentAndWhich": "选择提醒发送方式（电子邮件、弹窗或两者）以及哪些",
+          "chooseWhichProfilesCanSeeUseThis": "a. 选择哪些个人资料可以查看和使用此",
+          "completedAndLockedContactAdmin": "已完成并锁定。如需修改，请联系管理员。",
+          "configured": "已配置",
+          "days": "天。",
+          "email": "电子邮件",
+          "enableThisToAlert": "启用此项以提醒",
+          "every": "每",
+          "everyoneElseSeesThe": "其他所有人看到",
+          "forTheSame": "针对同一",
+          "getAlertedWhenSame": "当同一",
+          "howShouldAutoAssignmentWork": "自动指派应如何运作？",
+          "iChoose": "我来选择",
+          "inThe": "在",
+          "inTheOrganisationCanViewUseThis": "组织中的人员可以查看和使用此",
+          "isCreated": "被创建。",
+          "isRaisedForAn": "针对某",
+          "isRaisedForTheSame": "针对同一",
+          "keepsComingBackSameKindJob": "反复出现同类工作，例如一周内重复故障。",
+          "listOrWhenCreatingNewJobOrder": "列表或创建新工作订单时",
+          "lock": "锁定",
+          "locked": "已锁定",
+          "movesToAnyStatusInThe": "移动到以下中的任何状态",
+          "notifyEmailSendTo": "通知邮件发送至",
+          "of": "的",
+          "ofTheSameTypeRecently": "近期同类的。",
+          "only": "仅",
+          "onlyProfilesYouTickBelowCanViewUseThis": "仅下方勾选的个人资料可以查看和使用此",
+          "pickOneOrBoth": "选择一项或两项。",
+          "previewSuggested": "预览建议",
+          "profilesAllowedToEdit": "允许编辑的个人资料",
+          "profilesWithViewAccess": "具有查看权限的个人资料",
+          "profilesWithoutAccessWillNotSeeThisTypeInThe": "无权限者不会在以下位置看到此类型",
+          "ranksMatching": "对匹配项排名",
+          "receiveIt": "接收它。",
+          "record": "记录",
+          "recordBecomesReadOnly": "记录变为只读。只有下方选择的个人资料仍可编辑。",
+          "selected": "已选择",
+          "sendEmailsToTheSelected": "向所选对象发送电子邮件",
+          "show": "显示",
+          "showPopup": "显示弹窗",
+          "showsToCreator": "（显示给创建者）",
+          "suggestTop3": "建议前 3 名",
+          "systemAdminAlwaysHasAccess": "系统管理员始终拥有访问权限且无法移除",
+          "thatAlreadyHadA": "已经有过",
+          "toggleOff": "关",
+          "toggleOn": "开",
+          "triggerRule": "触发规则",
+          "unlocked": "已解锁",
+          "when": "当",
+          "whenA": "当一个",
+          "whoCanViewThis": "谁可以查看此",
+          "within": "在…之内"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

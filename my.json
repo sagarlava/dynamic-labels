@@ -6029,7 +6029,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "Blok",
         "plural": "Blok",
@@ -6039,7 +6039,7 @@
       "area": {
         "original": "Area",
         "singular": "Kawasan",
-        "plural": "",
+        "plural": "Kawasan",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6322,7 +6322,8 @@
       "siteLevelNameExists": "Nama Aras sudah wujud pada blok ini",
       "siteBlockAreaNameRequired": "Nama Kawasan diperlukan",
       "siteBlockAreaSiteLevelRequired": "Aras diperlukan",
-      "siteBlockAreaNameExists": "Nama Kawasan sudah wujud pada aras ini"
+      "siteBlockAreaNameExists": "Nama Kawasan sudah wujud pada aras ini",
+      "startDateTimeAndEndDateTimeAreRequired": "Tarikh Mula dan Tarikh Tamat diperlukan"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6609,7 +6610,14 @@
       "next3Months": "3 bulan seterusnya",
       "customRange": "Julat tersuai",
       "estimatedJobsPrefix": "Anggaran",
-      "estimatedJobsSuffix": "kerja akan dijana"
+      "estimatedJobsSuffix": "kerja akan dijana",
+      "bothAreRequiredBefore": "kedua-duanya diperlukan sebelum anda boleh",
+      "forTheMonth": "untuk bulan",
+      "thenUseFilters": "kemudian gunakan penapis di bawah untuk mengecilkan berulang mana",
+      "areIncluded": "termasuk",
+      "datesWithDot": "Tarikh dengan titik mempunyai",
+      "clickOneToView": "klik satu untuk melihatnya di sebelah kanan",
+      "scheduledForThisDate": "yang dijadualkan untuk tarikh ini akan muncul di bawah selepas ditugaskan"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Hanya abjad dan nombor dibenarkan"
@@ -17427,7 +17435,9 @@
       "setupSkills": "Belum ada kemahiran dicipta. Cipta satu untuk melihatnya di sini.",
       "setupTeams": "Belum ada pasukan dicipta. Cipta satu untuk melihatnya di sini.",
       "toViewScheduledJobsForToday": "untuk melihat kerja berjadual untuk hari ini",
-      "enterA": "Masukkan"
+      "enterA": "Masukkan",
+      "another": "satu lagi",
+      "current": "Semasa"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -19455,11 +19465,11 @@
           "inLibrarySuffix": "dalam perpustakaan"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"Kemahiran telah ditetapkan kepada pengguna",
-          "setupSkillLibraryLinkedToJobOrder":"Kemahiran dipautkan kepada pesanan kerja",
-          "setupSkillLibraryLinkedToTemplate":"Kemahiran dipautkan kepada templat pesanan kerja",
-          "setupSkillLibraryLinkedToJobOrderType":"Kemahiran dipautkan kepada jenis pesanan kerja",
-          "setupSkillLibraryNameRequired":"Nama kemahiran diperlukan"
+          "setupSkillLibraryAssigned": "Kemahiran telah ditetapkan kepada pengguna",
+          "setupSkillLibraryLinkedToJobOrder": "Kemahiran dipautkan kepada pesanan kerja",
+          "setupSkillLibraryLinkedToTemplate": "Kemahiran dipautkan kepada templat pesanan kerja",
+          "setupSkillLibraryLinkedToJobOrderType": "Kemahiran dipautkan kepada jenis pesanan kerja",
+          "setupSkillLibraryNameRequired": "Nama kemahiran diperlukan"
         }
       },
       "teams": {
@@ -20781,23 +20791,23 @@
           "onlyCsvFilesAllowedError": "Hanya fail CSV dibenarkan",
           "endDateAfterStartDate": "Tarikh tamat mesti pada atau selepas tarikh mula"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Jenis syif diperlukan",
-          "setupShiftTypeNotFound":"Jenis Syif tidak dijumpai",
-          "setupShiftTypeInactive":"Jenis syif yang tidak aktif tidak boleh ditetapkan",
-          "setupShiftEffectiveStartRequired":"Tarikh mula berkuat kuasa diperlukan",
-          "setupShiftEffectiveEndBeforeStart":"Tarikh tamat berkuat kuasa tidak boleh sebelum tarikh mula berkuat kuasa",
-          "setupShiftAssignmentNotFound":"Penetapan Syif tidak dijumpai",
-          "setupShiftAssigneeTypeRequired":"Jenis penerima diperlukan",
-          "setupShiftUserRequired":"Pengguna sasaran diperlukan",
-          "setupShiftUserNotFound":"Pengguna tidak dijumpai",
-          "setupShiftUserGroupRequired":"Kumpulan sasaran diperlukan",
-          "setupShiftUserGroupNotFound":"Kumpulan Pengguna tidak dijumpai",
-          "setupShiftImportTemplateFailed":"Templat import tidak dapat dibina",
-          "setupShiftExportAssigneeTypeRequired":"Jenis penerima diperlukan untuk eksport",
-          "setupShiftExportFailed":"Fail eksport tidak dapat dibina",
-          "setupShiftImportFileUnreadable":"Fail import tidak dapat dibaca",
-          "setupShiftAssignmentIdsRequired":"Sekurang-kurangnya satu id Penetapan Syif diperlukan"
+        "validationBE": {
+          "setupShiftTypeRequired": "Jenis syif diperlukan",
+          "setupShiftTypeNotFound": "Jenis Syif tidak dijumpai",
+          "setupShiftTypeInactive": "Jenis syif yang tidak aktif tidak boleh ditetapkan",
+          "setupShiftEffectiveStartRequired": "Tarikh mula berkuat kuasa diperlukan",
+          "setupShiftEffectiveEndBeforeStart": "Tarikh tamat berkuat kuasa tidak boleh sebelum tarikh mula berkuat kuasa",
+          "setupShiftAssignmentNotFound": "Penetapan Syif tidak dijumpai",
+          "setupShiftAssigneeTypeRequired": "Jenis penerima diperlukan",
+          "setupShiftUserRequired": "Pengguna sasaran diperlukan",
+          "setupShiftUserNotFound": "Pengguna tidak dijumpai",
+          "setupShiftUserGroupRequired": "Kumpulan sasaran diperlukan",
+          "setupShiftUserGroupNotFound": "Kumpulan Pengguna tidak dijumpai",
+          "setupShiftImportTemplateFailed": "Templat import tidak dapat dibina",
+          "setupShiftExportAssigneeTypeRequired": "Jenis penerima diperlukan untuk eksport",
+          "setupShiftExportFailed": "Fail eksport tidak dapat dibina",
+          "setupShiftImportFileUnreadable": "Fail import tidak dapat dibaca",
+          "setupShiftAssignmentIdsRequired": "Sekurang-kurangnya satu id Penetapan Syif diperlukan"
         }
       }
     },
@@ -27550,6 +27560,13 @@
             "plural": "Tetapan-tetapan",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "Permissions",
+            "singular": "Kebenaran",
+            "plural": "Kebenaran",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -27764,6 +27781,13 @@
             "plural": "Penerangan",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "profile": {
+            "original": "Profiles",
+            "singular": "Profil",
+            "plural": "Profil",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -27877,7 +27901,76 @@
           "listedAbove": "yang disenaraikan di atas",
           "enterA": "Masukkan",
           "availability": "Ketersediaan",
-          "defaultForNew": "Lalai: Pilih satu status yang akan menjadi lalai untuk yang baharu"
+          "defaultForNew": "Lalai: Pilih satu status yang akan menjadi lalai untuk yang baharu",
+          "addProfilePlaceholder": "+ Tambah profil",
+          "alert": "Makluman",
+          "alertBy": "Maklum melalui",
+          "alertOnRepeat": "Maklum jika berulang",
+          "alertWhenThe": "Maklum apabila",
+          "allProfiles": "Semua",
+          "always": "Sentiasa",
+          "andShowsTop3YouPickWhoToAssign": "dan paparkan 3 teratas. Anda pilih siapa untuk ditugaskan.",
+          "appliesWhen": "Digunakan apabila",
+          "as": "sebagai",
+          "asReadOnlyOnceIt": "sebagai baca sahaja sebaik ia",
+          "assignDirectly": "Tugaskan terus",
+          "assignsBestMatchedUserNoActionNeeded": "tugaskan pengguna paling sepadan dengan segera. Tiada tindakan diperlukan.",
+          "autoAssign": "tugasan automatik",
+          "banner": "sepanduk",
+          "checkedEachTimeA": "Disemak setiap kali",
+          "chooseHowAlertIsSentAndWhich": "Pilih cara makluman dihantar (emel, pop timbul atau kedua-dua) dan",
+          "chooseWhichProfilesCanSeeUseThis": "a. Pilih profil mana yang boleh melihat dan menggunakan",
+          "completedAndLockedContactAdmin": "selesai dan dikunci. Hubungi pentadbir anda untuk membuat perubahan.",
+          "configured": "dikonfigurasikan",
+          "days": "hari.",
+          "email": "Emel",
+          "enableThisToAlert": "Dayakan ini untuk maklum",
+          "every": "Setiap",
+          "everyoneElseSeesThe": "Semua yang lain melihat",
+          "forTheSame": "untuk",
+          "getAlertedWhenSame": "Dapat makluman apabila",
+          "howShouldAutoAssignmentWork": "Bagaimanakah tugasan automatik patut berfungsi?",
+          "iChoose": "Saya pilih",
+          "inThe": "dalam",
+          "inTheOrganisationCanViewUseThis": "dalam organisasi boleh melihat dan menggunakan",
+          "isCreated": "dicipta.",
+          "isRaisedForAn": "dinaikkan untuk",
+          "isRaisedForTheSame": "dinaikkan untuk",
+          "keepsComingBackSameKindJob": "berulang dengan jenis kerja yang sama, contohnya kerosakan berulang dalam seminggu.",
+          "listOrWhenCreatingNewJobOrder": "senarai atau semasa mencipta tempahan kerja baharu",
+          "lock": "Kunci",
+          "locked": "dikunci",
+          "movesToAnyStatusInThe": "beralih ke mana-mana status dalam",
+          "notifyEmailSendTo": "Hantar emel pemberitahuan kepada",
+          "of": "bagi",
+          "ofTheSameTypeRecently": "jenis yang sama baru-baru ini.",
+          "only": "sahaja",
+          "onlyProfilesYouTickBelowCanViewUseThis": "Hanya profil yang anda tandakan di bawah boleh melihat dan menggunakan",
+          "pickOneOrBoth": "Pilih satu atau kedua-dua.",
+          "previewSuggested": "Pratonton dicadangkan",
+          "profilesAllowedToEdit": "Profil yang dibenarkan mengedit",
+          "profilesWithViewAccess": "Profil dengan akses paparan",
+          "profilesWithoutAccessWillNotSeeThisTypeInThe": "tanpa akses tidak akan melihat jenis ini dalam",
+          "ranksMatching": "mengurutkan padanan",
+          "receiveIt": "menerimanya.",
+          "record": "Rekod",
+          "recordBecomesReadOnly": "rekod menjadi baca sahaja. Hanya profil yang anda pilih di bawah masih boleh mengeditnya.",
+          "selected": "Dipilih",
+          "sendEmailsToTheSelected": "Hantar emel kepada",
+          "show": "tunjuk",
+          "showPopup": "Tunjukkan pop timbul",
+          "showsToCreator": "(Ditunjukkan kepada pencipta)",
+          "suggestTop3": "Cadangkan 3 teratas",
+          "systemAdminAlwaysHasAccess": "Pentadbir Sistem sentiasa mempunyai akses dan tidak boleh dialih keluar",
+          "thatAlreadyHadA": "yang sudah mempunyai",
+          "toggleOff": "Tutup",
+          "toggleOn": "Buka",
+          "triggerRule": "Peraturan pencetus",
+          "unlocked": "dibuka kunci",
+          "when": "Apabila",
+          "whenA": "apabila",
+          "whoCanViewThis": "Siapa boleh melihat",
+          "within": "dalam tempoh"
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",

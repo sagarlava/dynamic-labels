@@ -6029,7 +6029,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "block": {
+      "block": {
         "original": "Block",
         "singular": "Block",
         "plural": "Blöcke",
@@ -6039,7 +6039,7 @@
       "area": {
         "original": "Area",
         "singular": "Bereich",
-        "plural": "",
+        "plural": "Bereiche",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6322,7 +6322,8 @@
       "siteLevelNameExists": "Ebenenname existiert bereits in diesem Block",
       "siteBlockAreaNameRequired": "Bereichsname ist erforderlich",
       "siteBlockAreaSiteLevelRequired": "Ebene ist erforderlich",
-      "siteBlockAreaNameExists": "Bereichsname existiert bereits auf dieser Ebene"
+      "siteBlockAreaNameExists": "Bereichsname existiert bereits auf dieser Ebene",
+      "startDateTimeAndEndDateTimeAreRequired": "Startdatum und Enddatum sind erforderlich"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6609,7 +6610,14 @@
       "next3Months": "Nächste 3 Monate",
       "customRange": "Benutzerdefinierter Zeitraum",
       "estimatedJobsPrefix": "Geschätzt",
-      "estimatedJobsSuffix": "Aufträge werden generiert"
+      "estimatedJobsSuffix": "Aufträge werden generiert",
+      "bothAreRequiredBefore": "beide sind erforderlich, bevor Sie",
+      "forTheMonth": "für den Monat",
+      "thenUseFilters": "verwenden Sie dann die Filter unten, um einzugrenzen, welche wiederkehrenden",
+      "areIncluded": "enthalten sind",
+      "datesWithDot": "Daten mit einem Punkt haben",
+      "clickOneToView": "klicken Sie auf eine, um sie rechts anzuzeigen",
+      "scheduledForThisDate": "für dieses Datum geplante werden unten angezeigt, sobald sie zugewiesen sind"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Nur Buchstaben und Zahlen sind erlaubt"
@@ -17427,7 +17435,9 @@
       "setupSkills": "Noch keine Fähigkeiten erstellt. Erstellen Sie eine, um sie hier zu sehen.",
       "setupTeams": "Noch keine Teams erstellt. Erstellen Sie eines, um es hier zu sehen.",
       "toViewScheduledJobsForToday": "um die für heute geplanten Aufträge anzuzeigen",
-      "enterA": "Geben Sie ein"
+      "enterA": "Geben Sie ein",
+      "another": "einen anderen",
+      "current": "Aktuell"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -19455,11 +19465,11 @@
           "inLibrarySuffix": "in der Bibliothek"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"Die Qualifikation ist Benutzern zugewiesen",
-          "setupSkillLibraryLinkedToJobOrder":"Die Qualifikation ist mit Aufträgen verknüpft",
-          "setupSkillLibraryLinkedToTemplate":"Die Qualifikation ist mit Auftragsvorlagen verknüpft",
-          "setupSkillLibraryLinkedToJobOrderType":"Die Qualifikation ist mit Auftragsarten verknüpft",
-          "setupSkillLibraryNameRequired":"Qualifikationsname ist erforderlich"
+          "setupSkillLibraryAssigned": "Die Qualifikation ist Benutzern zugewiesen",
+          "setupSkillLibraryLinkedToJobOrder": "Die Qualifikation ist mit Aufträgen verknüpft",
+          "setupSkillLibraryLinkedToTemplate": "Die Qualifikation ist mit Auftragsvorlagen verknüpft",
+          "setupSkillLibraryLinkedToJobOrderType": "Die Qualifikation ist mit Auftragsarten verknüpft",
+          "setupSkillLibraryNameRequired": "Qualifikationsname ist erforderlich"
         }
       },
       "teams": {
@@ -20781,23 +20791,23 @@
           "onlyCsvFilesAllowedError": "Nur CSV-Dateien sind erlaubt",
           "endDateAfterStartDate": "Das Enddatum muss am oder nach dem Startdatum liegen"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Schichtart ist erforderlich",
-          "setupShiftTypeNotFound":"Schichtart nicht gefunden",
-          "setupShiftTypeInactive":"Eine inaktive Schichtart kann nicht zugewiesen werden",
-          "setupShiftEffectiveStartRequired":"Gültigkeitsbeginn ist erforderlich",
-          "setupShiftEffectiveEndBeforeStart":"Das Gültigkeitsende darf nicht vor dem Gültigkeitsbeginn liegen",
-          "setupShiftAssignmentNotFound":"Schichtzuweisung nicht gefunden",
-          "setupShiftAssigneeTypeRequired":"Zuweisungstyp ist erforderlich",
-          "setupShiftUserRequired":"Zielbenutzer ist erforderlich",
-          "setupShiftUserNotFound":"Benutzer nicht gefunden",
-          "setupShiftUserGroupRequired":"Zielgruppe ist erforderlich",
-          "setupShiftUserGroupNotFound":"Benutzergruppe nicht gefunden",
-          "setupShiftImportTemplateFailed":"Die Importvorlage konnte nicht erstellt werden",
-          "setupShiftExportAssigneeTypeRequired":"Zuweisungstyp ist für den Export erforderlich",
-          "setupShiftExportFailed":"Die Exportdatei konnte nicht erstellt werden",
-          "setupShiftImportFileUnreadable":"Die Importdatei konnte nicht gelesen werden",
-          "setupShiftAssignmentIdsRequired":"Mindestens eine Schichtzuweisungs-ID ist erforderlich"
+        "validationBE": {
+          "setupShiftTypeRequired": "Schichtart ist erforderlich",
+          "setupShiftTypeNotFound": "Schichtart nicht gefunden",
+          "setupShiftTypeInactive": "Eine inaktive Schichtart kann nicht zugewiesen werden",
+          "setupShiftEffectiveStartRequired": "Gültigkeitsbeginn ist erforderlich",
+          "setupShiftEffectiveEndBeforeStart": "Das Gültigkeitsende darf nicht vor dem Gültigkeitsbeginn liegen",
+          "setupShiftAssignmentNotFound": "Schichtzuweisung nicht gefunden",
+          "setupShiftAssigneeTypeRequired": "Zuweisungstyp ist erforderlich",
+          "setupShiftUserRequired": "Zielbenutzer ist erforderlich",
+          "setupShiftUserNotFound": "Benutzer nicht gefunden",
+          "setupShiftUserGroupRequired": "Zielgruppe ist erforderlich",
+          "setupShiftUserGroupNotFound": "Benutzergruppe nicht gefunden",
+          "setupShiftImportTemplateFailed": "Die Importvorlage konnte nicht erstellt werden",
+          "setupShiftExportAssigneeTypeRequired": "Zuweisungstyp ist für den Export erforderlich",
+          "setupShiftExportFailed": "Die Exportdatei konnte nicht erstellt werden",
+          "setupShiftImportFileUnreadable": "Die Importdatei konnte nicht gelesen werden",
+          "setupShiftAssignmentIdsRequired": "Mindestens eine Schichtzuweisungs-ID ist erforderlich"
         }
       }
     },
@@ -27550,6 +27560,13 @@
             "plural": "Einstellungen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "Permissions",
+            "singular": "Berechtigung",
+            "plural": "Berechtigungen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -27764,6 +27781,13 @@
             "plural": "Beschreibungen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "profile": {
+            "original": "Profiles",
+            "singular": "Profil",
+            "plural": "Profile",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -27877,7 +27901,76 @@
           "listedAbove": "oben aufgeführten",
           "enterA": "Eingeben eines",
           "availability": "Verfügbarkeit",
-          "defaultForNew": "Standard: Wählen Sie einen Status, der als Standard für neue gilt"
+          "defaultForNew": "Standard: Wählen Sie einen Status, der als Standard für neue gilt",
+          "addProfilePlaceholder": "+ Profil hinzufügen",
+          "alert": "Alarm",
+          "alertBy": "Benachrichtigen per",
+          "alertOnRepeat": "Bei Wiederholung benachrichtigen",
+          "alertWhenThe": "Benachrichtigen, wenn der",
+          "allProfiles": "Alle",
+          "always": "Immer",
+          "andShowsTop3YouPickWhoToAssign": "und zeigt die Top 3. Sie wählen, wen Sie zuweisen.",
+          "appliesWhen": "Gilt wenn",
+          "as": "als",
+          "asReadOnlyOnceIt": "als schreibgeschützt, sobald es",
+          "assignDirectly": "Direkt zuweisen",
+          "assignsBestMatchedUserNoActionNeeded": "weist den am besten passenden Benutzer sofort zu. Keine Aktion erforderlich.",
+          "autoAssign": "Auto-Zuweisung",
+          "banner": "Banner",
+          "checkedEachTimeA": "Wird jedes Mal geprüft, wenn ein",
+          "chooseHowAlertIsSentAndWhich": "Wählen Sie, wie die Benachrichtigung gesendet wird (E-Mail, Popup oder beides) und welche",
+          "chooseWhichProfilesCanSeeUseThis": "a. Wählen Sie, welche Profile dies sehen und nutzen können",
+          "completedAndLockedContactAdmin": "abgeschlossen und gesperrt. Wenden Sie sich an Ihren Administrator, um Änderungen vorzunehmen.",
+          "configured": "konfiguriert",
+          "days": "Tagen.",
+          "email": "E-Mail",
+          "enableThisToAlert": "Aktivieren Sie dies, um zu benachrichtigen",
+          "every": "Alle",
+          "everyoneElseSeesThe": "Alle anderen sehen den",
+          "forTheSame": "für denselben",
+          "getAlertedWhenSame": "Lassen Sie sich benachrichtigen, wenn derselbe",
+          "howShouldAutoAssignmentWork": "Wie soll die Auto-Zuweisung funktionieren?",
+          "iChoose": "Ich wähle",
+          "inThe": "im",
+          "inTheOrganisationCanViewUseThis": "in der Organisation können dies sehen und nutzen",
+          "isCreated": "erstellt wird.",
+          "isRaisedForAn": "für ein erstellt wird",
+          "isRaisedForTheSame": "für denselben erstellt wird",
+          "keepsComingBackSameKindJob": "immer wieder mit derselben Art von Auftrag zurückkehrt, z. B. ein wiederholter Ausfall innerhalb einer Woche.",
+          "listOrWhenCreatingNewJobOrder": "Liste oder beim Erstellen eines neuen Auftrags",
+          "lock": "Sperren",
+          "locked": "gesperrt",
+          "movesToAnyStatusInThe": "in einen beliebigen Status im wechselt",
+          "notifyEmailSendTo": "Benachrichtigungs-E-Mail senden an",
+          "of": "von",
+          "ofTheSameTypeRecently": "desselben Typs kürzlich.",
+          "only": "nur",
+          "onlyProfilesYouTickBelowCanViewUseThis": "Nur die unten markierten Profile können dies sehen und nutzen",
+          "pickOneOrBoth": "Wählen Sie eines oder beides.",
+          "previewSuggested": "Vorschau vorgeschlagen",
+          "profilesAllowedToEdit": "Profile mit Bearbeitungsrecht",
+          "profilesWithViewAccess": "Profile mit Ansichtszugriff",
+          "profilesWithoutAccessWillNotSeeThisTypeInThe": "ohne Zugriff sehen diesen Typ nicht in der",
+          "ranksMatching": "ordnet passende",
+          "receiveIt": "es erhalten.",
+          "record": "Datensatz",
+          "recordBecomesReadOnly": "Der Datensatz wird schreibgeschützt. Nur die unten ausgewählten Profile können ihn weiterhin bearbeiten.",
+          "selected": "Ausgewählt",
+          "sendEmailsToTheSelected": "E-Mails senden an die ausgewählten",
+          "show": "anzeigen",
+          "showPopup": "Popup anzeigen",
+          "showsToCreator": "(Wird dem Ersteller angezeigt)",
+          "suggestTop3": "Top 3 vorschlagen",
+          "systemAdminAlwaysHasAccess": "Der Systemadministrator hat immer Zugriff und kann nicht entfernt werden",
+          "thatAlreadyHadA": "der bereits einen hatte",
+          "toggleOff": "Aus",
+          "toggleOn": "An",
+          "triggerRule": "Auslöserregel",
+          "unlocked": "entsperrt",
+          "when": "Wenn",
+          "whenA": "wenn ein",
+          "whoCanViewThis": "Wer kann dies sehen",
+          "within": "innerhalb von"
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",
