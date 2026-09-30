@@ -3598,7 +3598,7 @@
       "area": {
         "original": "Area",
         "singular": "Area",
-        "plural": "",
+        "plural": "Areas",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -3818,6 +3818,13 @@
         "plural": "Buildings/Blocks",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "block": {
+        "original": "Block",
+        "singular": "Block",
+        "plural": "Blocks",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -3882,6 +3889,7 @@
       "siteBlockAreaNameRequired": "Site Area name is required",
       "siteBlockAreaSiteLevelRequired": "Site Level is required",
       "siteBlockAreaNameExists": "Site Area name already exists on this Level",
+      "startDateTimeAndEndDateTimeAreRequired": "Start Date and End Date are required"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4168,7 +4176,14 @@
       "next3Months": "Next 3 months",
       "customRange": "Custom range",
       "estimatedJobsPrefix": "Estimated",
-      "estimatedJobsSuffix": "jobs will be generated"
+      "estimatedJobsSuffix": "jobs will be generated",
+      "bothAreRequiredBefore": "both are required before you can",
+      "forTheMonth": "for the month",
+      "thenUseFilters": "then use the filters below to narrow which recurring",
+      "areIncluded": "are included",
+      "datesWithDot": "Dates with a dot have",
+      "clickOneToView": "click one to view it on the right",
+      "scheduledForThisDate": "scheduled for this date will appear below once assigned"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
@@ -5052,6 +5067,13 @@
         "original": "Record",
         "singular": "Record",
         "plural": "Records",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "Location & Contract",
+        "plural": "Location & Contracts",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -7408,6 +7430,13 @@
         "original": "Recent",
         "singular": "Recent",
         "plural": "Recent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Schedule Task Number",
+        "plural": "Schedule Task Numbers",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -13246,7 +13275,9 @@
       "setupSkills": "No skills created yet. Create one to see it here.",
       "setupTeams": "No teams created yet. Create one to see it here.",
       "toViewScheduledJobsForToday": "to view scheduled jobs for today",
-      "enterA": "Enter a"
+      "enterA": "Enter a",
+      "another": "another",
+      "current": "Current"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15039,6 +15070,13 @@
           "editingMasterListInstruction": "You're editing the master",
           "editingMasterListInstructionSuffix": "list. Colours set here will appear consistently for all users/jobs",
           "inLibrarySuffix": "in library"
+        },
+        "validationBE": {
+          "setupSkillLibraryAssigned": "Skill is assigned to users",
+          "setupSkillLibraryLinkedToJobOrder": "Skill is linked to job orders",
+          "setupSkillLibraryLinkedToJobOrderType": "Skill is linked to job order types",
+          "setupSkillLibraryLinkedToTemplate": "Skill is linked to job order templates",
+          "setupSkillLibraryNameRequired": "Skill name is required"
         }
       },
       "teams": {
@@ -16352,6 +16390,24 @@
           "csvOnlyHint": "Only CSV files are accepted.",
           "onlyCsvFilesAllowedError": "Only CSV files are allowed",
           "endDateAfterStartDate": "End date must be on or after start date"
+        },
+        "validationBE": {
+          "setupShiftAssigneeTypeRequired": "Assignee type is required",
+          "setupShiftAssignmentIdsRequired": "At least one Shift Assignment id is required",
+          "setupShiftAssignmentNotFound": "Shift Assignment not found",
+          "setupShiftEffectiveEndBeforeStart": "Effective end date cannot be before the effective start date",
+          "setupShiftEffectiveStartRequired": "Effective start date is required",
+          "setupShiftExportAssigneeTypeRequired": "Assignee type is required for export",
+          "setupShiftExportFailed": "The export file could not be built",
+          "setupShiftImportFileUnreadable": "The import file could not be read",
+          "setupShiftImportTemplateFailed": "The import template could not be built",
+          "setupShiftTypeInactive": "An inactive shift type cannot be assigned",
+          "setupShiftTypeNotFound": "Shift Type not found",
+          "setupShiftTypeRequired": "Shift type is required",
+          "setupShiftUserGroupNotFound": "User Group not found",
+          "setupShiftUserGroupRequired": "Target group is required",
+          "setupShiftUserNotFound": "User not found",
+          "setupShiftUserRequired": "Target user is required"
         }
       }
     },
@@ -22796,6 +22852,13 @@
             "plural": "Settings",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "Permissions",
+            "singular": "Permission",
+            "plural": "Permissions",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -23010,6 +23073,13 @@
             "plural": "Description",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "profile": {
+            "original": "Profiles",
+            "singular": "Profile",
+            "plural": "Profiles",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -23123,7 +23193,76 @@
           "listedAbove": "listed above",
           "enterA": "Enter a",
           "availability": "Availability",
-          "defaultForNew": "Default: Select one status that will be the default for new"
+          "defaultForNew": "Default: Select one status that will be the default for new",
+          "addProfilePlaceholder": "+ Add profile",
+          "alert": "Alert",
+          "alertBy": "Alert by",
+          "alertOnRepeat": "Alert on repeat",
+          "alertWhenThe": "Alert when the",
+          "allProfiles": "All",
+          "always": "Always",
+          "andShowsTop3YouPickWhoToAssign": "and shows the top 3. You pick who to assign.",
+          "appliesWhen": "Applies when",
+          "as": "as",
+          "asReadOnlyOnceIt": "as read-only once it",
+          "assignDirectly": "Assign directly",
+          "assignsBestMatchedUserNoActionNeeded": "assigns the best-matched user straight away. No action needed.",
+          "autoAssign": "auto-assign",
+          "banner": "banner",
+          "checkedEachTimeA": "Checked each time a",
+          "chooseHowAlertIsSentAndWhich": "Choose how the alert is sent (email, popup or both) and which",
+          "chooseWhichProfilesCanSeeUseThis": "a. Choose which profiles can see and use this",
+          "completedAndLockedContactAdmin": "completed and locked. Contact your administrator to make changes.",
+          "configured": "configured",
+          "days": "days.",
+          "email": "Email",
+          "enableThisToAlert": "Enable this to alert",
+          "every": "Every",
+          "everyoneElseSeesThe": "Everyone else sees the",
+          "forTheSame": "for the same",
+          "getAlertedWhenSame": "Get alerted when the same",
+          "howShouldAutoAssignmentWork": "How should auto-assignment work?",
+          "iChoose": "I choose",
+          "inThe": "in the",
+          "inTheOrganisationCanViewUseThis": "in the organisation can view and use this",
+          "isCreated": "is created.",
+          "isRaisedForAn": "is raised for an",
+          "isRaisedForTheSame": "is raised for the same",
+          "keepsComingBackSameKindJob": "keeps coming back with the same kind of job, for example a repeat breakdown within a week.",
+          "listOrWhenCreatingNewJobOrder": "list or when creating a new job order",
+          "lock": "Lock",
+          "locked": "locked",
+          "movesToAnyStatusInThe": "moves to any status in the",
+          "notifyEmailSendTo": "Notify email send to",
+          "of": "of",
+          "ofTheSameTypeRecently": "of the same type recently.",
+          "only": "only",
+          "onlyProfilesYouTickBelowCanViewUseThis": "Only the profiles you tick below can view and use this",
+          "pickOneOrBoth": "Pick one or both.",
+          "previewSuggested": "Preview suggested",
+          "profilesAllowedToEdit": "Profiles allowed to edit",
+          "profilesWithViewAccess": "Profiles with view access",
+          "profilesWithoutAccessWillNotSeeThisTypeInThe": "without access will not see this type in the",
+          "ranksMatching": "ranks matching",
+          "receiveIt": "receive it.",
+          "record": "Record",
+          "recordBecomesReadOnly": "record becomes read-only. Only the profiles you select below can still edit it.",
+          "selected": "Selected",
+          "sendEmailsToTheSelected": "Send emails to the selected",
+          "show": "show",
+          "showPopup": "Show popup",
+          "showsToCreator": "(Shows to creator)",
+          "suggestTop3": "Suggest top 3",
+          "systemAdminAlwaysHasAccess": "System Administrator always has access and cannot be removed",
+          "thatAlreadyHadA": "that already had a",
+          "toggleOff": "Off",
+          "toggleOn": "On",
+          "triggerRule": "Trigger rule",
+          "unlocked": "unlocked",
+          "when": "When",
+          "whenA": "when a",
+          "whoCanViewThis": "Who can view this",
+          "within": "within"
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",
