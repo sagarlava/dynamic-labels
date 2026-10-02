@@ -3888,7 +3888,7 @@
       "siteLevelNameExists": "Site Level name already exists on this Block",
       "siteBlockAreaNameRequired": "Site Area name is required",
       "siteBlockAreaSiteLevelRequired": "Site Level is required",
-      "siteBlockAreaNameExists": "Site Area name already exists on this Level"
+      "siteBlockAreaNameExists": "Site Area name already exists on this Level",
       "startDateTimeAndEndDateTimeAreRequired": "Start Date and End Date are required"
     },
     "tooltips": {
