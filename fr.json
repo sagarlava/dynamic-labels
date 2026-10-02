@@ -5866,7 +5866,7 @@
       "area": {
         "original": "Area",
         "singular": "Zone",
-        "plural": "",
+        "plural": "Zones",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6086,6 +6086,13 @@
         "plural": "Bâtiments/Blocs",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "block": {
+        "original": "Block",
+        "singular": "Bloc",
+        "plural": "Blocs",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -6149,7 +6156,8 @@
       "siteLevelNameExists": "Le nom du niveau existe déjà dans ce bloc",
       "siteBlockAreaNameRequired": "Le nom de la zone est obligatoire",
       "siteBlockAreaSiteLevelRequired": "Le niveau est obligatoire",
-      "siteBlockAreaNameExists": "Le nom de la zone existe déjà à ce niveau"
+      "siteBlockAreaNameExists": "Le nom de la zone existe déjà à ce niveau",
+      "startDateTimeAndEndDateTimeAreRequired": "La date de début et la date de fin sont requises"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6436,7 +6444,14 @@
       "next3Months": "3 prochains mois",
       "customRange": "Plage personnalisée",
       "estimatedJobsPrefix": "Estimé",
-      "estimatedJobsSuffix": "travaux seront générés"
+      "estimatedJobsSuffix": "travaux seront générés",
+      "bothAreRequiredBefore": "les deux sont requis avant de pouvoir",
+      "forTheMonth": "pour le mois",
+      "thenUseFilters": "puis utilisez les filtres ci-dessous pour restreindre les récurrents",
+      "areIncluded": "sont inclus",
+      "datesWithDot": "Les dates avec un point ont",
+      "clickOneToView": "cliquez sur l’une pour la voir à droite",
+      "scheduledForThisDate": "planifiés pour cette date apparaîtront ci-dessous une fois assignés"
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés"
@@ -7787,6 +7802,13 @@
         "original": "Record",
         "singular": "Enregistrer",
         "plural": "Enregistrements",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec58": {
+        "original": "Location & Contract",
+        "singular": "Emplacement et contrat",
+        "plural": "Emplacements et contrats",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10143,6 +10165,13 @@
         "original": "Recent",
         "singular": "Récent",
         "plural": "Récent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleTaskNumber": {
+        "original": "Schedule Task Number",
+        "singular": "Numéro de tâche planifiée",
+        "plural": "Numéros de tâche planifiée",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -16792,7 +16821,9 @@
       "setupSkills": "Aucune compétence n’a encore été créée. Créez-en une pour la voir ici.",
       "setupTeams": "Aucune équipe n’a encore été créée. Créez-en une pour la voir ici.",
       "toViewScheduledJobsForToday": "pour voir les travaux planifiés pour aujourd’hui",
-      "enterA": "Saisir un"
+      "enterA": "Saisir un",
+      "another": "un autre",
+      "current": "Actuel"
     },
     "currency": {
       "australianDollar": "EUR",
@@ -18587,11 +18618,11 @@
           "inLibrarySuffix": "dans la bibliothèque"
         },
         "validationBE": {
-          "setupSkillLibraryAssigned":"La compétence est affectée à des utilisateurs",
-          "setupSkillLibraryLinkedToJobOrder":"La compétence est liée à des ordres de travail",
-          "setupSkillLibraryLinkedToTemplate":"La compétence est liée à des modèles d'ordre de travail",
-          "setupSkillLibraryLinkedToJobOrderType":"La compétence est liée à des types d'ordre de travail",
-          "setupSkillLibraryNameRequired":"Le nom de la compétence est obligatoire"
+          "setupSkillLibraryAssigned": "La compétence est affectée à des utilisateurs",
+          "setupSkillLibraryLinkedToJobOrder": "La compétence est liée à des ordres de travail",
+          "setupSkillLibraryLinkedToTemplate": "La compétence est liée à des modèles d'ordre de travail",
+          "setupSkillLibraryLinkedToJobOrderType": "La compétence est liée à des types d'ordre de travail",
+          "setupSkillLibraryNameRequired": "Le nom de la compétence est obligatoire"
         }
       },
       "teams": {
@@ -19906,23 +19937,23 @@
           "onlyCsvFilesAllowedError": "Seuls les fichiers CSV sont autorisés",
           "endDateAfterStartDate": "La date de fin doit être égale ou postérieure à la date de début"
         },
-        "validationBE":{
-          "setupShiftTypeRequired":"Le type de poste est obligatoire",
-          "setupShiftTypeNotFound":"Type de poste introuvable",
-          "setupShiftTypeInactive":"Un type de poste inactif ne peut pas être affecté",
-          "setupShiftEffectiveStartRequired":"La date de début de validité est obligatoire",
-          "setupShiftEffectiveEndBeforeStart":"La date de fin de validité ne peut pas être antérieure à la date de début de validité",
-          "setupShiftAssignmentNotFound":"Affectation de poste introuvable",
-          "setupShiftAssigneeTypeRequired":"Le type d'assigné est obligatoire",
-          "setupShiftUserRequired":"L'utilisateur cible est obligatoire",
-          "setupShiftUserNotFound":"Utilisateur introuvable",
-          "setupShiftUserGroupRequired":"Le groupe cible est obligatoire",
-          "setupShiftUserGroupNotFound":"Groupe d'utilisateurs introuvable",
-          "setupShiftImportTemplateFailed":"Le modèle d'importation n'a pas pu être généré",
-          "setupShiftExportAssigneeTypeRequired":"Le type d'assigné est obligatoire pour l'exportation",
-          "setupShiftExportFailed":"Le fichier d'exportation n'a pas pu être généré",
-          "setupShiftImportFileUnreadable":"Le fichier d'importation n'a pas pu être lu",
-          "setupShiftAssignmentIdsRequired":"Au moins un identifiant d'affectation de poste est obligatoire"
+        "validationBE": {
+          "setupShiftTypeRequired": "Le type de poste est obligatoire",
+          "setupShiftTypeNotFound": "Type de poste introuvable",
+          "setupShiftTypeInactive": "Un type de poste inactif ne peut pas être affecté",
+          "setupShiftEffectiveStartRequired": "La date de début de validité est obligatoire",
+          "setupShiftEffectiveEndBeforeStart": "La date de fin de validité ne peut pas être antérieure à la date de début de validité",
+          "setupShiftAssignmentNotFound": "Affectation de poste introuvable",
+          "setupShiftAssigneeTypeRequired": "Le type d'assigné est obligatoire",
+          "setupShiftUserRequired": "L'utilisateur cible est obligatoire",
+          "setupShiftUserNotFound": "Utilisateur introuvable",
+          "setupShiftUserGroupRequired": "Le groupe cible est obligatoire",
+          "setupShiftUserGroupNotFound": "Groupe d'utilisateurs introuvable",
+          "setupShiftImportTemplateFailed": "Le modèle d'importation n'a pas pu être généré",
+          "setupShiftExportAssigneeTypeRequired": "Le type d'assigné est obligatoire pour l'exportation",
+          "setupShiftExportFailed": "Le fichier d'exportation n'a pas pu être généré",
+          "setupShiftImportFileUnreadable": "Le fichier d'importation n'a pas pu être lu",
+          "setupShiftAssignmentIdsRequired": "Au moins un identifiant d'affectation de poste est obligatoire"
         }
       }
     },
@@ -26367,6 +26398,13 @@
             "plural": "Paramètres",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "Permissions",
+            "singular": "Permission",
+            "plural": "Permissions",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -26581,6 +26619,13 @@
             "plural": "Description",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "profile": {
+            "original": "Profiles",
+            "singular": "Profil",
+            "plural": "Profils",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26694,7 +26739,76 @@
           "listedAbove": "listé ci-dessus",
           "enterA": "Entrez un",
           "availability": "Disponibilité",
-          "defaultForNew": "Par défaut : sélectionnez un statut qui sera le statut par défaut pour les nouveaux"
+          "defaultForNew": "Par défaut : sélectionnez un statut qui sera le statut par défaut pour les nouveaux",
+          "addProfilePlaceholder": "+ Ajouter un profil",
+          "alert": "Alerte",
+          "alertBy": "Alerter par",
+          "alertOnRepeat": "Alerter en cas de répétition",
+          "alertWhenThe": "Alerter lorsque le",
+          "allProfiles": "Tous",
+          "always": "Toujours",
+          "andShowsTop3YouPickWhoToAssign": "et affiche le top 3. Vous choisissez à qui assigner.",
+          "appliesWhen": "S’applique lorsque",
+          "as": "comme",
+          "asReadOnlyOnceIt": "en lecture seule une fois qu’il",
+          "assignDirectly": "Assigner directement",
+          "assignsBestMatchedUserNoActionNeeded": "assigne immédiatement l’utilisateur le mieux adapté. Aucune action requise.",
+          "autoAssign": "assignation automatique",
+          "banner": "bannière",
+          "checkedEachTimeA": "Vérifié chaque fois qu’un",
+          "chooseHowAlertIsSentAndWhich": "Choisissez comment l’alerte est envoyée (e-mail, popup ou les deux) et quels",
+          "chooseWhichProfilesCanSeeUseThis": "a. Choisissez quels profils peuvent voir et utiliser ce",
+          "completedAndLockedContactAdmin": "terminé et verrouillé. Contactez votre administrateur pour apporter des modifications.",
+          "configured": "configuré",
+          "days": "jours.",
+          "email": "E-mail",
+          "enableThisToAlert": "Activez ceci pour alerter",
+          "every": "Tous les",
+          "everyoneElseSeesThe": "Tous les autres voient le",
+          "forTheSame": "pour le même",
+          "getAlertedWhenSame": "Soyez alerté lorsque le même",
+          "howShouldAutoAssignmentWork": "Comment l’assignation automatique doit-elle fonctionner ?",
+          "iChoose": "Je choisis",
+          "inThe": "dans le",
+          "inTheOrganisationCanViewUseThis": "dans l’organisation peuvent voir et utiliser ce",
+          "isCreated": "est créé.",
+          "isRaisedForAn": "est créé pour un",
+          "isRaisedForTheSame": "est créé pour le même",
+          "keepsComingBackSameKindJob": "revient sans cesse avec le même type de travail, par exemple une panne répétée en une semaine.",
+          "listOrWhenCreatingNewJobOrder": "liste ou lors de la création d’un nouvel ordre de travail",
+          "lock": "Verrouiller",
+          "locked": "verrouillé",
+          "movesToAnyStatusInThe": "passe à n’importe quel statut dans le",
+          "notifyEmailSendTo": "Envoyer l’e-mail de notification à",
+          "of": "de",
+          "ofTheSameTypeRecently": "du même type récemment.",
+          "only": "uniquement",
+          "onlyProfilesYouTickBelowCanViewUseThis": "Seuls les profils que vous cochez ci-dessous peuvent voir et utiliser ce",
+          "pickOneOrBoth": "Choisissez l’un ou les deux.",
+          "previewSuggested": "Aperçu suggéré",
+          "profilesAllowedToEdit": "Profils autorisés à modifier",
+          "profilesWithViewAccess": "Profils avec accès en lecture",
+          "profilesWithoutAccessWillNotSeeThisTypeInThe": "sans accès ne verront pas ce type dans le",
+          "ranksMatching": "classe les correspondances",
+          "receiveIt": "le reçoivent.",
+          "record": "Enregistrement",
+          "recordBecomesReadOnly": "l’enregistrement devient en lecture seule. Seuls les profils sélectionnés ci-dessous peuvent encore le modifier.",
+          "selected": "Sélectionné",
+          "sendEmailsToTheSelected": "Envoyer des e-mails aux",
+          "show": "afficher",
+          "showPopup": "Afficher la fenêtre contextuelle",
+          "showsToCreator": "(Affiché au créateur)",
+          "suggestTop3": "Suggérer le top 3",
+          "systemAdminAlwaysHasAccess": "L’administrateur système a toujours accès et ne peut pas être retiré",
+          "thatAlreadyHadA": "qui avait déjà un",
+          "toggleOff": "Désactivé",
+          "toggleOn": "Activé",
+          "triggerRule": "Règle de déclenchement",
+          "unlocked": "déverrouillé",
+          "when": "Lorsque",
+          "whenA": "lorsqu’un",
+          "whoCanViewThis": "Qui peut voir ce",
+          "within": "dans un délai de"
         },
         "validationFE": {
           "maximum80Chars": "Longueur maximale de 80 caractères dépassée",
