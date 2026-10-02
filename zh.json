@@ -26929,6 +26929,187 @@
           "beDone": "为以下对象完成",
           "specific": "特定"
         }
+      },
+      "assignmentRule": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Assignment Rules",
+          "singular": "指派规则",
+          "plural": "指派规则",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Details",
+            "singular": "详细信息",
+            "plural": "详细信息",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Filter the technician",
+            "singular": "筛选技术员",
+            "plural": "筛选技术员",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Tie Breaker",
+            "singular": "平局决胜",
+            "plural": "平局决胜",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Assignment",
+            "singular": "指派",
+            "plural": "指派",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "General Details",
+            "singular": "常规详情",
+            "plural": "常规详情",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "描述",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "fallbackPerson": {
+            "original": "Fallback person",
+            "singular": "后备人员",
+            "plural": "后备人员",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "supervisor": {
+            "original": "Supervisor",
+            "singular": "主管",
+            "plural": "主管",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "filter": "筛选",
+          "mandatory": "必需",
+          "optional": "可选",
+          "rank": "排名",
+          "assign": "指派",
+          "everyTechnicianCheckedFailOne": "每位技术员都会对照以下条件检查。若未通过其中一项",
+          "conditionRuledOutCompletely": "条件，该技术员将被完全排除。",
+          "conditionsNeverDisqualifyRanking": "条件不会取消任何人的资格；它们仅用于下一步排名。",
+          "techniciansPassFiltersScoredMeet": "通过筛选的技术员会根据其满足",
+          "conditionsAboveTieBreakerDecides": "上述条件的程度评分。若两名或以上技术员并列，则由下方平局决胜顺序决定谁获得该工作。",
+          "fieldExTriesAssignmentGroupsOrder": "FieldEx 会按您设定的顺序尝试指派",
+          "inOrderYouSet": "—",
+          "tryFirstFallbackFinalFallback": "优先尝试，然后后备，然后最终后备。",
+          "statusTooltip": "仅启用的规则会在指派时运行。切换为停用可继续构建或测试此规则，而不影响线上",
+          "mandatoryConditionsHardCutoff": "必需条件为硬性门槛——未通过其中一项的技术员绝不会被指派。可选条件不会取消资格；仅用于排名谁更合适",
+          "doesTechnicianHaveRequiredSkill": "技术员是否具备所需技能？",
+          "turnOnWhenA": "当",
+          "needsSpecializedKnowHowExample": "需要专业技术员要么具备要么不具备的专门知识时启用。例如，供暖维修需要持有燃气认证的技术员。",
+          "doesThe": "该",
+          "requireSkillsToBeMatched": "是否要求匹配技能？",
+          "offSkillPlaysNoPartMandatoryConsidered": "关闭：技能不参与此规则。可选：匹配技能更多的技术员排名更高，但缺少一项不会被排除。必需：仅考虑具备下方全部技能的技术员。",
+          "selectSkillsNeededForThe": "选择该",
+          "addEverySkillThisRequires": "添加此",
+          "requires": "所需的全部技能",
+          "isTechnicianAvailableAtTime": "技术员在该时间是否可用",
+          "threeChecksWorkTogether": "这三项检查共同作用，避免 FieldEx 指派已忙碌、不在班次或请假的人员。",
+          "availability": "可用性",
+          "technicianMustBeFreeAtThe": "技术员必须在该",
+          "sScheduledTimeChecksExistingSchedule": "的计划时间空闲。会检查技术员现有的",
+          "orderScheduleKeepMandatoryPreventDoubleBooking": "工单日程是否冲突。保持为必需可防止意外重复预约。",
+          "shift": "班次",
+          "createShiftsHere": "在此创建班次",
+          "technicianMustBeOnShiftAtThe": "技术员必须在该",
+          "sScheduledTimeOnlyAppliesIfShiftDefined": "的计划时间当班。仅当技术员已定义班次时适用。未设置班次的技术员视为始终当班；若希望此检查有意义，请先设置班次。",
+          "leave": "请假",
+          "techniciansOnLeaveSkippedTurnOff": "请假中的技术员会自动跳过。仅当您有意将工作指派给请假技术员时才关闭此项。",
+          "findNearestTechnicianToThe": "查找距离该",
+          "location": "位置最近的技术员",
+          "fieldExNeedsLocationForDistance": "FieldEx 需要每位技术员的位置，以便在下方平局决胜中估算距离。这些设置决定如何得出该位置，以及对其信任程度。",
+          "matchToThe": "匹配到",
+          "create": "创建",
+          "here": "此处",
+          "matchesThe": "匹配",
+          "apostropheS": "的",
+          "toTheTechnicians": "与技术员的",
+          "mandatoryKeepsStrictlyInsideSwitchOptional": "必需将技术员严格限制在其区域内。若允许重叠区域但仍优先区域匹配，请切换为可选。",
+          "useTechnicianLiveLocation": "使用技术员实时位置",
+          "liveGpsFor": "实时 GPS 用于",
+          "startingSoonForFurtherOut": "即将开始的工作。对于更远的",
+          "furtherOutFieldExPredicts": "，FieldEx 根据紧前计划的工作预测位置。",
+          "noteLiveGpsBestSignal": "注意：实时 GPS 在可用时是最佳信号，但不应仅因手机未上报就取消技术员资格。",
+          "liveLocationWindow": "实时位置窗口",
+          "useLiveGpsIfJobStartsWithin": "若工作在此后若干小时内开始，则使用技术员实时 GPS。超出此窗口时，FieldEx 回退到预测位置——数小时后的实时位置并不能可靠代表其实际所在。",
+          "rankingOrder": "排名顺序",
+          "ifMoreThanOneTechnicianTied": "若多名技术员通过全部筛选且排名相同，FieldEx 按此顺序比较。第一项平局则进入下一项。",
+          "moveUp": "上移",
+          "moveDown": "下移",
+          "chooseUpToThreeToTryInOrder": "最多选择三个",
+          "toTryInOrderRoundRobin": "按顺序尝试。组内匹配成员以轮询方式指派。",
+          "addAFallbackLevel": "添加后备级别",
+          "ifNoGroupMatchesAtAll": "如果没有任何",
+          "matchesAtAll": "匹配",
+          "theFinalSafetyNet": "最终安全网，仅当上方每个",
+          "aboveHasNoEligibleTechnician": "都没有合格技术员且未设置默认指派人时使用。选择 FieldEx 应通知某人还是将",
+          "unassignedForManualReview": "保持未指派以供人工审核。",
+          "ifNo": "若无",
+          "matches": "匹配",
+          "off": "关闭",
+          "distance": "距离",
+          "distanceDescription": "技术员预估位置与作业现场之间的距离。最近优先可减少路程与油耗；若要在大范围内平衡覆盖，可改为最远优先。",
+          "utilizationDescription": "技术员当前工作量。最闲优先可在团队中均匀分配工作。最忙优先会先填满一位技术员的日程再安排下一位。",
+          "closestFirst": "最近优先",
+          "furthestFirst": "最远优先",
+          "leastBusyFirst": "最闲优先",
+          "mostBusyFirst": "最忙优先",
+          "tryFirst": "优先尝试",
+          "fallback": "后备",
+          "finalFallback": "最终后备",
+          "ifNoMatchTryNext": "若无匹配，尝试下一个",
+          "ifStillNoMatchTryNext": "若仍无匹配，尝试下一个",
+          "leaveUnassignedInBacklog": "在待办中保持未指派",
+          "notifyASupervisorLeaveUnassigned": "通知主管，保持未指派",
+          "assignToSpecificFallbackPerson": "指派给指定后备人员",
+          "twoHours": "2 小时",
+          "fourHours": "4 小时",
+          "sixHours": "6 小时",
+          "eightHours": "8 小时"
+        },
+        "validationFE": {
+          "unableToLoadAssignmentRule": "无法加载指派规则"
+        }
       }
     },
     "checklist": {
