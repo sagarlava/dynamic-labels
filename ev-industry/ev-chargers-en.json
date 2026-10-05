@@ -9969,7 +9969,8 @@
       "pdfTemplateNameRequired": "Template name is required",
       "pdfTemplateTriggerRequired": "At least one trigger is required",
       "pdfTemplateNameTooLong": "Template name exceeds maximum length of 255 characters",
-      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured"
+      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured",
+      "editCompletedJobOrderNotAllowed": "You are not allowed to edit this completed job order"
     },
     "tooltips": {
       "setupVisible": false,

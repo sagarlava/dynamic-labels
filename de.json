@@ -10253,7 +10253,8 @@
       "pdfTemplateNameRequired": "Vorlagenname ist erforderlich",
       "pdfTemplateTriggerRequired": "Mindestens ein Auslöser ist erforderlich",
       "pdfTemplateNameTooLong": "Der Vorlagenname überschreitet die maximale Länge von 255 Zeichen",
-      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert"
+      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert",
+      "editCompletedJobOrderNotAllowed": "Sie dürfen diesen abgeschlossenen Arbeitsauftrag nicht bearbeiten"
     },
     "tooltips": {
       "setupVisible": false,

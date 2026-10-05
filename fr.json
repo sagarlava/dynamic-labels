@@ -10186,6 +10186,7 @@
       "noContactFoundForTheJobOrdersCustomer": "Aucun contact trouvé pour le client de la commande",
       "quickBooksCustomerRequired": "Un client QuickBooks valide est requis pour générer une facture. Veuillez vous assurer que les informations client sont complètes et réessayer.",
       "quickBooksProductsRequired": "Au moins un produit est requis pour générer une facture. Veuillez ajouter des produits à la commande et réessayer."
+      
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Statut introuvable",
@@ -10253,7 +10254,8 @@
       "pdfTemplateNameRequired": "Le nom du modèle est obligatoire",
       "pdfTemplateTriggerRequired": "Au moins un déclencheur est requis",
       "pdfTemplateNameTooLong": "Le nom du modèle dépasse la longueur maximale de 255 caractères",
-      "pdfTemplateNamePatternMissing": "Le modèle de nom PDF généré n'est pas configuré"
+      "pdfTemplateNamePatternMissing": "Le modèle de nom PDF généré n'est pas configuré",
+      "editCompletedJobOrderNotAllowed": "Vous n'êtes pas autorisé à modifier cette commande de travail terminée"
     },
     "tooltips": {
       "setupVisible": false,

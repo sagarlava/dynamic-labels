@@ -10185,7 +10185,8 @@
       "noContactFoundForThisJobOrder": "No se encontró contacto para esta Orden de Trabajo",
       "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo",
       "quickBooksCustomerRequired": "Se requiere un Cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e intente nuevamente.",
-      "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e intente nuevamente."
+      "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e intente nuevamente.",
+      "editCompletedJobOrderNotAllowed": "No se le permite editar esta orden de trabajo completada"
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Estado No Encontrado",
