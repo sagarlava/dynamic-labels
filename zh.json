@@ -29569,6 +29569,27 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "工作流应何时开始",
+          "plural": "工作流应何时开始",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "需满足的特定条件",
+          "plural": "需满足的特定条件",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "设置工作流操作",
+          "plural": "设置工作流操作",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -29648,6 +29669,34 @@
           "singular": "工作流程详情",
           "plural": "工作流程详情",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "开始",
+          "plural": "开始",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "条件",
+          "plural": "条件",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "操作",
+          "plural": "操作",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "详细信息",
+          "plural": "详细信息",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -29731,7 +29780,37 @@
         "thisYear": "今年",
         "addDays": "添加天数",
         "exampleCaps": "示例",
-        "exampleShort": "例"
+        "exampleShort": "例",
+        "action": "操作",
+        "addEmailOrInAppNotificationBelow": "在下方添加电子邮件或应用内通知，以便相关人员在此工作流运行时收到通知。您可以添加多个。",
+        "automaticallyAssignMatching": "自动指派匹配的",
+        "automaticallyAssignMatchingToTheRightTechnician": "给合适的技术员",
+        "chooseHowThis": "选择此",
+        "chooseSingleMomentToTriggerWorkflow": "选择应触发此",
+        "conditionsConfiguredPreviousStepReview": "条件在上一步配置。保存前请在那里检查。",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "仅在条件匹配时发送电子邮件或应用内提醒。（适用于所有模块）",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "仅在条件匹配时发送电子邮件或应用内提醒。",
+        "keepAssigningJobsYourselfThisWorkflow": "继续自行指派工作。此",
+        "moduleOnly": "模块）",
+        "notifyPeopleByEmailWhenWorkflowRuns": "此工作流运行时通过电子邮件通知相关人员。",
+        "of": "的",
+        "only": "仅",
+        "remindersEscalationsStatusAlerts": "提醒、升级、状态警报",
+        "routingNewJobsWithoutManualDispatch": "无需手动派工即可路由新工作",
+        "rulesUsed": "已用规则",
+        "selectAssignmentRuleFromAnotherWorkflow": "从另一个工作流选择指派规则",
+        "sendAnEmail": "发送电子邮件",
+        "sendAnInAppNotification": "发送应用内通知",
+        "set": "设置",
+        "setupTheMatchingSkillsAvailabilityLocation": "为指派设置匹配的技能、可用性和位置要求",
+        "shouldBehave": "应如何表现",
+        "showNotificationInsideFieldExToRightPeople": "在 FieldEx 内向相关人员显示通知。",
+        "start": "开始",
+        "to": "收件人",
+        "toTheRightTechnicianBySkillLocationWorkload": "按技能、位置或工作量指派给合适的技术员，然后通知他们。（适用于",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "给合适的技术员——按技能、位置或工作量——然后通知他们。",
+        "triggerSettingsConfiguredPreviousStep": "触发设置在上一步配置。保存前请在那里检查。",
+        "whenShouldThe": "何时应"
       }
     },
     "templates": {

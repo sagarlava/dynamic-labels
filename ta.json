@@ -29561,6 +29561,27 @@
           "plural": "இப்போது, ​​வேலைப்பாய்வு தூண்டப்படும்போது என்ன செயல்களை எடுக்க வேண்டும் என்பதை வரையறுக்கவும். மின்னஞ்சலில் அறிவிப்புகளை அனுப்பவும், பயன்பாட்டில் உள்ள செய்திகளைக் காட்டவும் அல்லது நீங்கள் அமைத்த நிபந்தனைகளின் அடிப்படையில் பிற செயல்களைச் செய்யவும் நீங்கள் தேர்வு செய்யலாம். பணிப்பாய்வு இயங்கும்போது சரியான செயல்கள் தானாகவே எடுக்கப்படுவதை இந்தப் படி உறுதி செய்கிறது.",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "பணிப்பாய்வு எப்போது தொடங்க வேண்டும்",
+          "plural": "பணிப்பாய்வு எப்போது தொடங்க வேண்டும்",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "பூர்த்தி செய்ய வேண்டிய குறிப்பிட்ட நிபந்தனைகள்",
+          "plural": "பூர்த்தி செய்ய வேண்டிய குறிப்பிட்ட நிபந்தனைகள்",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "பணிப்பாய்வு செயல்களை அமை",
+          "plural": "பணிப்பாய்வு செயல்களை அமை",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -29640,6 +29661,34 @@
           "singular": "பணிப்பாய்வு விவரங்கள்",
           "plural": "பணிப்பாய்வு விவரங்கள்",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "தொடக்கம்",
+          "plural": "தொடக்கம்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "நிபந்தனைகள்",
+          "plural": "நிபந்தனைகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "செயல்கள்",
+          "plural": "செயல்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "விவரங்கள்",
+          "plural": "விவரங்கள்",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -29723,7 +29772,37 @@
         "thisYear": "இந்த ஆண்டு",
         "addDays": "நாட்களைச் சேர்க்கவும்",
         "exampleCaps": "உதாரணம்",
-        "exampleShort": "எ.கா"
+        "exampleShort": "எ.கா",
+        "action": "செயல்கள்",
+        "addEmailOrInAppNotificationBelow": "இந்த பணிப்பாய்வு இயங்கும்போது சரியான நபர்களுக்குத் தெரிய இந்தக் கீழே மின்னஞ்சல் அல்லது ஆப் உள்ள அறிவிப்பைச் சேர்க்கவும். ஒன்றுக்கு மேற்பட்டவற்றைச் சேர்க்கலாம்.",
+        "automaticallyAssignMatching": "பொருந்தும்வற்றைத் தானாக ஒதுக்கு",
+        "automaticallyAssignMatchingToTheRightTechnician": "சரியான தொழில்நுட்ப வல்லுநருக்கு",
+        "chooseHowThis": "இந்த",
+        "chooseSingleMomentToTriggerWorkflow": "இந்த",
+        "conditionsConfiguredPreviousStepReview": "நிபந்தனைகள் முந்தைய படியில் கட்டமைக்கப்படுகின்றன. சேமிப்பதற்கு முன் அங்கே மதிப்பாய்வு செய்யவும்.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "நிபந்தனைகள் பொருந்தும்போது மின்னஞ்சல் அல்லது ஆப் உள்ள எச்சரிக்கையை மட்டும் அனுப்பும். (அனைத்து தொகுதிகளிலும் வேலை செய்யும்)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "நிபந்தனைகள் பொருந்தும்போது மின்னஞ்சல் அல்லது ஆப் உள்ள எச்சரிக்கையை மட்டும் அனுப்பும்.",
+        "keepAssigningJobsYourselfThisWorkflow": "வேலைகளை நீங்களே தொடர்ந்து ஒதுக்குங்கள். இந்த",
+        "moduleOnly": "தொகுதி மட்டும்)",
+        "notifyPeopleByEmailWhenWorkflowRuns": "இந்த பணிப்பாய்வு இயங்கும்போது மின்னஞ்சல் வழியாக நபர்களுக்கு அறிவிக்கவும்.",
+        "of": "இன்",
+        "only": "மட்டும்",
+        "remindersEscalationsStatusAlerts": "நினைவூட்டல்கள், உயர்த்தல்கள், நிலை எச்சரிக்கைகள்",
+        "routingNewJobsWithoutManualDispatch": "கைமுறை அனுப்புதல் இல்லாமல் புதிய வேலைகளை வழிசெலுத்துதல்",
+        "rulesUsed": "பயன்படுத்தப்பட்ட விதிகள்",
+        "selectAssignmentRuleFromAnotherWorkflow": "மற்றொரு பணிப்பாய்விலிருந்து ஒதுக்கீடு விதியைத் தேர்வு செய்யவும்",
+        "sendAnEmail": "மின்னஞ்சல் அனுப்பு",
+        "sendAnInAppNotification": "ஆப் உள்ள அறிவிப்பை அனுப்பு",
+        "set": "அமை",
+        "setupTheMatchingSkillsAvailabilityLocation": "ஒதுக்கீட்டிற்கு பொருந்தும் திறன்கள், கிடைக்கும் தன்மை மற்றும் இடத் தேவைகளை அமைக்கவும்",
+        "shouldBehave": "எப்படி நடந்துகொள்ள வேண்டும்",
+        "showNotificationInsideFieldExToRightPeople": "சரியான நபர்களுக்கு FieldEx-க்குள் அறிவிப்பைக் காட்டவும்.",
+        "start": "தொடக்கம்",
+        "to": "பெறுநர்",
+        "toTheRightTechnicianBySkillLocationWorkload": "திறன், இடம் அல்லது பணிச்சுமைப்படி சரியான தொழில்நுட்ப வல்லுநருக்கு ஒதுக்கி பின்னர் அறிவிக்கவும். (வேலை செய்யும்",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "சரியான தொழில்நுட்ப வல்லுநருக்கு — திறன், இடம் அல்லது பணிச்சுமைப்படி — பின்னர் அறிவிக்கவும்.",
+        "triggerSettingsConfiguredPreviousStep": "தூண்டுதல் அமைப்புகள் முந்தைய படியில் கட்டமைக்கப்படுகின்றன. சேமிப்பதற்கு முன் அங்கே மதிப்பாய்வு செய்யவும்.",
+        "whenShouldThe": "எப்போது"
       }
     },
     "templates": {

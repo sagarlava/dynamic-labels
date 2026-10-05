@@ -29561,6 +29561,27 @@
           "plural": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "When should the workflow start",
+          "plural": "When should the workflow start",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "Specific conditions to be met",
+          "plural": "Specific conditions to be met",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "Set Workflow actions",
+          "plural": "Set Workflow actions",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -29640,6 +29661,34 @@
           "singular": "Workflow Details",
           "plural": "Workflow Details",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "Details",
+          "plural": "Details",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "Start",
+          "plural": "Start",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "Conditions",
+          "plural": "Conditions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "Actions",
+          "plural": "Actions",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -29723,7 +29772,37 @@
         "thisYear": "This Year",
         "addDays": "Add Days",
         "exampleCaps": "Example",
-        "exampleShort": "Eg"
+        "exampleShort": "Eg",
+        "automaticallyAssignMatching": "Automatically assign matching",
+        "toTheRightTechnicianBySkillLocationWorkload": "to the right technician by skill, location or workload and then notify them. (Works on",
+        "moduleOnly": "module only)",
+        "only": "only",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "just sends an email or in-app alert when conditions match. (Works on all modules)",
+        "chooseHowThis": "Choose how this",
+        "shouldBehave": "should behave",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "to the right technician — by skill, location or workload — then notify them.",
+        "routingNewJobsWithoutManualDispatch": "routing new jobs without manual dispatch",
+        "keepAssigningJobsYourselfThisWorkflow": "Keep assigning jobs yourself. This",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "just sends an email or in-app alert when conditions match.",
+        "remindersEscalationsStatusAlerts": "reminders, escalations, status alerts",
+        "triggerSettingsConfiguredPreviousStep": "Trigger settings are configured in the previous step. Review them there before saving.",
+        "whenShouldThe":"When should the",
+        "start":"start",
+        "set":"Set",
+        "action":"actions",
+        "chooseSingleMomentToTriggerWorkflow": "Choose the single moment that should trigger this",
+        "conditionsConfiguredPreviousStepReview": "Conditions are configured in the previous step. Review them there before saving.",
+        "to": "To",
+        "of": "of",
+        "rulesUsed": "rules used",
+        "automaticallyAssignMatchingToTheRightTechnician": "to the right technician",
+        "selectAssignmentRuleFromAnotherWorkflow": "Select assignment rule from another workflow",
+        "setupTheMatchingSkillsAvailabilityLocation": "setup the matching skills, availability and location requirements for the assignment",
+        "sendAnEmail": "Send an email",
+        "notifyPeopleByEmailWhenWorkflowRuns": "Notify people by email when this workflow runs.",
+        "sendAnInAppNotification": "Send an in-app notification",
+        "showNotificationInsideFieldExToRightPeople": "Show a notification inside FieldEx to the right people.",
+        "addEmailOrInAppNotificationBelow": "Add an email or in-app notification below so the right people know when this workflow runs. You can add more than one."
       }
     },
     "templates": {

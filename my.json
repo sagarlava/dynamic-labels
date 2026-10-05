@@ -29561,6 +29561,27 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "Bila aliran kerja patut bermula",
+          "plural": "Bila aliran kerja patut bermula",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "Syarat khusus yang perlu dipenuhi",
+          "plural": "Syarat khusus yang perlu dipenuhi",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "Tetapkan tindakan aliran kerja",
+          "plural": "Tetapkan tindakan aliran kerja",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -29640,6 +29661,34 @@
           "singular": "Butiran Aliran Kerja",
           "plural": "Butiran Aliran Kerja",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "Mula",
+          "plural": "Mula",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "Syarat",
+          "plural": "Syarat",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "Tindakan",
+          "plural": "Tindakan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "Butiran",
+          "plural": "Butiran",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -29723,7 +29772,37 @@
         "thisYear": "Tahun Ini",
         "addDays": "Tambah Hari",
         "exampleCaps": "Contoh",
-        "exampleShort": "Cth"
+        "exampleShort": "Cth",
+        "action": "tindakan",
+        "addEmailOrInAppNotificationBelow": "Tambah emel atau pemberitahuan dalam aplikasi di bawah supaya orang yang betul tahu bila aliran kerja ini dijalankan. Anda boleh menambah lebih daripada satu.",
+        "automaticallyAssignMatching": "Tugaskan padanan secara automatik",
+        "automaticallyAssignMatchingToTheRightTechnician": "kepada juruteknik yang betul",
+        "chooseHowThis": "Pilih bagaimana",
+        "chooseSingleMomentToTriggerWorkflow": "Pilih satu saat yang patut mencetuskan",
+        "conditionsConfiguredPreviousStepReview": "Syarat dikonfigurasikan pada langkah sebelumnya. Semak di sana sebelum menyimpan.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "hanya menghantar emel atau makluman dalam aplikasi apabila syarat dipenuhi. (Berfungsi pada semua modul)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "hanya menghantar emel atau makluman dalam aplikasi apabila syarat dipenuhi.",
+        "keepAssigningJobsYourselfThisWorkflow": "Teruskan menugaskan kerja sendiri. Aliran kerja",
+        "moduleOnly": "modul sahaja)",
+        "notifyPeopleByEmailWhenWorkflowRuns": "Maklumkan orang melalui emel apabila aliran kerja ini dijalankan.",
+        "of": "bagi",
+        "only": "sahaja",
+        "remindersEscalationsStatusAlerts": "peringatan, eskalasi, makluman status",
+        "routingNewJobsWithoutManualDispatch": "menghala kerja baharu tanpa penghantaran manual",
+        "rulesUsed": "peraturan digunakan",
+        "selectAssignmentRuleFromAnotherWorkflow": "Pilih peraturan tugasan daripada aliran kerja lain",
+        "sendAnEmail": "Hantar emel",
+        "sendAnInAppNotification": "Hantar pemberitahuan dalam aplikasi",
+        "set": "Tetapkan",
+        "setupTheMatchingSkillsAvailabilityLocation": "tetapkan keperluan kemahiran, ketersediaan dan lokasi yang sepadan untuk tugasan",
+        "shouldBehave": "patut berkelakuan",
+        "showNotificationInsideFieldExToRightPeople": "Tunjukkan pemberitahuan dalam FieldEx kepada orang yang betul.",
+        "start": "mula",
+        "to": "Kepada",
+        "toTheRightTechnicianBySkillLocationWorkload": "kepada juruteknik yang betul mengikut kemahiran, lokasi atau beban kerja kemudian maklumkan mereka. (Berfungsi pada",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "kepada juruteknik yang betul — mengikut kemahiran, lokasi atau beban kerja — kemudian maklumkan mereka.",
+        "triggerSettingsConfiguredPreviousStep": "Tetapan pencetus dikonfigurasikan pada langkah sebelumnya. Semak di sana sebelum menyimpan.",
+        "whenShouldThe": "Bila patut"
       }
     },
     "templates": {
