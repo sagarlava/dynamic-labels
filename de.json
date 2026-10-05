@@ -10464,7 +10464,8 @@
       "pdfTemplateNameRequired": "Vorlagenname ist erforderlich",
       "pdfTemplateTriggerRequired": "Mindestens ein Auslöser ist erforderlich",
       "pdfTemplateNameTooLong": "Der Vorlagenname überschreitet die maximale Länge von 255 Zeichen",
-      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert"
+      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert",
+      "editCompletedJobOrderNotAllowed": "Sie dürfen diesen abgeschlossenen Arbeitsauftrag nicht bearbeiten"
     },
     "tooltips": {
       "setupVisible": false,
@@ -28083,6 +28084,187 @@
           "beDone": "durchgeführt werden für",
           "specific": "bestimmte"
         }
+      },
+      "assignmentRule": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Assignment Rules",
+          "singular": "Zuweisungsregel",
+          "plural": "Zuweisungsregeln",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Details",
+            "singular": "Details",
+            "plural": "Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Filter the technician",
+            "singular": "Techniker filtern",
+            "plural": "Techniker filtern",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Tie Breaker",
+            "singular": "Stichentscheid",
+            "plural": "Stichentscheid",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Assignment",
+            "singular": "Zuweisung",
+            "plural": "Zuweisung",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "General Details",
+            "singular": "Allgemeine Details",
+            "plural": "Allgemeine Details",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Namen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Beschreibung",
+            "plural": "Beschreibungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "fallbackPerson": {
+            "original": "Fallback person",
+            "singular": "Ersatzperson",
+            "plural": "Ersatzpersonen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "supervisor": {
+            "original": "Supervisor",
+            "singular": "Vorgesetzter",
+            "plural": "Vorgesetzte",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "filter": "Filter",
+          "mandatory": "Obligatorisch",
+          "optional": "Optional",
+          "rank": "Rang",
+          "assign": "Zuweisen",
+          "everyTechnicianCheckedFailOne": "Jeder Techniker wird anhand der folgenden Bedingungen geprüft. Scheitert er an einer",
+          "conditionRuledOutCompletely": "Bedingung, wird dieser Techniker vollständig ausgeschlossen.",
+          "conditionsNeverDisqualifyRanking": "Bedingungen disqualifizieren niemanden; sie zählen nur für die Rangfolge im nächsten Schritt.",
+          "techniciansPassFiltersScoredMeet": "Techniker, die die Filter bestehen, werden danach bewertet, wie gut sie die",
+          "conditionsAboveTieBreakerDecides": "Bedingungen oben erfüllen. Bei Gleichstand entscheidet die Stichentscheid-Reihenfolge unten, wer den Auftrag erhält.",
+          "fieldExTriesAssignmentGroupsOrder": "FieldEx prüft Ihre Zuweisungs-",
+          "inOrderYouSet": "in der von Ihnen festgelegten Reihenfolge -",
+          "tryFirstFallbackFinalFallback": "Zuerst versuchen, dann Fallback, dann Finaler Fallback.",
+          "statusTooltip": "Nur aktive Regeln laufen bei der Zuweisung. Stellen Sie auf Inaktiv, um diese Regel weiter zu erstellen oder zu testen, ohne Live-",
+          "mandatoryConditionsHardCutoff": "Obligatorische Bedingungen sind ein harter Schnitt — ein Techniker, der eine nicht erfüllt, wird nie zugewiesen. Optionale Bedingungen disqualifizieren niemanden; sie helfen nur, die bessere Passung zu rangieren",
+          "doesTechnicianHaveRequiredSkill": "Hat der Techniker die erforderliche Qualifikation?",
+          "turnOnWhenA": "Aktivieren Sie dies, wenn ein",
+          "needsSpecializedKnowHowExample": "spezialisiertes Know-how braucht, das ein Techniker hat oder nicht. Zum Beispiel ein gaszertifizierter Techniker für eine Heizungsreparatur.",
+          "doesThe": "Muss der",
+          "requireSkillsToBeMatched": "Qualifikationen abgleichen?",
+          "offSkillPlaysNoPartMandatoryConsidered": "Aus: Qualifikation spielt in dieser Regel keine Rolle. Optional: Techniker mit mehr übereinstimmenden Qualifikationen rangieren höher, aber eine fehlende schließt sie nicht aus. Obligatorisch: Nur Techniker mit jeder Qualifikation unten werden berücksichtigt.",
+          "selectSkillsNeededForThe": "Wählen Sie die benötigten Qualifikationen für den",
+          "addEverySkillThisRequires": "Fügen Sie jede Qualifikation hinzu, die dieses",
+          "requires": "erfordert",
+          "isTechnicianAvailableAtTime": "Ist der Techniker zum Zeitpunkt verfügbar",
+          "threeChecksWorkTogether": "Diese drei Prüfungen wirken zusammen, damit FieldEx niemanden zuweist, der bereits beschäftigt, nicht im Schicht oder im Urlaub ist.",
+          "availability": "Verfügbarkeit",
+          "technicianMustBeFreeAtThe": "Techniker muss zum geplanten Zeitpunkt des",
+          "sScheduledTimeChecksExistingSchedule": " frei sein. Prüft den bestehenden",
+          "orderScheduleKeepMandatoryPreventDoubleBooking": "Auftragsplan des Technikers auf Konflikte. Lassen Sie dies Obligatorisch, um versehentliche Doppelbuchungen zu vermeiden.",
+          "shift": "Schicht",
+          "createShiftsHere": "Schichten hier erstellen",
+          "technicianMustBeOnShiftAtThe": "Techniker muss zum geplanten Zeitpunkt des",
+          "sScheduledTimeOnlyAppliesIfShiftDefined": " im Schicht sein. Gilt nur, wenn der Techniker eine Schicht hat. Techniker ohne Schicht gelten als immer im Schicht; richten Sie zuerst Schichten ein, damit diese Prüfung Sinn ergibt.",
+          "leave": "Urlaub",
+          "techniciansOnLeaveSkippedTurnOff": "Techniker im Urlaub werden automatisch übersprungen. Schalten Sie dies nur aus, wenn Sie absichtlich Arbeit an Techniker im Urlaub zuweisen möchten.",
+          "findNearestTechnicianToThe": "Den nächstgelegenen Techniker zum",
+          "location": "Standort finden",
+          "fieldExNeedsLocationForDistance": "FieldEx braucht einen Standort je Techniker, um die Distanz im Stichentscheid unten zu schätzen. Diese Einstellungen legen fest, wie der Standort ermittelt und wie stark er vertraut wird.",
+          "matchToThe": "Abgleichen mit der",
+          "create": "Erstellen",
+          "here": "hier",
+          "matchesThe": "Stimmt mit der",
+          "apostropheS": " des",
+          "toTheTechnicians": " mit der des Technikers überein",
+          "mandatoryKeepsStrictlyInsideSwitchOptional": "Obligatorisch hält Techniker strikt in ihrer eigenen Zone. Wechseln Sie zu Optional, wenn überlappende Zonen erlaubt sein sollen, ein Zonen-Match aber weiterhin bevorzugt wird.",
+          "useTechnicianLiveLocation": "Live-Standort des Technikers verwenden",
+          "liveGpsFor": "Live-GPS für",
+          "startingSoonForFurtherOut": "die bald starten. Für",
+          "furtherOutFieldExPredicts": "weiter entfernte Termine prognostiziert FieldEx den Standort aus dem direkt zuvor geplanten Auftrag.",
+          "noteLiveGpsBestSignal": "Hinweis: Live-GPS ist das beste Signal, wenn verfügbar, sollte aber einen Techniker nicht ausschließen, nur weil das Telefon nicht gemeldet hat.",
+          "liveLocationWindow": "Live-Standort-Fenster",
+          "useLiveGpsIfJobStartsWithin": "Live-GPS des Technikers verwenden, wenn der Auftrag innerhalb dieser Stunden startet. Außerhalb fällt FieldEx auf den prognostizierten Standort zurück — die Live-Position mehrere Stunden später ist kein zuverlässiger Ersatz dafür, wo er tatsächlich sein wird.",
+          "rankingOrder": "Rangfolge",
+          "ifMoreThanOneTechnicianTied": "Wenn mehr als ein Techniker alle Filter mit gleichem Rang besteht, vergleicht FieldEx sie in dieser Reihenfolge. Gleichstand beim ersten Faktor rollt zum nächsten darunter.",
+          "moveUp": "Nach oben",
+          "moveDown": "Nach unten",
+          "chooseUpToThreeToTryInOrder": "Wählen Sie bis zu drei",
+          "toTryInOrderRoundRobin": "zum Versuch in Reihenfolge. Innerhalb einer Gruppe werden passende Mitglieder per Round Robin zugewiesen.",
+          "addAFallbackLevel": "Fallback-Ebene hinzufügen",
+          "ifNoGroupMatchesAtAll": "Wenn kein",
+          "matchesAtAll": "überhaupt passt",
+          "theFinalSafetyNet": "Das letzte Sicherheitsnetz, nur wenn jedes",
+          "aboveHasNoEligibleTechnician": "oben keinen geeigneten Techniker hat und kein Standard-Zugewiesener gesetzt ist. Wählen Sie, ob FieldEx jemanden benachrichtigen oder den",
+          "unassignedForManualReview": "für manuelle Prüfung unzugewiesen lassen soll.",
+          "ifNo": "Wenn kein",
+          "matches": "passt",
+          "off": "Aus",
+          "distance": "Entfernung",
+          "distanceDescription": "Entfernung zwischen dem geschätzten Standort des Technikers und dem Einsatzort. Nächster zuerst senkt Fahrzeit und Kraftstoff; wechseln Sie zu Weitester zuerst, wenn Sie die Abdeckung bewusst über ein großes Gebiet verteilen.",
+          "utilizationDescription": "Aktuelle Auslastung des Technikers. Wenigsten beschäftigt zuerst verteilt Aufträge gleichmäßig. Meisten beschäftigt zuerst füllt den Tag eines Technikers, bevor der nächste drankommt.",
+          "closestFirst": "Nächster zuerst",
+          "furthestFirst": "Weitester zuerst",
+          "leastBusyFirst": "Wenigsten beschäftigt zuerst",
+          "mostBusyFirst": "Meisten beschäftigt zuerst",
+          "tryFirst": "Zuerst versuchen",
+          "fallback": "Fallback",
+          "finalFallback": "Finaler Fallback",
+          "ifNoMatchTryNext": "wenn keine Übereinstimmung, nächstes versuchen",
+          "ifStillNoMatchTryNext": "wenn immer noch keine Übereinstimmung, nächstes versuchen",
+          "leaveUnassignedInBacklog": "Im Backlog unzugewiesen lassen",
+          "notifyASupervisorLeaveUnassigned": "Vorgesetzten benachrichtigen, unzugewiesen lassen",
+          "assignToSpecificFallbackPerson": "Einer bestimmten Ersatzperson zuweisen",
+          "twoHours": "2 Stunden",
+          "fourHours": "4 Stunden",
+          "sixHours": "6 Stunden",
+          "eightHours": "8 Stunden"
+        },
+        "validationFE": {
+          "unableToLoadAssignmentRule": "Zuweisungsregel konnte nicht geladen werden"
+        }
       }
     },
     "checklist": {
@@ -30556,6 +30738,27 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "Wann soll der Workflow starten",
+          "plural": "Wann soll der Workflow starten",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "Spezifische Bedingungen, die erfüllt sein müssen",
+          "plural": "Spezifische Bedingungen, die erfüllt sein müssen",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "Workflow-Aktionen festlegen",
+          "plural": "Workflow-Aktionen festlegen",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -30635,6 +30838,34 @@
           "singular": "Workflow-Details",
           "plural": "Workflow-Details",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "Start",
+          "plural": "Start",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "Bedingungen",
+          "plural": "Bedingungen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "Aktionen",
+          "plural": "Aktionen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "Details",
+          "plural": "Details",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -30718,7 +30949,37 @@
         "thisYear": "Dieses Jahr",
         "addDays": "Tage Hinzufügen",
         "exampleCaps": "Beispiel",
-        "exampleShort": "Bsp"
+        "exampleShort": "Bsp",
+        "action": "Aktionen",
+        "addEmailOrInAppNotificationBelow": "Fügen Sie unten eine E-Mail- oder In-App-Benachrichtigung hinzu, damit die richtigen Personen wissen, wann dieser Workflow läuft. Sie können mehr als eine hinzufügen.",
+        "automaticallyAssignMatching": "Passende automatisch zuweisen",
+        "automaticallyAssignMatchingToTheRightTechnician": "an den richtigen Techniker",
+        "chooseHowThis": "Wählen Sie, wie dieser",
+        "chooseSingleMomentToTriggerWorkflow": "Wählen Sie den einzelnen Moment, der diesen",
+        "conditionsConfiguredPreviousStepReview": "Bedingungen werden im vorherigen Schritt konfiguriert. Prüfen Sie sie dort vor dem Speichern.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "sendet nur eine E-Mail- oder In-App-Benachrichtigung, wenn Bedingungen erfüllt sind. (Funktioniert für alle Module)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "sendet nur eine E-Mail- oder In-App-Benachrichtigung, wenn Bedingungen erfüllt sind.",
+        "keepAssigningJobsYourselfThisWorkflow": "Weisen Sie Aufträge weiterhin selbst zu. Dieser",
+        "moduleOnly": "Modul nur",
+        "notifyPeopleByEmailWhenWorkflowRuns": "Personen per E-Mail benachrichtigen, wenn dieser Workflow läuft.",
+        "of": "von",
+        "only": "nur",
+        "remindersEscalationsStatusAlerts": "Erinnerungen, Eskalationen, Statusalarme",
+        "routingNewJobsWithoutManualDispatch": "neue Aufträge ohne manuelle Disposition weiterleiten",
+        "rulesUsed": "verwendete Regeln",
+        "selectAssignmentRuleFromAnotherWorkflow": "Zuweisungsregel aus einem anderen Workflow auswählen",
+        "sendAnEmail": "E-Mail senden",
+        "sendAnInAppNotification": "In-App-Benachrichtigung senden",
+        "set": "Festlegen",
+        "setupTheMatchingSkillsAvailabilityLocation": "richten Sie passende Qualifikationen, Verfügbarkeit und Standortanforderungen für die Zuweisung ein",
+        "shouldBehave": "sich verhalten soll",
+        "showNotificationInsideFieldExToRightPeople": "Eine Benachrichtigung in FieldEx an die richtigen Personen anzeigen.",
+        "start": "Start",
+        "to": "An",
+        "toTheRightTechnicianBySkillLocationWorkload": "an den richtigen Techniker nach Qualifikation, Standort oder Auslastung und benachrichtigen. (Funktioniert für",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "an den richtigen Techniker — nach Qualifikation, Standort oder Auslastung — und dann benachrichtigen.",
+        "triggerSettingsConfiguredPreviousStep": "Auslöser-Einstellungen werden im vorherigen Schritt konfiguriert. Prüfen Sie sie dort vor dem Speichern.",
+        "whenShouldThe": "Wann soll der"
       }
     },
     "templates": {

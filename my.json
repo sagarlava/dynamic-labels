@@ -10464,7 +10464,8 @@
       "pdfTemplateNameRequired": "Nama templat diperlukan",
       "pdfTemplateTriggerRequired": "Sekurang-kurangnya satu pencetus diperlukan",
       "pdfTemplateNameTooLong": "Nama templat melebihi panjang maksimum 255 aksara",
-      "pdfTemplateNamePatternMissing": "Corak nama PDF yang dijana belum dikonfigurasi"
+      "pdfTemplateNamePatternMissing": "Corak nama PDF yang dijana belum dikonfigurasi",
+      "editCompletedJobOrderNotAllowed": "Anda tidak dibenarkan menyunting pesanan kerja yang telah siap ini."
     },
     "tooltips": {
       "setupVisible": false,
@@ -28083,6 +28084,187 @@
           "beDone": "dilakukan untuk",
           "specific": "tertentu"
         }
+      },
+      "assignmentRule": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Assignment Rules",
+          "singular": "Peraturan Tugasan",
+          "plural": "Peraturan Tugasan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Details",
+            "singular": "Butiran",
+            "plural": "Butiran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Filter the technician",
+            "singular": "Tapis juruteknik",
+            "plural": "Tapis juruteknik",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Tie Breaker",
+            "singular": "Pemutus Seri",
+            "plural": "Pemutus Seri",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Assignment",
+            "singular": "Tugasan",
+            "plural": "Tugasan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "General Details",
+            "singular": "Butiran Umum",
+            "plural": "Butiran Umum",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Penerangan",
+            "plural": "Penerangan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "fallbackPerson": {
+            "original": "Fallback person",
+            "singular": "Orang sandaran",
+            "plural": "Orang sandaran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "supervisor": {
+            "original": "Supervisor",
+            "singular": "Penyelia",
+            "plural": "Penyelia",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "filter": "Tapis",
+          "mandatory": "Wajib",
+          "optional": "Pilihan",
+          "rank": "Kedudukan",
+          "assign": "Tugaskan",
+          "everyTechnicianCheckedFailOne": "Setiap juruteknik disemak terhadap syarat di bawah. Gagal satu",
+          "conditionRuledOutCompletely": "syarat dan juruteknik itu diketepikan sepenuhnya.",
+          "conditionsNeverDisqualifyRanking": "syarat tidak pernah menyingkirkan sesiapa; ia hanya penting untuk kedudukan pada langkah seterusnya.",
+          "techniciansPassFiltersScoredMeet": "Juruteknik yang lulus penapis dinilai mengikut sejauh mana mereka memenuhi",
+          "conditionsAboveTieBreakerDecides": "syarat di atas. Jika dua atau lebih juruteknik terikat, susunan pemutus seri di bawah menentukan siapa mendapat kerja.",
+          "fieldExTriesAssignmentGroupsOrder": "FieldEx cuba",
+          "inOrderYouSet": "anda mengikut susunan yang anda tetapkan -",
+          "tryFirstFallbackFinalFallback": "Cuba Dahulu, kemudian Sandaran, kemudian Sandaran Akhir.",
+          "statusTooltip": "Hanya peraturan aktif dijalankan semasa tugasan. Tukar kepada Tidak Aktif untuk terus membina atau menguji peraturan ini tanpa menjejaskan",
+          "mandatoryConditionsHardCutoff": "Syarat wajib ialah potongan ketat — juruteknik yang gagal satu tidak akan ditugaskan. Syarat pilihan tidak menyingkirkan sesiapa; ia hanya membantu menilai siapa lebih sesuai",
+          "doesTechnicianHaveRequiredSkill": "Adakah juruteknik mempunyai kemahiran yang diperlukan?",
+          "turnOnWhenA": "Dayakan ini apabila",
+          "needsSpecializedKnowHowExample": "memerlukan pengetahuan khusus yang juruteknik ada atau tiada. Contohnya, juruteknik bertauliah gas untuk pembaikan pemanasan.",
+          "doesThe": "Adakah",
+          "requireSkillsToBeMatched": "memerlukan kemahiran dipadankan?",
+          "offSkillPlaysNoPartMandatoryConsidered": "Tutup: Kemahiran tidak berperanan dalam peraturan ini. Pilihan: Juruteknik dengan lebih banyak kemahiran sepadan menduduki kedudukan lebih tinggi, tetapi kehilangan satu tidak menyingkirkan mereka. Wajib: Hanya juruteknik dengan setiap kemahiran di bawah dipertimbangkan.",
+          "selectSkillsNeededForThe": "Pilih kemahiran yang diperlukan untuk",
+          "addEverySkillThisRequires": "Tambah setiap kemahiran yang",
+          "requires": "ini perlukan",
+          "isTechnicianAvailableAtTime": "Adakah juruteknik tersedia pada masa",
+          "threeChecksWorkTogether": "Tiga semakan ini berfungsi bersama supaya FieldEx tidak menugaskan seseorang yang sudah sibuk, luar syif, atau bercuti.",
+          "availability": "Ketersediaan",
+          "technicianMustBeFreeAtThe": "Juruteknik mesti bebas pada masa berjadual",
+          "sScheduledTimeChecksExistingSchedule": ". Menyemak jadual",
+          "orderScheduleKeepMandatoryPreventDoubleBooking": "pesanan sedia ada juruteknik untuk konflik. Kekalkan sebagai Wajib untuk elak tempahan berganda secara tidak sengaja.",
+          "shift": "Syif",
+          "createShiftsHere": "Cipta syif di sini",
+          "technicianMustBeOnShiftAtThe": "Juruteknik mesti dalam syif pada masa berjadual",
+          "sScheduledTimeOnlyAppliesIfShiftDefined": ". Hanya terpakai jika juruteknik mempunyai syif ditakrifkan. Juruteknik tanpa syif dianggap sentiasa dalam syif; tetapkan syif dahulu jika anda mahu semakan ini bermakna.",
+          "leave": "Cuti",
+          "techniciansOnLeaveSkippedTurnOff": "Juruteknik bercuti dilangkau secara automatik. Matikan ini hanya jika anda sengaja mahu menugaskan kerja kepada juruteknik yang bercuti.",
+          "findNearestTechnicianToThe": "Cari juruteknik terdekat kepada",
+          "location": "lokasi",
+          "fieldExNeedsLocationForDistance": "FieldEx memerlukan lokasi bagi setiap juruteknik untuk menganggarkan jarak dalam pemutus seri di bawah. Tetapan ini menentukan bagaimana lokasi itu diperolehi dan sejauh mana ia dipercayai.",
+          "matchToThe": "Padankan dengan",
+          "create": "Cipta",
+          "here": "di sini",
+          "matchesThe": "Memadankan",
+          "apostropheS": " ",
+          "toTheTechnicians": "dengan milik juruteknik",
+          "mandatoryKeepsStrictlyInsideSwitchOptional": "Wajib mengekalkan juruteknik ketat dalam zon mereka sendiri. Tukar kepada Pilihan jika zon bertindih dibenarkan tetapi padanan zon masih diutamakan.",
+          "useTechnicianLiveLocation": "Guna lokasi langsung juruteknik",
+          "liveGpsFor": "GPS langsung untuk",
+          "startingSoonForFurtherOut": "yang akan bermula tidak lama lagi. Untuk",
+          "furtherOutFieldExPredicts": "yang lebih jauh, FieldEx meramal lokasi daripada kerja yang dijadualkan sebelum itu.",
+          "noteLiveGpsBestSignal": "Nota: GPS langsung ialah isyarat terbaik apabila tersedia, tetapi tidak sepatutnya menyingkirkan juruteknik hanya kerana telefonnya belum melapor.",
+          "liveLocationWindow": "Tetingkap lokasi langsung",
+          "useLiveGpsIfJobStartsWithin": "Guna lokasi GPS langsung juruteknik jika kerja bermula dalam bilangan jam ini dari sekarang. Di luar tetingkap ini, FieldEx kembali kepada lokasi diramal — kedudukan langsung beberapa jam kemudian bukan penunjuk yang boleh dipercayai tentang di mana mereka benar-benar berada.",
+          "rankingOrder": "Susunan Kedudukan",
+          "ifMoreThanOneTechnicianTied": "Jika lebih daripada satu juruteknik lulus setiap penapis dengan kedudukan sama, FieldEx membandingkan mereka menggunakan susunan ini. Seri pada faktor pertama digulung ke faktor seterusnya di bawah.",
+          "moveUp": "Naik",
+          "moveDown": "Turun",
+          "chooseUpToThreeToTryInOrder": "Pilih sehingga tiga",
+          "toTryInOrderRoundRobin": "untuk dicuba mengikut susunan. Dalam kumpulan, ahli yang sepadan ditugaskan secara pusingan.",
+          "addAFallbackLevel": "Tambah tahap sandaran",
+          "ifNoGroupMatchesAtAll": "Jika tiada",
+          "matchesAtAll": "sepadan langsung",
+          "theFinalSafetyNet": "Jaringan keselamatan akhir, digunakan hanya jika setiap",
+          "aboveHasNoEligibleTechnician": "di atas tiada juruteknik layak dan tiada penerima tugasan lalai ditetapkan. Pilih sama ada FieldEx perlu memaklumkan seseorang atau biarkan",
+          "unassignedForManualReview": "tidak ditugaskan untuk semakan manual.",
+          "ifNo": "Jika Tiada",
+          "matches": "Padanan",
+          "off": "Tutup",
+          "distance": "Jarak",
+          "distanceDescription": "Jarak antara lokasi dianggarkan juruteknik dan tapak kerja. Terdekat dahulu mengurangkan masa perjalanan dan kos bahan api; tukar kepada Terjauh dahulu jika anda sengaja mengimbangi liputan merentas kawasan luas.",
+          "utilizationDescription": "Beban kerja semasa juruteknik. Paling kurang sibuk dahulu menyebarkan kerja merentas pasukan. Paling sibuk dahulu mengisi hari seorang juruteknik sebelum beralih ke yang seterusnya.",
+          "closestFirst": "Terdekat dahulu",
+          "furthestFirst": "Terjauh dahulu",
+          "leastBusyFirst": "Paling kurang sibuk dahulu",
+          "mostBusyFirst": "Paling sibuk dahulu",
+          "tryFirst": "Cuba Dahulu",
+          "fallback": "Sandaran",
+          "finalFallback": "Sandaran Akhir",
+          "ifNoMatchTryNext": "jika tiada padanan, cuba seterusnya",
+          "ifStillNoMatchTryNext": "jika masih tiada padanan, cuba seterusnya",
+          "leaveUnassignedInBacklog": "Biarkan tidak ditugaskan dalam Backlog",
+          "notifyASupervisorLeaveUnassigned": "Maklumkan penyelia, biarkan tidak ditugaskan",
+          "assignToSpecificFallbackPerson": "Tugaskan kepada orang sandaran tertentu",
+          "twoHours": "2 jam",
+          "fourHours": "4 jam",
+          "sixHours": "6 jam",
+          "eightHours": "8 jam"
+        },
+        "validationFE": {
+          "unableToLoadAssignmentRule": "Tidak dapat memuatkan peraturan tugasan"
+        }
       }
     },
     "checklist": {
@@ -30556,6 +30738,27 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "Bila aliran kerja patut bermula",
+          "plural": "Bila aliran kerja patut bermula",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "Syarat khusus yang perlu dipenuhi",
+          "plural": "Syarat khusus yang perlu dipenuhi",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "Tetapkan tindakan aliran kerja",
+          "plural": "Tetapkan tindakan aliran kerja",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -30635,6 +30838,34 @@
           "singular": "Butiran Aliran Kerja",
           "plural": "Butiran Aliran Kerja",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "Mula",
+          "plural": "Mula",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "Syarat",
+          "plural": "Syarat",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "Tindakan",
+          "plural": "Tindakan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "Butiran",
+          "plural": "Butiran",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -30718,7 +30949,37 @@
         "thisYear": "Tahun Ini",
         "addDays": "Tambah Hari",
         "exampleCaps": "Contoh",
-        "exampleShort": "Cth"
+        "exampleShort": "Cth",
+        "action": "tindakan",
+        "addEmailOrInAppNotificationBelow": "Tambah emel atau pemberitahuan dalam aplikasi di bawah supaya orang yang betul tahu bila aliran kerja ini dijalankan. Anda boleh menambah lebih daripada satu.",
+        "automaticallyAssignMatching": "Tugaskan padanan secara automatik",
+        "automaticallyAssignMatchingToTheRightTechnician": "kepada juruteknik yang betul",
+        "chooseHowThis": "Pilih bagaimana",
+        "chooseSingleMomentToTriggerWorkflow": "Pilih satu saat yang patut mencetuskan",
+        "conditionsConfiguredPreviousStepReview": "Syarat dikonfigurasikan pada langkah sebelumnya. Semak di sana sebelum menyimpan.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "hanya menghantar emel atau makluman dalam aplikasi apabila syarat dipenuhi. (Berfungsi pada semua modul)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "hanya menghantar emel atau makluman dalam aplikasi apabila syarat dipenuhi.",
+        "keepAssigningJobsYourselfThisWorkflow": "Teruskan menugaskan kerja sendiri. Aliran kerja",
+        "moduleOnly": "modul sahaja",
+        "notifyPeopleByEmailWhenWorkflowRuns": "Maklumkan orang melalui emel apabila aliran kerja ini dijalankan.",
+        "of": "bagi",
+        "only": "sahaja",
+        "remindersEscalationsStatusAlerts": "peringatan, eskalasi, makluman status",
+        "routingNewJobsWithoutManualDispatch": "menghala kerja baharu tanpa penghantaran manual",
+        "rulesUsed": "peraturan digunakan",
+        "selectAssignmentRuleFromAnotherWorkflow": "Pilih peraturan tugasan daripada aliran kerja lain",
+        "sendAnEmail": "Hantar emel",
+        "sendAnInAppNotification": "Hantar pemberitahuan dalam aplikasi",
+        "set": "Tetapkan",
+        "setupTheMatchingSkillsAvailabilityLocation": "tetapkan keperluan kemahiran, ketersediaan dan lokasi yang sepadan untuk tugasan",
+        "shouldBehave": "patut berkelakuan",
+        "showNotificationInsideFieldExToRightPeople": "Tunjukkan pemberitahuan dalam FieldEx kepada orang yang betul.",
+        "start": "mula",
+        "to": "Kepada",
+        "toTheRightTechnicianBySkillLocationWorkload": "kepada juruteknik yang betul mengikut kemahiran, lokasi atau beban kerja kemudian maklumkan mereka. (Berfungsi pada",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "kepada juruteknik yang betul — mengikut kemahiran, lokasi atau beban kerja — kemudian maklumkan mereka.",
+        "triggerSettingsConfiguredPreviousStep": "Tetapan pencetus dikonfigurasikan pada langkah sebelumnya. Semak di sana sebelum menyimpan.",
+        "whenShouldThe": "Bila patut"
       }
     },
     "templates": {

@@ -7519,7 +7519,8 @@
       "pdfTemplateNameRequired": "Template name is required",
       "pdfTemplateTriggerRequired": "At least one trigger is required",
       "pdfTemplateNameTooLong": "Template name exceeds maximum length of 255 characters",
-      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured"
+      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured",
+      "editCompletedJobOrderNotAllowed": "You are not allowed to edit this completed job order"
     },
     "tooltips": {
       "setupVisible": false,
@@ -23404,6 +23405,187 @@
           "beDone": "be done for",
           "specific": "specific"
         }
+      },
+      "assignmentRule": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Assignment Rules",
+          "singular": "Assignment Rule",
+          "plural": "Assignment Rules",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Details",
+            "singular": "Details",
+            "plural": "Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Filter the technician",
+            "singular": "Filter the technician",
+            "plural": "Filter the technician",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Tie Breaker",
+            "singular": "Tie Breaker",
+            "plural": "Tie Breaker",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Assignment",
+            "singular": "Assignment",
+            "plural": "Assignment",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "General Details",
+            "singular": "General Details",
+            "plural": "General Details",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Names",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "Descriptions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "fallbackPerson": {
+            "original": "Fallback person",
+            "singular": "Fallback person",
+            "plural": "Fallback persons",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "supervisor": {
+            "original": "Supervisor",
+            "singular": "Supervisor",
+            "plural": "Supervisors",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "filter": "Filter",
+          "mandatory": "Mandatory",
+          "optional": "Optional",
+          "rank": "Rank",
+          "assign": "Assign",
+          "everyTechnicianCheckedFailOne": "Every technician is checked against the conditions below. Fail one",
+          "conditionRuledOutCompletely": "condition and that technician is ruled out completely.",
+          "conditionsNeverDisqualifyRanking": "conditions never disqualify anyone; they only matter for ranking in the next step.",
+          "techniciansPassFiltersScoredMeet": "Technicians that pass the filters are scored on how well they meet the",
+          "conditionsAboveTieBreakerDecides": "conditions above. If two or more technicians end up tied, the tie-breaker order below decides who gets the job.",
+          "fieldExTriesAssignmentGroupsOrder": "FieldEx tries your assignment",
+          "inOrderYouSet": "in the order you set -",
+          "tryFirstFallbackFinalFallback": "Try First, then Fallback, then Final Fallback.",
+          "statusTooltip": "Only active rules run during assignment. Switch to Inactive to keep building or testing this rule without affecting live",
+          "mandatoryConditionsHardCutoff": "Mandatory conditions are a hard cutoff — a technician who fails one is never assigned. Optional conditions don't disqualify anyone; they just help rank who's the better fit",
+          "doesTechnicianHaveRequiredSkill": "Does the technician have the required skill?",
+          "turnOnWhenA": "Turn this on when a",
+          "needsSpecializedKnowHowExample": "needs specialized know-how a technician either has or doesn't. For example, a gas-certified technician for a heating repair.",
+          "doesThe": "Does the",
+          "requireSkillsToBeMatched": "require skills to be matched?",
+          "offSkillPlaysNoPartMandatoryConsidered": "Off: Skill plays no part in this rule. Optional: Technicians with more matching skills rank higher, but missing one won't rule them out. Mandatory: Only technicians with every skill below are considered.",
+          "selectSkillsNeededForThe": "Select the skills needed for the",
+          "addEverySkillThisRequires": "Add every skill this",
+          "requires": "requires",
+          "isTechnicianAvailableAtTime": "Is the technician available at the time",
+          "threeChecksWorkTogether": "These three checks work together so FieldEx doesn't assign someone who's already busy, off shift, or on leave.",
+          "availability": "Availability",
+          "technicianMustBeFreeAtThe": "Technician must be free at the",
+          "sScheduledTimeChecksExistingSchedule": "'s scheduled time. Checks the technician's existing",
+          "orderScheduleKeepMandatoryPreventDoubleBooking": "order schedule for conflicts. Keep this Mandatory to prevent accidental double-booking.",
+          "shift": "Shift",
+          "createShiftsHere": "Create shifts here",
+          "technicianMustBeOnShiftAtThe": "Technician must be on shift at the",
+          "sScheduledTimeOnlyAppliesIfShiftDefined": "'s scheduled time. Only applies if the technician has a shift defined. Technicians with no shift set are treated as always on shift, set shifts first if you want this check to mean something.",
+          "leave": "Leave",
+          "techniciansOnLeaveSkippedTurnOff": "Technicians on leave are skipped automatically. Turn this Off only if you intentionally want to assign work to technicians who are on leave.",
+          "findNearestTechnicianToThe": "Find the nearest technician to the",
+          "location": "location",
+          "fieldExNeedsLocationForDistance": "FieldEx needs a location for each technician to estimate distance in the tie-breaker below. These settings decide how that location is worked out, and how much it's trusted.",
+          "matchToThe": "Match to the",
+          "create": "Create",
+          "here": "here",
+          "matchesThe": "Matches the",
+          "apostropheS": "'s",
+          "toTheTechnicians": "to the technician's",
+          "mandatoryKeepsStrictlyInsideSwitchOptional": "Mandatory keeps technicians strictly inside their own zone. Switch to Optional if overlapping zones should be allowed but a zone match should still be preferred.",
+          "useTechnicianLiveLocation": "Use technician live location",
+          "liveGpsFor": "Live GPS for",
+          "startingSoonForFurtherOut": "starting soon. For",
+          "furtherOutFieldExPredicts": "further out, FieldEx predicts location from the job scheduled right before it.",
+          "noteLiveGpsBestSignal": "Note: Live GPS is the best signal when it's available, but it shouldn't disqualify a technician just because their phone hasn't reported in.",
+          "liveLocationWindow": "Live location window",
+          "useLiveGpsIfJobStartsWithin": "Use the technician's live GPS location if the job starts within this many hours from now. Outside this window, FieldEx falls back to the predicted location above a technician's live position several hours out isn't a reliable stand-in for where they'll actually be.",
+          "rankingOrder": "Ranking Order",
+          "ifMoreThanOneTechnicianTied": "If more than one technician passes every filter with an equal rank, FieldEx compares them using this order. A tie on the first factor rolls into the next one below it.",
+          "moveUp": "Move up",
+          "moveDown": "Move down",
+          "chooseUpToThreeToTryInOrder": "Choose up to three",
+          "toTryInOrderRoundRobin": "to try in order. Within a group, matching members are assigned using round robin.",
+          "addAFallbackLevel": "Add a fallback level",
+          "ifNoGroupMatchesAtAll": "If no",
+          "matchesAtAll": "matches at all",
+          "theFinalSafetyNet": "The final safety net, used only if every",
+          "aboveHasNoEligibleTechnician": "above has no eligible technician and no default assignee is set. Choose whether FieldEx should alert someone or leave the",
+          "unassignedForManualReview": "unassigned for manual review.",
+          "ifNo": "If No",
+          "matches": "Matches",
+          "off": "Off",
+          "distance": "Distance",
+          "distanceDescription": "Distance between the technician's estimated location and the job site. Closest first keeps travel time and fuel cost down; switch to Furthest first if you're deliberately balancing coverage across a wide area.",
+          "utilizationDescription": "Technician's current workload. Least busy first spreads jobs evenly across the team. Most busy first fills one technician's day before moving to the next.",
+          "closestFirst": "Closest first",
+          "furthestFirst": "Furthest first",
+          "leastBusyFirst": "Least busy first",
+          "mostBusyFirst": "Most busy first",
+          "tryFirst": "Try First",
+          "fallback": "Fallback",
+          "finalFallback": "Final Fallback",
+          "ifNoMatchTryNext": "if no match, try next",
+          "ifStillNoMatchTryNext": "if still no match, try next",
+          "leaveUnassignedInBacklog": "Leave unassigned in the Backlog",
+          "notifyASupervisorLeaveUnassigned": "Notify a supervisor, leave unassigned",
+          "assignToSpecificFallbackPerson": "Assign to a specific fallback person",
+          "twoHours": "2 hours",
+          "fourHours": "4 hours",
+          "sixHours": "6 hours",
+          "eightHours": "8 hours"
+        },
+        "validationFE": {
+          "unableToLoadAssignmentRule": "Unable to load assignment rule"
+        }
       }
     },
     "checklist": {
@@ -25863,6 +26045,27 @@
           "plural": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "When should the workflow start",
+          "plural": "When should the workflow start",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specific conditions to be met",
+          "singular": "Specific conditions to be met",
+          "plural": "Specific conditions to be met",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "Set Workflow actions",
+          "plural": "Set Workflow actions",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -25942,6 +26145,34 @@
           "singular": "Workflow Details",
           "plural": "Workflow Details",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "Start",
+          "plural": "Start",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "Conditions",
+          "plural": "Conditions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "Actions",
+          "plural": "Actions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "Details",
+          "plural": "Details",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -26025,7 +26256,37 @@
         "thisYear": "This Year",
         "addDays": "Add Days",
         "exampleCaps": "Example",
-        "exampleShort": "Eg"
+        "exampleShort": "Eg",
+        "action": "actions",
+        "addEmailOrInAppNotificationBelow": "Add an email or in-app notification below so the right people know when this workflow runs. You can add more than one.",
+        "automaticallyAssignMatching": "Automatically assign matching",
+        "automaticallyAssignMatchingToTheRightTechnician": "to the right technician",
+        "chooseHowThis": "Choose how this",
+        "chooseSingleMomentToTriggerWorkflow": "Choose the single moment that should trigger this",
+        "conditionsConfiguredPreviousStepReview": "Conditions are configured in the previous step. Review them there before saving.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "just sends an email or in-app alert when conditions match. (Works on all modules)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "just sends an email or in-app alert when conditions match.",
+        "keepAssigningJobsYourselfThisWorkflow": "Keep assigning jobs yourself. This",
+        "moduleOnly": "module only",
+        "notifyPeopleByEmailWhenWorkflowRuns": "Notify people by email when this workflow runs.",
+        "of": "of",
+        "only": "only",
+        "remindersEscalationsStatusAlerts": "reminders, escalations, status alerts",
+        "routingNewJobsWithoutManualDispatch": "routing new jobs without manual dispatch",
+        "rulesUsed": "rules used",
+        "selectAssignmentRuleFromAnotherWorkflow": "Select assignment rule from another workflow",
+        "sendAnEmail": "Send an email",
+        "sendAnInAppNotification": "Send an in-app notification",
+        "set": "Set",
+        "setupTheMatchingSkillsAvailabilityLocation": "setup the matching skills, availability and location requirements for the assignment",
+        "shouldBehave": "should behave",
+        "showNotificationInsideFieldExToRightPeople": "Show a notification inside FieldEx to the right people.",
+        "start": "start",
+        "to": "To",
+        "toTheRightTechnicianBySkillLocationWorkload": "to the right technician by skill, location or workload and then notify them. (Works on",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "to the right technician — by skill, location or workload — then notify them.",
+        "triggerSettingsConfiguredPreviousStep": "Trigger settings are configured in the previous step. Review them there before saving.",
+        "whenShouldThe": "When should the"
       }
     },
     "templates": {
