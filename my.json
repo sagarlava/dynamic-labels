@@ -29784,7 +29784,7 @@
         "justSendsEmailOrInAppAlertWhenConditionsMatch": "hanya menghantar emel atau makluman dalam aplikasi apabila syarat dipenuhi. (Berfungsi pada semua modul)",
         "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "hanya menghantar emel atau makluman dalam aplikasi apabila syarat dipenuhi.",
         "keepAssigningJobsYourselfThisWorkflow": "Teruskan menugaskan kerja sendiri. Aliran kerja",
-        "moduleOnly": "modul sahaja)",
+        "moduleOnly": "modul sahaja",
         "notifyPeopleByEmailWhenWorkflowRuns": "Maklumkan orang melalui emel apabila aliran kerja ini dijalankan.",
         "of": "bagi",
         "only": "sahaja",

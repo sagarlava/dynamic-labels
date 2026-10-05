@@ -28006,7 +28006,7 @@
         "justSendsEmailOrInAppAlertWhenConditionsMatch": "just sends an email or in-app alert when conditions match. (Works on all modules)",
         "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "just sends an email or in-app alert when conditions match.",
         "keepAssigningJobsYourselfThisWorkflow": "Keep assigning jobs yourself. This",
-        "moduleOnly": "module only)",
+        "moduleOnly": "module only",
         "notifyPeopleByEmailWhenWorkflowRuns": "Notify people by email when this workflow runs.",
         "of": "of",
         "only": "only",

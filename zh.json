@@ -29792,7 +29792,7 @@
         "justSendsEmailOrInAppAlertWhenConditionsMatch": "仅在条件匹配时发送电子邮件或应用内提醒。（适用于所有模块）",
         "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "仅在条件匹配时发送电子邮件或应用内提醒。",
         "keepAssigningJobsYourselfThisWorkflow": "继续自行指派工作。此",
-        "moduleOnly": "模块）",
+        "moduleOnly": "模块",
         "notifyPeopleByEmailWhenWorkflowRuns": "此工作流运行时通过电子邮件通知相关人员。",
         "of": "的",
         "only": "仅",

@@ -29785,7 +29785,7 @@
         "justSendsEmailOrInAppAlertWhenConditionsMatch": "envoie seulement un e-mail ou une alerte in-app lorsque les conditions correspondent. (Fonctionne sur tous les modules)",
         "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "envoie seulement un e-mail ou une alerte in-app lorsque les conditions correspondent.",
         "keepAssigningJobsYourselfThisWorkflow": "Continuez à assigner les travaux vous-même. Ce",
-        "moduleOnly": "module uniquement)",
+        "moduleOnly": "module uniquement",
         "notifyPeopleByEmailWhenWorkflowRuns": "Notifier les personnes par e-mail lorsque ce flux s’exécute.",
         "of": "de",
         "only": "uniquement",

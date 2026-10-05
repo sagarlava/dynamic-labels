@@ -29784,7 +29784,7 @@
         "justSendsEmailOrInAppAlertWhenConditionsMatch": "நிபந்தனைகள் பொருந்தும்போது மின்னஞ்சல் அல்லது ஆப் உள்ள எச்சரிக்கையை மட்டும் அனுப்பும். (அனைத்து தொகுதிகளிலும் வேலை செய்யும்)",
         "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "நிபந்தனைகள் பொருந்தும்போது மின்னஞ்சல் அல்லது ஆப் உள்ள எச்சரிக்கையை மட்டும் அனுப்பும்.",
         "keepAssigningJobsYourselfThisWorkflow": "வேலைகளை நீங்களே தொடர்ந்து ஒதுக்குங்கள். இந்த",
-        "moduleOnly": "தொகுதி மட்டும்)",
+        "moduleOnly": "தொகுதி மட்டும்",
         "notifyPeopleByEmailWhenWorkflowRuns": "இந்த பணிப்பாய்வு இயங்கும்போது மின்னஞ்சல் வழியாக நபர்களுக்கு அறிவிக்கவும்.",
         "of": "இன்",
         "only": "மட்டும்",
