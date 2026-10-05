@@ -10261,7 +10261,8 @@
       "pdfTemplateNameRequired": "模板名称为必填项",
       "pdfTemplateTriggerRequired": "至少需要一个触发器",
       "pdfTemplateNameTooLong": "模板名称超过 255 个字符的最大长度",
-      "pdfTemplateNamePatternMissing": "未配置生成的 PDF 名称模式"
+      "pdfTemplateNamePatternMissing": "未配置生成的 PDF 名称模式",
+      "editCompletedJobOrderNotAllowed": "您无权编辑此已完成的工单"
     },
     "tooltips": {
       "setupVisible": false,

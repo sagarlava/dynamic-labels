@@ -10253,7 +10253,8 @@
       "pdfTemplateNameRequired": "டெம்ப்ளேட் பெயர் தேவை",
       "pdfTemplateTriggerRequired": "குறைந்தபட்சம் ஒரு தூண்டுதல் தேவை",
       "pdfTemplateNameTooLong": "டெம்ப்ளேட் பெயர் அதிகபட்ச நீளமான 255 எழுத்துகளை மீறுகிறது",
-      "pdfTemplateNamePatternMissing": "உருவாக்கப்பட்ட PDF பெயர் வடிவம் உள்ளமைக்கப்படவில்லை"
+      "pdfTemplateNamePatternMissing": "உருவாக்கப்பட்ட PDF பெயர் வடிவம் உள்ளமைக்கப்படவில்லை",
+      "editCompletedJobOrderNotAllowed": "நீங்கள் இந்த முடிக்கப்பட்ட வேலை ஆர்டரை திருத்த அனுமதிக்கப்படவில்லை"
     },
     "tooltips": {
       "setupVisible": false,

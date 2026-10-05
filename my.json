@@ -10253,7 +10253,8 @@
       "pdfTemplateNameRequired": "Nama templat diperlukan",
       "pdfTemplateTriggerRequired": "Sekurang-kurangnya satu pencetus diperlukan",
       "pdfTemplateNameTooLong": "Nama templat melebihi panjang maksimum 255 aksara",
-      "pdfTemplateNamePatternMissing": "Corak nama PDF yang dijana belum dikonfigurasi"
+      "pdfTemplateNamePatternMissing": "Corak nama PDF yang dijana belum dikonfigurasi",
+      "editCompletedJobOrderNotAllowed": "Anda tidak dibenarkan menyunting pesanan kerja yang telah siap ini."
     },
     "tooltips": {
       "setupVisible": false,

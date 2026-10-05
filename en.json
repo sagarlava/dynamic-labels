@@ -10185,7 +10185,7 @@
       "noContactFoundForThisJobOrder": "No contact found for this Job Order",
       "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer",
       "quickBooksCustomerRequired": "A Valid QuickBooks Customer is required to generate an invoice. Please ensure the customer information is complete and try again.",
-      "quickBooksProductsRequired": "At least one product is required to generate an invoice. Please add products to the job order and try again."
+      "quickBooksProductsRequired": "At least one product is required to generate an invoice. Please add products to the job order and try again."      
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status Not Found",
@@ -10253,7 +10253,8 @@
       "pdfTemplateNameRequired": "Template name is required",
       "pdfTemplateTriggerRequired": "At least one trigger is required",
       "pdfTemplateNameTooLong": "Template name exceeds maximum length of 255 characters",
-      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured"
+      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured",
+      "editCompletedJobOrderNotAllowed": "You are not allowed to edit this completed job order"
     },
     "tooltips": {
       "setupVisible": false,
