@@ -31872,7 +31872,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Der Auftragstyp, der mit der Vorlage verknüpft ist, ist im Portal nicht konfiguriert. Bitte fügen Sie ihn zu den Auftragstypen hinzu.",
       "setupJobOrderStatusNotFound": "Auftragsstatus nicht gefunden",
       "SetupCustomerPortalConfigNotFound": "Kundenportal-Konfiguration für diesen Mandanten nicht gefunden",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Die Subdomain wird bereits von einem anderen Mandanten verwendet"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Die Subdomain wird bereits von einem anderen Mandanten verwendet",      
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Kundenportal-Konfiguration ist im System für den TmplJobOrder vorhanden",
+      "setupTmplJobOrderHasJobOrderConfig": "Auftragskonfiguration ist im System für den TmplJobOrder vorhanden",
+      "setupTmplJobOrderHasPMCycleItem": "PM-Zyklus-Element ist im System für den TmplJobOrder vorhanden",
+      "setupTmplJobOrderHasSiteConfig": "Standortkonfiguration ist im System für den TmplJobOrder vorhanden"
     },
     "labelBE": {
       "profileTableColumnSetup": {

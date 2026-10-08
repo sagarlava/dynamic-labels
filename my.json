@@ -31872,7 +31872,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Jenis pesanan kerja yang berkaitan dengan templat tidak dikonfigurasi dalam portal. Sila tambahkannya ke jenis pesanan kerja.",
       "setupJobOrderStatusNotFound": "Status Pesanan Kerja tidak dijumpai",
       "SetupCustomerPortalConfigNotFound": "Konfigurasi portal pelanggan tidak dijumpai untuk penyewa ini",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain sudah digunakan oleh penyewa lain"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain sudah digunakan oleh penyewa lain",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Konfigurasi Portal Pelanggan wujud dalam sistem untuk TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "Konfigurasi Pesanan Kerja wujud dalam sistem untuk TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "Item Kitaran PM wujud dalam sistem untuk TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "Konfigurasi Tapak wujud dalam sistem untuk TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {

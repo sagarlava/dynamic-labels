@@ -31872,7 +31872,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "El tipo de orden de trabajo relacionado con la plantilla no está configurado en el portal. Por favor, agréguelo a los tipos de órdenes de trabajo.",
       "setupJobOrderStatusNotFound": "Estado de la Orden de Trabajo no encontrado",
       "SetupCustomerPortalConfigNotFound": "Configuración del portal del cliente no encontrada para este tenant",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "El subdominio ya está en uso por otro tenant"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "El subdominio ya está en uso por otro tenant",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "La configuración del portal del cliente existe en el sistema para el TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "La configuración de la orden de trabajo existe en el sistema para el TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "El elemento del ciclo de PM existe en el sistema para el TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "La configuración del sitio existe en el sistema para el TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {
