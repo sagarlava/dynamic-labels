@@ -30147,7 +30147,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Job order type related to the template is not configured in the portal. Please add it to the job order types.",
       "setupJobOrderStatusNotFound": "Job Order Status not found",
       "SetupCustomerPortalConfigNotFound": "Customer portal configuration not found for this tenant",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Customer Portal Configuration exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "Job Order Config exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "PM Cycle Item exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "Site Config exists in the system for the TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {

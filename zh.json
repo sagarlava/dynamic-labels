@@ -30155,7 +30155,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "模板相关的工单类型未在门户中配置。请将其添加到工单类型中。",
       "setupJobOrderStatusNotFound": "未找到工单状态",
       "SetupCustomerPortalConfigNotFound": "未找到此租户的客户门户配置",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "子域名已被另一个租户使用"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "子域名已被另一个租户使用",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "系统中存在TmplJobOrder的客户门户配置",
+      "setupTmplJobOrderHasJobOrderConfig": "系统中存在TmplJobOrder的工单配置",
+      "setupTmplJobOrderHasPMCycleItem": "系统中存在TmplJobOrder的PM循环项",
+      "setupTmplJobOrderHasSiteConfig": "系统中存在TmplJobOrder的站点配置"
     },
     "labelBE": {
       "profileTableColumnSetup": {
