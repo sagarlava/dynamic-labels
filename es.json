@@ -17438,7 +17438,9 @@
       "toViewScheduledJobsForToday": "para ver los trabajos programados de hoy",
       "enterA": "Ingrese un",
       "another": "otro",
-      "current": "Actual"
+      "current": "Actual",
+      "wazeIsNotInstalled": "Waze no está instalado",
+      "googleMapsNotInstalled": "Google Maps no está instalado"
     },
     "currency": {
       "australianDollar": "AUD",
