@@ -29571,9 +29571,9 @@
           "setupVisible": false
         },
         "sec26": {
-          "original": "Specific conditions to be met",
-          "singular": "Specific conditions to be met",
-          "plural": "Specific conditions to be met",
+          "original": "Specify the conditions to be met",
+          "singular": "Specify the conditions to be met",
+          "plural": "Specify the conditions to be met",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -29581,6 +29581,20 @@
           "original": "Set Workflow actions",
           "singular": "Set Workflow actions",
           "plural": "Set Workflow actions",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "Workflow Details",
+          "plural": "Workflow Details",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "Give your workflow a name",
+          "plural": "Give your workflow a name",
           "setupEdit": true,
           "setupVisible": false
         }
@@ -29803,7 +29817,8 @@
         "notifyPeopleByEmailWhenWorkflowRuns": "Notify people by email when this workflow runs.",
         "sendAnInAppNotification": "Send an in-app notification",
         "showNotificationInsideFieldExToRightPeople": "Show a notification inside FieldEx to the right people.",
-        "addEmailOrInAppNotificationBelow": "Add an email or in-app notification below so the right people know when this workflow runs. You can add more than one."
+        "addEmailOrInAppNotificationBelow": "Add an email or in-app notification below so the right people know when this workflow runs. You can add more than one.",
+        "optionalNoteWorkflowExist":"Optional note why this workflow exists, for your future self and teammates."
       }
     },
     "templates": {
