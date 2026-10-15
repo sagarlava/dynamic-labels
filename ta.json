@@ -29571,7 +29571,7 @@
           "setupVisible": false
         },
         "sec26": {
-          "original": "Specific conditions to be met",
+          "original": "Specify the conditions to be met",
           "singular": "பூர்த்தி செய்ய வேண்டிய குறிப்பிட்ட நிபந்தனைகள்",
           "plural": "பூர்த்தி செய்ய வேண்டிய குறிப்பிட்ட நிபந்தனைகள்",
           "setupEdit": true,
@@ -29581,6 +29581,20 @@
           "original": "Set Workflow actions",
           "singular": "பணிப்பாய்வு செயல்களை அமை",
           "plural": "பணிப்பாய்வு செயல்களை அமை",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "பணிப்பாய்வு விவரங்கள்",
+          "plural": "பணிப்பாய்வு விவரங்கள்",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "உங்கள் பணிப்பாய்வுக்கு பெயர் கொடுங்கள்",
+          "plural": "உங்கள் பணிப்பாய்வுக்கு பெயர் கொடுங்கள்",
           "setupEdit": true,
           "setupVisible": false
         }
@@ -29803,7 +29817,8 @@
         "toTheRightTechnicianBySkillLocationWorkload": "திறன், இடம் அல்லது பணிச்சுமைப்படி சரியான தொழில்நுட்ப வல்லுநருக்கு ஒதுக்கி பின்னர் அறிவிக்கவும். (வேலை செய்யும்",
         "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "சரியான தொழில்நுட்ப வல்லுநருக்கு — திறன், இடம் அல்லது பணிச்சுமைப்படி — பின்னர் அறிவிக்கவும்.",
         "triggerSettingsConfiguredPreviousStep": "தூண்டுதல் அமைப்புகள் முந்தைய படியில் கட்டமைக்கப்படுகின்றன. சேமிப்பதற்கு முன் அங்கே மதிப்பாய்வு செய்யவும்.",
-        "whenShouldThe": "எப்போது"
+        "whenShouldThe": "எப்போது",
+        "optionalNoteWorkflowExist": "இந்த பணிப்பாய்வு ஏன் உள்ளது என்பதற்கான விருப்ப குறிப்பு, எதிர்கால உங்களுக்கும் குழு உறுப்பினர்களுக்கும்."
       }
     },
     "templates": {
