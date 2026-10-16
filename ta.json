@@ -26922,6 +26922,187 @@
           "beDone": "செய்ய வேண்டும்",
           "specific": "குறிப்பிட்ட"
         }
+      },
+      "assignmentRule": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Assignment Rules",
+          "singular": "ஒதுக்கீடு விதி",
+          "plural": "ஒதுக்கீடு விதிகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Details",
+            "singular": "விவரங்கள்",
+            "plural": "விவரங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Filter the technician",
+            "singular": "தொழில்நுட்ப வல்லுநரை வடிகட்டு",
+            "plural": "தொழில்நுட்ப வல்லுநரை வடிகட்டு",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Tie Breaker",
+            "singular": "சமநிலை முறிப்பான்",
+            "plural": "சமநிலை முறிப்பான்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Assignment",
+            "singular": "ஒதுக்கீடு",
+            "plural": "ஒதுக்கீடு",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "General Details",
+            "singular": "பொது விவரங்கள்",
+            "plural": "பொது விவரங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "பெயர்",
+            "plural": "பெயர்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "நிலை",
+            "plural": "நிலைகள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "விளக்கம்",
+            "plural": "விளக்கங்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "fallbackPerson": {
+            "original": "Fallback person",
+            "singular": "காப்பு நபர்",
+            "plural": "காப்பு நபர்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "supervisor": {
+            "original": "Supervisor",
+            "singular": "மேற்பார்வையாளர்",
+            "plural": "மேற்பார்வையாளர்கள்",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "filter": "வடிகட்டு",
+          "mandatory": "கட்டாயம்",
+          "optional": "விருப்பம்",
+          "rank": "தரவரிசை",
+          "assign": "ஒதுக்கு",
+          "everyTechnicianCheckedFailOne": "ஒவ்வொரு தொழில்நுட்ப வல்லுநரும் கீழே உள்ள நிபந்தனைகளுடன் சரிபார்க்கப்படுவார். ஒரு",
+          "conditionRuledOutCompletely": "நிபந்தனையில் தோல்வியுற்றால் அந்த தொழில்நுட்ப வல்லுநர் முழுமையாக விலக்கப்படுவார்.",
+          "conditionsNeverDisqualifyRanking": "நிபந்தனைகள் யாரையும் தகுதி நீக்கம் செய்யாது; அவை அடுத்த படியில் தரவரிசைக்கு மட்டுமே முக்கியம்.",
+          "techniciansPassFiltersScoredMeet": "வடிப்பான்களை கடந்த தொழில்நுட்ப வல்லுநர்கள்",
+          "conditionsAboveTieBreakerDecides": "மேலே உள்ள நிபந்தனைகளை எவ்வளவு நன்றாக பூர்த்தி செய்கிறார்கள் என்பதில் மதிப்பிடப்படுவார்கள். இரண்டு அல்லது அதற்கு மேற்பட்டவர்கள் சமநிலையில் இருந்தால், கீழே உள்ள சமநிலை முறிப்பு வரிசை யார் வேலையைப் பெறுகிறார் என்பதை தீர்மானிக்கும்.",
+          "fieldExTriesAssignmentGroupsOrder": "FieldEx உங்கள் ஒதுக்கீடு",
+          "inOrderYouSet": "நீங்கள் அமைத்த வரிசையில் முயற்சிக்கும் -",
+          "tryFirstFallbackFinalFallback": "முதலில் முயற்சி, பின்னர் காப்பு, பின்னர் இறுதி காப்பு.",
+          "statusTooltip": "ஒதுக்கீட்டின் போது செயலில் உள்ள விதிகள் மட்டுமே இயங்கும். நேரடி",
+          "mandatoryConditionsHardCutoff": "கட்டாய நிபந்தனைகள் கடுமையான வரம்பு — ஒன்றில் தோல்வியுற்ற தொழில்நுட்ப வல்லுநர் ஒருபோதும் ஒதுக்கப்படமாட்டார். விருப்ப நிபந்தனைகள் யாரையும் தகுதி நீக்கம் செய்யாது; யார் சிறப்பாக பொருந்துகிறார் என்பதை தரவரிசைப்படுத்த உதவும்",
+          "doesTechnicianHaveRequiredSkill": "தொழில்நுட்ப வல்லுநருக்கு தேவையான திறன் உள்ளதா?",
+          "turnOnWhenA": "ஒரு",
+          "needsSpecializedKnowHowExample": "தொழில்நுட்ப வல்லுநருக்கு இருக்கும் அல்லது இல்லாத சிறப்பு அறிவு தேவைப்படும்போது இதை இயக்கவும். எடுத்துக்காட்டாக, வெப்பமூட்டும் பழுதுக்கு வாயு சான்றிதழ் பெற்ற தொழில்நுட்ப வல்லுநர்.",
+          "doesThe": "இந்த",
+          "requireSkillsToBeMatched": "திறன்களை பொருத்த வேண்டுமா?",
+          "offSkillPlaysNoPartMandatoryConsidered": "அணை: திறன் இந்த விதியில் பங்கு வகிக்காது. விருப்பம்: அதிக பொருந்தும் திறன்கள் உள்ளவர்கள் உயர் தரவரிசை பெறுவார்கள், ஆனால் ஒன்று இல்லாததால் விலக்கப்படமாட்டார்கள். கட்டாயம்: கீழே உள்ள ஒவ்வொரு திறனும் உள்ளவர்கள் மட்டுமே பரிசீலிக்கப்படுவார்கள்.",
+          "selectSkillsNeededForThe": "இதற்கு தேவையான திறன்களைத் தேர்வு செய்யவும்",
+          "addEverySkillThisRequires": "இது தேவைப்படும் ஒவ்வொரு திறனையும் சேர்க்கவும்",
+          "requires": "",
+          "isTechnicianAvailableAtTime": "தொழில்நுட்ப வல்லுநர் அந்த நேரத்தில் கிடைக்குமா",
+          "threeChecksWorkTogether": "இந்த மூன்று சரிபார்ப்புகளும் இணைந்து செயல்பட்டு, ஏற்கனவே பிஸியாக உள்ளவர், ஷிப்ட் இல்லாதவர் அல்லது விடுப்பில் உள்ளவரை FieldEx ஒதுக்காமல் பார்த்துக்கொள்ளும்.",
+          "availability": "கிடைக்கும் தன்மை",
+          "technicianMustBeFreeAtThe": "தொழில்நுட்ப வல்லுநர்",
+          "sScheduledTimeChecksExistingSchedule": " திட்டமிட்ட நேரத்தில் காலியாக இருக்க வேண்டும். தொழில்நுட்ப வல்லுநரின் தற்போதைய",
+          "orderScheduleKeepMandatoryPreventDoubleBooking": "ஆர்டர் அட்டவணையில் முரண்பாடுகளைச் சரிபார்க்கும். தற்செயலான இரட்டை முன்பதிவைத் தடுக்க இதை கட்டாயமாக வைத்திருங்கள்.",
+          "shift": "ஷிப்ட்",
+          "createShiftsHere": "ஷிப்ட்களை இங்கே உருவாக்கவும்",
+          "technicianMustBeOnShiftAtThe": "தொழில்நுட்ப வல்லுநர்",
+          "sScheduledTimeOnlyAppliesIfShiftDefined": " திட்டமிட்ட நேரத்தில் ஷிப்ட்டில் இருக்க வேண்டும். ஷிப்ட் வரையறுக்கப்பட்டவர்களுக்கு மட்டுமே பொருந்தும். ஷிப்ட் இல்லாதவர்கள் எப்போதும் ஷிப்ட்டில் இருப்பதாகக் கருதப்படுவார்கள்; இந்த சரிபார்ப்புக்கு அர்த்தம் வேண்டுமானால் முதலில் ஷிப்ட்களை அமைக்கவும்.",
+          "leave": "விடுப்பு",
+          "techniciansOnLeaveSkippedTurnOff": "விடுப்பில் உள்ள தொழில்நுட்ப வல்லுநர்கள் தானாகத் தவிர்க்கப்படுவார்கள். விடுப்பில் உள்ளவர்களுக்கு வேண்டுமென்றே வேலை ஒதுக்க விரும்பினால் மட்டுமே இதை அணைக்கவும்.",
+          "findNearestTechnicianToThe": "அருகிலுள்ள தொழில்நுட்ப வல்லுநரைக் கண்டுபிடி",
+          "location": "இடம்",
+          "fieldExNeedsLocationForDistance": "கீழே உள்ள சமநிலை முறிப்பில் தூரத்தை மதிப்பிட FieldExக்கு ஒவ்வொரு தொழில்நுட்ப வல்லுநருக்கும் இடம் தேவை. இந்த அமைப்புகள் அந்த இடம் எவ்வாறு கணக்கிடப்படுகிறது மற்றும் எவ்வளவு நம்பப்படுகிறது என்பதைத் தீர்மானிக்கும்.",
+          "matchToThe": "பொருத்து",
+          "create": "உருவாக்கு",
+          "here": "இங்கே",
+          "matchesThe": "பொருந்துகிறது",
+          "apostropheS": "இன்",
+          "toTheTechnicians": "தொழில்நுட்ப வல்லுநரின்",
+          "mandatoryKeepsStrictlyInsideSwitchOptional": "கட்டாயம் தொழில்நுட்ப வல்லுநர்களை அவர்களின் சொந்த மண்டலத்திற்குள் கண்டிப்பாக வைக்கும். மேலெழுதும் மண்டலங்கள் அனுமதிக்கப்பட வேண்டும் ஆனால் மண்டலப் பொருத்தம் இன்னும் விரும்பப்பட வேண்டும் என்றால் விருப்பத்திற்கு மாற்றவும்.",
+          "useTechnicianLiveLocation": "தொழில்நுட்ப வல்லுநரின் நேரடி இடத்தைப் பயன்படுத்து",
+          "liveGpsFor": "நேரடி GPS",
+          "startingSoonForFurtherOut": "விரைவில் தொடங்கும். தொலைவில் உள்ள",
+          "furtherOutFieldExPredicts": "க்கு, FieldEx அதற்கு முன் திட்டமிடப்பட்ட வேலையிலிருந்து இடத்தைக் கணிக்கும்.",
+          "noteLiveGpsBestSignal": "குறிப்பு: நேரடி GPS கிடைக்கும்போது சிறந்த சமிக்ஞை, ஆனால் தொலைபேசி அறிவிக்காததால் மட்டும் ஒரு தொழில்நுட்ப வல்லுநரைத் தகுதி நீக்கம் செய்யக்கூடாது.",
+          "liveLocationWindow": "நேரடி இட சாளரம்",
+          "useLiveGpsIfJobStartsWithin": "வேலை இப்போதிலிருந்து இத்தனை மணி நேரத்திற்குள் தொடங்கினால் நேரடி GPS இடத்தைப் பயன்படுத்து. இந்த சாளரத்திற்கு வெளியே, FieldEx கணிக்கப்பட்ட இடத்திற்குத் திரும்பும் — பல மணி நேரம் கழித்துள்ள நேரடி நிலை அவர்கள் உண்மையில் எங்கே இருப்பார்கள் என்பதற்கு நம்பகமான மாற்றீடு அல்ல.",
+          "rankingOrder": "தரவரிசை வரிசை",
+          "ifMoreThanOneTechnicianTied": "ஒன்றுக்கு மேற்பட்ட தொழில்நுட்ப வல்லுநர்கள் அனைத்து வடிப்பான்களையும் சம தரவரிசையுடன் கடந்தால், FieldEx இந்த வரிசையில் ஒப்பிடும். முதல் காரணியில் சமநிலை அடுத்த காரணிக்குச் செல்லும்.",
+          "moveUp": "மேலே நகர்த்து",
+          "moveDown": "கீழே நகர்த்து",
+          "chooseUpToThreeToTryInOrder": "வரிசையில் முயற்சிக்க அதிகபட்சம் மூன்று",
+          "toTryInOrderRoundRobin": "தேர்வு செய்யவும். குழுவிற்குள், பொருந்தும் உறுப்பினர்கள் சுழற்சி முறையில் ஒதுக்கப்படுவார்கள்.",
+          "addAFallbackLevel": "காப்பு நிலையைச் சேர்",
+          "ifNoGroupMatchesAtAll": "எந்த",
+          "matchesAtAll": "ம் பொருந்தவில்லை என்றால்",
+          "theFinalSafetyNet": "இறுதி பாதுகாப்பு வலை, மேலே உள்ள ஒவ்வொரு",
+          "aboveHasNoEligibleTechnician": "க்கும் தகுதியான தொழில்நுட்ப வல்லுநர் இல்லாமல் இயல்புநிலை ஒதுக்கீடு இல்லாதபோது மட்டுமே பயன்படும். FieldEx யாரையாவது எச்சரிக்க வேண்டுமா அல்லது",
+          "unassignedForManualReview": "கைமுறை மதிப்பாய்வுக்கு ஒதுக்காமல் விட வேண்டுமா என்பதைத் தேர்வு செய்யவும்.",
+          "ifNo": "பொருத்தம் இல்லை என்றால்",
+          "matches": "பொருத்தங்கள்",
+          "off": "அணை",
+          "distance": "தூரம்",
+          "distanceDescription": "தொழில்நுட்ப வல்லுநரின் மதிப்பிடப்பட்ட இடத்திற்கும் வேலை தளத்திற்கும் இடையிலான தூரம். அருகிலுள்ளவர் முதலில் பயண நேரத்தையும் எரிபொருளையும் குறைக்கும்; பரந்த பகுதியில் கவரேஜை சமநிலைப்படுத்த விரும்பினால் தொலைவிலுள்ளவர் முதலுக்கு மாற்றவும்.",
+          "utilizationDescription": "தொழில்நுட்ப வல்லுநரின் தற்போதைய பணிச்சுமை. குறைவாக பிஸியானவர் முதலில் குழுவில் வேலைகளை சமமாகப் பரப்பும். அதிகமாக பிஸியானவர் முதலில் ஒருவரின் நாளை நிரப்பிவிட்டு அடுத்தவருக்குச் செல்லும்.",
+          "closestFirst": "அருகிலுள்ளவர் முதலில்",
+          "furthestFirst": "தொலைவிலுள்ளவர் முதலில்",
+          "leastBusyFirst": "குறைவாக பிஸியானவர் முதலில்",
+          "mostBusyFirst": "அதிகமாக பிஸியானவர் முதலில்",
+          "tryFirst": "முதலில் முயற்சி",
+          "fallback": "காப்பு",
+          "finalFallback": "இறுதி காப்பு",
+          "ifNoMatchTryNext": "பொருத்தம் இல்லை என்றால் அடுத்ததை முயற்சி",
+          "ifStillNoMatchTryNext": "இன்னும் பொருத்தம் இல்லை என்றால் அடுத்ததை முயற்சி",
+          "leaveUnassignedInBacklog": "பேக்லாக்கில் ஒதுக்காமல் விடு",
+          "notifyASupervisorLeaveUnassigned": "மேற்பார்வையாளருக்கு அறிவி, ஒதுக்காமல் விடு",
+          "assignToSpecificFallbackPerson": "குறிப்பிட்ட காப்பு நபருக்கு ஒதுக்கு",
+          "twoHours": "2 மணி நேரம்",
+          "fourHours": "4 மணி நேரம்",
+          "sixHours": "6 மணி நேரம்",
+          "eightHours": "8 மணி நேரம்"
+        },
+        "validationFE": {
+          "unableToLoadAssignmentRule": "ஒதுக்கீடு விதியை ஏற்ற முடியவில்லை"
+        }
       }
     },
     "checklist": {
@@ -29381,6 +29562,41 @@
           "plural": "இப்போது, ​​வேலைப்பாய்வு தூண்டப்படும்போது என்ன செயல்களை எடுக்க வேண்டும் என்பதை வரையறுக்கவும். மின்னஞ்சலில் அறிவிப்புகளை அனுப்பவும், பயன்பாட்டில் உள்ள செய்திகளைக் காட்டவும் அல்லது நீங்கள் அமைத்த நிபந்தனைகளின் அடிப்படையில் பிற செயல்களைச் செய்யவும் நீங்கள் தேர்வு செய்யலாம். பணிப்பாய்வு இயங்கும்போது சரியான செயல்கள் தானாகவே எடுக்கப்படுவதை இந்தப் படி உறுதி செய்கிறது.",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "பணிப்பாய்வு எப்போது தொடங்க வேண்டும்",
+          "plural": "பணிப்பாய்வு எப்போது தொடங்க வேண்டும்",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specify the conditions to be met",
+          "singular": "பூர்த்தி செய்ய வேண்டிய குறிப்பிட்ட நிபந்தனைகள்",
+          "plural": "பூர்த்தி செய்ய வேண்டிய குறிப்பிட்ட நிபந்தனைகள்",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "பணிப்பாய்வு செயல்களை அமை",
+          "plural": "பணிப்பாய்வு செயல்களை அமை",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "பணிப்பாய்வு விவரங்கள்",
+          "plural": "பணிப்பாய்வு விவரங்கள்",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "உங்கள் பணிப்பாய்வுக்கு பெயர் கொடுங்கள்",
+          "plural": "உங்கள் பணிப்பாய்வுக்கு பெயர் கொடுங்கள்",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -29460,6 +29676,34 @@
           "singular": "பணிப்பாய்வு விவரங்கள்",
           "plural": "பணிப்பாய்வு விவரங்கள்",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "தொடக்கம்",
+          "plural": "தொடக்கம்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "நிபந்தனைகள்",
+          "plural": "நிபந்தனைகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "செயல்கள்",
+          "plural": "செயல்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "விவரங்கள்",
+          "plural": "விவரங்கள்",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -29543,7 +29787,38 @@
         "thisYear": "இந்த ஆண்டு",
         "addDays": "நாட்களைச் சேர்க்கவும்",
         "exampleCaps": "உதாரணம்",
-        "exampleShort": "எ.கா"
+        "exampleShort": "எ.கா",
+        "action": "செயல்கள்",
+        "addEmailOrInAppNotificationBelow": "இந்த பணிப்பாய்வு இயங்கும்போது சரியான நபர்களுக்குத் தெரிய இந்தக் கீழே மின்னஞ்சல் அல்லது ஆப் உள்ள அறிவிப்பைச் சேர்க்கவும். ஒன்றுக்கு மேற்பட்டவற்றைச் சேர்க்கலாம்.",
+        "automaticallyAssignMatching": "பொருந்தும்வற்றைத் தானாக ஒதுக்கு",
+        "automaticallyAssignMatchingToTheRightTechnician": "சரியான தொழில்நுட்ப வல்லுநருக்கு",
+        "chooseHowThis": "இந்த",
+        "chooseSingleMomentToTriggerWorkflow": "இந்த",
+        "conditionsConfiguredPreviousStepReview": "நிபந்தனைகள் முந்தைய படியில் கட்டமைக்கப்படுகின்றன. சேமிப்பதற்கு முன் அங்கே மதிப்பாய்வு செய்யவும்.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "நிபந்தனைகள் பொருந்தும்போது மின்னஞ்சல் அல்லது ஆப் உள்ள எச்சரிக்கையை மட்டும் அனுப்பும். (அனைத்து தொகுதிகளிலும் வேலை செய்யும்)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "நிபந்தனைகள் பொருந்தும்போது மின்னஞ்சல் அல்லது ஆப் உள்ள எச்சரிக்கையை மட்டும் அனுப்பும்.",
+        "keepAssigningJobsYourselfThisWorkflow": "வேலைகளை நீங்களே தொடர்ந்து ஒதுக்குங்கள். இந்த",
+        "moduleOnly": "தொகுதி மட்டும்",
+        "notifyPeopleByEmailWhenWorkflowRuns": "இந்த பணிப்பாய்வு இயங்கும்போது மின்னஞ்சல் வழியாக நபர்களுக்கு அறிவிக்கவும்.",
+        "of": "இன்",
+        "only": "மட்டும்",
+        "remindersEscalationsStatusAlerts": "நினைவூட்டல்கள், உயர்த்தல்கள், நிலை எச்சரிக்கைகள்",
+        "routingNewJobsWithoutManualDispatch": "கைமுறை அனுப்புதல் இல்லாமல் புதிய வேலைகளை வழிசெலுத்துதல்",
+        "rulesUsed": "பயன்படுத்தப்பட்ட விதிகள்",
+        "selectAssignmentRuleFromAnotherWorkflow": "மற்றொரு பணிப்பாய்விலிருந்து ஒதுக்கீடு விதியைத் தேர்வு செய்யவும்",
+        "sendAnEmail": "மின்னஞ்சல் அனுப்பு",
+        "sendAnInAppNotification": "ஆப் உள்ள அறிவிப்பை அனுப்பு",
+        "set": "அமை",
+        "setupTheMatchingSkillsAvailabilityLocation": "ஒதுக்கீட்டிற்கு பொருந்தும் திறன்கள், கிடைக்கும் தன்மை மற்றும் இடத் தேவைகளை அமைக்கவும்",
+        "shouldBehave": "எப்படி நடந்துகொள்ள வேண்டும்",
+        "showNotificationInsideFieldExToRightPeople": "சரியான நபர்களுக்கு FieldEx-க்குள் அறிவிப்பைக் காட்டவும்.",
+        "start": "தொடக்கம்",
+        "to": "பெறுநர்",
+        "toTheRightTechnicianBySkillLocationWorkload": "திறன், இடம் அல்லது பணிச்சுமைப்படி சரியான தொழில்நுட்ப வல்லுநருக்கு ஒதுக்கி பின்னர் அறிவிக்கவும். (வேலை செய்யும்",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "சரியான தொழில்நுட்ப வல்லுநருக்கு — திறன், இடம் அல்லது பணிச்சுமைப்படி — பின்னர் அறிவிக்கவும்.",
+        "triggerSettingsConfiguredPreviousStep": "தூண்டுதல் அமைப்புகள் முந்தைய படியில் கட்டமைக்கப்படுகின்றன. சேமிப்பதற்கு முன் அங்கே மதிப்பாய்வு செய்யவும்.",
+        "whenShouldThe": "எப்போது",
+        "optionalNoteWorkflowExist": "இந்த பணிப்பாய்வு ஏன் உள்ளது என்பதற்கான விருப்ப குறிப்பு, எதிர்கால உங்களுக்கும் குழு உறுப்பினர்களுக்கும்."
       }
     },
     "templates": {

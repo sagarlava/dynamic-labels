@@ -10186,7 +10186,6 @@
       "noContactFoundForTheJobOrdersCustomer": "Aucun contact trouvé pour le client de la commande",
       "quickBooksCustomerRequired": "Un client QuickBooks valide est requis pour générer une facture. Veuillez vous assurer que les informations client sont complètes et réessayer.",
       "quickBooksProductsRequired": "Au moins un produit est requis pour générer une facture. Veuillez ajouter des produits à la commande et réessayer."
-      
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Statut introuvable",
@@ -26923,6 +26922,187 @@
           "beDone": "être fait pour",
           "specific": "spécifique"
         }
+      },
+      "assignmentRule": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Assignment Rules",
+          "singular": "Règle d’affectation",
+          "plural": "Règles d’affectation",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Details",
+            "singular": "Détails",
+            "plural": "Détails",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Filter the technician",
+            "singular": "Filtrer le technicien",
+            "plural": "Filtrer le technicien",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Tie Breaker",
+            "singular": "Départage",
+            "plural": "Départage",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Assignment",
+            "singular": "Affectation",
+            "plural": "Affectation",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "General Details",
+            "singular": "Détails généraux",
+            "plural": "Détails généraux",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nom",
+            "plural": "Noms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Statut",
+            "plural": "Statuts",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "Descriptions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "fallbackPerson": {
+            "original": "Fallback person",
+            "singular": "Personne de secours",
+            "plural": "Personnes de secours",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "supervisor": {
+            "original": "Supervisor",
+            "singular": "Superviseur",
+            "plural": "Superviseurs",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "filter": "Filtrer",
+          "mandatory": "Obligatoire",
+          "optional": "Facultatif",
+          "rank": "Classer",
+          "assign": "Assigner",
+          "everyTechnicianCheckedFailOne": "Chaque technicien est vérifié par rapport aux conditions ci-dessous. S’il échoue à une",
+          "conditionRuledOutCompletely": "condition, ce technicien est entièrement écarté.",
+          "conditionsNeverDisqualifyRanking": "conditions ne disqualifient jamais personne ; elles ne comptent que pour le classement à l’étape suivante.",
+          "techniciansPassFiltersScoredMeet": "Les techniciens qui passent les filtres sont notés selon leur conformité aux",
+          "conditionsAboveTieBreakerDecides": "conditions ci-dessus. Si deux techniciens ou plus sont à égalité, l’ordre de départage ci-dessous décide qui obtient le travail.",
+          "fieldExTriesAssignmentGroupsOrder": "FieldEx essaie vos",
+          "inOrderYouSet": "dans l’ordre que vous avez défini -",
+          "tryFirstFallbackFinalFallback": "Essayer d’abord, puis Secours, puis Secours final.",
+          "statusTooltip": "Seules les règles actives s’exécutent pendant l’affectation. Passez à Inactif pour continuer à créer ou tester cette règle sans affecter les",
+          "mandatoryConditionsHardCutoff": "Les conditions obligatoires sont un seuil strict — un technicien qui en échoue une n’est jamais assigné. Les facultatives ne disqualifient personne ; elles aident seulement à classer la meilleure adéquation",
+          "doesTechnicianHaveRequiredSkill": "Le technicien a-t-il la compétence requise ?",
+          "turnOnWhenA": "Activez ceci lorsqu’un",
+          "needsSpecializedKnowHowExample": "nécessite un savoir-faire spécialisé qu’un technicien a ou n’a pas. Par exemple, un technicien certifié gaz pour une réparation de chauffage.",
+          "doesThe": "Le",
+          "requireSkillsToBeMatched": "exige-t-il que les compétences correspondent ?",
+          "offSkillPlaysNoPartMandatoryConsidered": "Désactivé : la compétence ne joue aucun rôle dans cette règle. Facultatif : les techniciens avec plus de compétences correspondantes sont mieux classés, mais en manquer une ne les écarte pas. Obligatoire : seuls les techniciens ayant toutes les compétences ci-dessous sont considérés.",
+          "selectSkillsNeededForThe": "Sélectionnez les compétences nécessaires pour le",
+          "addEverySkillThisRequires": "Ajoutez chaque compétence que ce",
+          "requires": "exige",
+          "isTechnicianAvailableAtTime": "Le technicien est-il disponible au moment",
+          "threeChecksWorkTogether": "Ces trois contrôles agissent ensemble pour que FieldEx n’assigne pas quelqu’un déjà occupé, hors vacation ou en congé.",
+          "availability": "Disponibilité",
+          "technicianMustBeFreeAtThe": "Le technicien doit être libre à l’heure planifiée du",
+          "sScheduledTimeChecksExistingSchedule": ". Vérifie le planning d’",
+          "orderScheduleKeepMandatoryPreventDoubleBooking": "ordres existant du technicien pour détecter les conflits. Gardez ceci Obligatoire pour éviter les doubles réservations accidentelles.",
+          "shift": "Vacation",
+          "createShiftsHere": "Créer des vacations ici",
+          "technicianMustBeOnShiftAtThe": "Le technicien doit être en vacation à l’heure planifiée du",
+          "sScheduledTimeOnlyAppliesIfShiftDefined": ". Ne s’applique que si le technicien a une vacation définie. Les techniciens sans vacation sont traités comme toujours en vacation ; définissez d’abord les vacations pour que ce contrôle ait un sens.",
+          "leave": "Congé",
+          "techniciansOnLeaveSkippedTurnOff": "Les techniciens en congé sont ignorés automatiquement. Désactivez ceci uniquement si vous voulez intentionnellement assigner du travail à des techniciens en congé.",
+          "findNearestTechnicianToThe": "Trouver le technicien le plus proche de la",
+          "location": "localisation",
+          "fieldExNeedsLocationForDistance": "FieldEx a besoin d’une localisation par technicien pour estimer la distance dans le départage ci-dessous. Ces paramètres décident comment cette localisation est obtenue et à quel point on s’y fie.",
+          "matchToThe": "Faire correspondre à la",
+          "create": "Créer",
+          "here": "ici",
+          "matchesThe": "Correspond à la",
+          "apostropheS": " du",
+          "toTheTechnicians": " à celle du technicien",
+          "mandatoryKeepsStrictlyInsideSwitchOptional": "Obligatoire maintient les techniciens strictement dans leur propre zone. Passez à Facultatif si les zones qui se chevauchent sont autorisées mais qu’une correspondance de zone reste préférée.",
+          "useTechnicianLiveLocation": "Utiliser la localisation en direct du technicien",
+          "liveGpsFor": "GPS en direct pour",
+          "startingSoonForFurtherOut": "qui commencent bientôt. Pour les",
+          "furtherOutFieldExPredicts": "plus éloignés, FieldEx prédit la localisation à partir du travail planifié juste avant.",
+          "noteLiveGpsBestSignal": "Note : le GPS en direct est le meilleur signal lorsqu’il est disponible, mais ne doit pas disqualifier un technicien uniquement parce que son téléphone n’a pas signalé.",
+          "liveLocationWindow": "Fenêtre de localisation en direct",
+          "useLiveGpsIfJobStartsWithin": "Utiliser le GPS en direct du technicien si le travail commence dans ce nombre d’heures. Hors de cette fenêtre, FieldEx repasse à la localisation prévue — la position en direct plusieurs heures plus tard n’est pas un indicateur fiable de là où il sera réellement.",
+          "rankingOrder": "Ordre de classement",
+          "ifMoreThanOneTechnicianTied": "Si plus d’un technicien passe tous les filtres avec un rang égal, FieldEx les compare selon cet ordre. Une égalité sur le premier facteur passe au suivant ci-dessous.",
+          "moveUp": "Monter",
+          "moveDown": "Descendre",
+          "chooseUpToThreeToTryInOrder": "Choisissez jusqu’à trois",
+          "toTryInOrderRoundRobin": "à essayer dans l’ordre. Au sein d’un groupe, les membres correspondants sont assignés en round robin.",
+          "addAFallbackLevel": "Ajouter un niveau de secours",
+          "ifNoGroupMatchesAtAll": "Si aucun",
+          "matchesAtAll": "ne correspond du tout",
+          "theFinalSafetyNet": "Le filet de sécurité final, utilisé seulement si chaque",
+          "aboveHasNoEligibleTechnician": "ci-dessus n’a aucun technicien éligible et qu’aucun assigné par défaut n’est défini. Choisissez si FieldEx doit alerter quelqu’un ou laisser le",
+          "unassignedForManualReview": "non assigné pour revue manuelle.",
+          "ifNo": "Si aucun",
+          "matches": "ne correspond",
+          "off": "Désactivé",
+          "distance": "Distance",
+          "distanceDescription": "Distance entre la localisation estimée du technicien et le site du travail. Le plus proche d’abord réduit le temps de trajet et le carburant ; passez au plus loin d’abord si vous équilibrez volontairement la couverture sur une large zone.",
+          "utilizationDescription": "Charge de travail actuelle du technicien. Le moins occupé d’abord répartit les travaux dans l’équipe. Le plus occupé d’abord remplit la journée d’un technicien avant de passer au suivant.",
+          "closestFirst": "Le plus proche d’abord",
+          "furthestFirst": "Le plus loin d’abord",
+          "leastBusyFirst": "Le moins occupé d’abord",
+          "mostBusyFirst": "Le plus occupé d’abord",
+          "tryFirst": "Essayer d’abord",
+          "fallback": "Secours",
+          "finalFallback": "Secours final",
+          "ifNoMatchTryNext": "si aucune correspondance, essayer le suivant",
+          "ifStillNoMatchTryNext": "si toujours aucune correspondance, essayer le suivant",
+          "leaveUnassignedInBacklog": "Laisser non assigné dans le backlog",
+          "notifyASupervisorLeaveUnassigned": "Notifier un superviseur, laisser non assigné",
+          "assignToSpecificFallbackPerson": "Assigner à une personne de secours spécifique",
+          "twoHours": "2 heures",
+          "fourHours": "4 heures",
+          "sixHours": "6 heures",
+          "eightHours": "8 heures"
+        },
+        "validationFE": {
+          "unableToLoadAssignmentRule": "Impossible de charger la règle d’affectation"
+        }
       }
     },
     "checklist": {
@@ -29382,6 +29562,41 @@
           "plural": "Maintenant, définissez les actions que le flux de travail doit entreprendre lorsqu'il est déclenché. Vous pouvez choisir d'envoyer des notifications par e-mail, d'afficher des messages dans l'application ou d'effectuer d'autres actions en fonction des conditions que vous avez définies. Cette étape garantit que les bonnes actions sont prises automatiquement lors de l'exécution du flux de travail.",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec25": {
+          "original": "When should the workflow start",
+          "singular": "Quand le flux de travail doit démarrer",
+          "plural": "Quand le flux de travail doit démarrer",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Specify the conditions to be met",
+          "singular": "Conditions spécifiques à remplir",
+          "plural": "Conditions spécifiques à remplir",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "Set Workflow actions",
+          "singular": "Définir les actions du flux de travail",
+          "plural": "Définir les actions du flux de travail",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "Détails du flux de travail",
+          "plural": "Détails du flux de travail",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "Donnez un nom à votre flux de travail",
+          "plural": "Donnez un nom à votre flux de travail",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -29461,6 +29676,34 @@
           "singular": "Détails du flux de travail",
           "plural": "Détails du flux de travail",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "start": {
+          "original": "Start",
+          "singular": "Démarrage",
+          "plural": "Démarrage",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "condition": {
+          "original": "Conditions",
+          "singular": "Conditions",
+          "plural": "Conditions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Actions",
+          "singular": "Actions",
+          "plural": "Actions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "detail": {
+          "original": "Details",
+          "singular": "Détails",
+          "plural": "Détails",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -29544,7 +29787,38 @@
         "thisYear": "Cette année",
         "addDays": "Ajouter des jours",
         "exampleCaps": "Exemple",
-        "exampleShort": "Par exemple"
+        "exampleShort": "Par exemple",
+        "action": "actions",
+        "addEmailOrInAppNotificationBelow": "Ajoutez ci-dessous un e-mail ou une notification in-app pour que les bonnes personnes sachent quand ce flux s’exécute. Vous pouvez en ajouter plusieurs.",
+        "automaticallyAssignMatching": "Assigner automatiquement les",
+        "automaticallyAssignMatchingToTheRightTechnician": "au bon technicien",
+        "chooseHowThis": "Choisissez comment ce",
+        "chooseSingleMomentToTriggerWorkflow": "Choisissez le moment unique qui doit déclencher ce",
+        "conditionsConfiguredPreviousStepReview": "Les conditions sont configurées à l’étape précédente. Vérifiez-les là avant d’enregistrer.",
+        "justSendsEmailOrInAppAlertWhenConditionsMatch": "envoie seulement un e-mail ou une alerte in-app lorsque les conditions correspondent. (Fonctionne sur tous les modules)",
+        "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "envoie seulement un e-mail ou une alerte in-app lorsque les conditions correspondent.",
+        "keepAssigningJobsYourselfThisWorkflow": "Continuez à assigner les travaux vous-même. Ce",
+        "moduleOnly": "module uniquement",
+        "notifyPeopleByEmailWhenWorkflowRuns": "Notifier les personnes par e-mail lorsque ce flux s’exécute.",
+        "of": "de",
+        "only": "uniquement",
+        "remindersEscalationsStatusAlerts": "rappels, escalades, alertes de statut",
+        "routingNewJobsWithoutManualDispatch": "acheminer les nouveaux travaux sans dispatch manuel",
+        "rulesUsed": "règles utilisées",
+        "selectAssignmentRuleFromAnotherWorkflow": "Sélectionner une règle d’affectation d’un autre flux de travail",
+        "sendAnEmail": "Envoyer un e-mail",
+        "sendAnInAppNotification": "Envoyer une notification in-app",
+        "set": "Définir",
+        "setupTheMatchingSkillsAvailabilityLocation": "configurez les compétences, la disponibilité et les exigences de localisation correspondantes pour l’affectation",
+        "shouldBehave": "doit se comporter",
+        "showNotificationInsideFieldExToRightPeople": "Afficher une notification dans FieldEx aux bonnes personnes.",
+        "start": "démarrage",
+        "to": "À",
+        "toTheRightTechnicianBySkillLocationWorkload": "au bon technicien selon la compétence, la localisation ou la charge, puis les notifier. (Fonctionne sur",
+        "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "au bon technicien — selon la compétence, la localisation ou la charge — puis les notifier.",
+        "triggerSettingsConfiguredPreviousStep": "Les paramètres de déclenchement sont configurés à l’étape précédente. Vérifiez-les là avant d’enregistrer.",
+        "whenShouldThe": "Quand le",
+        "optionalNoteWorkflowExist": "Note facultative expliquant pourquoi ce flux existe, pour vous plus tard et vos collègues."
       }
     },
     "templates": {
