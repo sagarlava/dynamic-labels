@@ -15980,6 +15980,34 @@
         "plural": "Descargar informe de errores",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Permitir",
+        "plural": "Permite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Desactivado",
+        "plural": "Desactivado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "Activado",
+        "plural": "Activado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Llévame allí",
+        "plural": "Llévame allí",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -30584,6 +30612,230 @@
             "user_leave_reject": "Tu Licencia ha Sido Rechazada"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "Dominio",
+          "plural": "Dominios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "Marca",
+          "plural": "Marcas",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "Módulo",
+          "plural": "Módulos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "Configuración",
+          "plural": "Configuraciones",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuración",
+          "plural": "Configuraciones",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portales",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Visibilidad del módulo",
+          "plural": "Visibilidades del módulo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Identidad del portal",
+          "plural": "Identidad del portal",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdominio",
+          "plural": "Subdominios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Precio",
+          "plural": "Precios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Precios",
+          "plural": "Precios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logotipo",
+          "plural": "Logotipos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Color del encabezado",
+          "plural": "Colores del encabezado",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Color de fuente del encabezado",
+          "plural": "Colores de fuente del encabezado",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Color de la barra lateral",
+          "plural": "Colores de la barra lateral",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Color de fuente de la barra lateral",
+          "plural": "Colores de fuente de la barra lateral",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Color del botón",
+          "plural": "Colores del botón",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Color de fuente del botón",
+          "plural": "Colores de fuente del botón",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Familia tipográfica",
+          "plural": "Familias tipográficas",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "Qué es",
+        "enableAndManagePortals": "Habilite y administre portales de autoservicio para sus",
+        "descThe": "El",
+        "descPortalGivesEach": "Portal ofrece a cada uno de sus",
+        "descDedicatedPage": "una página web dedicada y con marca propia donde pueden seguir de forma independiente",
+        "descBrowseRegistered": ", y consultar sus",
+        "descUniqueUrl": " registrados — sin llamar a su equipo. Cada portal vive en una URL única (p. ej. drewbar.fieldex.com), con marca completa por",
+        "descYouControl": ", y usted controla exactamente lo que pueden ver",
+        "allowYour": "Permita que sus",
+        "throughSharedPortal": "a través de un portal compartido",
+        "editModeSaveBeforeNavigating": "Está en modo de edición. Guarde antes de navegar a otras pestañas",
+        "controlWhichSection": "Controle qué secciones",
+        "canAccessInPortal": "pueden acceder en el portal",
+        "canViewCreateTrackAll": "pueden ver, crear y seguir todos los",
+        "moduleAlwaysEnabled": ". Este módulo siempre está habilitado y no se puede desactivar",
+        "alwaysOn": "Siempre activado",
+        "showThePreventive": "Mostrar el preventivo",
+        "scheduleAndPmHistory": "programación e historial de PM en el portal",
+        "on": "Activado",
+        "off": "Desactivado",
+        "toBrowseRegistered": "para consultar sus",
+        "listAndView": "listar y ver",
+        "details": "detalles",
+        "isAvailable": "está disponible",
+        "isNotAvailable": "no está disponible",
+        "subdomainWhereAll": "Subdominio donde todos sus",
+        "accessThePortal": "acceden al portal",
+        "sharedUrlWhereAllYour": "La URL compartida donde todos sus",
+        "logIn": "inician sesión",
+        "each": "Cada",
+        "customerOwnData": "ve solo sus propios datos",
+        "subdomainFormatHint": "Solo letras minúsculas, números y guiones",
+        "andRescheduling": "y reprogramación",
+        "shown": "mostrados",
+        "which": "qué",
+        "of": "de",
+        "areVisibleTo": "son visibles para",
+        "inThePortal": "en el portal",
+        "thatAreAvailableFor": "que están disponibles para",
+        "to": "a",
+        "areAvailableForCreation": "están disponibles para creación",
+        "ableToSelectFromList": "podrán seleccionar de la lista",
+        "toReschedule": "para reprogramar",
+        "canRequestNewDate": "pueden solicitar una nueva fecha para",
+        "directlyFromPortal": "abiertos o próximos directamente desde el portal",
+        "list": "lista",
+        "displayPartsUsedIn": "Mostrar las piezas usadas en",
+        "onThe": "completados en la",
+        "detailView": "vista de detalle",
+        "unitCostRequires": "costo unitario y precio total de cada pieza",
+        "requires": "Requiere",
+        "toBeOn": "que esté activado.",
+        "statusLabelsShownFor": "etiquetas de estado mostradas para",
+        "theLabelsOfStatusShownIn": "las etiquetas del estado mostradas en el",
+        "brandingDesc": "Logotipo, colores y fuente mostrados en el portal orientado al cliente",
+        "logoDesc": "Aparece en el encabezado del portal. Use SVG o PNG con fondo transparente. Máx. 1 MB.",
+        "headerColourDesc": "Barra de navegación del tema principal",
+        "headerFontColourDesc": "Texto en el encabezado del portal",
+        "sidebarColourDesc": "Color de la barra del menú lateral",
+        "sidebarFontColourDesc": "Color de fuente del menú lateral",
+        "buttonColourDesc": "Color de fondo del botón",
+        "buttonFontColourDesc": "Color del texto del botón. CONSEJO: use alto contraste frente al fondo del botón",
+        "fontFamilyDesc": "Fuente que se muestra en el portal del cliente",
+        "selectTheThemeColours": "Seleccione los colores del tema",
+        "selectAFont": "Seleccione una fuente"
+      },
+      "validationFE": {
+        "failedToSave": "no se pudo guardar",
+        "pleaseTryAgain": "Inténtelo de nuevo",
+        "hasBeenSaved": "se ha guardado correctamente",
+        "recommendedImg": "Recomendado ( 40px X 40 px) O ( 160px X 40 px)",
+        "activationFailed": "Error de activación"
       }
     }
   },

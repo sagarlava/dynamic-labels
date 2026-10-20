@@ -15979,6 +15979,34 @@
         "plural": "Muat turun Laporan Ralat",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Benarkan",
+        "plural": "Benarkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Tutup",
+        "plural": "Tutup",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "Buka",
+        "plural": "Buka",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Bawa saya ke sana",
+        "plural": "Bawa saya ke sana",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -30583,6 +30611,230 @@
             "user_leave_reject": "Cuti anda telah Ditolak"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "Domain",
+          "plural": "Domain",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "Penjenamaan",
+          "plural": "Penjenamaan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "Modul",
+          "plural": "Modul",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "Konfigurasi",
+          "plural": "Konfigurasi",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Konfigurasi",
+          "plural": "Konfigurasi",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portal",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Keterlihatan Modul",
+          "plural": "Keterlihatan Modul",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Identiti Portal",
+          "plural": "Identiti Portal",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdomain",
+          "plural": "Subdomain",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Harga",
+          "plural": "Harga",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Penetapan Harga",
+          "plural": "Penetapan Harga",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "Logo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Warna Pengepala",
+          "plural": "Warna Pengepala",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Warna Fon Pengepala",
+          "plural": "Warna Fon Pengepala",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Warna Bar Sisi",
+          "plural": "Warna Bar Sisi",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Warna Fon Bar Sisi",
+          "plural": "Warna Fon Bar Sisi",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Warna Butang",
+          "plural": "Warna Butang",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Warna Fon Butang",
+          "plural": "Warna Fon Butang",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Keluarga Fon",
+          "plural": "Keluarga Fon",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "Apa itu",
+        "enableAndManagePortals": "Dayakan dan urus portal layan diri untuk",
+        "descThe": "",
+        "descPortalGivesEach": "Portal memberikan setiap",
+        "descDedicatedPage": "anda halaman web berjenama yang khusus di mana mereka boleh menjejak secara bebas",
+        "descBrowseRegistered": ", dan menyemak imbas",
+        "descUniqueUrl": " berdaftar mereka — tanpa menghubungi pasukan anda. Setiap portal berada pada URL unik (cth. drewbar.fieldex.com), berjenama sepenuhnya mengikut",
+        "descYouControl": ", dan anda mengawal tepat apa yang mereka boleh lihat",
+        "allowYour": "Benarkan",
+        "throughSharedPortal": "anda melalui portal kongsi",
+        "editModeSaveBeforeNavigating": "Anda dalam mod edit. Sila simpan sebelum menavigasi ke tab lain",
+        "controlWhichSection": "Kawal bahagian mana",
+        "canAccessInPortal": "boleh akses dalam portal",
+        "canViewCreateTrackAll": "boleh melihat, mencipta dan menjejak semua",
+        "moduleAlwaysEnabled": ". Modul ini sentiasa didayakan dan tidak boleh dimatikan",
+        "alwaysOn": "Sentiasa Aktif",
+        "showThePreventive": "Tunjukkan",
+        "scheduleAndPmHistory": "jadual dan sejarah PM dalam portal",
+        "on": "Buka",
+        "off": "Tutup",
+        "toBrowseRegistered": "untuk menyemak imbas",
+        "listAndView": "senarai dan lihat",
+        "details": "butiran",
+        "isAvailable": "tersedia",
+        "isNotAvailable": "tidak tersedia",
+        "subdomainWhereAll": "Subdomain di mana semua",
+        "accessThePortal": "mengakses portal",
+        "sharedUrlWhereAllYour": "URL kongsi di mana semua",
+        "logIn": "log masuk",
+        "each": "Setiap",
+        "customerOwnData": "hanya melihat data sendiri",
+        "subdomainFormatHint": "Huruf kecil, nombor dan tanda sempang sahaja",
+        "andRescheduling": "dan penjadualan semula",
+        "shown": "ditunjukkan",
+        "which": "yang mana",
+        "of": "bagi",
+        "areVisibleTo": "kelihatan kepada",
+        "inThePortal": "dalam portal",
+        "thatAreAvailableFor": "yang tersedia untuk",
+        "to": "kepada",
+        "areAvailableForCreation": "tersedia untuk penciptaan",
+        "ableToSelectFromList": "akan dapat memilih daripada senarai",
+        "toReschedule": "untuk menjadual semula",
+        "canRequestNewDate": "boleh meminta tarikh baharu untuk",
+        "directlyFromPortal": "terbuka atau akan datang terus dari portal",
+        "list": "senarai",
+        "displayPartsUsedIn": "Paparkan bahagian digunakan dalam",
+        "onThe": "selesai pada",
+        "detailView": "paparan butiran",
+        "unitCostRequires": "kos unit dan harga keseluruhan bagi setiap bahagian",
+        "requires": "Memerlukan",
+        "toBeOn": "dihidupkan.",
+        "statusLabelsShownFor": "label status ditunjukkan untuk",
+        "theLabelsOfStatusShownIn": "label status yang ditunjukkan dalam",
+        "brandingDesc": "Logo, warna dan fon yang ditunjukkan dalam portal menghadap pelanggan",
+        "logoDesc": "Muncul dalam pengepala portal. Guna SVG atau PNG dengan latar belakang lutsinar. Maks 1 MB.",
+        "headerColourDesc": "Bar navigasi tema utama",
+        "headerFontColourDesc": "Teks dalam pengepala portal",
+        "sidebarColourDesc": "Warna bar menu sisi",
+        "sidebarFontColourDesc": "Warna fon menu sisi",
+        "buttonColourDesc": "Warna latar butang",
+        "buttonFontColourDesc": "Warna teks butang. PETUA: guna kontras tinggi berbanding latar butang",
+        "fontFamilyDesc": "Fon yang dipaparkan dalam portal pelanggan",
+        "selectTheThemeColours": "Pilih warna tema",
+        "selectAFont": "Pilih fon"
+      },
+      "validationFE": {
+        "failedToSave": "gagal disimpan",
+        "pleaseTryAgain": "Sila cuba lagi",
+        "hasBeenSaved": "telah berjaya disimpan",
+        "recommendedImg": "Disyorkan ( 40px X 40 px) ATAU ( 160px X 40 px)",
+        "activationFailed": "Pengaktifan gagal"
       }
     }
   },

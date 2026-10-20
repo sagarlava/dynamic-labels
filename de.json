@@ -15979,6 +15979,34 @@
         "plural": "Fehlerbericht herunterladen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Erlauben",
+        "plural": "Erlaubt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Aus",
+        "plural": "Aus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "An",
+        "plural": "An",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Bring mich dorthin",
+        "plural": "Bring mich dorthin",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -30422,7 +30450,7 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Der Auftragstyp, der mit der Vorlage verknüpft ist, ist im Portal nicht konfiguriert. Bitte fügen Sie ihn zu den Auftragstypen hinzu.",
       "setupJobOrderStatusNotFound": "Auftragsstatus nicht gefunden",
       "SetupCustomerPortalConfigNotFound": "Kundenportal-Konfiguration für diesen Mandanten nicht gefunden",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Die Subdomain wird bereits von einem anderen Mandanten verwendet",      
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Die Subdomain wird bereits von einem anderen Mandanten verwendet",
       "setupTmplJobOrderHasCustomerPortalConfiguration": "Kundenportal-Konfiguration ist im System für den TmplJobOrder vorhanden",
       "setupTmplJobOrderHasJobOrderConfig": "Auftragskonfiguration ist im System für den TmplJobOrder vorhanden",
       "setupTmplJobOrderHasPMCycleItem": "PM-Zyklus-Element ist im System für den TmplJobOrder vorhanden",
@@ -30583,6 +30611,230 @@
             "user_leave_reject": "Ihr Urlaub wurde abgelehnt"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portale",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "Domäne",
+          "plural": "Domänen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "Branding",
+          "plural": "Brandings",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "Modul",
+          "plural": "Module",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "Konfiguration",
+          "plural": "Konfigurationen",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Konfiguration",
+          "plural": "Konfigurationen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portale",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Modulsichtbarkeit",
+          "plural": "Modulsichtbarkeiten",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Portal-Identität",
+          "plural": "Portal-Identität",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdomäne",
+          "plural": "Subdomänen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Preis",
+          "plural": "Preise",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Preisgestaltung",
+          "plural": "Preisgestaltungen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "Logos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Kopffarbe",
+          "plural": "Kopffarben",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Kopf-Schriftfarbe",
+          "plural": "Kopf-Schriftfarben",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Seitenleistenfarbe",
+          "plural": "Seitenleistenfarben",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Seitenleisten-Schriftfarbe",
+          "plural": "Seitenleisten-Schriftfarben",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Schaltflächenfarbe",
+          "plural": "Schaltflächenfarben",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Schaltflächen-Schriftfarbe",
+          "plural": "Schaltflächen-Schriftfarben",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Schriftfamilie",
+          "plural": "Schriftfamilien",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "Was ist",
+        "enableAndManagePortals": "Aktivieren und verwalten Sie Self-Service-Portale für Ihre",
+        "descThe": "Das",
+        "descPortalGivesEach": "Portal gibt jedem Ihrer",
+        "descDedicatedPage": "eine eigene, gebrandete Webseite, auf der sie unabhängig verfolgen können",
+        "descBrowseRegistered": ", und ihre registrierten",
+        "descUniqueUrl": " durchsuchen — ohne Ihr Team anzurufen. Jedes Portal liegt unter einer eindeutigen URL (z. B. drewbar.fieldex.com), ist vollständig gebrandet pro",
+        "descYouControl": ", und Sie steuern genau, was sie sehen können",
+        "allowYour": "Ermöglichen Sie Ihren",
+        "throughSharedPortal": "über ein gemeinsames Portal",
+        "editModeSaveBeforeNavigating": "Sie sind im Bearbeitungsmodus. Bitte speichern Sie, bevor Sie zu anderen Registerkarten navigieren",
+        "controlWhichSection": "Steuern Sie, welche Abschnitte",
+        "canAccessInPortal": "im Portal zugreifen können",
+        "canViewCreateTrackAll": "können alle anzeigen, erstellen und verfolgen",
+        "moduleAlwaysEnabled": ". Dieses Modul ist immer aktiviert und kann nicht ausgeschaltet werden",
+        "alwaysOn": "Immer an",
+        "showThePreventive": "Die vorbeugende",
+        "scheduleAndPmHistory": "Planung und PM-Historie im Portal anzeigen",
+        "on": "An",
+        "off": "Aus",
+        "toBrowseRegistered": "um ihre registrierten",
+        "listAndView": "auflisten und anzeigen",
+        "details": "Details",
+        "isAvailable": "ist verfügbar",
+        "isNotAvailable": "ist nicht verfügbar",
+        "subdomainWhereAll": "Subdomäne, über die alle Ihre",
+        "accessThePortal": "auf das Portal zugreifen",
+        "sharedUrlWhereAllYour": "Die gemeinsame URL, unter der alle Ihre",
+        "logIn": "sich anmelden",
+        "each": "Jeder",
+        "customerOwnData": "sieht nur die eigenen Daten",
+        "subdomainFormatHint": "Nur Kleinbuchstaben, Zahlen und Bindestriche",
+        "andRescheduling": "und Umbuchung",
+        "shown": "angezeigt",
+        "which": "welche",
+        "of": "von",
+        "areVisibleTo": "sind sichtbar für",
+        "inThePortal": "im Portal",
+        "thatAreAvailableFor": "die verfügbar sind für",
+        "to": "zu",
+        "areAvailableForCreation": "stehen zur Erstellung zur Verfügung",
+        "ableToSelectFromList": "können aus der Liste auswählen",
+        "toReschedule": "zum Umbuchen",
+        "canRequestNewDate": "können ein neues Datum für offene oder bevorstehende",
+        "directlyFromPortal": "direkt aus dem Portal anfordern",
+        "list": "Liste",
+        "displayPartsUsedIn": "Die in abgeschlossenen",
+        "onThe": "verwendeten Teile in der",
+        "detailView": "Detailansicht anzeigen",
+        "unitCostRequires": "Stückkosten und Gesamtpreis für jedes Teil",
+        "requires": "Erfordert",
+        "toBeOn": ", dass es aktiviert ist.",
+        "statusLabelsShownFor": "Statusbezeichnungen angezeigt für",
+        "theLabelsOfStatusShownIn": "die Statusbezeichnungen, die in der",
+        "brandingDesc": "Logo, Farben und Schrift im kundenorientierten Portal",
+        "logoDesc": "Erscheint in der Portal-Kopfzeile. Verwenden Sie SVG oder PNG mit transparentem Hintergrund. Max. 1 MB.",
+        "headerColourDesc": "Primäre Themen-Navigationsleiste",
+        "headerFontColourDesc": "Text in der Portal-Kopfzeile",
+        "sidebarColourDesc": "Farbe der Seitenmenüleiste",
+        "sidebarFontColourDesc": "Schriftfarbe des Seitenmenüs",
+        "buttonColourDesc": "Hintergrundfarbe der Schaltfläche",
+        "buttonFontColourDesc": "Textfarbe der Schaltfläche. TIPP: hohen Kontrast zur Schaltflächenfarbe verwenden",
+        "fontFamilyDesc": "Schrift, die im Kundenportal angezeigt wird",
+        "selectTheThemeColours": "Wählen Sie die Themenfarben",
+        "selectAFont": "Schrift auswählen"
+      },
+      "validationFE": {
+        "failedToSave": "konnte nicht gespeichert werden",
+        "pleaseTryAgain": "Bitte erneut versuchen",
+        "hasBeenSaved": "wurde erfolgreich gespeichert",
+        "recommendedImg": "Empfohlen ( 40px X 40 px) ODER ( 160px X 40 px)",
+        "activationFailed": "Aktivierung fehlgeschlagen"
       }
     }
   },

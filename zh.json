@@ -15987,6 +15987,34 @@
         "plural": "下载错误报告",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "允许",
+        "plural": "允许",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "关",
+        "plural": "关",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "开",
+        "plural": "开",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "带我去那里",
+        "plural": "带我去那里",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -30591,6 +30619,230 @@
             "user_leave_reject": "您的休假已被拒绝"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "门户",
+        "plural": "门户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "域名",
+          "plural": "域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "品牌",
+          "plural": "品牌",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "模块",
+          "plural": "模块",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "门户",
+          "plural": "门户",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "模块可见性",
+          "plural": "模块可见性",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "门户标识",
+          "plural": "门户标识",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "子域名",
+          "plural": "子域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "价格",
+          "plural": "价格",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "定价",
+          "plural": "定价",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "徽标",
+          "plural": "徽标",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "页眉颜色",
+          "plural": "页眉颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "页眉字体颜色",
+          "plural": "页眉字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "侧边栏颜色",
+          "plural": "侧边栏颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "侧边栏字体颜色",
+          "plural": "侧边栏字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "按钮颜色",
+          "plural": "按钮颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "按钮字体颜色",
+          "plural": "按钮字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "字体系列",
+          "plural": "字体系列",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "什么是",
+        "enableAndManagePortals": "为您的对象启用并管理自助门户",
+        "descThe": "",
+        "descPortalGivesEach": "门户为您的每一位",
+        "descDedicatedPage": "提供专属品牌网页，供其独立跟踪",
+        "descBrowseRegistered": "，并浏览其已登记的",
+        "descUniqueUrl": "——无需致电您的团队。每个门户都有唯一 URL（例如 drewbar.fieldex.com），并按",
+        "descYouControl": "完整定制品牌，且由您精确控制他们可见的内容",
+        "allowYour": "允许您的",
+        "throughSharedPortal": "通过共享门户",
+        "editModeSaveBeforeNavigating": "您处于编辑模式。请先保存再切换到其他选项卡",
+        "controlWhichSection": "控制哪些部分",
+        "canAccessInPortal": "可在门户中访问",
+        "canViewCreateTrackAll": "可以查看、创建和跟踪所有",
+        "moduleAlwaysEnabled": "。此模块始终启用，无法关闭",
+        "alwaysOn": "始终开启",
+        "showThePreventive": "显示预防性",
+        "scheduleAndPmHistory": "计划与 PM 历史显示在门户中",
+        "on": "开",
+        "off": "关",
+        "toBrowseRegistered": "以浏览其已登记的",
+        "listAndView": "列出并查看",
+        "details": "详情",
+        "isAvailable": "可用",
+        "isNotAvailable": "不可用",
+        "subdomainWhereAll": "所有",
+        "accessThePortal": "访问门户的子域名",
+        "sharedUrlWhereAllYour": "您所有",
+        "logIn": "登录",
+        "each": "每位",
+        "customerOwnData": "仅看到自己的数据",
+        "subdomainFormatHint": "仅限小写字母、数字和连字符",
+        "andRescheduling": "与改期",
+        "shown": "显示",
+        "which": "哪些",
+        "of": "的",
+        "areVisibleTo": "对以下可见",
+        "inThePortal": "在门户中",
+        "thatAreAvailableFor": "可用于",
+        "to": "至",
+        "areAvailableForCreation": "可用于创建",
+        "ableToSelectFromList": "将能够从列表中选择",
+        "toReschedule": "以改期",
+        "canRequestNewDate": "可为开放或即将到来的",
+        "directlyFromPortal": "请求新日期，直接从门户操作",
+        "list": "列表",
+        "displayPartsUsedIn": "显示已完成",
+        "onThe": "中使用的零件显示在",
+        "detailView": "详情视图",
+        "unitCostRequires": "每个零件的单价与总价",
+        "requires": "需要",
+        "toBeOn": "开启。",
+        "statusLabelsShownFor": "显示的状态标签用于",
+        "theLabelsOfStatusShownIn": "在以下位置显示的状态标签",
+        "brandingDesc": "显示在面向客户的门户中的徽标、颜色和字体",
+        "logoDesc": "显示在门户页眉。请使用透明背景的 SVG 或 PNG。最大 1 MB。",
+        "headerColourDesc": "主主题导航栏",
+        "headerFontColourDesc": "门户页眉中的文字",
+        "sidebarColourDesc": "侧边菜单栏颜色",
+        "sidebarFontColourDesc": "侧边菜单字体颜色",
+        "buttonColourDesc": "按钮背景色",
+        "buttonFontColourDesc": "按钮文字颜色。提示：相对按钮背景使用高对比度",
+        "fontFamilyDesc": "显示在客户门户中的字体",
+        "selectTheThemeColours": "选择主题颜色",
+        "selectAFont": "选择字体"
+      },
+      "validationFE": {
+        "failedToSave": "保存失败",
+        "pleaseTryAgain": "请重试",
+        "hasBeenSaved": "已成功保存",
+        "recommendedImg": "推荐（40px X 40 px）或（160px X 40 px）",
+        "activationFailed": "激活失败"
       }
     }
   },
