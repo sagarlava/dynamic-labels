@@ -6368,6 +6368,13 @@
         "plural": "基本信息",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "排程操作与筛选",
+        "plural": "排程操作与筛选",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6421,6 +6428,69 @@
         "plural": "结束日期",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "所有频率",
+        "plural": "所有频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "分配给",
+        "plural": "分配给",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "当前用户",
+        "plural": "当前用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "每天",
+        "plural": "每天",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "每月",
+        "plural": "每月",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "新用户",
+        "plural": "新用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "每季度",
+        "plural": "每季度",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "每周",
+        "plural": "每周",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "每年",
+        "plural": "每年",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6459,10 +6529,20 @@
       "areIncluded": "被包含",
       "datesWithDot": "带圆点的日期有",
       "clickOneToView": "点击其一即可在右侧查看",
-      "scheduledForThisDate": "分配后，此日期的排程将显示在下方"
+      "scheduledForThisDate": "分配后，此日期的排程将显示在下方",
+      "bulkReAssignJobs": "批量重新指派工作，对象为",
+      "pleaseSelectA": "请选择一个",
+      "selectDateRangeRemoveScheduledJobs": "选择日期范围以移除其中的已排程工作",
+      "toSearchA": "以搜索",
+      "transferAssignedJobs": "将已指派的工作从一个用户转移到另一个用户"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "只允许字母和数字"
+      "onlyTextNumberAllowed": "只允许字母和数字",
+      "haveBeenGeneratedSuccessfully": "已成功生成",
+      "noJobsScheduledFor": "没有为此安排的工作",
+      "scheduleToView": "排程后即可在此查看",
+      "thisActionWillDelete": "此操作将删除",
+      "withTheStatuses": "状态为“新建”或“已排程”"
     }
   },
   "salesOrder": {
@@ -16013,6 +16093,27 @@
         "original": "Take Me There",
         "singular": "带我去那里",
         "plural": "带我去那里",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "折叠",
+        "plural": "折叠",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "展开",
+        "plural": "展开",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "上一步",
+        "plural": "上一步",
         "setupEdit": false,
         "setupVisible": false
       }

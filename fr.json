@@ -6360,6 +6360,13 @@
         "plural": "Détails généraux",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Actions et filtres de planification",
+        "plural": "Actions et filtres de planification",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6413,6 +6420,69 @@
         "plural": "Date de fin",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "Toutes les fréquences",
+        "plural": "Toutes les fréquences",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Attribuer à",
+        "plural": "Attribuer à",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Utilisateur actuel",
+        "plural": "Utilisateurs actuels",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Quotidien",
+        "plural": "Quotidien",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Mensuel",
+        "plural": "Mensuel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "Nouvel utilisateur",
+        "plural": "Nouveaux utilisateurs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Trimestriel",
+        "plural": "Trimestriel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Hebdomadaire",
+        "plural": "Hebdomadaire",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Annuel",
+        "plural": "Annuel",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6451,10 +6521,20 @@
       "areIncluded": "sont inclus",
       "datesWithDot": "Les dates avec un point ont",
       "clickOneToView": "cliquez sur l’une pour la voir à droite",
-      "scheduledForThisDate": "planifiés pour cette date apparaîtront ci-dessous une fois assignés"
+      "scheduledForThisDate": "planifiés pour cette date apparaîtront ci-dessous une fois assignés",
+      "bulkReAssignJobs": "Réaffectation groupée des travaux pour",
+      "pleaseSelectA": "Veuillez sélectionner un",
+      "selectDateRangeRemoveScheduledJobs": "Sélectionnez une plage de dates pour supprimer les travaux planifiés qu’elle contient",
+      "toSearchA": "pour rechercher un",
+      "transferAssignedJobs": "Transférer les travaux assignés d’un utilisateur à un autre"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés"
+      "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés",
+      "haveBeenGeneratedSuccessfully": "ont été générés avec succès",
+      "noJobsScheduledFor": "Aucun travail planifié pour",
+      "scheduleToView": "planifiez pour les voir ici",
+      "thisActionWillDelete": "Cette action supprimera",
+      "withTheStatuses": "avec les statuts « Nouveau » ou « Planifié »"
     }
   },
   "salesOrder": {
@@ -16005,6 +16085,27 @@
         "original": "Take Me There",
         "singular": "Emmenes-moi là",
         "plural": "Emmenes-moi là",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Réduire",
+        "plural": "Réduit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Développer",
+        "plural": "Développe",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Précédent",
+        "plural": "Précédent",
         "setupEdit": false,
         "setupVisible": false
       }

@@ -6360,6 +6360,13 @@
         "plural": "Butiran Am",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Tindakan penjadualan & penapis",
+        "plural": "Tindakan penjadualan & penapis",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6413,6 +6420,69 @@
         "plural": "Tarikh Tamat",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "Semua Kekerapan",
+        "plural": "Semua Kekerapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Tugaskan Kepada",
+        "plural": "Tugaskan Kepada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Pengguna Semasa",
+        "plural": "Pengguna Semasa",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Setiap hari",
+        "plural": "Setiap hari",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Bulanan",
+        "plural": "Bulanan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "Pengguna Baharu",
+        "plural": "Pengguna Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Suku tahunan",
+        "plural": "Suku tahunan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Mingguan",
+        "plural": "Mingguan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Tahunan",
+        "plural": "Tahunan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6451,10 +6521,20 @@
       "areIncluded": "termasuk",
       "datesWithDot": "Tarikh dengan titik mempunyai",
       "clickOneToView": "klik satu untuk melihatnya di sebelah kanan",
-      "scheduledForThisDate": "yang dijadualkan untuk tarikh ini akan muncul di bawah selepas ditugaskan"
+      "scheduledForThisDate": "yang dijadualkan untuk tarikh ini akan muncul di bawah selepas ditugaskan",
+      "bulkReAssignJobs": "Tugasan semula pukal kerja untuk",
+      "pleaseSelectA": "Sila pilih",
+      "selectDateRangeRemoveScheduledJobs": "Pilih julat tarikh untuk membuang kerja berjadual di dalamnya",
+      "toSearchA": "untuk mencari",
+      "transferAssignedJobs": "Pindahkan kerja yang ditugaskan dari satu pengguna ke pengguna lain"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Hanya abjad dan nombor dibenarkan"
+      "onlyTextNumberAllowed": "Hanya abjad dan nombor dibenarkan",
+      "haveBeenGeneratedSuccessfully": "telah berjaya dijana",
+      "noJobsScheduledFor": "Tiada kerja dijadualkan untuk",
+      "scheduleToView": "jadualkan untuk melihatnya di sini",
+      "thisActionWillDelete": "Tindakan ini akan memadam",
+      "withTheStatuses": "dengan status 'Baharu' atau 'Dijadualkan'"
     }
   },
   "salesOrder": {
@@ -16005,6 +16085,27 @@
         "original": "Take Me There",
         "singular": "Bawa saya ke sana",
         "plural": "Bawa saya ke sana",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Runtuhkan",
+        "plural": "Runtuhkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Kembangkan",
+        "plural": "Kembangkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Sebelumnya",
+        "plural": "Sebelumnya",
         "setupEdit": false,
         "setupVisible": false
       }

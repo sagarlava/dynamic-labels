@@ -6360,6 +6360,13 @@
         "plural": "பொது விவரங்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "திட்டமிடல் செயல்கள் & வடிப்பான்கள்",
+        "plural": "திட்டமிடல் செயல்கள் & வடிப்பான்கள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6413,6 +6420,69 @@
         "plural": "முடிவு தேதி",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "அனைத்து அதிர்வெண்கள்",
+        "plural": "அனைத்து அதிர்வெண்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "ஒதுக்கவும்",
+        "plural": "ஒதுக்கவும்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "தற்போதைய பயனர்",
+        "plural": "தற்போதைய பயனர்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "தினசரி",
+        "plural": "தினசரி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "மாதாந்திர",
+        "plural": "மாதாந்திர",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "புதிய பயனர்",
+        "plural": "புதிய பயனர்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "காலாண்டு",
+        "plural": "காலாண்டு",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "வாராந்திர",
+        "plural": "வாராந்திர",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "ஆண்டுதோறும்",
+        "plural": "ஆண்டுதோறும்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6451,10 +6521,20 @@
       "areIncluded": "சேர்க்கப்பட்டுள்ளன",
       "datesWithDot": "புள்ளியுள்ள தேதிகளில் உள்ளன",
       "clickOneToView": "வலதுபுறத்தில் பார்க்க ஒன்றைக் கிளிக் செய்யவும்",
-      "scheduledForThisDate": "இந்த தேதிக்கு திட்டமிடப்பட்டவை ஒதுக்கப்பட்டதும் கீழே தோன்றும்"
+      "scheduledForThisDate": "இந்த தேதிக்கு திட்டமிடப்பட்டவை ஒதுக்கப்பட்டதும் கீழே தோன்றும்",
+      "bulkReAssignJobs": "வேலைகளை மொத்தமாக மறுஒதுக்கீடு",
+      "pleaseSelectA": "தயவுசெய்து தேர்வு செய்யவும்",
+      "selectDateRangeRemoveScheduledJobs": "திட்டமிடப்பட்ட வேலைகளை அகற்ற தேதி வரம்பைத் தேர்வு செய்யவும்",
+      "toSearchA": "தேட",
+      "transferAssignedJobs": "ஒதுக்கப்பட்ட வேலைகளை ஒரு பயனரிடமிருந்து மற்றொருவருக்கு மாற்றவும்"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "எழுத்துகள் மற்றும் எண்கள் மட்டுமே அனுமதிக்கப்படும்"
+      "onlyTextNumberAllowed": "எழுத்துகள் மற்றும் எண்கள் மட்டுமே அனுமதிக்கப்படும்",
+      "haveBeenGeneratedSuccessfully": "வெற்றிகரமாக உருவாக்கப்பட்டன",
+      "noJobsScheduledFor": "இதற்கு வேலைகள் திட்டமிடப்படவில்லை",
+      "scheduleToView": "இங்கே பார்க்க திட்டமிடவும்",
+      "thisActionWillDelete": "இந்தச் செயல் நீக்கும்",
+      "withTheStatuses": "'புதியது' அல்லது 'திட்டமிடப்பட்டது' நிலைகளுடன்"
     }
   },
   "salesOrder": {
@@ -16005,6 +16085,27 @@
         "original": "Take Me There",
         "singular": "என்னை அங்கே அழைத்துச் செல்",
         "plural": "என்னை அங்கே அழைத்துச் செல்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "சுருக்கு",
+        "plural": "சுருக்குகிறது",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "விரி",
+        "plural": "விரிக்கிறது",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "முந்தைய",
+        "plural": "முந்தைய",
         "setupEdit": false,
         "setupVisible": false
       }

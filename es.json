@@ -6360,6 +6360,13 @@
         "plural": "Detalles generales",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Acciones y filtros de programación",
+        "plural": "Acciones y filtros de programación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6413,6 +6420,69 @@
         "plural": "Fecha de fin",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "Todas las frecuencias",
+        "plural": "Todas las frecuencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Asignar a",
+        "plural": "Asignar a",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Usuario actual",
+        "plural": "Usuarios actuales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Diario",
+        "plural": "Diario",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Mensual",
+        "plural": "Mensual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "Nuevo usuario",
+        "plural": "Nuevos usuarios",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Trimestral",
+        "plural": "Trimestral",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Semanal",
+        "plural": "Semanal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Anual",
+        "plural": "Anual",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6451,10 +6521,20 @@
       "areIncluded": "están incluidos",
       "datesWithDot": "Las fechas con un punto tienen",
       "clickOneToView": "haga clic en una para verla a la derecha",
-      "scheduledForThisDate": "programados para esta fecha aparecerán abajo una vez asignados"
+      "scheduledForThisDate": "programados para esta fecha aparecerán abajo una vez asignados",
+      "bulkReAssignJobs": "Reasignación masiva de trabajos para",
+      "pleaseSelectA": "Seleccione un",
+      "selectDateRangeRemoveScheduledJobs": "Seleccione un rango de fechas para eliminar los trabajos programados dentro de él",
+      "toSearchA": "para buscar un",
+      "transferAssignedJobs": "Transferir trabajos asignados de un usuario a otro"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Solo se permiten letras y números"
+      "onlyTextNumberAllowed": "Solo se permiten letras y números",
+      "haveBeenGeneratedSuccessfully": "se han generado correctamente",
+      "noJobsScheduledFor": "No hay trabajos programados para",
+      "scheduleToView": "programe para verlos aquí",
+      "thisActionWillDelete": "Esta acción eliminará",
+      "withTheStatuses": "con los estados 'Nuevo' o 'Programado'"
     }
   },
   "salesOrder": {
@@ -16006,6 +16086,27 @@
         "original": "Take Me There",
         "singular": "Llévame allí",
         "plural": "Llévame allí",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Contraer",
+        "plural": "Contrae",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Expandir",
+        "plural": "Expande",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Anterior",
+        "plural": "Anterior",
         "setupEdit": false,
         "setupVisible": false
       }
