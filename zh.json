@@ -2757,6 +2757,209 @@
         "plural": "固定",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "调整日期",
+        "plural": "调整日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "自动应用",
+        "plural": "自动应用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "创建者",
+        "plural": "创建者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "创建日期",
+        "plural": "创建日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "创建于",
+        "plural": "创建于",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "周期月份",
+        "plural": "周期月份",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "日期",
+        "plural": "日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "结束日期",
+        "plural": "结束日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "上次维护",
+        "plural": "上次维护",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "上次维护日期",
+        "plural": "上次维护日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "上次维护仪表",
+        "plural": "上次维护仪表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "上次维护状态",
+        "plural": "上次维护状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "最后修改者",
+        "plural": "最后修改者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "最后修改日期",
+        "plural": "最后修改日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "维护模板",
+        "plural": "维护模板",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "仪表读数",
+        "plural": "仪表读数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "多个",
+        "plural": "多个",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "下一间隔",
+        "plural": "下一间隔",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "下次维护",
+        "plural": "下次维护",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "下次维护状态",
+        "plural": "下次维护状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "预防性维护类型",
+        "plural": "预防性维护类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "周期性工作",
+        "plural": "周期性工作",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "按名称搜索",
+        "plural": "按名称搜索",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "序列号",
+        "plural": "序列号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "开始日期",
+        "plural": "开始日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "触发器",
+        "plural": "触发器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "类型",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2907,10 +3110,93 @@
       "multiple": "多个",
       "toThisMaintenancePlanInBulk": "批量添加到此维护计划。",
       "autoApplyToNew": "自动应用到",
-      "setConditionsToAutoApply": "设置条件以自动将此计划应用于"
+      "setConditionsToAutoApply": "设置条件以自动将此计划应用于",
+      "activeStatusDesc": "工作正按计划创建和运行；更改仅影响未来工作。",
+      "addedTo": "已添加到",
+      "adjustNextMaintenanceDate": "调整下次维护日期",
+      "andLinkThemLater": "并稍后关联它们。",
+      "areNotChanged": "不会被更改。",
+      "autoApplyConditions": "自动应用条件",
+      "automaticallyApply": "自动应用",
+      "automaticallyApplyTo": "自动应用到？",
+      "beRemovedFromThe": "从以下移除",
+      "beforeReschedulingThenReschedule": "在改期之前，然后重新安排该工作",
+      "cancelledStatusDesc": "已手动停止。无论日期如何，所有未来工作都会立即停止。",
+      "chooseNewDateForNextMaintenance": "为下次计划维护选择新日期。这不会更改过去的访问。",
+      "cloningFrom": "克隆自：",
+      "createNewPlanSameConfig": "使用与原始计划相同的配置创建新计划。更新日期范围并选择是否复制全部数据。",
+      "createNewPlanWithSame": "使用相同的",
+      "currentNextDate": "当前下次日期：",
+      "days": "天",
+      "doYouWantToCloneLinked": "是否要克隆已关联的",
+      "draftStatusDesc": "配置已保存，但不会创建或运行工作。一切仍可完全编辑。",
+      "entryWhich": "进入：哪些",
+      "exitWhenShould": "退出：何时应",
+      "expiredStatusDesc": "结束日期已过。不再创建新工作；现有和过去的工作仍保留供参考。",
+      "fieldexWillApplyThis": "FieldEx 将应用此",
+      "filterTheList": "筛选列表",
+      "filtersSafeToChange": "选择后可以安全更改筛选器",
+      "fineTuneSelection": "确认前可以微调您的选择。",
+      "forChosen": "针对所选",
+      "forNew": "针对新的",
+      "howOftenMaintenanceRepeated": "维护应多久重复一次？",
+      "inBulk": "批量",
+      "is": "是",
+      "isLinkedToThisRecord": "已关联到此维护记录。",
+      "last": "上次",
+      "loadingMorePlans": "正在加载更多计划...",
+      "manuallyOrSetUpAutomation": "手动添加或设置自动化以使此计划运行",
+      "matchAllConditionsExisting": "符合以下全部条件的。现有的",
+      "meetConditionsGetMaintenance": "满足以下条件的将获得此",
+      "months": "个月",
+      "needComplexLogic": "需要复杂逻辑？",
+      "newNextMaintenanceDate": "新的下次维护日期",
+      "next": "下次",
+      "notApplicable": "不适用",
+      "numberOfShortForm": "数量",
+      "numberShortForm": "编号",
+      "oneOrMore": "一个或多个",
+      "onlyFutureDatesAllowed": "仅允许未来日期。未来的",
+      "orStartWithNo": "，或从没有",
+      "pickJobTemplateForMaintenance": "选择将为维护生成的工作模板",
+      "planDetails": "计划详情",
+      "planDoesntHaveAny": "此计划没有任何",
+      "pm": "PM",
+      "previewSelection": "预览选择",
+      "scheduledStatusDesc": "已设置开始和结束日期，但尚未开始。将在开始日期激活；仍允许编辑。",
+      "selectAdvancedTrigger": "选择“高级触发器”以配置高级条件。",
+      "selected": "已选择",
+      "setAutomation": "设置自动化",
+      "setHowOftenMaintenanceHappens": "设置维护频率，选择工作模板，并决定何时生成",
+      "setTheConditions": "设置条件",
+      "shouldThis": "此",
+      "shouldThisApplyTo": "此应应用到？",
+      "showActiveOnly": "仅显示启用",
+      "theContract": "合同：",
+      "thenTickCheckboxesTo": "，然后勾选复选框以",
+      "tip": "提示",
+      "useFiltersOrSearchToFind": "使用筛选或搜索以查找",
+      "useTriggersToAutoApply": "使用触发器自动应用此",
+      "weeks": "周",
+      "when": "当",
+      "which": "哪些",
+      "willBeAdded": "将被添加",
+      "willBeAddedToThe": "将被添加到",
+      "willBeDisplayedHere": "将显示在此处。",
+      "willBeRescheduled": "将改期到此日期。",
+      "years": "年",
+      "yet": "尚未",
+      "youWouldLikeToCreate": "您想创建的",
+      "yourSelectionsWillStay": "在您离开此页之前，您的选择将保留。"
     },
     "validationFE": {
-      "enterValueOfOne": "请输入 1 或更大的值。"
+      "enterValueOfOne": "请输入 1 或更大的值。",
+      "cannotBeUndone": "此操作无法撤销。",
+      "confirmCancelPlan": "确定要取消此计划吗？",
+      "confirmChangeStatusToDraft": "确定要将状态改为草稿吗？",
+      "confirmRemove": "确定要移除",
+      "confirmRemoveAutomation": "确定要移除此自动化吗？",
+      "fromThis": "从此"
     }
   },
   "contracts": {

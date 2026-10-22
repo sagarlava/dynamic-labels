@@ -2749,6 +2749,209 @@
         "plural": "சரி செய்யப்பட்டது",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "தேதியை சரிசெய்",
+        "plural": "தேதிகளை சரிசெய்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "தானியங்கு பயன்பாடு",
+        "plural": "தானியங்கு பயன்பாடு",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "உருவாக்கியது",
+        "plural": "உருவாக்கியது",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "உருவாக்கப்பட்ட தேதி",
+        "plural": "உருவாக்கப்பட்ட தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "உருவாக்கப்பட்ட நாள்",
+        "plural": "உருவாக்கப்பட்ட நாள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "சுழற்சி மாதம்",
+        "plural": "சுழற்சி மாதங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "தேதி",
+        "plural": "தேதிகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "முடிவு தேதி",
+        "plural": "முடிவு தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "கடைசி பராமரிப்பு",
+        "plural": "கடைசி பராமரிப்புகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "கடைசி பராமரிப்பு தேதி",
+        "plural": "கடைசி பராமரிப்பு தேதிகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "கடைசி பராமரிப்பு மீட்டர்",
+        "plural": "கடைசி பராமரிப்பு மீட்டர்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "கடைசி பராமரிப்பு நிலை",
+        "plural": "கடைசி பராமரிப்பு நிலைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "கடைசியாக மாற்றியவர்",
+        "plural": "கடைசியாக மாற்றியவர்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "கடைசி மாற்ற தேதி",
+        "plural": "கடைசி மாற்ற தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "பராமரிப்பு வார்ப்புரு",
+        "plural": "பராமரிப்பு வார்ப்புருக்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "மீட்டர் அளவீடு",
+        "plural": "மீட்டர் அளவீடுகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "பல",
+        "plural": "பல",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "பெயர்",
+        "plural": "பெயர்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "அடுத்த இடைவெளி",
+        "plural": "அடுத்த இடைவெளிகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "அடுத்த பராமரிப்பு",
+        "plural": "அடுத்த பராமரிப்புகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "அடுத்த பராமரிப்பு நிலை",
+        "plural": "அடுத்த பராமரிப்பு நிலைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "தடுப்பு பராமரிப்பு வகை",
+        "plural": "தடுப்பு பராமரிப்பு வகைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "தொடர் வேலை",
+        "plural": "தொடர் வேலைகள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "பெயரால் தேடு",
+        "plural": "பெயரால் தேடு",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "வரிசை எண்",
+        "plural": "வரிசை எண்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "தொடக்க தேதி",
+        "plural": "தொடக்க தேதி",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "நிலை",
+        "plural": "நிலை",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "தூண்டுதல்",
+        "plural": "தூண்டுதல்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "வகை",
+        "plural": "வகைகள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2899,10 +3102,93 @@
       "multiple": "பல",
       "toThisMaintenancePlanInBulk": "இந்த பராமரிப்பு திட்டத்திற்கு மொத்தமாக.",
       "autoApplyToNew": "தானாக விண்ணப்பிக்கவும்",
-      "setConditionsToAutoApply": "இந்தத் திட்டத்தை தானாகப் பயன்படுத்துவதற்கான நிபந்தனைகளை அமைக்கவும்"
+      "setConditionsToAutoApply": "இந்தத் திட்டத்தை தானாகப் பயன்படுத்துவதற்கான நிபந்தனைகளை அமைக்கவும்",
+      "activeStatusDesc": "வேலைகள் திட்டமிட்டபடி உருவாக்கப்பட்டு இயங்குகின்றன; மாற்றங்கள் எதிர்கால வேலைகளை மட்டுமே பாதிக்கும்.",
+      "addedTo": "சேர்க்கப்பட்டது",
+      "adjustNextMaintenanceDate": "அடுத்த பராமரிப்பு தேதியை சரிசெய்",
+      "andLinkThemLater": "பின்னர் அவற்றை இணைக்கவும்.",
+      "areNotChanged": "மாற்றப்படவில்லை.",
+      "autoApplyConditions": "தானியங்கு பயன்பாட்டு நிபந்தனைகள்",
+      "automaticallyApply": "தானாகப் பயன்படுத்து",
+      "automaticallyApplyTo": "தானாகப் பயன்படுத்த வேண்டுமா?",
+      "beRemovedFromThe": "இதிலிருந்து அகற்றப்பட வேண்டுமா",
+      "beforeReschedulingThenReschedule": "மறுதிட்டமிடுவதற்கு முன், பின்னர் வேலையை மறுதிட்டமிடவும்",
+      "cancelledStatusDesc": "கைமுறையாக நிறுத்தப்பட்டது. தேதிகளைப் பொருட்படுத்தாமல் எதிர்கால வேலைகள் அனைத்தும் உடனடியாக நிறுத்தப்படும்.",
+      "chooseNewDateForNextMaintenance": "அடுத்த திட்டமிட்ட பராமரிப்புக்கு புதிய தேதியைத் தேர்வு செய்யவும். கடந்த வருகைகள் மாறாது.",
+      "cloningFrom": "இதிலிருந்து நகலெடுக்கிறது:",
+      "createNewPlanSameConfig": "அசலைப் போன்ற அதே கட்டமைப்புடன் புதிய திட்டத்தை உருவாக்கவும். தேதி வரம்பைப் புதுப்பித்து அனைத்து தரவையும் நகலெடுக்க வேண்டுமா என்பதைத் தேர்வு செய்யவும்.",
+      "createNewPlanWithSame": "அதே",
+      "currentNextDate": "தற்போதைய அடுத்த தேதி:",
+      "days": "நாள்(கள்)",
+      "doYouWantToCloneLinked": "இணைக்கப்பட்டவற்றை நகலெடுக்க விரும்புகிறீர்களா",
+      "draftStatusDesc": "கட்டமைப்பு சேமிக்கப்பட்டது, ஆனால் வேலைகள் உருவாக்கப்படவோ இயக்கப்படவோ இல்லை. அனைத்தும் இன்னும் முழுமையாக திருத்தக்கூடியவை.",
+      "entryWhich": "நுழைவு: எது",
+      "exitWhenShould": "வெளியேறு: எப்போது",
+      "expiredStatusDesc": "முடிவு தேதி கடந்துவிட்டது. புதிய வேலைகள் உருவாக்கப்படாது; உள்ளவை அல்லது கடந்தவை குறிப்புக்காக இருக்கும்.",
+      "fieldexWillApplyThis": "FieldEx இதைப் பயன்படுத்தும்",
+      "filterTheList": "பட்டியலை வடிகட்டு",
+      "filtersSafeToChange": "தேர்ந்தெடுத்த பிறகு வடிப்பான்களைப் பாதுகாப்பாக மாற்றலாம்",
+      "fineTuneSelection": "உறுதிப்படுத்துவதற்கு முன் தேர்வை நுணுக்கமாக மாற்றலாம்.",
+      "forChosen": "தேர்ந்தெடுக்கப்பட்டவற்றுக்கு",
+      "forNew": "புதியவற்றுக்கு",
+      "howOftenMaintenanceRepeated": "பராமரிப்பு எவ்வளவு அடிக்கடி மீண்டும் செய்யப்பட வேண்டும்?",
+      "inBulk": "மொத்தமாக",
+      "is": "ஆகும்",
+      "isLinkedToThisRecord": "இந்த பராமரிப்பு பதிவுடன் இணைக்கப்பட்டுள்ளது.",
+      "last": "கடைசி",
+      "loadingMorePlans": "மேலும் திட்டங்களை ஏற்றுகிறது...",
+      "manuallyOrSetUpAutomation": "கைமுறையாக அல்லது இந்தத் திட்டத்தை இயக்க தானியக்கத்தை அமைக்கவும்",
+      "matchAllConditionsExisting": "கீழே உள்ள அனைத்து நிபந்தனைகளுக்கும் பொருந்தும். உள்ள",
+      "meetConditionsGetMaintenance": "கீழே உள்ள நிபந்தனைகளை பூர்த்தி செய்வவை இதைப் பெறும்",
+      "months": "மாதம்(கள்)",
+      "needComplexLogic": "சிக்கலான தர்க்கம் தேவையா?",
+      "newNextMaintenanceDate": "புதிய அடுத்த பராமரிப்பு தேதி",
+      "next": "அடுத்த",
+      "notApplicable": "பொருந்தாது",
+      "numberOfShortForm": "எண்.",
+      "numberShortForm": "எண்",
+      "oneOrMore": "ஒன்று அல்லது அதற்கு மேல்",
+      "onlyFutureDatesAllowed": "எதிர்கால தேதிகள் மட்டுமே அனுமதிக்கப்படும். எதிர்கால",
+      "orStartWithNo": ", அல்லது இல்லாமல் தொடங்கவும்",
+      "pickJobTemplateForMaintenance": "பராமரிப்புக்கு உருவாக்கப்படும் வேலை வார்ப்புருவைத் தேர்வு செய்யவும்",
+      "planDetails": "திட்ட விவரங்கள்",
+      "planDoesntHaveAny": "இந்தத் திட்டத்தில் எதுவும் இல்லை",
+      "pm": "PM",
+      "previewSelection": "தேர்வு முன்னோட்டம்",
+      "scheduledStatusDesc": "தொடக்கம் மற்றும் முடிவு தேதிகள் அமைக்கப்பட்டுள்ளன, ஆனால் இன்னும் தொடங்கவில்லை. தொடக்க தேதியில் செயல்படும்; திருத்தங்கள் இன்னும் அனுமதிக்கப்படும்.",
+      "selectAdvancedTrigger": "மேம்பட்ட நிபந்தனைகளை அமைக்க ‘மேம்பட்ட தூண்டுதல்’ என்பதைத் தேர்வு செய்யவும்.",
+      "selected": "தேர்ந்தெடுக்கப்பட்டது",
+      "setAutomation": "தானியக்கத்தை அமை",
+      "setHowOftenMaintenanceHappens": "பராமரிப்பு எவ்வளவு அடிக்கடி நடக்கும் என்பதை அமைத்து, வேலை வார்ப்புருவைத் தேர்வு செய்து எப்போது உருவாக்குவது என்பதைத் தீர்மானிக்கவும்",
+      "setTheConditions": "நிபந்தனைகளை அமை",
+      "shouldThis": "இது",
+      "shouldThisApplyTo": "இது எதற்குப் பயன்படுத்தப்பட வேண்டும்?",
+      "showActiveOnly": "செயலில் உள்ளவை மட்டும் காட்டு",
+      "theContract": "ஒப்பந்தம்:",
+      "thenTickCheckboxesTo": ", பின்னர் இதைச் செய்ய தேர்வுப்பெட்டிகளைத் தேர்வு செய்யவும்",
+      "tip": "குறிப்பு",
+      "useFiltersOrSearchToFind": "கண்டுபிடிக்க வடிப்பான்கள் அல்லது தேடலைப் பயன்படுத்தவும்",
+      "useTriggersToAutoApply": "இதைத் தானாகப் பயன்படுத்த தூண்டுதல்களைப் பயன்படுத்தவும்",
+      "weeks": "வாரம்(கள்)",
+      "when": "எப்போது",
+      "which": "எது",
+      "willBeAdded": "சேர்க்கப்படும்",
+      "willBeAddedToThe": "இதில் சேர்க்கப்படும்",
+      "willBeDisplayedHere": "இங்கே காட்டப்படும்.",
+      "willBeRescheduled": "இந்த தேதிக்கு மறுதிட்டமிடப்படும்.",
+      "years": "ஆண்டு(கள்)",
+      "yet": "இன்னும்",
+      "youWouldLikeToCreate": "நீங்கள் உருவாக்க விரும்புவது",
+      "yourSelectionsWillStay": "இந்தப் பக்கத்தை விட்டு வெளியேறும் வரை உங்கள் தேர்வுகள் இருக்கும்."
     },
     "validationFE": {
-      "enterValueOfOne": "1 அல்லது அதற்கு மேற்பட்ட மதிப்பை உள்ளிடவும்."
+      "enterValueOfOne": "1 அல்லது அதற்கு மேற்பட்ட மதிப்பை உள்ளிடவும்.",
+      "cannotBeUndone": "இதைச் செயல்தவிர்க்க முடியாது.",
+      "confirmCancelPlan": "இந்தத் திட்டத்தை ரத்து செய்ய விரும்புகிறீர்களா?",
+      "confirmChangeStatusToDraft": "நிலையை வரைவாக மாற்ற விரும்புகிறீர்களா?",
+      "confirmRemove": "அகற்ற விரும்புகிறீர்களா",
+      "confirmRemoveAutomation": "இந்த தானியக்கத்தை அகற்ற விரும்புகிறீர்களா?",
+      "fromThis": "இதிலிருந்து"
     }
   },
   "contracts": {

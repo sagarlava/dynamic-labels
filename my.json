@@ -2749,6 +2749,209 @@
         "plural": "Tetap",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Laraskan Tarikh",
+        "plural": "Laraskan Tarikh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Guna Automatik",
+        "plural": "Guna Automatik",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Dicipta Oleh",
+        "plural": "Dicipta Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Tarikh Dicipta",
+        "plural": "Tarikh Dicipta",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Dicipta Pada",
+        "plural": "Dicipta Pada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Bulan Kitaran",
+        "plural": "Bulan Kitaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Tarikh",
+        "plural": "Tarikh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Tarikh Tamat",
+        "plural": "Tarikh Tamat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Penyelenggaraan Terakhir",
+        "plural": "Penyelenggaraan Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Tarikh Penyelenggaraan Terakhir",
+        "plural": "Tarikh Penyelenggaraan Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Meter Penyelenggaraan Terakhir",
+        "plural": "Meter Penyelenggaraan Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Status Penyelenggaraan Terakhir",
+        "plural": "Status Penyelenggaraan Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Terakhir Diubah Oleh",
+        "plural": "Terakhir Diubah Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Tarikh Terakhir Diubah",
+        "plural": "Tarikh Terakhir Diubah",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Templat Penyelenggaraan",
+        "plural": "Templat Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Bacaan Meter",
+        "plural": "Bacaan Meter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Berbilang",
+        "plural": "Berbilang",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Selang Seterusnya",
+        "plural": "Selang Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Penyelenggaraan Seterusnya",
+        "plural": "Penyelenggaraan Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Status Penyelenggaraan Seterusnya",
+        "plural": "Status Penyelenggaraan Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Jenis Penyelenggaraan Pencegahan",
+        "plural": "Jenis Penyelenggaraan Pencegahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Kerja Berulang",
+        "plural": "Kerja Berulang",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Cari mengikut Nama",
+        "plural": "Cari mengikut Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "No. Siri",
+        "plural": "No. Siri",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Tarikh Mula",
+        "plural": "Tarikh Mula",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Pencetus",
+        "plural": "Pencetus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Jenis",
+        "plural": "Jenis",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2899,10 +3102,93 @@
       "multiple": "berbilang",
       "toThisMaintenancePlanInBulk": "ke dalam pelan penyelenggaraan ini secara pukal.",
       "autoApplyToNew": "Guna secara automatik kepada",
-      "setConditionsToAutoApply": "Tetapkan syarat untuk menggunakan pelan ini secara automatik kepada"
+      "setConditionsToAutoApply": "Tetapkan syarat untuk menggunakan pelan ini secara automatik kepada",
+      "activeStatusDesc": "Kerja dicipta dan dijalankan seperti dirancang; perubahan hanya menjejaskan kerja masa depan.",
+      "addedTo": "ditambah ke",
+      "adjustNextMaintenanceDate": "Laraskan tarikh penyelenggaraan seterusnya",
+      "andLinkThemLater": "dan pautkannya kemudian.",
+      "areNotChanged": "tidak diubah.",
+      "autoApplyConditions": "Syarat guna automatik",
+      "automaticallyApply": "Guna secara automatik",
+      "automaticallyApplyTo": "guna secara automatik kepada?",
+      "beRemovedFromThe": "dialih keluar daripada",
+      "beforeReschedulingThenReschedule": "sebelum menjadual semula, kemudian jadualkan semula kerja",
+      "cancelledStatusDesc": "Dihentikan secara manual. Semua kerja masa depan dihentikan serta-merta, tanpa mengira tarikh.",
+      "chooseNewDateForNextMaintenance": "Pilih tarikh baharu untuk penyelenggaraan berjadual seterusnya. Ini tidak akan mengubah lawatan lepas.",
+      "cloningFrom": "Mengklon daripada:",
+      "createNewPlanSameConfig": "Cipta pelan baharu menggunakan konfigurasi yang sama seperti asal. Kemas kini julat tarikh dan pilih sama ada untuk menyalin semua data.",
+      "createNewPlanWithSame": "Cipta pelan baharu dengan",
+      "currentNextDate": "Tarikh seterusnya semasa:",
+      "days": "Hari",
+      "doYouWantToCloneLinked": "Adakah anda mahu mengklon yang dipautkan",
+      "draftStatusDesc": "Konfigurasi disimpan, tetapi tiada kerja dicipta atau dijalankan. Semuanya masih boleh diedit sepenuhnya.",
+      "entryWhich": "Kemasukan: Yang mana",
+      "exitWhenShould": "Keluar: Bila patut",
+      "expiredStatusDesc": "Tarikh tamat telah berlalu. Tiada kerja baharu dicipta; kerja sedia ada atau lepas kekal sebagai rujukan.",
+      "fieldexWillApplyThis": "FieldEx akan menggunakan",
+      "filterTheList": "Tapis senarai",
+      "filtersSafeToChange": "Anda boleh menukar penapis dengan selamat selepas memilih",
+      "fineTuneSelection": "Anda boleh melaras pilihan anda sebelum mengesahkan.",
+      "forChosen": "untuk yang dipilih",
+      "forNew": "untuk baharu",
+      "howOftenMaintenanceRepeated": "Berapa kerap penyelenggaraan patut diulang?",
+      "inBulk": "secara pukal",
+      "is": "ialah",
+      "isLinkedToThisRecord": "dipautkan kepada rekod penyelenggaraan ini.",
+      "last": "Terakhir",
+      "loadingMorePlans": "Memuatkan lebih banyak pelan...",
+      "manuallyOrSetUpAutomation": "secara manual atau sediakan automasi untuk mengaktifkan pelan ini",
+      "matchAllConditionsExisting": "yang sepadan dengan semua syarat di bawah. Sedia ada",
+      "meetConditionsGetMaintenance": "yang memenuhi syarat di bawah akan mendapat",
+      "months": "Bulan",
+      "needComplexLogic": "Perlukan logik kompleks?",
+      "newNextMaintenanceDate": "Tarikh penyelenggaraan seterusnya yang baharu",
+      "next": "Seterusnya",
+      "notApplicable": "T/B",
+      "numberOfShortForm": "Bil.",
+      "numberShortForm": "No.",
+      "oneOrMore": "satu atau lebih",
+      "onlyFutureDatesAllowed": "Hanya tarikh masa depan dibenarkan. Masa depan",
+      "orStartWithNo": ", atau mulakan tanpa",
+      "pickJobTemplateForMaintenance": "Pilih templat kerja yang akan dijana untuk penyelenggaraan",
+      "planDetails": "Butiran Pelan",
+      "planDoesntHaveAny": "Pelan ini tidak mempunyai sebarang",
+      "pm": "PM",
+      "previewSelection": "Pratonton pilihan",
+      "scheduledStatusDesc": "Tarikh mula dan tamat ditetapkan, tetapi ia belum bermula. Ia akan diaktifkan pada tarikh mula; suntingan masih dibenarkan.",
+      "selectAdvancedTrigger": "Pilih ‘Pencetus lanjutan’ untuk mengkonfigurasi syarat lanjutan.",
+      "selected": "dipilih",
+      "setAutomation": "Tetapkan Automasi",
+      "setHowOftenMaintenanceHappens": "Tetapkan kekerapan penyelenggaraan, pilih templat kerja, dan tentukan bila untuk menjana",
+      "setTheConditions": "Tetapkan syarat",
+      "shouldThis": "patut ini",
+      "shouldThisApplyTo": "ini patut digunakan kepada?",
+      "showActiveOnly": "Tunjukkan aktif sahaja",
+      "theContract": "Kontrak:",
+      "thenTickCheckboxesTo": ", kemudian tandakan kotak semak untuk",
+      "tip": "Petua",
+      "useFiltersOrSearchToFind": "Guna penapis atau carian untuk mencari",
+      "useTriggersToAutoApply": "Guna pencetus untuk menggunakan ini secara automatik",
+      "weeks": "Minggu",
+      "when": "Apabila",
+      "which": "Yang mana",
+      "willBeAdded": "akan ditambah",
+      "willBeAddedToThe": "akan ditambah ke",
+      "willBeDisplayedHere": "akan dipaparkan di sini.",
+      "willBeRescheduled": "akan dijadualkan semula ke tarikh ini.",
+      "years": "Tahun",
+      "yet": "lagi",
+      "youWouldLikeToCreate": "yang anda ingin cipta",
+      "yourSelectionsWillStay": "Pilihan anda akan kekal sehingga anda meninggalkan halaman ini."
     },
     "validationFE": {
-      "enterValueOfOne": "Masukkan nilai 1 atau lebih."
+      "enterValueOfOne": "Masukkan nilai 1 atau lebih.",
+      "cannotBeUndone": "Ini tidak boleh dibuat asal.",
+      "confirmCancelPlan": "Adakah anda pasti mahu membatalkan pelan ini?",
+      "confirmChangeStatusToDraft": "Adakah anda pasti mahu menukar status kepada draf?",
+      "confirmRemove": "Adakah anda pasti mahu mengalih keluar",
+      "confirmRemoveAutomation": "Adakah anda pasti mahu mengalih keluar automasi ini?",
+      "fromThis": "daripada ini"
     }
   },
   "contracts": {

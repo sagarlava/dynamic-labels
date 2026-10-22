@@ -2749,6 +2749,209 @@
         "plural": "Fixed",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Last Modified By",
+        "plural": "Last Modified By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Last Modified Date",
+        "plural": "Last Modified Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Created By",
+        "plural": "Created By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Created On",
+        "plural": "Created On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Search by Name",
+        "plural": "Search by Name",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Multiple",
+        "plural": "Multiple",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Auto-Apply",
+        "plural": "Auto-Apply",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "Serial No.",
+        "plural": "Serial Nos.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Last Maintenance",
+        "plural": "Last Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Next Maintenance",
+        "plural": "Next Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Cycle Month",
+        "plural": "Cycle Months",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Last Maintenance Meter",
+        "plural": "Last Maintenance Meters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Maintenance Template",
+        "plural": "Maintenance Templates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Trigger",
+        "plural": "Triggers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Adjust Date",
+        "plural": "Adjust Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Next Interval",
+        "plural": "Next Intervals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Meter Reading",
+        "plural": "Meter Readings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Last Maintenance Date",
+        "plural": "Last Maintenance Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Last Maintenance Status",
+        "plural": "Last Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Next Maintenance Status",
+        "plural": "Next Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Preventive Maintenance Type",
+        "plural": "Preventive Maintenance Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Recurring Job",
+        "plural": "Recurring Jobs",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2780,7 +2983,7 @@
       "giveYourPlanAName": "Give your plan a name.",
       "planWillBeActivatedOn": "Plan will be activated on",
       "whenToStartThePlan": "When to start the plan",
-      "jobsCreatedBetweenDates": "Jobs are created only between the start and end dates. If you leave the end as Never, the plan keeps running until you cancel it.",
+      "jobsCreatedBetweenDates": "Jobs are created only between the start and end dates. If you leave the end as Never End, the plan keeps running until you cancel it.",
       "startPlanFrom": "Start plan from",
       "enterStartDateToProceed": "Enter a start date to proceed.",
       "enterEndDateToProceed": "Enter a end date to proceed.",
@@ -2899,10 +3102,93 @@
       "multiple": "multiple",
       "toThisMaintenancePlanInBulk": "to this maintenance plan in bulk.",
       "autoApplyToNew": "Auto-apply to",
-      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to"
+      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to",
+      "numberShortForm":"No.",
+      "numberOfShortForm":"No. of",
+      "youWouldLikeToCreate":"you would like to create",
+      "draftStatusDesc": "Configuration is saved, but no jobs are created or run. Everything is still fully editable.",
+      "scheduledStatusDesc": "Start/end dates are set, but it hasn't started yet. It will activate on the start date; edits are still allowed.",
+      "activeStatusDesc": "Jobs are being created/run as planned; changes only affect future jobs.",
+      "expiredStatusDesc": "The end date has passed. No new jobs are created; existing/past jobs remain for reference.",
+      "cancelledStatusDesc": "Stopped manually. All future jobs are immediately halted, regardless of dates.",
+      "setHowOftenMaintenanceHappens": "Set how often the maintenance happens, pick the job template, and decide when to generate",
+      "howOftenMaintenanceRepeated": "How often should the maintenance be repeated?",
+      "pickJobTemplateForMaintenance": "Pick the job template to be generated for the maintenance",
+      "beforeReschedulingThenReschedule": "before rescheduling, then reschedule the job",
+      "planDoesntHaveAny": "This plan doesn't have any",
+      "yet": "yet",
+      "manuallyOrSetUpAutomation": "manually or set up automation to get this plan up and running",
+      "autoApplyConditions": "Auto-apply conditions",
+      "setAutomation": "Set Automation",
+      "automaticallyApply": "Automatically apply",
+      "useTriggersToAutoApply": "Use triggers to automatically apply this",
+      "forChosen": "for chosen",
+      "selectAdvancedTrigger": "Select ‘Advanced trigger’ to configure advanced conditions.",
+      "needComplexLogic": "Need complex logic?",
+      "entryWhich": "Entry: Which",
+      "shouldThis": "should this",
+      "automaticallyApplyTo": "automatically apply to?",
+      "fieldexWillApplyThis": "FieldEx will apply this",
+      "forNew": "for new",
+      "matchAllConditionsExisting": "that match all conditions below. Existing",
+      "areNotChanged": "are not changed.",
+      "exitWhenShould": "Exit: When should",
+      "beRemovedFromThe": "be removed from the",
+      "when": "When",
+      "is": "is",
+      "which": "Which",
+      "shouldThisApplyTo": "should this apply to?",
+      "meetConditionsGetMaintenance": "that meet the conditions below will get this",
+      "willBeAdded":"will be added",
+      "willBeAddedToThe":"will be added to the",
+      "previewSelection":"Preview selection",
+      "setTheConditions": "Set the conditions",
+      "inBulk": "in bulk",
+      "useFiltersOrSearchToFind": "Use the filters or search to find",
+      "thenTickCheckboxesTo": ", then tick the checkboxes to",
+      "oneOrMore": "one or more",
+      "fineTuneSelection": "You can fine-tune your selection before confirming.",
+      "filterTheList": "Filter the list",
+      "selected": "selected",
+      "tip": "Tip",
+      "filtersSafeToChange": "You can safely change filters after selecting",
+      "yourSelectionsWillStay": "Your selections will stay until you leave this page.",
+      "adjustNextMaintenanceDate": "Adjust next maintenance date",
+      "chooseNewDateForNextMaintenance": "Choose a new date for the next scheduled maintenance. This will not change past visits.",
+      "currentNextDate": "Current next date:",
+      "newNextMaintenanceDate": "New next maintenance date",
+      "onlyFutureDatesAllowed": "Only future dates are allowed. Future",
+      "willBeRescheduled": "will be rescheduled to this date.",
+      "showActiveOnly": "Show active only",
+      "theContract": "The contract:",
+      "isLinkedToThisRecord": "is linked to this Maintenance Record.",
+      "addedTo": "added to",
+      "willBeDisplayedHere": "will be displayed here.",
+      "notApplicable": "N/A",
+      "loadingMorePlans": "Loading more plans...",
+      "last": "Last",
+      "next": "Next",
+      "weeks": "Week(s)",
+      "months": "Month(s)",
+      "years": "Year(s)",
+      "days": "Day(s)",
+      "createNewPlanSameConfig": "Create a new plan using the same configuration as the original. Update the date range and choose whether to copy all the data.",
+      "cloningFrom": "Cloning from:",
+      "planDetails": "Plan Details",
+      "doYouWantToCloneLinked": "Do you want to clone the linked",
+      "createNewPlanWithSame": "Create a new plan with the same",
+      "orStartWithNo": ", or start with no",
+      "andLinkThemLater": "and link them later.",
+      "pm":"PM"
     },
     "validationFE": {
-      "enterValueOfOne": "Enter a value of 1 or greater."
+      "enterValueOfOne": "Enter a value of 1 or greater.",
+      "confirmCancelPlan": "Are you sure you want to cancel this plan?",
+      "confirmChangeStatusToDraft": "Are you sure you want to change status to draft?",
+      "confirmRemove": "Are you sure you want to remove",
+      "fromThis": "from this",
+      "cannotBeUndone": "This cannot be undone.",
+      "confirmRemoveAutomation": "Are you sure you want to remove this automation?"
     }
   },
   "contracts": {

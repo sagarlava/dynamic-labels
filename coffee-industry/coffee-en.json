@@ -2534,6 +2534,209 @@
         "plural": "Fixed",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Adjust Date",
+        "plural": "Adjust Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Auto-Apply",
+        "plural": "Auto-Apply",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Created By",
+        "plural": "Created By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Created On",
+        "plural": "Created On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Cycle Month",
+        "plural": "Cycle Months",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Last Maintenance",
+        "plural": "Last Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Last Maintenance Date",
+        "plural": "Last Maintenance Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Last Maintenance Meter",
+        "plural": "Last Maintenance Meters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Last Maintenance Status",
+        "plural": "Last Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Last Modified By",
+        "plural": "Last Modified By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Last Modified Date",
+        "plural": "Last Modified Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Maintenance Template",
+        "plural": "Maintenance Templates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Meter Reading",
+        "plural": "Meter Readings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Multiple",
+        "plural": "Multiple",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Next Interval",
+        "plural": "Next Intervals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Next Maintenance",
+        "plural": "Next Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Next Maintenance Status",
+        "plural": "Next Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Preventive Maintenance Type",
+        "plural": "Preventive Maintenance Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Recurring Job",
+        "plural": "Recurring Jobs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Search by Name",
+        "plural": "Search by Name",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "Serial No.",
+        "plural": "Serial Nos.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Trigger",
+        "plural": "Triggers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2684,10 +2887,93 @@
       "multiple": "multiple",
       "toThisMaintenancePlanInBulk": "to this maintenance plan in bulk.",
       "autoApplyToNew": "Auto-apply to",
-      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to"
+      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to",
+      "activeStatusDesc": "Jobs are being created/run as planned; changes only affect future jobs.",
+      "addedTo": "added to",
+      "adjustNextMaintenanceDate": "Adjust next maintenance date",
+      "andLinkThemLater": "and link them later.",
+      "areNotChanged": "are not changed.",
+      "autoApplyConditions": "Auto-apply conditions",
+      "automaticallyApply": "Automatically apply",
+      "automaticallyApplyTo": "automatically apply to?",
+      "beRemovedFromThe": "be removed from the",
+      "beforeReschedulingThenReschedule": "before rescheduling, then reschedule the job",
+      "cancelledStatusDesc": "Stopped manually. All future jobs are immediately halted, regardless of dates.",
+      "chooseNewDateForNextMaintenance": "Choose a new date for the next scheduled maintenance. This will not change past visits.",
+      "cloningFrom": "Cloning from:",
+      "createNewPlanSameConfig": "Create a new plan using the same configuration as the original. Update the date range and choose whether to copy all the data.",
+      "createNewPlanWithSame": "Create a new plan with the same",
+      "currentNextDate": "Current next date:",
+      "days": "Day(s)",
+      "doYouWantToCloneLinked": "Do you want to clone the linked",
+      "draftStatusDesc": "Configuration is saved, but no jobs are created or run. Everything is still fully editable.",
+      "entryWhich": "Entry: Which",
+      "exitWhenShould": "Exit: When should",
+      "expiredStatusDesc": "The end date has passed. No new jobs are created; existing/past jobs remain for reference.",
+      "fieldexWillApplyThis": "FieldEx will apply this",
+      "filterTheList": "Filter the list",
+      "filtersSafeToChange": "You can safely change filters after selecting",
+      "fineTuneSelection": "You can fine-tune your selection before confirming.",
+      "forChosen": "for chosen",
+      "forNew": "for new",
+      "howOftenMaintenanceRepeated": "How often should the maintenance be repeated?",
+      "inBulk": "in bulk",
+      "is": "is",
+      "isLinkedToThisRecord": "is linked to this Maintenance Record.",
+      "last": "Last",
+      "loadingMorePlans": "Loading more plans...",
+      "manuallyOrSetUpAutomation": "manually or set up automation to get this plan up and running",
+      "matchAllConditionsExisting": "that match all conditions below. Existing",
+      "meetConditionsGetMaintenance": "that meet the conditions below will get this",
+      "months": "Month(s)",
+      "needComplexLogic": "Need complex logic?",
+      "newNextMaintenanceDate": "New next maintenance date",
+      "next": "Next",
+      "notApplicable": "N/A",
+      "numberOfShortForm": "No. of",
+      "numberShortForm": "No.",
+      "oneOrMore": "one or more",
+      "onlyFutureDatesAllowed": "Only future dates are allowed. Future",
+      "orStartWithNo": ", or start with no",
+      "pickJobTemplateForMaintenance": "Pick the job template to be generated for the maintenance",
+      "planDetails": "Plan Details",
+      "planDoesntHaveAny": "This plan doesn't have any",
+      "pm": "PM",
+      "previewSelection": "Preview selection",
+      "scheduledStatusDesc": "Start/end dates are set, but it hasn't started yet. It will activate on the start date; edits are still allowed.",
+      "selectAdvancedTrigger": "Select ‘Advanced trigger’ to configure advanced conditions.",
+      "selected": "selected",
+      "setAutomation": "Set Automation",
+      "setHowOftenMaintenanceHappens": "Set how often the maintenance happens, pick the job template, and decide when to generate",
+      "setTheConditions": "Set the conditions",
+      "shouldThis": "should this",
+      "shouldThisApplyTo": "should this apply to?",
+      "showActiveOnly": "Show active only",
+      "theContract": "The contract:",
+      "thenTickCheckboxesTo": ", then tick the checkboxes to",
+      "tip": "Tip",
+      "useFiltersOrSearchToFind": "Use the filters or search to find",
+      "useTriggersToAutoApply": "Use triggers to automatically apply this",
+      "weeks": "Week(s)",
+      "when": "When",
+      "which": "Which",
+      "willBeAdded": "will be added",
+      "willBeAddedToThe": "will be added to the",
+      "willBeDisplayedHere": "will be displayed here.",
+      "willBeRescheduled": "will be rescheduled to this date.",
+      "years": "Year(s)",
+      "yet": "yet",
+      "youWouldLikeToCreate": "you would like to create",
+      "yourSelectionsWillStay": "Your selections will stay until you leave this page."
     },
     "validationFE": {
-      "enterValueOfOne": "Enter a value of 1 or greater."
+      "enterValueOfOne": "Enter a value of 1 or greater.",
+      "cannotBeUndone": "This cannot be undone.",
+      "confirmCancelPlan": "Are you sure you want to cancel this plan?",
+      "confirmChangeStatusToDraft": "Are you sure you want to change status to draft?",
+      "confirmRemove": "Are you sure you want to remove",
+      "confirmRemoveAutomation": "Are you sure you want to remove this automation?",
+      "fromThis": "from this"
     }
   },
   "contracts": {

@@ -2749,6 +2749,209 @@
         "plural": "Fest",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Datum anpassen",
+        "plural": "Daten anpassen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Automatisch anwenden",
+        "plural": "Automatisch anwenden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Erstellt von",
+        "plural": "Erstellt von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Erstellt am",
+        "plural": "Erstellt am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Zyklusmonat",
+        "plural": "Zyklusmonate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Datum",
+        "plural": "Daten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Enddatum",
+        "plural": "Enddatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Letzte Wartung",
+        "plural": "Letzte Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Datum der letzten Wartung",
+        "plural": "Daten der letzten Wartung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Zähler der letzten Wartung",
+        "plural": "Zähler der letzten Wartung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Status der letzten Wartung",
+        "plural": "Status der letzten Wartung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Zuletzt geändert von",
+        "plural": "Zuletzt geändert von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Datum der letzten Änderung",
+        "plural": "Datum der letzten Änderung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Wartungsvorlage",
+        "plural": "Wartungsvorlagen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Zählerstand",
+        "plural": "Zählerstände",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Mehrere",
+        "plural": "Mehrere",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Nächstes Intervall",
+        "plural": "Nächste Intervalle",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Nächste Wartung",
+        "plural": "Nächste Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Status der nächsten Wartung",
+        "plural": "Status der nächsten Wartung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Art der vorbeugenden Wartung",
+        "plural": "Arten der vorbeugenden Wartung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Wiederkehrender Auftrag",
+        "plural": "Wiederkehrende Aufträge",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Nach Name suchen",
+        "plural": "Nach Name suchen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "Seriennr.",
+        "plural": "Seriennr.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Startdatum",
+        "plural": "Startdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Auslöser",
+        "plural": "Auslöser",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Typ",
+        "plural": "Typen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2899,10 +3102,93 @@
       "multiple": "mehrere",
       "toThisMaintenancePlanInBulk": "zu diesem Wartungsplan in einem Schritt hinzufügen.",
       "autoApplyToNew": "Automatisch anwenden auf",
-      "setConditionsToAutoApply": "Legen Sie die Bedingungen fest, um diesen Plan automatisch anzuwenden auf"
+      "setConditionsToAutoApply": "Legen Sie die Bedingungen fest, um diesen Plan automatisch anzuwenden auf",
+      "activeStatusDesc": "Aufträge werden wie geplant erstellt und ausgeführt; Änderungen betreffen nur zukünftige Aufträge.",
+      "addedTo": "hinzugefügt zu",
+      "adjustNextMaintenanceDate": "Nächstes Wartungsdatum anpassen",
+      "andLinkThemLater": "und sie später verknüpfen.",
+      "areNotChanged": "werden nicht geändert.",
+      "autoApplyConditions": "Bedingungen für automatische Anwendung",
+      "automaticallyApply": "Automatisch anwenden",
+      "automaticallyApplyTo": "automatisch anwenden auf?",
+      "beRemovedFromThe": "entfernt werden aus",
+      "beforeReschedulingThenReschedule": "vor der Umbuchung, dann den Auftrag neu planen",
+      "cancelledStatusDesc": "Manuell gestoppt. Alle zukünftigen Aufträge werden sofort angehalten, unabhängig von den Daten.",
+      "chooseNewDateForNextMaintenance": "Wählen Sie ein neues Datum für die nächste geplante Wartung. Vergangene Besuche werden nicht geändert.",
+      "cloningFrom": "Klonen von:",
+      "createNewPlanSameConfig": "Erstellen Sie einen neuen Plan mit derselben Konfiguration wie das Original. Aktualisieren Sie den Datumsbereich und wählen Sie, ob alle Daten kopiert werden sollen.",
+      "createNewPlanWithSame": "Neuen Plan erstellen mit demselben",
+      "currentNextDate": "Aktuelles nächstes Datum:",
+      "days": "Tag(e)",
+      "doYouWantToCloneLinked": "Möchten Sie die verknüpften",
+      "draftStatusDesc": "Die Konfiguration ist gespeichert, aber es werden keine Aufträge erstellt oder ausgeführt. Alles bleibt vollständig bearbeitbar.",
+      "entryWhich": "Eintritt: Welche",
+      "exitWhenShould": "Austritt: Wann soll",
+      "expiredStatusDesc": "Das Enddatum ist überschritten. Es werden keine neuen Aufträge erstellt; vorhandene und vergangene Aufträge bleiben als Referenz.",
+      "fieldexWillApplyThis": "FieldEx wendet dies an",
+      "filterTheList": "Liste filtern",
+      "filtersSafeToChange": "Sie können Filter nach der Auswahl sicher ändern",
+      "fineTuneSelection": "Sie können Ihre Auswahl vor dem Bestätigen feinabstimmen.",
+      "forChosen": "für ausgewählte",
+      "forNew": "für neue",
+      "howOftenMaintenanceRepeated": "Wie oft soll die Wartung wiederholt werden?",
+      "inBulk": "in Masse",
+      "is": "ist",
+      "isLinkedToThisRecord": "ist mit diesem Wartungsdatensatz verknüpft.",
+      "last": "Letzte",
+      "loadingMorePlans": "Weitere Pläne werden geladen...",
+      "manuallyOrSetUpAutomation": "manuell hinzufügen oder Automatisierung einrichten, damit dieser Plan läuft",
+      "matchAllConditionsExisting": "die alle folgenden Bedingungen erfüllen. Bestehende",
+      "meetConditionsGetMaintenance": "die die folgenden Bedingungen erfüllen, erhalten diese",
+      "months": "Monat(e)",
+      "needComplexLogic": "Komplexe Logik erforderlich?",
+      "newNextMaintenanceDate": "Neues nächstes Wartungsdatum",
+      "next": "Nächste",
+      "notApplicable": "k. A.",
+      "numberOfShortForm": "Anz.",
+      "numberShortForm": "Nr.",
+      "oneOrMore": "einen oder mehrere",
+      "onlyFutureDatesAllowed": "Nur zukünftige Daten sind erlaubt. Zukünftige",
+      "orStartWithNo": ", oder starten ohne",
+      "pickJobTemplateForMaintenance": "Wählen Sie die Auftragsvorlage, die für die Wartung erzeugt werden soll",
+      "planDetails": "Plandetails",
+      "planDoesntHaveAny": "Dieser Plan hat keine",
+      "pm": "PM",
+      "previewSelection": "Auswahlvorschau",
+      "scheduledStatusDesc": "Start- und Enddatum sind gesetzt, aber es hat noch nicht begonnen. Es wird am Startdatum aktiviert; Bearbeitungen sind weiterhin erlaubt.",
+      "selectAdvancedTrigger": "Wählen Sie ‚Erweiterter Auslöser‘, um erweiterte Bedingungen zu konfigurieren.",
+      "selected": "ausgewählt",
+      "setAutomation": "Automatisierung festlegen",
+      "setHowOftenMaintenanceHappens": "Legen Sie fest, wie oft die Wartung erfolgt, wählen Sie die Auftragsvorlage und entscheiden Sie, wann erstellt wird",
+      "setTheConditions": "Bedingungen festlegen",
+      "shouldThis": "soll dies",
+      "shouldThisApplyTo": "worauf soll dies angewendet werden?",
+      "showActiveOnly": "Nur aktive anzeigen",
+      "theContract": "Der Vertrag:",
+      "thenTickCheckboxesTo": ", dann die Kontrollkästchen aktivieren, um",
+      "tip": "Tipp",
+      "useFiltersOrSearchToFind": "Verwenden Sie Filter oder die Suche, um zu finden",
+      "useTriggersToAutoApply": "Verwenden Sie Auslöser, um dies automatisch anzuwenden",
+      "weeks": "Woche(n)",
+      "when": "Wenn",
+      "which": "Welche",
+      "willBeAdded": "werden hinzugefügt",
+      "willBeAddedToThe": "werden hinzugefügt zu",
+      "willBeDisplayedHere": "werden hier angezeigt.",
+      "willBeRescheduled": "werden auf dieses Datum verschoben.",
+      "years": "Jahr(e)",
+      "yet": "noch",
+      "youWouldLikeToCreate": "die Sie erstellen möchten",
+      "yourSelectionsWillStay": "Ihre Auswahl bleibt erhalten, bis Sie diese Seite verlassen."
     },
     "validationFE": {
-      "enterValueOfOne": "Geben Sie einen Wert von 1 oder größer ein."
+      "enterValueOfOne": "Geben Sie einen Wert von 1 oder größer ein.",
+      "cannotBeUndone": "Dies kann nicht rückgängig gemacht werden.",
+      "confirmCancelPlan": "Möchten Sie diesen Plan wirklich abbrechen?",
+      "confirmChangeStatusToDraft": "Möchten Sie den Status wirklich auf Entwurf ändern?",
+      "confirmRemove": "Möchten Sie wirklich entfernen",
+      "confirmRemoveAutomation": "Möchten Sie diese Automatisierung wirklich entfernen?",
+      "fromThis": "von diesem"
     }
   },
   "contracts": {
