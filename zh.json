@@ -2859,6 +2859,209 @@
         "plural": "固定",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "调整日期",
+        "plural": "调整日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "自动应用",
+        "plural": "自动应用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "创建者",
+        "plural": "创建者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "创建日期",
+        "plural": "创建日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "创建于",
+        "plural": "创建于",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "周期月份",
+        "plural": "周期月份",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "日期",
+        "plural": "日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "结束日期",
+        "plural": "结束日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "上次维护",
+        "plural": "上次维护",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "上次维护日期",
+        "plural": "上次维护日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "上次维护仪表",
+        "plural": "上次维护仪表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "上次维护状态",
+        "plural": "上次维护状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "最后修改者",
+        "plural": "最后修改者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "最后修改日期",
+        "plural": "最后修改日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "维护模板",
+        "plural": "维护模板",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "仪表读数",
+        "plural": "仪表读数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "多个",
+        "plural": "多个",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "下一间隔",
+        "plural": "下一间隔",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "下次维护",
+        "plural": "下次维护",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "下次维护状态",
+        "plural": "下次维护状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "预防性维护类型",
+        "plural": "预防性维护类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "周期性工作",
+        "plural": "周期性工作",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "按名称搜索",
+        "plural": "按名称搜索",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "序列号",
+        "plural": "序列号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "开始日期",
+        "plural": "开始日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "触发器",
+        "plural": "触发器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "类型",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -3009,10 +3212,93 @@
       "multiple": "多个",
       "toThisMaintenancePlanInBulk": "批量添加到此维护计划。",
       "autoApplyToNew": "自动应用到",
-      "setConditionsToAutoApply": "设置条件以自动将此计划应用于"
+      "setConditionsToAutoApply": "设置条件以自动将此计划应用于",
+      "activeStatusDesc": "工作正按计划创建和运行；更改仅影响未来工作。",
+      "addedTo": "已添加到",
+      "adjustNextMaintenanceDate": "调整下次维护日期",
+      "andLinkThemLater": "并稍后关联它们。",
+      "areNotChanged": "不会被更改。",
+      "autoApplyConditions": "自动应用条件",
+      "automaticallyApply": "自动应用",
+      "automaticallyApplyTo": "自动应用到？",
+      "beRemovedFromThe": "从以下移除",
+      "beforeReschedulingThenReschedule": "在改期之前，然后重新安排该工作",
+      "cancelledStatusDesc": "已手动停止。无论日期如何，所有未来工作都会立即停止。",
+      "chooseNewDateForNextMaintenance": "为下次计划维护选择新日期。这不会更改过去的访问。",
+      "cloningFrom": "克隆自：",
+      "createNewPlanSameConfig": "使用与原始计划相同的配置创建新计划。更新日期范围并选择是否复制全部数据。",
+      "createNewPlanWithSame": "使用相同的",
+      "currentNextDate": "当前下次日期：",
+      "days": "天",
+      "doYouWantToCloneLinked": "是否要克隆已关联的",
+      "draftStatusDesc": "配置已保存，但不会创建或运行工作。一切仍可完全编辑。",
+      "entryWhich": "进入：哪些",
+      "exitWhenShould": "退出：何时应",
+      "expiredStatusDesc": "结束日期已过。不再创建新工作；现有和过去的工作仍保留供参考。",
+      "fieldexWillApplyThis": "FieldEx 将应用此",
+      "filterTheList": "筛选列表",
+      "filtersSafeToChange": "选择后可以安全更改筛选器",
+      "fineTuneSelection": "确认前可以微调您的选择。",
+      "forChosen": "针对所选",
+      "forNew": "针对新的",
+      "howOftenMaintenanceRepeated": "维护应多久重复一次？",
+      "inBulk": "批量",
+      "is": "是",
+      "isLinkedToThisRecord": "已关联到此维护记录。",
+      "last": "上次",
+      "loadingMorePlans": "正在加载更多计划...",
+      "manuallyOrSetUpAutomation": "手动添加或设置自动化以使此计划运行",
+      "matchAllConditionsExisting": "符合以下全部条件的。现有的",
+      "meetConditionsGetMaintenance": "满足以下条件的将获得此",
+      "months": "个月",
+      "needComplexLogic": "需要复杂逻辑？",
+      "newNextMaintenanceDate": "新的下次维护日期",
+      "next": "下次",
+      "notApplicable": "不适用",
+      "numberOfShortForm": "数量",
+      "numberShortForm": "编号",
+      "oneOrMore": "一个或多个",
+      "onlyFutureDatesAllowed": "仅允许未来日期。未来的",
+      "orStartWithNo": "，或从没有",
+      "pickJobTemplateForMaintenance": "选择将为维护生成的工作模板",
+      "planDetails": "计划详情",
+      "planDoesntHaveAny": "此计划没有任何",
+      "pm": "PM",
+      "previewSelection": "预览选择",
+      "scheduledStatusDesc": "已设置开始和结束日期，但尚未开始。将在开始日期激活；仍允许编辑。",
+      "selectAdvancedTrigger": "选择“高级触发器”以配置高级条件。",
+      "selected": "已选择",
+      "setAutomation": "设置自动化",
+      "setHowOftenMaintenanceHappens": "设置维护频率，选择工作模板，并决定何时生成",
+      "setTheConditions": "设置条件",
+      "shouldThis": "此",
+      "shouldThisApplyTo": "此应应用到？",
+      "showActiveOnly": "仅显示启用",
+      "theContract": "合同：",
+      "thenTickCheckboxesTo": "，然后勾选复选框以",
+      "tip": "提示",
+      "useFiltersOrSearchToFind": "使用筛选或搜索以查找",
+      "useTriggersToAutoApply": "使用触发器自动应用此",
+      "weeks": "周",
+      "when": "当",
+      "which": "哪些",
+      "willBeAdded": "将被添加",
+      "willBeAddedToThe": "将被添加到",
+      "willBeDisplayedHere": "将显示在此处。",
+      "willBeRescheduled": "将改期到此日期。",
+      "years": "年",
+      "yet": "尚未",
+      "youWouldLikeToCreate": "您想创建的",
+      "yourSelectionsWillStay": "在您离开此页之前，您的选择将保留。"
     },
     "validationFE": {
-      "enterValueOfOne": "请输入 1 或更大的值。"
+      "enterValueOfOne": "请输入 1 或更大的值。",
+      "cannotBeUndone": "此操作无法撤销。",
+      "confirmCancelPlan": "确定要取消此计划吗？",
+      "confirmChangeStatusToDraft": "确定要将状态改为草稿吗？",
+      "confirmRemove": "确定要移除",
+      "confirmRemoveAutomation": "确定要移除此自动化吗？",
+      "fromThis": "从此"
     }
   },
   "contracts": {
@@ -6534,6 +6820,13 @@
         "plural": "基本信息",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "排程操作与筛选",
+        "plural": "排程操作与筛选",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6587,6 +6880,69 @@
         "plural": "结束日期",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "所有频率",
+        "plural": "所有频率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "分配给",
+        "plural": "分配给",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "当前用户",
+        "plural": "当前用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "每天",
+        "plural": "每天",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "每月",
+        "plural": "每月",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "新用户",
+        "plural": "新用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "每季度",
+        "plural": "每季度",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "每周",
+        "plural": "每周",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "每年",
+        "plural": "每年",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6625,10 +6981,20 @@
       "areIncluded": "被包含",
       "datesWithDot": "带圆点的日期有",
       "clickOneToView": "点击其一即可在右侧查看",
-      "scheduledForThisDate": "分配后，此日期的排程将显示在下方"
+      "scheduledForThisDate": "分配后，此日期的排程将显示在下方",
+      "bulkReAssignJobs": "批量重新指派工作，对象为",
+      "pleaseSelectA": "请选择一个",
+      "selectDateRangeRemoveScheduledJobs": "选择日期范围以移除其中的已排程工作",
+      "toSearchA": "以搜索",
+      "transferAssignedJobs": "将已指派的工作从一个用户转移到另一个用户"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "只允许字母和数字"
+      "onlyTextNumberAllowed": "只允许字母和数字",
+      "haveBeenGeneratedSuccessfully": "已成功生成",
+      "noJobsScheduledFor": "没有为此安排的工作",
+      "scheduleToView": "排程后即可在此查看",
+      "thisActionWillDelete": "此操作将删除",
+      "withTheStatuses": "状态为“新建”或“已排程”"
     },
     "emptyPage":{
       "getStartedWithSite": "从站点开始",
@@ -16485,6 +16851,55 @@
         "original": "Download Error Report",
         "singular": "下载错误报告",
         "plural": "下载错误报告",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "允许",
+        "plural": "允许",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "关",
+        "plural": "关",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "开",
+        "plural": "开",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "带我去那里",
+        "plural": "带我去那里",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "折叠",
+        "plural": "折叠",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "展开",
+        "plural": "展开",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "上一步",
+        "plural": "上一步",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -31993,6 +32408,602 @@
             "user_leave_reject": "您的休假已被拒绝"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "门户",
+        "plural": "门户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "域名",
+          "plural": "域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "品牌",
+          "plural": "品牌",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "模块",
+          "plural": "模块",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "门户",
+          "plural": "门户",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "模块可见性",
+          "plural": "模块可见性",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "门户标识",
+          "plural": "门户标识",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "子域名",
+          "plural": "子域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "价格",
+          "plural": "价格",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "定价",
+          "plural": "定价",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "徽标",
+          "plural": "徽标",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "页眉颜色",
+          "plural": "页眉颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "页眉字体颜色",
+          "plural": "页眉字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "侧边栏颜色",
+          "plural": "侧边栏颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "侧边栏字体颜色",
+          "plural": "侧边栏字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "按钮颜色",
+          "plural": "按钮颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "按钮字体颜色",
+          "plural": "按钮字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "字体系列",
+          "plural": "字体系列",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "什么是",
+        "enableAndManagePortals": "为您的对象启用并管理自助门户",
+        "descThe": "",
+        "descPortalGivesEach": "门户为您的每一位",
+        "descDedicatedPage": "提供专属品牌网页，供其独立跟踪",
+        "descBrowseRegistered": "，并浏览其已登记的",
+        "descUniqueUrl": "——无需致电您的团队。每个门户都有唯一 URL（例如 drewbar.fieldex.com），并按",
+        "descYouControl": "完整定制品牌，且由您精确控制他们可见的内容",
+        "allowYour": "允许您的",
+        "throughSharedPortal": "通过共享门户",
+        "editModeSaveBeforeNavigating": "您处于编辑模式。请先保存再切换到其他选项卡",
+        "controlWhichSection": "控制哪些部分",
+        "canAccessInPortal": "可在门户中访问",
+        "canViewCreateTrackAll": "可以查看、创建和跟踪所有",
+        "moduleAlwaysEnabled": "。此模块始终启用，无法关闭",
+        "alwaysOn": "始终开启",
+        "showThePreventive": "显示预防性",
+        "scheduleAndPmHistory": "计划与 PM 历史显示在门户中",
+        "on": "开",
+        "off": "关",
+        "toBrowseRegistered": "以浏览其已登记的",
+        "listAndView": "列出并查看",
+        "details": "详情",
+        "isAvailable": "可用",
+        "isNotAvailable": "不可用",
+        "subdomainWhereAll": "所有",
+        "accessThePortal": "访问门户的子域名",
+        "sharedUrlWhereAllYour": "您所有",
+        "logIn": "登录",
+        "each": "每位",
+        "customerOwnData": "仅看到自己的数据",
+        "subdomainFormatHint": "仅限小写字母、数字和连字符",
+        "andRescheduling": "与改期",
+        "shown": "显示",
+        "which": "哪些",
+        "of": "的",
+        "areVisibleTo": "对以下可见",
+        "inThePortal": "在门户中",
+        "thatAreAvailableFor": "可用于",
+        "to": "至",
+        "areAvailableForCreation": "可用于创建",
+        "ableToSelectFromList": "将能够从列表中选择",
+        "toReschedule": "以改期",
+        "canRequestNewDate": "可为开放或即将到来的",
+        "directlyFromPortal": "请求新日期，直接从门户操作",
+        "list": "列表",
+        "displayPartsUsedIn": "显示已完成",
+        "onThe": "中使用的零件显示在",
+        "detailView": "详情视图",
+        "unitCostRequires": "每个零件的单价与总价",
+        "requires": "需要",
+        "toBeOn": "开启。",
+        "statusLabelsShownFor": "显示的状态标签用于",
+        "theLabelsOfStatusShownIn": "在以下位置显示的状态标签",
+        "brandingDesc": "显示在面向客户的门户中的徽标、颜色和字体",
+        "logoDesc": "显示在门户页眉。请使用透明背景的 SVG 或 PNG。最大 1 MB。",
+        "headerColourDesc": "主主题导航栏",
+        "headerFontColourDesc": "门户页眉中的文字",
+        "sidebarColourDesc": "侧边菜单栏颜色",
+        "sidebarFontColourDesc": "侧边菜单字体颜色",
+        "buttonColourDesc": "按钮背景色",
+        "buttonFontColourDesc": "按钮文字颜色。提示：相对按钮背景使用高对比度",
+        "fontFamilyDesc": "显示在客户门户中的字体",
+        "selectTheThemeColours": "选择主题颜色",
+        "selectAFont": "选择字体"
+      },
+      "validationFE": {
+        "failedToSave": "保存失败",
+        "pleaseTryAgain": "请重试",
+        "hasBeenSaved": "已成功保存",
+        "recommendedImg": "推荐（40px X 40 px）或（160px X 40 px）",
+        "activationFailed": "激活失败"
+      }
+    },
+    "portal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "门户",
+        "plural": "门户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "基本信息",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "域名",
+          "plural": "域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "品牌",
+          "plural": "品牌",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "模块",
+          "plural": "模块",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "标签",
+          "plural": "标签",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "代码",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "颜色",
+          "plural": "颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "颜色代码",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "默认",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "可用",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "行动",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "重新排序",
+          "plural": "重新排序",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "品牌",
+          "plural": "品牌",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "标志",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "页眉颜色",
+          "plural": "页眉颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "页眉字体颜色",
+          "plural": "页眉字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "侧边栏颜色",
+          "plural": "侧边栏颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "侧边栏字体颜色",
+          "plural": "侧边栏字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "按钮颜色",
+          "plural": "按钮颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "按钮字体颜色",
+          "plural": "按钮字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "字体系列",
+          "plural": "字体系列",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "门户标识",
+          "plural": "门户标识",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "模块可见性",
+          "plural": "模块可见性",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "configuration": {
+          "original": "Configurations",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "门户",
+          "plural": "门户",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "子域名",
+          "plural": "子域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "价格",
+          "plural": "价格",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "定价",
+          "plural": "定价",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "the": "",
+        "givesEachOfYour": "为您的每一位",
+        "dedicatedBrandedPage": "提供专属品牌网页，供其独立跟踪",
+        "andBrowseTheirRegistered": "并浏览其已登记的",
+        "withoutCallingYourTeam": "无需致电您的团队。",
+        "eachPortalLivesOnUniqueUrl": "每个门户都有唯一 URL（例如 drewbar.fieldex.com），并按",
+        "urlExample": "例如 drewbar.fieldex.com",
+        "youControlWhatTheySee": "且由您精确控制他们可见的内容。",
+        "allowYour": "允许您的",
+        "to": "至",
+        "throughASharedPortal": "通过共享门户",
+        "and": "和",
+        "enableAccessFor": "为您所有的对象启用门户访问",
+        "whatHappensWhenYouActivate": "激活后会发生什么",
+        "portalFeatureEnabled": "已为您的组织启用门户功能",
+        "youWillBeTaken": "您将被带到配置页面以设置品牌、模块和",
+        "settings": "设置",
+        "how": "如何",
+        "getAccess": "获得访问",
+        "goToThe": "前往",
+        "tabAndOpenA": "选项卡并打开一个",
+        "record": "记录",
+        "addA": "添加一个",
+        "toThe": "到",
+        "enablePortalAccess": "启用门户访问",
+        "forThat": "针对该",
+        "fromThe": "从",
+        "recordYouCanAlso": "记录，您也可以",
+        "resetTheirPassword": "重置其密码",
+        "or": "或",
+        "revokePortalAccess": "撤销门户访问",
+        "atAnyTime": "随时",
+        "availableStatuses": "可用状态",
+        "addNewStatusesIfRequired": "如需要，请输入名称、代码和颜色代码以添加新状态。",
+        "note": "注意：",
+        "newlyCreatedStatusesWillBe": "新创建的状态将可见，但不会设为",
+        "available": "可用",
+        "forOtherJobOrderTypes": "用于其他工作订单类型。",
+        "addStatus": "添加状态",
+        "dragStatusHandlesToReorder": "拖动状态手柄以重新排序。将状态切换为",
+        "toIncludeThemForThisType": "以便将它们纳入此工作订单类型。为状态选择唯一颜色，并为此类型设置一个默认状态。",
+        "youAreInEditMode": "您处于编辑模式。请先保存再切换到其他选项卡",
+        "logoColoursAndFont": "显示在面向客户的门户中的徽标、颜色和字体",
+        "appearsInPortalHeader": "显示在门户页眉。请使用透明背景的 SVG 或 PNG。最大 1 MB。",
+        "maximumFileSize": "最大文件大小为 1MB",
+        "recommendedSize": "推荐（40px X 40 px）或（160px X 40 px）",
+        "selectThemeColours": "选择主题颜色",
+        "primaryThemeNavBar": "主主题导航栏",
+        "textInPortalHeader": "门户页眉中的文字",
+        "sideMenuBarColour": "侧边菜单栏颜色",
+        "sideMenuFontColour": "侧边菜单字体颜色",
+        "buttonBackgroundColour": "按钮背景色",
+        "buttonTextColour": "按钮文字颜色。提示：相对按钮背景使用高对比度",
+        "fontDisplayedInPortal": "显示在客户门户中的字体",
+        "selectAFont": "选择字体",
+        "pricingTypesTemplatesRescheduling": "定价、类型、模板和改期",
+        "selectWhichTypesOf": "选择哪些类型的",
+        "areVisibleTo": "对以下可见",
+        "inThePortal": "在门户中",
+        "allow": "允许",
+        "toReschedule": "以改期",
+        "canRequestNewDate": "可为开放或即将到来的",
+        "directlyFromThePortal": "请求新日期，直接从门户操作",
+        "list": "列表",
+        "displayThePartsUsedIn": "显示已完成",
+        "onThe": "中使用的零件显示在",
+        "detailView": "详情视图",
+        "prices": "价格",
+        "showUnitCostAndTotalPrice": "显示每个零件的单价和总价。需要“显示”。",
+        "toBeOn": "开启。",
+        "statusLabelsShownFor": "显示的状态标签用于",
+        "configureTheLabelsOfStatus": "配置显示在以下位置的状态标签",
+        "portal": "门户。",
+        "subdomainWhereAll": "所有",
+        "accessThePortal": "访问门户的子域名",
+        "setupPortalSubdomain": "设置门户子域名",
+        "theSharedUrlWhereAll": "您所有",
+        "logInEachCustomer": "登录。每位客户仅看到自己的数据。",
+        "lowercaseLettersNumbersHyphens": "仅限小写字母、数字和连字符",
+        "isAvailable": "可用",
+        "controlWhichSection": "控制哪些部分",
+        "canAccessInThePortal": "可在门户中访问",
+        "alwaysOn": "始终开启",
+        "showThePreventive": "显示预防性",
+        "scheduleAndPmHistory": "计划与 PM 历史显示在门户中",
+        "toBrowseTheirRegistered": "以浏览其已登记的",
+        "listAndView": "列出并查看",
+        "details": "详情",
+        "whatIs": "什么是",
+        "enableAndManagePortals": "为您的对象启用并管理自助门户",
+        "descThe": "",
+        "descPortalGivesEach": "门户为您的每一位",
+        "descDedicatedPage": "提供专属品牌网页，供其独立跟踪",
+        "descBrowseRegistered": "，并浏览其已登记的",
+        "descUniqueUrl": "——无需致电您的团队。每个门户都有唯一 URL（例如 drewbar.fieldex.com），并按",
+        "descYouControl": "完整定制品牌，且由您精确控制他们可见的内容",
+        "throughSharedPortal": "通过共享门户",
+        "editModeSaveBeforeNavigating": "您处于编辑模式。请先保存再切换到其他选项卡",
+        "canAccessInPortal": "可在门户中访问",
+        "canViewCreateTrackAll": "可以查看、创建和跟踪所有",
+        "moduleAlwaysEnabled": "。此模块始终启用，无法关闭",
+        "on": "开",
+        "off": "关",
+        "toBrowseRegistered": "以浏览其已登记的",
+        "isNotAvailable": "不可用",
+        "sharedUrlWhereAllYour": "您所有",
+        "logIn": "登录",
+        "each": "每位",
+        "customerOwnData": "仅看到自己的数据",
+        "subdomainFormatHint": "仅限小写字母、数字和连字符",
+        "andRescheduling": "与改期",
+        "shown": "显示",
+        "which": "哪些",
+        "of": "的",
+        "thatAreAvailableFor": "可用于",
+        "areAvailableForCreation": "可用于创建",
+        "ableToSelectFromList": "将能够从列表中选择",
+        "directlyFromPortal": "请求新日期，直接从门户操作",
+        "displayPartsUsedIn": "显示已完成",
+        "unitCostRequires": "每个零件的单价与总价",
+        "requires": "需要",
+        "theLabelsOfStatusShownIn": "在以下位置显示的状态标签",
+        "brandingDesc": "显示在面向客户的门户中的徽标、颜色和字体",
+        "logoDesc": "显示在门户页眉。请使用透明背景的 SVG 或 PNG。最大 1 MB。",
+        "headerColourDesc": "主主题导航栏",
+        "headerFontColourDesc": "门户页眉中的文字",
+        "sidebarColourDesc": "侧边菜单栏颜色",
+        "sidebarFontColourDesc": "侧边菜单字体颜色",
+        "buttonColourDesc": "按钮背景色",
+        "buttonFontColourDesc": "按钮文字颜色。提示：相对按钮背景使用高对比度",
+        "fontFamilyDesc": "显示在客户门户中的字体",
+        "selectTheThemeColours": "选择主题颜色"
+      },
+      "validationFE": {
+        "activationFailed": "激活失败。请重试",
+        "hasBeenActivatedSuccessfully": "已成功激活",
+        "onlyPngAndSvgAllowed": "仅允许 PNG 和 SVG 图像文件",
+        "failedToSave": "保存失败",
+        "pleaseTryAgain": "请重试",
+        "hasBeenSaved": "已成功保存",
+        "recommendedImg": "推荐（40px X 40 px）或（160px X 40 px）"
       }
     }
   },

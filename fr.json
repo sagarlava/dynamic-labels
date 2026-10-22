@@ -2749,6 +2749,209 @@
         "plural": "Fixé",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Ajuster la date",
+        "plural": "Ajuster les dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Application automatique",
+        "plural": "Application automatique",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Créé par",
+        "plural": "Créé par",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Date de création",
+        "plural": "Date de création",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Créé le",
+        "plural": "Créé le",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Mois du cycle",
+        "plural": "Mois du cycle",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Date de fin",
+        "plural": "Date de fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Dernière maintenance",
+        "plural": "Dernières maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Date de la dernière maintenance",
+        "plural": "Dates de la dernière maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Compteur de la dernière maintenance",
+        "plural": "Compteurs de la dernière maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Statut de la dernière maintenance",
+        "plural": "Statuts de la dernière maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Dernière modification par",
+        "plural": "Dernière modification par",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Date de dernière modification",
+        "plural": "Date de dernière modification",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Modèle de maintenance",
+        "plural": "Modèles de maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Relevé du compteur",
+        "plural": "Relevés du compteur",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Multiple",
+        "plural": "Multiple",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nom",
+        "plural": "Noms",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Intervalle suivant",
+        "plural": "Intervalles suivants",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Prochaine maintenance",
+        "plural": "Prochaines maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Statut de la prochaine maintenance",
+        "plural": "Statuts de la prochaine maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Type de maintenance préventive",
+        "plural": "Types de maintenance préventive",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Travail récurrent",
+        "plural": "Travaux récurrents",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Rechercher par nom",
+        "plural": "Rechercher par nom",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "N° de série",
+        "plural": "N° de série",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Date de début",
+        "plural": "Date de début",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Statut",
+        "plural": "Statut",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Déclencheur",
+        "plural": "Déclencheurs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2899,10 +3102,93 @@
       "multiple": "multiple",
       "toThisMaintenancePlanInBulk": "à ce plan de maintenance en masse.",
       "autoApplyToNew": "Postuler automatiquement à",
-      "setConditionsToAutoApply": "Définir les conditions pour appliquer automatiquement ce plan à"
+      "setConditionsToAutoApply": "Définir les conditions pour appliquer automatiquement ce plan à",
+      "activeStatusDesc": "Les travaux sont créés et exécutés comme prévu ; les modifications n’affectent que les travaux futurs.",
+      "addedTo": "ajouté à",
+      "adjustNextMaintenanceDate": "Ajuster la date de la prochaine maintenance",
+      "andLinkThemLater": "et les lier plus tard.",
+      "areNotChanged": "ne sont pas modifiés.",
+      "autoApplyConditions": "Conditions d’application automatique",
+      "automaticallyApply": "Appliquer automatiquement",
+      "automaticallyApplyTo": "appliquer automatiquement à ?",
+      "beRemovedFromThe": "être retiré de",
+      "beforeReschedulingThenReschedule": "avant de replanifier, puis replanifiez le travail",
+      "cancelledStatusDesc": "Arrêté manuellement. Tous les travaux futurs sont immédiatement interrompus, quelles que soient les dates.",
+      "chooseNewDateForNextMaintenance": "Choisissez une nouvelle date pour la prochaine maintenance planifiée. Cela ne modifiera pas les visites passées.",
+      "cloningFrom": "Clonage depuis :",
+      "createNewPlanSameConfig": "Créez un nouveau plan avec la même configuration que l’original. Mettez à jour la plage de dates et choisissez de copier ou non toutes les données.",
+      "createNewPlanWithSame": "Créer un nouveau plan avec le même",
+      "currentNextDate": "Prochaine date actuelle :",
+      "days": "Jour(s)",
+      "doYouWantToCloneLinked": "Voulez-vous cloner les",
+      "draftStatusDesc": "La configuration est enregistrée, mais aucun travail n’est créé ni exécuté. Tout reste entièrement modifiable.",
+      "entryWhich": "Entrée : Lequel",
+      "exitWhenShould": "Sortie : Quand",
+      "expiredStatusDesc": "La date de fin est dépassée. Aucun nouveau travail n’est créé ; les travaux existants ou passés restent pour référence.",
+      "fieldexWillApplyThis": "FieldEx appliquera ce",
+      "filterTheList": "Filtrer la liste",
+      "filtersSafeToChange": "Vous pouvez modifier les filtres en toute sécurité après avoir sélectionné",
+      "fineTuneSelection": "Vous pouvez affiner votre sélection avant de confirmer.",
+      "forChosen": "pour les choisis",
+      "forNew": "pour les nouveaux",
+      "howOftenMaintenanceRepeated": "À quelle fréquence la maintenance doit-elle être répétée ?",
+      "inBulk": "en masse",
+      "is": "est",
+      "isLinkedToThisRecord": "est lié à cet enregistrement de maintenance.",
+      "last": "Dernier",
+      "loadingMorePlans": "Chargement de plans supplémentaires...",
+      "manuallyOrSetUpAutomation": "manuellement ou configurez l’automatisation pour mettre ce plan en service",
+      "matchAllConditionsExisting": "qui correspondent à toutes les conditions ci-dessous. Les existants",
+      "meetConditionsGetMaintenance": "qui remplissent les conditions ci-dessous recevront ce",
+      "months": "Mois",
+      "needComplexLogic": "Besoin d’une logique complexe ?",
+      "newNextMaintenanceDate": "Nouvelle date de la prochaine maintenance",
+      "next": "Suivant",
+      "notApplicable": "S.O.",
+      "numberOfShortForm": "Nb de",
+      "numberShortForm": "N°",
+      "oneOrMore": "un ou plusieurs",
+      "onlyFutureDatesAllowed": "Seules les dates futures sont autorisées. Les futurs",
+      "orStartWithNo": ", ou commencer sans",
+      "pickJobTemplateForMaintenance": "Choisissez le modèle de travail à générer pour la maintenance",
+      "planDetails": "Détails du plan",
+      "planDoesntHaveAny": "Ce plan n’a aucun",
+      "pm": "MP",
+      "previewSelection": "Aperçu de la sélection",
+      "scheduledStatusDesc": "Les dates de début et de fin sont définies, mais il n’a pas encore commencé. Il s’activera à la date de début ; les modifications sont encore autorisées.",
+      "selectAdvancedTrigger": "Sélectionnez « Déclencheur avancé » pour configurer des conditions avancées.",
+      "selected": "sélectionné",
+      "setAutomation": "Définir l’automatisation",
+      "setHowOftenMaintenanceHappens": "Définissez la fréquence de la maintenance, choisissez le modèle de travail et décidez quand générer",
+      "setTheConditions": "Définir les conditions",
+      "shouldThis": "ce",
+      "shouldThisApplyTo": "à quoi cela doit-il s’appliquer ?",
+      "showActiveOnly": "Afficher uniquement les actifs",
+      "theContract": "Le contrat :",
+      "thenTickCheckboxesTo": ", puis cochez les cases pour",
+      "tip": "Astuce",
+      "useFiltersOrSearchToFind": "Utilisez les filtres ou la recherche pour trouver",
+      "useTriggersToAutoApply": "Utilisez des déclencheurs pour appliquer automatiquement ce",
+      "weeks": "Semaine(s)",
+      "when": "Lorsque",
+      "which": "Lequel",
+      "willBeAdded": "seront ajoutés",
+      "willBeAddedToThe": "seront ajoutés à",
+      "willBeDisplayedHere": "s’afficheront ici.",
+      "willBeRescheduled": "seront replanifiés à cette date.",
+      "years": "Année(s)",
+      "yet": "encore",
+      "youWouldLikeToCreate": "que vous souhaitez créer",
+      "yourSelectionsWillStay": "Vos sélections resteront jusqu’à ce que vous quittiez cette page."
     },
     "validationFE": {
-      "enterValueOfOne": "Entrez une valeur de 1 ou plus."
+      "enterValueOfOne": "Entrez une valeur de 1 ou plus.",
+      "cannotBeUndone": "Cette action est irréversible.",
+      "confirmCancelPlan": "Voulez-vous vraiment annuler ce plan ?",
+      "confirmChangeStatusToDraft": "Voulez-vous vraiment passer le statut en brouillon ?",
+      "confirmRemove": "Voulez-vous vraiment retirer",
+      "confirmRemoveAutomation": "Voulez-vous vraiment retirer cette automatisation ?",
+      "fromThis": "de ceci"
     }
   },
   "contracts": {
@@ -6360,6 +6646,13 @@
         "plural": "Détails généraux",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Actions et filtres de planification",
+        "plural": "Actions et filtres de planification",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6413,6 +6706,69 @@
         "plural": "Date de fin",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "Toutes les fréquences",
+        "plural": "Toutes les fréquences",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Attribuer à",
+        "plural": "Attribuer à",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Utilisateur actuel",
+        "plural": "Utilisateurs actuels",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Quotidien",
+        "plural": "Quotidien",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Mensuel",
+        "plural": "Mensuel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "Nouvel utilisateur",
+        "plural": "Nouveaux utilisateurs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Trimestriel",
+        "plural": "Trimestriel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Hebdomadaire",
+        "plural": "Hebdomadaire",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Annuel",
+        "plural": "Annuel",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6451,10 +6807,20 @@
       "areIncluded": "sont inclus",
       "datesWithDot": "Les dates avec un point ont",
       "clickOneToView": "cliquez sur l’une pour la voir à droite",
-      "scheduledForThisDate": "planifiés pour cette date apparaîtront ci-dessous une fois assignés"
+      "scheduledForThisDate": "planifiés pour cette date apparaîtront ci-dessous une fois assignés",
+      "bulkReAssignJobs": "Réaffectation groupée des travaux pour",
+      "pleaseSelectA": "Veuillez sélectionner un",
+      "selectDateRangeRemoveScheduledJobs": "Sélectionnez une plage de dates pour supprimer les travaux planifiés qu’elle contient",
+      "toSearchA": "pour rechercher un",
+      "transferAssignedJobs": "Transférer les travaux assignés d’un utilisateur à un autre"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés"
+      "onlyTextNumberAllowed": "Seuls les lettres et les chiffres sont autorisés",
+      "haveBeenGeneratedSuccessfully": "ont été générés avec succès",
+      "noJobsScheduledFor": "Aucun travail planifié pour",
+      "scheduleToView": "planifiez pour les voir ici",
+      "thisActionWillDelete": "Cette action supprimera",
+      "withTheStatuses": "avec les statuts « Nouveau » ou « Planifié »"
     }
   },
   "salesOrder": {
@@ -15977,6 +16343,55 @@
         "original": "Download Error Report",
         "singular": "Télécharger le rapport d’erreurs",
         "plural": "Télécharger le rapport d’erreurs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Autoriser",
+        "plural": "Autorise",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Désactivé",
+        "plural": "Désactivé",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "Activé",
+        "plural": "Activé",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Emmenes-moi là",
+        "plural": "Emmenes-moi là",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Réduire",
+        "plural": "Réduit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Développer",
+        "plural": "Développe",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Précédent",
+        "plural": "Précédent",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -30583,6 +30998,602 @@
             "user_leave_reject": "Votre congé a été refusé"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portail",
+        "plural": "Portails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "Domaine",
+          "plural": "Domaines",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "Image de marque",
+          "plural": "Images de marque",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "Module",
+          "plural": "Modules",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portail",
+          "plural": "Portails",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Visibilité du module",
+          "plural": "Visibilités du module",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Identité du portail",
+          "plural": "Identité du portail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Sous-domaine",
+          "plural": "Sous-domaines",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Prix",
+          "plural": "Prix",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Tarification",
+          "plural": "Tarifications",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "Logos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Couleur de l’en-tête",
+          "plural": "Couleurs de l’en-tête",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Couleur de police de l’en-tête",
+          "plural": "Couleurs de police de l’en-tête",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Couleur de la barre latérale",
+          "plural": "Couleurs de la barre latérale",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Couleur de police de la barre latérale",
+          "plural": "Couleurs de police de la barre latérale",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Couleur du bouton",
+          "plural": "Couleurs du bouton",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Couleur de police du bouton",
+          "plural": "Couleurs de police du bouton",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Famille de polices",
+          "plural": "Familles de polices",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "Qu’est-ce qu’un",
+        "enableAndManagePortals": "Activez et gérez des portails libre-service pour vos",
+        "descThe": "Le",
+        "descPortalGivesEach": "Portail offre à chacun de vos",
+        "descDedicatedPage": "une page web dédiée et à votre image où ils peuvent suivre de façon autonome",
+        "descBrowseRegistered": ", et parcourir leurs",
+        "descUniqueUrl": " enregistrés — sans appeler votre équipe. Chaque portail dispose d’une URL unique (ex. drewbar.fieldex.com), est entièrement à l’image de chaque",
+        "descYouControl": ", et vous contrôlez exactement ce qu’ils peuvent voir",
+        "allowYour": "Permettez à vos",
+        "throughSharedPortal": "via un portail partagé",
+        "editModeSaveBeforeNavigating": "Vous êtes en mode édition. Veuillez enregistrer avant de naviguer vers d’autres onglets",
+        "controlWhichSection": "Contrôlez quelles sections",
+        "canAccessInPortal": "peuvent accéder dans le portail",
+        "canViewCreateTrackAll": "peuvent voir, créer et suivre tous les",
+        "moduleAlwaysEnabled": ". Ce module est toujours activé et ne peut pas être désactivé",
+        "alwaysOn": "Toujours activé",
+        "showThePreventive": "Afficher la",
+        "scheduleAndPmHistory": "planification et l’historique PM dans le portail",
+        "on": "Activé",
+        "off": "Désactivé",
+        "toBrowseRegistered": "pour parcourir leurs",
+        "listAndView": "lister et voir",
+        "details": "détails",
+        "isAvailable": "est disponible",
+        "isNotAvailable": "n’est pas disponible",
+        "subdomainWhereAll": "Sous-domaine où tous vos",
+        "accessThePortal": "accèdent au portail",
+        "sharedUrlWhereAllYour": "L’URL partagée où tous vos",
+        "logIn": "se connectent",
+        "each": "Chaque",
+        "customerOwnData": "ne voit que ses propres données",
+        "subdomainFormatHint": "Lettres minuscules, chiffres et tirets uniquement",
+        "andRescheduling": "et replanification",
+        "shown": "affichés",
+        "which": "quels",
+        "of": "de",
+        "areVisibleTo": "sont visibles pour",
+        "inThePortal": "dans le portail",
+        "thatAreAvailableFor": "qui sont disponibles pour",
+        "to": "à",
+        "areAvailableForCreation": "sont disponibles pour la création",
+        "ableToSelectFromList": "pourront sélectionner dans la liste",
+        "toReschedule": "pour replanifier",
+        "canRequestNewDate": "peuvent demander une nouvelle date pour les",
+        "directlyFromPortal": "ouverts ou à venir directement depuis le portail",
+        "list": "liste",
+        "displayPartsUsedIn": "Afficher les pièces utilisées dans les",
+        "onThe": "terminés sur la",
+        "detailView": "vue détaillée",
+        "unitCostRequires": "coût unitaire et prix total pour chaque pièce",
+        "requires": "Nécessite",
+        "toBeOn": "d’être activé.",
+        "statusLabelsShownFor": "libellés de statut affichés pour",
+        "theLabelsOfStatusShownIn": "les libellés du statut affichés dans le",
+        "brandingDesc": "Logo, couleurs et police affichés dans le portail destiné aux clients",
+        "logoDesc": "Apparaît dans l’en-tête du portail. Utilisez SVG ou PNG avec fond transparent. Max. 1 Mo.",
+        "headerColourDesc": "Barre de navigation du thème principal",
+        "headerFontColourDesc": "Texte dans l’en-tête du portail",
+        "sidebarColourDesc": "Couleur de la barre du menu latéral",
+        "sidebarFontColourDesc": "Couleur de police du menu latéral",
+        "buttonColourDesc": "Couleur d’arrière-plan du bouton",
+        "buttonFontColourDesc": "Couleur du texte du bouton. ASTUCE : utilisez un fort contraste par rapport à l’arrière-plan du bouton",
+        "fontFamilyDesc": "Police affichée dans le portail client",
+        "selectTheThemeColours": "Sélectionnez les couleurs du thème",
+        "selectAFont": "Sélectionnez une police"
+      },
+      "validationFE": {
+        "failedToSave": "n’a pas pu être enregistré",
+        "pleaseTryAgain": "Veuillez réessayer",
+        "hasBeenSaved": "a été enregistré avec succès",
+        "recommendedImg": "Recommandé ( 40px X 40 px) OU ( 160px X 40 px)",
+        "activationFailed": "Échec de l’activation"
+      }
+    },
+    "portal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portail",
+        "plural": "Portails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "Détails généraux",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "Domaine",
+          "plural": "Domaines",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "Image de marque",
+          "plural": "Images de marque",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "Module",
+          "plural": "Modules",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "Libellé",
+          "plural": "Libellés",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Statut",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "Code",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "Couleur",
+          "plural": "Couleurs",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "Code couleur",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "Par défaut",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "Disponible",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "Action",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "Réordonner",
+          "plural": "Réordonner",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "Image de marque",
+          "plural": "Images de marque",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Couleur de l’en-tête",
+          "plural": "Couleurs de l’en-tête",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Couleur de police de l’en-tête",
+          "plural": "Couleurs de police de l’en-tête",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Couleur de la barre latérale",
+          "plural": "Couleurs de la barre latérale",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Couleur de police de la barre latérale",
+          "plural": "Couleurs de police de la barre latérale",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Couleur du bouton",
+          "plural": "Couleurs du bouton",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Couleur de police du bouton",
+          "plural": "Couleurs de police du bouton",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Famille de polices",
+          "plural": "Familles de polices",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Identité du portail",
+          "plural": "Identité du portail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Visibilité du module",
+          "plural": "Visibilités du module",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portail",
+          "plural": "Portails",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Sous-domaine",
+          "plural": "Sous-domaines",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Prix",
+          "plural": "Prix",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Tarification",
+          "plural": "Tarifications",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "the": "Le",
+        "givesEachOfYour": "offre à chacun de vos",
+        "dedicatedBrandedPage": "une page web dédiée et à votre image où ils peuvent suivre de façon autonome",
+        "andBrowseTheirRegistered": "et parcourir leurs",
+        "withoutCallingYourTeam": "sans appeler votre équipe.",
+        "eachPortalLivesOnUniqueUrl": "Chaque portail dispose d’une URL unique (ex. drewbar.fieldex.com), entièrement à l’image de chaque",
+        "urlExample": "ex. drewbar.fieldex.com",
+        "youControlWhatTheySee": "et vous contrôlez exactement ce qu’ils peuvent voir.",
+        "allowYour": "Permettez à vos",
+        "to": "à",
+        "throughASharedPortal": "via un portail partagé",
+        "and": "et",
+        "enableAccessFor": "Activez l’accès au portail pour tous vos",
+        "whatHappensWhenYouActivate": "Ce qui se passe lorsque vous activez",
+        "portalFeatureEnabled": "La fonction portail est activée pour votre organisation",
+        "youWillBeTaken": "Vous serez dirigé vers la page de configuration pour définir l’image de marque, les modules et",
+        "settings": "paramètres",
+        "how": "Comment",
+        "getAccess": "obtiennent l’accès",
+        "goToThe": "Allez à l’onglet",
+        "tabAndOpenA": "et ouvrez un",
+        "record": "enregistrement",
+        "addA": "Ajouter un",
+        "toThe": "au",
+        "enablePortalAccess": "activer l’accès au portail",
+        "forThat": "pour ce",
+        "fromThe": "Depuis le",
+        "recordYouCanAlso": "enregistrement, vous pouvez aussi",
+        "resetTheirPassword": "réinitialiser leur mot de passe",
+        "or": "ou",
+        "revokePortalAccess": "révoquer l’accès au portail",
+        "atAnyTime": "à tout moment",
+        "availableStatuses": "Statuts disponibles",
+        "addNewStatusesIfRequired": "Ajoutez de nouveaux statuts si nécessaire en saisissant le nom, le code et le code couleur.",
+        "note": "Note :",
+        "newlyCreatedStatusesWillBe": "Les statuts nouvellement créés seront visibles, mais ne seront pas définis comme",
+        "available": "disponible",
+        "forOtherJobOrderTypes": "pour d’autres types d’ordre de travail.",
+        "addStatus": "Ajouter un statut",
+        "dragStatusHandlesToReorder": "Faites glisser les poignées de statut pour les réordonner. Activez ou désactivez les statuts comme",
+        "toIncludeThemForThisType": "pour les inclure dans ce type d’ordre de travail. Choisissez une couleur unique pour les statuts et définissez un statut comme valeur par défaut pour ce type.",
+        "youAreInEditMode": "Vous êtes en mode édition. Veuillez enregistrer avant de naviguer vers d’autres onglets",
+        "logoColoursAndFont": "Logo, couleurs et police affichés dans le portail destiné aux clients",
+        "appearsInPortalHeader": "Apparaît dans l’en-tête du portail. Utilisez SVG ou PNG avec fond transparent. Max. 1 Mo.",
+        "maximumFileSize": "La taille maximale du fichier est de 1 Mo",
+        "recommendedSize": "Recommandé ( 40px X 40 px) OU ( 160px X 40 px)",
+        "selectThemeColours": "Sélectionnez les couleurs du thème",
+        "primaryThemeNavBar": "Barre de navigation du thème principal",
+        "textInPortalHeader": "Texte dans l’en-tête du portail",
+        "sideMenuBarColour": "Couleur de la barre du menu latéral",
+        "sideMenuFontColour": "Couleur de police du menu latéral",
+        "buttonBackgroundColour": "Couleur d’arrière-plan du bouton",
+        "buttonTextColour": "Couleur du texte du bouton. ASTUCE : utilisez un fort contraste par rapport à l’arrière-plan du bouton",
+        "fontDisplayedInPortal": "Police affichée dans le portail client",
+        "selectAFont": "Sélectionnez une police",
+        "pricingTypesTemplatesRescheduling": "tarification, types, modèles et replanification",
+        "selectWhichTypesOf": "Sélectionnez quels types de",
+        "areVisibleTo": "sont visibles pour",
+        "inThePortal": "dans le portail",
+        "allow": "Autoriser",
+        "toReschedule": "pour replanifier",
+        "canRequestNewDate": "peuvent demander une nouvelle date pour les",
+        "directlyFromThePortal": "ouverts ou à venir directement depuis le portail",
+        "list": "liste",
+        "displayThePartsUsedIn": "Afficher les pièces utilisées dans les",
+        "onThe": "terminés sur la",
+        "detailView": "vue détaillée",
+        "prices": "prix",
+        "showUnitCostAndTotalPrice": "Afficher le coût unitaire et le prix total de chaque pièce. Nécessite « Afficher ».",
+        "toBeOn": "d’être activé.",
+        "statusLabelsShownFor": "libellés de statut affichés pour",
+        "configureTheLabelsOfStatus": "Configurez les libellés du statut affichés dans le",
+        "portal": "portail.",
+        "subdomainWhereAll": "Sous-domaine où tous vos",
+        "accessThePortal": "accèdent au portail",
+        "setupPortalSubdomain": "Configurer le sous-domaine du portail",
+        "theSharedUrlWhereAll": "L’URL partagée où tous vos",
+        "logInEachCustomer": "se connectent. Chaque client ne voit que ses propres données.",
+        "lowercaseLettersNumbersHyphens": "Lettres minuscules, chiffres et tirets uniquement",
+        "isAvailable": "est disponible",
+        "controlWhichSection": "Contrôlez quelles sections",
+        "canAccessInThePortal": "peuvent accéder dans le portail",
+        "alwaysOn": "Toujours activé",
+        "showThePreventive": "Afficher la",
+        "scheduleAndPmHistory": "planification et l’historique PM dans le portail",
+        "toBrowseTheirRegistered": "pour parcourir leurs",
+        "listAndView": "lister et voir",
+        "details": "détails",
+        "whatIs": "Qu’est-ce qu’un",
+        "enableAndManagePortals": "Activez et gérez des portails libre-service pour vos",
+        "descThe": "Le",
+        "descPortalGivesEach": "Portail offre à chacun de vos",
+        "descDedicatedPage": "une page web dédiée et à votre image où ils peuvent suivre de façon autonome",
+        "descBrowseRegistered": ", et parcourir leurs",
+        "descUniqueUrl": " enregistrés — sans appeler votre équipe. Chaque portail dispose d’une URL unique (ex. drewbar.fieldex.com), est entièrement à l’image de chaque",
+        "descYouControl": ", et vous contrôlez exactement ce qu’ils peuvent voir",
+        "throughSharedPortal": "via un portail partagé",
+        "editModeSaveBeforeNavigating": "Vous êtes en mode édition. Veuillez enregistrer avant de naviguer vers d’autres onglets",
+        "canAccessInPortal": "peuvent accéder dans le portail",
+        "canViewCreateTrackAll": "peuvent voir, créer et suivre tous les",
+        "moduleAlwaysEnabled": ". Ce module est toujours activé et ne peut pas être désactivé",
+        "on": "Activé",
+        "off": "Désactivé",
+        "toBrowseRegistered": "pour parcourir leurs",
+        "isNotAvailable": "n’est pas disponible",
+        "sharedUrlWhereAllYour": "L’URL partagée où tous vos",
+        "logIn": "se connectent",
+        "each": "Chaque",
+        "customerOwnData": "ne voit que ses propres données",
+        "subdomainFormatHint": "Lettres minuscules, chiffres et tirets uniquement",
+        "andRescheduling": "et replanification",
+        "shown": "affichés",
+        "which": "quels",
+        "of": "de",
+        "thatAreAvailableFor": "qui sont disponibles pour",
+        "areAvailableForCreation": "sont disponibles pour la création",
+        "ableToSelectFromList": "pourront sélectionner dans la liste",
+        "directlyFromPortal": "ouverts ou à venir directement depuis le portail",
+        "displayPartsUsedIn": "Afficher les pièces utilisées dans les",
+        "unitCostRequires": "coût unitaire et prix total pour chaque pièce",
+        "requires": "Nécessite",
+        "theLabelsOfStatusShownIn": "les libellés du statut affichés dans le",
+        "brandingDesc": "Logo, couleurs et police affichés dans le portail destiné aux clients",
+        "logoDesc": "Apparaît dans l’en-tête du portail. Utilisez SVG ou PNG avec fond transparent. Max. 1 Mo.",
+        "headerColourDesc": "Barre de navigation du thème principal",
+        "headerFontColourDesc": "Texte dans l’en-tête du portail",
+        "sidebarColourDesc": "Couleur de la barre du menu latéral",
+        "sidebarFontColourDesc": "Couleur de police du menu latéral",
+        "buttonColourDesc": "Couleur d’arrière-plan du bouton",
+        "buttonFontColourDesc": "Couleur du texte du bouton. ASTUCE : utilisez un fort contraste par rapport à l’arrière-plan du bouton",
+        "fontFamilyDesc": "Police affichée dans le portail client",
+        "selectTheThemeColours": "Sélectionnez les couleurs du thème"
+      },
+      "validationFE": {
+        "activationFailed": "Échec de l’activation. Veuillez réessayer",
+        "hasBeenActivatedSuccessfully": "a été activé avec succès",
+        "onlyPngAndSvgAllowed": "Seuls les fichiers image PNG et SVG sont autorisés",
+        "failedToSave": "n’a pas pu être enregistré",
+        "pleaseTryAgain": "Veuillez réessayer",
+        "hasBeenSaved": "a été enregistré avec succès",
+        "recommendedImg": "Recommandé ( 40px X 40 px) OU ( 160px X 40 px)"
       }
     }
   },

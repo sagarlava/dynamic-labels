@@ -2851,6 +2851,209 @@
         "plural": "Fixed",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Last Modified By",
+        "plural": "Last Modified By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Last Modified Date",
+        "plural": "Last Modified Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Created By",
+        "plural": "Created By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Created On",
+        "plural": "Created On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Search by Name",
+        "plural": "Search by Name",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Multiple",
+        "plural": "Multiple",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Auto-Apply",
+        "plural": "Auto-Apply",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "Serial No.",
+        "plural": "Serial Nos.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Last Maintenance",
+        "plural": "Last Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Next Maintenance",
+        "plural": "Next Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Cycle Month",
+        "plural": "Cycle Months",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Last Maintenance Meter",
+        "plural": "Last Maintenance Meters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Maintenance Template",
+        "plural": "Maintenance Templates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Trigger",
+        "plural": "Triggers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Adjust Date",
+        "plural": "Adjust Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Next Interval",
+        "plural": "Next Intervals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Meter Reading",
+        "plural": "Meter Readings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Last Maintenance Date",
+        "plural": "Last Maintenance Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Last Maintenance Status",
+        "plural": "Last Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Next Maintenance Status",
+        "plural": "Next Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Preventive Maintenance Type",
+        "plural": "Preventive Maintenance Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Recurring Job",
+        "plural": "Recurring Jobs",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2882,7 +3085,7 @@
       "giveYourPlanAName": "Give your plan a name.",
       "planWillBeActivatedOn": "Plan will be activated on",
       "whenToStartThePlan": "When to start the plan",
-      "jobsCreatedBetweenDates": "Jobs are created only between the start and end dates. If you leave the end as Never, the plan keeps running until you cancel it.",
+      "jobsCreatedBetweenDates": "Jobs are created only between the start and end dates. If you leave the end as Never End, the plan keeps running until you cancel it.",
       "startPlanFrom": "Start plan from",
       "enterStartDateToProceed": "Enter a start date to proceed.",
       "enterEndDateToProceed": "Enter a end date to proceed.",
@@ -3001,10 +3204,93 @@
       "multiple": "multiple",
       "toThisMaintenancePlanInBulk": "to this maintenance plan in bulk.",
       "autoApplyToNew": "Auto-apply to",
-      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to"
+      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to",
+      "numberShortForm":"No.",
+      "numberOfShortForm":"No. of",
+      "youWouldLikeToCreate":"you would like to create",
+      "draftStatusDesc": "Configuration is saved, but no jobs are created or run. Everything is still fully editable.",
+      "scheduledStatusDesc": "Start/end dates are set, but it hasn't started yet. It will activate on the start date; edits are still allowed.",
+      "activeStatusDesc": "Jobs are being created/run as planned; changes only affect future jobs.",
+      "expiredStatusDesc": "The end date has passed. No new jobs are created; existing/past jobs remain for reference.",
+      "cancelledStatusDesc": "Stopped manually. All future jobs are immediately halted, regardless of dates.",
+      "setHowOftenMaintenanceHappens": "Set how often the maintenance happens, pick the job template, and decide when to generate",
+      "howOftenMaintenanceRepeated": "How often should the maintenance be repeated?",
+      "pickJobTemplateForMaintenance": "Pick the job template to be generated for the maintenance",
+      "beforeReschedulingThenReschedule": "before rescheduling, then reschedule the job",
+      "planDoesntHaveAny": "This plan doesn't have any",
+      "yet": "yet",
+      "manuallyOrSetUpAutomation": "manually or set up automation to get this plan up and running",
+      "autoApplyConditions": "Auto-apply conditions",
+      "setAutomation": "Set Automation",
+      "automaticallyApply": "Automatically apply",
+      "useTriggersToAutoApply": "Use triggers to automatically apply this",
+      "forChosen": "for chosen",
+      "selectAdvancedTrigger": "Select ‘Advanced trigger’ to configure advanced conditions.",
+      "needComplexLogic": "Need complex logic?",
+      "entryWhich": "Entry: Which",
+      "shouldThis": "should this",
+      "automaticallyApplyTo": "automatically apply to?",
+      "fieldexWillApplyThis": "FieldEx will apply this",
+      "forNew": "for new",
+      "matchAllConditionsExisting": "that match all conditions below. Existing",
+      "areNotChanged": "are not changed.",
+      "exitWhenShould": "Exit: When should",
+      "beRemovedFromThe": "be removed from the",
+      "when": "When",
+      "is": "is",
+      "which": "Which",
+      "shouldThisApplyTo": "should this apply to?",
+      "meetConditionsGetMaintenance": "that meet the conditions below will get this",
+      "willBeAdded":"will be added",
+      "willBeAddedToThe":"will be added to the",
+      "previewSelection":"Preview selection",
+      "setTheConditions": "Set the conditions",
+      "inBulk": "in bulk",
+      "useFiltersOrSearchToFind": "Use the filters or search to find",
+      "thenTickCheckboxesTo": ", then tick the checkboxes to",
+      "oneOrMore": "one or more",
+      "fineTuneSelection": "You can fine-tune your selection before confirming.",
+      "filterTheList": "Filter the list",
+      "selected": "selected",
+      "tip": "Tip",
+      "filtersSafeToChange": "You can safely change filters after selecting",
+      "yourSelectionsWillStay": "Your selections will stay until you leave this page.",
+      "adjustNextMaintenanceDate": "Adjust next maintenance date",
+      "chooseNewDateForNextMaintenance": "Choose a new date for the next scheduled maintenance. This will not change past visits.",
+      "currentNextDate": "Current next date:",
+      "newNextMaintenanceDate": "New next maintenance date",
+      "onlyFutureDatesAllowed": "Only future dates are allowed. Future",
+      "willBeRescheduled": "will be rescheduled to this date.",
+      "showActiveOnly": "Show active only",
+      "theContract": "The contract:",
+      "isLinkedToThisRecord": "is linked to this Maintenance Record.",
+      "addedTo": "added to",
+      "willBeDisplayedHere": "will be displayed here.",
+      "notApplicable": "N/A",
+      "loadingMorePlans": "Loading more plans...",
+      "last": "Last",
+      "next": "Next",
+      "weeks": "Week(s)",
+      "months": "Month(s)",
+      "years": "Year(s)",
+      "days": "Day(s)",
+      "createNewPlanSameConfig": "Create a new plan using the same configuration as the original. Update the date range and choose whether to copy all the data.",
+      "cloningFrom": "Cloning from:",
+      "planDetails": "Plan Details",
+      "doYouWantToCloneLinked": "Do you want to clone the linked",
+      "createNewPlanWithSame": "Create a new plan with the same",
+      "orStartWithNo": ", or start with no",
+      "andLinkThemLater": "and link them later.",
+      "pm":"PM"
     },
     "validationFE": {
-      "enterValueOfOne": "Enter a value of 1 or greater."
+      "enterValueOfOne": "Enter a value of 1 or greater.",
+      "confirmCancelPlan": "Are you sure you want to cancel this plan?",
+      "confirmChangeStatusToDraft": "Are you sure you want to change status to draft?",
+      "confirmRemove": "Are you sure you want to remove",
+      "fromThis": "from this",
+      "cannotBeUndone": "This cannot be undone.",
+      "confirmRemoveAutomation": "Are you sure you want to remove this automation?"
     }
   },
   "contracts": {
@@ -6526,6 +6812,13 @@
         "plural": "General Details",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Scheduling actions & filters",
+        "plural": "Scheduling actions & filters",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6579,6 +6872,69 @@
         "plural": "End Date",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Assign To",
+        "plural": "Assign To",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "All Frequencies",
+        "plural": "All Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Daily",
+        "plural": "Daily",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Weekly",
+        "plural": "Weekly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Monthly",
+        "plural": "Monthly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Quarterly",
+        "plural": "Quarterly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Yearly",
+        "plural": "Yearly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Current User",
+        "plural": "Current Users",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "New User",
+        "plural": "New Users",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6617,10 +6973,20 @@
       "areIncluded": "are included",
       "datesWithDot": "Dates with a dot have",
       "clickOneToView": "click one to view it on the right",
-      "scheduledForThisDate": "scheduled for this date will appear below once assigned"
+      "scheduledForThisDate": "scheduled for this date will appear below once assigned",
+      "selectDateRangeRemoveScheduledJobs":"Select a date range to remove the scheduled jobs within it",
+      "pleaseSelectA":"Please select a",
+      "toSearchA":"to search for a",
+      "transferAssignedJobs":"Transfer assigned jobs from one user to another",
+      "bulkReAssignJobs":"Bulk Re-Assign Jobs for"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
+      "onlyTextNumberAllowed": "Only alphabets and numbers are allowed",
+      "noJobsScheduledFor":"No jobs scheduled for",
+      "scheduleToView":"schedule to view them here",
+      "thisActionWillDelete":"This action will delete",
+      "withTheStatuses":"with the 'New' or 'Scheduled' statuses",
+      "haveBeenGeneratedSuccessfully":"have been generated successfully"
     },
     "emptyPage":{
       "getStartedWithSite":"Get Started With Sites",
@@ -10395,7 +10761,7 @@
       "noContactFoundForThisJobOrder": "No contact found for this Job Order",
       "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer",
       "quickBooksCustomerRequired": "A Valid QuickBooks Customer is required to generate an invoice. Please ensure the customer information is complete and try again.",
-      "quickBooksProductsRequired": "At least one product is required to generate an invoice. Please add products to the job order and try again."      
+      "quickBooksProductsRequired": "At least one product is required to generate an invoice. Please add products to the job order and try again."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status Not Found",
@@ -16540,6 +16906,55 @@
         "original": "Download Error Report",
         "singular": "Download Error Report",
         "plural": "Download Error Report",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Allow",
+        "plural": "Allows",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Take Me There",
+        "plural": "Take Me There",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "On",
+        "plural": "On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Off",
+        "plural": "Off",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Expand",
+        "plural": "Expands",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Collapse",
+        "plural": "Collapses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Previous",
+        "plural": "Previous",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -28262,7 +28677,7 @@
           "sixHours": "6 hours",
           "eightHours": "8 hours"
         },
-        "validationFE":{
+        "validationFE": {
           "unableToLoadAssignmentRule": "Unable to load assignment rule"
         }
       }
@@ -30977,10 +31392,10 @@
         "justSendsEmailOrInAppAlertWhenConditionsMatchNoSuffix": "just sends an email or in-app alert when conditions match.",
         "remindersEscalationsStatusAlerts": "reminders, escalations, status alerts",
         "triggerSettingsConfiguredPreviousStep": "Trigger settings are configured in the previous step. Review them there before saving.",
-        "whenShouldThe":"When should the",
-        "start":"start",
-        "set":"Set",
-        "action":"actions",
+        "whenShouldThe": "When should the",
+        "start": "start",
+        "set": "Set",
+        "action": "actions",
         "chooseSingleMomentToTriggerWorkflow": "Choose the single moment that should trigger this",
         "conditionsConfiguredPreviousStepReview": "Conditions are configured in the previous step. Review them there before saving.",
         "to": "To",
@@ -30994,7 +31409,7 @@
         "sendAnInAppNotification": "Send an in-app notification",
         "showNotificationInsideFieldExToRightPeople": "Show a notification inside FieldEx to the right people.",
         "addEmailOrInAppNotificationBelow": "Add an email or in-app notification below so the right people know when this workflow runs. You can add more than one.",
-        "optionalNoteWorkflowExist":"Optional note why this workflow exists, for your future self and teammates."
+        "optionalNoteWorkflowExist": "Optional note why this workflow exists, for your future self and teammates."
       }
     },
     "templates": {
@@ -31348,13 +31763,13 @@
         }
       }
     },
-    "portal":{
+    "portal": {
       "setupEdit": false,
       "setupVisible": false,
       "label": {
-        "original": "Portal",
+        "original": "Portals",
         "singular": "Portal",
-        "plural": "Portal",
+        "plural": "Portals",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -31539,9 +31954,44 @@
           "plural": "Module Visibilities",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portals",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdomain",
+          "plural": "Subdomains",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Price",
+          "plural": "Prices",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Pricing",
+          "plural": "Pricings",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
-      "messages":{
+      "messages": {
         "the": "The",
         "givesEachOfYour": "gives each of your",
         "dedicatedBrandedPage": "a dedicated, branded web page where they can independently track",
@@ -31553,14 +32003,14 @@
         "allowYour": "Allow your",
         "to": "to",
         "throughASharedPortal": "through a shared portal",
-        "and":"and",
-        "enableAccessFor":"Enable portal access for all your",
-        "whatHappensWhenYouActivate":"What happens when you activate",
-        "portalFeatureEnabled":"Portal feature is enabled for your organisation",
-        "youWillBeTaken":"You will be taken to the configuration page to set up branding, modules, and",
-        "settings":"settings",
-        "how":"How",
-        "getAccess":"get access",
+        "and": "and",
+        "enableAccessFor": "Enable portal access for all your",
+        "whatHappensWhenYouActivate": "What happens when you activate",
+        "portalFeatureEnabled": "Portal feature is enabled for your organisation",
+        "youWillBeTaken": "You will be taken to the configuration page to set up branding, modules, and",
+        "settings": "settings",
+        "how": "How",
+        "getAccess": "get access",
         "goToThe": "Go to the",
         "tabAndOpenA": "tab and open a",
         "record": "record",
@@ -31629,12 +32079,60 @@
         "scheduleAndPmHistory": "schedule and PM history in the portal.",
         "toBrowseTheirRegistered": "to browse their registered",
         "listAndView": "list and view",
-        "details": "details."
+        "details": "details.",
+        "whatIs": "What is",
+        "enableAndManagePortals": "Enable and manage self-service portals for your",
+        "descThe": "The",
+        "descPortalGivesEach": "Portal gives each of your",
+        "descDedicatedPage": "a dedicated, branded web page where they can independently track",
+        "descBrowseRegistered": ", and browse their registered",
+        "descUniqueUrl": "— without calling your team. Each portal lives on a unique URL (e.g. drewbar.fieldex.com), is fully branded per",
+        "descYouControl": ", and you control exactly what they can see",
+        "throughSharedPortal": "through a shared portal",
+        "editModeSaveBeforeNavigating": "You are in edit mode. Please save before navigating to other tabs",
+        "canAccessInPortal": "can access in the portal",
+        "canViewCreateTrackAll": "can view, create and track all",
+        "moduleAlwaysEnabled": ". This module is always enabled and cannot be turned off",
+        "on": "On",
+        "off": "Off",
+        "toBrowseRegistered": "to browse their registered",
+        "isNotAvailable": "is not available",
+        "sharedUrlWhereAllYour": "The shared URL where all your",
+        "logIn": "log in",
+        "each": "Each",
+        "customerOwnData": "sees only their own data",
+        "subdomainFormatHint": "Lowercase letters, numbers, and hyphens only",
+        "andRescheduling": "and rescheduling",
+        "shown": "shown",
+        "which": "which",
+        "of": "of",
+        "thatAreAvailableFor": "that are available for",
+        "areAvailableForCreation": "are available for creation",
+        "ableToSelectFromList": "will be able to select from the list",
+        "directlyFromPortal": "directly from the portal",
+        "displayPartsUsedIn": "Display the parts used in completed",
+        "unitCostRequires": "unit cost and total price for each part",
+        "requires": "Requires",
+        "theLabelsOfStatusShownIn": "the labels of the status shown in the",
+        "brandingDesc": "Logo, colours, and font shown in the customer-facing portal",
+        "logoDesc": "Appears in the portal header. Use SVG or PNG with transparent background. Max 1 MB.",
+        "headerColourDesc": "Primary theme navigation bar",
+        "headerFontColourDesc": "Text in the portal header",
+        "sidebarColourDesc": "Side menu bar colour",
+        "sidebarFontColourDesc": "Side menu font colour",
+        "buttonColourDesc": "Button background colour",
+        "buttonFontColourDesc": "Button text colour. TIP: use high contrast vs button background",
+        "fontFamilyDesc": "Font that is displayed in the customer portal",
+        "selectTheThemeColours": "Select the theme colours"
       },
-      "validationFE":{
+      "validationFE": {
         "activationFailed": "Activation failed. Please try again",
         "hasBeenActivatedSuccessfully": "has been activated successfully",
-        "onlyPngAndSvgAllowed": "Only PNG and SVG image files are allowed"
+        "onlyPngAndSvgAllowed": "Only PNG and SVG image files are allowed",
+        "failedToSave": "failed to save",
+        "pleaseTryAgain": "Please try again",
+        "hasBeenSaved": "has been saved successfully",
+        "recommendedImg": "Recommended ( 40px X 40 px) OR ( 160px X 40 px)"
       }
     },
     "validationBE": {
