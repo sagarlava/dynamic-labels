@@ -31223,6 +31223,378 @@
         "recommendedImg": "பரிந்துரைக்கப்படுகிறது ( 40px X 40 px) அல்லது ( 160px X 40 px)",
         "activationFailed": "செயல்படுத்தல் தோல்வி"
       }
+    },
+    "portal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "போர்டல்",
+        "plural": "போர்டல்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "பொது விவரங்கள்",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "டொமைன்",
+          "plural": "டொமைன்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "பிராண்டிங்",
+          "plural": "பிராண்டிங்குகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "தொகுதி",
+          "plural": "தொகுதிகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "கட்டமைப்பு",
+          "plural": "கட்டமைப்புகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "லேபிள்",
+          "plural": "லேபிள்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "நிலை",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "குறியீடு",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "நிறம்",
+          "plural": "நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "வண்ண குறியீடு",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "இயல்புநிலை",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "கிடைக்கும்",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "செயல்",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "மறுவரிசை",
+          "plural": "மறுவரிசை",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "பிராண்டிங்",
+          "plural": "பிராண்டிங்குகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "சின்னம்",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "தலைப்பு நிறம்",
+          "plural": "தலைப்பு நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "தலைப்பு எழுத்து நிறம்",
+          "plural": "தலைப்பு எழுத்து நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "பக்கப்பட்டியின் நிறம்",
+          "plural": "பக்கப்பட்டியின் நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "பக்கப்பட்டி எழுத்து நிறம்",
+          "plural": "பக்கப்பட்டி எழுத்து நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "பொத்தான் நிறம்",
+          "plural": "பொத்தான் நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "பொத்தான் எழுத்து நிறம்",
+          "plural": "பொத்தான் எழுத்து நிறங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "எழுத்துரு குடும்பம்",
+          "plural": "எழுத்துரு குடும்பங்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "போர்டல் அடையாளம்",
+          "plural": "போர்டல் அடையாளம்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "தொகுதி தெரிவுநிலை",
+          "plural": "தொகுதி தெரிவுநிலைகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "configuration": {
+          "original": "Configurations",
+          "singular": "கட்டமைப்பு",
+          "plural": "கட்டமைப்புகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "போர்டல்",
+          "plural": "போர்டல்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "சப்டொமைன்",
+          "plural": "சப்டொமைன்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "விலை",
+          "plural": "விலைகள்",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "விலையிடல்",
+          "plural": "விலையிடல்கள்",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "the": "",
+        "givesEachOfYour": "உங்கள் ஒவ்வொரு",
+        "dedicatedBrandedPage": "க்கும் தனிப்பட்ட, பிராண்டட் வலைப்பக்கத்தை வழங்கும், அங்கு அவர்கள் சுயாதீனமாக கண்காணிக்கலாம்",
+        "andBrowseTheirRegistered": "மற்றும் பதிவுசெய்யப்பட்ட",
+        "withoutCallingYourTeam": "உங்கள் குழுவை அழைக்காமல்.",
+        "eachPortalLivesOnUniqueUrl": "ஒவ்வொரு போர்டலும் தனிப்பட்ட URL-இல் இருக்கும் (எ.கா. drewbar.fieldex.com), ஒவ்வொரு",
+        "urlExample": "எ.கா. drewbar.fieldex.com",
+        "youControlWhatTheySee": "மேலும் அவர்கள் என்ன பார்க்கலாம் என்பதை நீங்கள் கட்டுப்படுத்துவீர்கள்.",
+        "allowYour": "உங்கள்",
+        "to": "க்கு",
+        "throughASharedPortal": "பகிரப்பட்ட போர்டல் மூலம் அனுமதிக்கவும்",
+        "and": "மற்றும்",
+        "enableAccessFor": "உங்கள் அனைத்து",
+        "whatHappensWhenYouActivate": "நீங்கள் செயல்படுத்தும்போது என்ன நடக்கும்",
+        "portalFeatureEnabled": "உங்கள் நிறுவனத்திற்கு போர்டல் அம்சம் இயக்கப்பட்டுள்ளது",
+        "youWillBeTaken": "பிராண்டிங், தொகுதிகள் மற்றும்",
+        "settings": "அமைப்புகள்",
+        "how": "எப்படி",
+        "getAccess": "அணுகல் பெறுகிறார்கள்",
+        "goToThe": "செல்லவும்",
+        "tabAndOpenA": "தாவலுக்குச் சென்று ஒரு",
+        "record": "பதிவு",
+        "addA": "ஒன்றைச் சேர்",
+        "toThe": "க்கு",
+        "enablePortalAccess": "போர்டல் அணுகலை இயக்கு",
+        "forThat": "அந்த",
+        "fromThe": "இதிலிருந்து",
+        "recordYouCanAlso": "பதிவிலிருந்து நீங்கள்",
+        "resetTheirPassword": "கடவுச்சொல்லை மீட்டமைக்கவும்",
+        "or": "அல்லது",
+        "revokePortalAccess": "போர்டல் அணுகலை நீக்கவும்",
+        "atAnyTime": "எந்த நேரத்திலும்",
+        "availableStatuses": "கிடைக்கும் நிலைகள்",
+        "addNewStatusesIfRequired": "தேவைப்பட்டால் பெயர், குறியீடு மற்றும் நிறக் குறியீட்டை உள்ளிட்டு புதிய நிலைகளைச் சேர்க்கவும்.",
+        "note": "குறிப்பு:",
+        "newlyCreatedStatusesWillBe": "புதிதாக உருவாக்கிய நிலைகள் தெரியும், ஆனால் இவ்வாறு அமைக்கப்படாது",
+        "available": "கிடைக்கும்",
+        "forOtherJobOrderTypes": "மற்ற ஜாப் ஆர்டர் வகைகளுக்கு.",
+        "addStatus": "நிலையைச் சேர்",
+        "dragStatusHandlesToReorder": "வரிசையை மாற்ற நிலை கைப்பிடிகளை இழுக்கவும். நிலைகளை இவ்வாறு மாற்றவும்",
+        "toIncludeThemForThisType": "இந்த ஜாப் ஆர்டர் வகையில் சேர்க்க. நிலைகளுக்கு தனி நிறத்தைத் தேர்வு செய்து இந்த வகைக்கு ஒரு நிலையை இயல்புநிலையாக அமைக்கவும்.",
+        "youAreInEditMode": "நீங்கள் திருத்தப் பயன்முறையில் உள்ளீர்கள். பிற தாவல்களுக்குச் செல்வதற்கு முன் சேமிக்கவும்",
+        "logoColoursAndFont": "வாடிக்கையாளர் போர்டலில் காட்டப்படும் லோகோ, நிறங்கள் மற்றும் எழுத்துரு",
+        "appearsInPortalHeader": "போர்டல் தலைப்பில் தோன்றும். வெளிப்படையான பின்னணியுடன் SVG அல்லது PNG பயன்படுத்தவும். அதிகபட்சம் 1 MB.",
+        "maximumFileSize": "அதிகபட்ச கோப்பு அளவு 1MB",
+        "recommendedSize": "பரிந்துரைக்கப்படுகிறது ( 40px X 40 px) அல்லது ( 160px X 40 px)",
+        "selectThemeColours": "தீம் நிறங்களைத் தேர்வு செய்யவும்",
+        "primaryThemeNavBar": "முதன்மை தீம் வழிசெலுத்தல் பட்டி",
+        "textInPortalHeader": "போர்டல் தலைப்பில் உள்ள உரை",
+        "sideMenuBarColour": "பக்க மெனு பட்டியின் நிறம்",
+        "sideMenuFontColour": "பக்க மெனு எழுத்து நிறம்",
+        "buttonBackgroundColour": "பொத்தான் பின்னணி நிறம்",
+        "buttonTextColour": "பொத்தான் உரை நிறம். குறிப்பு: பொத்தான் பின்னணிக்கு எதிராக அதிக மாறுபாடு பயன்படுத்தவும்",
+        "fontDisplayedInPortal": "வாடிக்கையாளர் போர்டலில் காட்டப்படும் எழுத்துரு",
+        "selectAFont": "எழுத்துருவைத் தேர்வு செய்யவும்",
+        "pricingTypesTemplatesRescheduling": "விலை, வகைகள், வார்ப்புருக்கள் மற்றும் மறுதிட்டமிடல்",
+        "selectWhichTypesOf": "எந்த வகை",
+        "areVisibleTo": "இவர்களுக்குத் தெரியும்",
+        "inThePortal": "போர்டலில்",
+        "allow": "அனுமதி",
+        "toReschedule": "மறுதிட்டமிட",
+        "canRequestNewDate": "திறந்த அல்லது வரவிருக்கும்",
+        "directlyFromThePortal": "க்கான புதிய தேதியை போர்டலிலிருந்தே கோரலாம்",
+        "list": "பட்டியல்",
+        "displayThePartsUsedIn": "முடிக்கப்பட்ட",
+        "onThe": "இல் பயன்படுத்திய பாகங்களைக் காட்டு",
+        "detailView": "விவரம் பார்வை",
+        "prices": "விலைகள்",
+        "showUnitCostAndTotalPrice": "\"காட்டு\" தேவை. ஒவ்வொரு பாகத்தின் அலகு விலை மற்றும் மொத்த விலையைக் காட்டு.",
+        "toBeOn": "இயக்கத்தில் இருக்க வேண்டும்.",
+        "statusLabelsShownFor": "நிலை லேபிள்கள் காட்டப்படும்",
+        "configureTheLabelsOfStatus": "இதில் காட்டப்படும் நிலை லேபிள்களை உள்ளமைக்கவும்",
+        "portal": "போர்டல்.",
+        "subdomainWhereAll": "அனைத்து",
+        "accessThePortal": "போர்டலை அணுகும் சப்டொமைன்",
+        "setupPortalSubdomain": "போர்டல் சப்டொமைனை அமை",
+        "theSharedUrlWhereAll": "உங்கள் அனைத்து",
+        "logInEachCustomer": "உள்நுழைகிறார்கள். ஒவ்வொரு வாடிக்கையாளரும் தங்கள் தரவை மட்டும் பார்ப்பார்கள்.",
+        "lowercaseLettersNumbersHyphens": "சிறிய எழுத்துகள், எண்கள் மற்றும் ஹைபன்கள் மட்டும்",
+        "isAvailable": "கிடைக்கும்",
+        "controlWhichSection": "எந்தப் பிரிவுகள்",
+        "canAccessInThePortal": "போர்டலில் அணுகலாம்",
+        "alwaysOn": "எப்போதும் இயக்கம்",
+        "showThePreventive": "தடுப்பு",
+        "scheduleAndPmHistory": "அட்டவணை மற்றும் PM வரலாற்றைப் போர்டலில் காட்டு",
+        "toBrowseTheirRegistered": "பதிவுசெய்யப்பட்ட",
+        "listAndView": "பட்டியலிடவும் பார்க்கவும்",
+        "details": "விவரங்கள்",
+        "whatIs": "என்ன",
+        "enableAndManagePortals": "உங்கள்",
+        "descThe": "",
+        "descPortalGivesEach": "போர்டல் உங்கள் ஒவ்வொரு",
+        "descDedicatedPage": "க்கும் தனிப்பட்ட, பிராண்டட் வலைப்பக்கத்தை வழங்கும், அங்கு அவர்கள் சுயாதீனமாக கண்காணிக்கலாம்",
+        "descBrowseRegistered": ", மற்றும் பதிவுசெய்யப்பட்ட",
+        "descUniqueUrl": "ஐ உலாவலாம் — உங்கள் குழுவை அழைக்காமல். ஒவ்வொரு போர்டலும் தனிப்பட்ட URL-இல் இருக்கும் (எ.கா. drewbar.fieldex.com), ஒவ்வொரு",
+        "descYouControl": "க்கும் முழு பிராண்டிங்குடன், அவர்கள் என்ன பார்க்கலாம் என்பதை நீங்கள் கட்டுப்படுத்துவீர்கள்",
+        "throughSharedPortal": "பகிரப்பட்ட போர்டல் மூலம் அனுமதிக்கவும்",
+        "editModeSaveBeforeNavigating": "நீங்கள் திருத்தப் பயன்முறையில் உள்ளீர்கள். பிற தாவல்களுக்குச் செல்வதற்கு முன் சேமிக்கவும்",
+        "canAccessInPortal": "போர்டலில் அணுகலாம்",
+        "canViewCreateTrackAll": "அனைத்தையும் பார்க்க, உருவாக்க மற்றும் கண்காணிக்க முடியும்",
+        "moduleAlwaysEnabled": ". இந்தத் தொகுதி எப்போதும் இயக்கத்தில் உள்ளது; அணைக்க முடியாது",
+        "on": "இயக்கு",
+        "off": "அணை",
+        "toBrowseRegistered": "பதிவுசெய்யப்பட்ட",
+        "isNotAvailable": "கிடைக்காது",
+        "sharedUrlWhereAllYour": "உங்கள் அனைத்து",
+        "logIn": "உள்நுழையும்",
+        "each": "ஒவ்வொரு",
+        "customerOwnData": "தங்கள் தரவை மட்டும் பார்ப்பார்கள்",
+        "subdomainFormatHint": "சிறிய எழுத்துகள், எண்கள் மற்றும் ஹைபன்கள் மட்டும்",
+        "andRescheduling": "மற்றும் மறுதிட்டமிடல்",
+        "shown": "காட்டப்படும்",
+        "which": "எந்த",
+        "of": "இன்",
+        "thatAreAvailableFor": "இதற்குக் கிடைக்கும்",
+        "areAvailableForCreation": "உருவாக்க கிடைக்கும்",
+        "ableToSelectFromList": "பட்டியலிலிருந்து தேர்வு செய்ய முடியும்",
+        "directlyFromPortal": "க்கான புதிய தேதியை போர்டலிலிருந்தே கோரலாம்",
+        "displayPartsUsedIn": "முடிக்கப்பட்ட",
+        "unitCostRequires": "ஒவ்வொரு பாகத்திற்கும் அலகு விலை மற்றும் மொத்த விலை",
+        "requires": "தேவை",
+        "theLabelsOfStatusShownIn": "இதில் காட்டப்படும் நிலை லேபிள்கள்",
+        "brandingDesc": "வாடிக்கையாளர் போர்டலில் காட்டப்படும் லோகோ, நிறங்கள் மற்றும் எழுத்துரு",
+        "logoDesc": "போர்டல் தலைப்பில் தோன்றும். வெளிப்படையான பின்னணியுடன் SVG அல்லது PNG பயன்படுத்தவும். அதிகபட்சம் 1 MB.",
+        "headerColourDesc": "முதன்மை தீம் வழிசெலுத்தல் பட்டி",
+        "headerFontColourDesc": "போர்டல் தலைப்பில் உள்ள உரை",
+        "sidebarColourDesc": "பக்க மெனு பட்டியின் நிறம்",
+        "sidebarFontColourDesc": "பக்க மெனு எழுத்து நிறம்",
+        "buttonColourDesc": "பொத்தான் பின்னணி நிறம்",
+        "buttonFontColourDesc": "பொத்தான் உரை நிறம். குறிப்பு: பொத்தான் பின்னணிக்கு எதிராக அதிக மாறுபாடு பயன்படுத்தவும்",
+        "fontFamilyDesc": "வாடிக்கையாளர் போர்டலில் காட்டப்படும் எழுத்துரு",
+        "selectTheThemeColours": "தீம் நிறங்களைத் தேர்வு செய்யவும்"
+      },
+      "validationFE": {
+        "activationFailed": "செயல்படுத்தல் தோல்வி. மீண்டும் முயற்சிக்கவும்",
+        "hasBeenActivatedSuccessfully": "வெற்றிகரமாக செயல்படுத்தப்பட்டது",
+        "onlyPngAndSvgAllowed": "PNG மற்றும் SVG படக் கோப்புகள் மட்டுமே அனுமதிக்கப்படும்",
+        "failedToSave": "சேமிக்க முடியவில்லை",
+        "pleaseTryAgain": "மீண்டும் முயற்சிக்கவும்",
+        "hasBeenSaved": "வெற்றிகரமாக சேமிக்கப்பட்டது",
+        "recommendedImg": "பரிந்துரைக்கப்படுகிறது ( 40px X 40 px) அல்லது ( 160px X 40 px)"
+      }
     }
   },
   "disclosure": {
