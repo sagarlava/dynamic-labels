@@ -6745,6 +6745,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Mercu Tanda",
+        "plural": "Mercu Tanda",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6882,9 +6889,22 @@
         "plural": "Jenis Kategori",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "% Penyiapan",
+        "plural": "% Penyiapan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "Pemilihan tarikh tidak boleh selepas tarikh tamat.",
+      "dateCannotBeBeforeStartDate": "Pemilihan tarikh tidak boleh sebelum tarikh mula.",
+      "deleteMilestoneConfirmation": "akan dipadam dan dialih keluar daripada semua",
+      "doYouWishToProceed": "Adakah anda ingin meneruskan?",
+      "withinIt": "di dalamnya"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "ID Luar tidak sah",
       "projectNotFound": "Projek tidak dijumpai",
@@ -6921,7 +6941,18 @@
     },
     "messages": {
       "noProjectsFound": "Tiada Projek Dijumpai",
-      "filterProjects": "Tapisan Projek"
+      "filterProjects": "Tapisan Projek",
+      "Last": "terakhir",
+      "aName": "satu nama",
+      "addThemToSeeThemHere": "Tambahkannya untuk melihatnya di sini",
+      "doesNotHaveAny": "tidak mempunyai sebarang",
+      "giveThis": "Berikan",
+      "howLongShouldThis": "Berapa lama",
+      "milestoneDescriptionQuestion": "Terangkan kerja yang perlu dilakukan dalam",
+      "milestoneNoJobOrdersEnd": "untuk bermula",
+      "milestoneStatusQuestion": "Apakah status",
+      "this": "Ini",
+      "yet": "lagi"
     }
   },
   "ticket": {
