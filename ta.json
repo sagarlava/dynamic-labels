@@ -7111,6 +7111,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "மைல்கல்",
+        "plural": "மைல்கற்கள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7248,9 +7255,22 @@
         "plural": "வகை வகைகள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "முடிவு %",
+        "plural": "முடிவு %",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "தேதித் தேர்வு முடிவு தேதிக்குப் பிறகு இருக்கக்கூடாது.",
+      "dateCannotBeBeforeStartDate": "தேதித் தேர்வு தொடக்க தேதிக்கு முன் இருக்கக்கூடாது.",
+      "deleteMilestoneConfirmation": "நீக்கப்பட்டு அனைத்திலிருந்தும் அகற்றப்படும்",
+      "doYouWishToProceed": "தொடர விரும்புகிறீர்களா?",
+      "withinIt": "அதற்குள்"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "தவறான External ID",
       "projectNotFound": "திட்டம் கிடைக்கவில்லை",
@@ -7287,7 +7307,18 @@
     },
     "messages": {
       "noProjectsFound": "திட்டங்கள் எதுவும் இல்லை",
-      "filterProjects": "வடிகட்டுதல் திட்டங்கள்"
+      "filterProjects": "வடிகட்டுதல் திட்டங்கள்",
+      "Last": "கடைசி",
+      "aName": "ஒரு பெயர்",
+      "addThemToSeeThemHere": "இங்கே பார்க்க அவற்றைச் சேர்க்கவும்",
+      "doesNotHaveAny": "எதுவும் இல்லை",
+      "giveThis": "இந்த",
+      "howLongShouldThis": "இது எவ்வளவு காலம்",
+      "milestoneDescriptionQuestion": "இதில் செய்ய வேண்டிய வேலையை விவரிக்கவும்",
+      "milestoneNoJobOrdersEnd": "தொடங்க",
+      "milestoneStatusQuestion": "இதன் நிலை என்ன",
+      "this": "இந்த",
+      "yet": "இன்னும்"
     }
   },
   "ticket": {

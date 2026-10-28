@@ -6827,6 +6827,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Milestone",
+        "plural": "Milestones",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6964,9 +6971,22 @@
         "plural": "Category Types",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "Completion %",
+        "plural": "Completion %",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "Date selection cannot be after end date.",
+      "dateCannotBeBeforeStartDate": "Date selection cannot be before start date.",
+      "deleteMilestoneConfirmation": "will be deleted and removed from all",
+      "doYouWishToProceed": "Do you wish to proceed?",
+      "withinIt": "within it"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "Invalid ExternalId",
       "projectNotFound": "Deployment not found",
@@ -7003,7 +7023,18 @@
     },
     "messages": {
       "noProjectsFound": "No Deployments Found",
-      "filterProjects": "Filter Deployments"
+      "filterProjects": "Filter Deployments",
+      "Last": "last",
+      "aName": "a name",
+      "addThemToSeeThemHere": "Add them to see them here",
+      "doesNotHaveAny": "does not have any",
+      "giveThis": "Give this",
+      "howLongShouldThis": "How long should this",
+      "milestoneDescriptionQuestion": "Describe the work that needs to be done in this",
+      "milestoneNoJobOrdersEnd": "to get started",
+      "milestoneStatusQuestion": "What is the status of this",
+      "this": "This",
+      "yet": "yet"
     }
   },
   "ticket": {

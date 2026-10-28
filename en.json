@@ -7299,6 +7299,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Milestone",
+        "plural": "Milestones",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7436,9 +7443,22 @@
         "plural": "Category Types",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "Completion %",
+        "plural": "Completion %",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "Date selection cannot be after end date.",
+      "dateCannotBeBeforeStartDate": "Date selection cannot be before start date.",
+      "deleteMilestoneConfirmation": "will be deleted and removed from all",
+      "withinIt": "within it",
+      "doYouWishToProceed": "Do you wish to proceed?"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "Invalid ExternalId",
       "projectNotFound": "Project not found",
@@ -7473,9 +7493,20 @@
         "setupVisible": false
       }
     },
-    "messages": {
+   "messages": {
       "noProjectsFound": "No Projects Found",
-      "filterProjects": "Filter Projects"
+      "filterProjects": "Filter Projects",
+      "giveThis": "Give this",
+      "aName": "a name",
+      "milestoneDescriptionQuestion": "Describe the work that needs to be done in this",
+      "howLongShouldThis": "How long should this",
+      "Last": "last",
+      "milestoneStatusQuestion": "What is the status of this",
+      "this": "This",
+      "doesNotHaveAny": "does not have any",
+      "yet": "yet",
+      "milestoneNoJobOrdersEnd": "to get started",
+      "addThemToSeeThemHere": "Add them to see them here"
     },
     "emptyPage":{
       "manageYourProject":"Manage Your Projects",
