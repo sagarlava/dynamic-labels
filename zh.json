@@ -6753,6 +6753,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "里程碑",
+        "plural": "里程碑",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6890,9 +6897,22 @@
         "plural": "类别类型",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "完成百分比",
+        "plural": "完成百分比",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "所选日期不能晚于结束日期。",
+      "dateCannotBeBeforeStartDate": "所选日期不能早于开始日期。",
+      "deleteMilestoneConfirmation": "将被删除并从所有",
+      "doYouWishToProceed": "是否继续？",
+      "withinIt": "其中"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "无效的外部ID",
       "projectNotFound": "未找到项目",
@@ -6929,7 +6949,18 @@
     },
     "messages": {
       "noProjectsFound": "未找到项目",
-      "filterProjects": "筛选项目"
+      "filterProjects": "筛选项目",
+      "Last": "最后",
+      "aName": "一个名称",
+      "addThemToSeeThemHere": "添加后即可在此查看",
+      "doesNotHaveAny": "没有任何",
+      "giveThis": "给此",
+      "howLongShouldThis": "此应持续多久",
+      "milestoneDescriptionQuestion": "描述此中需要完成的工作",
+      "milestoneNoJobOrdersEnd": "以开始",
+      "milestoneStatusQuestion": "此的状态是什么",
+      "this": "此",
+      "yet": "尚未"
     }
   },
   "ticket": {
