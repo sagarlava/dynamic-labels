@@ -6745,6 +6745,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Jalon",
+        "plural": "Jalons",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6882,9 +6889,22 @@
         "plural": "Types de catégories",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "% d’achèvement",
+        "plural": "% d’achèvement",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "La date sélectionnée ne peut pas être postérieure à la date de fin.",
+      "dateCannotBeBeforeStartDate": "La date sélectionnée ne peut pas être antérieure à la date de début.",
+      "deleteMilestoneConfirmation": "sera supprimé et retiré de tous les",
+      "doYouWishToProceed": "Souhaitez-vous continuer ?",
+      "withinIt": "à l’intérieur"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "ID externe invalide",
       "projectNotFound": "Projet introuvable",
@@ -6921,7 +6941,18 @@
     },
     "messages": {
       "noProjectsFound": "Aucun projet trouvé",
-      "filterProjects": "Filtrer les projets"
+      "filterProjects": "Filtrer les projets",
+      "Last": "dernier",
+      "aName": "un nom",
+      "addThemToSeeThemHere": "Ajoutez-les pour les voir ici",
+      "doesNotHaveAny": "n’a aucun",
+      "giveThis": "Donnez à ce",
+      "howLongShouldThis": "Combien de temps ce",
+      "milestoneDescriptionQuestion": "Décrivez le travail à réaliser dans ce",
+      "milestoneNoJobOrdersEnd": "pour commencer",
+      "milestoneStatusQuestion": "Quel est le statut de ce",
+      "this": "Ce",
+      "yet": "encore"
     }
   },
   "ticket": {
