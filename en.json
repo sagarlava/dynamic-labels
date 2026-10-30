@@ -16845,34 +16845,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "takeMeThere":{
-        "original": "Take Me There",
-        "singular": "Take Me There",
-        "plural": "Take Me There",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "on":{
-        "original": "On",
-        "singular": "On",
-        "plural": "On",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "off":{
-        "original": "Off",
-        "singular": "Off",
-        "plural": "Off",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "allow":{
-        "original": "Allow",
-        "singular": "Allow",
-        "plural": "Allow",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "clickViewSeparate": {
         "original": "Click to view in a separate tab",
         "singular": "Click to view in a separate tab",
