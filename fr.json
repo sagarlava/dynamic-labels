@@ -26627,6 +26627,20 @@
             "plural": "Profils",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "Autoriser le check-in/check-out ?",
+            "plural": "Autoriser le check-in/check-out ?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "Activer le suivi de trajet ?",
+            "plural": "Activer le suivi de trajet ?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26809,7 +26823,13 @@
           "when": "Lorsque",
           "whenA": "lorsqu’un",
           "whoCanViewThis": "Qui peut voir ce",
-          "within": "dans un délai de"
+          "within": "dans un délai de",
+          "allowCheckInCheckOutDesc": "Permettez aux propriétaires de l’ordre d’effectuer le check-in et le check-out sur les travaux de ce type",
+          "checkInCheckOutAllowed": "Check-in/Check-out autorisé",
+          "checkInCheckOutDisabled": "Check-in/Check-out désactivé",
+          "enableJourneyTrackingDesc": "Activez ceci pour permettre aux propriétaires de l’ordre d’effectuer des trajets",
+          "journeyTrackingAllowed": "Suivi de trajet autorisé",
+          "journeyTrackingDisabled": "Suivi de trajet désactivé"
         },
         "validationFE": {
           "maximum80Chars": "Longueur maximale de 80 caractères dépassée",

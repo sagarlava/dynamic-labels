@@ -26627,6 +26627,20 @@
             "plural": "Profiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": { 
+            "original": "Allow Check-in/Check-out?",
+            "singular": "Allow Check-in/Check-out?", 
+            "plural": "Allow Check-in/Check-out?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": { 
+            "original": "Enable Journey Tracking?",
+            "singular": "Enable Journey Tracking?", 
+            "plural": "Enable Journey Tracking?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26809,7 +26823,13 @@
           "showsToCreator": "(Shows to creator)",
           "notifyEmailSendTo": "Notify email send to",
           "sendEmailsToTheSelected": "Send emails to the selected",
-          "inThe": "in the"
+          "inThe": "in the",
+          "allowCheckInCheckOutDesc": "Let order owners check in and out of jobs under this type",
+          "checkInCheckOutAllowed": "Check-in/Check-out allowed",
+          "checkInCheckOutDisabled": "Check-in/Check-out disabled",
+          "enableJourneyTrackingDesc": "Enable this to allow order owners to perform journeys",
+          "journeyTrackingAllowed": "Journey Tracking allowed",
+          "journeyTrackingDisabled": "Journey Tracking disabled"
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",

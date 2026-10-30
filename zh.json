@@ -26635,6 +26635,20 @@
             "plural": "个人资料",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "允许签到/签退？",
+            "plural": "允许签到/签退？",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "启用行程跟踪？",
+            "plural": "启用行程跟踪？",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26817,7 +26831,13 @@
           "when": "当",
           "whenA": "当一个",
           "whoCanViewThis": "谁可以查看此",
-          "within": "在…之内"
+          "within": "在…之内",
+          "allowCheckInCheckOutDesc": "允许订单负责人对此类型的工作进行签到和签退",
+          "checkInCheckOutAllowed": "已允许签到/签退",
+          "checkInCheckOutDisabled": "已禁用签到/签退",
+          "enableJourneyTrackingDesc": "启用此项以允许订单负责人执行行程",
+          "journeyTrackingAllowed": "已允许行程跟踪",
+          "journeyTrackingDisabled": "已禁用行程跟踪"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

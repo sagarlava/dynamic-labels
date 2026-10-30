@@ -26627,6 +26627,20 @@
             "plural": "Profil",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "Benarkan Daftar Masuk/Daftar Keluar?",
+            "plural": "Benarkan Daftar Masuk/Daftar Keluar?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "Dayakan Penjejakan Perjalanan?",
+            "plural": "Dayakan Penjejakan Perjalanan?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26809,7 +26823,13 @@
           "when": "Apabila",
           "whenA": "apabila",
           "whoCanViewThis": "Siapa boleh melihat",
-          "within": "dalam tempoh"
+          "within": "dalam tempoh",
+          "allowCheckInCheckOutDesc": "Benarkan pemilik pesanan daftar masuk dan keluar kerja di bawah jenis ini",
+          "checkInCheckOutAllowed": "Daftar Masuk/Daftar Keluar dibenarkan",
+          "checkInCheckOutDisabled": "Daftar Masuk/Daftar Keluar dilumpuhkan",
+          "enableJourneyTrackingDesc": "Dayakan ini untuk membenarkan pemilik pesanan melakukan perjalanan",
+          "journeyTrackingAllowed": "Penjejakan Perjalanan dibenarkan",
+          "journeyTrackingDisabled": "Penjejakan Perjalanan dilumpuhkan"
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",

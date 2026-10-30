@@ -26627,6 +26627,20 @@
             "plural": "சுயவிவரங்கள்",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "செக்-இன்/செக்-அவுட்டை அனுமதிக்கவா?",
+            "plural": "செக்-இன்/செக்-அவுட்டை அனுமதிக்கவா?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "பயணக் கண்காணிப்பை இயக்கவா?",
+            "plural": "பயணக் கண்காணிப்பை இயக்கவா?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26809,7 +26823,13 @@
           "when": "எப்போது",
           "whenA": "ஒரு",
           "whoCanViewThis": "யார் இதைப் பார்க்கலாம்",
-          "within": "உள்ளே"
+          "within": "உள்ளே",
+          "allowCheckInCheckOutDesc": "இந்த வகையின் கீழ் வேலைகளில் ஆர்டர் உரிமையாளர்கள் செக்-இன் மற்றும் செக்-அவுட் செய்ய அனுமதிக்கவும்",
+          "checkInCheckOutAllowed": "செக்-இன்/செக்-அவுட் அனுமதிக்கப்பட்டது",
+          "checkInCheckOutDisabled": "செக்-இன்/செக்-அவுட் முடக்கப்பட்டது",
+          "enableJourneyTrackingDesc": "ஆர்டர் உரிமையாளர்கள் பயணங்களைச் செய்ய அனுமதிக்க இதை இயக்கவும்",
+          "journeyTrackingAllowed": "பயணக் கண்காணிப்பு அனுமதிக்கப்பட்டது",
+          "journeyTrackingDisabled": "பயணக் கண்காணிப்பு முடக்கப்பட்டது"
         },
         "validationFE": {
           "maximum80Chars": "80 எழுத்துகளின் அதிகபட்ச நீளம் தாண்டியது",

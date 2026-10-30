@@ -26628,6 +26628,20 @@
             "plural": "Perfiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "¿Permitir check-in/check-out?",
+            "plural": "¿Permitir check-in/check-out?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "¿Habilitar seguimiento de trayecto?",
+            "plural": "¿Habilitar seguimiento de trayecto?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26810,7 +26824,13 @@
           "when": "Cuando",
           "whenA": "cuando un",
           "whoCanViewThis": "Quién puede ver este",
-          "within": "dentro de"
+          "within": "dentro de",
+          "allowCheckInCheckOutDesc": "Permita que los propietarios de la orden registren entrada y salida en trabajos de este tipo",
+          "checkInCheckOutAllowed": "Check-in/Check-out permitido",
+          "checkInCheckOutDisabled": "Check-in/Check-out deshabilitado",
+          "enableJourneyTrackingDesc": "Active esto para permitir que los propietarios de la orden realicen trayectos",
+          "journeyTrackingAllowed": "Seguimiento de trayecto permitido",
+          "journeyTrackingDisabled": "Seguimiento de trayecto deshabilitado"
         },
         "validationFE": {
           "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",

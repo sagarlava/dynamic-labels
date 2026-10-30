@@ -23081,6 +23081,20 @@
             "plural": "Profiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "plural": "Allow Check-in/Check-out?",
+            "setupEdit": false,
+            "setupVisible": false,
+            "singular": "Allow Check-in/Check-out?"
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "plural": "Enable Journey Tracking?",
+            "setupEdit": false,
+            "setupVisible": false,
+            "singular": "Enable Journey Tracking?"
           }
         },
         "messages": {
@@ -23263,7 +23277,13 @@
           "when": "When",
           "whenA": "when a",
           "whoCanViewThis": "Who can view this",
-          "within": "within"
+          "within": "within",
+          "allowCheckInCheckOutDesc": "Let order owners check in and out of jobs under this type",
+          "checkInCheckOutAllowed": "Check-in/Check-out allowed",
+          "checkInCheckOutDisabled": "Check-in/Check-out disabled",
+          "enableJourneyTrackingDesc": "Enable this to allow order owners to perform journeys",
+          "journeyTrackingAllowed": "Journey Tracking allowed",
+          "journeyTrackingDisabled": "Journey Tracking disabled"
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",
@@ -26876,7 +26896,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Job order type related to the template is not configured in the portal. Please add it to the job order types.",
       "setupJobOrderStatusNotFound": "Job Order Status not found",
       "SetupCustomerPortalConfigNotFound": "Customer portal configuration not found for this tenant",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Customer Portal Configuration exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "Job Order Config exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "PM Cycle Item exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "Site Config exists in the system for the TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {
