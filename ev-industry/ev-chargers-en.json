@@ -7527,6 +7527,20 @@
         "plural": "Location & Contracts",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Time & Travel",
+        "plural": "Time & Travel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9890,6 +9904,48 @@
         "plural": "Schedule Task Numbers",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Journey",
+        "plural": "Journeys",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Overall Time",
+        "plural": "Overall Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Total Check-In Duration",
+        "plural": "Total Check-In Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Total Distance Travelled",
+        "plural": "Total Distance Travelled",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Travel Time",
+        "plural": "Travel Time",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10041,7 +10097,24 @@
       "willBeAssigned": "will be assigned to group members in a round-robin order (shared among team members in turn).",
       "toAllAdded": "to all added",
       "noJobsScheduledFor": "No jobs scheduled for",
-      "scheduledToViewHere": "schedule to view them here"
+      "scheduledToViewHere": "schedule to view them here",
+      "activityDesc": "Journeys come from the mobile app, read-only here.",
+      "at": "at",
+      "checkedIn": "Checked in",
+      "checkedOut": "Checked out",
+      "ended": "Ended",
+      "for": "for",
+      "hourShort": "h",
+      "minuteAbbr": "m",
+      "minuteShort": "min",
+      "onSite": "on site",
+      "overallTimeHint": "Travel + check-in duration",
+      "started": "Started",
+      "stillOnSite": "Still on site",
+      "stillOpen": "still open",
+      "timeTravelDesc": "Journeys are logged by the field app and shown here for context",
+      "travelled": "Travelled",
+      "travelling": "Travelling"
     }
   },
   "binTransfer": {

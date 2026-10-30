@@ -7811,6 +7811,20 @@
         "plural": "Lokasi & Kontrak",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Masa & Perjalanan",
+        "plural": "Masa & Perjalanan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Aktiviti",
+        "plural": "Aktiviti",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10174,6 +10188,48 @@
         "plural": "Nombor Tugas Berjadual",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Daftar Masuk",
+        "plural": "Daftar Masuk",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Perjalanan",
+        "plural": "Perjalanan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Masa Keseluruhan",
+        "plural": "Masa Keseluruhan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Jumlah Tempoh Daftar Masuk",
+        "plural": "Jumlah Tempoh Daftar Masuk",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Jumlah Jarak Dilalui",
+        "plural": "Jumlah Jarak Dilalui",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Masa Perjalanan",
+        "plural": "Masa Perjalanan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10325,7 +10381,24 @@
       "willBeAssigned": "akan diberikan kepada ahli kumpulan secara giliran (dikongsi antara ahli pasukan secara bergilir-gilir).",
       "toAllAdded": "kepada semua yang ditambah",
       "noJobsScheduledFor": "Tiada kerja berjadual untuk",
-      "scheduledToViewHere": "jadualkan untuk melihatnya di sini"
+      "scheduledToViewHere": "jadualkan untuk melihatnya di sini",
+      "activityDesc": "Perjalanan datang dari aplikasi mudah alih, baca sahaja di sini.",
+      "at": "pada",
+      "checkedIn": "Telah daftar masuk",
+      "checkedOut": "Telah daftar keluar",
+      "ended": "Tamat",
+      "for": "selama",
+      "hourShort": "j",
+      "minuteAbbr": "m",
+      "minuteShort": "min",
+      "onSite": "di tapak",
+      "overallTimeHint": "Perjalanan + tempoh daftar masuk",
+      "started": "Dimulakan",
+      "stillOnSite": "Masih di tapak",
+      "stillOpen": "masih dibuka",
+      "timeTravelDesc": "Perjalanan direkodkan oleh aplikasi lapangan dan ditunjukkan di sini sebagai konteks",
+      "travelled": "Dilalui",
+      "travelling": "Sedang perjalanan"
     }
   },
   "inventory": {

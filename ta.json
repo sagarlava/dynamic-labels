@@ -7811,6 +7811,20 @@
         "plural": "இடங்கள் & ஒப்பந்தங்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "நேரம் & பயணம்",
+        "plural": "நேரம் & பயணம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "செயல்பாடு",
+        "plural": "செயல்பாடுகள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10174,6 +10188,48 @@
         "plural": "அட்டவணை பணி எண்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "செக்-இன்",
+        "plural": "செக்-இன்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "பயணம்",
+        "plural": "பயணங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "மொத்த நேரம்",
+        "plural": "மொத்த நேரம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "மொத்த செக்-இன் காலம்",
+        "plural": "மொத்த செக்-இன் காலம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "மொத்த பயண தூரம்",
+        "plural": "மொத்த பயண தூரம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "பயண நேரம்",
+        "plural": "பயண நேரம்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10325,7 +10381,24 @@
       "willBeAssigned": "குழு உறுப்பினர்களுக்கு ரவுண்ட்-ராபின் வரிசையில் ஒதுக்கப்படும் (அதையொட்டி குழு உறுப்பினர்களிடையே பகிரப்பட்டது).",
       "toAllAdded": "அனைத்து சேர்க்கப்பட்டது",
       "noJobsScheduledFor": "திட்டமிடப்பட்ட வேலைகள் இல்லை —",
-      "scheduledToViewHere": "இங்கே பார்க்க அட்டவணையிடவும்"
+      "scheduledToViewHere": "இங்கே பார்க்க அட்டவணையிடவும்",
+      "activityDesc": "பயணங்கள் மொபைல் ஆப்பிலிருந்து வரும்; இங்கே படிக்க மட்டும்.",
+      "at": "மணிக்கு",
+      "checkedIn": "செக்-இன் செய்யப்பட்டது",
+      "checkedOut": "செக்-அவுட் செய்யப்பட்டது",
+      "ended": "முடிந்தது",
+      "for": "காலம்",
+      "hourShort": "ம",
+      "minuteAbbr": "நி",
+      "minuteShort": "நிமி",
+      "onSite": "தளத்தில்",
+      "overallTimeHint": "பயணம் + செக்-இன் காலம்",
+      "started": "தொடங்கியது",
+      "stillOnSite": "இன்னும் தளத்தில்",
+      "stillOpen": "இன்னும் திறந்துள்ளது",
+      "timeTravelDesc": "பயணங்கள் கள ஆப்பால் பதிவு செய்யப்பட்டு இங்கே சூழலுக்காகக் காட்டப்படும்",
+      "travelled": "பயணித்தது",
+      "travelling": "பயணத்தில்"
     }
   },
   "inventory": {
