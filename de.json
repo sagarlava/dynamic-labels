@@ -8418,6 +8418,20 @@
         "plural": "Standorte & Verträge",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Zeit & Fahrt",
+        "plural": "Zeit & Fahrt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Aktivität",
+        "plural": "Aktivitäten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10781,6 +10795,48 @@
         "plural": "Geplante Aufgaben Nummern",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Fahrt",
+        "plural": "Fahrten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Gesamtzeit",
+        "plural": "Gesamtzeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Gesamte Check-in-Dauer",
+        "plural": "Gesamte Check-in-Dauer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Zurückgelegte Gesamtdistanz",
+        "plural": "Zurückgelegte Gesamtdistanz",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Fahrzeit",
+        "plural": "Fahrzeit",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10933,7 +10989,24 @@
       "willBeAssigned": "wird den Gruppenmitgliedern in einer Round-Robin-Reihenfolge zugewiesen (abwechselnd unter den Teammitgliedern aufgeteilt).",
       "toAllAdded": "an alle hinzugefügten",
       "noJobsScheduledFor": "Keine Aufträge geplant für",
-      "scheduledToViewHere": "planen, um sie hier anzuzeigen"
+      "scheduledToViewHere": "planen, um sie hier anzuzeigen",
+      "activityDesc": "Fahrten stammen aus der mobilen App und sind hier schreibgeschützt.",
+      "at": "um",
+      "checkedIn": "Eingecheckt",
+      "checkedOut": "Ausgecheckt",
+      "ended": "Beendet",
+      "for": "für",
+      "hourShort": "h",
+      "minuteAbbr": "m",
+      "minuteShort": "Min.",
+      "onSite": "vor Ort",
+      "overallTimeHint": "Fahrt + Check-in-Dauer",
+      "started": "Gestartet",
+      "stillOnSite": "Noch vor Ort",
+      "stillOpen": "noch offen",
+      "timeTravelDesc": "Fahrten werden von der Field-App erfasst und hier zur Orientierung angezeigt",
+      "travelled": "Zurückgelegt",
+      "travelling": "Unterwegs"
     },
     "emptyPage":{
       "getStartedWithJobOrder": "Erste Schritte mit Arbeitsaufträgen",
@@ -28235,6 +28308,20 @@
             "plural": "Profile",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "Check-in/Check-out erlauben?",
+            "plural": "Check-in/Check-out erlauben?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "Fahrtverfolgung aktivieren?",
+            "plural": "Fahrtverfolgung aktivieren?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -28417,7 +28504,13 @@
           "when": "Wenn",
           "whenA": "wenn ein",
           "whoCanViewThis": "Wer kann dies sehen",
-          "within": "innerhalb von"
+          "within": "innerhalb von",
+          "allowCheckInCheckOutDesc": "Lassen Sie Auftragsinhaber bei Aufträgen dieses Typs ein- und auschecken",
+          "checkInCheckOutAllowed": "Check-in/Check-out erlaubt",
+          "checkInCheckOutDisabled": "Check-in/Check-out deaktiviert",
+          "enableJourneyTrackingDesc": "Aktivieren Sie dies, damit Auftragsinhaber Fahrten durchführen können",
+          "journeyTrackingAllowed": "Fahrtverfolgung erlaubt",
+          "journeyTrackingDisabled": "Fahrtverfolgung deaktiviert"
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",

@@ -8418,6 +8418,20 @@
         "plural": "Location & Contracts",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": { 
+        "original": "Time & Travel", 
+        "singular": "Time & Travel", 
+        "plural": "Time & Travel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": { 
+        "original": "Activity", 
+        "singular": "Activity", 
+        "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10781,6 +10795,48 @@
         "plural": "Schedule Task Numbers",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "overallTime": { 
+        "original": "Overall Time", 
+        "singular": "Overall Time", 
+        "plural": "Overall Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": { 
+        "original": "Travel Time", 
+        "singular": "Travel Time", 
+        "plural": "Travel Time" ,
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": { 
+        "original": "Total Check-In Duration", 
+        "singular": "Total Check-In Duration", 
+        "plural": "Total Check-In Duration" ,
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": { 
+        "original": "Total Distance Travelled", 
+        "singular": "Total Distance Travelled", 
+        "plural": "Total Distance Travelled",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": { 
+        "original": "Journey", 
+        "singular": "Journey", 
+        "plural": "Journeys",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "checkIn": { 
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10933,7 +10989,24 @@
       "willBeAssigned": "will be assigned to group members in a round-robin order (shared among team members in turn).",
       "toAllAdded": "to all added",
       "noJobsScheduledFor": "No jobs scheduled for",
-      "scheduledToViewHere": "schedule to view them here"
+      "scheduledToViewHere": "schedule to view them here",
+      "timeTravelDesc": "Journeys are logged by the field app and shown here for context",
+      "activityDesc": "Journeys come from the mobile app, read-only here.",
+      "overallTimeHint": "Travel + check-in duration",
+      "stillOpen": "still open",
+      "travelled": "Travelled",
+      "for": "for",
+      "started": "Started",
+      "ended": "Ended",
+      "travelling": "Travelling",
+      "checkedIn": "Checked in",
+      "checkedOut": "Checked out",
+      "at": "at",
+      "onSite": "on site",
+      "stillOnSite": "Still on site",
+      "minuteShort": "min",
+      "hourShort": "h",
+      "minuteAbbr": "m"
     },
     "emptyPage":{
       "getStartedWithJobOrder":"Get Started with Job Orders",
@@ -28235,6 +28308,20 @@
             "plural": "Profiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": { 
+            "original": "Allow Check-in/Check-out?",
+            "singular": "Allow Check-in/Check-out?", 
+            "plural": "Allow Check-in/Check-out?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": { 
+            "original": "Enable Journey Tracking?",
+            "singular": "Enable Journey Tracking?", 
+            "plural": "Enable Journey Tracking?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -28417,7 +28504,13 @@
           "showsToCreator": "(Shows to creator)",
           "notifyEmailSendTo": "Notify email send to",
           "sendEmailsToTheSelected": "Send emails to the selected",
-          "inThe": "in the"
+          "inThe": "in the",
+          "allowCheckInCheckOutDesc": "Let order owners check in and out of jobs under this type",
+          "checkInCheckOutAllowed": "Check-in/Check-out allowed",
+          "checkInCheckOutDisabled": "Check-in/Check-out disabled",
+          "enableJourneyTrackingDesc": "Enable this to allow order owners to perform journeys",
+          "journeyTrackingAllowed": "Journey Tracking allowed",
+          "journeyTrackingDisabled": "Journey Tracking disabled"
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",
