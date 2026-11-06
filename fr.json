@@ -30453,7 +30453,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Le type d'ordre de travail lié au modèle n'est pas configuré dans le portail. Veuillez l'ajouter aux types de commandes de travail.",
       "setupJobOrderStatusNotFound": "Statut de la commande de travail introuvable",
       "SetupCustomerPortalConfigNotFound": "Configuration du portail client introuvable pour ce locataire",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Le sous-domaine est déjà utilisé par un autre locataire"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Le sous-domaine est déjà utilisé par un autre locataire",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "La configuration du portail client existe dans le système pour le TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "La configuration de la commande de travail existe dans le système pour le TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "L'élément du cycle de PM existe dans le système pour le TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "La configuration du site existe dans le système pour le TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {

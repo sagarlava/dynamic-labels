@@ -30453,7 +30453,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "டெம்ப்ளேட்டுடன் தொடர்புடைய வேலை ஆர்டர் வகை போர்ட்டலில் உள்ளமைக்கப்படவில்லை. வேலை ஆர்டர் வகைகளில் அதைச் சேர்க்கவும்.",
       "setupJobOrderStatusNotFound": "வேலை ஆர்டர் நிலை கிடைக்கவில்லை",
       "SetupCustomerPortalConfigNotFound": "இந்தக் குத்தகைதாரருக்கு வாடிக்கையாளர் போர்டல் உள்ளமைவு இல்லை",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "துணை டொமைன் ஏற்கனவே மற்றொரு குத்தகைதாரரால் பயன்பாட்டில் உள்ளது"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "துணை டொமைன் ஏற்கனவே மற்றொரு குத்தகைதாரரால் பயன்பாட்டில் உள்ளது",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "TmplJobOrder க்கான வாடிக்கையாளர் போர்டல் உள்ளமைவு அமைப்பில் உள்ளது",
+      "setupTmplJobOrderHasJobOrderConfig": "TmplJobOrder க்கான வேலை ஆர்டர் உள்ளமைவு அமைப்பில் உள்ளது",
+      "setupTmplJobOrderHasPMCycleItem": "TmplJobOrder க்கான PM சுழற்சி உருப்படி அமைப்பில் உள்ளது",
+      "setupTmplJobOrderHasSiteConfig": "TmplJobOrder க்கான தள உள்ளமைவு அமைப்பில் உள்ளது"
     },
     "labelBE": {
       "profileTableColumnSetup": {

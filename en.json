@@ -420,6 +420,18 @@
       "nearestCustomers": "Nearest Customers",
       "nearbyCustomers": "Nearby Customers",
       "seeInMap": "See in map"
+    },
+    "emptyPage":{
+      "manageCustomer":"Manage Your Customers",
+      "keepRecordOfCompanies":"Keep a record of companies and contacts you work with.",
+      "customerRecords":"Customer Records",
+      "storeCustomerDetails":"Store customer details like contact info and address, and link jobs, assets, and service activity to each profile.",
+      "siteLinking":"Site Linking",
+      "handleCustomersUnderOneProfile":"Handle customers with several service locations under one profile.",
+      "activityHistory":"Activity History",
+      "trackPastJobs":"Track past jobs, tasks completed, assets used, and field activities.",
+      "customerOverview":"Customers Overview",
+      "storeRecordsOfContacts":"Store records of contacts and companies that you work with. Link your customers to sites and keep track of jobs, tasks, assets, and projects which are tied to them."
     }
   },
   "asset": {
@@ -1498,6 +1510,44 @@
       "alsoUpdateComponentStatus": "Also update component statuses",
       "wouldYouAlsoUpdateFields": "Would you also like up to update the respective fields in this",
       "component": "component"
+    },
+    "emptyPage":{
+      "getStartedWithAsset":"Get Started With Assets",
+      "createManageAsset":"Create, manage, maintain, and get insights on your assets.",
+      "assetRegistration":"Asset Registration",
+      "registerDetailedAsset":"Register detailed asset info including serial number, specifications, and location.",
+      "trackAsset":"Track Assets",
+      "monitorAsset":"Monitor where assets are, who owns them, and their conditions.",
+      "connectAnalyse":"Connect & Analyse",
+      "linkAssetToSchedule":"Link assets to preventive schedules and auto-generate recurring service jobs.",
+      "assetOverview":"Assets Overview",
+      "storeManageDataForAsset":"Store and manage data for all your assets in one place. Track ownership, location, condition, and link assets to job orders, checklists, and maintenance schedules.",
+      "jobOrdersChecklist":"Job Orders and Checklists",
+      "keepAssetInCheck":"Keep assets in check with job orders and job-specific checklists for technicians.",
+      "scheduleMaintenance":"Schedule Maintenance",
+      "reduceUnplannedDowntimes":"Reduce unplanned downtimes of your assets by scheduling maintenances.",
+      "qrScanning":"QR Scanning",
+      "useQrScanning":"Use QR scanning to speed up asset identification and tracking.",
+      "meterTracking":"Meter Tracking",
+      "trackAssetUsage":"Track asset usage and performance with meter readings.",
+      "analytics":"Analytics",
+      "obtainCalculatedMetrics":"Obtain calculated metrics and insights derived from data that you have provided.",
+      "trackAssetMovements": "Track Asset Movements",
+      "trackMovementOfAssets": "Track movement of assets between bins.",
+      "initiateTransfers": "Initiate Transfers",
+      "moveAssetsBetweenBins": "Move assets between location bins or assign them to user bins.",
+      "trackMovementHistory": "Track Movement History",
+      "viewAssetTransferLogs": "View detailed logs of every asset transfer across all bins.",
+      "controlAccess": "Control Access",
+      "applyRoleBasedApprovals": "Apply role-based approvals and rules for who can transfer assets.",
+      "getStartedWithAssetInventory": "Get Started With Asset Inventory",
+      "trackAssetsWithInventory": "Asset Inventory helps you keep track of your assets.",
+      "assignAssetsToBins": "Assign Assets to Bins",
+      "placeAssetsInBins": "Place assets in specific warehouse or user bins for accurate tracking.",
+      "transferBetweenLocations": "Transfer Between Locations",
+      "moveAssetsAcrossBins": "Move assets across bins, sites, or users with full traceability.",
+      "checkAvailability": "Check Availability",
+      "viewAssetAvailability": "View where each asset is stored and whether it’s available for use."
     }
   },
   "analytic": {
@@ -1957,6 +2007,16 @@
       "entryCannotBeNegativeValue": "Entry cannot be made with minus values",
       "areYouSureDeleteReading": "Are you sure you want to delete this reading on",
       "errorOccuredWhileSigning": "An error occured while signing"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog":"Get Started With Asset Logs",
+      "assetLogsHelpTrack":"Asset logs help you keep track of asset meters.",
+      "logs":"Logs",
+      "maintainListOfAssetLog":"Maintain a list of asset meter logs.",
+      "currentReading":"Current Reading",
+      "stayInformedOnReading":"Stay informed on your current asset meter readings.",
+      "audit":"Audit",
+      "keepTrackOfReading":"Keep track of Asset Meter Readings."
     }
   },
   "vanLog": {
@@ -2136,6 +2196,16 @@
     },
     "messages": {
       "quantityCantBeZero": "Quantity Cannot be Zero"
+    },
+    "emptyPage":{
+      "getStartedWithAccessories":"Get Started With Accessories",
+      "createManageAccessories":"Create, manage, maintain, and get insights on your accessories.",
+      "linkAccessoriesToAsset":"Link Accessories to Assets",
+      "defineChildAsset":"Define child assets (e.g. attachments, tools) under a main asset.",
+      "trackTogetherSeparately":"Track Together or Separately",
+      "monitorConditionLocation":"Monitor condition, location, and usage of parent and child assets independently.",
+      "autoUpdateDetails":"Auto-Update Details",
+      "syncStatusLocation":"Sync status or location from parent to accessories when transferred or updated."
     }
   },
   "maintenance": {
@@ -2456,6 +2526,16 @@
       "maintenance": "Maintenance",
       "maintenanceDetails": "Maintenance Details",
       "haveActiveMaintenance": "Already have an Active Maintenance"
+    },
+    "emptyPage":{
+      "setUpMaintenanceSchedule":"Set Up Maintenance Schedules",
+      "preventUnplannedDowntimes":"Prevent unplanned downtimes for your assets by setting up maintenance schedules.",
+      "linkAssetToPm":"Link Assets to Preventive Maintenance Plans",
+      "assignAssetBasedOnType":"Assign assets to preventive maintenance schedules based on type.",
+      "autoGenerateJob":"Auto-Generate Jobs",
+      "autoCreateMaintenanceJob":"Automatically create maintenance job orders based on set intervals or contracts.",
+      "trackServiceHistory":"Track Service History",
+      "viewAllCompletedMaintenance":"View all completed and upcoming maintenance jobs for each asset."
     }
   },
   "preventiveMaintenance": {
@@ -2628,7 +2708,29 @@
         "setupVisible": false
       }
     },
-    "messages": {}
+    "messages": {},
+    "emptyPage":{
+      "reduceDowntimesWithPm": "Reduce Downtimes With Preventive Maintenance",
+      "preventUnplannedDowntimes": "Prevent unplanned downtimes for your assets by setting up preventive maintenances.",
+      "setSchedules": "Set Schedules",
+      "configureRemindersMultipleMaintenance": "Configure reminders and multiple maintenance frequencies with automatic preventive maintenance job creation.",
+      "linkAsset": "Link Assets",
+      "linkMaintenanceSchedules": "Link maintenance schedules to one or many assets to generate individual recurring preventive maintenance jobs.",
+      "trackCompliance": "Track Compliance",
+      "monitorUpcomingCompletedPm": "Monitor upcoming, overdue, and completed preventive maintenance tasks in real-time.",
+      "pmOverview": "Preventive Maintenance Overview",
+      "planScheduleRecurringMaintenance": "Plan and schedule recurring maintenance tasks to reduce equipment downtime. Automate scheduling based on fixed dates or meter readings, assign tasks, and track completion.",
+      "createSchedule": "Create Schedule",
+      "createSchedulePerformedForAsset": "Create a schedule that a preventive maintenance job will be performed for an asset.",
+      "intervalTemplates": "Interval Templates",
+      "createIntervalTemplatesForAsset": "Create interval templates that can be used for your assets.",
+      "meters": "Meters",
+      "setSpecificMeterRange": "Set specific meter ranges for when preventive maintenance jobs should be performed.",
+      "checklists": "Checklists",
+      "haveAssetSpecificChecklist": "Have asset specific checklists for a preventive maintenance job.",
+      "notifications": "Notifications",
+      "setUpNotificationToPerformPm": "Set up notifications that will be sent periodically to the owners of assets to perform preventive maintenance."
+    }
   },
   "maintenancePlan": {
     "setupVisible": false,
@@ -3200,6 +3302,18 @@
       "removeItems": "Remove items that need to be returned",
       "pleaseSelectAssetName": "Please select an Asset Name",
       "qtyGreaterThanZero": "Quantity should be greater than 0"
+    },
+    "emptyPage":{
+      "getStartedWithContract":"Get Started With Contracts",
+      "contractsHelpMaintainAgreement":"Contracts help you maintain service agreement records.",
+      "createContract":"Create Contracts",
+      "defineRentalServieContract":"Define rental or service contracts with start/end dates and customer.",
+      "linkAsset":"Link Assets",
+      "assignAssetToContract":"Assign one or more assets to the contract for preventive maintenance tracking and service due.",
+      "enablePmSchedules":"Enable Preventive Maintenance Schedules",
+      "autoGeneratePreventiveJob":"Automatically generate preventive jobs based on contract duration and linked maintenance schedules.",
+      "contractOverview":"Contracts Overview",
+      "defineManageServiceContract":"Define and manage service agreement records. Link assets to contracts for tracking and automatically trigger preventive maintenance based on contract terms and duration."
     }
   },
   "contractMaintenance": {
@@ -3404,6 +3518,16 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+    },
+    "emptyPage":{
+      "setUpContractMaintenances":"Set Up Contract Maintenances",
+      "preventUnplannedDowntimes":"Prevent unplanned downtimes for your assets by setting up maintenance schedules.",
+      "linkAssetToPm":"Link Assets to Preventive Maintenance Plans",
+      "assignAssetBasedOnType":"Assign assets to preventive maintenance schedules based on type.",
+      "autoGenerateJob":"Auto-Generate Jobs",
+      "autoCreateMaintenanceJob":"Automatically create maintenance job orders based on set intervals or contracts.",
+      "trackServiceHistory":"Track Service History",
+      "viewAllCompletedMaintenance":"View all completed and upcoming maintenance jobs for each asset."
     }
   },
   "checklist": {
@@ -3714,6 +3838,18 @@
       "noStatusToDisplay": "No Status to Display",
       "updateChecklistStatus": "Update Checklist Status",
       "updateAsset": "Update Asset"
+    },
+    "emptyPage":{
+      "getStartedWithChecklist":"Get Started With Checklists",
+      "checklistHelpEnsureSteps":"Checklists help ensure steps are completed consistently during jobs.",
+      "createTemplates":"Create Templates",
+      "buildReusableChecklist":"Build reusable checklists by adding your own sections, questions and answer options.",
+      "automateChecklist":"Automate Your Checklists",
+      "setConditionsToAutoAssign":"Set conditions to auto-assign checklists by asset, type, or zone.",
+      "triggerActions":"Trigger Actions",
+      "autoTriggerCorrectiveJob":"Automatically trigger corrective jobs with parts and tasks based on checklist responses.",
+      "checklistOverview":"Checklists Overview",
+      "useChecklistToEnsureStepCompleted":"Use checklists to ensure that certain steps are completed consistently through jobs. Set trigger conditions to automatically create job orders, request parts, or even update assets based on checklist responses."
     }
   },
   "journey": {
@@ -4194,6 +4330,24 @@
       "alsoUpdateComponentStatus": "Also update component statuses",
       "wouldYouAlsoUpdateFields": "Would you also like up to update the respective fields in this",
       "component": "component"
+    },
+    "emptyPage":{
+      "manageSparePart":"Manage Your Spare Parts",
+      "sparePartsKeepTrack":"Spare parts helps you keep track of your parts.",
+      "createSparePart":"Create Spare Parts",
+      "registerParts":"Register parts with names, SKUs, categories, pricing, and images.",
+      "trackStockLevel":"Track Stock Levels",
+      "monitorPartQuantity":"Monitor part quantities by bin, warehouse, or technician in real-time.",
+      "useInJob":"Use in Jobs",
+      "assignConsumeSparePart":"Assign and consume spare parts directly from job orders or checklists.",
+      "sparePartOverview":"Spare Parts Overview",
+      "registerSparePart":"Register spare parts and add them to your bins. Consume parts from job orders or checklists, keep track part quantities by bin, and receive notifications when stock levels begin running low.",
+      "addPartsToJobs": "Add Parts to Jobs",
+      "includePartsInJobOrders": "Include required spare parts directly in job orders for technicians.",
+      "useFromBins": "Use from Bins",
+      "consumePartsFromBins": "Technicians can consume parts from assigned bins or scan to use.",
+      "trackUsageAndCost": "Track Usage & Cost",
+      "monitorPartConsumption": "Monitor part consumption, quantity used, and job-based usage automatically."
     }
   },
   "usage": {
@@ -5767,6 +5921,18 @@
       "areYouSureWantToMakeOwner": "Are you sure you want to change the owner?",
       "generateJobOrderForThisTask": " A Job order will be generated for this task",
       "selectDateRange": "Please select a date range"
+    },
+    "emptyPage":{
+      "getStartedWithTask":"Get Started With Tasks",
+      "planCreateTask":"Plan, create and assign tasks to your technicians.",
+      "templates":"Templates",
+      "createTemplatesPrefilledFields":"Create templates with prefilled fields and repeat tasks creation easily.",
+      "assignments":"Assignments",
+      "assignTaskToUsers":"Assign tasks to users or teams with real-time mobile alerts.",
+      "progressTracking":"Progress Tracking",
+      "trackTaskInRealTime":"Track task status, field activities, and technician updates in real time.",
+      "tasksOverview":"Tasks Overview",
+      "planCreateAssignTask":"Plan, create, and assign tasks to your technicians and track task status, updates and technician activity in real time."
     }
   },
   "site": {
@@ -6455,6 +6621,18 @@
     },
     "validationFE": {
       "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
+    },
+    "emptyPage":{
+      "getStartedWithSite":"Get Started With Sites",
+      "keepTrackOfLocations":"Keep track of locations where jobs are performed.",
+      "createSites":"Create Sites",
+      "registerOperationalLocations":"Register operational locations with address, zone, and site type.",
+      "linkAsset":"Link Assets",
+      "assignEquipmentsToSite":"Assign equipment to each site for location-based servicing and movement tracking.",
+      "trackJobHistory":"Track Job History",
+      "viewAllJobsAtSite":"View all jobs, tasks, and field activities performed at each site, along with their progress.",
+      "siteOverview":"Sites Overview",
+      "manageLocationsConduct":"Manage locations that you conduct business in with sites. Keep track of customer locations, locations that job orders are conducted, and places where your equipment are placed."
     }
   },
   "salesOrder": {
@@ -6689,6 +6867,16 @@
       "salesOrderFilter": "Sales Order Filter",
       "filterByCustomer": "Filter By Customer",
       "soRequiresMinimumOneProduct": "Sales order requires minimum one Spare Part"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder":"Get Started With Sales Orders",
+      "manageSalesOrder":"Manage Sales Orders belonging to your customers.",
+      "createSalesOrder":"Create Sales Orders",
+      "generateSalesOrderDirectly":"Generate sales orders directly under a customer with products and pricing.",
+      "linkToJobs":"Link to Jobs",
+      "tieSalesOrderToJobOrder":"Tie sales orders to job orders for service or delivery execution.",
+      "trackFulfilment":"Track Fulfilment",
+      "monitorOrderStatusFromOnePlace":"Monitor order status, delivery progress, and customer billing from one place."
     }
   },
   "project": {
@@ -6953,6 +7141,18 @@
       "yet": "yet",
       "milestoneNoJobOrdersEnd": "to get started",
       "addThemToSeeThemHere": "Add them to see them here"
+    },
+    "emptyPage":{
+      "manageYourProject":"Manage Your Projects",
+      "projectHelpTrackTask":"Projects help you track tasks across multiple jobs under a single view.",
+      "createProject":"Create Projects",
+      "setUpProjectDetails":"Set up project name, type, customer, duration, and site details.",
+      "linkJobTask":"Link Jobs & Tasks",
+      "groupJobTaskUnderProject":"Group job orders and related tasks under one project.",
+      "trackDelivery":"Track Delivery",
+      "monitorOverallProgress":"Monitor overall progress, assigned work, and project-level job completion.",
+      "projectOverview":"Projects Overview",
+      "trackMultipleJob":"Track multiple jobs under a single scope. Link related jobs and tasks under one project and track overall progress, assigned work, and project-level job completion."
     }
   },
   "ticket": {
@@ -7415,6 +7615,16 @@
       "typeMessageOrAddAttachment": "Please type a message or add an attachment",
       "hasBeenAssignedTo": "has been assigned to",
       "this": "This"
+    },
+    "emptyPage":{
+      "getStartedWithTicket":"Get Started With Tickets",
+      "captureTrackTicket":"Capture and track tickets for work orders and first-level resolution.",
+      "ticketManagement":"Ticket Management",
+      "manageTicket":"Manage tickets and stay on track for when tickets are completed.",
+      "workOrder":"Work Orders",
+      "manageGroupInTicket":"Manage a group of work orders that fall in the scope of a ticket.",
+      "conversation":"Conversations",
+      "manageConversationInTicket":"Manage conversations within tickets."
     }
   },
   "jobOrder": {
@@ -10277,6 +10487,7 @@
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
       "jobOrderPriceBookNotFound": "Price Book not found",
       "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order.",
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets",
       "pdfTemplateNotFound": "PDF Template not found",
       "pdfTemplateSettingMissing": "PDF Template has no settings",
       "pdfTemplateNotActive": "PDF Template is not active",
@@ -10357,6 +10568,37 @@
       "toAllAdded": "to all added",
       "noJobsScheduledFor": "No jobs scheduled for",
       "scheduledToViewHere": "schedule to view them here"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder":"Get Started with Job Orders",
+      "createAssignServiceTask":"Create, assign, and track service tasks from start to finish.",
+      "template":"Templates",
+      "createReusableJobTemplate":"Create reusable job templates with prefilled fields for repetitive job creation.",
+      "createReusableJobTemplateSaveTime":"Create reusable job order templates to save time and standardize processes.",
+      "execution":"Execution",
+      "assignJobTask":"Assign job tasks to field teams and track status, notes, and attachments.",
+      "automation":"Automation",
+      "autoGenerateJob":"Automatically generate job orders from checklists responses when specific answers are triggered.",
+      "jobOrderOverview":"Job Orders Overview",
+      "jobOrderHelpPlan":"Job Orders help you plan, assign, and track your field service tasks. Create job orders manually or through templates, assign technicians, add tasks and parts, and track progress from start to completion.",
+      "createJobOrder":"Create a Job Order",
+      "createJobOrderManually":"Create a job order manually or select an existing template that you have already created.",
+      "trackAssignUsingTask":"Track and Assign using Tasks",
+      "createTaskAssignTeam":"Create tasks, assign them to your team, and log relevant job info.",
+      "partTracking":"Part Tracking",
+      "addTrackUsage":"Add and track usage of spare parts used by your technicians on the job.",
+      "digitalSignPdf":"Digital Signature and Completion PDF",
+      "collectDigitalSignature":"Collect digital signatures on task completion and generate a PDF upon job completion.",
+      "reports":"Reports",
+      "generateReports":"Generate reports to track job order trends and performance.",
+      "getStartedWithSlas": "Get Started With SLAs",
+      "createAndManageSlas": "Create and manage SLAs to automate processes.",
+      "slaTracking": "SLA Tracking",
+      "setResponseAndResolutionLimits": "Set response and resolution time limits, and auto-escalate missed deadlines.",
+      "packageConditionChecks": "Package Condition Checks",
+      "inspectItemCondition": "Inspect item condition during delivery or return using digital checklists.",
+      "customNotifications": "Custom Notifications",
+      "triggerSlaAlerts": "Trigger alerts based on job status, SLA breaches, or checklist responses."
     }
   },
   "inventory": {
@@ -10812,6 +11054,36 @@
       "selectCategory": "Select Category",
       "selectSubCategory": "Select Sub Category",
       "selectStatus": "Select Status"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory":"Begin tracking your Inventory",
+      "keepStocksOfYourAssetSparePart":"Keep stock of your assets, spare parts, and how they move between your bins.",
+      "organizeStock":"Organize Stock",
+      "setUpForStructuredStorage":"Set up locations, zones, and bins for structured storage.",
+      "transferItems":"Transfer Items",
+      "moveAssetSparePartEasily":"Move assets or parts between locations or users easily.",
+      "trackAvailability":"Track Availability",
+      "checkRealTimeStock":"Check real-time stock levels by item, bin, or location.",
+      "inventoryOverview":"Inventory Overview",
+      "digitalWarehouseOfAssetSparePart":"A digital warehouse of your assets and spare parts. Keep track of stock, receive alerts when stock is low, and manage the movements of your assets and spare parts between your bins with transfers.",
+      "digitalWarehouse":"Digital Warehouse",
+      "structureInventoryWithLocation":"Structure your inventory with digital locations, zones, and bins.",
+      "transfer":"Transfers",
+      "trackManageMovementItem":"Track and manage the movement of items between bins.",
+      "stockUpdate":"Stock Updates",
+      "receiveNotificationStocksLow":"Receive notifications when stock of spare parts are low.",
+      "reportsAnalytics":"Reports & Analytics",
+      "useReportsAnalyzeMovementTrends":"Use reports to analyze inventory movement and trends.",
+      "consignmentRequisition":"Consignment & Requisition",
+      "requestApproveItems":"Request or approve the movement of items between bins.",
+      "trackInventoryHistory": "Track Inventory History",
+      "trackItemMovements": "Track movement of items between bins.",
+      "assetMovementHistory": "Asset Movement History",
+      "viewAssetStorageLogs": "View detailed logs of where each asset has been stored or used.",
+      "sparePartUsageHistory": "Spare Part Usage History",
+      "trackSparePartUsage": "Track when, where, and by whom parts were used in jobs.",
+      "auditTrails": "Audit Trails",
+      "accessTransferRecords": "Access full transfer records to support accountability and compliance."
     }
   },
   "bin": {
@@ -11040,6 +11312,16 @@
       "binInventoryHistoryIdExists": "A new Bin Inventory History cannot already have an ID",
       "binHasInventoryNotAllowedChangeType": "Cannot change the bin type when having an inventory",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "Cannot change the bin zone/location when having an inventory"
+    },
+    "emptyPage":{
+      "manageYourBins": "Manage Your Bins",
+      "manageLocationUserBins": "Manage location and user bins.",
+      "locationBins": "Location Bins",
+      "trackAssetSpareParts": "Track where assets and spare parts are stored across sites and warehouses.",
+      "userBins": "User Bins",
+      "assignBinsToUsers": "Assign bins to technicians or users for mobile stock accountability.",
+      "binTransfers": "Bin Transfers",
+      "moveItemsBetweenBins": "Move items between bins, users, or locations with approvals, timestamped logs, and full traceability."
     }
   },
   "binTransfer": {
@@ -11663,6 +11945,16 @@
       "selectedSparePartsManagedBySameGroup": "Selected spare parts must be from bins managed by the same user group",
       "quantityTransferExceedsStock": "Quantity to transfer exceeds available stock in the marked field(s). Reduce the quantity to proceed.",
       "areYouSureYouWantToProceed": "Are you sure you want to proceed with the"
+    },
+    "emptyPage":{ 
+      "manageTransfers": "Manage Transfers",
+      "createManageApproveTransfers": "Create, manage and approve transfers between bins.",
+      "assetTransfers": "Asset Transfers",
+      "moveEquipmentBetweenBins": "Move equipment between location bins or assign to user bins for jobs.",
+      "sparePartTransfers": "Spare Part Transfers",
+      "relocateSpareParts": "Relocate spare parts across warehouses or to technicians' user bins.",
+      "approvalAndTracking": "Approval & Tracking",
+      "controlTransfersWithApprovals": "Control transfers with role-based approvals and full movement history."
     }
   },
   "checkAvailibility": {
@@ -12340,6 +12632,16 @@
       "hasBeen": "has been",
       "yourRequisitionNote": "your Consignment Note",
       "youCanProceedToTransfer": "You can now proceed to transfer the selected items."
+    },
+    "emptyPage":{
+      "getStartedWithConsignments": "Get Started With Consignments",
+      "manageConsigningInventory": "Manage consigning inventory to bins outside your direct control.",
+      "offerItemsOnConsignment": "Offer Items on Consignment",
+      "provideItemsForFutureUse": "Provide assets or spare parts to another user or site for future use.",
+      "controlWithApprovals": "Control with Approvals",
+      "requireApprovalBeforeUsage": "Require approval before the recipient can initiate transfer or usage.",
+      "trackAndTransfer": "Track and Transfer",
+      "acceptAndTransferItems": "Once approved, users can formally accept and transfer items into their bins."
     }
   },
   "requisition": {
@@ -12977,6 +13279,16 @@
       "filteredBySparePart": "Filtered by spare parts in selected from bin",
       "filteredByAsset": "Filtered by asset in selected from bin",
       "areYouSureCancelRequisitionNote": "Are you sure you want to cancel this requisition note?"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "Get Started With Requisitions",
+      "manageInventoryRequests": "Manage inventory requests from bins outside your direct control.",
+      "requestItems": "Request Items",
+      "submitRequisitions": "Users can submit requisitions to request spare parts or assets.",
+      "routeForApproval": "Route for Approval",
+      "processApprovalWorkflows": "Requisitions go through approval workflows before items are released.",
+      "fulfilFromBins": "Fulfil from Bins",
+      "pickAndTransferApprovedItems": "Approved items are picked and transferred from warehouse or user bins."
     }
   },
   "contacts": {
@@ -13175,6 +13487,16 @@
       "confirmActivateUser": "Are you sure you want to activate this user?",
       "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? You may reactivate this user again if required",
       "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
+    },
+    "emptyPage":{
+      "manageYourContacts": "Manage Your Contacts",
+      "manageCustomerContacts": "Manage multiple customer contacts easily.",
+      "contactsList": "Contacts List",
+      "maintainSiteContacts": "Maintain a list of site contacts.",
+      "emailAndPhone": "Email and Phone",
+      "manageContactsAcrossChannels": "Maintain your site contacts through multiple channels.",
+      "quickAccess": "Quick Access",
+      "findAndConnectWithSites": "Find and connect with sites instantly during job assignments."
     }
   },
   "helpdesk": {
@@ -13396,6 +13718,16 @@
       "fileTypeUnsupported": "This file type is Unsupported. Please choose a different file.",
       "allowedFileSize4MB": "File size exceeds 4MB limit. Please upload a smaller file.",
       "onlyAcceptImagesExt": "Only Accept JPG, JPEG and PNG"
+    },
+    "emptyPage":{
+      "manageAttachments": "Manage Attachments",
+      "manageJobAttachments": "Manage attachments related to your jobs.",
+      "attachFiles": "Attach Files",
+      "uploadFilesToJobs": "Upload photos, PDFs, documents, or manuals directly to job orders.",
+      "accessAnywhere": "Access Anywhere",
+      "viewAttachmentsOnDevices": "Technicians and planners can view attachments on web or mobile instantly.",
+      "improveTraceability": "Improve Traceability",
+      "storeSupportingDocuments": "Store signed forms, before/after images, and supporting documents for audits."
     }
   },
   "document": {
@@ -15409,6 +15741,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addSection": {
+        "original": "Add Section",
+        "singular": "Add Section",
+        "plural": "Add Sections",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAPage": {
+        "original": "Add Page",
+        "singular": "Add Page",
+        "plural": "Add Pages",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mapPicklist": {
+        "original": "Map Picklist",
+        "singular": "Map Picklist",
+        "plural": "Map Picklists",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct": {
         "original": "Add Spare Parts",
         "singular": "Add Spare Part",
@@ -15696,6 +16049,195 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Select All",
+        "plural": "Select All",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letStartButton":{
+        "original": "Let's Get Started",
+        "singular": "Let's Get Started",
+        "plural": "Let's Get Started",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton":{
+        "original": "Free Training",
+        "singular": "Free Training",
+        "plural": "Free Trainings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bookDemoButton":{
+        "original": "Book a Demo Now",
+        "singular": "Book a Demo Now",
+        "plural": "Book a Demos Now",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createAssetButton":{
+        "original": "Create Asset",
+        "singular": "Create Asset",
+        "plural": "Create Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importAssetButton":{
+        "original": "Import Assets",
+        "singular": "Import Assets",
+        "plural": "Import Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWorkOrderButton":{
+        "original": "Create Work Order",
+        "singular": "Create Work Order",
+        "plural": "Create Work Orders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteTeamButton":{
+        "original": "Invite Team",
+        "singular": "Invite Team",
+        "plural": "Invite Teams",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteButton":{
+        "original": "Invite",
+        "singular": "Invite",
+        "plural": "Invite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton":{
+        "original": "Change",
+        "singular": "Change",
+        "plural": "Change",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton":{
+        "original": "Ignore",
+        "singular": "Ignore",
+        "plural": "Ignore",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherType":{
+        "original": "Add another type",
+        "singular": "Add another type",
+        "plural": "Add another type",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton":{
+        "original": "Add another status",
+        "singular": "Add another status",
+        "plural": "Add another statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton":{
+        "original": "Add another fault",
+        "singular": "Add another fault",
+        "plural": "Add another faults",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton":{
+        "original": "Add another resolution",
+        "singular": "Add another resolution",
+        "plural": "Add another resolutions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton":{
+        "original": "Upgrade",
+        "singular": "Upgrade",
+        "plural": "Upgrades",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton":{
+        "original": "14-Day Pro Trial",
+        "singular": "14-Day Pro Trial",
+        "plural": "14-Day Pro Trials",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton":{
+        "original": "Contact Us",
+        "singular": "Contact Us",
+        "plural": "Contact Us",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changePlanButton":{
+        "original": "Change Plan",
+        "singular": "Change Plan",
+        "plural": "Change Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton":{
+        "original": "Manage Payment",
+        "singular": "Manage Payment",
+        "plural": "Manage Payments",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton":{
+        "original": "Contact Sales",
+        "singular": "Contact Sale",
+        "plural": "Contact Sales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton":{
+        "original": "Cancel Plan",
+        "singular": "Cancel Plan",
+        "plural": "Cancel Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton":{
+        "original": "Upgrade to Pro",
+        "singular": "Upgrade to Pro",
+        "plural": "Upgrade to Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestOrgDeletion": {
+        "original": "Request Organization Deletion",
+        "singular": "Request Organization Deletion",
+        "plural": "Request Organization Deletion",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "tryProForFree": {
+        "original": "Try Pro for Free",
+        "singular": "Try Pro for Free",
+        "plural": "Try Pro for Free",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeNow": {
+        "original": "Upgrade Now",
+        "singular": "Upgrade Now",
+        "plural": "Upgrade Now",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "learn": {
+        "original": "Learn",
+        "singular": "Learn",
+        "plural": "Learn",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "rename": {
         "original": "Rename",
         "singular": "Rename",
@@ -15756,13 +16298,6 @@
         "original": "Editor",
         "singular": "Editor",
         "plural": "Editor",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "selectAll": {
-        "original": "Select All",
-        "singular": "Select All",
-        "plural": "Select All",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15868,6 +16403,34 @@
         "original": "Regenerate",
         "singular": "Regenerate",
         "plural": "Regenerate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere":{
+        "original": "Take Me There",
+        "singular": "Take Me There",
+        "plural": "Take Me There",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on":{
+        "original": "On",
+        "singular": "On",
+        "plural": "On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off":{
+        "original": "Off",
+        "singular": "Off",
+        "plural": "Off",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow":{
+        "original": "Allow",
+        "singular": "Allow",
+        "plural": "Allow",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -16525,6 +17088,55 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "Free Forever",
+        "plural": "Free Forever",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Yearly",
+        "plural": "Yearly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Monthly",
+        "plural": "Monthly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Payment failed",
+        "plural": "Payment failed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected":{
+        "original": "Payment issue detected",
+        "singular": "Payment issue detected",
+        "plural": "Payment issues detected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmed":{
+        "original": "Confirmed",
+        "singular": "Confirmed",
+        "plural": "Confirmed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignored":{
+        "original": "Ignored",
+        "singular": "Ignored",
+        "plural": "Ignored",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "error": {
         "original": "Error",
         "singular": "Error",
@@ -16744,7 +17356,7 @@
       "noHistoryAvailable": "No history available. Your activity will appear here.",
       "noAttachmentsFoundUploadFiles": "No attachments found. Upload files to see them here.",
       "nothingToApprove": "Nothing to approve. All items are up to date.",
-      "noRecordsAvailable": "No records available.",
+      "noRecordsAvailable": "No Records Available.",
       "noMessagesYet": "No messages yet. Start a conversation to see your messages here.",
       "noNotificationsYet": "No notifications yet. You’re all caught up!",
       "noFormsAvailable": "No forms available.",
@@ -16777,6 +17389,8 @@
       "makeFilterSelections": "Make filter selections to locate assets",
       "confirmation": "Confirmation",
       "makeFilterSelectionsCheckAvail": "Make filter selections to check availability",
+      "emailPlaceholder":"Enter email here...",
+      "selectRole":"Select a Role",
       "updateConfirmation": "Update Confirmation",
       "confirmProceed": "Are you sure you want to proceed",
       "theLower": "the",
@@ -16855,7 +17469,9 @@
       "toViewScheduledJobsForToday": "to view scheduled jobs for today",
       "enterA": "Enter a",
       "current": "Current",
-      "another": "another"
+      "another": "another",
+      "wazeIsNotInstalled": "Waze is not installed",
+      "googleMapsNotInstalled": "Google Maps is not installed"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17595,6 +18211,118 @@
         "selectA": "Select a",
         "fromTheList": "from the list"
       }
+    },
+    "banner":{
+      "joFaultTitle": "Want to customize your faults?",
+      "customizeFaults": "Edit labels and add new faults with Pro features",
+      "assetStatusTitle": "Want to use your own terms for asset stages?",
+      "customizeAssetStatuses": "Rename or add custom statuses to align FieldEx with how your team talks about the asset lifecycle.",
+      "customerPicklistTitle": "Configure customer tagging:",
+      "configureCustomerPicklist": "Use this configuration to tailor picklist values according to your Customer categorisation. Changes made here will automatically reflect in all the customer picklists, ensuring consistency across all customer record entries.",
+      "generalPicklistTitle": "Configure service zones:",
+      "configureServiceZones": "Add service zone values according to locations that you operate in.",
+      "joPicklistStatusTitle": "Configure work order statuses:",
+      "configureWorkOrderStatuses": "Rename or add custom statuses to align FieldEx with how your team talks about the Work Order lifecycle",
+      "joPicklistSystemTitle": "Configure work order systems:",
+      "configureWorkOrderSystems": "Add systems to define the type of system or equipment context you're working on.",
+      "projectPicklistTitle": "Configure project tagging:",
+      "configureProjectPicklist": "Use this configuration to tailor picklist values according to your Project categorisation. Changes made here will automatically reflect in all the project picklists, ensuring consistency across all project record entries.",
+      "salesorderPicklistTitle": "Configure sales order tagging:",
+      "configureSalesOrderPicklist": "Use this configuration to tailor picklist values according to your Sales Order categorisation. Changes made here will automatically reflect in all the sales order picklists, ensuring consistency across all sales order record entries.",
+      "sitePicklistTitle": "Configure sites tagging:",
+      "configureSitePicklist": "Use this configuration to tailor picklist values according to your Site categorisation. Changes made here will automatically reflect in all the Site picklists, ensuring consistency across all site record entries.",
+      "ticketsPicklistTitle": "Configure tickets tagging:",
+      "configureTicketsPicklist": "Use this configuration to tailor picklist values according to your Ticket categorisation. Changes made here will automatically reflect in all the ticket picklists, ensuring consistency across all ticket record entries.",
+      "siteTitle": "Are you looking to utilize sites?",
+      "manageSites": "Manage all your locations with the sites module. Track customer sites, where your equipment is placed, and where work orders are conducted. Easily assign assets to specific sites and link job orders.",
+      "projectsTitle": "Are you looking to utilize projects?",
+      "manageProjects": "Handle bulk job orders with projects. Group related job orders under a project for better organization and progress tracking. Assign projects to customers and sites.",
+      "inventoryTitle": "Are you looking to manage your inventory?",
+      "manageInventory": "Set up a digital warehouse to manage your inventory with locations, zones, and bins to keep stock of your assets, spare parts, and how they move between your bins.",
+      "assetInventoryTitle": "Are you looking to fully utilize assets?",
+      "manageAssets": "Assets are your equipment or tools. Each with a unique identity, status, and location. The Movement tab shows every transfer across your inventory and bins.",
+      "emailNotificationTitle": "Configure Email Notifications:",
+      "configureEmailNotifications": "You can configure notification settings for each module to decide which events should trigger alerts. Notifications are delivered both in-app and via email, depending on user preferences.",
+      "inAppNotificationTitle": "Configure In-App Notifications:",
+      "configureInAppNotifications": "You can configure notification settings for each module to decide which events should trigger alerts. Notifications are delivered both in-app and via email, depending on user preferences.",
+      "emailTemplateTitle": "Are you looking to set up email templates?",
+      "manageEmailTemplates": "Email templates let you create standard email formats that can be quickly used when setting up notifications and workflows in FieldEx",
+      "workflowChecklistTitle": "Are you looking to set up checklists?",
+      "configureWorkflowChecklists": "Workflows allow you to automate processes in FieldEx, ensuring that tasks are completed in a consistent and efficient manner. You can create workflows for various modules, including Job Orders, Projects, and Assets.",
+      "assetChecklistTitle": "Are you looking to set up checklists?",
+      "configureAssetChecklists": "Create and configure checklists to standardize inspections, audits, and service processes. Each response can automatically trigger job orders with tasks and spare parts.",
+      "workflowTitle": "Are you looking to set up workflows?",
+      "configureWorkflows": "Set up automatic notifications based on specific conditions in any module you choose. You can customize notifications to be sent as in-app alerts or emails:",
+      "setupLabelsTitle": "Configure Labels:",
+      "configureLabels": "Customise FieldEx labels to match your organisation’s preferred terminology.",
+      "setupInventoryPicklistTitle": "Are you looking to set up your bins?",
+      "configureBins": "Bins are storage points used to track where assets and spare parts are kept, whether on a warehouse shelf, in a site cabinet, or inside a technician’s van. You can now group bins by Location and Zone for better organization. Example: Location = “HQ Warehouse” → Zone = “Parts Room” → Bin = “Shelf A1”.",
+      "slaJobOrderTitle": "Are you looking to set up SLA's?",
+      "configureJobOrderSlas": "Use this to configure SLA's with rule-based triggers. Set SLA steps with start, pause, and end conditions. And trigger notifications when SLA tresholds are breached.",
+      "ticketsTitle": "Are you looking to utilize tickets?",
+      "manageTickets": "Capture and track tickets for work orders and first-level resolutions.",
+      "inventoryHistoryTitle": "Track inventory history",
+      "trackInventoryHistoryDetails": "Inventory history records every movement of spare parts between bins, users, or warehouses. It provides a timestamped audit trail of stock changes and user actions for full traceability.",
+      "contractsTitle": "Are you looking to use contracts?",
+      "manageContracts": "Create and manage service agreement records with the contracts module. Add assets which are part of your contracts and set up maintenance contracts that will take place over the period of your contract.",
+      "pmTitle": "Are you looking to set up preventive maintenances?",
+      "configurePreventiveMaintenance": "You can configure preventive maintenances to prevent unplanned dowtimes for your assets",
+      "assetPmTitle": "Configure Maintenance Schedules:",
+      "configureMaintenanceSchedules": "Set up recurring maintenance schedules to prevent unplanned downtimes.",
+      "joTemplatesTitle": "Are you looking to set up job order templates?",
+      "configureJobOrderTemplates": "Use Work Order Templates when creating a new job order to prefill key fields like job type, faults, resolutions, and service zone. You can also link Task Templates to the template, so each new job includes ready-made steps for execution.",
+      "taskTemplatesTitle": "Are you looking to set up task templates?",
+      "configureTaskTemplates": "Save time by reusing tasks you assign often. Create a Task Template once, and apply it to any job order during task assignment.",
+      "surveyTitle": "Configure Customer Surveys",
+      "configureCustomerSurveys": "Use this configuration to create customer surveys according to your use case. Get additional information directly from your customers post job",
+      "pmSetupTitle": "Looking to configure different frequencies for your maintenance?",
+      "configurePmFrequencies": "Set up preventive maintenance by customizing frequency in your template and linking it to your asset to auto-schedule PM jobs with reminders.",
+      "globalConsignmentTitle": "Are you looking to utilize consignments?",
+      "manageConsignments": "With consignments, you can send items from your bins to other bins with an approval process.",
+      "globalRequisitionTitle": "Are you looking to utilize requisitions?",
+      "manageRequisitions": "With requisitions, you can request for items from other bins with an approval process.",
+      "userAccessTitle": "Configure user roles:",
+      "configureUserAccess": "Access defines what each person can see in FieldEx and what records they’re allowed to create, edit, or delete including administrive settings and org level configurations. Just clone an existing access and adjust the permissions. You can assign the same access to multiple users, and they’ll all follow the same rules.",
+      "userTeamTitle": "Create user teams:",
+      "createUserTeams": "Group users into teams like Installation or Central, and if you are assigned as the team manager you can create tasks for that team by selecting it during task creation and choosing one or more field reps to complete the work.",
+      "assetTypeTitle": "Define asset types:",
+      "defineAssetTypes": "Asset Types are used to group similar equipment, like tools or vehicles. Create one and link it to your assets.",
+      "jobOrderFaultsTitle": "Set up job faults:",
+      "setupJobFaults": "Faults are used to record problems found during a job and can be updated from the mobile app. You set them up here so your team can select from a standard list.",
+      "jobOrderFaultsBestPractice": "Best practice: Add a fault code in front of each fault to help your team identify and decide faster.",
+      "jobOrderResolutionsTitle": "Configure job resolutions:",
+      "configureJobResolutions": "Resolutions are used to record how a problem was fixed. You set them up here so technicians can select from a standard list instead of typing manually.",
+      "jobOrderResolutionsBestPractice": "Best practice: Add a resolution code in front of each resolution to make selection quicker and more consistent.",
+      "jobOrderTypesTitle": "Define job types:",
+      "defineJobOrderTypes": "Job order types are used to group jobs by the kind of work done like installation, repair, maintenance, or damage. You set them up here so each job can be tagged to the right type.",
+      "checklistWorkflowTitle": "Automate with checklist workflows:",
+      "automateWithChecklistWorkflows": "Checklists are used to guide inspections for assets. You can create your own questions, set answer options, and link actions to specific responses. When a checklist is answered, it can trigger things like job orders, tasks, or asset status updates.",
+      "userSkillsTitle": "Tag user skills:",
+      "tagUserSkills": "Skills are tags you create and assign to users based on their expertise. When assigning jobs, you can filter users by skill to match the right person to the right task.",
+      "userGroupsTitle": "Manage user groups:",
+      "manageUserGroups": "Create groups of users and assign them to inventory bins to control who can perform and approve transfers. Only users in the assigned group will be allowed to move or receive items from those bins.",
+      "jobOrderTemplatesDescription": "A job order template is a pre-filled form with standard job details like tasks, faults, resolutions, spare parts and other available fields. When creating a new job, just select a template and everything will be prefilled. You can adjust anything before saving.",
+      "taskTemplatesDescription": "A task template is a reusable form that auto-fills tasks fields with standard task details during task creation. When creating a task, just select the template and all tasks fields will be filled in automatically. You can still make changes if needed.",
+      "jobOrderFaultMappingDescription": "A system is a category you create, like Electrical, Hydraulic, or Engine. You can add your own categories to group related faults. When logging a job, users select a system first, then pick a fault under it.",
+      "jobOrderFaultMappingInfo": "If you don’t need this control, you can skip configuring fault mapping and all options will remain visible.",
+      "jobOrderResolutionMappingDescription": "Resolution is the fix recorded in a job order and is filtered based on the selected system and fault. For example, if you select the system \"Hydraulic\" and the fault \"Oil Leak,\" only resolutions like \"Replace seal\" or \"Tighten fitting\" will appear.",
+      "jobOrderResolutionMappingInfo": "If you don’t need this control, you can skip configuring resolution mapping and all options will remain visible.",
+      "inventoryLocationDescription": "This is your main storage place, like a warehouse. If your company has just one warehouse, you’ll likely have one location. If you operate in many cities or branches, each will have its own location in the system.",
+      "inventoryZoneDescription": "A zone is a section inside a location. Think of it as an area within your warehouse like “Spare Parts Area” or “Equipment Bay.”",
+      "inventoryUserBinDescription": "This is a personal bin for each user. It shows what items (like tools or parts) are currently with a technician or team member. All users in FieldEx automatically get a user bin, and their names will show up when transferring items.",
+      "inventoryBinDescription": "This is the exact spot where items are placed. It could be a shelf, cabinet, or rack. You’ll use bins to track exactly where each asset or part is kept within a zone.",
+      "inventoryBinBestPractice": "Best Practice: Each location bin comes with a unique barcode. Print and stick this on your physical racks so field reps can scan the bin when taking or placing items using the mobile app.",
+      "approvalsDescription": "Set who approves consignments & requisitions in sequence. If the submitter is in a Level 1 group, members in the Level 2 group will be notified to approve next.",
+      "hierarchyDescription": "Create a hierarchy and assign users. Sales staff and maintenance staff at the same level can’t see each other’s records. A manager above them can see records from both teams.",
+      "usersDescription": "Each user has a profile they can update with their details. Active users can access the account. Suspend to temporarily block access, and deactivate to permanently remove access.",
+      "serviceZoneDescription": "Select the area you manage, such as Central, Northern, or specific states. Tag this grouping to your individual customers, assets, and jobs.",
+      "thisViewShowTask": "This view shows tasks that you’ve created for yourself or that have been assigned to you. Task creation starts by",
+      "creatingJobOrder": "creating a job order",
+      "clickCreateToAssignYourself": ", then click “Create” to assign it to yourself.",
+      "thisViewOnlyShows":"This view only shows users where you are set as their manager. Their names will appear here, along with a calendar showing their assigned tasks. To assign tasks to your staff, start by",
+      "thisViewOnlyShowsTeams":"This view shows teams where you are set as the team’s manager. You can manage one or many teams, and you’ll see each team’s tasks and members here. To assign tasks to your team members, start by",
+      "thenAssignFromTask":"and then assign from the task tab",
+      "thenAssignTaskForTeam":"then assign a task and specify which team."
     }
   },
   "setup": {
@@ -17786,10 +18514,131 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "Billing Details",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "Lite Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Pro Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Next Payment",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Growth Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Enterprise Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "Request sent successfully"
+          "requestSentSuccessfully": "Request sent successfully",
+          "litePlanMessage":"Upgrade anytime to unlock advanced features.",
+          "seatsInUseLite":"seats in use",
+          "monthly":"Monthly",
+          "yearly":"Yearly (30% off)",
+          "usersAbove":"6 users and above",
+          "largerTeams":"For larger teams",
+          "memberMonth":"per member / month",
+          "litePlusListTitle":"Everything in Lite, plus:",
+          "growthPlusListTitle":"Everything in Growth, plus:",
+          "proPlusListTitle":"Everything in Pro, plus:",
+          "siteManagement":"Site management",
+          "projectManagement":"Project management",
+          "dedicatedSupport":"Dedicated support",
+          "preventiveMaintenance":"Preventative maintenance",
+          "assetAnalyticMeterLog":"Asset analytics & meter logs",
+          "inventoryStockControl":"Inventory and stock control",
+          "customWorkflows":"Custom workflows",
+          "apiIntegration":"API integration",
+          "assetRequisitionWorkflows":"Asset requisition workflows",
+          "fieldexIntelligence":"FieldEx Intelligence",
+          "slaManagement":"SLA management",
+          "feedbackSurveys":"Feedback surveys",
+          "customEmail":"Custom email",
+          "customNotificationTemplate":"Custom notification template",
+          "subscriptionRenewMessage":"Your subscription will auto renew on",
+          "upgradeEnterpriseTitle":"Looking to upgrade to Enterprise?",
+          "upgradeEnterpriseContent":"Get in contact with our sales team to help you get upgraded",
+          "cancelPlanTitle":"Looking to cancel your plan?",
+          "cancelPlanContent":"By canceling your plan, you will not be charged for a renewal and lose access to FieldEx on ",
+          "trialEndOn":"Your trial will end on",
+          "daysLeftTrial":"days left in trial",
+          "paymentDue":"Payment due",
+          "paymentFailed": "Payment failed",
+          "loseExcessMessage":"You will lose excess in",
+          "days":"days",
+          "planCanceled":"Plan Canceled",
+          "proPlanCanceledMessage":"Your Pro plan has been canceled. You will be downgraded to a free plan on",
+          "freePlansMaximumSeats":"Free plans have a maximum of 5 seats",
+          "paymentFailedMessage":"Payment failed. Please update card details and perform payment to enable account access.",
+          "accountAccessSuspended":"Account access suspended",
+          "paymentIsuueDetectedMessage":"Payment issue detected! Your organization will be downgraded in",
+          "yourOrgWillBeDowngraded":"Your organization will be downgraded in",
+          "unlessPaymentUpdatedMessage":"unless payment is updated.",
+          "upgradePlan":"Looking to upgrade your plan",
+          "upgradeToProOrEnterprise":"Upgrade to Pro or contact sales to upgrade to Enterprise",
+          "your":"Your",
+          "planRenewsOn":"plan renews on",
+          "proPlanRenewsOn":"Your Pro plan renews on",
+          "litePlanRenewsOn":"Your Lite plan renews on",
+          "growthPlanRenewsOn":"Your Growth plan renews on",
+          "contactSalesToRenewSubscription":"Contact sales to renew your subscription and avoid potential service interruption",
+          "subscriptionRenewalOn":"Subscription renewal on",
+          "deleteOrgData":"Delete organization and data",
+          "requestPermanentDelete":"Request to permanently delete your organization and all your data. This cannot be undone.",
+          "byCancellingTrial":"By canceling your trial, you will not be charged for a renewal and be downgraded to a Lite plan on"
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "Growth",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro":{
+            "original": "Pro",
+            "singular": "Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise":{
+            "original": "Enterprise",
+            "singular": "Enterprise",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -19259,6 +20108,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "billingUser":{
+            "original": "Is Billing User",
+            "singular": "Is Billing User",
+            "plural": "Is Billing Users",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "designation": {
             "original": "Designation",
             "singular": "Designation",
@@ -20452,6 +21308,167 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Form Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Field Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Page Layout",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "List View Setup",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "Subform Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "Create Field",
+            "plural": "Create Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "Save Form",
+            "plural": "Save Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "Delete Section",
+            "plural": "Delete Sections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "Section Layout",
+            "plural": "Section Layout",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Details",
+            "singular": "Job Order Details",
+            "plural": "Job Order Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Subform Details",
+            "plural": "Subform Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Mapping",
+            "plural": "Mapping",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Field",
+            "plural": "Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Create Form",
+            "plural": "Create Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Setup Subform",
+            "plural": "Setup Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Setup List View",
+            "plural": "Setup List Views",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Create Subform",
+            "plural": "Create Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec41":{
+            "original": "Mobile Preview",
+            "singular": "Mobile Preview",
+            "plural": "Mobile Preview",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -20495,6 +21512,13 @@
             "singular": "Job Order Type",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Status Pesanan Kerja",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -20769,6 +21793,97 @@
             "plural": "Mapped Fields",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Enter a name for your form",
+            "plural": "Enter a name for your form",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "Enter a name for your new subform",
+            "plural": "Enter a name for your new subform",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "Created Date",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Mandatory",
+            "plural": "Mandatory",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Select Module",
+            "plural": "Select Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Module",
+            "plural": "Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "Select Picklist",
+            "plural": "Select Picklist",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "Example",
+            "plural": "Example",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "Subform Name",
+            "plural": "Subform Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Form Name",
+            "plural": "Form Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "One Column",
+            "plural": "One Column",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "Two Columns",
+            "plural": "Two Columns",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Section Name",
+            "plural": "Section Name",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -20822,7 +21937,56 @@
           "whatIsRunningNoFormat": "What is Running Number Format?",
           "runningNoDesc": "Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
           "mapPicklistFields": "Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
-          "addDescriptionHere": "Add description here..."
+          "addDescriptionHere": "Add description here...",
+          "selectJobOrderStatus":"Select Job Order Status",
+          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!",
+          "formCreationDesc":"Create a form by clicking on the + New button. Give your form a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationFormDesc":"Click on the Field Creation button in the form view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutFormDesc":"Click on the Page Layout button in the form view page. Here you can drag and drop the fields that you have created from the fields section on into the form sections.",
+          "subformSetupFormDesc":"If needed you can add subforms to your form by clicking on the setup subforms button. The setup process is similar to how you would set up forms.",
+          "looksLikeNoSubformsCreated":"It looks like you don't have any subforms created just yet. Don't worry, just follow these steps and we'll have your subforms up and running in no time!",
+          "subformCreationDesc":"Create a subform by clicking on the + New button. Give your subform a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationSubformDesc":"Click on the Field Creation button in the subform view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutSubformDesc":"Click on the Page Layout button in the subform view page. Here you can drag and drop the fields that you have created from the fields section on into the subform sections.",
+          "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page.",
+          "optional":"Optional",
+          "onlyForListRec":"Only for List Records",
+          "createFieldsDesc":"Create fields that will be used in your form.",
+          "pageLayoutDesc":"Set the page layout of your form with the fields that you have created.",
+          "subformSetupDesc":"Optionally, you can set up subforms for this form. Use subforms if you need additional information from your technicians or field agents while on the job.",
+          "createFieldsSubformDesc":"Create fields that will be used in your subform.",
+          "pageLayoutDetsSubformDesc":"Set the page layout of your subform with the fields that you have created.",
+          "listViewSubformSetupDesc":"You can set up list views for your subform if  you have selected a list record type for it. This will enable you to customise the arrangement of the fields in the subform list view table.",
+          "completeAllStepForm":"Complete all steps to fully set up your form",
+          "completeAllStepSubform":"Complete all steps to fully set up your subform",
+          "editFormArrangement":"Are you sure you want to edit this form's arrangement? Changes made will also be reflected on previous forms. This cannot be undone.",
+          "selectLayoutPreferred":"Select the layout that you would prefer for your section. Fields that you add to the seciton will be displayed according to your section layout.",
+          "example":"Example",
+          "selectModuleDesc":"Select a module to link it to this field and retrieve related data from it.",
+          "moduleSelectedDesc":"Choose the field you want to look up from the selected module. This will allow you to retrieve and link relevant data from that field.",
+          "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "parentPicklistDesc":"Parent picklists are Dropdowns or Buttons that have already been created. Select a parent picklist to link and map its options to this dropdown in the mapping page. The options available for this dropdown will then be based on the parent picklist selection.",
+          "fieldsDesc":"Add the fields that should appear in this Dropdown. These fields will be available for users to choose from when interacting with the Dropdown.",
+          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "looksLikeNoFieldsCreated":"It looks like you don't have any fields created just yet. Don't worry, just follow these steps and we'll have you creating your first field in no time!",
+          "beginCreateFieldClickNew":"Begin creating a field by clicking on the + New button.",
+          "selectComponentTypeFromSelection":"Select a component type from the available selection that best fits your use case.",
+          "fillInAllNecessaryDets":"Fill in all the necessary details for your field.",
+          "onlyForDropdownButton":"Only For Dropdown or Button",
+          "selectDropdownButtonLinkParent":"If you select a Dropdown or Button component you can link it to a parent picklist, which is another Dropdown or Button component that you have already created. This will take you to the Picklist Mapping page where you can set up the mapping. Alternatively, you can access the Picklist Mapping page by clicking the 'Map Picklist' button in the field list view.",
+          "dragDropToYourLiking":"Drag and drop fields into sections according to your liking",
+          "copyOf":"Copy of",
+          "formPreviewDesc":"Preview how your form will be displayed on the FieldEx mobile app. This is how your technicians or fields agents will be seeing the form on their end.",
+          "exampleFieldPreview":"Example field preview",
+          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
+          "whatAreForms":"What are Forms?",
+          "whatAreSubforms":"What are Subforms?",
+          "fieldCreationForms":"Field Creation for Forms",
+          "howDoICreateForm":"How do I create forms?",
+          "howDoICreateSubform":"How do I create subforms?",
+          "howDoICreateFIeld":"How do I create fields?",
+          "checkFormatNumber":"Check 'Format Number' to allow decimal values for this field, then enter the required 'Decimal Places' (max 6 places).",
+          "addFieldHere":"Add a field here"
         }
       },
       "artificialIntelligence": {
@@ -27406,7 +28570,10 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {        
+        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
+        "exceedFileSizeSmall":"File size exceeds 2MB limit. Please upload a smaller file."
+      },
       "messages": {
         "selectAssetTypes": "Select Asset Types",
         "selectServiceZone": "Select Service Zone",
@@ -29164,7 +30331,18 @@
         "importDataCsvFormat": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
         "exportDataAsCsvFormat": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
         "pleaseSelectModule": "Please select a module",
-        "pleaseSelectModuleToImport": "Please select a module to import"
+        "pleaseSelectModuleToImport": "Please select a module to import",
+        "filterSelectAsset": "Filter and select the assets for which you want to export QR codes",
+        "exportQrForAll": "Also export QR codes for all components",
+        "uploadYourData": "Upload your data",
+        "dragAndDropFile": "Drag and drop a .csv or .xls file, or browse your computer. A sample CSV file will be available in the next page.",
+        "mapYourFields": "Map your fields",
+        "matchTheColumnsInYourFile": "Match the columns in your file to the corresponding fields in FieldEx.",
+        "verifyAndEdit": "Verify and edit",
+        "reviewAndFixData": "Review your data and make any necessary changes. The system will highlight any missing information in required fields to prevent import errors.",
+        "importYourData": "Import your data",
+        "onceGoodClickImport": "Once everything looks good, click import to bring your data into FieldEx.",
+        "bringYourDataIntoFieldEx": "Bring your data into FieldEx with the following steps"
       }
     },
     "customerSurvey": {
@@ -30203,6 +31381,295 @@
         }
       }
     },
+    "portal":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portal",
+        "singular": "Portal",
+        "plural": "Portal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "General Details",
+          "plural": "General Details",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "Domain",
+          "plural": "Domain",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "Branding",
+          "plural": "Branding",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "Module",
+          "plural": "Modules",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "Label",
+          "plural": "Labels",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "Statuses",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "Code",
+          "plural": "Codes",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "Color",
+          "plural": "Colors",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "Color Code",
+          "plural": "Color Codes",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "Default",
+          "plural": "Defaults",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "Available",
+          "plural": "Available",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "Action",
+          "plural": "Actions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "Reorder",
+          "plural": "Reorders",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "Branding",
+          "plural": "Branding",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "Logos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Header Colour",
+          "plural": "Header Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Header Font Colour",
+          "plural": "Header Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Sidebar Colour",
+          "plural": "Sidebar Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Sidebar Font Colour",
+          "plural": "Sidebar Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Button Colour",
+          "plural": "Button Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Button Font Colour",
+          "plural": "Button Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Font Family",
+          "plural": "Font Families",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Portal Identity",
+          "plural": "Portal Identities",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Module Visibility",
+          "plural": "Module Visibilities",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages":{
+        "the": "The",
+        "givesEachOfYour": "gives each of your",
+        "dedicatedBrandedPage": "a dedicated, branded web page where they can independently track",
+        "andBrowseTheirRegistered": "and browse their registered",
+        "withoutCallingYourTeam": "without calling your team.",
+        "eachPortalLivesOnUniqueUrl": "Each portal lives on a unique URL (e.g. drewbar.fieldex.com), is fully branded per",
+        "urlExample": "e.g. drewbar.fieldex.com",
+        "youControlWhatTheySee": "and you control exactly what they can see.",
+        "allowYour": "Allow your",
+        "to": "to",
+        "throughASharedPortal": "through a shared portal",
+        "and":"and",
+        "enableAccessFor":"Enable portal access for all your",
+        "whatHappensWhenYouActivate":"What happens when you activate",
+        "portalFeatureEnabled":"Portal feature is enabled for your organisation",
+        "youWillBeTaken":"You will be taken to the configuration page to set up branding, modules, and",
+        "settings":"settings",
+        "how":"How",
+        "getAccess":"get access",
+        "goToThe": "Go to the",
+        "tabAndOpenA": "tab and open a",
+        "record": "record",
+        "addA": "Add a",
+        "toThe": "to the",
+        "enablePortalAccess": "enable portal access",
+        "forThat": "for that",
+        "fromThe": "From the",
+        "recordYouCanAlso": "record you can also",
+        "resetTheirPassword": "reset their password",
+        "or": "or",
+        "revokePortalAccess": "revoke portal access",
+        "atAnyTime": "at any time",
+        "availableStatuses": "Available Statuses",
+        "addNewStatusesIfRequired": "Add new statuses if required by entering the name, code, and color code.",
+        "note": "Note:",
+        "newlyCreatedStatusesWillBe": "Newly created statuses will be visible but not set as",
+        "available": "available",
+        "forOtherJobOrderTypes": "for other job order types.",
+        "addStatus": "Add Status",
+        "dragStatusHandlesToReorder": "Drag the status handles to reorder them. Toggle statuses as",
+        "toIncludeThemForThisType": "to include them for this job order type. Choose a unique color for statuses and set one status as the default value for this type.",
+        "youAreInEditMode": "You are in edit mode. Please save before navigating to other tabs.",
+        "logoColoursAndFont": "Logo, colours, and font shown in the customer-facing portal",
+        "appearsInPortalHeader": "Appears in the portal header. Use SVG or PNG with transparent background. Max 1 MB.",
+        "maximumFileSize": "Maximum file size is 1MB",
+        "recommendedSize": "Recommended ( 40px X 40 px) OR ( 160px X 40 px)",
+        "selectThemeColours": "Select the theme colours",
+        "primaryThemeNavBar": "Primary theme navigation bar",
+        "textInPortalHeader": "Text in the portal header",
+        "sideMenuBarColour": "Side menu bar colour",
+        "sideMenuFontColour": "Side menu font colour",
+        "buttonBackgroundColour": "Button background colour",
+        "buttonTextColour": "Button text colour. TIP: use high contrast vs button background",
+        "fontDisplayedInPortal": "Font that is displayed in the customer portal",
+        "selectAFont": "Select a font",
+        "pricingTypesTemplatesRescheduling": "pricing, types, templates, and rescheduling",
+        "selectWhichTypesOf": "Select which types of",
+        "areVisibleTo": "are visible to",
+        "inThePortal": "in the portal.",
+        "allow": "Allow",
+        "toReschedule": "to reschedule",
+        "canRequestNewDate": "can request a new date for open or upcoming",
+        "directlyFromThePortal": "directly from the portal.",
+        "list": "list",
+        "displayThePartsUsedIn": "Display the parts used in completed",
+        "onThe": "on the",
+        "detailView": "detail view.",
+        "prices": "prices",
+        "showUnitCostAndTotalPrice": "Show unit cost and total price for each part. Requires \"Show\".",
+        "toBeOn": "to be on.",
+        "statusLabelsShownFor": "status labels shown for",
+        "configureTheLabelsOfStatus": "Configure the labels of the status shown in the",
+        "portal": "portal.",
+        "subdomainWhereAll": "Subdomain where all",
+        "accessThePortal": "access the portal",
+        "setupPortalSubdomain": "Setup portal subdomain",
+        "theSharedUrlWhereAll": "The shared URL where all your",
+        "logInEachCustomer": "log in. Each customer sees only their own data.",
+        "lowercaseLettersNumbersHyphens": "Lowercase letters, numbers, and hyphens only.",
+        "isAvailable": "is available",
+        "controlWhichSection": "Control which section",
+        "canAccessInThePortal": "can access in the portal",
+        "alwaysOn": "Always On",
+        "showThePreventive": "Show the preventive",
+        "scheduleAndPmHistory": "schedule and PM history in the portal.",
+        "toBrowseTheirRegistered": "to browse their registered",
+        "listAndView": "list and view",
+        "details": "details."
+      },
+      "validationFE":{
+        "activationFailed": "Activation failed. Please try again",
+        "hasBeenActivatedSuccessfully": "has been activated successfully",
+        "onlyPngAndSvgAllowed": "Only PNG and SVG image files are allowed"
+      }
+    },
     "validationBE": {
       "setupAssetsConfigIdExists": "A new Assets Config cannot already have an ID",
       "setupAssetsConfigIdNotFound": "Id not found",
@@ -30443,7 +31910,7 @@
       "setupWorkflowMaxActionsPerWorkflow": "Maximum actions per workflow reached",
       "setupWorkflowEmailsMax": "Maximum allowed email addresses reached for workflow notification",
       "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
-      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
+      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",     
       "setupTmplJobOrderLimitReached": "You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "tmplTaskLimitExceeded": "You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
@@ -30453,7 +31920,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Job order type related to the template is not configured in the portal. Please add it to the job order types.",
       "setupJobOrderStatusNotFound": "Job Order Status not found",
       "SetupCustomerPortalConfigNotFound": "Customer portal configuration not found for this tenant",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Customer Portal Configuration exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "Job Order Config exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "PM Cycle Item exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "Site Config exists in the system for the TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -31676,6 +33147,18 @@
       "unpaidLeave": "Unpaid",
       "emergencyLeave": "Emergency",
       "paternityMaternityLeave": "Paternity/Maternity"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "Manage Your Leaves",
+      "manageTimeOffRequests": "Leave helps you manage your time-off requests.",
+      "requestLeave": "Request Leave",
+      "submitLeaveRequest": "Submit your leave request with leave type, dates, and reason.",
+      "myStaffLeaves": "My Staff Leaves",
+      "approveStaffLeaveRequests": "View, manage, and approve leave requests submitted by your downlines.",
+      "availabilityImpactForAssignments": "Availability Impact for Assignments",
+      "preventTaskAssignmentForUsersOnLeave": "Users on leave will not be available to select from for task assignment.",
+      "leaveOverview": "Leave Overview",
+      "requestAndManageStaffTimeOff": "Request for time-off and manage time-off requests from your staff."
     }
   },
   "compliance": {
@@ -31762,7 +33245,8 @@
       "userLoginNotFound": "User's login not found",
       "userNameExists": "Username already in use",
       "userNotAllowedInMobile": "You are not allowed to login to the Mobile App. Please proceed with web application",
-      "deviceNotAllowed": "This device is not allowed to login. Please contact your admin"
+      "deviceNotAllowed": "This device is not allowed to login. Please contact your admin",
+      "usernameLeadingSpace": "Remove spaces in front of the username and try again."
     }
   },
   "resetPassword": {
@@ -33038,7 +34522,7 @@
           "setupVisible": false
         }
       }
-    },
+    },    
     "onBoard": {
       "setupEdit": false,
       "setupVisible": false,
@@ -33091,6 +34575,13 @@
           "original": "Invite Your Team",
           "singular": "Invite Your Team",
           "plural": "Invite Your Team",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "Invite your team to FieldEx",
+          "plural": "Invite your teams to FieldEx",
           "setupEdit": false,
           "setupVisible": false
         }
@@ -33273,7 +34764,77 @@
         "doNotShowAgain": "Do not show again",
         "areYouSure": "Are you sure you want to stop showing this page again?",
         "inBulkStreaming": "in bulk to streamline planning, reduce errors, and save setup time",
-        "yourProTrialEndsIn": "Your Pro trial ends in"
+        
+        "yourProTrialEndsIn": "Your Pro trial ends in",
+        "welcomeMessage":"We’re excited to have you on board. Before diving in, take a minute to watch this short intro video. It’ll give you a quick overview of what FieldEx can do for you.",
+        "inviteTeamContent":"Invite your team members and set their roles",
+        "importAssetTitle":"Import your Assets",
+        "importAssetContent":"Import your assets into our system and manage types and statuses",
+        "setupWorkOrdersTitle":"Set Up Work Orders",
+        "setupWorkOrdersContent":"Import your past work orders into FieldEx",
+        "notificationLabelTitle":"Set Up Notifications & Labels",
+        "notificationLabelContent":"Configure notifications and labels to make FieldEx feel comfortable",
+        "needHelp":"Need Help?",
+        "needHelpText": "We want you up and running as soon as possible. If you would like a free training session or have any issues getting started, get in touch. We’re always ready to help.",
+        "bookDemoTitle":"Book a Demo Session",
+        "bookDemoDescription":"Book a session with our product specialists and learn how to maximize the efficiency of your field operations, free of charge.",
+        "manualCreateAssetDownloadLink":"Download Asset Template",
+        "reviewSaveTitle":"Review & Save",
+        "inviteYourTeamContent":"Smooth operations starts with a strong team. Invite your managers, planners, and technicians to:",
+        "inviteTeamManagement":"Manage users, assets and settings.",
+        "inviteTeamHandle":"Handle team schedules and workloads in one place.",
+        "inviteTeamUpdate":"Keep yourself updated by tracking job progress.",
+        "learnMoreTitle":"Learn FieldEx",
+        "learnMoreContent":"New to FieldEx? We’ve got everything to help you get started, fast.",
+        "toLearnMoreAboutTheseFeatures":"To learn more about these features, please visit our academy or book a free training session with our team of experts",
+        "readyToSetUpWorkspace":"Ready to put FieldEx to work? Click the button below to start setting up your workspace.",
+        "addYourFirstAsset":"Add your first asset",
+        "setUpFirstAsset":"Let’s set up your first asset. You can enter it manually or import a list to get going faster.",
+        "enterKeyInfo":"Enter key info",
+        "likeNameTypeSerialNumber":"like asset name, type and serial number.",
+        "addDetails":"Add details",
+        "likeLocationSpecTrackInfo":"like location, specs, and tracking info.",
+        "startAssigningAssetToJobs":"start assigning assets to jobs.",
+        "wantToAddManyAtOnce":"Want to add many at once? Click the ‘Import Assets’ button below to upload a list via CSV.",
+        "addYourFirstWorkOrder":"Add your first work order",
+        "helpYouAssignJobs":"Work Orders help you assign jobs to team members, manage assets, and track job progress - all in one place.",
+        "whatYouDo":"What you'll do",
+        "enterTaskDetails":"Enter task details",
+        "whatNeedsToBeDone":"What needs to be done, by whom, and when.",
+        "attachAnAsset":"Attach an asset",
+        "chooseEquipmentItem":"Choose the equipment or item this job is for.",
+        "assignOrderOwner":"Assign an order owner",
+        "chooseWhosReponsible":"Choose who’s responsible this work order.",
+        "noTeamMember":"No team members yet",
+        "uploadData":"Upload Data",
+        "importFile":"Import File",
+        "orBrowseFile":"or click to browse and select your file",
+        "csvSizeCondition":"Accepts .csv files up to 10MB • Maximum 200 assets per import",
+        "csvSizeConditionWorkOrder":"Accepts .csv files up to 10MB • Maximum 200 work orders per import",
+        "mapColumns":"Map Your Columns",
+        "yourColumn":"YOUR COLUMN",
+        "fieldexField":"FIELDEX FIELD",
+        "belowColumnNameStepDescription":"Below, you’ll see the column names from your file. We’ve matched some of them to FieldEx fields for you. If any columns aren’t matched yet, just pick the right FieldEx field from the dropdown menu. If you don’t need a column, choose “Ignore” to skip it.",
+        "percentageValueOfField":"% of your rows have a value for this field",
+        "configureDropdowns":"Configure Drop-downs",
+        "assetStatuses":"Asset Statuses",
+        "customizeDropdownOption":"Customize drop-down options. You can rename existing options, remove unused ones, or keep the default values. Any new values found in your imported file will be automatically added to the relevant drop-downs.",
+        "detectedImportFile":"Detected from import file",
+        "reviewConfirmTitle":"Review & Confirm",
+        "columnsToBeImported":"Columns to be imported",
+        "columnsToBeIgnored":"Columns to be ignored",
+        "recordsToBeAdded":"Records to be added",
+        "confirmMatchFields":"Confirm matched fields",
+        "ignoreUnmappedFields":"Ignore unmapped fields",
+        "reset":"Reset",
+        "dowmloadWorkOrderTemplate":"Download Work Order Template",
+        "workOrderStatuses":"Work Order Statuses",
+        "workOrderTypes":"Work Order Types",
+        "workOrderFaults":"Work Order Faults",
+        "workOrderResolutions":"Work Order Resolutions",
+        "matchFoundFor":"Match found for",
+        "matchNotAutoDetected":"Match not automatically detected",
+        "weWantYouUpRunning":"We want you up and running as soon as possible. Get in touch, we’re happy to help."
       },
       "validationFE": {
         "onlyCsvFilesAllowed": "Only CSV files can be uploaded",

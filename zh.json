@@ -420,6 +420,18 @@
       "nearestCustomers": "最近的客户",
       "nearbyCustomers": "附近的客户",
       "seeInMap": "在地图上查看"
+    },
+    "emptyPage":{
+      "manageCustomer":"管理您的客户",
+      "keepRecordOfCompanies":"保存与您合作的公司和联系人的记录。",
+      "customerRecords":"客户记录",
+      "storeCustomerDetails":"存储客户详细信息，如联系方式和地址，并将工作、资产和服务活动链接到每个档案。",
+      "siteLinking":"站点关联",
+      "handleCustomersUnderOneProfile":"在一个档案下管理拥有多个服务地点的客户。",
+      "activityHistory":"活动历史",
+      "trackPastJobs":"跟踪过去的工作、已完成的任务、使用的资产和现场活动。",
+      "customerOverview":"客户概览",
+      "storeRecordsOfContacts":"保存与您合作的联系人和公司的记录。将客户关联到站点，并跟踪与他们相关的工作、任务、资产和项目。"
     }
   },
   "asset": {
@@ -591,22 +603,8 @@
       }
     },
     "fields": {
-      "category": {
-        "original": "Category",
-        "singular": "类别",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "subCategory": {
-        "original": "Sub Category",
-        "singular": "子类别",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "setupVisible": true,
       "setupEdit": true,
+      "setupVisible": true,
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -1006,6 +1004,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "category": {
+          "original": "Category",
+          "singular": "类别",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      },
+      "subCategory": {
+          "original": "Sub Category",
+          "singular": "子类别",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      },
       "allAssets": {
         "original": "All Assets",
         "singular": "所有资产",
@@ -1184,12 +1196,12 @@
       "assetCategoryExists": "资产类别已存在",
       "assetCategorySystemGenerated": "系统生成的资产类别不允许删除",
       "assetCategoryCannotDeleteByAssetSubCategory": "无法删除：资产类别在一个或多个资产子类别中使用",
+      "assetCategoryCannotDeleteByAssets": "无法删除：资产类别已在一个或多个资产中使用",
+      "assetSubCategoryCannotDeleteByAssets": "无法删除：资产子类别已在一个或多个资产中使用",
       "assetSubCategoryExists": "资产子类别已存在",
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
       "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
-      "assetCategoryCannotDeleteByAssets": "无法删除：资产类别在一个或多个资产中使用",
-      "assetSubCategoryCannotDeleteByAssets": "无法删除：资产子类别在一个或多个资产中使用",
       "assetParentInvalid": "所选父级已在资产层次结构中",
       "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联",
       "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。",
@@ -1506,6 +1518,44 @@
       "alsoUpdateComponentStatus": "同时更新组件状态",
       "wouldYouAlsoUpdateFields": "您是否还要更新此中的相应字段",
       "component": "组件"
+    },
+    "emptyPage":{
+      "getStartedWithAsset":"从资产开始",
+      "createManageAsset":"创建、管理、维护并获取资产的洞察。",
+      "assetRegistration":"资产注册",
+      "registerDetailedAsset":"注册详细的资产信息，包括序列号、规格和位置。",
+      "trackAsset":"跟踪资产",
+      "monitorAsset":"监控资产的位置、所有者及其状态。",
+      "connectAnalyse":"连接与分析",
+      "linkAssetToSchedule":"将资产关联到预防性计划并自动生成重复的服务任务。",
+      "assetOverview":"资产概览",
+      "storeManageDataForAsset":"将所有资产的数据存储并集中管理在一个地方。跟踪所有权、位置、状态，并将资产关联到工单、检查清单和维护计划。",
+      "jobOrdersChecklist":"工单和检查清单",
+      "keepAssetInCheck":"通过工单和技师专用检查清单来保持资产受控。",
+      "scheduleMaintenance":"安排维护",
+      "reduceUnplannedDowntimes":"通过安排维护来减少资产的计划外停机时间。",
+      "qrScanning":"二维码扫描",
+      "useQrScanning":"使用二维码扫描来加快资产识别和跟踪。",
+      "meterTracking":"仪表跟踪",
+      "trackAssetUsage":"通过仪表读数跟踪资产的使用情况和性能。",
+      "analytics":"分析",
+      "obtainCalculatedMetrics":"获取根据您提供的数据计算的指标和洞察。",
+      "trackAssetMovements": "跟踪资产移动",
+      "trackMovementOfAssets": "跟踪资产在库位之间的移动。",
+      "initiateTransfers": "发起转移",
+      "moveAssetsBetweenBins": "在位置库位之间移动资产或分配到用户库位。",
+      "trackMovementHistory": "跟踪移动历史",
+      "viewAssetTransferLogs": "查看所有库位中每次资产转移的详细日志。",
+      "controlAccess": "控制访问",
+      "applyRoleBasedApprovals": "应用基于角色的审批和规则来决定谁可以转移资产。",
+      "getStartedWithAssetInventory": "开始使用资产库存",
+      "trackAssetsWithInventory": "资产库存可帮助您跟踪资产。",
+      "assignAssetsToBins": "将资产分配到库位",
+      "placeAssetsInBins": "将资产放置在特定仓库或用户库位中以实现精确跟踪。",
+      "transferBetweenLocations": "在位置之间转移",
+      "moveAssetsAcrossBins": "在库位、站点或用户之间移动资产并保持完整可追溯性。",
+      "checkAvailability": "检查可用性",
+      "viewAssetAvailability": "查看每个资产的存储位置以及是否可供使用。"
     }
   },
   "analytic": {
@@ -1965,6 +2015,16 @@
       "entryCannotBeNegativeValue": "不能输入负值",
       "areYouSureDeleteReading": "您确定要删除这个读数吗？",
       "errorOccuredWhileSigning": "签名时发生错误"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog": "从资产日志开始",
+      "assetLogsHelpTrack": "资产日志可帮助您跟踪资产计量表。",
+      "logs": "日志",
+      "maintainListOfAssetLog": "维护资产计量日志列表。",
+      "currentReading": "当前读数",
+      "stayInformedOnReading": "随时了解您当前的资产计量表读数。",
+      "audit": "审计",
+      "keepTrackOfReading": "跟踪资产计量表读数。"
     }
   },
   "vanLog": {
@@ -2144,6 +2204,16 @@
     },
     "messages": {
       "quantityCantBeZero": "数量不能为零"
+    },
+    "emptyPage":{
+      "getStartedWithAccessories": "从配件开始",
+      "createManageAccessories": "创建、管理、维护并获取配件的洞察。",
+      "linkAccessoriesToAsset": "将配件关联到资产",
+      "defineChildAsset": "在主资产下定义子资产（如附件、工具）。",
+      "trackTogetherSeparately": "一起跟踪或分别跟踪",
+      "monitorConditionLocation": "独立监控父资产和子资产的状态、位置和使用情况。",
+      "autoUpdateDetails": "自动更新详细信息",
+      "syncStatusLocation": "在转移或更新时，将状态或位置从父资产同步到配件。"
     }
   },
   "maintenance": {
@@ -2464,6 +2534,16 @@
       "maintenance": "维护",
       "maintenanceDetails": "维护详情",
       "haveActiveMaintenance": "已有激活的维护"
+    },
+    "emptyPage":{
+      "setUpMaintenanceSchedule": "设置维护计划",
+      "preventUnplannedDowntimes": "通过设置预防性维护计划防止资产的计划外停机。",
+      "linkAssetToPm": "将资产关联到预防性维护计划",
+      "assignAssetBasedOnType": "根据类型将资产分配到预防性维护计划。",
+      "autoGenerateJob": "自动生成工作",
+      "autoCreateMaintenanceJob": "根据设定的间隔或合同自动创建维护工单。",
+      "trackServiceHistory": "跟踪服务历史",
+      "viewAllCompletedMaintenance": "查看每个资产已完成和即将进行的维护工作。"
     }
   },
   "preventiveMaintenance": {
@@ -2636,7 +2716,29 @@
         "setupVisible": false
       }
     },
-    "messages": {}
+    "messages": {},
+    "emptyPage":{
+      "reduceDowntimesWithPm": "通过预防性维护减少停机时间",
+      "preventUnplannedDowntimes": "通过设置预防性维护来防止资产的计划外停机。",
+      "setSchedules": "设置计划",
+      "configureRemindersMultipleMaintenance": "配置提醒和多种维护频率，并自动生成预防性维护作业。",
+      "linkAsset": "关联资产",
+      "linkMaintenanceSchedules": "将维护计划关联到一个或多个资产以生成单独的重复预防性维护作业。",
+      "trackCompliance": "跟踪合规性",
+      "monitorUpcomingCompletedPm": "实时监控即将到期、逾期和已完成的预防性维护任务。",
+      "pmOverview": "预防性维护概览",
+      "planScheduleRecurringMaintenance": "规划和安排重复性维护任务以减少设备停机。可根据固定日期或仪表读数自动安排，分配任务并跟踪完成情况。",
+      "createSchedule": "创建计划",
+      "createSchedulePerformedForAsset": "创建一个针对资产执行预防性维护作业的计划。",
+      "intervalTemplates": "区间模板",
+      "createIntervalTemplatesForAsset": "为资产创建可使用的区间模板。",
+      "meters": "计量表",
+      "setSpecificMeterRange": "设置特定的计量范围以确定何时应执行预防性维护作业。",
+      "checklists": "检查清单",
+      "haveAssetSpecificChecklist": "为预防性维护作业准备资产专属检查清单。",
+      "notifications": "通知",
+      "setUpNotificationToPerformPm": "设置通知，定期发送给资产所有者以执行预防性维护。"
+    }
   },
   "maintenancePlan": {
     "setupVisible": false,
@@ -3208,6 +3310,18 @@
       "removeItems": "移除需要退回的项目",
       "pleaseSelectAssetName": "请选择资产名称",
       "qtyGreaterThanZero": "数量应大于0"
+    },
+    "emptyPage":{
+      "getStartedWithContract": "从合同开始",
+      "contractsHelpMaintainAgreement": "合同可帮助您维护服务协议记录。",
+      "createContract": "创建合同",
+      "defineRentalServieContract": "定义租赁或服务合同，包括开始/结束日期和客户。",
+      "linkAsset": "关联资产",
+      "assignAssetToContract": "将一个或多个资产分配到合同中，用于预防性维护跟踪和服务到期。",
+      "enablePmSchedules": "启用预防性维护计划",
+      "autoGeneratePreventiveJob": "根据合同期限和关联的维护计划自动生成预防性工作。",
+      "contractOverview": "合同概览",
+      "defineManageServiceContract": "定义和管理服务协议记录。将资产关联到合同，用于跟踪并根据合同条款和期限自动触发预防性维护。"
     }
   },
   "contractMaintenance": {
@@ -3412,6 +3526,16 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "此维护将应用于此合同中的所有资产"
+    },
+    "emptyPage":{
+      "setUpContractMaintenances": "设置合同维护",
+      "preventUnplannedDowntimes": "通过设置维护计划防止资产的计划外停机。",
+      "linkAssetToPm": "将资产关联到预防性维护计划",
+      "assignAssetBasedOnType": "根据类型将资产分配到预防性维护计划。",
+      "autoGenerateJob": "自动生成工作",
+      "autoCreateMaintenanceJob": "根据设定的间隔或合同自动创建维护工单。",
+      "trackServiceHistory": "跟踪服务历史",
+      "viewAllCompletedMaintenance": "查看每个资产已完成和即将进行的维护工作。"
     }
   },
   "checklist": {
@@ -3722,6 +3846,18 @@
       "noStatusToDisplay": "无状态显示",
       "updateChecklistStatus": "更新核对表状态",
       "updateAsset": "更新资产"
+    },
+    "emptyPage":{
+      "getStartedWithChecklist": "从检查清单开始",
+      "checklistHelpEnsureSteps": "检查清单有助于确保在工作中一致地完成步骤。",
+      "createTemplates": "创建模板",
+      "buildReusableChecklist": "通过添加您自己的部分、问题和答案选项来构建可重复使用的检查清单。",
+      "automateChecklist": "自动化检查清单",
+      "setConditionsToAutoAssign": "设置条件，根据资产、类型或区域自动分配检查清单。",
+      "triggerActions": "触发操作",
+      "autoTriggerCorrectiveJob": "根据检查清单的回答自动触发包含零件和任务的纠正工作。",
+      "checklistOverview": "检查清单概览",
+      "useChecklistToEnsureStepCompleted": "使用检查清单确保某些步骤在工作中始终如一地完成。设置触发条件以根据检查清单的回答自动创建工单、请求零件或更新资产。"
     }
   },
   "journey": {
@@ -4202,6 +4338,24 @@
       "alsoUpdateComponentStatus": "同时更新组件状态",
       "wouldYouAlsoUpdateFields": "您是否也想更新此",
       "component": "组件"
+    },
+    "emptyPage":{
+      "manageSparePart": "管理您的备件",
+      "sparePartsKeepTrack": "备件帮助您跟踪零件。",
+      "createSparePart": "创建备件",
+      "registerParts": "注册零件，包括名称、SKU、类别、价格和图片。",
+      "trackStockLevel": "跟踪库存水平",
+      "monitorPartQuantity": "实时监控各箱、仓库或技术员的零件数量。",
+      "useInJob": "在工作中使用",
+      "assignConsumeSparePart": "直接从工单或检查清单中分配和使用备件。",
+      "sparePartOverview": "备件概览",
+      "registerSparePart": "注册备件并将其添加到您的仓位。通过工单或检查清单消耗零件，按仓位跟踪数量，并在库存水平开始下降时接收通知。",
+      "addPartsToJobs": "将零件添加到工作中",
+      "includePartsInJobOrders": "在工单中直接包含技术人员所需的备件。",
+      "useFromBins": "从库位使用",
+      "consumePartsFromBins": "技术人员可以从分配的库位消耗零件或通过扫码使用。",
+      "trackUsageAndCost": "跟踪使用情况和成本",
+      "monitorPartConsumption": "自动监控零件消耗、使用数量以及基于工作的使用情况。"
     }
   },
   "usage": {
@@ -5775,6 +5929,18 @@
       "areYouSureWantToMakeOwner": "您确定要更改所有者吗？",
       "generateJobOrderForThisTask": "将为此任务生成工作单",
       "selectDateRange": "请选择日期范围"
+    },
+    "emptyPage":{
+      "getStartedWithTask": "从任务开始",
+      "planCreateTask": "规划、创建并分配任务给您的技术人员。",
+      "templates": "模板",
+      "createTemplatesPrefilledFields": "创建带有预填字段的模板，轻松重复创建任务。",
+      "assignments": "分配",
+      "assignTaskToUsers": "将任务分配给用户或团队，并发送实时移动提醒。",
+      "progressTracking": "进度跟踪",
+      "trackTaskInRealTime": "实时跟踪任务状态、现场活动和技术人员更新。",
+      "tasksOverview": "任务概览",
+      "planCreateAssignTask": "规划、创建并分配任务给您的技术人员，并实时跟踪任务状态、更新和技术人员活动。"
     }
   },
   "site": {
@@ -6463,6 +6629,18 @@
     },
     "validationFE": {
       "onlyTextNumberAllowed": "只允许字母和数字"
+    },
+    "emptyPage":{
+      "getStartedWithSite": "从站点开始",
+      "keepTrackOfLocations": "跟踪执行工作的地点。",
+      "createSites": "创建站点",
+      "registerOperationalLocations": "注册运营地点，包括地址、区域和站点类型。",
+      "linkAsset": "关联资产",
+      "assignEquipmentsToSite": "为每个站点分配设备，以进行基于位置的服务和移动跟踪。",
+      "trackJobHistory": "跟踪工作历史",
+      "viewAllJobsAtSite": "查看在每个站点执行的所有工作、任务和现场活动及其进度。",
+      "siteOverview": "站点概览",
+      "manageLocationsConduct": "通过站点管理您开展业务的地点。跟踪客户位置、执行工单的地点以及设备放置的地方。"
     }
   },
   "salesOrder": {
@@ -6697,6 +6875,16 @@
       "salesOrderFilter": "销售订单筛选器",
       "filterByCustomer": "按客户筛选",
       "soRequiresMinimumOneProduct": "销售订单至少需要一个备件"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder": "从销售订单开始",
+      "manageSalesOrder": "管理属于客户的销售订单。",
+      "createSalesOrder": "创建销售订单",
+      "generateSalesOrderDirectly": "直接在客户下生成包含产品和定价的销售订单。",
+      "linkToJobs": "关联到工作",
+      "tieSalesOrderToJobOrder": "将销售订单关联到工单以执行服务或交付。",
+      "trackFulfilment": "跟踪履行",
+      "monitorOrderStatusFromOnePlace": "在一个地方监控订单状态、交付进度和客户账单。"
     }
   },
   "project": {
@@ -6961,6 +7149,18 @@
       "milestoneStatusQuestion": "此的状态是什么",
       "this": "此",
       "yet": "尚未"
+    },
+    "emptyPage":{
+      "manageYourProject": "管理您的项目",
+      "projectHelpTrackTask": "项目帮助您在单一视图下跟踪多个工作的任务。",
+      "createProject": "创建项目",
+      "setUpProjectDetails": "设置项目名称、类型、客户、期限和站点详情。",
+      "linkJobTask": "关联工作与任务",
+      "groupJobTaskUnderProject": "将工单和相关任务归入一个项目下。",
+      "trackDelivery": "跟踪交付",
+      "monitorOverallProgress": "监控整体进度、分配的工作和项目级工单完成情况。",
+      "projectOverview": "项目概览",
+      "trackMultipleJob": "在单一范围内跟踪多个工作。将相关工作和任务关联到一个项目下，并监控整体进度、分配的工作和项目级工单完成情况。"
     }
   },
   "ticket": {
@@ -7423,6 +7623,16 @@
       "typeMessageOrAddAttachment": "请键入消息或添加附件",
       "hasBeenAssignedTo": "已分配给",
       "this": "此"
+    },
+    "emptyPage":{
+     "getStartedWithTicket": "从工单开始",
+      "captureTrackTicket": "捕获并跟踪工单以处理工作订单和一级解决。",
+      "ticketManagement": "工单管理",
+      "manageTicket": "管理工单并保持跟进直至完成。",
+      "workOrder": "工作订单",
+      "manageGroupInTicket": "管理属于同一工单范围内的一组工作订单。",
+      "conversation": "会话",
+      "manageConversationInTicket": "管理工单中的会话。"
     }
   },
   "jobOrder": {
@@ -10223,8 +10433,8 @@
       "userCalendlyNoIntegrate": "该用户未将Calendly集成到他们的账户",
       "noContactFoundForThisJobOrder": "未找到此工作单的联系人",
       "noContactFoundForTheJobOrdersCustomer": "未找到工作单客户的联系人",
-      "quickBooksCustomerRequired": "需要一个有效的 QuickBooks 客户才能生成发票。请确保客户信息完整后再试一次",
-      "quickBooksProductsRequired": "至少需要一个产品才能生成发票。请向工作订单添加产品，然后重试。"
+      "quickBooksCustomerRequired": "生成发票需要有效的QuickBooks客户。请确保客户信息完整，然后重试。",
+      "quickBooksProductsRequired": "生成发票至少需要一个产品。请将产品添加到工作订单中，然后重试。"
     },
     "validationBE": {
       "jobOrderStatusNotFound": "未找到状态",
@@ -10285,6 +10495,7 @@
       "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
       "jobOrderPriceBookNotFound": "未找到价格手册",
       "mandatoryTasksNotCompleted": "一个或多个强制性任务尚未完成。请在完成此工作订单之前完成它们。",
+      "assetHasJobOrder": "系统中已存在该资产的工单数据",
       "pdfTemplateNotFound": "未找到 PDF 模板",
       "pdfTemplateSettingMissing": "PDF 模板没有设置",
       "pdfTemplateNotActive": "PDF 模板未激活",
@@ -10365,6 +10576,37 @@
       "toAllAdded": "给所有已添加的",
       "noJobsScheduledFor": "没有已排程的工作，针对",
       "scheduledToViewHere": "排程后即可在此查看"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder": "从工单开始",
+      "createAssignServiceTask": "创建、分配并跟踪服务任务，从开始到完成。",
+      "template": "模板",
+      "createReusableJobTemplate": "创建可重复使用的工单模板，带有预填字段以便重复任务创建。",
+      "createReusableJobTemplateSaveTime": "创建可重复使用的工单模板，以节省时间并标准化流程。",
+      "execution": "执行",
+      "assignJobTask": "将工单任务分配给现场团队，并跟踪状态、备注和附件。",
+      "automation": "自动化",
+      "autoGenerateJob": "当特定答案被触发时，根据检查表响应自动生成工单。",
+      "jobOrderOverview": "工单概览",
+      "jobOrderHelpPlan": "工单帮助您规划、分配和跟踪现场服务任务。您可以手动或通过模板创建工单，分配技术人员，添加任务和零件，并跟踪进度从开始到完成。",
+      "createJobOrder": "创建工单",
+      "createJobOrderManually": "手动创建工单或选择您已创建的现有模板。",
+      "trackAssignUsingTask": "使用任务进行跟踪和分配",
+      "createTaskAssignTeam": "创建任务，将其分配给团队，并记录相关工单信息。",
+      "partTracking": "零件跟踪",
+      "addTrackUsage": "添加并跟踪技术人员在工作中使用的备件。",
+      "digitalSignPdf": "数字签名和完成 PDF",
+      "collectDigitalSignature": "在任务完成时收集数字签名，并在工单完成后生成 PDF。",
+      "reports": "报告",
+      "generateReports": "生成报告以跟踪工单趋势和绩效。",
+      "getStartedWithSlas": "开始使用SLA",
+      "createAndManageSlas": "创建并管理SLA以实现流程自动化。",
+      "slaTracking": "SLA跟踪",
+      "setResponseAndResolutionLimits": "设置响应和解决时间限制，并在错过截止日期时自动升级。",
+      "packageConditionChecks": "包裹状态检查",
+      "inspectItemCondition": "在交付或退货时使用数字检查表检查物品状况。",
+      "customNotifications": "自定义通知",
+      "triggerSlaAlerts": "根据作业状态、SLA违约或检查表响应触发警报。"
     }
   },
   "inventory": {
@@ -10820,6 +11062,36 @@
       "selectCategory": "选择类别",
       "selectSubCategory": "选择子类别",
       "selectStatus": "选择状态"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory": "开始跟踪您的库存",
+      "keepStocksOfYourAssetSparePart": "维护资产、备件的库存，以及它们在库位之间的流动。",
+      "organizeStock": "整理库存",
+      "setUpForStructuredStorage": "设置地点、区域和库位以实现结构化存储。",
+      "transferItems": "转移物品",
+      "moveAssetSparePartEasily": "轻松在地点或用户之间转移资产或备件。",
+      "trackAvailability": "跟踪可用性",
+      "checkRealTimeStock": "按物品、库位或地点检查实时库存水平。",
+      "inventoryOverview": "库存概览",
+      "digitalWarehouseOfAssetSparePart": "您的资产和备件的数字仓库。跟踪库存，在库存不足时接收提醒，并通过转移管理资产和备件在库位之间的流动。",
+      "digitalWarehouse": "数字仓库",
+      "structureInventoryWithLocation": "使用数字地点、区域和库位来结构化库存。",
+      "transfer": "转移",
+      "trackManageMovementItem": "跟踪并管理物品在库位之间的移动。",
+      "stockUpdate": "库存更新",
+      "receiveNotificationStocksLow": "当备件库存不足时接收通知。",
+      "reportsAnalytics": "报告与分析",
+      "useReportsAnalyzeMovementTrends": "使用报告分析库存流动和趋势。",
+      "consignmentRequisition": "寄售与申请",
+      "requestApproveItems": "请求或批准物品在库位之间的转移。",
+      "trackInventoryHistory": "跟踪库存历史",
+      "trackItemMovements": "跟踪物品在库位之间的移动。",
+      "assetMovementHistory": "资产移动历史",
+      "viewAssetStorageLogs": "查看每个资产存储或使用的详细日志。",
+      "sparePartUsageHistory": "备件使用历史",
+      "trackSparePartUsage": "跟踪零件在作业中何时、何地、由谁使用。",
+      "auditTrails": "审计追踪",
+      "accessTransferRecords": "访问完整的转移记录以支持责任追究和合规性。"
     }
   },
   "bin": {
@@ -11048,6 +11320,16 @@
       "binInventoryHistoryIdExists": "新的Bin库存历史记录不能已有ID",
       "binHasInventoryNotAllowedChangeType": "有库存时无法更改箱类型",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "有库存时无法更改箱的区域/位置"
+    },
+    "emptyPage":{
+        "manageYourBins": "管理您的库位",
+        "manageLocationUserBins": "管理位置库位和用户库位。",
+        "locationBins": "位置库位",
+        "trackAssetSpareParts": "跟踪资产和备件在各个站点和仓库中的存放位置。",
+        "userBins": "用户库位",
+        "assignBinsToUsers": "为技术人员或用户分配库位，以便进行移动库存责任追踪。",
+        "binTransfers": "库位转移",
+        "moveItemsBetweenBins": "在库位、用户或地点之间转移物品，并包含审批、时间戳日志和完整的可追溯性。"
     }
   },
   "binTransfer": {
@@ -11057,108 +11339,108 @@
       "original": "Bin Transfer",
       "singular": "转移",
       "plural": "转移",
-      "setupEdit": false,
-      "setupVisible": false
+      "setupEdit": true,
+      "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Transfer Details",
         "singular": "转移详情",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "位置仓位详情",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec2": {
         "original": "User Details",
         "singular": "用户详情",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "按仓位转移",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "受托人详情",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "已转移项目",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "拒绝转移",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "按备件转移",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "交易详情",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
         "singular": "备件/资产转移",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec10": {
         "original": "Transfer",
         "singular": "转移",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec11": {
         "original": "Locate",
         "singular": "定位",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec12": {
         "original": "Movement History",
         "singular": "移动历史",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "待转移的资产",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec14": {
         "original": "Part(s) to Transfer",
@@ -11239,69 +11521,69 @@
       }
     },
     "fields": {
-      "setupVisible": false,
+      "setupVisible": true,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "审批状态",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "源仓位",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "toBin": {
         "original": "To Bin",
         "singular": "目标仓位",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "参考编号",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "notes": {
         "original": "Notes",
         "singular": "备注",
         "plural": "备注",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "资产名称",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "可用数量",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "available": {
         "original": "Available",
@@ -11314,8 +11596,8 @@
         "original": "Quantity to Transfer",
         "singular": "转移数量",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "quantity": {
         "original": "Quantity",
@@ -11328,64 +11610,64 @@
         "original": "Transfer No.",
         "singular": "转移编号",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "date": {
         "original": "Date",
         "singular": "日期",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "参考编号",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "type": {
         "original": "Type",
         "singular": "类型",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "转移者",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "分配状态",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "分配给",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "转移日期和时间",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "接受/拒绝者",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "remarks": {
         "original": "Remark",
@@ -11419,22 +11701,22 @@
         "original": "User Bin",
         "singular": "用户仓位",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "位置仓位",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "接受日期",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferToBin": {
         "original": "Transfer to Bin",
@@ -11671,6 +11953,16 @@
       "selectedSparePartsManagedBySameGroup": "所选备件必须来自由同一用户组管理的存储箱",
       "quantityTransferExceedsStock": "要转移的数量超过了标记字段中的可用库存。请减少数量后再继续。",
       "areYouSureYouWantToProceed": "您确定要继续进行"
+    },
+    "emptyPage":{ 
+      "manageTransfers": "管理调拨",
+      "createManageApproveTransfers": "创建、管理和批准库位之间的调拨。",
+      "assetTransfers": "资产调拨",
+      "moveEquipmentBetweenBins": "在位置库位之间移动设备或分配到用户库位以用于工作。",
+      "sparePartTransfers": "备件调拨",
+      "relocateSpareParts": "将备件在仓库之间或调拨到技术人员的用户库位。",
+      "approvalAndTracking": "审批与追踪",
+      "controlTransfersWithApprovals": "通过基于角色的审批和完整的移动历史来控制调拨。"
     }
   },
   "checkAvailibility": {
@@ -11698,14 +11990,14 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Select Spare Part(s)",
+        "original": "选择备用零件",
         "singular": "选择备用零件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Select Asset(s)",
+        "original": "选择资产",
         "singular": "选择资产",
         "plural": "",
         "setupEdit": true,
@@ -12348,6 +12640,16 @@
       "hasBeen": "已被",
       "yourRequisitionNote": "您的托运单",
       "youCanProceedToTransfer": "您现在可以继续转移所选物品。"
+    },
+    "emptyPage":{
+       "getStartedWithConsignments": "开始使用寄售",
+        "manageConsigningInventory": "管理寄售到您不直接控制的库位的库存。",
+        "offerItemsOnConsignment": "提供寄售物品",
+        "provideItemsForFutureUse": "向其他用户或站点提供资产或备件以供未来使用。",
+        "controlWithApprovals": "审批控制",
+        "requireApprovalBeforeUsage": "在收件人发起转移或使用之前需要审批。",
+        "trackAndTransfer": "跟踪与转移",
+        "acceptAndTransferItems": "批准后，用户可以正式接收并将物品转移到他们的库位。"
     }
   },
   "requisition": {
@@ -12985,6 +13287,16 @@
       "filteredBySparePart": "按所选存储箱中的备件筛选",
       "filteredByAsset": "按所选存储箱中的资产筛选",
       "areYouSureCancelRequisitionNote": "您确定要取消此请购单吗？"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "开始使用请购",
+      "manageInventoryRequests": "管理来自您不直接控制的库位的库存请求。",
+      "requestItems": "申请物品",
+      "submitRequisitions": "用户可以提交请购单以申请备件或资产。",
+      "routeForApproval": "提交审批",
+      "processApprovalWorkflows": "请购需经过审批流程后物品才能发放。",
+      "fulfilFromBins": "从库位发放",
+      "pickAndTransferApprovedItems": "批准的物品将从仓库或用户库位拣货并转移。"
     }
   },
   "contacts": {
@@ -13183,6 +13495,16 @@
       "confirmActivateUser": "您确定要激活该用户吗？",
       "confirmDeactivateUser": "您确定要停用该用户的帐户吗？如有需要，您可以重新激活该用户。",
       "confirmSuspendUser": "您确定要暂停该用户的帐户吗？"
+    },
+    "emptyPage":{
+      "manageYourContacts": "管理您的联系人",
+      "manageCustomerContacts": "轻松管理多个客户联系人。",
+      "contactsList": "联系人列表",
+      "maintainSiteContacts": "维护站点联系人列表。",
+      "emailAndPhone": "电子邮件和电话",
+      "manageContactsAcrossChannels": "通过多个渠道维护您的站点联系人。",
+      "quickAccess": "快速访问",
+      "findAndConnectWithSites": "在分配工作时立即查找并连接站点。"
     }
   },
   "helpdesk": {
@@ -13404,6 +13726,16 @@
       "fileTypeUnsupported": "此文件类型不受支持。请选择其他文件。",
       "allowedFileSize4MB": "文件大小超过4MB限制。请上传较小的文件。",
       "onlyAcceptImagesExt": "仅接受 JPG、JPEG 和 PNG"
+    },
+    "emptyPage":{
+      "manageAttachments": "管理附件",
+      "manageJobAttachments": "管理与工作相关的附件。",
+      "attachFiles": "附加文件",
+      "uploadFilesToJobs": "将照片、PDF、文档或手册直接上传到工单。",
+      "accessAnywhere": "随时随地访问",
+      "viewAttachmentsOnDevices": "技术人员和计划人员可以立即在网页或移动端查看附件。",
+      "improveTraceability": "提高可追溯性",
+      "storeSupportingDocuments": "存储签署的表格、前后对比图像和支持性文档以供审计。"
     }
   },
   "document": {
@@ -14312,10 +14644,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer Spare Parts",
-        "singular": "转移备件",
+        "original": "Transfer by Products",
+        "singular": "按备件转移",
         "plural": "",
-        "setupEdit": false,
+        "setupEdit": true,
         "setupVisible": false
       },
       "transferByBin": {
@@ -15452,6 +15784,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "映射选择列表",
+        "plural": "映射选择列表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "添加部分",
+        "plural": "添加部分",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAPage":{
+        "original": "Add Page",
+        "singular": "添加页面",
+        "plural": "添加多个页面",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "previewCsv": {
         "original": "Preview CSV",
         "singular": "预览 CSV",
@@ -15606,69 +15959,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "locateAsset": {
-        "original": "Locate Asset",
-        "singular": "定位资产",
-        "plural": "定位资产",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferAsset": {
-        "original": "Transfer Asset",
-        "singular": "转移资产",
-        "plural": "转移资产",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset": {
-        "original": "Add Asset",
-        "singular": "添加资产",
-        "plural": "添加资产",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally": {
-        "original": "Open Externally",
-        "singular": "外部打开",
-        "plural": "外部打开",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers": {
-        "original": "Paste Serial Numbers",
-        "singular": "粘贴序列号",
-        "plural": "粘贴序列号",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku": {
-        "original": "Paste SKU",
-        "singular": "粘贴 SKU",
-        "plural": "粘贴 SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo": {
-        "original": "Generate Temporary Serial No",
-        "singular": "生成临时序列号",
-        "plural": "生成临时序列号",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer": {
-        "original": "Initiate Bin Transfer",
-        "singular": "发起存储箱转移",
-        "plural": "发起存储箱转移",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer": {
-        "original": "Manual Bin Transfer",
-        "singular": "手动存储箱转移",
-        "plural": "手动存储箱转移",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "howItWorks": {
         "original": "How it Works",
         "singular": "工作原理",
@@ -15689,8 +15979,8 @@
         "plural": "导出二维码",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "pro": {
+      }	,
+      "pro":{
         "original": "Pro",
         "singular": "专业版",
         "plural": "专业版",
@@ -15701,6 +15991,195 @@
         "original": "Enterprise",
         "singular": "企业版",
         "plural": "企业版",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectAll":  {
+        "original": "Select All",
+        "singular": "全选",
+        "plural": "全选",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letStartButton":  {
+        "original": "Let's Get Started",
+        "singular": "开始使用",
+        "plural": "开始使用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton":  {
+        "original": "Free Training",
+        "singular": "免费培训",
+        "plural": "免费培训课程",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bookDemoButton":  {
+        "original": "Book a Demo Now",
+        "singular": "立即预约演示",
+        "plural": "立即预约多个演示",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createAssetButton":  {
+        "original": "Create Asset",
+        "singular": "创建资产",
+        "plural": "创建多个资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importAssetButton":  {
+        "original": "Import Assets",
+        "singular": "导入资产",
+        "plural": "导入资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWorkOrderButton":  {
+        "original": "Create Work Order",
+        "singular": "创建工单",
+        "plural": "创建多个工单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteTeamButton":  {
+        "original": "Invite Team",
+        "singular": "邀请团队",
+        "plural": "邀请多个团队",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteButton": {
+        "original": "Invite",
+        "singular": "邀请",
+        "plural": "邀请",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton":  {
+        "original": "Change",
+        "singular": "更改",
+        "plural": "更改",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton": {
+        "original": "Ignore",
+        "singular": "忽略",
+        "plural": "忽略",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherType":{
+        "original": "Add another type",
+        "singular": "添加其他类型",
+        "plural": "添加其他类型们",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton": {
+        "original": "Add another status",
+        "singular": "添加另一个状态",
+        "plural": "添加另一些状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton": {
+        "original": "Add another fault",
+        "singular": "添加另一个故障",
+        "plural": "添加另一些故障",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton": {
+        "original": "Add another resolution",
+        "singular": "添加另一个解决方案",
+        "plural": "添加另一些解决方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton": {
+        "original": "Upgrade",
+        "singular": "升级",
+        "plural": "升级",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton": {
+        "original": "14-Day Pro Trial",
+        "singular": "14天专业版试用",
+        "plural": "14天专业版试用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton": {
+        "original": "Contact Us",
+        "singular": "联系我们",
+        "plural": "联系我们",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "更改方案",
+        "plural": "更改多个方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "管理付款",
+        "plural": "管理多个付款",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "联系销售",
+        "plural": "联系销售",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "取消方案",
+        "plural": "取消多个方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "升级到专业版",
+        "plural": "升级到专业版",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestOrgDeletion": {
+        "original": "Request Organization Deletion",
+        "singular": "请求删除组织",
+        "plural": "请求删除组织",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "tryProForFree": {
+        "original": "Try Pro for Free",
+        "singular": "免费试用 Pro",
+        "plural": "免费试用 Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeNow": {
+        "original": "Upgrade Now",
+        "singular": "立即升级",
+        "plural": "立即升级",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "learn": {
+        "original": "Learn",
+        "singular": "学习",
+        "plural": "学习",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15764,13 +16243,6 @@
         "original": "Editor",
         "singular": "编辑者",
         "plural": "编辑者",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "selectAll": {
-        "original": "Select All",
-        "singular": "全选",
-        "plural": "全选",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15876,6 +16348,34 @@
         "original": "Regenerate",
         "singular": "重新生成",
         "plural": "重新生成",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "带我去那里",
+        "plural": "带我去那里",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "开启",
+        "plural": "开启",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "关闭",
+        "plural": "关闭",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "允许",
+        "plural": "允许",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -16463,20 +16963,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "systemValue": {
-        "original": "System Value",
-        "singular": "系统值",
-        "plural": "系统值",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "aiDetected": {
-        "original": "AI Detected",
-        "singular": "AI 检测到",
-        "plural": "AI 检测到",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "followUp": {
         "original": "Follow Up",
         "singular": "跟进",
@@ -16530,6 +17016,69 @@
         "original": "Transfer Rejected",
         "singular": "转移被拒绝",
         "plural": "转移被拒绝",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "系统值",
+        "plural": "系统值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "AI 检测到",
+        "plural": "AI 检测到",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "永久免费",
+        "plural": "永久免费",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "每年",
+        "plural": "每年",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "每月",
+        "plural": "每月",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "付款失败",
+        "plural": "付款失败",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "检测到付款问题",
+        "plural": "检测到多个付款问题",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "confirmed":{
+        "original": "Confirmed",
+        "singular": "已确认",
+        "plural": "已确认",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignored":{
+        "original": "Ignored",
+        "singular": "已忽略",
+        "plural": "已忽略",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -16785,6 +17334,8 @@
       "makeFilterSelections": "进行筛选以定位资产",
       "confirmation": "确认",
       "makeFilterSelectionsCheckAvail": "进行筛选以检查可用性",
+      "emailPlaceholder": "请输入电子邮件...",
+      "selectRole": "选择一个角色",
       "updateConfirmation": "更新确认",
       "confirmProceed": "您确定要继续吗",
       "theLower": "",
@@ -16863,7 +17414,9 @@
       "toViewScheduledJobsForToday": "以查看今天的已排程工作",
       "enterA": "输入一个",
       "another": "另一个",
-      "current": "当前"
+      "current": "当前",
+      "wazeIsNotInstalled": "Waze 未安装",
+      "googleMapsNotInstalled": "Google 地图未安装"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17603,6 +18156,118 @@
         "selectA": "选择",
         "fromTheList": "从列表中"
       }
+    },
+    "banner":{
+      "joFaultTitle": "要自定义您的故障吗？",
+      "customizeFaults": "使用专业版功能编辑标签并添加新故障",
+      "assetStatusTitle": "要为资产阶段使用您自己的术语吗？",
+      "customizeAssetStatuses": "重命名或添加自定义状态，使 FieldEx 与您的团队描述资产生命周期的方式保持一致。",
+      "customerPicklistTitle": "配置客户标签：",
+      "configureCustomerPicklist": "使用此配置根据您的客户分类来定制下拉选项值。这里的更改会自动反映在所有客户下拉选项中，确保所有客户记录输入的一致性。",
+      "generalPicklistTitle": "配置服务区域：",
+      "configureServiceZones": "根据您的运营地点添加服务区域值。",
+      "joPicklistStatusTitle": "配置工单状态：",
+      "configureWorkOrderStatuses": "重命名或添加自定义状态，使 FieldEx 与您的团队描述工单生命周期的方式保持一致。",
+      "joPicklistSystemTitle": "配置工单系统：",
+      "configureWorkOrderSystems": "添加系统以定义您正在处理的系统或设备类型。",
+      "projectPicklistTitle": "配置项目标签：",
+      "configureProjectPicklist": "使用此配置根据您的项目分类来定制下拉选项值。这里的更改会自动反映在所有项目下拉选项中，确保所有项目记录输入的一致性。",
+      "salesorderPicklistTitle": "配置销售订单标签：",
+      "configureSalesOrderPicklist": "使用此配置根据您的销售订单分类来定制下拉选项值。这里的更改会自动反映在所有销售订单下拉选项中，确保所有销售订单记录输入的一致性。",
+      "sitePicklistTitle": "配置站点标签：",
+      "configureSitePicklist": "使用此配置根据您的站点分类来定制下拉选项值。这里的更改会自动反映在所有站点下拉选项中，确保所有站点记录输入的一致性。",
+      "ticketsPicklistTitle": "配置工单标签：",
+      "configureTicketsPicklist": "使用此配置根据您的工单分类来定制下拉选项值。这里的更改会自动反映在所有工单下拉选项中，确保所有工单记录输入的一致性。",
+      "siteTitle": "您是否要使用站点？",
+      "manageSites": "使用站点模块管理您的所有位置。跟踪客户站点、设备放置位置以及工单执行位置。轻松将资产分配到特定站点并关联工单。",
+      "projectsTitle": "您是否要使用项目？",
+      "manageProjects": "使用项目处理批量工单。将相关工单归入一个项目，以便更好地组织和跟踪进度。将项目分配给客户和站点。",
+      "inventoryTitle": "您是否要管理库存？",
+      "manageInventory": "建立一个数字仓库，通过位置、区域和库位来管理您的库存，跟踪资产、备件以及它们在库位之间的移动。",
+      "assetInventoryTitle": "您是否要充分利用资产？",
+      "manageAssets": "资产是您的设备或工具，每一个都有唯一的身份、状态和位置。移动选项卡显示您的库存和库位之间的每一次转移。",
+      "emailNotificationTitle": "配置电子邮件通知：",
+      "configureEmailNotifications": "您可以为每个模块配置通知设置，以决定哪些事件应触发警报。通知会根据用户偏好在应用内和电子邮件中发送。",
+      "inAppNotificationTitle": "配置应用内通知：",
+      "configureInAppNotifications": "您可以为每个模块配置通知设置，以决定哪些事件应触发警报。通知会根据用户偏好在应用内和电子邮件中发送。",
+      "emailTemplateTitle": "您是否要设置电子邮件模板？",
+      "manageEmailTemplates": "电子邮件模板让您创建标准的电子邮件格式，在设置通知和工作流时可快速使用。",
+      "workflowChecklistTitle": "您是否要设置检查清单？",
+      "configureWorkflowChecklists": "工作流可让您在 FieldEx 中实现流程自动化，确保任务以一致且高效的方式完成。您可以为各种模块（包括工单、项目和资产）创建工作流。",
+      "assetChecklistTitle": "您是否要设置检查清单？",
+      "configureAssetChecklists": "创建并配置检查清单以标准化检查、审计和服务流程。每个响应都可以自动触发带有任务和备件的工单。",
+      "workflowTitle": "您是否要设置工作流？",
+      "configureWorkflows": "根据任何模块中的特定条件设置自动通知。您可以自定义通知，使其作为应用内提醒或电子邮件发送：",
+      "setupLabelsTitle": "配置标签：",
+      "configureLabels": "自定义 FieldEx 标签以符合您组织的首选术语。",
+      "setupInventoryPicklistTitle": "您是否要设置库位？",
+      "configureBins": "库位是用于跟踪资产和备件存放位置的存储点，无论是在仓库货架、现场柜子还是技术员的货车中。您现在可以按位置和区域对库位进行分组，以便更好地组织。例如：位置 = “总部仓库” → 区域 = “零件室” → 库位 = “货架 A1”。",
+      "slaJobOrderTitle": "您是否要设置 SLA？",
+      "configureJobOrderSlas": "使用此功能配置 SLA 的规则触发器。设置 SLA 步骤，包括开始、暂停和结束条件。当 SLA 阈值被突破时触发通知。",
+      "ticketsTitle": "您是否要使用工单？",
+      "manageTickets": "捕获并跟踪工单，用于工单和一级解决。",
+      "inventoryHistoryTitle": "跟踪库存历史",
+      "trackInventoryHistoryDetails": "库存历史记录了备件在库位、用户或仓库之间的每次移动。它提供了带时间戳的审计轨迹，包括库存变动和用户操作，确保完全可追溯。",
+      "contractsTitle": "您是否要使用合同？",
+      "manageContracts": "使用合同模块创建和管理服务协议记录。添加属于您合同的资产，并设置在合同期内执行的维护合同。",
+      "pmTitle": "您是否要设置预防性维护？",
+      "configurePreventiveMaintenance": "您可以配置预防性维护，以防止资产出现计划外停机。",
+      "assetPmTitle": "配置维护计划：",
+      "configureMaintenanceSchedules": "设置定期维护计划，以防止计划外停机。",
+      "joTemplatesTitle": "您是否要设置工单模板？",
+      "configureJobOrderTemplates": "在创建新工单时使用工单模板，预填充关键字段，如工单类型、故障、解决方案和服务区域。您还可以将任务模板链接到模板中，使每个新工单都包含预先定义的执行步骤。",
+      "taskTemplatesTitle": "您是否要设置任务模板？",
+      "configureTaskTemplates": "通过重复使用经常分配的任务来节省时间。任务模板只需创建一次，并可在任务分配期间应用于任何工单。",
+      "surveyTitle": "配置客户调查",
+      "configureCustomerSurveys": "使用此配置根据您的使用场景创建客户调查。在工作完成后直接从客户处获取额外信息。",
+      "pmSetupTitle": "您是否要为维护配置不同的频率？",
+      "configurePmFrequencies": "通过在模板中自定义频率并将其链接到资产来设置预防性维护，从而自动安排带提醒的 PM 工作。",
+      "globalConsignmentTitle": "您是否要使用寄售？",
+      "manageConsignments": "通过寄售，您可以将物品从您的库位发送到其他库位，并附带审批流程。",
+      "globalRequisitionTitle": "您是否要使用请购？",
+      "manageRequisitions": "通过请购，您可以向其他库位请求物品，并附带审批流程。",
+      "userAccessTitle": "配置用户角色：",
+      "configureUserAccess": "访问权限定义了每个人在 FieldEx 中可以看到的内容，以及他们被允许创建、编辑或删除的记录，包括管理设置和组织级别配置。只需克隆一个现有的访问权限并调整权限。您可以将相同的访问权限分配给多个用户，他们都会遵循相同的规则。",
+      "userTeamTitle": "创建用户团队：",
+      "createUserTeams": "将用户分组到团队中，例如安装或中心，如果您被指定为团队经理，您可以在任务创建时选择该团队来为该团队创建任务，并选择一个或多个现场人员来完成工作。",
+      "assetTypeTitle": "定义资产类型：",
+      "defineAssetTypes": "资产类型用于对类似的设备进行分组，例如工具或车辆。创建一个并将其链接到您的资产。",
+      "jobOrderFaultsTitle": "设置工作故障：",
+      "setupJobFaults": "故障用于记录在工作过程中发现的问题，并且可以通过移动应用更新。您在此处进行设置，以便您的团队可以从标准列表中选择。",
+      "jobOrderFaultsBestPractice": "最佳实践：在每个故障前添加故障代码，以帮助您的团队更快地识别和决定。",
+      "jobOrderResolutionsTitle": "配置工作解决方案：",
+      "configureJobResolutions": "解决方案用于记录问题是如何被修复的。您在此处进行设置，以便技术人员可以从标准列表中选择，而不需要手动输入。",
+      "jobOrderResolutionsBestPractice": "最佳实践：在每个解决方案前添加解决代码，使选择更快、更一致。",
+      "jobOrderTypesTitle": "定义工作类型：",
+      "defineJobOrderTypes": "工作类型用于按工作种类进行分组，例如安装、维修、维护或损坏。您在此处进行设置，以便每个工作都可以标记为正确的类型。",
+      "checklistWorkflowTitle": "用检查清单工作流实现自动化：",
+      "automateWithChecklistWorkflows": "检查清单用于指导资产检查。您可以创建自己的问题，设置答案选项，并将操作链接到特定的回答。当检查清单被回答时，它可以触发工作、任务或资产状态更新。",
+      "userSkillsTitle": "标记用户技能：",
+      "tagUserSkills": "技能是您根据用户的专业知识创建并分配给用户的标签。在分配工作时，您可以按技能筛选用户，以便将合适的人匹配到合适的任务。",
+      "userGroupsTitle": "管理用户组：",
+      "manageUserGroups": "创建用户组并将他们分配到库存仓位，以控制谁可以执行和批准转移。只有分配组中的用户才被允许从这些仓位转移或接收物品。",
+      "jobOrderTemplatesDescription": "工作模板是一个预填充的表单，包含标准工作细节，如任务、故障、解决方案、备件和其他可用字段。在创建新工作时，只需选择一个模板，所有内容都会被预填充。您可以在保存之前调整任何内容。",
+      "taskTemplatesDescription": "任务模板是一个可重复使用的表单，在创建任务时会自动填充标准任务细节。在创建任务时，只需选择模板，所有任务字段都会自动填充。如果需要，您仍然可以进行更改。",
+      "jobOrderFaultMappingDescription": "系统是您创建的类别，例如电气、液压或发动机。您可以添加自己的类别来对相关故障进行分组。在记录工作时，用户先选择系统，然后在其下选择故障。",
+      "jobOrderFaultMappingInfo": "如果您不需要此控制，可以跳过配置故障映射，所有选项仍然会显示。",
+      "jobOrderResolutionMappingDescription": "解决方案是在工作中记录的修复，并根据所选的系统和故障进行筛选。例如，如果您选择“液压”系统和“漏油”故障，则只会显示“更换密封件”或“拧紧接头”等解决方案。",
+      "jobOrderResolutionMappingInfo": "如果您不需要此控制，可以跳过配置解决方案映射，所有选项仍然会显示。",
+      "inventoryLocationDescription": "这是您的主要存储位置，例如仓库。如果您的公司只有一个仓库，您可能只有一个位置。如果您在许多城市或分支机构运营，每个都会在系统中有其自己的位置。",
+      "inventoryZoneDescription": "区域是位置中的一个部分。可以将其视为仓库中的一个区域，例如“备件区”或“设备区”。",
+      "inventoryUserBinDescription": "这是每个用户的个人仓位。它显示技术人员或团队成员当前持有的物品（如工具或零件）。FieldEx 中的所有用户都会自动获得一个用户仓位，他们的名字将在转移物品时显示。",
+      "inventoryBinDescription": "这是物品放置的确切位置。它可以是一个架子、柜子或货架。您将使用仓位来跟踪每个资产或零件在区域内的确切位置。",
+      "inventoryBinBestPractice": "最佳实践：每个位置仓位都有唯一的条形码。打印并粘贴到您的实际货架上，以便现场人员在使用移动应用取放物品时可以扫描仓位。",
+      "approvalsDescription": "按顺序设置谁批准寄售和申请。如果提交者在第 1 级组中，第 2 级组的成员将收到通知以进行下一步批准。",
+      "hierarchyDescription": "创建一个层级并分配用户。同一层级的销售人员和维护人员不能看到彼此的记录。在他们之上的经理可以看到两个团队的记录。",
+      "usersDescription": "每个用户都有一个个人资料，可以更新他们的详细信息。活跃用户可以访问账户。暂停以临时阻止访问，停用以永久移除访问。",
+      "serviceZoneDescription": "选择您管理的区域，例如中部、北部或特定的省份。将此分组标记到您的客户、资产和工作。",
+      "thisViewShowTask": "此视图显示您为自己创建的任务或分配给您的任务。任务创建从",
+      "creatingJobOrder": "创建工作",
+      "clickCreateToAssignYourself": "开始，然后点击“创建”将其分配给自己。",
+      "thisViewOnlyShows": "此视图仅显示您被设为其经理的用户。他们的姓名会显示在此处，并附带一个显示其分配任务的日历。要为您的员工分配任务，请先",
+      "thisViewOnlyShowsTeams": "此视图显示您被设为其经理的团队。您可以管理一个或多个团队，并在此处查看每个团队的任务和成员。要为团队成员分配任务，请先",
+      "thenAssignFromTask": "然后从任务选项卡中分配",
+      "thenAssignTaskForTeam": "然后分配任务并指定哪个团队。"
     }
   },
   "setup": {
@@ -17794,10 +18459,131 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "账单详情",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "轻量计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "专业版计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "下次付款",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "增长计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "企业版计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "请求已成功发送"
+          "requestSentSuccessfully": "请求已成功发送",
+          "litePlanMessage": "随时升级以解锁高级功能。",
+          "seatsInUseLite": "个席位已使用",
+          "monthly": "每月",
+          "yearly": "每年（优惠 30%）",
+          "usersAbove": "6 位用户及以上",
+          "largerTeams": "适用于更大的团队",
+          "memberMonth": "每位成员 / 每月",
+          "litePlusListTitle": "Lite 套餐的所有功能，另加：",
+          "growthPlusListTitle": "Growth 套餐的所有功能，另加：",
+          "proPlusListTitle": "Pro 套餐的所有功能，另加：",
+          "siteManagement": "站点管理",
+          "projectManagement": "项目管理",
+          "dedicatedSupport": "专属支持",
+          "preventiveMaintenance": "预防性维护",
+          "assetAnalyticMeterLog": "资产分析和计量日志",
+          "inventoryStockControl": "库存和存货控制",
+          "customWorkflows": "自定义工作流程",
+          "apiIntegration": "API 集成",
+          "assetRequisitionWorkflows": "资产申请工作流程",
+          "fieldexIntelligence": "FieldEx 智能分析",
+          "slaManagement": "SLA 管理",
+          "feedbackSurveys": "反馈调查",
+          "customEmail": "自定义电子邮件",
+          "customNotificationTemplate": "自定义通知模板",
+          "subscriptionRenewMessage": "您的订阅将于以下日期自动续订",
+          "upgradeEnterpriseTitle": "想升级到企业版？",
+          "upgradeEnterpriseContent": "请联系我们的销售团队以协助您完成升级",
+          "cancelPlanTitle": "想取消您的方案？",
+          "cancelPlanContent": "取消方案后，您将不会被收取续订费用，并将在以下日期失去对 FieldEx 的访问权限",
+          "trialEndOn": "您的试用将于以下日期结束",
+          "daysLeftTrial": "试用期剩余天数",
+          "paymentDue": "付款到期",
+          "paymentFailed": "付款失败",
+          "loseExcessMessage": "您将在以下时间失去多余的权限",
+          "days": "天",
+          "planCanceled": "计划已取消",
+          "proPlanCanceledMessage": "您的 Pro 计划已取消。您将在以下日期降级为免费计划",
+          "freePlansMaximumSeats": "免费计划最多支持 5 个席位",
+          "paymentFailedMessage": "付款失败。请更新卡片信息并完成付款以恢复账户访问。",
+          "accountAccessSuspended": "账户访问已被暂停",
+          "paymentIsuueDetectedMessage": "检测到付款问题！您的组织将在以下时间内被降级",
+          "yourOrgWillBeDowngraded":"您的组织将在以下时间降级",
+          "unlessPaymentUpdatedMessage": "除非更新付款信息。",
+          "upgradePlan": "想要升级您的方案",
+          "upgradeToProOrEnterprise": "升级到 Pro 或联系销售以升级到 Enterprise",
+          "your": "您的",
+          "planRenewsOn": "方案将在以下日期续订",
+          "proPlanRenewsOn": "您的 Pro 方案将在以下日期续订",
+          "litePlanRenewsOn": "您的 Lite 方案将在以下日期续订",
+          "growthPlanRenewsOn": "您的 Growth 方案将在以下日期续订",
+          "contactSalesToRenewSubscription": "请联系销售以续订您的订阅，避免服务中断",
+          "subscriptionRenewalOn":"订阅将在以下日期续订",
+          "deleteOrgData": "删除组织和数据",
+          "requestPermanentDelete": "请求永久删除您的组织及所有数据。此操作无法撤销。",
+          "byCancellingTrial": "取消试用后，您将不会被收取续订费用，并将在以下日期降级为 Lite 方案"
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "成长版",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro": {
+            "original": "Pro",
+            "singular": "专业版",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise": {
+            "original": "Enterprise",
+            "singular": "企业版",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -19267,6 +20053,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "billingUser": {
+            "original": "Is Billing User",
+            "singular": "是计费用户",
+            "plural": "是计费用户们",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "designation": {
             "original": "Designation",
             "singular": "职位",
@@ -20460,6 +21253,167 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "为您的表单命名并添加一个运行编号前缀。将鼠标悬停在运行编号前缀帮助文本图标上以获取更多信息。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "选择将用于此表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此表单设置为强制性，然后从可用的工作单状态中进行选择。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "为此子表单选择一个记录类型。单记录子表单只能提交一次，用于一次性数据输入。列表记录子表单可以多次提交，用于需要现场代理或技术人员在工作期间多次输入数据的情况。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "为您的子表单命名并添加一个运行编号前缀。将鼠标悬停在运行编号前缀帮助文本图标上以获取更多信息。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "选择将用于此子表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此子表单设置为强制性，然后从可用的工作单状态中进行选择。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "表单创建",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "字段创建",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "页面布局",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "列表视图设置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "子表单创建",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "创建字段",
+            "plural": "创建字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "保存表单",
+            "plural": "保存表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "删除部分",
+            "plural": "删除部分",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "部分布局",
+            "plural": "部分布局",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Details",
+            "singular": "工作订单详情",
+            "plural": "工作订单详情",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "子表单详情",
+            "plural": "子表单详情",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "映射",
+            "plural": "映射",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "字段",
+            "plural": "字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "创建表单",
+            "plural": "创建表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "设置子表单",
+            "plural": "设置子表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "设置列表视图",
+            "plural": "设置列表视图",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "创建子表单",
+            "plural": "创建子表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec41":{
+            "original": "Mobile Preview",
+            "singular": "移动预览",
+            "plural": "移动预览",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -20503,6 +21457,13 @@
             "singular": "工作订单类型",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "工作单状态",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -20777,11 +21738,102 @@
             "plural": "映射字段",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "为您的表单输入一个名称",
+            "plural": "为您的表单输入一个名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "为您的新子表单输入一个名称",
+            "plural": "为您的新子表单输入一个名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "创建日期",
+            "plural": "创建日期",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "强制性",
+            "plural": "强制性",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "选择模块",
+            "plural": "选择模块",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "模块",
+            "plural": "模块",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "选择选择列表",
+            "plural": "选择选择列表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "示例",
+            "plural": "示例",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "子表单名称",
+            "plural": "子表单名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "表单名称",
+            "plural": "表单名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "单列",
+            "plural": "单列",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "双列",
+            "plural": "双列",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "部分名称",
+            "plural": "部分名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "createManageCustomForms": "创建和管理最适合您用例的自定义表单。自定义表单允许您在需要时获取有关某个场景的详细信息。",
-          "createManageCustomSubForms": "创建和管理最适合您用例的子表单。子表单作为表单中的表单，允许您在需要时获取与某个场景相关的额外详细信息。它们可以设置为记录单个或多个条目。",
+          "createManageCustomForms": "表单是现场代理或技术人员在工作中填写的表单的数字版本。专为特定用例设计且可定制，它们简化了数据收集，并可无缝运行于网页和移动应用程序上。",
+          "createManageCustomSubForms": "子表单是您可以用来获取有关任务更多信息的附加表单。您可以将子表单设置为单记录或列表记录。单记录类型的子表单只能提交一次，用于一次性数据输入。列表记录类型的子表单可以多次提交，用于需要现场代理或技术人员在工作期间多次输入数据的情况。",
           "setupForm": "创建最符合您业务需求的字段，按照您的喜好排列表单，并在需要时包含子表单。您需要先为此表单创建字段，然后才能进行排列。创建并排列好字段后，您可以将表单状态设置为激活。",
           "setupSubform": "创建最符合您业务需求的字段，按照您的喜好排列子表单，并在需要时为子表单添加列表视图。您需要先为此子表单创建字段，然后才能进行排列。创建并排列好字段后，您可以将表单状态设置为激活。",
           "manageFormFields": "管理此表单可用的字段",
@@ -20797,7 +21849,7 @@
           "lastModifiedOn": "最后修改于",
           "createFieldsForForm": "根据您的业务需求创建最适合表单的字段。您在此创建的字段将可用于该表单的排列。",
           "removeFieldFromArrangement": "从排列页面中移除此字段以删除该字段。",
-          "selectComponentTypeForField": "选择最符合您所要创建字段的组件类型。",
+          "selectComponentTypeForField": "选择字段类型",
           "allowTextEntryLimited": "允许用户输入文本（限制为255个字符）",
           "allowNumberEntry": "允许用户输入任意数字",
           "allowEmailEntry": "允许用户输入电子邮件地址",
@@ -20819,7 +21871,7 @@
           "selectLookupModule": "选择查找模块以将此字段与其他模块中的数据链接。这使您可以引入相关信息并在不同模块之间建立连接。",
           "chooseParentPicklistForDependency": "选择一个父选择列表以定义依赖关系。此选择将把此选择列表链接到父选择列表，允许您在映射页面中将父选择列表字段映射到此选择列表中的字段。映射后，在表单中对父选择列表的选择将影响此选择列表的可用选项。",
           "selectParentAndChildOptions": "选择父选项并选择其子选项。如果需要更改父选项，请先取消选择当前选项，然后选择一个新的父选项。要删除任何已映射的字段，请导航到预览选项卡并清除那里的选择。",
-          "arrangeFormFields": "通过点击可用字段框中的所需字段，然后将其拖放到画布上，按您的喜好排列表单。您可以通过点击旁边的编辑图标来重命名部分。要删除字段或部分，请点击旁边的 'x' 按钮。",
+          "arrangeFormFields": "通过将字段拖动到部分来安排您的表单，根据需要重命名标题，并重新定位字段或部分。使用提供的按钮添加或删除部分和移动分隔符。分隔符在移动应用程序中创建单独的页面。",
           "removeSectionAndFieldsWarning": "此部分及其相关的字段将从表单构建器中删除，且无法撤消。",
           "cannotPerformActionChildPicklistPresent": "无法执行此操作，因为存在子选择列表",
           "childPicklistIsPresent": "子选择列表在表单中存在。请先移除",
@@ -20830,7 +21882,56 @@
           "whatIsRunningNoFormat": "什么是流水号格式？",
           "runningNoDesc": "流水号格式允许您为表单的自动编号字段自定义格式。这包括替换变量以及您希望前缀或后缀的任何字符。",
           "mapPicklistFields": "通过选择父字段，然后选择其必要的选择列表字段来映射选择列表字段。您可以在下方查看映射的字段。",
-          "addDescriptionHere": "在此添加描述..."
+          "addDescriptionHere": "在此添加描述...",
+          "selectJobOrderStatus":"选择工作单状态",
+          "looksLikeNoFormsCreated":"看起来您还没有创建任何表单。别担心，只需按照以下步骤操作，我们会让您的表单快速运行起来！",
+          "formCreationDesc":"通过单击+新建按钮创建表单。为您的表单命名并添加一个运行编号前缀。然后，选择适用于此表单的工作单类型。",
+          "fieldCreationFormDesc":"在表单视图页面上单击字段创建按钮。单击+新建按钮并选择您想要创建的字段类型。",
+          "pageLayoutFormDesc":"在表单视图页面上单击页面布局按钮。在这里，您可以将已创建的字段从字段部分拖放到表单部分。",
+          "subformSetupFormDesc":"如果需要，您可以通过单击设置子表单按钮将子表单添加到您的表单中。设置过程类似于设置表单的方式。",
+          "looksLikeNoSubformsCreated":"看起来您还没有创建任何子表单。别担心，只需按照以下步骤操作，我们会让您的子表单快速运行起来！",
+          "subformCreationDesc":"通过单击+新建按钮创建子表单。为您的子表单命名并添加一个运行编号前缀。然后，选择适用于此子表单的工作单类型。",
+          "fieldCreationSubformDesc":"在子表单视图页面上单击字段创建按钮。单击+新建按钮并选择您想要创建的字段类型。",
+          "pageLayoutSubformDesc":"在子表单视图页面上单击页面布局按钮。在这里，您可以将已创建的字段从字段部分拖放到子表单部分。",
+          "listSetupSubformDesc":"如果您选择了列表记录子表单类型，可以为子表单设置列表视图。这将在工作单详细信息页面的表单选项卡中显示。",
+          "optional":"可选",
+          "onlyForListRec":"仅适用于列表记录",
+          "createFieldsDesc":"创建将在您的表单中使用的字段。",
+          "pageLayoutDesc":"使用您创建的字段设置表单的页面布局。",
+          "subformSetupDesc":"您可以选择为此表单设置子表单。如果在工作期间需要从技术人员或现场代理获取其他信息，请使用子表单。",
+          "createFieldsSubformDesc":"创建将在您的子表单中使用的字段。",
+          "pageLayoutDetsSubformDesc":"使用您创建的字段设置子表单的页面布局。",
+          "listViewSubformSetupDesc":"如果您为子表单选择了列表记录类型，您可以设置子表单的列表视图。这将使您能够自定义子表单列表视图表中的字段排列。",
+          "completeAllStepForm":"完成所有步骤以完全设置您的表单",
+          "completeAllStepSubform":"完成所有步骤以完全设置您的子表单",
+          "editFormArrangement":"您确定要编辑此表单的排列吗？所做的更改也将反映在以前的表单中。这无法撤销。",
+          "selectLayoutPreferred":"选择您希望为部分使用的布局。您添加到部分的字段将根据部分布局显示。",
+          "example":"示例",
+          "selectModuleDesc":"选择一个模块，将其链接到此字段并从中检索相关数据。",
+          "moduleSelectedDesc":"从选定的模块中选择您要查询的字段。这将允许您检索并链接该字段的相关数据。",
+          "selectFieldDesc":"选择您想从所选模块中选择的动态选择列表字段。这将允许您从该选择列表中检索相关数据。",
+          "parentPicklistDesc":"父选择列表是已创建的下拉菜单或按钮。在映射页面选择一个父选择列表，将其选项链接并映射到此下拉菜单。此下拉菜单的可用选项将基于父选择列表的选择。",
+          "fieldsDesc":"添加应该出现在此下拉菜单中的字段。这些字段将在用户与下拉菜单交互时可供选择。",
+          "selectPicklistDesc":"选择您想从所选模块中选择的动态选择列表。这将允许您从该选择列表中检索相关数据。",
+          "looksLikeNoFieldsCreated":"看起来您还没有创建任何字段。别担心，只需按照以下步骤操作，您很快就会创建第一个字段！",
+          "beginCreateFieldClickNew":"通过单击+新建按钮开始创建字段。",
+          "selectComponentTypeFromSelection":"从可用选择中选择最适合您用例的组件类型。",
+          "fillInAllNecessaryDets":"填写字段所需的所有必要详细信息。",
+          "onlyForDropdownButton":"仅适用于下拉菜单或按钮",
+          "selectDropdownButtonLinkParent":"如果您选择下拉菜单或按钮组件，可以将其链接到父选择列表，即您已经创建的另一个下拉菜单或按钮组件。这将带您到选择列表映射页面，您可以在其中设置映射。或者，您可以通过单击字段列表视图中的“映射选择列表”按钮访问选择列表映射页面。",
+          "dragDropToYourLiking":"根据您的喜好将字段拖放到部分中",
+          "copyOf":"的副本",
+          "formPreviewDesc":"预览您的表单在FieldEx移动应用上的显示方式。这就是您的技术人员或现场代理将在他们的设备上看到的表单。",
+          "exampleFieldPreview":"示例字段预览",
+          "arrangeFormDesc":"通过从可用字段框中点击所需字段，然后将其拖放到画布上，按您的喜好排列表单。您可以通过点击旁边的编辑图标来重命名部分。要删除字段或部分，请点击旁边的“x”按钮。",
+          "whatAreForms":"什么是表单？",
+          "whatAreSubforms":"什么是子表单？",
+          "fieldCreationForms":"表单字段创建",
+          "howDoICreateForm":"我如何创建表单？",
+          "howDoICreateSubform":"我如何创建子表单？",
+          "howDoICreateFIeld":"我如何创建字段？",
+          "checkFormatNumber":"选中“格式编号”以允许此字段使用小数值，然后输入所需的“小数位数”（最多 6 位）。",
+          "addFieldHere":"在此添加字段"
         }
       },
       "artificialIntelligence": {
@@ -27414,7 +28515,10 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+         "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+         "exceedFileSizeSmall":"文件大小超过2MB限制。请上传较小的文件。"
+        },
       "messages": {
         "selectAssetTypes": "选择资产类型",
         "selectServiceZone": "选择服务区域域",
@@ -29172,7 +30276,18 @@
         "importDataCsvFormat": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
         "exportDataAsCsvFormat": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
         "pleaseSelectModule": "请选择一个模块",
-        "pleaseSelectModuleToImport": "请选择要导入的模块"
+        "pleaseSelectModuleToImport": "请选择要导入的模块",
+        "filterSelectAsset": "筛选并选择要导出二维码的资产",
+        "exportQrForAll": "同时导出所有组件的二维码",
+        "uploadYourData": "上传您的数据",
+        "dragAndDropFile": "拖放一个 .csv 或 .xls 文件，或浏览您的电脑。示例 CSV 文件将在下一页提供。",
+        "mapYourFields": "映射您的字段",
+        "matchTheColumnsInYourFile": "将文件中的列匹配到 FieldEx 中的相应字段。",
+        "verifyAndEdit": "验证并编辑",
+        "reviewAndFixData": "检查您的数据并进行必要的修改。系统会突出显示必填字段中缺失的信息，以防止导入错误。",
+        "importYourData": "导入您的数据",
+        "onceGoodClickImport": "一切看起来没问题后，点击导入将您的数据带入 FieldEx。",
+        "bringYourDataIntoFieldEx": "通过以下步骤将您的数据带入 FieldEx"
       }
     },
     "customerSurvey": {
@@ -30211,6 +31326,295 @@
         }
       }
     },
+    "portal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portal",
+        "singular": "门户",
+        "plural": "门户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "基本信息",
+          "plural": "基本信息",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "域名",
+          "plural": "域名",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "品牌设置",
+          "plural": "品牌设置",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "模块",
+          "plural": "模块",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "配置",
+          "plural": "配置",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "标签",
+          "plural": "标签",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "状态",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "代码",
+          "plural": "代码",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "颜色",
+          "plural": "颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "颜色代码",
+          "plural": "颜色代码",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "默认",
+          "plural": "默认",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "可用",
+          "plural": "可用",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "操作",
+          "plural": "操作",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "重新排序",
+          "plural": "重新排序",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "品牌设置",
+          "plural": "品牌设置",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "标志",
+          "plural": "标志",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "标题栏颜色",
+          "plural": "标题栏颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "标题栏字体颜色",
+          "plural": "标题栏字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "侧边栏颜色",
+          "plural": "侧边栏颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "侧边栏字体颜色",
+          "plural": "侧边栏字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "按钮颜色",
+          "plural": "按钮颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "按钮字体颜色",
+          "plural": "按钮字体颜色",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "字体系列",
+          "plural": "字体系列",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "门户标识",
+          "plural": "门户标识",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "模块可见性",
+          "plural": "模块可见性",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "the": "",
+        "givesEachOfYour": "为您的每位",
+        "dedicatedBrandedPage": "提供专属品牌网页，让他们可以独立跟踪",
+        "andBrowseTheirRegistered": "并浏览其已注册的",
+        "withoutCallingYourTeam": "无需联系您的团队。",
+        "eachPortalLivesOnUniqueUrl": "每个门户拥有唯一的网址（例如 drewbar.fieldex.com），完全按照",
+        "urlExample": "例如 drewbar.fieldex.com",
+        "youControlWhatTheySee": "进行品牌化，您可完全控制他们所能查看的内容。",
+        "allowYour": "允许您的",
+        "to": "通过",
+        "throughASharedPortal": "共享门户进行访问",
+        "and": "和",
+        "enableAccessFor": "为您所有的",
+        "whatHappensWhenYouActivate": "激活后会发生什么",
+        "portalFeatureEnabled": "门户功能已为您的组织启用",
+        "youWillBeTaken": "您将被引导至配置页面，以设置品牌、模块和",
+        "settings": "设置",
+        "how": "如何",
+        "getAccess": "获取访问权限",
+        "goToThe": "前往",
+        "tabAndOpenA": "选项卡并打开",
+        "record": "记录",
+        "addA": "添加",
+        "toThe": "到",
+        "enablePortalAccess": "启用门户访问",
+        "forThat": "对于该",
+        "fromThe": "从",
+        "recordYouCanAlso": "记录中您还可以",
+        "resetTheirPassword": "重置他们的密码",
+        "or": "或",
+        "revokePortalAccess": "撤销门户访问权限",
+        "atAnyTime": "随时",
+        "availableStatuses": "可用状态",
+        "addNewStatusesIfRequired": "如有需要，请输入名称、代码和颜色代码来添加新状态。",
+        "note": "注意：",
+        "newlyCreatedStatusesWillBe": "新创建的状态将可见，但不会设置为",
+        "available": "可用",
+        "forOtherJobOrderTypes": "对于其他工单类型。",
+        "addStatus": "添加状态",
+        "dragStatusHandlesToReorder": "拖动状态手柄进行重新排序。将状态切换为",
+        "toIncludeThemForThisType": "以将其包含在此工单类型中。为状态选择独特颜色，并将一个状态设置为此类型的默认值。",
+        "youAreInEditMode": "您处于编辑模式。请在导航到其他选项卡之前保存。",
+        "logoColoursAndFont": "客户门户中显示的标志、颜色和字体",
+        "appearsInPortalHeader": "显示在门户标题中。使用透明背景的 SVG 或 PNG。最大 1 MB。",
+        "maximumFileSize": "最大文件大小为 1MB",
+        "recommendedSize": "推荐尺寸（40px X 40px）或（160px X 40px）",
+        "selectThemeColours": "选择主题颜色",
+        "primaryThemeNavBar": "主题导航栏",
+        "textInPortalHeader": "门户标题中的文字",
+        "sideMenuBarColour": "侧边菜单栏颜色",
+        "sideMenuFontColour": "侧边菜单字体颜色",
+        "buttonBackgroundColour": "按钮背景颜色",
+        "buttonTextColour": "按钮文字颜色。提示：与按钮背景使用高对比度",
+        "fontDisplayedInPortal": "客户门户中显示的字体",
+        "selectAFont": "选择字体",
+        "pricingTypesTemplatesRescheduling": "定价、类型、模板和重新安排",
+        "selectWhichTypesOf": "选择哪些类型的",
+        "areVisibleTo": "对以下用户可见",
+        "inThePortal": "在门户中。",
+        "allow": "允许",
+        "toReschedule": "重新安排",
+        "canRequestNewDate": "可以为未完成或即将到来的",
+        "directlyFromThePortal": "直接从门户申请新日期。",
+        "list": "列表",
+        "displayThePartsUsedIn": "显示已完成的",
+        "onThe": "中使用的零件，显示在",
+        "detailView": "详情视图中。",
+        "prices": "价格",
+        "showUnitCostAndTotalPrice": "显示每个零件的单位成本和总价。需要启用\"显示\"。",
+        "toBeOn": "已开启。",
+        "statusLabelsShownFor": "显示的状态标签",
+        "configureTheLabelsOfStatus": "配置显示在",
+        "portal": "门户中的状态标签。",
+        "subdomainWhereAll": "所有",
+        "accessThePortal": "访问门户的子域",
+        "setupPortalSubdomain": "设置门户子域",
+        "theSharedUrlWhereAll": "所有您的",
+        "logInEachCustomer": "登录的共享网址。每位客户只能看到自己的数据。",
+        "lowercaseLettersNumbersHyphens": "仅限小写字母、数字和连字符。",
+        "isAvailable": "可用",
+        "controlWhichSection": "控制哪些部分",
+        "canAccessInThePortal": "可在门户中访问",
+        "alwaysOn": "始终开启",
+        "showThePreventive": "显示预防性",
+        "scheduleAndPmHistory": "维护计划和 PM 历史记录。",
+        "toBrowseTheirRegistered": "浏览其已注册的",
+        "listAndView": "列表并查看",
+        "details": "详情。"
+      },
+      "validationFE": {
+        "activationFailed": "激活失败，请重试",
+        "hasBeenActivatedSuccessfully": "已成功激活",
+        "onlyPngAndSvgAllowed": "仅允许 PNG 和 SVG 图片文件"
+      }
+    },
     "validationBE": {
       "setupAssetsConfigIdExists": "新资产配置不能已有ID",
       "setupAssetsConfigIdNotFound": "未找到ID",
@@ -30451,7 +31855,7 @@
       "setupWorkflowMaxActionsPerWorkflow": "已达到每个工作流程的最大操作次数",
       "setupWorkflowEmailsMax": "已达到工作流通知允许的最大电子邮件地址数量",
       "setupWorkflowEmailUserMax": "已达到工作流通知允许的最大用户数量",
-      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量",
+      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量",      
       "setupTmplJobOrderLimitReached": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单",
@@ -30461,7 +31865,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "模板相关的工单类型未在门户中配置。请将其添加到工单类型中。",
       "setupJobOrderStatusNotFound": "未找到工单状态",
       "SetupCustomerPortalConfigNotFound": "未找到此租户的客户门户配置",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "子域名已被另一个租户使用"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "子域名已被另一个租户使用",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "系统中存在TmplJobOrder的客户门户配置",
+      "setupTmplJobOrderHasJobOrderConfig": "系统中存在TmplJobOrder的工单配置",
+      "setupTmplJobOrderHasPMCycleItem": "系统中存在TmplJobOrder的PM循环项",
+      "setupTmplJobOrderHasSiteConfig": "系统中存在TmplJobOrder的站点配置"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -31684,6 +33092,18 @@
       "unpaidLeave": "无薪假",
       "emergencyLeave": "紧急假",
       "paternityMaternityLeave": "陪产假/产假"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "管理您的请假",
+      "manageTimeOffRequests": "请假功能帮助您管理休假申请。",
+      "requestLeave": "申请请假",
+      "submitLeaveRequest": "提交请假申请，包括请假类型、日期和原因。",
+      "myStaffLeaves": "我的员工请假",
+      "approveStaffLeaveRequests": "查看、管理并批准下属提交的请假申请。",
+      "availabilityImpactForAssignments": "任务分配中的可用性影响",
+      "preventTaskAssignmentForUsersOnLeave": "休假的用户将无法被选为任务分配对象。",
+      "leaveOverview": "请假概览",
+      "requestAndManageStaffTimeOff": "提交休假申请并管理员工的休假请求。"
     }
   },
   "compliance": {
@@ -31770,7 +33190,8 @@
       "userLoginNotFound": "未找到用户的登录信息",
       "userNameExists": "用户名已被使用",
       "userNotAllowedInMobile": "您不允许登录移动应用程序。请使用网页应用程序",
-      "deviceNotAllowed": "此设备不允许登录。请联系您的管理员"
+      "deviceNotAllowed": "此设备不允许登录。请联系您的管理员",
+      "usernameLeadingSpace": "请删除用户名前的空格并重试。"
     }
   },
   "resetPassword": {
@@ -33101,6 +34522,13 @@
           "plural": "邀请您的团队",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "邀请您的团队加入 FieldEx",
+          "plural": "邀请您的团队们加入 FieldEx",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -33281,7 +34709,76 @@
         "doNotShowAgain": "不再显示",
         "areYouSure": "您确定不再显示此页面吗？",
         "inBulkStreaming": "批量操作以简化规划、减少错误并节省设置时间",
-        "yourProTrialEndsIn": "您的专业版试用将在以下时间结束"
+        "yourProTrialEndsIn": "您的专业版试用将在以下时间结束",
+        "welcomeMessage":"我们很高兴您加入我们。在开始之前，请花一分钟观看这段简短的介绍视频。它将快速为您概述 FieldEx 能为您做什么。",
+        "inviteTeamContent":"邀请您的团队成员并设置他们的角色",
+        "importAssetTitle":"导入您的资产",
+        "importAssetContent":"将您的资产导入我们的系统，并管理类型和状态",
+        "setupWorkOrdersTitle":"设置工单",
+        "setupWorkOrdersContent":"将您过去的工单导入 FieldEx",
+        "notificationLabelTitle":"设置通知和标签",
+        "notificationLabelContent":"配置通知和标签，使 FieldEx 使用起来更舒适",
+        "needHelp": "需要帮助？",
+        "needHelpText": "我们希望您尽快开始使用。如果您希望进行免费培训课程或在开始使用时遇到任何问题，请联系我们。我们随时准备提供帮助。",
+        "bookDemoTitle": "预约演示会话",
+        "bookDemoDescription": "与我们的产品专家预约会议，免费了解如何最大限度提高现场运营效率。",
+        "manualCreateAssetDownloadLink": "下载资产模板",
+        "reviewSaveTitle": "审核并保存",
+        "inviteYourTeamContent": "顺畅的运营始于强大的团队。邀请您的经理、计划员和技术人员来：",
+        "inviteTeamManagement": "管理用户、资产和设置",
+        "inviteTeamHandle": "在一个地方处理团队的日程和工作量",
+        "inviteTeamUpdate": "通过跟踪工作进度保持信息更新",
+        "learnMoreTitle": "了解 FieldEx",
+        "learnMoreContent": "初次使用 FieldEx？我们提供一切帮助您快速上手。",
+        "toLearnMoreAboutTheseFeatures":"要进一步了解这些功能，请访问我们的学院或预约与我们专家团队的免费培训课程",
+        "readyToSetUpWorkspace": "准备好开始使用 FieldEx 吗？点击下面的按钮即可开始设置您的工作区。",
+        "addYourFirstAsset": "添加您的第一个资产",
+        "setUpFirstAsset": "让我们来设置您的第一个资产。您可以手动输入，或导入列表以更快开始。",
+        "enterKeyInfo": "输入关键信息",
+        "likeNameTypeSerialNumber": "如资产名称、类型和序列号。",
+        "addDetails": "添加详细信息",
+        "likeLocationSpecTrackInfo": "如位置、规格和追踪信息。",
+        "startAssigningAssetToJobs": "开始将资产分配到工单。",
+        "wantToAddManyAtOnce": "想一次性添加多个吗？点击下方的“导入资产”按钮，通过 CSV 上传列表。",
+        "addYourFirstWorkOrder": "添加您的第一个工单",
+        "helpYouAssignJobs": "工单帮助您为团队成员分配任务、管理资产，并在一个地方跟踪工作进度。",
+        "whatYouDo": "您将做的事情",
+        "enterTaskDetails": "输入任务详情",
+        "whatNeedsToBeDone": "需要做什么，由谁来做，什么时候做。",
+        "attachAnAsset": "关联资产",
+        "chooseEquipmentItem": "选择此工单对应的设备或项目。",
+        "assignOrderOwner": "分配工单负责人",
+        "chooseWhosReponsible": "选择谁负责此工单。",
+        "noTeamMember": "尚未有团队成员",
+        "uploadData": "上传数据",
+        "importFile": "导入文件",
+        "orBrowseFile": "或点击浏览并选择您的文件",
+        "csvSizeCondition": "接受最大10MB的 .csv 文件 • 每次最多导入200个资产",
+        "csvSizeConditionWorkOrder":"接受最大 10MB 的 .csv 文件 • 每次导入最多 200 个工单",
+        "mapColumns": "映射您的列",
+        "yourColumn": "您的列",
+        "fieldexField": "FieldEx 字段",
+        "belowColumnNameStepDescription": "在下方，您会看到文件中的列名。我们已为您将其中一些匹配到 FieldEx 字段。如果有未匹配的列，只需从下拉菜单中选择正确的 FieldEx 字段。如果不需要某一列，请选择“忽略”跳过。",
+        "percentageValueOfField": "您的数据中有百分之 % 的行包含该字段的值",
+        "configureDropdowns": "配置下拉选项",
+        "assetStatuses": "资产状态",
+        "customizeDropdownOption": "自定义下拉选项。您可以重命名现有选项、删除未使用的选项，或保留默认值。从导入文件中发现的新值将自动添加到相关下拉菜单中。",
+        "detectedImportFile": "从导入文件中检测到",
+        "reviewConfirmTitle": "审核并确认",
+        "columnsToBeImported": "将导入的列",
+        "columnsToBeIgnored": "将忽略的列",
+        "recordsToBeAdded": "将添加的记录",
+        "confirmMatchFields": "确认匹配的字段",
+        "ignoreUnmappedFields": "忽略未映射的字段",
+        "reset": "重置",
+        "dowmloadWorkOrderTemplate": "下载工单模板",
+        "workOrderStatuses": "工单状态",
+        "workOrderTypes": "工单类型",
+        "workOrderFaults": "工单故障",
+        "workOrderResolutions": "工单解决方案",
+        "matchFoundFor": "找到匹配项：",
+        "matchNotAutoDetected": "未自动检测到匹配项",
+        "weWantYouUpRunning": "我们希望您尽快投入使用。请联系我们，我们很乐意提供帮助。"
       },
       "validationFE": {
         "onlyCsvFilesAllowed": "只能上传 CSV 文件",
