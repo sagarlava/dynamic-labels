@@ -2851,6 +2851,209 @@
         "plural": "Fijos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Ajustar fecha",
+        "plural": "Ajustar fechas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Aplicación automática",
+        "plural": "Aplicación automática",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Creado por",
+        "plural": "Creado por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Fecha de creación",
+        "plural": "Fecha de creación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Creado el",
+        "plural": "Creado el",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Mes del ciclo",
+        "plural": "Meses del ciclo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Fecha",
+        "plural": "Fechas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Fecha de fin",
+        "plural": "Fecha de fin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Último mantenimiento",
+        "plural": "Últimos mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Fecha del último mantenimiento",
+        "plural": "Fechas del último mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Medidor del último mantenimiento",
+        "plural": "Medidores del último mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Estado del último mantenimiento",
+        "plural": "Estados del último mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Última modificación por",
+        "plural": "Última modificación por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Fecha de última modificación",
+        "plural": "Fecha de última modificación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Plantilla de mantenimiento",
+        "plural": "Plantillas de mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Lectura del medidor",
+        "plural": "Lecturas del medidor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Múltiple",
+        "plural": "Múltiple",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Siguiente intervalo",
+        "plural": "Siguientes intervalos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Próximo mantenimiento",
+        "plural": "Próximos mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Estado del próximo mantenimiento",
+        "plural": "Estados del próximo mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Tipo de mantenimiento preventivo",
+        "plural": "Tipos de mantenimiento preventivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Trabajo recurrente",
+        "plural": "Trabajos recurrentes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Buscar por nombre",
+        "plural": "Buscar por nombre",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "N.º de serie",
+        "plural": "N.ºs de serie",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Fecha de inicio",
+        "plural": "Fecha de inicio",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "Estado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Disparador",
+        "plural": "Disparadores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Tipo",
+        "plural": "Tipos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -3001,10 +3204,93 @@
       "multiple": "múltiples",
       "toThisMaintenancePlanInBulk": "a este plan de mantenimiento de forma masiva.",
       "autoApplyToNew": "Aplicar automáticamente a",
-      "setConditionsToAutoApply": "Establezca las condiciones para aplicar automáticamente este plan a"
+      "setConditionsToAutoApply": "Establezca las condiciones para aplicar automáticamente este plan a",
+      "activeStatusDesc": "Los trabajos se crean y ejecutan según lo planificado; los cambios solo afectan trabajos futuros.",
+      "addedTo": "agregado a",
+      "adjustNextMaintenanceDate": "Ajustar la fecha del próximo mantenimiento",
+      "andLinkThemLater": "y vincularlos más tarde.",
+      "areNotChanged": "no se modifican.",
+      "autoApplyConditions": "Condiciones de aplicación automática",
+      "automaticallyApply": "Aplicar automáticamente",
+      "automaticallyApplyTo": "¿aplicar automáticamente a?",
+      "beRemovedFromThe": "eliminarse de",
+      "beforeReschedulingThenReschedule": "antes de reprogramar, luego reprograme el trabajo",
+      "cancelledStatusDesc": "Detenido manualmente. Todos los trabajos futuros se detienen de inmediato, sin importar las fechas.",
+      "chooseNewDateForNextMaintenance": "Elija una nueva fecha para el próximo mantenimiento programado. Esto no cambiará las visitas anteriores.",
+      "cloningFrom": "Clonando desde:",
+      "createNewPlanSameConfig": "Cree un plan nuevo con la misma configuración que el original. Actualice el rango de fechas y elija si desea copiar todos los datos.",
+      "createNewPlanWithSame": "Cree un plan nuevo con el mismo",
+      "currentNextDate": "Próxima fecha actual:",
+      "days": "Día(s)",
+      "doYouWantToCloneLinked": "¿Desea clonar los vinculados",
+      "draftStatusDesc": "La configuración está guardada, pero no se crean ni ejecutan trabajos. Todo sigue siendo editable.",
+      "entryWhich": "Entrada: Cuál",
+      "exitWhenShould": "Salida: Cuándo debe",
+      "expiredStatusDesc": "La fecha de fin ya pasó. No se crean trabajos nuevos; los existentes o pasados permanecen como referencia.",
+      "fieldexWillApplyThis": "FieldEx aplicará este",
+      "filterTheList": "Filtrar la lista",
+      "filtersSafeToChange": "Puede cambiar los filtros con seguridad después de seleccionar",
+      "fineTuneSelection": "Puede ajustar su selección antes de confirmar.",
+      "forChosen": "para los elegidos",
+      "forNew": "para nuevos",
+      "howOftenMaintenanceRepeated": "¿Con qué frecuencia debe repetirse el mantenimiento?",
+      "inBulk": "en masa",
+      "is": "es",
+      "isLinkedToThisRecord": "está vinculado a este registro de mantenimiento.",
+      "last": "Último",
+      "loadingMorePlans": "Cargando más planes...",
+      "manuallyOrSetUpAutomation": "manualmente o configure la automatización para poner este plan en marcha",
+      "matchAllConditionsExisting": "que cumplan todas las condiciones siguientes. Los existentes",
+      "meetConditionsGetMaintenance": "que cumplan las condiciones siguientes recibirán este",
+      "months": "Mes(es)",
+      "needComplexLogic": "¿Necesita lógica compleja?",
+      "newNextMaintenanceDate": "Nueva fecha del próximo mantenimiento",
+      "next": "Siguiente",
+      "notApplicable": "N/A",
+      "numberOfShortForm": "N.º de",
+      "numberShortForm": "N.º",
+      "oneOrMore": "uno o más",
+      "onlyFutureDatesAllowed": "Solo se permiten fechas futuras. Los futuros",
+      "orStartWithNo": ", o empezar sin",
+      "pickJobTemplateForMaintenance": "Elija la plantilla de trabajo que se generará para el mantenimiento",
+      "planDetails": "Detalles del plan",
+      "planDoesntHaveAny": "Este plan no tiene ningún",
+      "pm": "MP",
+      "previewSelection": "Vista previa de la selección",
+      "scheduledStatusDesc": "Las fechas de inicio y fin están definidas, pero aún no ha comenzado. Se activará en la fecha de inicio; aún se permiten ediciones.",
+      "selectAdvancedTrigger": "Seleccione ‘Disparador avanzado’ para configurar condiciones avanzadas.",
+      "selected": "seleccionado",
+      "setAutomation": "Configurar automatización",
+      "setHowOftenMaintenanceHappens": "Defina con qué frecuencia ocurre el mantenimiento, elija la plantilla de trabajo y decida cuándo generar",
+      "setTheConditions": "Defina las condiciones",
+      "shouldThis": "¿debe este",
+      "shouldThisApplyTo": "¿a qué debe aplicarse esto?",
+      "showActiveOnly": "Mostrar solo activos",
+      "theContract": "El contrato:",
+      "thenTickCheckboxesTo": ", luego marque las casillas para",
+      "tip": "Consejo",
+      "useFiltersOrSearchToFind": "Use los filtros o la búsqueda para encontrar",
+      "useTriggersToAutoApply": "Use disparadores para aplicar automáticamente este",
+      "weeks": "Semana(s)",
+      "when": "Cuando",
+      "which": "Cuál",
+      "willBeAdded": "se agregarán",
+      "willBeAddedToThe": "se agregarán a",
+      "willBeDisplayedHere": "se mostrarán aquí.",
+      "willBeRescheduled": "se reprogramarán a esta fecha.",
+      "years": "Año(s)",
+      "yet": "aún",
+      "youWouldLikeToCreate": "que desea crear",
+      "yourSelectionsWillStay": "Sus selecciones se conservarán hasta que salga de esta página."
     },
     "validationFE": {
-      "enterValueOfOne": "Ingrese un valor de 1 o mayor."
+      "enterValueOfOne": "Ingrese un valor de 1 o mayor.",
+      "cannotBeUndone": "Esto no se puede deshacer.",
+      "confirmCancelPlan": "¿Seguro que desea cancelar este plan?",
+      "confirmChangeStatusToDraft": "¿Seguro que desea cambiar el estado a borrador?",
+      "confirmRemove": "¿Seguro que desea eliminar",
+      "confirmRemoveAutomation": "¿Seguro que desea eliminar esta automatización?",
+      "fromThis": "de este"
     }
   },
   "contracts": {
@@ -6526,6 +6812,13 @@
         "plural": "Detalles generales",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Acciones y filtros de programación",
+        "plural": "Acciones y filtros de programación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6579,6 +6872,69 @@
         "plural": "Fecha de fin",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "Todas las frecuencias",
+        "plural": "Todas las frecuencias",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Asignar a",
+        "plural": "Asignar a",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Usuario actual",
+        "plural": "Usuarios actuales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Diario",
+        "plural": "Diario",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Mensual",
+        "plural": "Mensual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "Nuevo usuario",
+        "plural": "Nuevos usuarios",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Trimestral",
+        "plural": "Trimestral",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Semanal",
+        "plural": "Semanal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Anual",
+        "plural": "Anual",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -6617,10 +6973,20 @@
       "areIncluded": "están incluidos",
       "datesWithDot": "Las fechas con un punto tienen",
       "clickOneToView": "haga clic en una para verla a la derecha",
-      "scheduledForThisDate": "programados para esta fecha aparecerán abajo una vez asignados"
+      "scheduledForThisDate": "programados para esta fecha aparecerán abajo una vez asignados",
+      "bulkReAssignJobs": "Reasignación masiva de trabajos para",
+      "pleaseSelectA": "Seleccione un",
+      "selectDateRangeRemoveScheduledJobs": "Seleccione un rango de fechas para eliminar los trabajos programados dentro de él",
+      "toSearchA": "para buscar un",
+      "transferAssignedJobs": "Transferir trabajos asignados de un usuario a otro"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Solo se permiten letras y números"
+      "onlyTextNumberAllowed": "Solo se permiten letras y números",
+      "haveBeenGeneratedSuccessfully": "se han generado correctamente",
+      "noJobsScheduledFor": "No hay trabajos programados para",
+      "scheduleToView": "programe para verlos aquí",
+      "thisActionWillDelete": "Esta acción eliminará",
+      "withTheStatuses": "con los estados 'Nuevo' o 'Programado'"
     },
     "emptyPage":{
       "getStartedWithSite": "Comienza con sitios",
@@ -8050,6 +8416,20 @@
         "original": "Location & Contract",
         "singular": "Ubicación & Contrato",
         "plural": "Ubicaciones & Contratos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Tiempo y viaje",
+        "plural": "Tiempo y viaje",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Actividad",
+        "plural": "Actividades",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10415,6 +10795,48 @@
         "plural": "Números de Tareas Programadas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Trayecto",
+        "plural": "Trayectos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Tiempo total",
+        "plural": "Tiempo total",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Duración total de check-in",
+        "plural": "Duración total de check-in",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Distancia total recorrida",
+        "plural": "Distancia total recorrida",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Tiempo de viaje",
+        "plural": "Tiempo de viaje",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10568,7 +10990,24 @@
       "willBeAssigned": "se asignará a los miembros del grupo en orden rotativo (compartido entre los miembros del equipo por turnos).",
       "toAllAdded": "a todos los agregados",
       "noJobsScheduledFor": "No hay trabajos programados para",
-      "scheduledToViewHere": "programe para verlos aquí"
+      "scheduledToViewHere": "programe para verlos aquí",
+      "activityDesc": "Los trayectos provienen de la app móvil; aquí son de solo lectura.",
+      "at": "a las",
+      "checkedIn": "Registrado (check-in)",
+      "checkedOut": "Salida (check-out)",
+      "ended": "Finalizado",
+      "for": "durante",
+      "hourShort": "h",
+      "minuteAbbr": "m",
+      "minuteShort": "min",
+      "onSite": "en el sitio",
+      "overallTimeHint": "Viaje + duración de check-in",
+      "started": "Iniciado",
+      "stillOnSite": "Aún en el sitio",
+      "stillOpen": "aún abierto",
+      "timeTravelDesc": "Los trayectos son registrados por la app de campo y se muestran aquí como contexto",
+      "travelled": "Recorrido",
+      "travelling": "En viaje"
     },
     "emptyPage":{
       "getStartedWithJobOrder": "Comienza con órdenes de trabajo",
@@ -16407,34 +16846,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "takeMeThere": {
-        "original": "Take Me There",
-        "singular": "Llévame allí",
-        "plural": "Llévame allí",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "on": {
-        "original": "On",
-        "singular": "Encendido",
-        "plural": "Encendido",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "off": {
-        "original": "Off",
-        "singular": "Apagado",
-        "plural": "Apagado",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "allow": {
-        "original": "Allow",
-        "singular": "Permitir",
-        "plural": "Permitir",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "clickViewSeparate": {
         "original": "Click to view in a separate tab",
         "singular": "Haz clic para ver en una pestaña separada",
@@ -16572,6 +16983,55 @@
         "original": "Download Error Report",
         "singular": "Descargar informe de errores",
         "plural": "Descargar informe de errores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Permitir",
+        "plural": "Permite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Desactivado",
+        "plural": "Desactivado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "Activado",
+        "plural": "Activado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Llévame allí",
+        "plural": "Llévame allí",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Contraer",
+        "plural": "Contrae",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Expandir",
+        "plural": "Expande",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Anterior",
+        "plural": "Anterior",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -27823,6 +28283,20 @@
             "plural": "Perfiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "¿Permitir check-in/check-out?",
+            "plural": "¿Permitir check-in/check-out?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "¿Habilitar seguimiento de trayecto?",
+            "plural": "¿Habilitar seguimiento de trayecto?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -28005,7 +28479,13 @@
           "when": "Cuando",
           "whenA": "cuando un",
           "whoCanViewThis": "Quién puede ver este",
-          "within": "dentro de"
+          "within": "dentro de",
+          "allowCheckInCheckOutDesc": "Permita que los propietarios de la orden registren entrada y salida en trabajos de este tipo",
+          "checkInCheckOutAllowed": "Check-in/Check-out permitido",
+          "checkInCheckOutDisabled": "Check-in/Check-out deshabilitado",
+          "enableJourneyTrackingDesc": "Active esto para permitir que los propietarios de la orden realicen trayectos",
+          "journeyTrackingAllowed": "Seguimiento de trayecto permitido",
+          "journeyTrackingDisabled": "Seguimiento de trayecto deshabilitado"
         },
         "validationFE": {
           "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",
@@ -31382,295 +31862,6 @@
         }
       }
     },
-    "portal": {
-      "setupEdit": false,
-      "setupVisible": false,
-      "label": {
-        "original": "Portal",
-        "singular": "Portal",
-        "plural": "Portales",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "sec0": {
-          "original": "General Details",
-          "singular": "Detalles Generales",
-          "plural": "Detalles Generales",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec1": {
-          "original": "Domain",
-          "singular": "Dominio",
-          "plural": "Dominios",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Branding",
-          "singular": "Identidad de Marca",
-          "plural": "Identidad de Marca",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Modules",
-          "singular": "Módulo",
-          "plural": "Módulos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Configuration",
-          "singular": "Configuración",
-          "plural": "Configuraciones",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "fields": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "label": {
-          "original": "Label",
-          "singular": "Etiqueta",
-          "plural": "Etiquetas",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Estado",
-          "plural": "Estados",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "code": {
-          "original": "Code",
-          "singular": "Código",
-          "plural": "Códigos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "color": {
-          "original": "Color",
-          "singular": "Color",
-          "plural": "Colores",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "colorCode": {
-          "original": "Color Code",
-          "singular": "Código de color",
-          "plural": "Códigos de color",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Predeterminado",
-          "plural": "Predeterminados",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "available": {
-          "original": "Available",
-          "singular": "Disponible",
-          "plural": "Disponibles",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "action": {
-          "original": "Action",
-          "singular": "Acción",
-          "plural": "Acciones",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "reorder": {
-          "original": "Reorder",
-          "singular": "Reordenar",
-          "plural": "Reordenar",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "branding": {
-          "original": "Branding",
-          "singular": "Identidad de Marca",
-          "plural": "Identidad de Marca",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "logo": {
-          "original": "Logo",
-          "singular": "Logo",
-          "plural": "Logos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "headerColour": {
-          "original": "Header Colour",
-          "singular": "Color del encabezado",
-          "plural": "Colores del encabezado",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "headerFontColour": {
-          "original": "Header Font Colour",
-          "singular": "Color de fuente del encabezado",
-          "plural": "Colores de fuente del encabezado",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sidebarColour": {
-          "original": "Sidebar Colour",
-          "singular": "Color de la barra lateral",
-          "plural": "Colores de la barra lateral",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sidebarFontColour": {
-          "original": "Sidebar Font Colour",
-          "singular": "Color de fuente de la barra lateral",
-          "plural": "Colores de fuente de la barra lateral",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "buttonColour": {
-          "original": "Button Colour",
-          "singular": "Color del botón",
-          "plural": "Colores del botón",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "buttonFontColour": {
-          "original": "Button Font Colour",
-          "singular": "Color de fuente del botón",
-          "plural": "Colores de fuente del botón",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fontFamily": {
-          "original": "Font Family",
-          "singular": "Familia tipográfica",
-          "plural": "Familias tipográficas",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "portalIdentity": {
-          "original": "Portal Identity",
-          "singular": "Identidad del portal",
-          "plural": "Identidades del portal",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "moduleVisibility": {
-          "original": "Module Visibility",
-          "singular": "Visibilidad del módulo",
-          "plural": "Visibilidad de módulos",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "messages": {
-        "the": "El",
-        "givesEachOfYour": "le otorga a cada uno de sus",
-        "dedicatedBrandedPage": "una página web dedicada y con marca propia donde pueden hacer seguimiento de forma independiente",
-        "andBrowseTheirRegistered": "y explorar sus",
-        "withoutCallingYourTeam": "registrados sin necesidad de contactar a su equipo.",
-        "eachPortalLivesOnUniqueUrl": "Cada portal tiene una URL única (p. ej. drewbar.fieldex.com), con marca completa por",
-        "urlExample": "p. ej. drewbar.fieldex.com",
-        "youControlWhatTheySee": "y usted controla exactamente lo que pueden ver.",
-        "allowYour": "Permita que sus",
-        "to": "para",
-        "throughASharedPortal": "a través de un portal compartido",
-        "and": "y",
-        "enableAccessFor": "Habilitar acceso al portal para todos sus",
-        "whatHappensWhenYouActivate": "Qué sucede cuando activa",
-        "portalFeatureEnabled": "La función de portal está habilitada para su organización",
-        "youWillBeTaken": "Será dirigido a la página de configuración para configurar la marca, los módulos y",
-        "settings": "ajustes",
-        "how": "Cómo",
-        "getAccess": "obtener acceso",
-        "goToThe": "Vaya a la",
-        "tabAndOpenA": "pestaña y abra un",
-        "record": "registro",
-        "addA": "Agregue un",
-        "toThe": "al",
-        "enablePortalAccess": "habilitar acceso al portal",
-        "forThat": "para ese",
-        "fromThe": "Desde el",
-        "recordYouCanAlso": "registro también puede",
-        "resetTheirPassword": "restablecer su contraseña",
-        "or": "o",
-        "revokePortalAccess": "revocar el acceso al portal",
-        "atAnyTime": "en cualquier momento",
-        "availableStatuses": "Estados disponibles",
-        "addNewStatusesIfRequired": "Agregue nuevos estados si es necesario ingresando el nombre, código y código de color.",
-        "note": "Nota:",
-        "newlyCreatedStatusesWillBe": "Los estados recién creados serán visibles pero no se establecerán como",
-        "available": "disponible",
-        "forOtherJobOrderTypes": "para otros tipos de órdenes de trabajo.",
-        "addStatus": "Agregar estado",
-        "dragStatusHandlesToReorder": "Arrastre los controles de estado para reordenarlos. Active los estados como",
-        "toIncludeThemForThisType": "para incluirlos en este tipo de orden de trabajo. Elija un color único para los estados y establezca un estado como valor predeterminado para este tipo.",
-        "youAreInEditMode": "Está en modo de edición. Por favor guarde antes de navegar a otras pestañas.",
-        "logoColoursAndFont": "Logo, colores y fuente mostrados en el portal orientado al cliente",
-        "appearsInPortalHeader": "Aparece en el encabezado del portal. Use SVG o PNG con fondo transparente. Máx. 1 MB.",
-        "maximumFileSize": "El tamaño máximo de archivo es 1 MB",
-        "recommendedSize": "Recomendado ( 40px X 40 px) O ( 160px X 40 px)",
-        "selectThemeColours": "Seleccionar colores del tema",
-        "primaryThemeNavBar": "Barra de navegación del tema principal",
-        "textInPortalHeader": "Texto en el encabezado del portal",
-        "sideMenuBarColour": "Color de la barra del menú lateral",
-        "sideMenuFontColour": "Color de fuente del menú lateral",
-        "buttonBackgroundColour": "Color de fondo del botón",
-        "buttonTextColour": "Color de texto del botón. CONSEJO: use alto contraste vs fondo del botón",
-        "fontDisplayedInPortal": "Fuente que se muestra en el portal del cliente",
-        "selectAFont": "Seleccionar una fuente",
-        "pricingTypesTemplatesRescheduling": "precios, tipos, plantillas y reprogramación",
-        "selectWhichTypesOf": "Seleccione qué tipos de",
-        "areVisibleTo": "son visibles para",
-        "inThePortal": "en el portal.",
-        "allow": "Permitir",
-        "toReschedule": "reprogramar",
-        "canRequestNewDate": "puede solicitar una nueva fecha para",
-        "directlyFromThePortal": "directamente desde el portal.",
-        "list": "lista",
-        "displayThePartsUsedIn": "Mostrar las piezas utilizadas en",
-        "onThe": "en la",
-        "detailView": "vista de detalles.",
-        "prices": "precios",
-        "showUnitCostAndTotalPrice": "Mostrar el costo unitario y el precio total de cada pieza. Requiere \"Mostrar\".",
-        "toBeOn": "activado.",
-        "statusLabelsShownFor": "etiquetas de estado mostradas para",
-        "configureTheLabelsOfStatus": "Configure las etiquetas de estado mostradas en el",
-        "portal": "portal.",
-        "subdomainWhereAll": "Subdominio donde todos sus",
-        "accessThePortal": "acceden al portal",
-        "setupPortalSubdomain": "Configurar subdominio del portal",
-        "theSharedUrlWhereAll": "La URL compartida donde todos sus",
-        "logInEachCustomer": "inician sesión. Cada cliente solo ve sus propios datos.",
-        "lowercaseLettersNumbersHyphens": "Solo letras minúsculas, números y guiones.",
-        "isAvailable": "está disponible",
-        "controlWhichSection": "Controle a qué secciones",
-        "canAccessInThePortal": "puede acceder en el portal",
-        "alwaysOn": "Siempre activo",
-        "showThePreventive": "Mostrar el mantenimiento preventivo",
-        "scheduleAndPmHistory": "y el historial de PM en el portal.",
-        "toBrowseTheirRegistered": "para explorar sus",
-        "listAndView": "lista y ver",
-        "details": "detalles."
-      },
-      "validationFE": {
-        "activationFailed": "Activación fallida. Por favor intente de nuevo",
-        "hasBeenActivatedSuccessfully": "ha sido activado exitosamente",
-        "onlyPngAndSvgAllowed": "Solo se permiten archivos de imagen PNG y SVG"
-      }
-    },
     "validationBE": {
       "setupAssetsConfigIdExists": "Una nueva configuración de activos no puede ya tener un ID",
       "setupAssetsConfigIdNotFound": "ID no encontrado",
@@ -32082,6 +32273,602 @@
             "user_leave_reject": "Tu Licencia ha Sido Rechazada"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "Dominio",
+          "plural": "Dominios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "Marca",
+          "plural": "Marcas",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "Módulo",
+          "plural": "Módulos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "Configuración",
+          "plural": "Configuraciones",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuración",
+          "plural": "Configuraciones",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portales",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Visibilidad del módulo",
+          "plural": "Visibilidades del módulo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Identidad del portal",
+          "plural": "Identidad del portal",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdominio",
+          "plural": "Subdominios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Precio",
+          "plural": "Precios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Precios",
+          "plural": "Precios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logotipo",
+          "plural": "Logotipos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Color del encabezado",
+          "plural": "Colores del encabezado",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Color de fuente del encabezado",
+          "plural": "Colores de fuente del encabezado",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Color de la barra lateral",
+          "plural": "Colores de la barra lateral",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Color de fuente de la barra lateral",
+          "plural": "Colores de fuente de la barra lateral",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Color del botón",
+          "plural": "Colores del botón",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Color de fuente del botón",
+          "plural": "Colores de fuente del botón",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Familia tipográfica",
+          "plural": "Familias tipográficas",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "Qué es",
+        "enableAndManagePortals": "Habilite y administre portales de autoservicio para sus",
+        "descThe": "El",
+        "descPortalGivesEach": "Portal ofrece a cada uno de sus",
+        "descDedicatedPage": "una página web dedicada y con marca propia donde pueden seguir de forma independiente",
+        "descBrowseRegistered": ", y consultar sus",
+        "descUniqueUrl": " registrados — sin llamar a su equipo. Cada portal vive en una URL única (p. ej. drewbar.fieldex.com), con marca completa por",
+        "descYouControl": ", y usted controla exactamente lo que pueden ver",
+        "allowYour": "Permita que sus",
+        "throughSharedPortal": "a través de un portal compartido",
+        "editModeSaveBeforeNavigating": "Está en modo de edición. Guarde antes de navegar a otras pestañas",
+        "controlWhichSection": "Controle qué secciones",
+        "canAccessInPortal": "pueden acceder en el portal",
+        "canViewCreateTrackAll": "pueden ver, crear y seguir todos los",
+        "moduleAlwaysEnabled": ". Este módulo siempre está habilitado y no se puede desactivar",
+        "alwaysOn": "Siempre activado",
+        "showThePreventive": "Mostrar el preventivo",
+        "scheduleAndPmHistory": "programación e historial de PM en el portal",
+        "on": "Activado",
+        "off": "Desactivado",
+        "toBrowseRegistered": "para consultar sus",
+        "listAndView": "listar y ver",
+        "details": "detalles",
+        "isAvailable": "está disponible",
+        "isNotAvailable": "no está disponible",
+        "subdomainWhereAll": "Subdominio donde todos sus",
+        "accessThePortal": "acceden al portal",
+        "sharedUrlWhereAllYour": "La URL compartida donde todos sus",
+        "logIn": "inician sesión",
+        "each": "Cada",
+        "customerOwnData": "ve solo sus propios datos",
+        "subdomainFormatHint": "Solo letras minúsculas, números y guiones",
+        "andRescheduling": "y reprogramación",
+        "shown": "mostrados",
+        "which": "qué",
+        "of": "de",
+        "areVisibleTo": "son visibles para",
+        "inThePortal": "en el portal",
+        "thatAreAvailableFor": "que están disponibles para",
+        "to": "a",
+        "areAvailableForCreation": "están disponibles para creación",
+        "ableToSelectFromList": "podrán seleccionar de la lista",
+        "toReschedule": "para reprogramar",
+        "canRequestNewDate": "pueden solicitar una nueva fecha para",
+        "directlyFromPortal": "abiertos o próximos directamente desde el portal",
+        "list": "lista",
+        "displayPartsUsedIn": "Mostrar las piezas usadas en",
+        "onThe": "completados en la",
+        "detailView": "vista de detalle",
+        "unitCostRequires": "costo unitario y precio total de cada pieza",
+        "requires": "Requiere",
+        "toBeOn": "que esté activado.",
+        "statusLabelsShownFor": "etiquetas de estado mostradas para",
+        "theLabelsOfStatusShownIn": "las etiquetas del estado mostradas en el",
+        "brandingDesc": "Logotipo, colores y fuente mostrados en el portal orientado al cliente",
+        "logoDesc": "Aparece en el encabezado del portal. Use SVG o PNG con fondo transparente. Máx. 1 MB.",
+        "headerColourDesc": "Barra de navegación del tema principal",
+        "headerFontColourDesc": "Texto en el encabezado del portal",
+        "sidebarColourDesc": "Color de la barra del menú lateral",
+        "sidebarFontColourDesc": "Color de fuente del menú lateral",
+        "buttonColourDesc": "Color de fondo del botón",
+        "buttonFontColourDesc": "Color del texto del botón. CONSEJO: use alto contraste frente al fondo del botón",
+        "fontFamilyDesc": "Fuente que se muestra en el portal del cliente",
+        "selectTheThemeColours": "Seleccione los colores del tema",
+        "selectAFont": "Seleccione una fuente"
+      },
+      "validationFE": {
+        "failedToSave": "no se pudo guardar",
+        "pleaseTryAgain": "Inténtelo de nuevo",
+        "hasBeenSaved": "se ha guardado correctamente",
+        "recommendedImg": "Recomendado ( 40px X 40 px) O ( 160px X 40 px)",
+        "activationFailed": "Error de activación"
+      }
+    },
+    "portal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "Detalles Generales",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "Dominio",
+          "plural": "Dominios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "Marca",
+          "plural": "Marcas",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "Módulo",
+          "plural": "Módulos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "Configuración",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "Etiqueta",
+          "plural": "Etiquetas",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Estado",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "Código",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "Color",
+          "plural": "Colores",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "Código de color",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "Predeterminado",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "Disponible",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "Acción",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "Reordenar",
+          "plural": "Reordenar",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "Marca",
+          "plural": "Marcas",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Color del encabezado",
+          "plural": "Colores del encabezado",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Color de fuente del encabezado",
+          "plural": "Colores de fuente del encabezado",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Color de la barra lateral",
+          "plural": "Colores de la barra lateral",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Color de fuente de la barra lateral",
+          "plural": "Colores de fuente de la barra lateral",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Color del botón",
+          "plural": "Colores del botón",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Color de fuente del botón",
+          "plural": "Colores de fuente del botón",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Familia tipográfica",
+          "plural": "Familias tipográficas",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Identidad del portal",
+          "plural": "Identidad del portal",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Visibilidad del módulo",
+          "plural": "Visibilidades del módulo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuración",
+          "plural": "Configuraciones",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portales",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdominio",
+          "plural": "Subdominios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Precio",
+          "plural": "Precios",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Precios",
+          "plural": "Precios",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "the": "El",
+        "givesEachOfYour": "ofrece a cada uno de sus",
+        "dedicatedBrandedPage": "una página web dedicada y con marca propia donde pueden seguir de forma independiente",
+        "andBrowseTheirRegistered": "y consultar sus",
+        "withoutCallingYourTeam": "sin llamar a su equipo.",
+        "eachPortalLivesOnUniqueUrl": "Cada portal vive en una URL única (p. ej. drewbar.fieldex.com), con marca completa por",
+        "urlExample": "p. ej. drewbar.fieldex.com",
+        "youControlWhatTheySee": "y usted controla exactamente lo que pueden ver.",
+        "allowYour": "Permita que sus",
+        "to": "a",
+        "throughASharedPortal": "a través de un portal compartido",
+        "and": "y",
+        "enableAccessFor": "Habilite el acceso al portal para todos sus",
+        "whatHappensWhenYouActivate": "Qué ocurre cuando activa",
+        "portalFeatureEnabled": "La función de portal está habilitada para su organización",
+        "youWillBeTaken": "Se le llevará a la página de configuración para definir la marca, los módulos y",
+        "settings": "configuración",
+        "how": "Cómo",
+        "getAccess": "obtienen acceso",
+        "goToThe": "Vaya a la",
+        "tabAndOpenA": "pestaña y abra un",
+        "record": "registro",
+        "addA": "Agregar un",
+        "toThe": "al",
+        "enablePortalAccess": "habilitar acceso al portal",
+        "forThat": "para ese",
+        "fromThe": "Desde el",
+        "recordYouCanAlso": "registro también puede",
+        "resetTheirPassword": "restablecer su contraseña",
+        "or": "o",
+        "revokePortalAccess": "revocar el acceso al portal",
+        "atAnyTime": "en cualquier momento",
+        "availableStatuses": "Estados disponibles",
+        "addNewStatusesIfRequired": "Agregue estados nuevos si es necesario ingresando el nombre, el código y el código de color.",
+        "note": "Nota:",
+        "newlyCreatedStatusesWillBe": "Los estados recién creados serán visibles, pero no se establecerán como",
+        "available": "disponible",
+        "forOtherJobOrderTypes": "para otros tipos de orden de trabajo.",
+        "addStatus": "Agregar estado",
+        "dragStatusHandlesToReorder": "Arrastre los controles de estado para reordenarlos. Active o desactive estados como",
+        "toIncludeThemForThisType": "para incluirlos en este tipo de orden de trabajo. Elija un color único para los estados y establezca un estado como valor predeterminado para este tipo.",
+        "youAreInEditMode": "Está en modo de edición. Guarde antes de navegar a otras pestañas",
+        "logoColoursAndFont": "Logotipo, colores y fuente mostrados en el portal orientado al cliente",
+        "appearsInPortalHeader": "Aparece en el encabezado del portal. Use SVG o PNG con fondo transparente. Máx. 1 MB.",
+        "maximumFileSize": "El tamaño máximo del archivo es 1 MB",
+        "recommendedSize": "Recomendado ( 40px X 40 px) O ( 160px X 40 px)",
+        "selectThemeColours": "Seleccione los colores del tema",
+        "primaryThemeNavBar": "Barra de navegación del tema principal",
+        "textInPortalHeader": "Texto en el encabezado del portal",
+        "sideMenuBarColour": "Color de la barra del menú lateral",
+        "sideMenuFontColour": "Color de fuente del menú lateral",
+        "buttonBackgroundColour": "Color de fondo del botón",
+        "buttonTextColour": "Color del texto del botón. CONSEJO: use alto contraste frente al fondo del botón",
+        "fontDisplayedInPortal": "Fuente que se muestra en el portal del cliente",
+        "selectAFont": "Seleccione una fuente",
+        "pricingTypesTemplatesRescheduling": "precios, tipos, plantillas y reprogramación",
+        "selectWhichTypesOf": "Seleccione qué tipos de",
+        "areVisibleTo": "son visibles para",
+        "inThePortal": "en el portal",
+        "allow": "Permitir",
+        "toReschedule": "para reprogramar",
+        "canRequestNewDate": "pueden solicitar una nueva fecha para",
+        "directlyFromThePortal": "abiertos o próximos directamente desde el portal",
+        "list": "lista",
+        "displayThePartsUsedIn": "Mostrar las piezas usadas en",
+        "onThe": "completados en la",
+        "detailView": "vista de detalle",
+        "prices": "precios",
+        "showUnitCostAndTotalPrice": "Mostrar el costo unitario y el precio total de cada pieza. Requiere \"Mostrar\".",
+        "toBeOn": "que esté activado.",
+        "statusLabelsShownFor": "etiquetas de estado mostradas para",
+        "configureTheLabelsOfStatus": "Configure las etiquetas del estado mostradas en el",
+        "portal": "portal.",
+        "subdomainWhereAll": "Subdominio donde todos sus",
+        "accessThePortal": "acceden al portal",
+        "setupPortalSubdomain": "Configurar el subdominio del portal",
+        "theSharedUrlWhereAll": "La URL compartida donde todos sus",
+        "logInEachCustomer": "inician sesión. Cada cliente ve solo sus propios datos.",
+        "lowercaseLettersNumbersHyphens": "Solo letras minúsculas, números y guiones",
+        "isAvailable": "está disponible",
+        "controlWhichSection": "Controle qué secciones",
+        "canAccessInThePortal": "pueden acceder en el portal",
+        "alwaysOn": "Siempre activado",
+        "showThePreventive": "Mostrar el preventivo",
+        "scheduleAndPmHistory": "programación e historial de PM en el portal",
+        "toBrowseTheirRegistered": "para consultar sus",
+        "listAndView": "listar y ver",
+        "details": "detalles",
+        "whatIs": "Qué es",
+        "enableAndManagePortals": "Habilite y administre portales de autoservicio para sus",
+        "descThe": "El",
+        "descPortalGivesEach": "Portal ofrece a cada uno de sus",
+        "descDedicatedPage": "una página web dedicada y con marca propia donde pueden seguir de forma independiente",
+        "descBrowseRegistered": ", y consultar sus",
+        "descUniqueUrl": " registrados — sin llamar a su equipo. Cada portal vive en una URL única (p. ej. drewbar.fieldex.com), con marca completa por",
+        "descYouControl": ", y usted controla exactamente lo que pueden ver",
+        "throughSharedPortal": "a través de un portal compartido",
+        "editModeSaveBeforeNavigating": "Está en modo de edición. Guarde antes de navegar a otras pestañas",
+        "canAccessInPortal": "pueden acceder en el portal",
+        "canViewCreateTrackAll": "pueden ver, crear y seguir todos los",
+        "moduleAlwaysEnabled": ". Este módulo siempre está habilitado y no se puede desactivar",
+        "on": "Activado",
+        "off": "Desactivado",
+        "toBrowseRegistered": "para consultar sus",
+        "isNotAvailable": "no está disponible",
+        "sharedUrlWhereAllYour": "La URL compartida donde todos sus",
+        "logIn": "inician sesión",
+        "each": "Cada",
+        "customerOwnData": "ve solo sus propios datos",
+        "subdomainFormatHint": "Solo letras minúsculas, números y guiones",
+        "andRescheduling": "y reprogramación",
+        "shown": "mostrados",
+        "which": "qué",
+        "of": "de",
+        "thatAreAvailableFor": "que están disponibles para",
+        "areAvailableForCreation": "están disponibles para creación",
+        "ableToSelectFromList": "podrán seleccionar de la lista",
+        "directlyFromPortal": "abiertos o próximos directamente desde el portal",
+        "displayPartsUsedIn": "Mostrar las piezas usadas en",
+        "unitCostRequires": "costo unitario y precio total de cada pieza",
+        "requires": "Requiere",
+        "theLabelsOfStatusShownIn": "las etiquetas del estado mostradas en el",
+        "brandingDesc": "Logotipo, colores y fuente mostrados en el portal orientado al cliente",
+        "logoDesc": "Aparece en el encabezado del portal. Use SVG o PNG con fondo transparente. Máx. 1 MB.",
+        "headerColourDesc": "Barra de navegación del tema principal",
+        "headerFontColourDesc": "Texto en el encabezado del portal",
+        "sidebarColourDesc": "Color de la barra del menú lateral",
+        "sidebarFontColourDesc": "Color de fuente del menú lateral",
+        "buttonColourDesc": "Color de fondo del botón",
+        "buttonFontColourDesc": "Color del texto del botón. CONSEJO: use alto contraste frente al fondo del botón",
+        "fontFamilyDesc": "Fuente que se muestra en el portal del cliente",
+        "selectTheThemeColours": "Seleccione los colores del tema"
+      },
+      "validationFE": {
+        "activationFailed": "Error de activación. Inténtelo de nuevo",
+        "hasBeenActivatedSuccessfully": "se ha activado correctamente",
+        "onlyPngAndSvgAllowed": "Solo se permiten archivos de imagen PNG y SVG",
+        "failedToSave": "no se pudo guardar",
+        "pleaseTryAgain": "Inténtelo de nuevo",
+        "hasBeenSaved": "se ha guardado correctamente",
+        "recommendedImg": "Recomendado ( 40px X 40 px) O ( 160px X 40 px)"
       }
     }
   },

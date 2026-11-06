@@ -2534,6 +2534,209 @@
         "plural": "Fixed",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "adjustDate": {
+        "original": "Adjust Date",
+        "singular": "Adjust Date",
+        "plural": "Adjust Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoApply": {
+        "original": "Auto-Apply",
+        "singular": "Auto-Apply",
+        "plural": "Auto-Apply",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Created By",
+        "plural": "Created By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdOn": {
+        "original": "Created On",
+        "singular": "Created On",
+        "plural": "Created On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cycleMonth": {
+        "original": "Cycle Month",
+        "singular": "Cycle Month",
+        "plural": "Cycle Months",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenance": {
+        "original": "Last Maintenance",
+        "singular": "Last Maintenance",
+        "plural": "Last Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceDate": {
+        "original": "Last Maintenance Date",
+        "singular": "Last Maintenance Date",
+        "plural": "Last Maintenance Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceMeter": {
+        "original": "Last Maintenance Meter",
+        "singular": "Last Maintenance Meter",
+        "plural": "Last Maintenance Meters",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastMaintenanceStatus": {
+        "original": "Last Maintenance Status",
+        "singular": "Last Maintenance Status",
+        "plural": "Last Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Last Modified By",
+        "plural": "Last Modified By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Last Modified Date",
+        "plural": "Last Modified Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Maintenance Template",
+        "plural": "Maintenance Templates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterReading": {
+        "original": "Meter Reading",
+        "singular": "Meter Reading",
+        "plural": "Meter Readings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "multiple": {
+        "original": "Multiple",
+        "singular": "Multiple",
+        "plural": "Multiple",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextInterval": {
+        "original": "Next Interval",
+        "singular": "Next Interval",
+        "plural": "Next Intervals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenance": {
+        "original": "Next Maintenance",
+        "singular": "Next Maintenance",
+        "plural": "Next Maintenances",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceStatus": {
+        "original": "Next Maintenance Status",
+        "singular": "Next Maintenance Status",
+        "plural": "Next Maintenance Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "preventiveMaintenanceType": {
+        "original": "Preventive Maintenance Type",
+        "singular": "Preventive Maintenance Type",
+        "plural": "Preventive Maintenance Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recurringJob": {
+        "original": "Recurring Jobs",
+        "singular": "Recurring Job",
+        "plural": "Recurring Jobs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByName": {
+        "original": "Search by Name",
+        "singular": "Search by Name",
+        "plural": "Search by Name",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No.",
+        "singular": "Serial No.",
+        "plural": "Serial Nos.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "trigger": {
+        "original": "Trigger",
+        "singular": "Trigger",
+        "plural": "Triggers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -2684,10 +2887,93 @@
       "multiple": "multiple",
       "toThisMaintenancePlanInBulk": "to this maintenance plan in bulk.",
       "autoApplyToNew": "Auto-apply to",
-      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to"
+      "setConditionsToAutoApply": "Set the conditions to auto-apply this plan to",
+      "activeStatusDesc": "Jobs are being created/run as planned; changes only affect future jobs.",
+      "addedTo": "added to",
+      "adjustNextMaintenanceDate": "Adjust next maintenance date",
+      "andLinkThemLater": "and link them later.",
+      "areNotChanged": "are not changed.",
+      "autoApplyConditions": "Auto-apply conditions",
+      "automaticallyApply": "Automatically apply",
+      "automaticallyApplyTo": "automatically apply to?",
+      "beRemovedFromThe": "be removed from the",
+      "beforeReschedulingThenReschedule": "before rescheduling, then reschedule the job",
+      "cancelledStatusDesc": "Stopped manually. All future jobs are immediately halted, regardless of dates.",
+      "chooseNewDateForNextMaintenance": "Choose a new date for the next scheduled maintenance. This will not change past visits.",
+      "cloningFrom": "Cloning from:",
+      "createNewPlanSameConfig": "Create a new plan using the same configuration as the original. Update the date range and choose whether to copy all the data.",
+      "createNewPlanWithSame": "Create a new plan with the same",
+      "currentNextDate": "Current next date:",
+      "days": "Day(s)",
+      "doYouWantToCloneLinked": "Do you want to clone the linked",
+      "draftStatusDesc": "Configuration is saved, but no jobs are created or run. Everything is still fully editable.",
+      "entryWhich": "Entry: Which",
+      "exitWhenShould": "Exit: When should",
+      "expiredStatusDesc": "The end date has passed. No new jobs are created; existing/past jobs remain for reference.",
+      "fieldexWillApplyThis": "FieldEx will apply this",
+      "filterTheList": "Filter the list",
+      "filtersSafeToChange": "You can safely change filters after selecting",
+      "fineTuneSelection": "You can fine-tune your selection before confirming.",
+      "forChosen": "for chosen",
+      "forNew": "for new",
+      "howOftenMaintenanceRepeated": "How often should the maintenance be repeated?",
+      "inBulk": "in bulk",
+      "is": "is",
+      "isLinkedToThisRecord": "is linked to this Maintenance Record.",
+      "last": "Last",
+      "loadingMorePlans": "Loading more plans...",
+      "manuallyOrSetUpAutomation": "manually or set up automation to get this plan up and running",
+      "matchAllConditionsExisting": "that match all conditions below. Existing",
+      "meetConditionsGetMaintenance": "that meet the conditions below will get this",
+      "months": "Month(s)",
+      "needComplexLogic": "Need complex logic?",
+      "newNextMaintenanceDate": "New next maintenance date",
+      "next": "Next",
+      "notApplicable": "N/A",
+      "numberOfShortForm": "No. of",
+      "numberShortForm": "No.",
+      "oneOrMore": "one or more",
+      "onlyFutureDatesAllowed": "Only future dates are allowed. Future",
+      "orStartWithNo": ", or start with no",
+      "pickJobTemplateForMaintenance": "Pick the job template to be generated for the maintenance",
+      "planDetails": "Plan Details",
+      "planDoesntHaveAny": "This plan doesn't have any",
+      "pm": "PM",
+      "previewSelection": "Preview selection",
+      "scheduledStatusDesc": "Start/end dates are set, but it hasn't started yet. It will activate on the start date; edits are still allowed.",
+      "selectAdvancedTrigger": "Select ‘Advanced trigger’ to configure advanced conditions.",
+      "selected": "selected",
+      "setAutomation": "Set Automation",
+      "setHowOftenMaintenanceHappens": "Set how often the maintenance happens, pick the job template, and decide when to generate",
+      "setTheConditions": "Set the conditions",
+      "shouldThis": "should this",
+      "shouldThisApplyTo": "should this apply to?",
+      "showActiveOnly": "Show active only",
+      "theContract": "The contract:",
+      "thenTickCheckboxesTo": ", then tick the checkboxes to",
+      "tip": "Tip",
+      "useFiltersOrSearchToFind": "Use the filters or search to find",
+      "useTriggersToAutoApply": "Use triggers to automatically apply this",
+      "weeks": "Week(s)",
+      "when": "When",
+      "which": "Which",
+      "willBeAdded": "will be added",
+      "willBeAddedToThe": "will be added to the",
+      "willBeDisplayedHere": "will be displayed here.",
+      "willBeRescheduled": "will be rescheduled to this date.",
+      "years": "Year(s)",
+      "yet": "yet",
+      "youWouldLikeToCreate": "you would like to create",
+      "yourSelectionsWillStay": "Your selections will stay until you leave this page."
     },
     "validationFE": {
-      "enterValueOfOne": "Enter a value of 1 or greater."
+      "enterValueOfOne": "Enter a value of 1 or greater.",
+      "cannotBeUndone": "This cannot be undone.",
+      "confirmCancelPlan": "Are you sure you want to cancel this plan?",
+      "confirmChangeStatusToDraft": "Are you sure you want to change status to draft?",
+      "confirmRemove": "Are you sure you want to remove",
+      "confirmRemoveAutomation": "Are you sure you want to remove this automation?",
+      "fromThis": "from this"
     }
   },
   "contracts": {
@@ -4092,6 +4378,13 @@
         "plural": "General Details",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec1": {
+        "original": "Scheduling actions & filters",
+        "singular": "Scheduling actions & filters",
+        "plural": "Scheduling actions & filters",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -4145,6 +4438,69 @@
         "plural": "End Date",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allFrequencies": {
+        "original": "All Frequencies",
+        "singular": "All Frequencies",
+        "plural": "All Frequencies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Assign To",
+        "plural": "Assign To",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentUser": {
+        "original": "Current User",
+        "singular": "Current User",
+        "plural": "Current Users",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "daily": {
+        "original": "Daily",
+        "singular": "Daily",
+        "plural": "Daily",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Monthly",
+        "plural": "Monthly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newUser": {
+        "original": "New User",
+        "singular": "New User",
+        "plural": "New Users",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quarterly": {
+        "original": "Quarterly",
+        "singular": "Quarterly",
+        "plural": "Quarterly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "weekly": {
+        "original": "Weekly",
+        "singular": "Weekly",
+        "plural": "Weekly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Yearly",
+        "plural": "Yearly",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -4183,10 +4539,20 @@
       "areIncluded": "are included",
       "datesWithDot": "Dates with a dot have",
       "clickOneToView": "click one to view it on the right",
-      "scheduledForThisDate": "scheduled for this date will appear below once assigned"
+      "scheduledForThisDate": "scheduled for this date will appear below once assigned",
+      "bulkReAssignJobs": "Bulk Re-Assign Jobs for",
+      "pleaseSelectA": "Please select a",
+      "selectDateRangeRemoveScheduledJobs": "Select a date range to remove the scheduled jobs within it",
+      "toSearchA": "to search for a",
+      "transferAssignedJobs": "Transfer assigned jobs from one user to another"
     },
     "validationFE": {
-      "onlyTextNumberAllowed": "Only alphabets and numbers are allowed"
+      "onlyTextNumberAllowed": "Only alphabets and numbers are allowed",
+      "haveBeenGeneratedSuccessfully": "have been generated successfully",
+      "noJobsScheduledFor": "No jobs scheduled for",
+      "scheduleToView": "schedule to view them here",
+      "thisActionWillDelete": "This action will delete",
+      "withTheStatuses": "with the 'New' or 'Scheduled' statuses"
     }
   },
   "ticket": {
@@ -5074,6 +5440,20 @@
         "original": "Location & Contract",
         "singular": "Location & Contract",
         "plural": "Location & Contracts",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Time & Travel",
+        "plural": "Time & Travel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "Activities",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -7439,6 +7819,48 @@
         "plural": "Schedule Task Numbers",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Journey",
+        "plural": "Journeys",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Overall Time",
+        "plural": "Overall Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Total Check-In Duration",
+        "plural": "Total Check-In Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Total Distance Travelled",
+        "plural": "Total Distance Travelled",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Travel Time",
+        "plural": "Travel Time",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -7591,7 +8013,24 @@
       "willBeAssigned": "will be assigned to group members in a round-robin order (shared among team members in turn).",
       "toAllAdded": "to all added",
       "noJobsScheduledFor": "No jobs scheduled for",
-      "scheduledToViewHere": "schedule to view them here"
+      "scheduledToViewHere": "schedule to view them here",
+      "activityDesc": "Journeys come from the mobile app, read-only here.",
+      "at": "at",
+      "checkedIn": "Checked in",
+      "checkedOut": "Checked out",
+      "ended": "Ended",
+      "for": "for",
+      "hourShort": "h",
+      "minuteAbbr": "m",
+      "minuteShort": "min",
+      "onSite": "on site",
+      "overallTimeHint": "Travel + check-in duration",
+      "started": "Started",
+      "stillOnSite": "Still on site",
+      "stillOpen": "still open",
+      "timeTravelDesc": "Journeys are logged by the field app and shown here for context",
+      "travelled": "Travelled",
+      "travelling": "Travelling"
     }
   },
   "inventory": {
@@ -12295,34 +12734,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "takeMeThere":{
-        "original": "Take Me There",
-        "singular": "Take Me There",
-        "plural": "Take Me There",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "on":{
-        "original": "On",
-        "singular": "On",
-        "plural": "On",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "off":{
-        "original": "Off",
-        "singular": "Off",
-        "plural": "Off",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "allow":{
-        "original": "Allow",
-        "singular": "Allow",
-        "plural": "Allow",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "clickViewSeparate": {
         "original": "Click to view in a separate tab",
         "singular": "Click to view in a separate tab",
@@ -12460,6 +12871,55 @@
         "original": "Download Error Report",
         "singular": "Download Error Report",
         "plural": "Download Error Report",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allow": {
+        "original": "Allow",
+        "singular": "Allow",
+        "plural": "Allows",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "off": {
+        "original": "Off",
+        "singular": "Off",
+        "plural": "Off",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "on": {
+        "original": "On",
+        "singular": "On",
+        "plural": "On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "takeMeThere": {
+        "original": "Take Me There",
+        "singular": "Take Me There",
+        "plural": "Take Me There",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "collapse": {
+        "original": "Collapse",
+        "singular": "Collapse",
+        "plural": "Collapses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expand": {
+        "original": "Expand",
+        "singular": "Expand",
+        "plural": "Expands",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "previous": {
+        "original": "Previous",
+        "singular": "Previous",
+        "plural": "Previous",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -23110,6 +23570,20 @@
             "plural": "Profiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "plural": "Allow Check-in/Check-out?",
+            "setupEdit": false,
+            "setupVisible": false,
+            "singular": "Allow Check-in/Check-out?"
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "plural": "Enable Journey Tracking?",
+            "setupEdit": false,
+            "setupVisible": false,
+            "singular": "Enable Journey Tracking?"
           }
         },
         "messages": {
@@ -23292,7 +23766,13 @@
           "when": "When",
           "whenA": "when a",
           "whoCanViewThis": "Who can view this",
-          "within": "within"
+          "within": "within",
+          "allowCheckInCheckOutDesc": "Let order owners check in and out of jobs under this type",
+          "checkInCheckOutAllowed": "Check-in/Check-out allowed",
+          "checkInCheckOutDisabled": "Check-in/Check-out disabled",
+          "enableJourneyTrackingDesc": "Enable this to allow order owners to perform journeys",
+          "journeyTrackingAllowed": "Journey Tracking allowed",
+          "journeyTrackingDisabled": "Journey Tracking disabled"
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",
@@ -26655,295 +27135,6 @@
         }
       }
     },
-    "portal":{
-      "setupEdit": false,
-      "setupVisible": false,
-      "label": {
-        "original": "Portal",
-        "singular": "Portal",
-        "plural": "Portal",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "sec0": {
-          "original": "General Details",
-          "singular": "General Details",
-          "plural": "General Details",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec1": {
-          "original": "Domain",
-          "singular": "Domain",
-          "plural": "Domain",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Branding",
-          "singular": "Branding",
-          "plural": "Branding",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Modules",
-          "singular": "Module",
-          "plural": "Modules",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Configuration",
-          "singular": "Configuration",
-          "plural": "Configurations",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "fields": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "label": {
-          "original": "Label",
-          "singular": "Label",
-          "plural": "Labels",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "Statuses",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "Codes",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "color": {
-          "original": "Color",
-          "singular": "Color",
-          "plural": "Colors",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "colorCode": {
-          "original": "Color Code",
-          "singular": "Color Code",
-          "plural": "Color Codes",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Default",
-          "plural": "Defaults",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "available": {
-          "original": "Available",
-          "singular": "Available",
-          "plural": "Available",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "action": {
-          "original": "Action",
-          "singular": "Action",
-          "plural": "Actions",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "reorder": {
-          "original": "Reorder",
-          "singular": "Reorder",
-          "plural": "Reorders",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "branding": {
-          "original": "Branding",
-          "singular": "Branding",
-          "plural": "Branding",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "logo": {
-          "original": "Logo",
-          "singular": "Logo",
-          "plural": "Logos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "headerColour": {
-          "original": "Header Colour",
-          "singular": "Header Colour",
-          "plural": "Header Colours",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "headerFontColour": {
-          "original": "Header Font Colour",
-          "singular": "Header Font Colour",
-          "plural": "Header Font Colours",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sidebarColour": {
-          "original": "Sidebar Colour",
-          "singular": "Sidebar Colour",
-          "plural": "Sidebar Colours",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sidebarFontColour": {
-          "original": "Sidebar Font Colour",
-          "singular": "Sidebar Font Colour",
-          "plural": "Sidebar Font Colours",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "buttonColour": {
-          "original": "Button Colour",
-          "singular": "Button Colour",
-          "plural": "Button Colours",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "buttonFontColour": {
-          "original": "Button Font Colour",
-          "singular": "Button Font Colour",
-          "plural": "Button Font Colours",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fontFamily": {
-          "original": "Font Family",
-          "singular": "Font Family",
-          "plural": "Font Families",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "portalIdentity": {
-          "original": "Portal Identity",
-          "singular": "Portal Identity",
-          "plural": "Portal Identities",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "moduleVisibility": {
-          "original": "Module Visibility",
-          "singular": "Module Visibility",
-          "plural": "Module Visibilities",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "messages":{
-        "the": "The",
-        "givesEachOfYour": "gives each of your",
-        "dedicatedBrandedPage": "a dedicated, branded web page where they can independently track",
-        "andBrowseTheirRegistered": "and browse their registered",
-        "withoutCallingYourTeam": "without calling your team.",
-        "eachPortalLivesOnUniqueUrl": "Each portal lives on a unique URL (e.g. drewbar.fieldex.com), is fully branded per",
-        "urlExample": "e.g. drewbar.fieldex.com",
-        "youControlWhatTheySee": "and you control exactly what they can see.",
-        "allowYour": "Allow your",
-        "to": "to",
-        "throughASharedPortal": "through a shared portal",
-        "and":"and",
-        "enableAccessFor":"Enable portal access for all your",
-        "whatHappensWhenYouActivate":"What happens when you activate",
-        "portalFeatureEnabled":"Portal feature is enabled for your organisation",
-        "youWillBeTaken":"You will be taken to the configuration page to set up branding, modules, and",
-        "settings":"settings",
-        "how":"How",
-        "getAccess":"get access",
-        "goToThe": "Go to the",
-        "tabAndOpenA": "tab and open a",
-        "record": "record",
-        "addA": "Add a",
-        "toThe": "to the",
-        "enablePortalAccess": "enable portal access",
-        "forThat": "for that",
-        "fromThe": "From the",
-        "recordYouCanAlso": "record you can also",
-        "resetTheirPassword": "reset their password",
-        "or": "or",
-        "revokePortalAccess": "revoke portal access",
-        "atAnyTime": "at any time",
-        "availableStatuses": "Available Statuses",
-        "addNewStatusesIfRequired": "Add new statuses if required by entering the name, code, and color code.",
-        "note": "Note:",
-        "newlyCreatedStatusesWillBe": "Newly created statuses will be visible but not set as",
-        "available": "available",
-        "forOtherJobOrderTypes": "for other job order types.",
-        "addStatus": "Add Status",
-        "dragStatusHandlesToReorder": "Drag the status handles to reorder them. Toggle statuses as",
-        "toIncludeThemForThisType": "to include them for this job order type. Choose a unique color for statuses and set one status as the default value for this type.",
-        "youAreInEditMode": "You are in edit mode. Please save before navigating to other tabs.",
-        "logoColoursAndFont": "Logo, colours, and font shown in the customer-facing portal",
-        "appearsInPortalHeader": "Appears in the portal header. Use SVG or PNG with transparent background. Max 1 MB.",
-        "maximumFileSize": "Maximum file size is 1MB",
-        "recommendedSize": "Recommended ( 40px X 40 px) OR ( 160px X 40 px)",
-        "selectThemeColours": "Select the theme colours",
-        "primaryThemeNavBar": "Primary theme navigation bar",
-        "textInPortalHeader": "Text in the portal header",
-        "sideMenuBarColour": "Side menu bar colour",
-        "sideMenuFontColour": "Side menu font colour",
-        "buttonBackgroundColour": "Button background colour",
-        "buttonTextColour": "Button text colour. TIP: use high contrast vs button background",
-        "fontDisplayedInPortal": "Font that is displayed in the customer portal",
-        "selectAFont": "Select a font",
-        "pricingTypesTemplatesRescheduling": "pricing, types, templates, and rescheduling",
-        "selectWhichTypesOf": "Select which types of",
-        "areVisibleTo": "are visible to",
-        "inThePortal": "in the portal.",
-        "allow": "Allow",
-        "toReschedule": "to reschedule",
-        "canRequestNewDate": "can request a new date for open or upcoming",
-        "directlyFromThePortal": "directly from the portal.",
-        "list": "list",
-        "displayThePartsUsedIn": "Display the parts used in completed",
-        "onThe": "on the",
-        "detailView": "detail view.",
-        "prices": "prices",
-        "showUnitCostAndTotalPrice": "Show unit cost and total price for each part. Requires \"Show\".",
-        "toBeOn": "to be on.",
-        "statusLabelsShownFor": "status labels shown for",
-        "configureTheLabelsOfStatus": "Configure the labels of the status shown in the",
-        "portal": "portal.",
-        "subdomainWhereAll": "Subdomain where all",
-        "accessThePortal": "access the portal",
-        "setupPortalSubdomain": "Setup portal subdomain",
-        "theSharedUrlWhereAll": "The shared URL where all your",
-        "logInEachCustomer": "log in. Each customer sees only their own data.",
-        "lowercaseLettersNumbersHyphens": "Lowercase letters, numbers, and hyphens only.",
-        "isAvailable": "is available",
-        "controlWhichSection": "Control which section",
-        "canAccessInThePortal": "can access in the portal",
-        "alwaysOn": "Always On",
-        "showThePreventive": "Show the preventive",
-        "scheduleAndPmHistory": "schedule and PM history in the portal.",
-        "toBrowseTheirRegistered": "to browse their registered",
-        "listAndView": "list and view",
-        "details": "details."
-      },
-      "validationFE":{
-        "activationFailed": "Activation failed. Please try again",
-        "hasBeenActivatedSuccessfully": "has been activated successfully",
-        "onlyPngAndSvgAllowed": "Only PNG and SVG image files are allowed"
-      }
-    },
     "validationBE": {
       "setupAssetsConfigIdExists": "A new Equipment Config cannot already have an ID",
       "setupAssetsConfigIdNotFound": "Id not found",
@@ -27194,7 +27385,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Job order type related to the template is not configured in the portal. Please add it to the job order types.",
       "setupJobOrderStatusNotFound": "Job Order Status not found",
       "SetupCustomerPortalConfigNotFound": "Customer portal configuration not found for this tenant",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Customer Portal Configuration exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "Job Order Config exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "PM Cycle Item exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "Site Config exists in the system for the TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -27351,6 +27546,602 @@
             "user_leave_reject": "Your Leave has been Rejected"
           }
         }
+      }
+    },
+    "customerPortal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Domain",
+          "singular": "Domain",
+          "plural": "Domains",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Branding",
+          "singular": "Branding",
+          "plural": "Brandings",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Modules",
+          "singular": "Module",
+          "plural": "Modules",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portals",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Module Visibility",
+          "plural": "Module Visibilities",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Portal Identity",
+          "plural": "Portal Identity",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdomain",
+          "plural": "Subdomains",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Price",
+          "plural": "Prices",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Pricing",
+          "plural": "Pricings",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "Logos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Header Colour",
+          "plural": "Header Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Header Font Colour",
+          "plural": "Header Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Sidebar Colour",
+          "plural": "Sidebar Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Sidebar Font Colour",
+          "plural": "Sidebar Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Button Colour",
+          "plural": "Button Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Button Font Colour",
+          "plural": "Button Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Font Family",
+          "plural": "Font Families",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "whatIs": "What is",
+        "enableAndManagePortals": "Enable and manage self-service portals for your",
+        "descThe": "The",
+        "descPortalGivesEach": "Portal gives each of your",
+        "descDedicatedPage": "a dedicated, branded web page where they can independently track",
+        "descBrowseRegistered": ", and browse their registered",
+        "descUniqueUrl": "— without calling your team. Each portal lives on a unique URL (e.g. drewbar.fieldex.com), is fully branded per",
+        "descYouControl": ", and you control exactly what they can see",
+        "allowYour": "Allow your",
+        "throughSharedPortal": "through a shared portal",
+        "editModeSaveBeforeNavigating": "You are in edit mode. Please save before navigating to other tabs",
+        "controlWhichSection": "Control which sections",
+        "canAccessInPortal": "can access in the portal",
+        "canViewCreateTrackAll": "can view, create and track all",
+        "moduleAlwaysEnabled": ". This module is always enabled and cannot be turned off",
+        "alwaysOn": "Always On",
+        "showThePreventive": "Show the preventive",
+        "scheduleAndPmHistory": "schedule and PM history in the portal",
+        "on": "On",
+        "off": "Off",
+        "toBrowseRegistered": "to browse their registered",
+        "listAndView": "list and view",
+        "details": "details",
+        "isAvailable": "is available",
+        "isNotAvailable": "is not available",
+        "subdomainWhereAll": "Subdomain where all",
+        "accessThePortal": "access the portal",
+        "sharedUrlWhereAllYour": "The shared URL where all your",
+        "logIn": "log in",
+        "each": "Each",
+        "customerOwnData": "sees only their own data",
+        "subdomainFormatHint": "Lowercase letters, numbers, and hyphens only",
+        "andRescheduling": "and rescheduling",
+        "shown": "shown",
+        "which": "which",
+        "of": "of",
+        "areVisibleTo": "are visible to",
+        "inThePortal": "in the portal",
+        "thatAreAvailableFor": "that are available for",
+        "to": "to",
+        "areAvailableForCreation": "are available for creation",
+        "ableToSelectFromList": "will be able to select from the list",
+        "toReschedule": "to reschedule",
+        "canRequestNewDate": "can request a new date for open or upcoming",
+        "directlyFromPortal": "directly from the portal",
+        "list": "list",
+        "displayPartsUsedIn": "Display the parts used in completed",
+        "onThe": "on the",
+        "detailView": "detail view",
+        "unitCostRequires": "unit cost and total price for each part",
+        "requires": "Requires",
+        "toBeOn": "to be on.",
+        "statusLabelsShownFor": "status labels shown for",
+        "theLabelsOfStatusShownIn": "the labels of the status shown in the",
+        "brandingDesc": "Logo, colours, and font shown in the customer-facing portal",
+        "logoDesc": "Appears in the portal header. Use SVG or PNG with transparent background. Max 1 MB.",
+        "headerColourDesc": "Primary theme navigation bar",
+        "headerFontColourDesc": "Text in the portal header",
+        "sidebarColourDesc": "Side menu bar colour",
+        "sidebarFontColourDesc": "Side menu font colour",
+        "buttonColourDesc": "Button background colour",
+        "buttonFontColourDesc": "Button text colour. TIP: use high contrast vs button background",
+        "fontFamilyDesc": "Font that is displayed in the customer portal",
+        "selectTheThemeColours": "Select the theme colours",
+        "selectAFont": "Select a font"
+      },
+      "validationFE": {
+        "failedToSave": "failed to save",
+        "pleaseTryAgain": "Please try again",
+        "hasBeenSaved": "has been saved successfully",
+        "recommendedImg": "Recommended ( 40px X 40 px) OR ( 160px X 40 px)",
+        "activationFailed": "Activation failed"
+      }
+    },
+    "portal": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Portals",
+        "singular": "Portal",
+        "plural": "Portals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "General Details",
+          "singular": "General Details",
+          "plural": "General Details",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Domain",
+          "singular": "Domain",
+          "plural": "Domain",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Branding",
+          "singular": "Branding",
+          "plural": "Branding",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Modules",
+          "singular": "Module",
+          "plural": "Modules",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Configuration",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Label",
+          "singular": "Label",
+          "plural": "Labels",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "Statuses",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "code": {
+          "original": "Code",
+          "singular": "Code",
+          "plural": "Codes",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "color": {
+          "original": "Color",
+          "singular": "Color",
+          "plural": "Colors",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "colorCode": {
+          "original": "Color Code",
+          "singular": "Color Code",
+          "plural": "Color Codes",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "Default",
+          "plural": "Defaults",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "available": {
+          "original": "Available",
+          "singular": "Available",
+          "plural": "Available",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "Action",
+          "plural": "Actions",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "reorder": {
+          "original": "Reorder",
+          "singular": "Reorder",
+          "plural": "Reorders",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "branding": {
+          "original": "Branding",
+          "singular": "Branding",
+          "plural": "Branding",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "logo": {
+          "original": "Logo",
+          "singular": "Logo",
+          "plural": "Logos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerColour": {
+          "original": "Header Colour",
+          "singular": "Header Colour",
+          "plural": "Header Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "headerFontColour": {
+          "original": "Header Font Colour",
+          "singular": "Header Font Colour",
+          "plural": "Header Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarColour": {
+          "original": "Sidebar Colour",
+          "singular": "Sidebar Colour",
+          "plural": "Sidebar Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sidebarFontColour": {
+          "original": "Sidebar Font Colour",
+          "singular": "Sidebar Font Colour",
+          "plural": "Sidebar Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonColour": {
+          "original": "Button Colour",
+          "singular": "Button Colour",
+          "plural": "Button Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "buttonFontColour": {
+          "original": "Button Font Colour",
+          "singular": "Button Font Colour",
+          "plural": "Button Font Colours",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "fontFamily": {
+          "original": "Font Family",
+          "singular": "Font Family",
+          "plural": "Font Families",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portalIdentity": {
+          "original": "Portal Identity",
+          "singular": "Portal Identity",
+          "plural": "Portal Identities",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "moduleVisibility": {
+          "original": "Module Visibility",
+          "singular": "Module Visibility",
+          "plural": "Module Visibilities",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "configuration": {
+          "original": "Configurations",
+          "singular": "Configuration",
+          "plural": "Configurations",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "portal": {
+          "original": "Portals",
+          "singular": "Portal",
+          "plural": "Portals",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "subdomain": {
+          "original": "Subdomains",
+          "singular": "Subdomain",
+          "plural": "Subdomains",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "price": {
+          "original": "Prices",
+          "singular": "Price",
+          "plural": "Prices",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "pricing": {
+          "original": "Pricing",
+          "singular": "Pricing",
+          "plural": "Pricings",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "the": "The",
+        "givesEachOfYour": "gives each of your",
+        "dedicatedBrandedPage": "a dedicated, branded web page where they can independently track",
+        "andBrowseTheirRegistered": "and browse their registered",
+        "withoutCallingYourTeam": "without calling your team.",
+        "eachPortalLivesOnUniqueUrl": "Each portal lives on a unique URL (e.g. drewbar.fieldex.com), is fully branded per",
+        "urlExample": "e.g. drewbar.fieldex.com",
+        "youControlWhatTheySee": "and you control exactly what they can see.",
+        "allowYour": "Allow your",
+        "to": "to",
+        "throughASharedPortal": "through a shared portal",
+        "and": "and",
+        "enableAccessFor": "Enable portal access for all your",
+        "whatHappensWhenYouActivate": "What happens when you activate",
+        "portalFeatureEnabled": "Portal feature is enabled for your organisation",
+        "youWillBeTaken": "You will be taken to the configuration page to set up branding, modules, and",
+        "settings": "settings",
+        "how": "How",
+        "getAccess": "get access",
+        "goToThe": "Go to the",
+        "tabAndOpenA": "tab and open a",
+        "record": "record",
+        "addA": "Add a",
+        "toThe": "to the",
+        "enablePortalAccess": "enable portal access",
+        "forThat": "for that",
+        "fromThe": "From the",
+        "recordYouCanAlso": "record you can also",
+        "resetTheirPassword": "reset their password",
+        "or": "or",
+        "revokePortalAccess": "revoke portal access",
+        "atAnyTime": "at any time",
+        "availableStatuses": "Available Statuses",
+        "addNewStatusesIfRequired": "Add new statuses if required by entering the name, code, and color code.",
+        "note": "Note:",
+        "newlyCreatedStatusesWillBe": "Newly created statuses will be visible but not set as",
+        "available": "available",
+        "forOtherJobOrderTypes": "for other job order types.",
+        "addStatus": "Add Status",
+        "dragStatusHandlesToReorder": "Drag the status handles to reorder them. Toggle statuses as",
+        "toIncludeThemForThisType": "to include them for this job order type. Choose a unique color for statuses and set one status as the default value for this type.",
+        "youAreInEditMode": "You are in edit mode. Please save before navigating to other tabs.",
+        "logoColoursAndFont": "Logo, colours, and font shown in the customer-facing portal",
+        "appearsInPortalHeader": "Appears in the portal header. Use SVG or PNG with transparent background. Max 1 MB.",
+        "maximumFileSize": "Maximum file size is 1MB",
+        "recommendedSize": "Recommended ( 40px X 40 px) OR ( 160px X 40 px)",
+        "selectThemeColours": "Select the theme colours",
+        "primaryThemeNavBar": "Primary theme navigation bar",
+        "textInPortalHeader": "Text in the portal header",
+        "sideMenuBarColour": "Side menu bar colour",
+        "sideMenuFontColour": "Side menu font colour",
+        "buttonBackgroundColour": "Button background colour",
+        "buttonTextColour": "Button text colour. TIP: use high contrast vs button background",
+        "fontDisplayedInPortal": "Font that is displayed in the customer portal",
+        "selectAFont": "Select a font",
+        "pricingTypesTemplatesRescheduling": "pricing, types, templates, and rescheduling",
+        "selectWhichTypesOf": "Select which types of",
+        "areVisibleTo": "are visible to",
+        "inThePortal": "in the portal.",
+        "allow": "Allow",
+        "toReschedule": "to reschedule",
+        "canRequestNewDate": "can request a new date for open or upcoming",
+        "directlyFromThePortal": "directly from the portal.",
+        "list": "list",
+        "displayThePartsUsedIn": "Display the parts used in completed",
+        "onThe": "on the",
+        "detailView": "detail view.",
+        "prices": "prices",
+        "showUnitCostAndTotalPrice": "Show unit cost and total price for each part. Requires \"Show\".",
+        "toBeOn": "to be on.",
+        "statusLabelsShownFor": "status labels shown for",
+        "configureTheLabelsOfStatus": "Configure the labels of the status shown in the",
+        "portal": "portal.",
+        "subdomainWhereAll": "Subdomain where all",
+        "accessThePortal": "access the portal",
+        "setupPortalSubdomain": "Setup portal subdomain",
+        "theSharedUrlWhereAll": "The shared URL where all your",
+        "logInEachCustomer": "log in. Each customer sees only their own data.",
+        "lowercaseLettersNumbersHyphens": "Lowercase letters, numbers, and hyphens only.",
+        "isAvailable": "is available",
+        "controlWhichSection": "Control which section",
+        "canAccessInThePortal": "can access in the portal",
+        "alwaysOn": "Always On",
+        "showThePreventive": "Show the preventive",
+        "scheduleAndPmHistory": "schedule and PM history in the portal.",
+        "toBrowseTheirRegistered": "to browse their registered",
+        "listAndView": "list and view",
+        "details": "details.",
+        "whatIs": "What is",
+        "enableAndManagePortals": "Enable and manage self-service portals for your",
+        "descThe": "The",
+        "descPortalGivesEach": "Portal gives each of your",
+        "descDedicatedPage": "a dedicated, branded web page where they can independently track",
+        "descBrowseRegistered": ", and browse their registered",
+        "descUniqueUrl": "— without calling your team. Each portal lives on a unique URL (e.g. drewbar.fieldex.com), is fully branded per",
+        "descYouControl": ", and you control exactly what they can see",
+        "throughSharedPortal": "through a shared portal",
+        "editModeSaveBeforeNavigating": "You are in edit mode. Please save before navigating to other tabs",
+        "canAccessInPortal": "can access in the portal",
+        "canViewCreateTrackAll": "can view, create and track all",
+        "moduleAlwaysEnabled": ". This module is always enabled and cannot be turned off",
+        "on": "On",
+        "off": "Off",
+        "toBrowseRegistered": "to browse their registered",
+        "isNotAvailable": "is not available",
+        "sharedUrlWhereAllYour": "The shared URL where all your",
+        "logIn": "log in",
+        "each": "Each",
+        "customerOwnData": "sees only their own data",
+        "subdomainFormatHint": "Lowercase letters, numbers, and hyphens only",
+        "andRescheduling": "and rescheduling",
+        "shown": "shown",
+        "which": "which",
+        "of": "of",
+        "thatAreAvailableFor": "that are available for",
+        "areAvailableForCreation": "are available for creation",
+        "ableToSelectFromList": "will be able to select from the list",
+        "directlyFromPortal": "directly from the portal",
+        "displayPartsUsedIn": "Display the parts used in completed",
+        "unitCostRequires": "unit cost and total price for each part",
+        "requires": "Requires",
+        "theLabelsOfStatusShownIn": "the labels of the status shown in the",
+        "brandingDesc": "Logo, colours, and font shown in the customer-facing portal",
+        "logoDesc": "Appears in the portal header. Use SVG or PNG with transparent background. Max 1 MB.",
+        "headerColourDesc": "Primary theme navigation bar",
+        "headerFontColourDesc": "Text in the portal header",
+        "sidebarColourDesc": "Side menu bar colour",
+        "sidebarFontColourDesc": "Side menu font colour",
+        "buttonColourDesc": "Button background colour",
+        "buttonFontColourDesc": "Button text colour. TIP: use high contrast vs button background",
+        "fontFamilyDesc": "Font that is displayed in the customer portal",
+        "selectTheThemeColours": "Select the theme colours"
+      },
+      "validationFE": {
+        "activationFailed": "Activation failed. Please try again",
+        "hasBeenActivatedSuccessfully": "has been activated successfully",
+        "onlyPngAndSvgAllowed": "Only PNG and SVG image files are allowed",
+        "failedToSave": "failed to save",
+        "pleaseTryAgain": "Please try again",
+        "hasBeenSaved": "has been saved successfully",
+        "recommendedImg": "Recommended ( 40px X 40 px) OR ( 160px X 40 px)"
       }
     }
   },
