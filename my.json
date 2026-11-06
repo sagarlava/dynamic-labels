@@ -6933,6 +6933,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Mercu Tanda",
+        "plural": "Mercu Tanda",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7070,9 +7077,22 @@
         "plural": "Jenis Kategori",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "% Penyiapan",
+        "plural": "% Penyiapan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "Pemilihan tarikh tidak boleh selepas tarikh tamat.",
+      "dateCannotBeBeforeStartDate": "Pemilihan tarikh tidak boleh sebelum tarikh mula.",
+      "deleteMilestoneConfirmation": "akan dipadam dan dialih keluar daripada semua",
+      "doYouWishToProceed": "Adakah anda ingin meneruskan?",
+      "withinIt": "di dalamnya"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "ID Luar tidak sah",
       "projectNotFound": "Projek tidak dijumpai",
@@ -7109,7 +7129,18 @@
     },
     "messages": {
       "noProjectsFound": "Tiada Projek Dijumpai",
-      "filterProjects": "Tapisan Projek"
+      "filterProjects": "Tapisan Projek",
+      "Last": "terakhir",
+      "aName": "satu nama",
+      "addThemToSeeThemHere": "Tambahkannya untuk melihatnya di sini",
+      "doesNotHaveAny": "tidak mempunyai sebarang",
+      "giveThis": "Berikan",
+      "howLongShouldThis": "Berapa lama",
+      "milestoneDescriptionQuestion": "Terangkan kerja yang perlu dilakukan dalam",
+      "milestoneNoJobOrdersEnd": "untuk bermula",
+      "milestoneStatusQuestion": "Apakah status",
+      "this": "Ini",
+      "yet": "lagi"
     },
     "emptyPage":{
       "manageYourProject": "Urus Projek Anda",
@@ -30749,7 +30780,7 @@
           "setupVisible": false
         },
         "sec26": {
-          "original": "Specific conditions to be met",
+          "original": "Specify the conditions to be met",
           "singular": "Syarat khusus yang perlu dipenuhi",
           "plural": "Syarat khusus yang perlu dipenuhi",
           "setupEdit": true,
@@ -30759,6 +30790,20 @@
           "original": "Set Workflow actions",
           "singular": "Tetapkan tindakan aliran kerja",
           "plural": "Tetapkan tindakan aliran kerja",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "Butiran Aliran Kerja",
+          "plural": "Butiran Aliran Kerja",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "Beri nama kepada aliran kerja anda",
+          "plural": "Beri nama kepada aliran kerja anda",
           "setupEdit": true,
           "setupVisible": false
         }
@@ -30981,7 +31026,8 @@
         "toTheRightTechnicianBySkillLocationWorkload": "kepada juruteknik yang betul mengikut kemahiran, lokasi atau beban kerja kemudian maklumkan mereka. (Berfungsi pada",
         "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "kepada juruteknik yang betul — mengikut kemahiran, lokasi atau beban kerja — kemudian maklumkan mereka.",
         "triggerSettingsConfiguredPreviousStep": "Tetapan pencetus dikonfigurasikan pada langkah sebelumnya. Semak di sana sebelum menyimpan.",
-        "whenShouldThe": "Bila patut"
+        "whenShouldThe": "Bila patut",
+        "optionalNoteWorkflowExist": "Nota pilihan mengapa aliran kerja ini wujud, untuk diri anda pada masa hadapan dan rakan sepasukan."
       }
     },
     "templates": {

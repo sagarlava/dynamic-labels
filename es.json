@@ -6933,6 +6933,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Hito",
+        "plural": "Hitos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7070,9 +7077,22 @@
         "plural": "Tipos de Categoría",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "% de finalización",
+        "plural": "% de finalización",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "La fecha seleccionada no puede ser posterior a la fecha de fin.",
+      "dateCannotBeBeforeStartDate": "La fecha seleccionada no puede ser anterior a la fecha de inicio.",
+      "deleteMilestoneConfirmation": "se eliminará y se quitará de todos los",
+      "doYouWishToProceed": "¿Desea continuar?",
+      "withinIt": "dentro de él"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "ID externo no válido",
       "projectNotFound": "Proyecto no encontrado",
@@ -7109,7 +7129,18 @@
     },
     "messages": {
       "noProjectsFound": "No se encontraron proyectos",
-      "filterProjects": "Filtrar proyectos"
+      "filterProjects": "Filtrar proyectos",
+      "Last": "último",
+      "aName": "un nombre",
+      "addThemToSeeThemHere": "Agréguelos para verlos aquí",
+      "doesNotHaveAny": "no tiene ningún",
+      "giveThis": "Asigne a este",
+      "howLongShouldThis": "¿Cuánto tiempo debe durar este",
+      "milestoneDescriptionQuestion": "Describa el trabajo que debe realizarse en este",
+      "milestoneNoJobOrdersEnd": "para comenzar",
+      "milestoneStatusQuestion": "¿Cuál es el estado de este",
+      "this": "Este",
+      "yet": "aún"
     },
     "emptyPage":{
       "manageYourProject": "Gestiona tus proyectos",
@@ -10465,7 +10496,8 @@
       "pdfTemplateNameRequired": "El nombre de la plantilla es obligatorio",
       "pdfTemplateTriggerRequired": "Se requiere al menos un desencadenador",
       "pdfTemplateNameTooLong": "El nombre de la plantilla supera la longitud máxima de 255 caracteres",
-      "pdfTemplateNamePatternMissing": "El patrón del nombre PDF generado no está configurado"
+      "pdfTemplateNamePatternMissing": "El patrón del nombre PDF generado no está configurado",
+      "editCompletedJobOrderNotAllowed": "No tiene permiso para editar esta orden de trabajo completada"
     },
     "tooltips": {
       "setupVisible": false,
@@ -30749,7 +30781,7 @@
           "setupVisible": false
         },
         "sec26": {
-          "original": "Specific conditions to be met",
+          "original": "Specify the conditions to be met",
           "singular": "Condiciones específicas que deben cumplirse",
           "plural": "Condiciones específicas que deben cumplirse",
           "setupEdit": true,
@@ -30759,6 +30791,20 @@
           "original": "Set Workflow actions",
           "singular": "Configurar acciones del flujo de trabajo",
           "plural": "Configurar acciones del flujo de trabajo",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "Detalles del flujo de trabajo",
+          "plural": "Detalles del flujo de trabajo",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "Ponle un nombre a tu flujo de trabajo",
+          "plural": "Ponle un nombre a tu flujo de trabajo",
           "setupEdit": true,
           "setupVisible": false
         }
@@ -30981,7 +31027,8 @@
         "toTheRightTechnicianBySkillLocationWorkload": "al técnico correcto por habilidad, ubicación o carga de trabajo y luego notificarlo. (Funciona en",
         "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "al técnico correcto — por habilidad, ubicación o carga de trabajo — luego notificarlo.",
         "triggerSettingsConfiguredPreviousStep": "La configuración del disparador está en el paso anterior. Revísela allí antes de guardar.",
-        "whenShouldThe": "Cuándo debe el"
+        "whenShouldThe": "Cuándo debe el",
+        "optionalNoteWorkflowExist": "Nota opcional sobre por qué existe este flujo de trabajo, para usted en el futuro y sus compañeros."
       }
     },
     "templates": {

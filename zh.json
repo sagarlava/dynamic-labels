@@ -6941,6 +6941,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "里程碑",
+        "plural": "里程碑",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7078,9 +7085,22 @@
         "plural": "类别类型",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "完成百分比",
+        "plural": "完成百分比",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "所选日期不能晚于结束日期。",
+      "dateCannotBeBeforeStartDate": "所选日期不能早于开始日期。",
+      "deleteMilestoneConfirmation": "将被删除并从所有",
+      "doYouWishToProceed": "是否继续？",
+      "withinIt": "其中"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "无效的外部ID",
       "projectNotFound": "未找到项目",
@@ -7117,7 +7137,18 @@
     },
     "messages": {
       "noProjectsFound": "未找到项目",
-      "filterProjects": "筛选项目"
+      "filterProjects": "筛选项目",
+      "Last": "最后",
+      "aName": "一个名称",
+      "addThemToSeeThemHere": "添加后即可在此查看",
+      "doesNotHaveAny": "没有任何",
+      "giveThis": "给此",
+      "howLongShouldThis": "此应持续多久",
+      "milestoneDescriptionQuestion": "描述此中需要完成的工作",
+      "milestoneNoJobOrdersEnd": "以开始",
+      "milestoneStatusQuestion": "此的状态是什么",
+      "this": "此",
+      "yet": "尚未"
     },
     "emptyPage":{
       "manageYourProject": "管理您的项目",
@@ -30694,7 +30725,7 @@
           "setupVisible": false
         },
         "sec26": {
-          "original": "Specific conditions to be met",
+          "original": "Specify the conditions to be met",
           "singular": "需满足的特定条件",
           "plural": "需满足的特定条件",
           "setupEdit": true,
@@ -30704,6 +30735,20 @@
           "original": "Set Workflow actions",
           "singular": "设置工作流操作",
           "plural": "设置工作流操作",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "工作流详情",
+          "plural": "工作流详情",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "为工作流命名",
+          "plural": "为工作流命名",
           "setupEdit": true,
           "setupVisible": false
         }
@@ -30926,7 +30971,8 @@
         "toTheRightTechnicianBySkillLocationWorkload": "按技能、位置或工作量指派给合适的技术员，然后通知他们。（适用于",
         "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "给合适的技术员——按技能、位置或工作量——然后通知他们。",
         "triggerSettingsConfiguredPreviousStep": "触发设置在上一步配置。保存前请在那里检查。",
-        "whenShouldThe": "何时应"
+        "whenShouldThe": "何时应",
+        "optionalNoteWorkflowExist": "可选备注，说明此工作流存在的原因，方便日后的自己和同事查看。"
       }
     },
     "templates": {

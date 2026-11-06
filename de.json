@@ -6933,6 +6933,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec6": {
+        "original": "Milestone",
+        "singular": "Meilenstein",
+        "plural": "Meilensteine",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7070,9 +7077,22 @@
         "plural": "Kategorietypen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "completionPercentage": {
+        "original": "Completion %",
+        "singular": "Fertigstellung %",
+        "plural": "Fertigstellung %",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "dateCannotBeAfterEndDate": "Die Datumsauswahl darf nicht nach dem Enddatum liegen.",
+      "dateCannotBeBeforeStartDate": "Die Datumsauswahl darf nicht vor dem Startdatum liegen.",
+      "deleteMilestoneConfirmation": "wird gelöscht und aus allen entfernt",
+      "doYouWishToProceed": "Möchten Sie fortfahren?",
+      "withinIt": "darin"
+    },
     "validationBE": {
       "projectWithExtIdNotFound": "Ungültige ExternalId",
       "projectNotFound": "Projekt nicht gefunden",
@@ -7109,7 +7129,18 @@
     },
     "messages": {
       "noProjectsFound": "Keine Projekte gefunden",
-      "filterProjects": "Projekte filtern"
+      "filterProjects": "Projekte filtern",
+      "Last": "letzte",
+      "aName": "einen Namen",
+      "addThemToSeeThemHere": "Fügen Sie sie hinzu, um sie hier zu sehen",
+      "doesNotHaveAny": "hat keine",
+      "giveThis": "Geben Sie diesem",
+      "howLongShouldThis": "Wie lange soll dieses",
+      "milestoneDescriptionQuestion": "Beschreiben Sie die Arbeit, die in diesem",
+      "milestoneNoJobOrdersEnd": "um zu beginnen",
+      "milestoneStatusQuestion": "Wie ist der Status dieses",
+      "this": "Dieses",
+      "yet": "noch"
     },
     "emptyPage":{
       "manageYourProject": "Verwalten Sie Ihre Projekte",
@@ -30749,7 +30780,7 @@
           "setupVisible": false
         },
         "sec26": {
-          "original": "Specific conditions to be met",
+          "original": "Specify the conditions to be met",
           "singular": "Spezifische Bedingungen, die erfüllt sein müssen",
           "plural": "Spezifische Bedingungen, die erfüllt sein müssen",
           "setupEdit": true,
@@ -30759,6 +30790,20 @@
           "original": "Set Workflow actions",
           "singular": "Workflow-Aktionen festlegen",
           "plural": "Workflow-Aktionen festlegen",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "Workflow Details",
+          "singular": "Workflow-Details",
+          "plural": "Workflow-Details",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Give your workflow a name",
+          "singular": "Geben Sie Ihrem Workflow einen Namen",
+          "plural": "Geben Sie Ihrem Workflow einen Namen",
           "setupEdit": true,
           "setupVisible": false
         }
@@ -30981,7 +31026,8 @@
         "toTheRightTechnicianBySkillLocationWorkload": "an den richtigen Techniker nach Qualifikation, Standort oder Auslastung und benachrichtigen. (Funktioniert für",
         "toTheRightTechnicianDashSkillLocationWorkloadThenNotify": "an den richtigen Techniker — nach Qualifikation, Standort oder Auslastung — und dann benachrichtigen.",
         "triggerSettingsConfiguredPreviousStep": "Auslöser-Einstellungen werden im vorherigen Schritt konfiguriert. Prüfen Sie sie dort vor dem Speichern.",
-        "whenShouldThe": "Wann soll der"
+        "whenShouldThe": "Wann soll der",
+        "optionalNoteWorkflowExist": "Optionale Notiz, warum dieser Workflow existiert, für Ihr zukünftiges Ich und Ihre Teamkollegen."
       }
     },
     "templates": {
