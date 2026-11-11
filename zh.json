@@ -26910,7 +26910,17 @@
           "checkInCheckOutDisabled": "已禁用签到/签退",
           "enableJourneyTrackingDesc": "启用此项以允许订单负责人执行行程",
           "journeyTrackingAllowed": "已允许行程跟踪",
-          "journeyTrackingDisabled": "已禁用行程跟踪"
+          "journeyTrackingDisabled": "已禁用行程跟踪",
+          "allowSmartAssignmentOf": "允许智能分配",
+          "isCreatedAutoAssignedBestFit": "创建时，将根据设定的分配规则自动分配给最适合该工作的技术人员",
+          "smartAssignmentAllowed": "已允许智能分配",
+          "smartAssignmentDisabled": "已禁用智能分配",
+          "howShouldSmartAssignWorkDuring": "智能分配在以下期间应如何工作",
+          "creation": "创建",
+          "appliesOnlyDuringManual": "仅适用于手动",
+          "creationWhenAssignmentRule": "创建，且当分配规则",
+          "isConfiguredFor": "已配置用于",
+          "ofThisType": "此类型。"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

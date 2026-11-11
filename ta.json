@@ -26902,7 +26902,17 @@
           "checkInCheckOutDisabled": "செக்-இன்/செக்-அவுட் முடக்கப்பட்டது",
           "enableJourneyTrackingDesc": "ஆர்டர் உரிமையாளர்கள் பயணங்களைச் செய்ய அனுமதிக்க இதை இயக்கவும்",
           "journeyTrackingAllowed": "பயணக் கண்காணிப்பு அனுமதிக்கப்பட்டது",
-          "journeyTrackingDisabled": "பயணக் கண்காணிப்பு முடக்கப்பட்டது"
+          "journeyTrackingDisabled": "பயணக் கண்காணிப்பு முடக்கப்பட்டது",
+          "allowSmartAssignmentOf": "ஸ்மார்ட் ஒதுக்கீட்டை அனுமதி",
+          "isCreatedAutoAssignedBestFit": "உருவாக்கப்படும்போது, அமைக்கப்பட்ட ஒதுக்கீட்டு விதிகளின் அடிப்படையில் பணிக்கு மிகப் பொருத்தமான தொழில்நுட்ப வல்லுநருக்கு தானாக ஒதுக்கப்படும்",
+          "smartAssignmentAllowed": "ஸ்மார்ட் ஒதுக்கீடு அனுமதிக்கப்பட்டது",
+          "smartAssignmentDisabled": "ஸ்மார்ட் ஒதுக்கீடு முடக்கப்பட்டது",
+          "howShouldSmartAssignWorkDuring": "இதன் போது ஸ்மார்ட் ஒதுக்கீடு எவ்வாறு செயல்பட வேண்டும்",
+          "creation": "உருவாக்கம்",
+          "appliesOnlyDuringManual": "கைமுறை",
+          "creationWhenAssignmentRule": "உருவாக்கத்தின் போது மட்டும் பொருந்தும்; ஒதுக்கீட்டு விதி",
+          "isConfiguredFor": "இதற்கு உள்ளமைக்கப்பட்டிருக்கும் போது",
+          "ofThisType": "இந்த வகைக்கு."
         },
         "validationFE": {
           "maximum80Chars": "80 எழுத்துகளின் அதிகபட்ச நீளம் தாண்டியது",

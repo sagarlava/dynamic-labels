@@ -26902,7 +26902,17 @@
           "checkInCheckOutDisabled": "Check-in/Check-out désactivé",
           "enableJourneyTrackingDesc": "Activez ceci pour permettre aux propriétaires de l’ordre d’effectuer des trajets",
           "journeyTrackingAllowed": "Suivi de trajet autorisé",
-          "journeyTrackingDisabled": "Suivi de trajet désactivé"
+          "journeyTrackingDisabled": "Suivi de trajet désactivé",
+          "allowSmartAssignmentOf": "Autoriser l'affectation intelligente de",
+          "isCreatedAutoAssignedBestFit": "est créé, il sera automatiquement affecté au technicien le mieux adapté au travail selon les règles d'affectation définies",
+          "smartAssignmentAllowed": "Affectation intelligente autorisée",
+          "smartAssignmentDisabled": "Affectation intelligente désactivée",
+          "howShouldSmartAssignWorkDuring": "Comment l'affectation intelligente doit-elle fonctionner pendant",
+          "creation": "création",
+          "appliesOnlyDuringManual": "S'applique uniquement lors de la",
+          "creationWhenAssignmentRule": "création lorsqu'une règle d'affectation",
+          "isConfiguredFor": "est configurée pour",
+          "ofThisType": "de ce type."
         },
         "validationFE": {
           "maximum80Chars": "Longueur maximale de 80 caractères dépassée",

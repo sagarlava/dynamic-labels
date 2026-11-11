@@ -26902,7 +26902,17 @@
           "checkInCheckOutDisabled": "Check-in/Check-out disabled",
           "enableJourneyTrackingDesc": "Enable this to allow order owners to perform journeys",
           "journeyTrackingAllowed": "Journey Tracking allowed",
-          "journeyTrackingDisabled": "Journey Tracking disabled"
+          "journeyTrackingDisabled": "Journey Tracking disabled",
+          "allowSmartAssignmentOf": "Allow smart assignment of",
+          "isCreatedAutoAssignedBestFit": "is created it will be automatically assigned to the technician which is best fit for the job based on set assignment rules",
+          "smartAssignmentAllowed": "Smart Assignment allowed",
+          "smartAssignmentDisabled": "Smart Assignment disabled",
+          "howShouldSmartAssignWorkDuring": "How should smart assign work during",
+          "creation": "creation",
+          "appliesOnlyDuringManual": "Applies only during manual",
+          "creationWhenAssignmentRule": "creation when an assignment rule",
+          "isConfiguredFor": "is configured for",
+          "ofThisType": "of this type."
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",

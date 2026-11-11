@@ -26902,7 +26902,17 @@
           "checkInCheckOutDisabled": "Daftar Masuk/Daftar Keluar dilumpuhkan",
           "enableJourneyTrackingDesc": "Dayakan ini untuk membenarkan pemilik pesanan melakukan perjalanan",
           "journeyTrackingAllowed": "Penjejakan Perjalanan dibenarkan",
-          "journeyTrackingDisabled": "Penjejakan Perjalanan dilumpuhkan"
+          "journeyTrackingDisabled": "Penjejakan Perjalanan dilumpuhkan",
+          "allowSmartAssignmentOf": "Benarkan penugasan pintar bagi",
+          "isCreatedAutoAssignedBestFit": "dicipta, ia akan ditetapkan secara automatik kepada juruteknik yang paling sesuai untuk kerja berdasarkan peraturan penugasan yang ditetapkan",
+          "smartAssignmentAllowed": "Penugasan Pintar dibenarkan",
+          "smartAssignmentDisabled": "Penugasan Pintar dilumpuhkan",
+          "howShouldSmartAssignWorkDuring": "Bagaimanakah penugasan pintar harus berfungsi semasa",
+          "creation": "penciptaan",
+          "appliesOnlyDuringManual": "Digunakan hanya semasa",
+          "creationWhenAssignmentRule": "penciptaan apabila peraturan penugasan",
+          "isConfiguredFor": "dikonfigurasi untuk",
+          "ofThisType": "jenis ini."
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",
