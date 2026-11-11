@@ -16863,7 +16863,9 @@
       "toViewScheduledJobsForToday": "以查看今天的已排程工作",
       "enterA": "输入一个",
       "another": "另一个",
-      "current": "当前"
+      "current": "当前",
+      "wazeIsNotInstalled": "Waze 未安装",
+      "googleMapsNotInstalled": "Google 地图未安装"
     },
     "currency": {
       "australianDollar": "AUD",
