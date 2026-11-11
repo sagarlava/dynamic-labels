@@ -16855,7 +16855,9 @@
       "toViewScheduledJobsForToday": "pour voir les travaux planifiés pour aujourd’hui",
       "enterA": "Saisir un",
       "another": "un autre",
-      "current": "Actuel"
+      "current": "Actuel",
+      "wazeIsNotInstalled": "Waze n’est pas installé",
+      "googleMapsNotInstalled": "Google Maps n’est pas installé"
     },
     "currency": {
       "australianDollar": "EUR",

@@ -16855,7 +16855,9 @@
       "toViewScheduledJobsForToday": "இன்றைய திட்டமிடப்பட்ட வேலைகளைப் பார்க்க",
       "enterA": "ஒரு ... உள்ளிடவும்",
       "another": "மற்றொரு",
-      "current": "தற்போதைய"
+      "current": "தற்போதைய",
+      "wazeIsNotInstalled": "Waze நிறுவப்படவில்லை",
+      "googleMapsNotInstalled": "Google Maps நிறுவப்படவில்லை"
     },
     "currency": {
       "australianDollar": "AUD",

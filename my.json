@@ -16855,7 +16855,9 @@
       "toViewScheduledJobsForToday": "untuk melihat kerja berjadual untuk hari ini",
       "enterA": "Masukkan",
       "another": "satu lagi",
-      "current": "Semasa"
+      "current": "Semasa",
+      "wazeIsNotInstalled": "Waze tidak dipasang",
+      "googleMapsNotInstalled": "Google Maps tidak dipasang"
     },
     "currency": {
       "australianDollar": "AUD",

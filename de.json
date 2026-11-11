@@ -16855,7 +16855,9 @@
       "toViewScheduledJobsForToday": "um die für heute geplanten Aufträge anzuzeigen",
       "enterA": "Geben Sie ein",
       "another": "einen anderen",
-      "current": "Aktuell"
+      "current": "Aktuell",
+      "wazeIsNotInstalled": "Waze ist nicht installiert",
+      "googleMapsNotInstalled": "Google Maps ist nicht installiert"
     },
     "currency": {
       "australianDollar": "AUD",
