@@ -16777,6 +16777,7 @@
       "takePhoto": "Prendre une photo",
       "openGallery": "Ouvrir la galerie",
       "chooseVideo": "Choisissez la vidéo",
+      "chooseDocument": "Choisissez le document",
       "camerNotAvailable": "Caméra non disponible sur l'appareil",
       "permissionNotSatisfied": "Autorisation non satisfaite",
       "appCameraPermission": "Autorisation de la caméra de l'application",

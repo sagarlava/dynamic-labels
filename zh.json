@@ -16785,6 +16785,7 @@
       "takePhoto": "拍照",
       "openGallery": "打开图库",
       "chooseVideo": "选择视频",
+      "chooseDocument": "选择文档",
       "camerNotAvailable": "设备上不可用相机",
       "permissionNotSatisfied": "权限未满足",
       "appCameraPermission": "应用相机权限",

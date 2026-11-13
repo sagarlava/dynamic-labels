@@ -13200,6 +13200,7 @@
       "takePhoto": "Take Photo",
       "openGallery": "Open Gallery",
       "chooseVideo": "Choose Video",
+      "chooseDocument": "Choose Document",
       "camerNotAvailable": "Camera not available on device",
       "permissionNotSatisfied": "Permission not satisfied",
       "appCameraPermission": "App Camera Permission",
