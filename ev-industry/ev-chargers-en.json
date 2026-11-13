@@ -7558,6 +7558,20 @@
         "plural": "Location & Contracts",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Time & Travel",
+        "plural": "Time & Travel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9921,6 +9935,48 @@
         "plural": "Schedule Task Numbers",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Journey",
+        "plural": "Journeys",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Overall Time",
+        "plural": "Overall Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Total Check-In Duration",
+        "plural": "Total Check-In Duration",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Total Distance Travelled",
+        "plural": "Total Distance Travelled",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Travel Time",
+        "plural": "Travel Time",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10072,7 +10128,24 @@
       "willBeAssigned": "will be assigned to group members in a round-robin order (shared among team members in turn).",
       "toAllAdded": "to all added",
       "noJobsScheduledFor": "No jobs scheduled for",
-      "scheduledToViewHere": "schedule to view them here"
+      "scheduledToViewHere": "schedule to view them here",
+      "activityDesc": "Journeys come from the mobile app, read-only here.",
+      "at": "at",
+      "checkedIn": "Checked in",
+      "checkedOut": "Checked out",
+      "ended": "Ended",
+      "for": "for",
+      "hourShort": "h",
+      "minuteAbbr": "m",
+      "minuteShort": "min",
+      "onSite": "on site",
+      "overallTimeHint": "Travel + check-in duration",
+      "started": "Started",
+      "stillOnSite": "Still on site",
+      "stillOpen": "still open",
+      "timeTravelDesc": "Journeys are logged by the field app and shown here for context",
+      "travelled": "Travelled",
+      "travelling": "Travelling"
     }
   },
   "binTransfer": {
@@ -24880,6 +24953,20 @@
             "plural": "Profiles",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "plural": "Allow Check-in/Check-out?",
+            "setupEdit": false,
+            "setupVisible": false,
+            "singular": "Allow Check-in/Check-out?"
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "plural": "Enable Journey Tracking?",
+            "setupEdit": false,
+            "setupVisible": false,
+            "singular": "Enable Journey Tracking?"
           }
         },
         "messages": {
@@ -25062,7 +25149,23 @@
           "when": "When",
           "whenA": "when a",
           "whoCanViewThis": "Who can view this",
-          "within": "within"
+          "within": "within",
+          "allowCheckInCheckOutDesc": "Let order owners check in and out of jobs under this type",
+          "checkInCheckOutAllowed": "Check-in/Check-out allowed",
+          "checkInCheckOutDisabled": "Check-in/Check-out disabled",
+          "enableJourneyTrackingDesc": "Enable this to allow order owners to perform journeys",
+          "journeyTrackingAllowed": "Journey Tracking allowed",
+          "journeyTrackingDisabled": "Journey Tracking disabled",
+          "allowSmartAssignmentOf": "Allow smart assignment of",
+          "isCreatedAutoAssignedBestFit": "is created it will be automatically assigned to the technician which is best fit for the job based on set assignment rules",
+          "smartAssignmentAllowed": "Smart Assignment allowed",
+          "smartAssignmentDisabled": "Smart Assignment disabled",
+          "howShouldSmartAssignWorkDuring": "How should smart assign work during",
+          "creation": "creation",
+          "appliesOnlyDuringManual": "Applies only during manual",
+          "creationWhenAssignmentRule": "creation when an assignment rule",
+          "isConfiguredFor": "is configured for",
+          "ofThisType": "of this type."
         },
         "validationFE": {
           "maximum80Chars": "Maximum length of 80 characters exceeded",
@@ -28675,7 +28778,11 @@
       "SetupCustomerPortalTemplateJobOrderTypeMissing": "Job order type related to the template is not configured in the portal. Please add it to the job order types.",
       "setupJobOrderStatusNotFound": "Job Order Status not found",
       "SetupCustomerPortalConfigNotFound": "Customer portal configuration not found for this tenant",
-      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant"
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Sub-domain is already in use by another tenant",
+      "setupTmplJobOrderHasCustomerPortalConfiguration": "Customer Portal Configuration exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasJobOrderConfig": "Job Order Config exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasPMCycleItem": "PM Cycle Item exists in the system for the TmplJobOrder",
+      "setupTmplJobOrderHasSiteConfig": "Site Config exists in the system for the TmplJobOrder"
     },
     "labelBE": {
       "profileTableColumnSetup": {

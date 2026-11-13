@@ -7842,6 +7842,20 @@
         "plural": "இடங்கள் & ஒப்பந்தங்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "நேரம் & பயணம்",
+        "plural": "நேரம் & பயணம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "செயல்பாடு",
+        "plural": "செயல்பாடுகள்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10205,6 +10219,48 @@
         "plural": "அட்டவணை பணி எண்கள்",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "செக்-இன்",
+        "plural": "செக்-இன்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "பயணம்",
+        "plural": "பயணங்கள்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "மொத்த நேரம்",
+        "plural": "மொத்த நேரம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "மொத்த செக்-இன் காலம்",
+        "plural": "மொத்த செக்-இன் காலம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "மொத்த பயண தூரம்",
+        "plural": "மொத்த பயண தூரம்",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "பயண நேரம்",
+        "plural": "பயண நேரம்",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10356,7 +10412,24 @@
       "willBeAssigned": "குழு உறுப்பினர்களுக்கு ரவுண்ட்-ராபின் வரிசையில் ஒதுக்கப்படும் (அதையொட்டி குழு உறுப்பினர்களிடையே பகிரப்பட்டது).",
       "toAllAdded": "அனைத்து சேர்க்கப்பட்டது",
       "noJobsScheduledFor": "திட்டமிடப்பட்ட வேலைகள் இல்லை —",
-      "scheduledToViewHere": "இங்கே பார்க்க அட்டவணையிடவும்"
+      "scheduledToViewHere": "இங்கே பார்க்க அட்டவணையிடவும்",
+      "activityDesc": "பயணங்கள் மொபைல் ஆப்பிலிருந்து வரும்; இங்கே படிக்க மட்டும்.",
+      "at": "மணிக்கு",
+      "checkedIn": "செக்-இன் செய்யப்பட்டது",
+      "checkedOut": "செக்-அவுட் செய்யப்பட்டது",
+      "ended": "முடிந்தது",
+      "for": "காலம்",
+      "hourShort": "ம",
+      "minuteAbbr": "நி",
+      "minuteShort": "நிமி",
+      "onSite": "தளத்தில்",
+      "overallTimeHint": "பயணம் + செக்-இன் காலம்",
+      "started": "தொடங்கியது",
+      "stillOnSite": "இன்னும் தளத்தில்",
+      "stillOpen": "இன்னும் திறந்துள்ளது",
+      "timeTravelDesc": "பயணங்கள் கள ஆப்பால் பதிவு செய்யப்பட்டு இங்கே சூழலுக்காகக் காட்டப்படும்",
+      "travelled": "பயணித்தது",
+      "travelling": "பயணத்தில்"
     }
   },
   "inventory": {
@@ -26660,6 +26733,20 @@
             "plural": "சுயவிவரங்கள்",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "செக்-இன்/செக்-அவுட்டை அனுமதிக்கவா?",
+            "plural": "செக்-இன்/செக்-அவுட்டை அனுமதிக்கவா?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "பயணக் கண்காணிப்பை இயக்கவா?",
+            "plural": "பயணக் கண்காணிப்பை இயக்கவா?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26842,7 +26929,23 @@
           "when": "எப்போது",
           "whenA": "ஒரு",
           "whoCanViewThis": "யார் இதைப் பார்க்கலாம்",
-          "within": "உள்ளே"
+          "within": "உள்ளே",
+          "allowCheckInCheckOutDesc": "இந்த வகையின் கீழ் வேலைகளில் ஆர்டர் உரிமையாளர்கள் செக்-இன் மற்றும் செக்-அவுட் செய்ய அனுமதிக்கவும்",
+          "checkInCheckOutAllowed": "செக்-இன்/செக்-அவுட் அனுமதிக்கப்பட்டது",
+          "checkInCheckOutDisabled": "செக்-இன்/செக்-அவுட் முடக்கப்பட்டது",
+          "enableJourneyTrackingDesc": "ஆர்டர் உரிமையாளர்கள் பயணங்களைச் செய்ய அனுமதிக்க இதை இயக்கவும்",
+          "journeyTrackingAllowed": "பயணக் கண்காணிப்பு அனுமதிக்கப்பட்டது",
+          "journeyTrackingDisabled": "பயணக் கண்காணிப்பு முடக்கப்பட்டது",
+          "allowSmartAssignmentOf": "ஸ்மார்ட் ஒதுக்கீட்டை அனுமதி",
+          "isCreatedAutoAssignedBestFit": "உருவாக்கப்படும்போது, அமைக்கப்பட்ட ஒதுக்கீட்டு விதிகளின் அடிப்படையில் பணிக்கு மிகப் பொருத்தமான தொழில்நுட்ப வல்லுநருக்கு தானாக ஒதுக்கப்படும்",
+          "smartAssignmentAllowed": "ஸ்மார்ட் ஒதுக்கீடு அனுமதிக்கப்பட்டது",
+          "smartAssignmentDisabled": "ஸ்மார்ட் ஒதுக்கீடு முடக்கப்பட்டது",
+          "howShouldSmartAssignWorkDuring": "இதன் போது ஸ்மார்ட் ஒதுக்கீடு எவ்வாறு செயல்பட வேண்டும்",
+          "creation": "உருவாக்கம்",
+          "appliesOnlyDuringManual": "கைமுறை",
+          "creationWhenAssignmentRule": "உருவாக்கத்தின் போது மட்டும் பொருந்தும்; ஒதுக்கீட்டு விதி",
+          "isConfiguredFor": "இதற்கு உள்ளமைக்கப்பட்டிருக்கும் போது",
+          "ofThisType": "இந்த வகைக்கு."
         },
         "validationFE": {
           "maximum80Chars": "80 எழுத்துகளின் அதிகபட்ச நீளம் தாண்டியது",

@@ -7850,6 +7850,20 @@
         "plural": "位置 & 合同",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "时间与行程",
+        "plural": "时间与行程",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "活动",
+        "plural": "活动",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10213,6 +10227,48 @@
         "plural": "计划任务编号",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "签到",
+        "plural": "签到",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "行程",
+        "plural": "行程",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "总时长",
+        "plural": "总时长",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "签到总时长",
+        "plural": "签到总时长",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "总行驶距离",
+        "plural": "总行驶距离",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "行程时间",
+        "plural": "行程时间",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10364,7 +10420,24 @@
       "willBeAssigned": "将按轮询顺序分配给小组成员（依次在团队成员之间共享）。",
       "toAllAdded": "给所有已添加的",
       "noJobsScheduledFor": "没有已排程的工作，针对",
-      "scheduledToViewHere": "排程后即可在此查看"
+      "scheduledToViewHere": "排程后即可在此查看",
+      "activityDesc": "行程来自移动应用，此处为只读。",
+      "at": "于",
+      "checkedIn": "已签到",
+      "checkedOut": "已签退",
+      "ended": "已结束",
+      "for": "共",
+      "hourShort": "时",
+      "minuteAbbr": "分",
+      "minuteShort": "分钟",
+      "onSite": "在现场",
+      "overallTimeHint": "行程 + 签到时长",
+      "started": "已开始",
+      "stillOnSite": "仍在现场",
+      "stillOpen": "仍未结束",
+      "timeTravelDesc": "行程由现场应用记录，并在此处作为参考显示",
+      "travelled": "已行驶",
+      "travelling": "行驶中"
     }
   },
   "inventory": {
@@ -26668,6 +26741,20 @@
             "plural": "个人资料",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "允许签到/签退？",
+            "plural": "允许签到/签退？",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "启用行程跟踪？",
+            "plural": "启用行程跟踪？",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26850,7 +26937,23 @@
           "when": "当",
           "whenA": "当一个",
           "whoCanViewThis": "谁可以查看此",
-          "within": "在…之内"
+          "within": "在…之内",
+          "allowCheckInCheckOutDesc": "允许订单负责人对此类型的工作进行签到和签退",
+          "checkInCheckOutAllowed": "已允许签到/签退",
+          "checkInCheckOutDisabled": "已禁用签到/签退",
+          "enableJourneyTrackingDesc": "启用此项以允许订单负责人执行行程",
+          "journeyTrackingAllowed": "已允许行程跟踪",
+          "journeyTrackingDisabled": "已禁用行程跟踪",
+          "allowSmartAssignmentOf": "允许智能分配",
+          "isCreatedAutoAssignedBestFit": "创建时，将根据设定的分配规则自动分配给最适合该工作的技术人员",
+          "smartAssignmentAllowed": "已允许智能分配",
+          "smartAssignmentDisabled": "已禁用智能分配",
+          "howShouldSmartAssignWorkDuring": "智能分配在以下期间应如何工作",
+          "creation": "创建",
+          "appliesOnlyDuringManual": "仅适用于手动",
+          "creationWhenAssignmentRule": "创建，且当分配规则",
+          "isConfiguredFor": "已配置用于",
+          "ofThisType": "此类型。"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

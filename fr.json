@@ -7842,6 +7842,20 @@
         "plural": "Emplacements et contrats",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec59": {
+        "original": "Time & Travel",
+        "singular": "Temps et trajet",
+        "plural": "Temps et trajet",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec60": {
+        "original": "Activity",
+        "singular": "Activité",
+        "plural": "Activités",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10205,6 +10219,48 @@
         "plural": "Numéros de tâche planifiée",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "checkIn": {
+        "original": "Check-in",
+        "singular": "Check-in",
+        "plural": "Check-ins",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "journey": {
+        "original": "Journey",
+        "singular": "Trajet",
+        "plural": "Trajets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overallTime": {
+        "original": "Overall Time",
+        "singular": "Temps global",
+        "plural": "Temps global",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCheckInDuration": {
+        "original": "Total Check-In Duration",
+        "singular": "Durée totale de check-in",
+        "plural": "Durée totale de check-in",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDistanceTravelled": {
+        "original": "Total Distance Travelled",
+        "singular": "Distance totale parcourue",
+        "plural": "Distance totale parcourue",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "travelTime": {
+        "original": "Travel Time",
+        "singular": "Temps de trajet",
+        "plural": "Temps de trajet",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10356,7 +10412,24 @@
       "willBeAssigned": "seront attribués aux membres du groupe dans un ordre circulaire (partagés à tour de rôle entre les membres de l'équipe).",
       "toAllAdded": "à tous ajoutés",
       "noJobsScheduledFor": "Aucun travail planifié pour",
-      "scheduledToViewHere": "planifiez pour les voir ici"
+      "scheduledToViewHere": "planifiez pour les voir ici",
+      "activityDesc": "Les trajets proviennent de l’application mobile ; ici en lecture seule.",
+      "at": "à",
+      "checkedIn": "Check-in effectué",
+      "checkedOut": "Check-out effectué",
+      "ended": "Terminé",
+      "for": "pendant",
+      "hourShort": "h",
+      "minuteAbbr": "m",
+      "minuteShort": "min",
+      "onSite": "sur site",
+      "overallTimeHint": "Trajet + durée de check-in",
+      "started": "Démarré",
+      "stillOnSite": "Toujours sur site",
+      "stillOpen": "encore ouvert",
+      "timeTravelDesc": "Les trajets sont enregistrés par l’application terrain et affichés ici pour contexte",
+      "travelled": "Parcouru",
+      "travelling": "En trajet"
     }
   },
   "inventory": {
@@ -26660,6 +26733,20 @@
             "plural": "Profils",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "allowCheckInCheckOut": {
+            "original": "Allow Check-in/Check-out?",
+            "singular": "Autoriser le check-in/check-out ?",
+            "plural": "Autoriser le check-in/check-out ?",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enableJourneyTracking": {
+            "original": "Enable Journey Tracking?",
+            "singular": "Activer le suivi de trajet ?",
+            "plural": "Activer le suivi de trajet ?",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -26842,7 +26929,23 @@
           "when": "Lorsque",
           "whenA": "lorsqu’un",
           "whoCanViewThis": "Qui peut voir ce",
-          "within": "dans un délai de"
+          "within": "dans un délai de",
+          "allowCheckInCheckOutDesc": "Permettez aux propriétaires de l’ordre d’effectuer le check-in et le check-out sur les travaux de ce type",
+          "checkInCheckOutAllowed": "Check-in/Check-out autorisé",
+          "checkInCheckOutDisabled": "Check-in/Check-out désactivé",
+          "enableJourneyTrackingDesc": "Activez ceci pour permettre aux propriétaires de l’ordre d’effectuer des trajets",
+          "journeyTrackingAllowed": "Suivi de trajet autorisé",
+          "journeyTrackingDisabled": "Suivi de trajet désactivé",
+          "allowSmartAssignmentOf": "Autoriser l'affectation intelligente de",
+          "isCreatedAutoAssignedBestFit": "est créé, il sera automatiquement affecté au technicien le mieux adapté au travail selon les règles d'affectation définies",
+          "smartAssignmentAllowed": "Affectation intelligente autorisée",
+          "smartAssignmentDisabled": "Affectation intelligente désactivée",
+          "howShouldSmartAssignWorkDuring": "Comment l'affectation intelligente doit-elle fonctionner pendant",
+          "creation": "création",
+          "appliesOnlyDuringManual": "S'applique uniquement lors de la",
+          "creationWhenAssignmentRule": "création lorsqu'une règle d'affectation",
+          "isConfiguredFor": "est configurée pour",
+          "ofThisType": "de ce type."
         },
         "validationFE": {
           "maximum80Chars": "Longueur maximale de 80 caractères dépassée",
